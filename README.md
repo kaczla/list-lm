@@ -4,73 +4,323 @@ This repository contains language models base on Transformer architecture.
 
 # Model lists
 
-| Year of publication | Name                           | Links (🗎 - PAPER, ⚙ - CODE, 🎞 - Video)                                                                                                                                         |
-|---------------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2017                | Transformer                    | [🗎](https://arxiv.org/abs/1706.03762)                                                                                                                                           |
-| 2017                | MoE                            | [🗎](https://arxiv.org/abs/1701.06538)                                                                                                                                           |
-| 2018                | GPT                            | [🗎](https://openai.com/blog/language-unsupervised/)                                                                                                                             |
-| 2018                | BERT                           | [🗎](https://arxiv.org/abs/1810.04805)                                                                                                                                           |
-| 2018                | flair                          | [🗎](https://aclanthology.org/C18-1139/) [⚙](https://github.com/flairNLP/flair)                                                                                                  |
-| 2018                | RR-Transformer                 | [🗎](https://arxiv.org/abs/1803.02155)                                                                                                                                           |
-| 2019                | LightConv/DynamicConv          | [🗎](https://arxiv.org/abs/1901.10430) [⚙](https://github.com/pytorch/fairseq/tree/master/examples/pay_less_attention_paper)                                                     |
-| 2019                | GPT-2                          | [🗎](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) [⚙](https://github.com/openai/gpt-2)                                 |
-| 2019                | Transformer-XL                 | [🗎](https://arxiv.org/abs/1901.02860) [⚙](https://github.com/kimiyoung/transformer-xl)                                                                                          |
-| 2019                | Evolved Transformer            | [🗎](https://arxiv.org/abs/1901.11117)                                                                                                                                           |
-| 2019                | XLNet                          | [🗎](https://arxiv.org/abs/1906.08237)                                                                                                                                           |
-| 2019                | RoBERTa                        | [🗎](https://arxiv.org/abs/1907.11692) [⚙](https://github.com/pytorch/fairseq/tree/master/examples/roberta)                                                                      |
-| 2019                | ALBERT                         | [🗎](https://arxiv.org/abs/1909.11942) [⚙](https://github.com/google-research/ALBERT)                                                                                            |
-| 2019                | CTRL                           | [🗎](https://arxiv.org/abs/1909.05858) [⚙](https://github.com/salesforce/ctrl)                                                                                                   |
-| 2019                | StructBERT                     | [🗎](https://arxiv.org/abs/1908.04577)                                                                                                                                           |                                                                                                                                          |
-| 2019                | Adaptive Span                  | [🗎](https://arxiv.org/abs/1905.07799) [⚙](https://github.com/facebookresearch/adaptive-span)                                                                                    |
-| 2019                | All-attention network          | [🗎](https://arxiv.org/abs/1907.01470)                                                                                                                                           |
-| 2019                | Sparse Transformer             | [🗎](https://arxiv.org/abs/1904.10509)                                                                                                                                           |
-| 2019                | Adaptively Sparse Transformers | [🗎](https://arxiv.org/abs/1909.00015)                                                                                                                                           |
-| 2019                | Megatron-LM                    | [🗎](https://arxiv.org/abs/1909.08053) [⚙](https://github.com/NVIDIA/Megatron-LM)                                                                                                |
-| 2019                | kNN-LM                         | [🗎](https://arxiv.org/abs/1911.00172) [⚙](https://github.com/urvashik/knnlm)                                                                                                    |
-| 2019                | TENER                          | [🗎](https://arxiv.org/abs/1911.04474)                                                                                                                                           |
-| 2020                | MobileBERT                     | [🗎](https://arxiv.org/abs/2004.02984) [⚙](https://github.com/google-research/google-research/tree/master/mobilebert)                                                            |
-| 2020                | Poor Man's BERT                | [🗎](https://arxiv.org/abs/2004.03844) [⚙](https://github.com/hsajjad/transformers)                                                                                              |
-| 2020                | Longformer                     | [🗎](https://arxiv.org/abs/2004.05150) [⚙](https://github.com/allenai/longformer)                                                                                                |
-| 2020                | Linformer                      | [🗎](https://arxiv.org/abs/2006.04768) [⚙](https://github.com/Kyan820815/Linformer)                                                                                              |
-| 2020                | Routing Transformer            | [🗎](https://arxiv.org/abs/2003.05997) [⚙](https://github.com/google-research/google-research/tree/master/routing_transformer)                                                   |
-| 2020                | Sandwich Transformers          | [🗎](https://arxiv.org/abs/1911.03864) [⚙](https://github.com/ofirpress/sandwich_transformer) [🎞](https://www.youtube.com/watch?v=rFuuGEj3AhU)                                  |
-| 2020                | MPNet                          | [🗎](https://arxiv.org/abs/2004.09297) [⚙](https://github.com/microsoft/MPNet)                                                                                                   |
-| 2020                | DeeBERT                        | [🗎](https://arxiv.org/abs/2004.12993) [⚙](https://github.com/castorini/DeeBERT)                                                                                                 |
-| 2020                | BiT (Big Transfer)             | [🗎](https://arxiv.org/abs/1912.11370)                                                                                                                                           |
-| 2020                | Adaptive Transformers          | [🗎](https://arxiv.org/abs/2005.07486) [⚙](https://github.com/prajjwal1/adaptive_transformer)                                                                                    |
-| 2020                | Synthesizer                    | [🗎](https://arxiv.org/abs/2005.00743) [⚙](https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models) / [⚙](https://github.com/10-zin/Synthesizer) |
-| 2020                | BRC                            | [🗎](https://arxiv.org/abs/2006.05252) [⚙](https://github.com/nvecoven/BRC) / [⚙](https://github.com/742617000027/nBRC)                                                          |
-| 2020                | Feedback Transformer           | [🗎](https://arxiv.org/abs/2002.09402)                                                                                                                                           |
-| 2020                | Shortformer                    | [🗎](https://arxiv.org/abs/2012.15832) [⚙](https://github.com/ofirpress/shortformer)                                                                                             |
-| 2020                | Floater                        | [🗎](https://arxiv.org/abs/2003.09229) [⚙](https://github.com/xuanqing94/FLOATER)                                                                                                |
-| 2020                | Informer                       | [🗎](https://arxiv.org/abs/2012.07436)                                                                                                                                           |
-| 2020                | TUPE                           | [🗎](https://arxiv.org/abs/2006.15595) [⚙](https://github.com/guolinke/TUPE)                                                                                                     |
-| 2020                | Key-Value Memory Feed-Forward  | [🗎](https://arxiv.org/abs/2012.14913)                                                                                                                                           |
-| 2022                | DA-Transformer                 | [🗎](https://arxiv.org/abs/2010.06925)                                                                                                                                           |
-| 2021                | MiniLM                         | [🗎](https://arxiv.org/abs/2002.10957)                                                                                                                                           |
-| 2021                | MiniLM v2                      | [🗎](https://arxiv.org/abs/2012.15828)                                                                                                                                           |
-| 2021                | GLM                            | [🗎](https://arxiv.org/abs/2103.10360) [⚙](https://github.com/THUDM/GLM)                                                                                                         |
-| 2021                | ByT5                           | [🗎](https://arxiv.org/abs/2105.13626) [⚙](https://github.com/google-research/byt5)                                                                                              |
-| 2021                | Luna                           | [🗎](https://arxiv.org/abs/2106.01540) [⚙](https://github.com/XuezheMax/fairseq-apollo)                                                                                          |
-| 2021                | UniT                           | [🗎](https://arxiv.org/abs/2102.10772) [⚙](https://github.com/facebookresearch/mmf)                                                                                              |
-| 2021                | Charformer                     | [🗎](https://arxiv.org/abs/2106.12672) [⚙](https://github.com/google-research/google-research/tree/master/charformer)                                                            |
-| 2021                | Primer                         | [🗎](https://arxiv.org/abs/2109.08668) [⚙](https://github.com/google-research/google-research/tree/master/primer)                                                                |
-| 2021                | FNet                           | [🗎](https://arxiv.org/abs/2105.03824) [⚙](https://github.com/google-research/google-research/tree/master/f_net) [🎞](https://www.youtube.com/watch?v=JJR3pBl78zw)               |
-| 2021                | Megatron-LM v2                 | [🗎](https://arxiv.org/abs/2104.04473) [⚙](https://github.com/NVIDIA/Megatron-LM)                                                                                                |
-| 2021                | Switch Transformer             | [🗎](https://arxiv.org/abs/2101.03961) [⚙](https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py)                                                    |
-| 2021                | PanGu                          | [🗎](https://arxiv.org/abs/2104.12369)                                                                                                                                           |
-| 2021                | T0                             | [🗎](https://arxiv.org/abs/2110.08207) [⚙](https://github.com/bigscience-workshop/t-zero) [🤗](https://huggingface.co/bigscience/T0)                                             |
-| 2022                | Gopher                         | [🗎](https://arxiv.org/abs/2112.11446)                                                                                                                                           |
-| 2022                | Megatron-Turing NLG            | [🗎](https://arxiv.org/abs/2201.11990)                                                                                                                                           |
-| 2022                | Chinchilla                     | [🗎](https://arxiv.org/abs/2203.15556)                                                                                                                                           |
-| 2022                | OPT                            | [🗎](https://arxiv.org/abs/2205.01068) [⚙](https://github.com/facebookresearch/metaseq)                                                                                          |
-| 2022                | RWKV-LM                        | [⚙](https://github.com/BlinkDL/RWKV-LM) [🤗](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)                                                                                      |
-| 2022                | UL2                            | [🗎](https://arxiv.org/abs/2205.05131) [⚙](https://github.com/google-research/google-research/tree/master/ul2)                                                                   |
-| 2022                | FlanT5                         | [⚙](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints) [🗎](https://arxiv.org/abs/2210.11416) [🤗](https://huggingface.co/google/flan-t5-base) |
+- Transformer
+  - Year: 2017
+  - Publication: [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+  - Code: -
+  - Model weights: -
+
+- MoE
+  - Year: 2017
+  - Publication: [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
+
+- GPT
+  - Year: 2018
+  - Publication: [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+  - Blog post: [Improving Language Understanding with Unsupervised Learning](https://openai.com/blog/language-unsupervised)
+
+- BERT
+  - Year: 2018
+  - Publication: [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+
+- flair
+  - Year: 2018
+  - Publication: [Contextual String Embeddings for Sequence Labeling](https://aclanthology.org/C18-1139)
+  - Code: [GitHub](https://github.com/flairNLP/flair)
+
+- RR-Transformer
+  - Year: 2018
+  - Publication: [Self-Attention with Relative Position Representations](https://arxiv.org/abs/1803.02155)
+
+- LightConv/DynamicConv
+  - Year: 2019
+  - Publication: [Pay Less Attention with Lightweight and Dynamic Convolutions](https://arxiv.org/abs/1901.10430)
+  - Code: [GitHub](https://github.com/pytorch/fairseq/tree/master/examples/pay_less_attention_paper)
+
+- GPT-2
+  - Year: 2019
+  - Publication: [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+  - Code: [GitHub](https://github.com/openai/gpt-2)
+
+- Transformer-XL
+  - Year: 2019
+  - Publication: [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860)
+  - Code: [GitHub](https://github.com/kimiyoung/transformer-xl)
+
+- Evolved Transformer
+  - Year: 2019
+  - Publication: [The Evolved Transformer](https://arxiv.org/abs/1901.11117)
+
+- XLNet
+  - Year: 2019
+  - Publication: [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237)
+
+- RoBERTa
+  - Year: 2019
+  - Publication: [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
+  - Code: [GitHub](https://github.com/pytorch/fairseq/tree/master/examples/roberta)
+
+- ALBERT
+  - Year: 2019
+  - Publication: [ALBERT: A Lite BERT for Self-supervised Learning of Language Representations](https://arxiv.org/abs/1909.11942)
+  - Code: [GitHub](https://github.com/google-research/ALBERT)
+
+- CTRL
+  - Year: 2019
+  - Publication: [CTRL: A Conditional Transformer Language Model for Controllable Generation](https://arxiv.org/abs/1909.05858)
+  - Code: [GitHub](https://github.com/salesforce/ctrl)
+
+- StructBERT
+  - Year: 2019
+  - Publication: [StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding](https://arxiv.org/abs/1908.04577)
+
+- Adaptive Span
+  - Year: 2019
+  - Publication: [Adaptive Attention Span in Transformers](https://arxiv.org/abs/1905.07799)
+  - Code: [GitHub](https://github.com/facebookresearch/adaptive-span)
+
+- All-attention network
+  - Year: 2019
+  - Publication: [Augmenting Self-attention with Persistent Memory](https://arxiv.org/abs/1907.01470)
+
+- Sparse Transformer
+  - Year: 2019
+  - Publication: [Generating Long Sequences with Sparse Transformers](https://arxiv.org/abs/1904.10509)
+
+- Adaptively Sparse Transformers
+  - Year: 2019
+  - Publication: [Adaptively Sparse Transformers](https://arxiv.org/abs/1909.00015)
+
+- Megatron-LM
+  - Year: 2019
+  - Publication: [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053)
+  - Code: [GitHub](https://github.com/NVIDIA/Megatron-LM)
+
+- kNN-LM
+  - Year: 2019
+  - Publication: [Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172)
+  - Code: [GitHub](https://github.com/urvashik/knnlm)
+
+- TENER
+  - Year: 2019
+  - Publication: [TENER: Adapting Transformer Encoder for Named Entity Recognition](https://arxiv.org/abs/1911.04474)
+
+- MobileBERT
+  - Year: 2020
+  - Publication: [MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices](https://arxiv.org/abs/2004.02984)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/mobilebert)
+
+- Poor Man's BERT
+  - Year: 2020
+  - Publication: [On the Effect of Dropping Layers of Pre-trained Transformer Models](https://arxiv.org/abs/2004.03844)
+  - Code: [GitHub](https://github.com/hsajjad/transformers)
+
+- Longformer
+  - Year: 2020
+  - Publication: [Longformer: The Long-Document Transformer](https://arxiv.org/abs/2004.05150)
+  - Code: [GitHub](https://github.com/allenai/longformer)
+
+- Linformer
+  - Year: 2020
+  - Publication: [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
+  - Code: [GitHub](https://github.com/Kyan820815/Linformer)
+
+- Routing Transformer
+  - Year: 2020
+  - Publication: [Efficient Content-Based Sparse Attention with Routing Transformers](https://arxiv.org/abs/2003.05997)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/routing_transformer)
+
+- Sandwich Transformers
+  - Year: 2020
+  - Publication: [https://arxiv.org/abs/1911.03864](https://arxiv.org/abs/1911.03864)
+  - Code: [GitHub](https://github.com/ofirpress/sandwich_transformer)
+  - Video: [YouTube](https://www.youtube.com/watch?v=rFuuGEj3AhU)
+
+- MPNet
+  - Year: 2020
+  - Publication: [MPNet: Masked and Permuted Pre-training for Language Understanding](https://arxiv.org/abs/2004.09297)
+  - Code: [GitHub](https://github.com/microsoft/MPNet)
+
+- DeeBERT
+  - Year: 2020
+  - Publication: [DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference](https://arxiv.org/abs/2004.12993)
+  - Code: [GitHub](https://github.com/castorini/DeeBERT)
+
+- BiT (Big Transfer)
+  - Year: 2020
+  - Publication: [Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370)
+
+- Adaptive Transformers
+  - Year: 2020
+  - Publication: [Adaptive Transformers for Learning Multimodal Representations](https://arxiv.org/abs/2005.07486)
+  - Code: [GitHub](https://github.com/prajjwal1/adaptive_transformer)
+
+- Synthesizer
+  - Year: 2020
+  - Publication: [Synthesizer: Rethinking Self-Attention in Transformer Models](https://arxiv.org/abs/2005.00743)
+  - Code: [GitHub](https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models) / [GitHub](https://github.com/10-zin/Synthesizer)
+
+- BRC
+  - Year: 2020
+  - Publication: [A bio-inspired bistable recurrent cell allows for long-lasting memory](https://arxiv.org/abs/2006.05252)
+  - Code: [GitHub](https://github.com/nvecoven/BRC) / [GitHub](https://github.com/742617000027/nBRC)
+
+- Feedback Transformer
+  - Year: 2020
+  - Publication: [Addressing Some Limitations of Transformers with Feedback Memory](https://arxiv.org/abs/2002.09402)
+
+- Shortformer
+  - Year: 2020
+  - Publication: [Shortformer: Better Language Modeling using Shorter Inputs](https://arxiv.org/abs/2012.15832)
+  - Code: [GitHub](https://github.com/ofirpress/shortformer)
+
+- Floater
+  - Year: 2020
+  - Publication: [Learning to Encode Position for Transformer with Continuous Dynamical Model](https://arxiv.org/abs/2003.09229)
+  - Code: [GitHub](https://github.com/xuanqing94/FLOATER)
+
+- Informer
+  - Year: 2020
+  - Publication: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436)
+
+- TUPE
+  - Year: 2020
+  - Publication: [Rethinking Positional Encoding in Language Pre-training](https://arxiv.org/abs/2006.15595)
+  - Code: [GitHub](https://github.com/guolinke/TUPE)
+
+- Key-Value Memory Feed-Forward
+  - Year: 2020
+  - Publication: [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
+
+- DA-Transformer
+  - Year: 2020
+  - Publication: [DA-Transformer: Distance-aware Transformer](https://arxiv.org/abs/2010.06925)
+
+- MiniLM
+  - Year: 2021
+  - Publication: [MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers](https://arxiv.org/abs/2002.10957)
+
+- MiniLM v2
+  - Year: 2021
+  - Publication: [MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers](https://arxiv.org/abs/2012.15828)
+
+- GLM
+  - Year: 2021
+  - Publication: [GLM: General Language Model Pretraining with Autoregressive Blank Infilling](https://arxiv.org/abs/2103.10360)
+  - Code: [GitHub](https://github.com/THUDM/GLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/BAAI/glm-10b)
+
+- ByT5
+  - Year: 2021
+  - Publication: [ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626)
+  - Code: [GitHub](https://github.com/google-research/byt5)
+
+- Luna
+  - Year: 2021
+  - Publication: [Luna: Linear Unified Nested Attention](https://arxiv.org/abs/2106.01540)
+  - Code: [GitHub](https://github.com/XuezheMax/fairseq-apollo)
+
+- UniT
+  - Year: 2021
+  - Publication: [UniT: Multimodal Multitask Learning with a Unified Transformer](https://arxiv.org/abs/2102.10772)
+  - Code: [GitHub](https://github.com/facebookresearch/mmf)
+
+- Charformer
+  - Year: 2021
+  - Publication: [Charformer: Fast Character Transformers via Gradient-based Subword Tokenization](https://arxiv.org/abs/2106.12672)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/charformer)
+
+- Primer
+  - Year: 2021
+  - Publication: [Primer: Searching for Efficient Transformers for Language Modeling](https://arxiv.org/abs/2109.08668)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/primer)
+
+- FNet
+  - Year: 2021
+  - Publication: [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/f_net)
+  - Video: [YouTube](https://www.youtube.com/watch?v=JJR3pBl78zw)
+
+- Megatron-LM v2
+  - Year: 2021
+  - Publication: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473)
+  - Code: [GitHub](https://github.com/NVIDIA/Megatron-LM)
+
+- Switch Transformer
+  - Year: 2021
+  - Publication: [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/abs/2101.03961)
+  - Code: [GitHub](https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py)
+
+- PanGu
+  - Year: 2021
+  - Publication: [PanGu: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation](https://arxiv.org/abs/2104.12369)
+
+- T0
+  - Year: 2021
+  - Publication: [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/abs/2110.08207)
+  - Code: [GitHub](https://github.com/bigscience-workshop/t-zero)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigscience/T0)
+
+- XGLM
+  - Year: 2021
+  - Publication: [Few-shot Learning with Multilingual Language Models](https://arxiv.org/abs/2112.10668)
+  - Code: [GitHub](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/xglm-7.5B)
+
+- BLOOM
+  - Year: 2022
+  - Publication: [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigscience/bloom)
+
+- BLOOMZ & mT0
+  - Year: 2022
+  - Publication: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigscience/bloomz)
+
+- Gopher
+  - Year: 2022
+  - Publication: [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446)
+
+- Megatron-Turing NLG
+  - Year: 2022
+  - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990)
+
+- Chinchilla
+  - Year: 2022
+  - Publication: [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556)
+
+- OPT
+  - Year: 2022
+  - Publication: [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068)
+  - Code: [GitHub](https://github.com/facebookresearch/metaseq)
+
+- RWKV-LM
+  - Year: 2022
+  - Publication: -
+  - Code: [GitHub](https://github.com/BlinkDL/RWKV-LM)
+  - Model weights: [HuggingFace models](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
+
+- UL2
+  - Year: 2022
+  - Publication: [UL2: Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/ul2)
+
+- FlanT5
+  - Year: 2022
+  - Publication: [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
+  - Code: [GitHub](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/flan-t5-base)
+
+- Galactica
+  - Year: 2022
+  - Publication: [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)
+  - Code: [GitHub](https://github.com/paperswithcode/galai/blob/main/docs/model_card.md)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/galactica-6.7b)
 
 # Model links
 
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era
+- [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable.
@@ -116,6 +366,7 @@ This repository contains language models base on Transformer architecture.
 - [SparseML](https://github.com/neuralmagic/sparseml) - Libraries for applying sparsification recipes to neural networks with a few lines of code, enabling faster and smaller models.
 - [surgeon-pytorch](https://github.com/archinetai/surgeon-pytorch) - A library to inspect and extract intermediate layers of PyTorch models.
 - [tbparse](https://github.com/j3soon/tbparse) - A simple yet powerful tensorboard event log parser/reader.
+- [TextBox](https://github.com/RUCAIBox/TextBox) - TextBox 2.0 is a text generation library with pre-trained language models.
 - [tinygrad](https://github.com/geohot/tinygrad) - tinygrad is an extremely simple deep-learning framework. It supports both inference and training.
 - [TorchBench](https://github.com/pytorch/benchmark) - TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.
 - [torchdistX](https://github.com/pytorch/torchdistx) - Torch Distributed Experimental
@@ -151,9 +402,12 @@ This repository contains language models base on Transformer architecture.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
 - [OSCAR (Open Super-large Crawled ALMAnaCH coRpus)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
+- [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
+- [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
 
 # Documentation links
 
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
-- [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architectures from the code.
+- [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architecture from the code.
+- [Transformers from Scratch](https://e2eml.school/transformers.html) - Explanation of Transformer architecture.
