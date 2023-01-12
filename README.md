@@ -317,12 +317,19 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/paperswithcode/galai/blob/main/docs/model_card.md)
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/galactica-6.7b)
 
+- NPM
+  - Year: 2022
+  - Publication: [Nonparametric Masked Language Modeling](https://arxiv.org/abs/2212.01349)
+  - Code: [GitHub](https://github.com/facebookresearch/NPM)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/npm)
+
 # Model links
 
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
+- [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable.
 - [LASSL](https://github.com/lassl/lassl) - LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
@@ -361,6 +368,7 @@ This repository contains language models base on Transformer architecture.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
 - [Merlin Dataloader](https://github.com/NVIDIA-Merlin/dataloader) - The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX
 - [mup](https://github.com/microsoft/mup) - Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer
+- [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
 - [Opacus](https://github.com/pytorch/opacus) - Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.
 - [skorch](https://github.com/skorch-dev/skorch) - A scikit-learn compatible neural network library that wraps PyTorch.
 - [SparseML](https://github.com/neuralmagic/sparseml) - Libraries for applying sparsification recipes to neural networks with a few lines of code, enabling faster and smaller models.
