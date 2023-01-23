@@ -255,6 +255,11 @@ This repository contains language models base on Transformer architecture.
   - Year: 2021
   - Publication: [PanGu: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation](https://arxiv.org/abs/2104.12369)
 
+- Academic Budget BERT
+  - Year: 2021
+  - Publication: [How to Train BERT with an Academic Budget](https://arxiv.org/abs/2104.07705)
+  - Code: [GitHub](https://github.com/IntelLabs/academic-budget-bert)
+
 - T0
   - Year: 2021
   - Publication: [Multitask Prompted Training Enables Zero-Shot Task Generalization](https://arxiv.org/abs/2110.08207)
@@ -323,6 +328,11 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/facebookresearch/NPM)
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/npm)
 
+- Cramming
+  - Year: 2022
+  - Publication: [Cramming: Training a Language Model on a Single GPU in One Day](https://arxiv.org/abs/2212.14034)
+  - Code: [GitHub](https://github.com/JonasGeiping/cramming)
+
 # Model links
 
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era
@@ -337,7 +347,9 @@ This repository contains language models base on Transformer architecture.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [multimodal](https://github.com/facebookresearch/multimodal) - TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+- [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.
 - [NVIDIA Merlin](https://github.com/NVIDIA-Merlin/Merlin) - NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.
+- [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
 - [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification
@@ -357,10 +369,13 @@ This repository contains language models base on Transformer architecture.
 - [bagua](https://github.com/BaguaSys/bagua) - Bagua is a deep learning training acceleration framework for PyTorch
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
+- [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
 - [cyclemoid-pytorch](https://github.com/rasbt/cyclemoid-pytorch) - This is an implementation of the cyclemoid activation function for PyTorch.
+- [datasketch](https://github.com/ekzhu/datasketch) - datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) - Inference runtime offering GPU-class performance on CPUs and APIs to integrate ML into your application.
 - [Explainpaper](https://www.explainpaper.com) - Upload a paper, highlight confusing text, get an explanation.
 - [FastDeploy](https://github.com/PaddlePaddle/FastDeploy) - Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
+- [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
 - [langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
@@ -379,6 +394,7 @@ This repository contains language models base on Transformer architecture.
 - [TorchBench](https://github.com/pytorch/benchmark) - TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.
 - [torchdistX](https://github.com/pytorch/torchdistx) - Torch Distributed Experimental
 - [torchegranate](https://github.com/jmschrei/torchegranate) - Fast, flexible and easy to use probabilistic modelling with PyTorch.
+- [Training BERT with Compute/Time (Academic) Budget](https://github.com/IntelLabs/academic-budget-bert) - Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.
 - [WeightWatcher](https://github.com/CalculatedContent/WeightWatcher) - WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.
 
 # GPU profiling links
