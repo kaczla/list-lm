@@ -255,7 +255,7 @@ This repository contains language models base on Transformer architecture.
   - Year: 2021
   - Publication: [PanGu: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation](https://arxiv.org/abs/2104.12369)
 
-- Academic Budget BERT
+- 24hBERT - Academic Budget BERT
   - Year: 2021
   - Publication: [How to Train BERT with an Academic Budget](https://arxiv.org/abs/2104.07705)
   - Code: [GitHub](https://github.com/IntelLabs/academic-budget-bert)
@@ -333,6 +333,12 @@ This repository contains language models base on Transformer architecture.
   - Publication: [Cramming: Training a Language Model on a Single GPU in One Day](https://arxiv.org/abs/2212.14034)
   - Code: [GitHub](https://github.com/JonasGeiping/cramming)
 
+- GLM-130B
+  - Year: 2022
+  - Publication: [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414)
+  - Code: [GitHub](https://github.com/THUDM/GLM-130B)
+  - Model weights: [HuggingFace models](https://huggingface.co/spaces/THUDM/GLM-130B)
+
 # Model links
 
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era
@@ -367,6 +373,8 @@ This repository contains language models base on Transformer architecture.
 # Utils links
 
 - [bagua](https://github.com/BaguaSys/bagua) - Bagua is a deep learning training acceleration framework for PyTorch
+- [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+- [TextReducer](https://github.com/helliun/targetedSummarization) - TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
 - [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
@@ -429,9 +437,11 @@ This repository contains language models base on Transformer architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
+- [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
 
 # Documentation links
 
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
 - [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architecture from the code.
 - [Transformers from Scratch](https://e2eml.school/transformers.html) - Explanation of Transformer architecture.
+- [Transformer models: an introduction and catalog - 2023 Edition ](https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376/) - An introduction and catalog of Transformer models.
