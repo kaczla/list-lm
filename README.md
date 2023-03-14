@@ -316,6 +316,11 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)
   - Model weights: [HuggingFace models](https://huggingface.co/google/flan-t5-base)
 
+- FlashAttention
+  - Year: 2022
+  - Publication: [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/abs/2205.14135)
+  - Code: [GitHub](https://github.com/HazyResearch/flash-attention)
+
 - Galactica
   - Year: 2022
   - Publication: [Galactica: A Large Language Model for Science](https://arxiv.org/abs/2211.09085)
@@ -343,15 +348,59 @@ This repository contains language models base on Transformer architecture.
   - Year: 2023
   - Publication: [Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation](https://arxiv.org/abs/2302.10322)
 
+- Hyena
+  - Year: 2023
+  - Publication: [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://arxiv.org/abs/2302.10866)
+  - Code: [GitHub](https://github.com/HazyResearch/safari)
+
+- SpikeGPT
+  - Year: 2023
+  - Publication: [SpikeGPT: Generative Pre-trained Language Model with Spiking Neural Networks](https://arxiv.org/abs/2302.13939)
+  - Code: [GitHub](https://github.com/ridgerchu/SpikeGPT)
+
 - LLama
   - Year: 2023
-  - Publication: [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)
+  - Publication: [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
+  - Code: [GitHub](https://github.com/facebookresearch/llama)
+
+- KOSMOS-1
+  - Year: 2023
+  - Publication: [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045)
+
+- ParaFormer
+  - Year: 2023
+  - Publication: [ParaFormer: Parallel Attention Transformer for Efficient Feature Matching](https://arxiv.org/abs/2303.00941)
+
+- PaLM-E
+  - Year: 2023
+  - Publication: [PaLM-E: An Embodied Multimodal Language Model](https://arxiv.org/abs/2303.03378)
+
+- Alpaca
+  - Year: 2023
+  - Publication: [Alpaca: A Strong Open-Source Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+  - Code: [GitHub](https://github.com/tatsu-lab/stanford_alpaca)
+
+- TWM
+  - Year: 2023
+  - Publication: [Transformer-based World Models Are Happy With 100k Interactions](https://arxiv.org/abs/2303.07109)
+  - Code: [GitHub](https://github.com/jrobine/twm)
+
+- MosaicBERT
+  - Year: 2023
+  - Publication: [MosaicBERT: Pretraining BERT from Scratch for $20](https://www.mosaicml.com/blog/mosaicbert)
+  - Code: [GitHub](https://github.com/mosaicml/examples)
+  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mosaic-bert-base)
+
+- GPT-4
+  - Year: 2023
+  - Publication: [GPT-4 Technical Report](https://cdn.openai.com/papers/gpt-4.pdf)
 
 # Model links
 
-- [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era
+- [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
+- [FairScale](https://github.com/facebookresearch/fairscale) - FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.
@@ -366,17 +415,19 @@ This repository contains language models base on Transformer architecture.
 - [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
-- [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification
+- [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification.
 - [Sockeye](https://github.com/awslabs/sockeye) - Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.
 - [SparseZoo](https://github.com/neuralmagic/sparsezoo) - Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.
+- [SpikeGPT](https://github.com/ridgerchu/SpikeGPT) - SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.
 - [tasknet](https://github.com/sileod/tasknet) - Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
 - [transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
 - [txtai](https://github.com/neuml/txtai) - txtai executes machine-learning workflows to transform data and build AI-powered semantic search applications.
+- [unilm](https://github.com/microsoft/unilm) - Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
 - [voltaML](https://github.com/VoltaML/voltaML) - VoltaML is a lightweight library to convert and run your ML/DL deep learning models in high performance inference runtimes like TensorRT, TorchScript, ONNX and TVM.
-- [x-transformers](https://github.com/lucidrains/x-transformers) - A simple but complete full-attention transformer with a set of promising experimental features from various papers
-- [xFormers](https://github.com/facebookresearch/xformers) - xFormers is a modular and field agnostic library to flexibly generate transformer architectures by interoperable and optimized building blocks
+- [x-transformers](https://github.com/lucidrains/x-transformers) - A simple but complete full-attention transformer with a set of promising experimental features from various papers.
+- [xFormers](https://github.com/facebookresearch/xformers) - xFormers is a modular and field agnostic library to flexibly generate transformer architectures by interoperable and optimized building blocks.
 
 # Utils links
 
@@ -384,26 +435,38 @@ This repository contains language models base on Transformer architecture.
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
 - [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
+- [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
 - [cyclemoid-pytorch](https://github.com/rasbt/cyclemoid-pytorch) - This is an implementation of the cyclemoid activation function for PyTorch.
 - [datasketch](https://github.com/ekzhu/datasketch) - datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) - Inference runtime offering GPU-class performance on CPUs and APIs to integrate ML into your application.
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
+- [DGL](https://github.com/dmlc/dgl) - DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
 - [Explainpaper](https://www.explainpaper.com) - Upload a paper, highlight confusing text, get an explanation.
 - [FastDeploy](https://github.com/PaddlePaddle/FastDeploy) - Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
+- [FLAML](https://github.com/microsoft/FLAML) - A Fast Library for Automated Machine Learning & Tuning.
+- [FlashAttention](https://github.com/HazyResearch/flash-attention) - Fast and memory-efficient exact attention.
+- [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory.
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. Running large language models like OPT-175B/GPT-3 on a single GPU. Up to 100x faster than other offloading systems.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
+- [Guardrails](https://github.com/ShreyaR/guardrails) - Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).
+- [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
 - [Merlin Dataloader](https://github.com/NVIDIA-Merlin/dataloader) - The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX
+- [Mini-Chain](https://github.com/srush/minichain) - A tiny library for large language models.
+- [MosaicML Examples](https://github.com/mosaicml/examples) - This repo contains reference examples for training ML models quickly and to high accuracy. MosaicBERT
 - [mup](https://github.com/microsoft/mup) - Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer
 - [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
 - [Opacus](https://github.com/pytorch/opacus) - Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.
 - [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.
+- [pybaselines](https://github.com/derb12/pybaselines) - A Python library of algorithms for the baseline correction of experimental data.
+- [safari](https://github.com/HazyResearch/safari) - Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).
 - [skorch](https://github.com/skorch-dev/skorch) - A scikit-learn compatible neural network library that wraps PyTorch.
 - [SparseML](https://github.com/neuralmagic/sparseml) - Libraries for applying sparsification recipes to neural networks with a few lines of code, enabling faster and smaller models.
+- [state-spaces](https://github.com/HazyResearch/state-spaces) - Sequence Modeling with Structured State Spaces, contains: S4D, HTTYH, SaShiMi, S4, LSSL, HiPPO.
 - [surgeon-pytorch](https://github.com/archinetai/surgeon-pytorch) - A library to inspect and extract intermediate layers of PyTorch models.
 - [tbparse](https://github.com/j3soon/tbparse) - A simple yet powerful tensorboard event log parser/reader.
 - [TextBox](https://github.com/RUCAIBox/TextBox) - TextBox 2.0 is a text generation library with pre-trained language models.
@@ -414,6 +477,8 @@ This repository contains language models base on Transformer architecture.
 - [torchegranate](https://github.com/jmschrei/torchegranate) - Fast, flexible and easy to use probabilistic modelling with PyTorch.
 - [Training BERT with Compute/Time (Academic) Budget](https://github.com/IntelLabs/academic-budget-bert) - Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.
 - [transformer-deploy](https://github.com/ELS-RD/transformer-deploy) - Efficient, scalable and enterprise-grade CPU/GPU inference server for Hugging Face transformer models.
+- [tsai](https://github.com/timeseriesAI/tsai) - tsai is an open-source deep learning package built on top of Pytorch & fastai focused on state-of-the-art techniques for time series tasks like classification, regression, forecasting, imputation.
+- [UpTrain](https://github.com/uptrain-ai/uptrain) - An open-source framework to observe ML applications - ML monitoring and refinement toolkit.
 - [WeightWatcher](https://github.com/CalculatedContent/WeightWatcher) - WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.
 
 # GPU profiling links
@@ -444,9 +509,11 @@ This repository contains language models base on Transformer architecture.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
+- [KILT](https://github.com/facebookresearch/KILT) - A Benchmark for Knowledge Intensive Language Tasks.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
 - [OSCAR (Open Super-large Crawled ALMAnaCH coRpus)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
+- [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
 
