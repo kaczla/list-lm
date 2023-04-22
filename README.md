@@ -7,8 +7,6 @@ This repository contains language models base on Transformer architecture.
 - Transformer
   - Year: 2017
   - Publication: [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-  - Code: -
-  - Model weights: -
 
 - MoE
   - Year: 2017
@@ -16,8 +14,7 @@ This repository contains language models base on Transformer architecture.
 
 - GPT
   - Year: 2018
-  - Publication: [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
-  - Blog post: [Improving Language Understanding with Unsupervised Learning](https://openai.com/blog/language-unsupervised)
+  - Publication: [Blog - Improving Language Understanding with Unsupervised Learning](https://openai.com/blog/language-unsupervised)
 
 - BERT
   - Year: 2018
@@ -105,6 +102,18 @@ This repository contains language models base on Transformer architecture.
   - Year: 2019
   - Publication: [TENER: Adapting Transformer Encoder for Named Entity Recognition](https://arxiv.org/abs/1911.04474)
 
+- ERNIE
+  - Year: 2019
+  - Publication: [ERNIE: Enhanced Representation through Knowledge Integration](https://arxiv.org/abs/1904.09223)
+  - Code: [GitHub](https://github.com/PaddlePaddle/ERNIE)
+  - Model weights: [HuggingFace models](https://huggingface.co/PaddlePaddle/ernie-1.0-base-zh)
+
+- ERNIE 2.0
+  - Year: 2019
+  - Publication: [ERNIE 2.0: A Continual Pre-training Framework for Language Understanding](https://arxiv.org/abs/1907.12412)
+  - Code: [GitHub](https://github.com/PaddlePaddle/ERNIE)
+  - Model weights: [HuggingFace models](https://huggingface.co/PaddlePaddle/ernie-2.0-base-en)
+
 - MobileBERT
   - Year: 2020
   - Publication: [MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices](https://arxiv.org/abs/2004.02984)
@@ -133,8 +142,8 @@ This repository contains language models base on Transformer architecture.
 - Sandwich Transformers
   - Year: 2020
   - Publication: [https://arxiv.org/abs/1911.03864](https://arxiv.org/abs/1911.03864)
-  - Code: [GitHub](https://github.com/ofirpress/sandwich_transformer)
   - Video: [YouTube](https://www.youtube.com/watch?v=rFuuGEj3AhU)
+  - Code: [GitHub](https://github.com/ofirpress/sandwich_transformer)
 
 - MPNet
   - Year: 2020
@@ -196,6 +205,12 @@ This repository contains language models base on Transformer architecture.
   - Year: 2020
   - Publication: [DA-Transformer: Distance-aware Transformer](https://arxiv.org/abs/2010.06925)
 
+- DeBERTa
+  - Year: 2020
+  - Publication: [DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654)
+  - Code: [GitHub](https://github.com/microsoft/DeBERTa)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/deberta-base)
+
 - MiniLM
   - Year: 2021
   - Publication: [MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers](https://arxiv.org/abs/2002.10957)
@@ -238,8 +253,8 @@ This repository contains language models base on Transformer architecture.
 - FNet
   - Year: 2021
   - Publication: [FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824)
-  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/f_net)
   - Video: [YouTube](https://www.youtube.com/watch?v=JJR3pBl78zw)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/f_net)
 
 - Megatron-LM v2
   - Year: 2021
@@ -272,6 +287,53 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/xglm-7.5B)
 
+- Jurassic-1
+  - Year: 2021
+  - Publication: [Jurassic-1: Technical Details And Evaluation](https://assets.website-files.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
+  - Code: [GitHub](https://github.com/ai21labs/lm-evaluation)
+
+- WuDao
+  - Year: 2021
+  - Publication: [Article: Five Key Facts Wu Dao 2.0: The Largest Transformer Model Ever Built](https://medium.com/dataseries/five-key-facts-wu-dao-2-0-the-largest-transformer-model-ever-built-19316159796b)
+
+- GPT-J
+  - Year: 2021
+  - Publication: [Blog - GPT-J](https://www.eleuther.ai/artifacts/gpt-j)
+  - Code: [GitHub](https://github.com/kingoflolz/mesh-transformer-jax/)
+  - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/gpt-j-6b)
+
+- ERNIE 3.0
+  - Year: 2021
+  - Publication: [ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation](https://arxiv.org/abs/2107.02137)
+
+- HyperCLOVA
+  - Year: 2021
+  - Publication: [What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers](https://arxiv.org/abs/2109.04650)
+
+- ALiBi
+  - Year: 2021
+  - Publication: [Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation](https://arxiv.org/abs/2108.12409)
+  - Code: [GitHub](https://github.com/ofirpress/attention_with_linear_biases)
+  - Model weights: [Private page](https://github.com/ofirpress/attention_with_linear_biases/tree/master/examples/language_model)
+
+- RoFormer
+  - Year: 2021
+  - Publication: [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
+  - Code: [GitHub](https://github.com/ZhuiyiTechnology/roformer)
+  - Model weights: [HuggingFace models](https://huggingface.co/junnyu/roformer_chinese_base)
+
+- DeBERTaV2
+  - Year: 2021
+  - Publication: [Blog - Microsoft DeBERTa surpasses human performance on the SuperGLUE benchmark](https://www.microsoft.com/en-us/research/blog/microsoft-deberta-surpasses-human-performance-on-the-superglue-benchmark/)
+  - Code: [GitHub](https://github.com/microsoft/DeBERTa)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/deberta-v2-xlarge)
+
+- DeBERTaV3
+  - Year: 2021
+  - Publication: [DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing](https://arxiv.org/abs/2111.09543)
+  - Code: [GitHub](https://github.com/microsoft/DeBERTa)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/deberta-v3-base)
+
 - BLOOM
   - Year: 2022
   - Publication: [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100)
@@ -301,7 +363,6 @@ This repository contains language models base on Transformer architecture.
 
 - RWKV-LM
   - Year: 2022
-  - Publication: -
   - Code: [GitHub](https://github.com/BlinkDL/RWKV-LM)
   - Model weights: [HuggingFace models](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
 
@@ -347,8 +408,25 @@ This repository contains language models base on Transformer architecture.
 - OPT-IML
   - Year: 2022
   - Publication: [OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization](https://arxiv.org/abs/2212.12017)
-  - Code:
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/opt-iml-30b)
+
+- GPT-NeoX
+  - Year: 2022
+  - Publication: [GPT-NeoX-20B: An Open-Source Autoregressive Language Model](https://arxiv.org/abs/2204.06745)
+  - Code: [GitHub](https://github.com/EleutherAI/gpt-neox)
+  - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/gpt-neox-20b)
+
+- LaMDA
+  - Year: 2022
+  - Publication: [LaMDA: Language Models for Dialog Applications](https://arxiv.org/abs/2201.08239)
+
+- PaLM
+  - Year: 2022
+  - Publication: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
+
+- Megatron-Turing NLG
+  - Year: 2022
+  - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990)
 
 - E-SPA (Exponential Signal Preserving Attention)
   - Year: 2023
@@ -409,29 +487,75 @@ This repository contains language models base on Transformer architecture.
 
 - Cerebras-GPT
   - Year: 2023
-  - Publication: [Soon](Soon)
+  - Publication: [Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster](https://arxiv.org/abs/2304.03208)
+  - Code: [GitHub](https://github.com/Cerebras/modelzoo)
   - Model weights: [HuggingFace models](https://huggingface.co/cerebras/Cerebras-GPT-13B)
 
 - GeoV
   - Year: 2023
-  - Coda: [GitHub](https://github.com/geov-ai/geov)
+  - Code: [GitHub](https://github.com/geov-ai/geov)
   - Model weights: [HuggingFace models](https://huggingface.co/GeoV/GeoV-9b)
 
 - GPT4All
   - Year: 2023
-  - Coda: [GitHub](https://github.com/nomic-ai/gpt4all)
-  - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-lora
+  - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
+  - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-lora)
 
 - CodeGeeX
   - Year: 2023
-  - Paper: [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/abs/2303.17568)
+  - Publication: [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/abs/2303.17568)
   - Code: [GitHub](https://github.com/THUDM/CodeGeeX)
   - Model weights: [Private page - request required](https://models.aminer.cn/codegeex/download/request)
 
-GPTrillion
+- GPTrillion
   - Year: 2023
-  - Paper: [Introducing GPTrillion - the world’s first open-source 1.5T parameter model](https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo)
+  - Publication: [Introducing GPTrillion - the world’s first open-source 1.5T parameter model](https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo)
   - Model weights: [HuggingFace models](https://huggingface.co/banana-dev/GPTrillion)
+
+- Pythia
+  - Year: 2023
+  - Publication: [Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling](https://arxiv.org/abs/2304.01373)
+  - Code: [GitHub](https://github.com/EleutherAI/pythia)
+  - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/pythia-70m)
+
+- alpaca-opt
+  - Year: 2023
+  - Code: [GitHub](https://github.com/Manuel030/alpaca-opt)
+  - Model weights: [HuggingFace models](https://huggingface.co/Manuel030/alpaca-opt-6.7b)
+
+- GALPACA
+  - Year: 2023
+  - Model weights: [HuggingFace models](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
+
+- NarrowBERT
+  - Year: 2023
+  - Publication: [NarrowBERT: Accelerating Masked Language Model Pretraining and Inference](https://arxiv.org/abs/2301.04761)
+
+- Vicuna
+  - Year: 2023
+  - Publication: [Blog - Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality](https://vicuna.lmsys.org/)
+  - Model weights: [HuggingFace models](https://huggingface.co/lmsys/vicuna-7b-delta-v0)
+
+- GPT4All-J
+  - Year: 2023
+  - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
+  - Model weights: [Direct link](https://gpt4all.io/ggml-gpt4all-j.bin)
+
+- MPT-1b-RedPajama-200b
+  - Year: 2023
+  - Code: [GitHub](https://github.com/mosaicml/examples)
+  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-1b-redpajama-200b)
+
+- StableLM-Alpha
+  - Year: 2023
+  - Publication: [Blog - Stability AI Launches the First of its StableLM Suite of Language Models](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models)
+  - Code: [GitHub](https://github.com/stability-AI/stableLM/)
+  - Model weights: [HuggingFace models](https://huggingface.co/stabilityai/stablelm-base-alpha-3b)
+
+- dolly-v2-12b
+  - Year: 2023
+  - Code: [GitHub](https://github.com/databrickslabs/dolly)
+  - Model weights: [HuggingFace models](https://huggingface.co/databricks/dolly-v2-12b)
 
 # Model links
 
@@ -449,6 +573,7 @@ GPTrillion
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
+- [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [Mosaic composer](https://github.com/mosaicml/composer) - Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.
@@ -459,12 +584,15 @@ GPTrillion
 - [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.
 - [NVIDIA Merlin](https://github.com/NVIDIA-Merlin/Merlin) - NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.
 - [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
+- [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
 - [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification.
 - [Sockeye](https://github.com/awslabs/sockeye) - Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.
 - [SparseZoo](https://github.com/neuralmagic/sparsezoo) - Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.
 - [SpikeGPT](https://github.com/ridgerchu/SpikeGPT) - SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.
+- [StableLM](https://github.com/stability-AI/stableLM) - StableLM: Stability AI Language Models
+- [t5x](https://github.com/google-research/t5x) - T5X is a modular, composable, research-friendly framework for high-performance, configurable, self-service training, evaluation, and inference of sequence models (starting with language) at many scales.
 - [tasknet](https://github.com/sileod/tasknet) - Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
@@ -489,6 +617,7 @@ GPTrillion
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) - Inference runtime offering GPU-class performance on CPUs and APIs to integrate ML into your application.
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 - [DGL](https://github.com/dmlc/dgl) - DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
+- [Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.
 - [evals](https://github.com/openai/evals) - Evals is a framework for evaluating OpenAI models and an open-source registry of benchmarks.
 - [Explainpaper](https://www.explainpaper.com) - Upload a paper, highlight confusing text, get an explanation.
 - [FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language model based chatbots.
@@ -507,6 +636,7 @@ GPTrillion
 - [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama) - Independent implementation of LLaMA that is fully open source under the Apache 2.0 license.
 - [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter) - LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.
 - [LlamaIndex](https://github.com/jerryjliu/llama_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
+- [LLMParser](https://github.com/kyang6/llmparser) - LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
 - [Marvin](https://github.com/PrefectHQ/marvin) - Meet Marvin: a batteries-included library for building AI-powered software. Marvin's job is to integrate AI directly into your codebase by making it look and feel like any other function.
@@ -578,6 +708,7 @@ GPTrillion
 - [OSCAR (Open Super-large Crawled ALMAnaCH coRpus)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
 - [PRESTO](https://github.com/google-research-datasets/presto) - PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.
+- [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
