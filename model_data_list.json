@@ -1,0 +1,1675 @@
+[
+    {
+        "name": "Transformer",
+        "year": 2017,
+        "publication": {
+            "title": "Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "MoE",
+        "year": 2017,
+        "publication": {
+            "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+            "url": "https://arxiv.org/abs/1701.06538"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "GPT",
+        "year": 2018,
+        "publication": {
+            "title": "Blog - Improving Language Understanding with Unsupervised Learning",
+            "url": "https://openai.com/blog/language-unsupervised"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "BERT",
+        "year": 2018,
+        "publication": {
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "url": "https://arxiv.org/abs/1810.04805"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "flair",
+        "year": 2018,
+        "publication": {
+            "title": "Contextual String Embeddings for Sequence Labeling",
+            "url": "https://aclanthology.org/C18-1139"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/flairNLP/flair"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "RR-Transformer",
+        "year": 2018,
+        "publication": {
+            "title": "Self-Attention with Relative Position Representations",
+            "url": "https://arxiv.org/abs/1803.02155"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "LightConv/DynamicConv",
+        "year": 2019,
+        "publication": {
+            "title": "Pay Less Attention with Lightweight and Dynamic Convolutions",
+            "url": "https://arxiv.org/abs/1901.10430"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/pytorch/fairseq/tree/master/examples/pay_less_attention_paper"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "GPT-2",
+        "year": 2019,
+        "publication": {
+            "title": "Language Models are Unsupervised Multitask Learners",
+            "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/openai/gpt-2"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Transformer-XL",
+        "year": 2019,
+        "publication": {
+            "title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+            "url": "https://arxiv.org/abs/1901.02860"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/kimiyoung/transformer-xl"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Evolved Transformer",
+        "year": 2019,
+        "publication": {
+            "title": "The Evolved Transformer",
+            "url": "https://arxiv.org/abs/1901.11117"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "XLNet",
+        "year": 2019,
+        "publication": {
+            "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+            "url": "https://arxiv.org/abs/1906.08237"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "RoBERTa",
+        "year": 2019,
+        "publication": {
+            "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "url": "https://arxiv.org/abs/1907.11692"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/pytorch/fairseq/tree/master/examples/roberta"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "ALBERT",
+        "year": 2019,
+        "publication": {
+            "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "url": "https://arxiv.org/abs/1909.11942"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/ALBERT"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "CTRL",
+        "year": 2019,
+        "publication": {
+            "title": "CTRL: A Conditional Transformer Language Model for Controllable Generation",
+            "url": "https://arxiv.org/abs/1909.05858"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/ctrl"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "StructBERT",
+        "year": 2019,
+        "publication": {
+            "title": "StructBERT: Incorporating Language Structures into Pre-training for Deep Language Understanding",
+            "url": "https://arxiv.org/abs/1908.04577"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Adaptive Span",
+        "year": 2019,
+        "publication": {
+            "title": "Adaptive Attention Span in Transformers",
+            "url": "https://arxiv.org/abs/1905.07799"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/adaptive-span"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "All-attention network",
+        "year": 2019,
+        "publication": {
+            "title": "Augmenting Self-attention with Persistent Memory",
+            "url": "https://arxiv.org/abs/1907.01470"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Sparse Transformer",
+        "year": 2019,
+        "publication": {
+            "title": "Generating Long Sequences with Sparse Transformers",
+            "url": "https://arxiv.org/abs/1904.10509"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Adaptively Sparse Transformers",
+        "year": 2019,
+        "publication": {
+            "title": "Adaptively Sparse Transformers",
+            "url": "https://arxiv.org/abs/1909.00015"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Megatron-LM",
+        "year": 2019,
+        "publication": {
+            "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+            "url": "https://arxiv.org/abs/1909.08053"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVIDIA/Megatron-LM"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "kNN-LM",
+        "year": 2019,
+        "publication": {
+            "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+            "url": "https://arxiv.org/abs/1911.00172"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/urvashik/knnlm"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "TENER",
+        "year": 2019,
+        "publication": {
+            "title": "TENER: Adapting Transformer Encoder for Named Entity Recognition",
+            "url": "https://arxiv.org/abs/1911.04474"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "ERNIE",
+        "year": 2019,
+        "publication": {
+            "title": "ERNIE: Enhanced Representation through Knowledge Integration",
+            "url": "https://arxiv.org/abs/1904.09223"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PaddlePaddle/ERNIE"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PaddlePaddle/ernie-1.0-base-zh"
+        }
+    },
+    {
+        "name": "ERNIE 2.0",
+        "year": 2019,
+        "publication": {
+            "title": "ERNIE 2.0: A Continual Pre-training Framework for Language Understanding",
+            "url": "https://arxiv.org/abs/1907.12412"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PaddlePaddle/ERNIE"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PaddlePaddle/ernie-2.0-base-en"
+        }
+    },
+    {
+        "name": "MobileBERT",
+        "year": 2020,
+        "publication": {
+            "title": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+            "url": "https://arxiv.org/abs/2004.02984"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/mobilebert"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Poor Man's BERT",
+        "year": 2020,
+        "publication": {
+            "title": "On the Effect of Dropping Layers of Pre-trained Transformer Models",
+            "url": "https://arxiv.org/abs/2004.03844"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/hsajjad/transformers"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Longformer",
+        "year": 2020,
+        "publication": {
+            "title": "Longformer: The Long-Document Transformer",
+            "url": "https://arxiv.org/abs/2004.05150"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/longformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Linformer",
+        "year": 2020,
+        "publication": {
+            "title": "Linformer: Self-Attention with Linear Complexity",
+            "url": "https://arxiv.org/abs/2006.04768"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Kyan820815/Linformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Routing Transformer",
+        "year": 2020,
+        "publication": {
+            "title": "Efficient Content-Based Sparse Attention with Routing Transformers",
+            "url": "https://arxiv.org/abs/2003.05997"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/routing_transformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Sandwich Transformers",
+        "year": 2020,
+        "publication": {
+            "title": "https://arxiv.org/abs/1911.03864",
+            "url": "https://arxiv.org/abs/1911.03864"
+        },
+        "video": {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/watch?v=rFuuGEj3AhU"
+        },
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ofirpress/sandwich_transformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "MPNet",
+        "year": 2020,
+        "publication": {
+            "title": "MPNet: Masked and Permuted Pre-training for Language Understanding",
+            "url": "https://arxiv.org/abs/2004.09297"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/MPNet"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "DeeBERT",
+        "year": 2020,
+        "publication": {
+            "title": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference",
+            "url": "https://arxiv.org/abs/2004.12993"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/castorini/DeeBERT"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "BiT (Big Transfer)",
+        "year": 2020,
+        "publication": {
+            "title": "Big Transfer (BiT): General Visual Representation Learning",
+            "url": "https://arxiv.org/abs/1912.11370"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Adaptive Transformers",
+        "year": 2020,
+        "publication": {
+            "title": "Adaptive Transformers for Learning Multimodal Representations",
+            "url": "https://arxiv.org/abs/2005.07486"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/prajjwal1/adaptive_transformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Synthesizer",
+        "year": 2020,
+        "publication": {
+            "title": "Synthesizer: Rethinking Self-Attention in Transformer Models",
+            "url": "https://arxiv.org/abs/2005.00743"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models) / [GitHub](https://github.com/10-zin/Synthesizer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "BRC",
+        "year": 2020,
+        "publication": {
+            "title": "A bio-inspired bistable recurrent cell allows for long-lasting memory",
+            "url": "https://arxiv.org/abs/2006.05252"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nvecoven/BRC) / [GitHub](https://github.com/742617000027/nBRC"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Feedback Transformer",
+        "year": 2020,
+        "publication": {
+            "title": "Addressing Some Limitations of Transformers with Feedback Memory",
+            "url": "https://arxiv.org/abs/2002.09402"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Shortformer",
+        "year": 2020,
+        "publication": {
+            "title": "Shortformer: Better Language Modeling using Shorter Inputs",
+            "url": "https://arxiv.org/abs/2012.15832"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ofirpress/shortformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Floater",
+        "year": 2020,
+        "publication": {
+            "title": "Learning to Encode Position for Transformer with Continuous Dynamical Model",
+            "url": "https://arxiv.org/abs/2003.09229"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/xuanqing94/FLOATER"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Informer",
+        "year": 2020,
+        "publication": {
+            "title": "Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting",
+            "url": "https://arxiv.org/abs/2012.07436"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "TUPE",
+        "year": 2020,
+        "publication": {
+            "title": "Rethinking Positional Encoding in Language Pre-training",
+            "url": "https://arxiv.org/abs/2006.15595"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/guolinke/TUPE"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Key-Value Memory Feed-Forward",
+        "year": 2020,
+        "publication": {
+            "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+            "url": "https://arxiv.org/abs/2012.14913"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "DA-Transformer",
+        "year": 2020,
+        "publication": {
+            "title": "DA-Transformer: Distance-aware Transformer",
+            "url": "https://arxiv.org/abs/2010.06925"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "DeBERTa",
+        "year": 2020,
+        "publication": {
+            "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+            "url": "https://arxiv.org/abs/2006.03654"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/DeBERTa"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/deberta-base"
+        }
+    },
+    {
+        "name": "MiniLM",
+        "year": 2021,
+        "publication": {
+            "title": "MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers",
+            "url": "https://arxiv.org/abs/2002.10957"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "MiniLM v2",
+        "year": 2021,
+        "publication": {
+            "title": "MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers",
+            "url": "https://arxiv.org/abs/2012.15828"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "GLM",
+        "year": 2021,
+        "publication": {
+            "title": "GLM: General Language Model Pretraining with Autoregressive Blank Infilling",
+            "url": "https://arxiv.org/abs/2103.10360"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/GLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/BAAI/glm-10b"
+        }
+    },
+    {
+        "name": "ByT5",
+        "year": 2021,
+        "publication": {
+            "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+            "url": "https://arxiv.org/abs/2105.13626"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/byt5"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Luna",
+        "year": 2021,
+        "publication": {
+            "title": "Luna: Linear Unified Nested Attention",
+            "url": "https://arxiv.org/abs/2106.01540"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/XuezheMax/fairseq-apollo"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "UniT",
+        "year": 2021,
+        "publication": {
+            "title": "UniT: Multimodal Multitask Learning with a Unified Transformer",
+            "url": "https://arxiv.org/abs/2102.10772"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/mmf"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Charformer",
+        "year": 2021,
+        "publication": {
+            "title": "Charformer: Fast Character Transformers via Gradient-based Subword Tokenization",
+            "url": "https://arxiv.org/abs/2106.12672"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/charformer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Primer",
+        "year": 2021,
+        "publication": {
+            "title": "Primer: Searching for Efficient Transformers for Language Modeling",
+            "url": "https://arxiv.org/abs/2109.08668"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/primer"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "FNet",
+        "year": 2021,
+        "publication": {
+            "title": "FNet: Mixing Tokens with Fourier Transforms",
+            "url": "https://arxiv.org/abs/2105.03824"
+        },
+        "video": {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/watch?v=JJR3pBl78zw"
+        },
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/f_net"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Megatron-LM v2",
+        "year": 2021,
+        "publication": {
+            "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+            "url": "https://arxiv.org/abs/2104.04473"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVIDIA/Megatron-LM"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Switch Transformer",
+        "year": 2021,
+        "publication": {
+            "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+            "url": "https://arxiv.org/abs/2101.03961"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "PanGu",
+        "year": 2021,
+        "publication": {
+            "title": "PanGu: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation",
+            "url": "https://arxiv.org/abs/2104.12369"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "24hBERT - Academic Budget BERT",
+        "year": 2021,
+        "publication": {
+            "title": "How to Train BERT with an Academic Budget",
+            "url": "https://arxiv.org/abs/2104.07705"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/IntelLabs/academic-budget-bert"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "T0",
+        "year": 2021,
+        "publication": {
+            "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+            "url": "https://arxiv.org/abs/2110.08207"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigscience-workshop/t-zero"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigscience/T0"
+        }
+    },
+    {
+        "name": "XGLM",
+        "year": 2021,
+        "publication": {
+            "title": "Few-shot Learning with Multilingual Language Models",
+            "url": "https://arxiv.org/abs/2112.10668"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/fairseq/tree/main/examples/xglm"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/xglm-7.5B"
+        }
+    },
+    {
+        "name": "Jurassic-1",
+        "year": 2021,
+        "publication": {
+            "title": "Jurassic-1: Technical Details And Evaluation",
+            "url": "https://assets.website-files.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ai21labs/lm-evaluation"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "WuDao",
+        "year": 2021,
+        "publication": {
+            "title": "Article: Five Key Facts Wu Dao 2.0: The Largest Transformer Model Ever Built",
+            "url": "https://medium.com/dataseries/five-key-facts-wu-dao-2-0-the-largest-transformer-model-ever-built-19316159796b"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "GPT-J",
+        "year": 2021,
+        "publication": {
+            "title": "Blog - GPT-J",
+            "url": "https://www.eleuther.ai/artifacts/gpt-j"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/kingoflolz/mesh-transformer-jax/"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/EleutherAI/gpt-j-6b"
+        }
+    },
+    {
+        "name": "ERNIE 3.0",
+        "year": 2021,
+        "publication": {
+            "title": "ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation",
+            "url": "https://arxiv.org/abs/2107.02137"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "HyperCLOVA",
+        "year": 2021,
+        "publication": {
+            "title": "What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers",
+            "url": "https://arxiv.org/abs/2109.04650"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "ALiBi",
+        "year": 2021,
+        "publication": {
+            "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+            "url": "https://arxiv.org/abs/2108.12409"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ofirpress/attention_with_linear_biases"
+        },
+        "model_weights": {
+            "title": "Private page",
+            "url": "https://github.com/ofirpress/attention_with_linear_biases/tree/master/examples/language_model"
+        }
+    },
+    {
+        "name": "RoFormer",
+        "year": 2021,
+        "publication": {
+            "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+            "url": "https://arxiv.org/abs/2104.09864"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ZhuiyiTechnology/roformer"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/junnyu/roformer_chinese_base"
+        }
+    },
+    {
+        "name": "DeBERTaV2",
+        "year": 2021,
+        "publication": {
+            "title": "Blog - Microsoft DeBERTa surpasses human performance on the SuperGLUE benchmark",
+            "url": "https://www.microsoft.com/en-us/research/blog/microsoft-deberta-surpasses-human-performance-on-the-superglue-benchmark/"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/DeBERTa"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/deberta-v2-xlarge"
+        }
+    },
+    {
+        "name": "DeBERTaV3",
+        "year": 2021,
+        "publication": {
+            "title": "DeBERTaV3: Improving DeBERTa using ELECTRA-Style Pre-Training with Gradient-Disentangled Embedding Sharing",
+            "url": "https://arxiv.org/abs/2111.09543"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/DeBERTa"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/deberta-v3-base"
+        }
+    },
+    {
+        "name": "BLOOM",
+        "year": 2022,
+        "publication": {
+            "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+            "url": "https://arxiv.org/abs/2211.05100"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigscience/bloom"
+        }
+    },
+    {
+        "name": "BLOOMZ & mT0",
+        "year": 2022,
+        "publication": {
+            "title": "Crosslingual Generalization through Multitask Finetuning",
+            "url": "https://arxiv.org/abs/2211.01786"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigscience/bloomz"
+        }
+    },
+    {
+        "name": "Gopher",
+        "year": 2022,
+        "publication": {
+            "title": "Scaling Language Models: Methods, Analysis & Insights from Training Gopher",
+            "url": "https://arxiv.org/abs/2112.11446"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Megatron-Turing NLG",
+        "year": 2022,
+        "publication": {
+            "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+            "url": "https://arxiv.org/abs/2201.11990"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Chinchilla",
+        "year": 2022,
+        "publication": {
+            "title": "Training Compute-Optimal Large Language Models",
+            "url": "https://arxiv.org/abs/2203.15556"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "OPT",
+        "year": 2022,
+        "publication": {
+            "title": "OPT: Open Pre-trained Transformer Language Models",
+            "url": "https://arxiv.org/abs/2205.01068"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/metaseq"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "RWKV-LM",
+        "year": 2022,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/BlinkDL/RWKV-LM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/BlinkDL/rwkv-4-pile-7b"
+        }
+    },
+    {
+        "name": "UL2",
+        "year": 2022,
+        "publication": {
+            "title": "UL2: Unifying Language Learning Paradigms",
+            "url": "https://arxiv.org/abs/2205.05131"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/ul2"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "FlanT5",
+        "year": 2022,
+        "publication": {
+            "title": "Scaling Instruction-Finetuned Language Models",
+            "url": "https://arxiv.org/abs/2210.11416"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/flan-t5-base"
+        }
+    },
+    {
+        "name": "FlashAttention",
+        "year": 2022,
+        "publication": {
+            "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+            "url": "https://arxiv.org/abs/2205.14135"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HazyResearch/flash-attention"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Galactica",
+        "year": 2022,
+        "publication": {
+            "title": "Galactica: A Large Language Model for Science",
+            "url": "https://arxiv.org/abs/2211.09085"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/paperswithcode/galai/blob/main/docs/model_card.md"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/galactica-6.7b"
+        }
+    },
+    {
+        "name": "NPM",
+        "year": 2022,
+        "publication": {
+            "title": "Nonparametric Masked Language Modeling",
+            "url": "https://arxiv.org/abs/2212.01349"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/NPM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/npm"
+        }
+    },
+    {
+        "name": "Cramming",
+        "year": 2022,
+        "publication": {
+            "title": "Cramming: Training a Language Model on a Single GPU in One Day",
+            "url": "https://arxiv.org/abs/2212.14034"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/JonasGeiping/cramming"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "GLM-130B",
+        "year": 2022,
+        "publication": {
+            "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+            "url": "https://arxiv.org/abs/2210.02414"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/GLM-130B"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/spaces/THUDM/GLM-130B"
+        }
+    },
+    {
+        "name": "OPT-IML",
+        "year": 2022,
+        "publication": {
+            "title": "OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization",
+            "url": "https://arxiv.org/abs/2212.12017"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/opt-iml-30b"
+        }
+    },
+    {
+        "name": "GPT-NeoX",
+        "year": 2022,
+        "publication": {
+            "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+            "url": "https://arxiv.org/abs/2204.06745"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/EleutherAI/gpt-neox"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/EleutherAI/gpt-neox-20b"
+        }
+    },
+    {
+        "name": "LaMDA",
+        "year": 2022,
+        "publication": {
+            "title": "LaMDA: Language Models for Dialog Applications",
+            "url": "https://arxiv.org/abs/2201.08239"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "PaLM",
+        "year": 2022,
+        "publication": {
+            "title": "PaLM: Scaling Language Modeling with Pathways",
+            "url": "https://arxiv.org/abs/2204.02311"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Megatron-Turing NLG",
+        "year": 2022,
+        "publication": {
+            "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",
+            "url": "https://arxiv.org/abs/2201.11990"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "E-SPA (Exponential Signal Preserving Attention)",
+        "year": 2023,
+        "publication": {
+            "title": "Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation",
+            "url": "https://arxiv.org/abs/2302.10322"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Hyena",
+        "year": 2023,
+        "publication": {
+            "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
+            "url": "https://arxiv.org/abs/2302.10866"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HazyResearch/safari"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "SpikeGPT",
+        "year": 2023,
+        "publication": {
+            "title": "SpikeGPT: Generative Pre-trained Language Model with Spiking Neural Networks",
+            "url": "https://arxiv.org/abs/2302.13939"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ridgerchu/SpikeGPT"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LLama",
+        "year": 2023,
+        "publication": {
+            "title": "LLaMA: Open and Efficient Foundation Language Models",
+            "url": "https://arxiv.org/abs/2302.13971"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/llama"
+        },
+        "model_weights": {
+            "title": "Private page - request required",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform"
+        }
+    },
+    {
+        "name": "KOSMOS-1",
+        "year": 2023,
+        "publication": {
+            "title": "Language Is Not All You Need: Aligning Perception with Language Models",
+            "url": "https://arxiv.org/abs/2302.14045"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "ParaFormer",
+        "year": 2023,
+        "publication": {
+            "title": "ParaFormer: Parallel Attention Transformer for Efficient Feature Matching",
+            "url": "https://arxiv.org/abs/2303.00941"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "PaLM-E",
+        "year": 2023,
+        "publication": {
+            "title": "PaLM-E: An Embodied Multimodal Language Model",
+            "url": "https://arxiv.org/abs/2303.03378"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Alpaca",
+        "year": 2023,
+        "publication": {
+            "title": "Alpaca: A Strong Open-Source Instruction-Following Model",
+            "url": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tatsu-lab/stanford_alpaca"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "TWM",
+        "year": 2023,
+        "publication": {
+            "title": "Transformer-based World Models Are Happy With 100k Interactions",
+            "url": "https://arxiv.org/abs/2303.07109"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jrobine/twm"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "MosaicBERT",
+        "year": 2023,
+        "publication": {
+            "title": "MosaicBERT: Pretraining BERT from Scratch for $20",
+            "url": "https://www.mosaicml.com/blog/mosaicbert"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/examples"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mosaic-bert-base"
+        }
+    },
+    {
+        "name": "GPT-4",
+        "year": 2023,
+        "publication": {
+            "title": "GPT-4 Technical Report",
+            "url": "https://cdn.openai.com/papers/gpt-4.pdf"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "ChatGLM-6B",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/ChatGLM-6B"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/THUDM/chatglm-6b"
+        }
+    },
+    {
+        "name": "Cerebras-GPT",
+        "year": 2023,
+        "publication": {
+            "title": "Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster",
+            "url": "https://arxiv.org/abs/2304.03208"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Cerebras/modelzoo"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cerebras/Cerebras-GPT-13B"
+        }
+    },
+    {
+        "name": "GeoV",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/geov-ai/geov"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/GeoV/GeoV-9b"
+        }
+    },
+    {
+        "name": "GPT4All",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nomic-ai/gpt4all"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nomic-ai/gpt4all-lora"
+        }
+    },
+    {
+        "name": "CodeGeeX",
+        "year": 2023,
+        "publication": {
+            "title": "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X",
+            "url": "https://arxiv.org/abs/2303.17568"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/CodeGeeX"
+        },
+        "model_weights": {
+            "title": "Private page - request required",
+            "url": "https://models.aminer.cn/codegeex/download/request"
+        }
+    },
+    {
+        "name": "GPTrillion",
+        "year": 2023,
+        "publication": {
+            "title": "Introducing GPTrillion - the world’s first open-source 1.5T parameter model",
+            "url": "https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/banana-dev/GPTrillion"
+        }
+    },
+    {
+        "name": "Pythia",
+        "year": 2023,
+        "publication": {
+            "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+            "url": "https://arxiv.org/abs/2304.01373"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/EleutherAI/pythia"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/EleutherAI/pythia-70m"
+        }
+    },
+    {
+        "name": "alpaca-opt",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Manuel030/alpaca-opt"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Manuel030/alpaca-opt-6.7b"
+        }
+    },
+    {
+        "name": "GALPACA",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b"
+        }
+    },
+    {
+        "name": "NarrowBERT",
+        "year": 2023,
+        "publication": {
+            "title": "NarrowBERT: Accelerating Masked Language Model Pretraining and Inference",
+            "url": "https://arxiv.org/abs/2301.04761"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Vicuna",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality",
+            "url": "https://vicuna.lmsys.org/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lmsys/vicuna-7b-delta-v0"
+        }
+    },
+    {
+        "name": "GPT4All-J",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nomic-ai/gpt4all"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://gpt4all.io/ggml-gpt4all-j.bin"
+        }
+    },
+    {
+        "name": "MPT-1b-RedPajama-200b",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/examples"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mpt-1b-redpajama-200b"
+        }
+    },
+    {
+        "name": "StableLM-Alpha",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Stability AI Launches the First of its StableLM Suite of Language Models",
+            "url": "https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stability-AI/stableLM/"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stabilityai/stablelm-base-alpha-3b"
+        }
+    },
+    {
+        "name": "dolly-v2-12b",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/databrickslabs/dolly"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/databricks/dolly-v2-12b"
+        }
+    },
+    {
+        "name": "OpenLLaMA",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/openlm-research/open_llama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openlm-research/open_llama_7b_preview_200bt"
+        }
+    },
+    {
+        "name": "replit-code-v1-3b",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/replit/ReplitLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/replit/replit-code-v1-3b"
+        }
+    },
+    {
+        "name": "Lamini",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing Lamini, the LLM Engine for Rapidly Customizing Models",
+            "url": "https://lamini.ai/blog/introducing-lamini"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lamini-ai/lamini"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lamini/instruct-tuned-12b"
+        }
+    },
+    {
+        "name": "h2ogpt",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/h2oai/h2ogpt"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/h2oai/h2ogpt-oasst1-512-12b"
+        }
+    },
+    {
+        "name": "MPT-7B",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
+            "url": "https://www.mosaicml.com/blog/mpt-7b"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/llm-foundry"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mpt-7b"
+        }
+    },
+    {
+        "name": "MPT-7B-Instruct",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
+            "url": "https://www.mosaicml.com/blog/mpt-7b"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/llm-foundry"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mpt-7b-instruct"
+        }
+    },
+    {
+        "name": "MPT-7B-Chat",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
+            "url": "https://www.mosaicml.com/blog/mpt-7b"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/llm-foundry"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mpt-7b-chat"
+        }
+    },
+    {
+        "name": "StarCoder",
+        "year": 2023,
+        "publication": {
+            "title": "StarCoder: May the source be with you!",
+            "url": "https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/starcoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/starcoder"
+        }
+    }
+]
