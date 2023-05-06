@@ -2,6 +2,8 @@
 
 This repository contains language models base on Transformer architecture.
 
+[TOC]
+
 # Model lists
 
 - Transformer
@@ -557,21 +559,71 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/databrickslabs/dolly)
   - Model weights: [HuggingFace models](https://huggingface.co/databricks/dolly-v2-12b)
 
+- OpenLLaMA
+  - Year: 2023
+  - Code: [GitHub](https://github.com/openlm-research/open_llama)
+  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+
+- replit-code-v1-3b
+  - Year: 2023
+  - Code: [GitHub](https://github.com/replit/ReplitLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/replit/replit-code-v1-3b)
+
+- Lamini
+  - Year: 2023
+  - Publication: [Blog - Introducing Lamini, the LLM Engine for Rapidly Customizing Models](https://lamini.ai/blog/introducing-lamini)
+  - Code: [GitHub](https://github.com/lamini-ai/lamini)
+  - Model weights: [HuggingFace models](https://huggingface.co/lamini/instruct-tuned-12b)
+
+- h2ogpt
+  - Year: 2023
+  - Code: [GitHub](https://github.com/h2oai/h2ogpt)
+  - Model weights: [HuggingFace models](https://huggingface.co/h2oai/h2ogpt-oasst1-512-12b)
+
+- MPT-7B
+  - Year: 2023
+  - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+  - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
+  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b)
+
+- MPT-7B-Instruct
+  - Year: 2023
+  - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+  - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
+  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b-instruct)
+
+- MPT-7B-Chat
+  - Year: 2023
+  - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+  - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
+  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b-chat)
+
+- StarCoder
+  - Year: 2023
+  - Publication: [StarCoder: May the source be with you!](https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view)
+  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoder)
+
 # Model links
 
 - [CodeGeeX](https://github.com/THUDM/CodeGeeX) - We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters, pre-trained on a large code corpus of more than 20 programming languages.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
+- [EasyLM](https://github.com/young-geng/EasyLM) - Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
 - [FairScale](https://github.com/facebookresearch/fairscale) - FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.
+- [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.
+- [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) - H2O LLM Studio, a framework and no-code GUI designed for fine-tuning state-of-the-art large language models (LLMs).
+- [h2oGPT](https://github.com/h2oai/h2ogpt)- h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.
 - [JARVIS](https://github.com/microsoft/JARVIS) - JARVIS, a system to connect LLMs with ML community.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.
 - [LASSL](https://github.com/lassl/lassl) - LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
+- [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
@@ -632,6 +684,7 @@ This repository contains language models base on Transformer architecture.
 - [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
+- [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
 - [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama) - Independent implementation of LLaMA that is fully open source under the Apache 2.0 license.
 - [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter) - LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.
@@ -717,6 +770,7 @@ This repository contains language models base on Transformer architecture.
 
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
 - [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained) - List of LM papers explained.
+- [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated (still actively updated) list of practical guide resources of LLMs.
 - [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architecture from the code.
 - [Transformer models: an introduction and catalog, 2023 Edition](https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376) - An introduction and catalog of Transformer models.
 - [Transformers from Scratch](https://e2eml.school/transformers.html) - Explanation of Transformer architecture.
