@@ -1473,6 +1473,23 @@
         "model_weights": null
     },
     {
+        "name": "FastChat-T5",
+        "year": 2023,
+        "publication": {
+            "title": "Twitter message",
+            "url": "https://twitter.com/lmsysorg/status/1652037026705985537"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lm-sys/FastChat"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lmsys/fastchat-t5-3b-v1.0"
+        }
+    },
+    {
         "name": "Vicuna",
         "year": 2023,
         "publication": {
@@ -1532,9 +1549,12 @@
         }
     },
     {
-        "name": "dolly-v2-12b",
+        "name": "Dolly",
         "year": 2023,
-        "publication": null,
+        "publication": {
+            "title": "Blog - Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM",
+            "url": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm"
+        },
         "video": null,
         "code": {
             "title": "GitHub",
@@ -1560,7 +1580,7 @@
         }
     },
     {
-        "name": "replit-code-v1-3b",
+        "name": "ReplitLM",
         "year": 2023,
         "publication": null,
         "video": null,
@@ -1670,6 +1690,197 @@
         "model_weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/starcoder"
+        }
+    },
+    {
+        "name": "StarChat Alpha",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/starcoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceH4/starchat-alpha"
+        }
+    },
+    {
+        "name": "DLite",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Announcing DLite V2: Lightweight, Open LLMs That Can Run Anywhere",
+            "url": "https://medium.com/ai-squared/announcing-dlite-v2-lightweight-open-llms-that-can-run-anywhere-a852e5978c6e"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/aisquared/dlite-v2-1_5b"
+        }
+    },
+    {
+        "name": "PaLM 2",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing PaLM 2",
+            "url": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "SantaCoder",
+        "year": 2023,
+        "publication": {
+            "title": "SantaCoder: don't reach for the stars!",
+            "url": "https://arxiv.org/abs/2301.03988"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/Megatron-LM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/santacoder"
+        }
+    },
+    {
+        "name": "CodeGen2",
+        "year": 2023,
+        "publication": {
+            "title": "CodeGen2: Lessons for Training LLMs on Programming and Natural Languages",
+            "url": "https://arxiv.org/abs/2305.02309"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeGen2"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codegen2-16B"
+        }
+    },
+    {
+        "name": "OpenFlamingo",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - ANNOUNCING OPENFLAMINGO: AN OPEN-SOURCE FRAMEWORK FOR TRAINING VISION-LANGUAGE MODELS WITH IN-CONTEXT LEARNING",
+            "url": "https://laion.ai/blog/open-flamingo/"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mlfoundations/open_flamingo"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openflamingo/OpenFlamingo-9B"
+        }
+    },
+    {
+        "name": "Multimodal-GPT",
+        "year": 2023,
+        "publication": {
+            "title": "MultiModal-GPT: A Vision and Language Model for Dialogue with Humans",
+            "url": "https://arxiv.org/abs/2305.04790"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/open-mmlab/Multimodal-GPT"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://download.openmmlab.com/mmgpt/v0/mmgpt-lora-v0-release.pt"
+        }
+    },
+    {
+        "name": "OpenLLaMA",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/openlm-research/open_llama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openlm-research/open_llama_7b_preview_300bt"
+        }
+    },
+    {
+        "name": "Open-source PaLM",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/conceptofmind/PaLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/conceptofmind/palm-1b"
+        }
+    },
+    {
+        "name": "Jurassic-X",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Jurassic-X: Crossing the neuro-symbolic chasm with the MRKL system",
+            "url": "https://www.ai21.com/blog/jurassic-x-crossing-the-neuro-symbolic-chasm-with-the-mrkl-system"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Jurassic-2",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Announcing Jurassic-2 and Task-Specific APIs",
+            "url": "https://www.ai21.com/blog/introducing-j2"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Otter",
+        "year": 2023,
+        "publication": {
+            "title": "Otter: A Multi-Modal Model with In-Context Instruction Tuning",
+            "url": "https://arxiv.org/abs/2305.03726"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Luodian/otter"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/luodian/otter-9b-hf"
+        }
+    },
+    {
+        "name": "ImageBind",
+        "year": 2023,
+        "publication": {
+            "title": "ImageBind: One Embedding Space To Bind Them All",
+            "url": "https://arxiv.org/abs/2305.05665"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/ImageBind"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth"
         }
     }
 ]
