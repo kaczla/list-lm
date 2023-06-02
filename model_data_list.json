@@ -922,6 +922,17 @@
         }
     },
     {
+        "name": "Minerva",
+        "year": 2022,
+        "publication": {
+            "title": "Solving Quantitative Reasoning Problems with Language Models",
+            "url": "https://arxiv.org/abs/2206.14858"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
         "name": "BLOOM",
         "year": 2022,
         "publication": {
@@ -1500,7 +1511,7 @@
         "code": null,
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/lmsys/vicuna-7b-delta-v0"
+            "url": "https://huggingface.co/lmsys/vicuna-13b-delta-v1.1"
         }
     },
     {
@@ -1881,6 +1892,216 @@
         "model_weights": {
             "title": "Direct link",
             "url": "https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth"
+        }
+    },
+    {
+        "name": "Koala",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Koala: A Dialogue Model for Academic Research",
+            "url": "https://bair.berkeley.edu/blog/2023/04/03/koala/"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/young-geng/EasyLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/young-geng/koala"
+        }
+    },
+    {
+        "name": "umT5",
+        "year": 2023,
+        "publication": {
+            "title": "UniMax: Fairer and more Effective Language Sampling for Large-Scale Multilingual Pretraining",
+            "url": "https://arxiv.org/abs/2304.09151"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/t5x"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://github.com/google-research/t5x/blob/main/docs/models.md#umt5-checkpoints"
+        }
+    },
+    {
+        "name": "mLongT5",
+        "year": 2023,
+        "publication": {
+            "title": "mLongT5: A Multilingual and Efficient Text-To-Text Transformer for Longer Sequences",
+            "url": "https://arxiv.org/abs/2305.11129"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/longt5"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "DarkBERT",
+        "year": 2023,
+        "publication": {
+            "title": "DarkBERT: A Language Model for the Dark Side of the Internet",
+            "url": "https://arxiv.org/abs/2305.08596"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Aurora genAI",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Intel Announces Aurora genAI, Generative AI Model With 1 Trillion Parameters",
+            "url": "https://wccftech.com/intel-aurora-genai-chatgpt-competitor-generative-ai-model-with-1-trillion-parameters"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "LIMA",
+        "year": 2023,
+        "publication": {
+            "title": "LIMA: Less Is More for Alignment",
+            "url": "https://arxiv.org/abs/2305.11206"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "BLOOMChat",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - BLOOMChat: a New Open Multilingual Chat LLM",
+            "url": "https://sambanova.ai/blog/introducing-bloomchat-176b-the-multilingual-chat-based-llm/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1"
+        }
+    },
+    {
+        "name": "Falcon",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tiiuae/falcon-40b"
+        }
+    },
+    {
+        "name": "Goat",
+        "year": 2023,
+        "publication": {
+            "title": "Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks",
+            "url": "https://arxiv.org/abs/2305.14201"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/liutiedong/goat"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tiedong/goat-lora-7b"
+        }
+    },
+    {
+        "name": "Macaw-LLM",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lyuchenyang/Macaw-LLM"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "MeZO",
+        "year": 2023,
+        "publication": {
+            "title": "Fine-Tuning Language Models with Just Forward Passes",
+            "url": "https://arxiv.org/abs/2305.17333"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/princeton-nlp/MeZO"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LLaMA-Adapter",
+        "year": 2023,
+        "publication": {
+            "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention",
+            "url": "https://arxiv.org/abs/2303.16199"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LLaMA-Adapter V2",
+        "year": 2023,
+        "publication": {
+            "title": "LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model",
+            "url": "https://arxiv.org/abs/2304.15010"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "OpenAssistant",
+        "year": 2023,
+        "publication": {
+            "title": "OpenAssistant Conversations -- Democratizing Large Language Model Alignment",
+            "url": "https://arxiv.org/abs/2304.07327"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5"
+        }
+    },
+    {
+        "name": "RedPajama-INCITE-3B",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - RedPajama-INCITE-3B, an LLM for everyone",
+            "url": "https://www.together.xyz/blog/redpajama-3b-updates"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/togethercomputer/redpajama.cpp"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1"
         }
     }
 ]
