@@ -336,6 +336,26 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/microsoft/DeBERTa)
   - Model weights: [HuggingFace models](https://huggingface.co/microsoft/deberta-v3-base)
 
+- NormFormer
+  - Year: 2021
+  - Publication: [NormFormer: Improved Transformer Pretraining with Extra Normalization](https://arxiv.org/abs/2110.09456)
+
+- CodeT5
+  - Year: 2021
+  - Publication: [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859)
+  - Code: [GitHub](https://github.com/salesforce/CodeT5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/codet5-base)
+
+- Memory efficient attention
+  - Year: 2021
+  - Publication: [Self-attention Does Not Need O(n2) Memory](https://arxiv.org/abs/2112.05682)
+  - Code: [GitHub](https://github.com/google-research/google-research/tree/master/memory_efficient_attention)
+
+- EL-Attention
+  - Year: 2021
+  - Publication: [EL-Attention: Memory Efficient Lossless Attention for Generation](https://arxiv.org/abs/2105.04779)
+  - Code: [GitHub](https://github.com/microsoft/fastseq)
+
 - Minerva
   - Year: 2022
   - Publication: [Solving Quantitative Reasoning Problems with Language Models](https://arxiv.org/abs/2206.14858)
@@ -433,6 +453,11 @@ This repository contains language models base on Transformer architecture.
 - Megatron-Turing NLG
   - Year: 2022
   - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990)
+
+- CodeRL
+  - Year: 2022
+  - Publication: [CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780)
+  - Code: [GitHub](https://github.com/salesforce/CodeRL)
 
 - E-SPA (Exponential Signal Preserving Attention)
   - Year: 2023
@@ -573,7 +598,7 @@ This repository contains language models base on Transformer architecture.
 - OpenLLaMA
   - Year: 2023
   - Code: [GitHub](https://github.com/openlm-research/open_llama)
-  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b)
 
 - ReplitLM
   - Year: 2023
@@ -611,12 +636,13 @@ This repository contains language models base on Transformer architecture.
 
 - StarCoder
   - Year: 2023
-  - Publication: [StarCoder: May the source be with you!](https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view)
+  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161)
   - Code: [GitHub](https://github.com/bigcode-project/starcoder)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoder)
 
 - StarChat Alpha
   - Year: 2023
+  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161)
   - Code: [GitHub](https://github.com/bigcode-project/starcoder)
   - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/starchat-alpha)
 
@@ -753,21 +779,79 @@ This repository contains language models base on Transformer architecture.
   - Model weights: [HuggingFace models](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5)
   - Code: [GitHub](https://github.com/ZrrSkywalker/LLaMA-Adapter)
 
-- RedPajama-INCITE-3B
+- RedPajama-INCITE
   - Year: 2023
-  - Publication: [Blog - RedPajama-INCITE-3B, an LLM for everyone](https://www.together.xyz/blog/redpajama-3b-updates)
+  - Publication: [Blog - RedPajama 7B now available, instruct model outperforms all open 7B models on HELM benchmarks](https://www.together.xyz/blog/redpajama-7b)
   - Code: [GitHub](https://github.com/togethercomputer/redpajama.cpp)
-  - Model weights: [HuggingFace models](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1)
+  - Model weights: [HuggingFace models](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base)
+
+- Gorilla
+  - Year: 2023
+  - Publication: [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
+  - Code: [GitHub](https://github.com/ShishirPatil/gorilla)
+
+- MEGABYTE
+  - Year: 2023
+  - Publication: [MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers](https://arxiv.org/abs/2305.07185)
+
+- AlpacOOM
+  - Year: 2023
+  - Model weights: [HuggingFace models](https://huggingface.co/mrm8488/Alpacoom)
+
+- CodeT5+
+  - Year: 2023
+  - Publication: [CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922)
+  - Code: [GitHub](https://github.com/salesforce/CodeT5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/codet5p-16b)
+
+- BiomedGPT
+  - Year: 2023
+  - Publication: [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100)
+  - Code: [GitHub](https://github.com/taokz/BiomedGPT)
+
+- NoPE
+  - Year: 2023
+  - Publication: [The Impact of Positional Encoding on Length Generalization in Transformers](https://arxiv.org/abs/2305.19466)
+
+- StarCoderBase
+  - Year: 2023
+  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161)
+  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoderbase)
+
+- StarCoderPlus
+  - Year: 2023
+  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161)
+  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoderplus)
+
+-  Tulu
+  - Year: 2023
+  - Publication: [How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources](https://arxiv.org/abs/2306.04751)
+  - Code: [GitHub](https://github.com/allenai/open-instruct)
+  - Model weights: [HuggingFace models](https://huggingface.co/allenai/tulu-65b)
+
+- InternLM
+  - Year: 2023
+  - Publication: [InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)
+
+- MEFT
+  - Year: 2023
+  - Publication: [Make Your Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning](https://arxiv.org/abs/2306.00477)
+  - Code: [GitHub](https://github.com/baohaoLiao/mefts)
 
 # Model links
 
 - [CodeGeeX](https://github.com/THUDM/CodeGeeX) - We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters, pre-trained on a large code corpus of more than 20 programming languages.
+- [CodeT5 and CodeT5+](https://github.com/salesforce/CodeT5) - Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/
+- [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [EasyLM](https://github.com/young-geng/EasyLM) - Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
 - [FairScale](https://github.com/facebookresearch/fairscale) - FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.
 - [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
+- [FastSeq](https://github.com/microsoft/fastseq) - FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.
@@ -813,10 +897,12 @@ This repository contains language models base on Transformer architecture.
 
 # Utils links
 
+- [AITemplate](https://github.com/facebookincubator/AITemplate) - AITemplate (AIT) is a Python framework that transforms deep neural networks into CUDA (NVIDIA GPU) / HIP (AMD GPU) C++ code for lightning-fast inference serving.
 - [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) - This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA).
 - [Ambrosia](https://github.com/reactorsh/ambrosia) - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
+- [Aviary](https://github.com/ray-project/aviary) - Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.
 - [bagua](https://github.com/BaguaSys/bagua) - Bagua is a deep learning training acceleration framework for PyTorch
-- [BiGS](https://github.com/jxiw/BiGS) - This repository contains BiGS's jax model definitions, pretrained models weights, training and fintuning code for our paper exploring using state space models for pretraining.
+- [BiGS](https://github.com/jxiw/BiGS) - This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
@@ -937,12 +1023,17 @@ This repository contains language models base on Transformer architecture.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
+- [GLGE](https://github.com/microsoft/glge) - This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).
 - [HumanEval-X](https://huggingface.co/datasets/THUDM/humaneval-x) - HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.
 - [KILT](https://github.com/facebookresearch/KILT) - A Benchmark for Knowledge Intensive Language Tasks.
+- [LIMA](https://huggingface.co/datasets/GAIR/lima) - Dataset for LIMA: Less Is More for Alignment.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
+- [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.
 - [OSCAR (Open Super-large Crawled ALMAnaCH coRpus)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
+- [PG-19 Language Modelling Benchmark](https://github.com/deepmind/pg19) - This repository contains the PG-19 language modeling benchmark. It includes a set of books extracted from the Project Gutenberg books library, that were published before 1919. It also contains metadata of book titles and publication dates.
 - [PRESTO](https://github.com/google-research-datasets/presto) - PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.
+- [ReCoRD](https://github.com/deepmind/rc-data) - This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.
 - [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.

@@ -922,6 +922,62 @@
         }
     },
     {
+        "name": "NormFormer",
+        "year": 2021,
+        "publication": {
+            "title": "NormFormer: Improved Transformer Pretraining with Extra Normalization",
+            "url": "https://arxiv.org/abs/2110.09456"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "CodeT5",
+        "year": 2021,
+        "publication": {
+            "title": "CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation",
+            "url": "https://arxiv.org/abs/2109.00859"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeT5"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codet5-base"
+        }
+    },
+    {
+        "name": "Memory efficient attention",
+        "year": 2021,
+        "publication": {
+            "title": "Self-attention Does Not Need O(n2) Memory",
+            "url": "https://arxiv.org/abs/2112.05682"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/google-research/tree/master/memory_efficient_attention"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "EL-Attention",
+        "year": 2021,
+        "publication": {
+            "title": "EL-Attention: Memory Efficient Lossless Attention for Generation",
+            "url": "https://arxiv.org/abs/2105.04779"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/fastseq"
+        },
+        "model_weights": null
+    },
+    {
         "name": "Minerva",
         "year": 2022,
         "publication": {
@@ -1193,6 +1249,20 @@
         },
         "video": null,
         "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "CodeRL",
+        "year": 2022,
+        "publication": {
+            "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2207.01780"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeRL"
+        },
         "model_weights": null
     },
     {
@@ -1587,7 +1657,7 @@
         },
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/openlm-research/open_llama_7b_preview_200bt"
+            "url": "https://huggingface.co/openlm-research/open_llama_7b"
         }
     },
     {
@@ -1690,8 +1760,8 @@
         "name": "StarCoder",
         "year": 2023,
         "publication": {
-            "title": "StarCoder: May the source be with you!",
-            "url": "https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view"
+            "title": "StarCoder: may the source be with you!",
+            "url": "https://arxiv.org/abs/2305.06161"
         },
         "video": null,
         "code": {
@@ -1706,7 +1776,10 @@
     {
         "name": "StarChat Alpha",
         "year": 2023,
-        "publication": null,
+        "publication": {
+            "title": "StarCoder: may the source be with you!",
+            "url": "https://arxiv.org/abs/2305.06161"
+        },
         "video": null,
         "code": {
             "title": "GitHub",
@@ -2088,11 +2161,11 @@
         }
     },
     {
-        "name": "RedPajama-INCITE-3B",
+        "name": "RedPajama-INCITE",
         "year": 2023,
         "publication": {
-            "title": "Blog - RedPajama-INCITE-3B, an LLM for everyone",
-            "url": "https://www.together.xyz/blog/redpajama-3b-updates"
+            "title": "Blog - RedPajama 7B now available, instruct model outperforms all open 7B models on HELM benchmarks",
+            "url": "https://www.together.xyz/blog/redpajama-7b"
         },
         "video": null,
         "code": {
@@ -2101,7 +2174,161 @@
         },
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1"
+            "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base"
         }
+    },
+    {
+        "name": "Gorilla",
+        "year": 2023,
+        "publication": {
+            "title": "Gorilla: Large Language Model Connected with Massive APIs",
+            "url": "https://arxiv.org/abs/2305.15334"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ShishirPatil/gorilla"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "MEGABYTE",
+        "year": 2023,
+        "publication": {
+            "title": "MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers",
+            "url": "https://arxiv.org/abs/2305.07185"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "AlpacOOM",
+        "year": 2023,
+        "publication": null,
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mrm8488/Alpacoom"
+        }
+    },
+    {
+        "name": "CodeT5+",
+        "year": 2023,
+        "publication": {
+            "title": "CodeT5+: Open Code Large Language Models for Code Understanding and Generation",
+            "url": "https://arxiv.org/abs/2305.07922"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeT5"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codet5p-16b"
+        }
+    },
+    {
+        "name": "BiomedGPT",
+        "year": 2023,
+        "publication": {
+            "title": "BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks",
+            "url": "https://arxiv.org/abs/2305.17100"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/taokz/BiomedGPT"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "NoPE",
+        "year": 2023,
+        "publication": {
+            "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+            "url": "https://arxiv.org/abs/2305.19466"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "StarCoderBase",
+        "year": 2023,
+        "publication": {
+            "title": "StarCoder: may the source be with you!",
+            "url": "https://arxiv.org/abs/2305.06161"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/starcoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/starcoderbase"
+        }
+    },
+    {
+        "name": "StarCoderPlus",
+        "year": 2023,
+        "publication": {
+            "title": "StarCoder: may the source be with you!",
+            "url": "https://arxiv.org/abs/2305.06161"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/starcoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/starcoderplus"
+        }
+    },
+    {
+        "name": "Tulu",
+        "year": 2023,
+        "publication": {
+            "title": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources",
+            "url": "https://arxiv.org/abs/2306.04751"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/open-instruct"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/tulu-65b"
+        }
+    },
+    {
+        "name": "InternLM",
+        "year": 2023,
+        "publication": {
+            "title": "InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities",
+            "url": "https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "MEFT",
+        "year": 2023,
+        "publication": {
+            "title": "Make Your Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning",
+            "url": "https://arxiv.org/abs/2306.00477"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/baohaoLiao/mefts"
+        },
+        "model_weights": null
     }
 ]
