@@ -613,6 +613,7 @@ This repository contains language models base on Transformer architecture.
 
 - h2ogpt
   - Year: 2023
+  - Publication: [h2oGPT: Democratizing Large Language Models](https://arxiv.org/abs/2306.08161)
   - Code: [GitHub](https://github.com/h2oai/h2ogpt)
   - Model weights: [HuggingFace models](https://huggingface.co/h2oai/h2ogpt-oasst1-512-12b)
 
@@ -682,7 +683,7 @@ This repository contains language models base on Transformer architecture.
 - OpenLLaMA
   - Year: 2023
   - Code: [GitHub](https://github.com/openlm-research/open_llama)
-  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b_preview_300bt)
+  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_13b)
 
 - Open-source PaLM
   - Year: 2023
@@ -825,7 +826,7 @@ This repository contains language models base on Transformer architecture.
   - Code: [GitHub](https://github.com/bigcode-project/starcoder)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoderplus)
 
--  Tulu
+- Tulu
   - Year: 2023
   - Publication: [How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources](https://arxiv.org/abs/2306.04751)
   - Code: [GitHub](https://github.com/allenai/open-instruct)
@@ -840,8 +841,62 @@ This repository contains language models base on Transformer architecture.
   - Publication: [Make Your Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning](https://arxiv.org/abs/2306.00477)
   - Code: [GitHub](https://github.com/baohaoLiao/mefts)
 
+- LongMem
+  - Year: 2023
+  - Publication: [Augmenting Language Models with Long-Term Memory](https://arxiv.org/abs/2306.07174)
+  - Code: [GitHub](https://github.com/Victorwz/LongMem)
+
+- SpQR
+  - Year: 2023
+  - Publication: [SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078)
+  - Code: [GitHub](https://github.com/Vahe1994/SpQR)
+
+- BioMedLM
+  - Year: 2023
+  - Publication: [Blog - BioMedLM: a Domain-Specific Large Language Model for Biomedical Text](https://www.mosaicml.com/blog/introducing-pubmed-gpt)
+  - Code: [GitHub](https://github.com/stanford-crfm/BioMedLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/stanford-crfm/BioMedLM)
+
+- BloombergGPT
+  - Year: 2023
+  - Publication: [BloombergGPT: A Large Language Model for Finance](https://arxiv.org/abs/2303.17564)
+
+- FinGPT
+  - Year: 2023
+  - Publication: [FinGPT: Open-Source Financial Large Language Models](https://arxiv.org/abs/2306.06031)
+  - Code: [GitHub](https://github.com/ai4finance-foundation/fingpt)
+
+- SqueezeLLM
+  - Year: 2023
+  - Publication: [SqueezeLLM: Dense-and-Sparse Quantization](https://export.arxiv.org/abs/2306.07629)
+  - Code: [GitHub](https://github.com/SqueezeAILab/SqueezeLLM)
+
+- WizardLM
+  - Year: 2023
+  - Publication: [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
+  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardLM-30B-V1.0)
+
+- Orca
+  - Year: 2023
+  - Publication: [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.07174)
+
+- LongMem
+  - Year: 2023
+  - Publication: [Augmenting Language Models with Long-Term Memory](https://arxiv.org/abs/2306.02707)
+
+- Inflection-1
+  - Year: 2023
+  - Publication: [Blog - Inflection-1: Pi’s Best-in-Class LLM](https://inflection.ai/inflection-1)
+
+- Kosmos-2
+  - Year: 2023
+  - Publication: [Kosmos-2: Grounding Multimodal Large Language Models to the World](https://arxiv.org/abs/2306.14824)
+  - Code: [GitHub](https://github.com/microsoft/unilm/tree/master/kosmos-2)
+
 # Model links
 
+- [C Transformers](https://github.com/marella/ctransformers) - Python bindings for the Transformer models implemented in C/C++ using GGML library.
 - [CodeGeeX](https://github.com/THUDM/CodeGeeX) - We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters, pre-trained on a large code corpus of more than 20 programming languages.
 - [CodeT5 and CodeT5+](https://github.com/salesforce/CodeT5) - Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/
 - [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
@@ -876,6 +931,7 @@ This repository contains language models base on Transformer architecture.
 - [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.
 - [NVIDIA Merlin](https://github.com/NVIDIA-Merlin/Merlin) - NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.
 - [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
+- [OpenLLM](https://github.com/bentoml/OpenLLM) - An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.
 - [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
@@ -916,7 +972,9 @@ This repository contains language models base on Transformer architecture.
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 - [DGL](https://github.com/dmlc/dgl) - DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
 - [Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.
+- [embedchain](https://github.com/embedchain/embedchain) - embedchain is a framework to easily create LLM powered bots over any dataset.
 - [evals](https://github.com/openai/evals) - Evals is a framework for evaluating OpenAI models and an open-source registry of benchmarks.
+- [ExLlama](https://github.com/turboderp/exllama) - A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.
 - [Explainpaper](https://www.explainpaper.com) - Upload a paper, highlight confusing text, get an explanation.
 - [FastChat](https://github.com/lm-sys/FastChat) - An open platform for training, serving, and evaluating large language model based chatbots.
 - [FastChat](https://github.com/lm-sys/FastChat) - FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
@@ -935,6 +993,7 @@ This repository contains language models base on Transformer architecture.
 - [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
 - [Lance](https://github.com/lancedb/lance) - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
+- [Language Models](https://github.com/jncraton/languagemodels) - Python building blocks to explore large language models on any computer with 512MB of RAM.
 - [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama) - Independent implementation of LLaMA that is fully open source under the Apache 2.0 license.
 - [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter) - LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of LLaMA model in pure C/C++.
@@ -988,7 +1047,9 @@ This repository contains language models base on Transformer architecture.
 - [transformer-deploy](https://github.com/ELS-RD/transformer-deploy) - Efficient, scalable and enterprise-grade CPU/GPU inference server for Hugging Face transformer models.
 - [tsai](https://github.com/timeseriesAI/tsai) - tsai is an open-source deep learning package built on top of Pytorch & fastai focused on state-of-the-art techniques for time series tasks like classification, regression, forecasting, imputation.
 - [UpTrain](https://github.com/uptrain-ai/uptrain) - UpTrain is an open-source, data-secure tool for ML practitioners to observe and refine their ML models by monitoring their performance, checking for (data) distribution shifts, and collecting edge cases to retrain them upon.
+- [vLLM](https://github.com/vllm-project/vllm) - vLLM is a fast and easy-to-use library for LLM inference and serving.
 - [WeightWatcher](https://github.com/CalculatedContent/WeightWatcher) - WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.
+- [WizardLM](https://github.com/nlpxucan/WizardLM) - WizardLM: An Instruction-following LLM Using Evol-Instruct. At present, our core contributors are preparing the 65B version and we expect to empower WizardLM with the ability to perform instruction evolution itself, aiming to evolve your specific data at a low cost.
 - [xturing](https://github.com/stochasticai/xturing) - xturing provides fast, efficient and simple fine-tuning of LLMs, such as LLaMA, GPT-J, GPT-2, OPT, Cerebras-GPT, Galactica, and more.
 
 # GPU profiling links
@@ -1012,10 +1073,12 @@ This repository contains language models base on Transformer architecture.
 
 # Optimizers links
 
+- [LOMO](https://arxiv.org/abs/2306.09782) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.
 - [Sophia](https://arxiv.org/abs/2305.14342) - Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training
 
 # Dataset links
 
+- [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) - AlpacaEval : An Automatic Evaluator for Instruction-following Language Models.
 - [BIG-bench](https://github.com/google/BIG-bench) - The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench.
 - [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) - CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.
@@ -1037,6 +1100,7 @@ This repository contains language models base on Transformer architecture.
 - [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
+- [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B) - The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.
 

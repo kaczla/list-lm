@@ -1694,7 +1694,10 @@
     {
         "name": "h2ogpt",
         "year": 2023,
-        "publication": null,
+        "publication": {
+            "title": "h2oGPT: Democratizing Large Language Models",
+            "url": "https://arxiv.org/abs/2306.08161"
+        },
         "video": null,
         "code": {
             "title": "GitHub",
@@ -1894,7 +1897,7 @@
         },
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/openlm-research/open_llama_7b_preview_300bt"
+            "url": "https://huggingface.co/openlm-research/open_llama_13b"
         }
     },
     {
@@ -2328,6 +2331,154 @@
         "code": {
             "title": "GitHub",
             "url": "https://github.com/baohaoLiao/mefts"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LongMem",
+        "year": 2023,
+        "publication": {
+            "title": "Augmenting Language Models with Long-Term Memory",
+            "url": "https://arxiv.org/abs/2306.07174"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Victorwz/LongMem"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "SpQR",
+        "year": 2023,
+        "publication": {
+            "title": "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression",
+            "url": "https://arxiv.org/abs/2306.03078"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Vahe1994/SpQR"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "BioMedLM",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - BioMedLM: a Domain-Specific Large Language Model for Biomedical Text",
+            "url": "https://www.mosaicml.com/blog/introducing-pubmed-gpt"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stanford-crfm/BioMedLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stanford-crfm/BioMedLM"
+        }
+    },
+    {
+        "name": "BloombergGPT",
+        "year": 2023,
+        "publication": {
+            "title": "BloombergGPT: A Large Language Model for Finance",
+            "url": "https://arxiv.org/abs/2303.17564"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "FinGPT",
+        "year": 2023,
+        "publication": {
+            "title": "FinGPT: Open-Source Financial Large Language Models",
+            "url": "https://arxiv.org/abs/2306.06031"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ai4finance-foundation/fingpt"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "SqueezeLLM",
+        "year": 2023,
+        "publication": {
+            "title": "SqueezeLLM: Dense-and-Sparse Quantization",
+            "url": "https://export.arxiv.org/abs/2306.07629"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SqueezeAILab/SqueezeLLM"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "WizardLM",
+        "year": 2023,
+        "publication": {
+            "title": "WizardLM: Empowering Large Language Models to Follow Complex Instructions",
+            "url": "https://arxiv.org/abs/2304.12244"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nlpxucan/WizardLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/WizardLM/WizardLM-30B-V1.0"
+        }
+    },
+    {
+        "name": "Orca",
+        "year": 2023,
+        "publication": {
+            "title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+            "url": "https://arxiv.org/abs/2306.07174"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "LongMem",
+        "year": 2023,
+        "publication": {
+            "title": "Augmenting Language Models with Long-Term Memory",
+            "url": "https://arxiv.org/abs/2306.02707"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Inflection-1",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Inflection-1: Pi’s Best-in-Class LLM",
+            "url": "https://inflection.ai/inflection-1"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Kosmos-2",
+        "year": 2023,
+        "publication": {
+            "title": "Kosmos-2: Grounding Multimodal Large Language Models to the World",
+            "url": "https://arxiv.org/abs/2306.14824"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/unilm/tree/master/kosmos-2"
         },
         "model_weights": null
     }
