@@ -459,6 +459,16 @@ This repository contains language models base on Transformer architecture.
   - Publication: [CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780)
   - Code: [GitHub](https://github.com/salesforce/CodeRL)
 
+- LeX-Transformer
+  - Year: 2023
+  - Publication: [A Length-Extrapolatable Transformer](https://arxiv.org/abs/2212.10554)
+  - Code: [GitHub](https://github.com/sunyt32/torchscale)
+
+- Magneto
+  - Year: 2023
+  - Publication: [Foundation Transformers](https://arxiv.org/abs/2210.06423)
+  - Code: [GitHub](https://github.com/sunyt32/torchscale)
+
 - E-SPA (Exponential Signal Preserving Attention)
   - Year: 2023
   - Publication: [Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation](https://arxiv.org/abs/2302.10322)
@@ -893,6 +903,38 @@ This repository contains language models base on Transformer architecture.
   - Year: 2023
   - Publication: [Kosmos-2: Grounding Multimodal Large Language Models to the World](https://arxiv.org/abs/2306.14824)
   - Code: [GitHub](https://github.com/microsoft/unilm/tree/master/kosmos-2)
+  - Model weights: [direct link](https://conversationhub.blob.core.windows.net/beit-share-public/kosmos-2/kosmos-2.pt?sv=2021-10-04&st=2023-06-08T11%3A16%3A02Z&se=2033-06-09T11%3A16%3A00Z&sr=c&sp=r&sig=N4pfCVmSeq4L4tS8QbrFVsX6f6q844eft8xSuXdxU48%3D)
+
+- XGen
+  - Year: 2023
+  - Publication: [Blog - Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length](https://blog.salesforceairesearch.com/xgen/)
+  - Code: [GitHub](https://github.com/salesforce/xGen)
+  - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/xgen-7b-8k-base)
+
+- WizardCoder
+  - Year: 2023
+  - Publication: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568)
+  - Code: [GitHub](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder)
+  - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
+
+- RMT
+  - Year: 2023
+  - Publication: [Scaling Transformer to 1M tokens and beyond with RMT](https://arxiv.org/abs/2304.11062)
+  - Code: [GitHub](https://github.com/booydar/t5-experiments/tree/scaling-report)
+
+- LongNet
+  - Year: 2023
+  - Publication: [LongNet: Scaling Transformers to 1,000,000,000 Tokens](https://arxiv.org/abs/2307.02486)
+  - Code: [GitHub](https://github.com/microsoft/unilm)
+
+- LOMO
+  - Year: 2023
+  - Publication: [Full Parameter Fine-tuning for Large Language Models with Limited Resources](https://arxiv.org/abs/2306.09782)
+  - Code: [GitHub](https://github.com/OpenLMLab/LOMO)
+
+- phi-1
+  - Year: 2023
+  - Publication: [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
 
 # Model links
 
@@ -916,9 +958,11 @@ This repository contains language models base on Transformer architecture.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.
 - [LASSL](https://github.com/lassl/lassl) - LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
+- [Levanter](https://github.com/stanford-crfm/levanter) - Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
+- [LOMO](https://github.com/OpenLMLab/LOMO) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
@@ -934,12 +978,14 @@ This repository contains language models base on Transformer architecture.
 - [OpenLLM](https://github.com/bentoml/OpenLLM) - An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.
 - [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
+- [SeqIO](https://github.com/google/seqio) - Task-based datasets, preprocessing, and evaluation for sequence models.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
 - [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification.
 - [Sockeye](https://github.com/awslabs/sockeye) - Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.
 - [SparseZoo](https://github.com/neuralmagic/sparsezoo) - Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.
 - [SpikeGPT](https://github.com/ridgerchu/SpikeGPT) - SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.
 - [StableLM](https://github.com/stability-AI/stableLM) - StableLM: Stability AI Language Models
+- [t5-experiments](https://github.com/yurakuratov/t5-experiments) - Tools and scripts for experimenting with Transformers: Bert, T5.
 - [t5x](https://github.com/google-research/t5x) - T5X is a modular, composable, research-friendly framework for high-performance, configurable, self-service training, evaluation, and inference of sequence models (starting with language) at many scales.
 - [tasknet](https://github.com/sileod/tasknet) - Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
@@ -958,8 +1004,10 @@ This repository contains language models base on Transformer architecture.
 - [Ambrosia](https://github.com/reactorsh/ambrosia) - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
 - [Aviary](https://github.com/ray-project/aviary) - Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.
 - [bagua](https://github.com/BaguaSys/bagua) - Bagua is a deep learning training acceleration framework for PyTorch
+- [BayLing](https://github.com/ictnlp/BayLing) - BayLing is an instruction-following large language model equipped with advanced language alignment, showing superior capability in English/Chinese generation, instruction following and multi-turn interaction.
 - [BiGS](https://github.com/jxiw/BiGS) - This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
+- [BYOD](https://github.com/neelsjain/BYOD) - A framework for self-supervised model evaluation. In this framework, metrics are defined as invariances and sensitivities that can be checked in a self-supervised fashion using interventions based only on the model in question rather than external labels.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
 - [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
@@ -990,6 +1038,7 @@ This repository contains language models base on Transformer architecture.
 - [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
+- [InternLM](https://github.com/InternLM/InternLM) - InternLM has open-sourced a 7 billion parameter base model and a chat model tailored for practical scenarios.
 - [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
 - [Lance](https://github.com/lancedb/lance) - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
@@ -1106,6 +1155,7 @@ This repository contains language models base on Transformer architecture.
 
 # Documentation links
 
+- [GitHub - labml.ai](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 59 Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
 - [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained) - List of LM papers explained.
 - [Open LLMs](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.

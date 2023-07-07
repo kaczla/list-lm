@@ -1266,6 +1266,34 @@
         "model_weights": null
     },
     {
+        "name": "LeX-Transformer",
+        "year": 2023,
+        "publication": {
+            "title": "A Length-Extrapolatable Transformer",
+            "url": "https://arxiv.org/abs/2212.10554"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sunyt32/torchscale"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "Magneto",
+        "year": 2023,
+        "publication": {
+            "title": "Foundation Transformers",
+            "url": "https://arxiv.org/abs/2210.06423"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sunyt32/torchscale"
+        },
+        "model_weights": null
+    },
+    {
         "name": "E-SPA (Exponential Signal Preserving Attention)",
         "year": 2023,
         "publication": {
@@ -2480,6 +2508,96 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/unilm/tree/master/kosmos-2"
         },
+        "model_weights": {
+            "title": "direct link",
+            "url": "https://conversationhub.blob.core.windows.net/beit-share-public/kosmos-2/kosmos-2.pt?sv=2021-10-04&st=2023-06-08T11%3A16%3A02Z&se=2033-06-09T11%3A16%3A00Z&sr=c&sp=r&sig=N4pfCVmSeq4L4tS8QbrFVsX6f6q844eft8xSuXdxU48%3D"
+        }
+    },
+    {
+        "name": "XGen",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length",
+            "url": "https://blog.salesforceairesearch.com/xgen/"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/xGen"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/xgen-7b-8k-base"
+        }
+    },
+    {
+        "name": "WizardCoder",
+        "year": 2023,
+        "publication": {
+            "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+            "url": "https://arxiv.org/abs/2306.08568"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0"
+        }
+    },
+    {
+        "name": "RMT",
+        "year": 2023,
+        "publication": {
+            "title": "Scaling Transformer to 1M tokens and beyond with RMT",
+            "url": "https://arxiv.org/abs/2304.11062"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/booydar/t5-experiments/tree/scaling-report"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LongNet",
+        "year": 2023,
+        "publication": {
+            "title": "LongNet: Scaling Transformers to 1,000,000,000 Tokens",
+            "url": "https://arxiv.org/abs/2307.02486"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/unilm"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "LOMO",
+        "year": 2023,
+        "publication": {
+            "title": "Full Parameter Fine-tuning for Large Language Models with Limited Resources",
+            "url": "https://arxiv.org/abs/2306.09782"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenLMLab/LOMO"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "phi-1",
+        "year": 2023,
+        "publication": {
+            "title": "Textbooks Are All You Need",
+            "url": "https://arxiv.org/abs/2306.11644"
+        },
+        "video": null,
+        "code": null,
         "model_weights": null
     }
 ]
