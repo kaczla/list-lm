@@ -2599,5 +2599,70 @@
         "video": null,
         "code": null,
         "model_weights": null
+    },
+    {
+        "name": "CodeGen2.5",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - CodeGen2: Lessons for Training LLMs on Programming and Natural Languages",
+            "url": "https://arxiv.org/abs/2305.02309"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeGen2"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codegen25-7b-multi"
+        }
+    },
+    {
+        "name": "MeZO",
+        "year": 2023,
+        "publication": {
+            "title": "Fine-Tuning Language Models with Just Forward Passes",
+            "url": "https://arxiv.org/abs/2305.17333"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/princeton-nlp/MeZO"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "INSTRUCTEVAL",
+        "year": 2023,
+        "publication": {
+            "title": "INSTRUCTEVAL: Towards Holistic Evaluation of Instruction-Tuned Large Language Models",
+            "url": "https://arxiv.org/abs/2306.04757"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/declare-lab/instruct-eval"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/declare-lab/flan-alpaca-xxl"
+        }
+    },
+    {
+        "name": "Aquila",
+        "year": 2023,
+        "publication": {
+            "title": "Post - Aquila Language Model is the first open source language model that supports both Chinese and English knowledge",
+            "url": "https://github.com/FlagAI-Open/FlagAI/blob/e3062883ca5156d5c6f6b1992a5f1a08edbd437c/examples/Aquila/README_en.md"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/FlagAI-Open/FlagAI"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/BAAI/Aquila-7B"
+        }
     }
 ]

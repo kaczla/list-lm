@@ -936,6 +936,29 @@ This repository contains language models base on Transformer architecture.
   - Year: 2023
   - Publication: [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
 
+- CodeGen2.5
+  - Year: 2023
+  - Publication: [Blog - CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309)
+  - Code: [GitHub](https://github.com/salesforce/CodeGen2)
+  - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/codegen25-7b-multi)
+
+- MeZO
+  - Year: 2023
+  - Publication: [Fine-Tuning Language Models with Just Forward Passes](https://arxiv.org/abs/2305.17333)
+  - Code: [GitHub](https://github.com/princeton-nlp/MeZO)
+
+- INSTRUCTEVAL
+  - Year: 2023
+  - Publication: [INSTRUCTEVAL: Towards Holistic Evaluation of Instruction-Tuned Large Language Models](https://arxiv.org/abs/2306.04757)
+  - Code: [GitHub](https://github.com/declare-lab/instruct-eval)
+  - Model weights: [HuggingFace models](https://huggingface.co/declare-lab/flan-alpaca-xxl)
+
+- Aquila
+  - Year: 2023
+  - Publication: [Post - Aquila Language Model is the first open source language model that supports both Chinese and English knowledge](https://github.com/FlagAI-Open/FlagAI/blob/e3062883ca5156d5c6f6b1992a5f1a08edbd437c/examples/Aquila/README_en.md)
+  - Code: [GitHub](https://github.com/FlagAI-Open/FlagAI)
+  - Model weights: [HuggingFace models](https://huggingface.co/BAAI/Aquila-7B)
+
 # Model links
 
 - [C Transformers](https://github.com/marella/ctransformers) - Python bindings for the Transformer models implemented in C/C++ using GGML library.
@@ -1010,6 +1033,7 @@ This repository contains language models base on Transformer architecture.
 - [BYOD](https://github.com/neelsjain/BYOD) - A framework for self-supervised model evaluation. In this framework, metrics are defined as invariances and sensitivities that can be checked in a self-supervised fashion using interventions based only on the model in question rather than external labels.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
+- [COLLIE](https://github.com/princeton-nlp/Collie) - COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.
 - [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
 - [CRITIC](https://github.com/microsoft/ProphetNet/tree/master/CRITIC) - CRITIC empowers LLMs to validate and rectify themselves through interaction with external tools.
 - [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
@@ -1039,6 +1063,7 @@ This repository contains language models base on Transformer architecture.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
 - [InternLM](https://github.com/InternLM/InternLM) - InternLM has open-sourced a 7 billion parameter base model and a chat model tailored for practical scenarios.
+- [L-Eval](https://github.com/openlmlab/leval) - L-Eval: Instituting Standardized Evaluation for Long Context Language Models.
 - [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
 - [Lance](https://github.com/lancedb/lance) - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
@@ -1137,6 +1162,7 @@ This repository contains language models base on Transformer architecture.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
 - [GLGE](https://github.com/microsoft/glge) - This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).
 - [HumanEval-X](https://huggingface.co/datasets/THUDM/humaneval-x) - HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.
+- [InstructEvalImpact](https://huggingface.co/datasets/declare-lab/InstructEvalImpact) - The IMPACT dataset contains 50 human created prompts for each category, 200 in total, to test LLMs general writing ability.
 - [KILT](https://github.com/facebookresearch/KILT) - A Benchmark for Knowledge Intensive Language Tasks.
 - [LIMA](https://huggingface.co/datasets/GAIR/lima) - Dataset for LIMA: Less Is More for Alignment.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
@@ -1155,8 +1181,8 @@ This repository contains language models base on Transformer architecture.
 
 # Documentation links
 
-- [GitHub - labml.ai](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 59 Implementations/tutorials of deep learning papers with side-by-side notes; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
+- [labml.ai Deep Learning Paper Implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 60 Implementations/tutorials of deep learning papers with side-by-side notes.
 - [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained) - List of LM papers explained.
 - [Open LLMs](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated (still actively updated) list of practical guide resources of LLMs.
