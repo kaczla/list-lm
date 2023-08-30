@@ -6,6 +6,9 @@ class ApplicationData(BaseModel):
     description: str
     url: str
 
+    def to_markdown(self) -> str:
+        return f"[{self.name}]({self.url}) - {self.description}"
+
 
 class UrlData(BaseModel):
     title: str

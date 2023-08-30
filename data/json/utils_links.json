@@ -20,9 +20,9 @@
         "url": "https://github.com/ray-project/aviary"
     },
     {
-        "name": "BYOD",
-        "description": "A framework for self-supervised model evaluation. In this framework, metrics are defined as invariances and sensitivities that can be checked in a self-supervised fashion using interventions based only on the model in question rather than external labels.",
-        "url": "https://github.com/neelsjain/BYOD"
+        "name": "bagua",
+        "description": "Bagua is a deep learning training acceleration framework for PyTorch",
+        "url": "https://github.com/BaguaSys/bagua"
     },
     {
         "name": "BayLing",
@@ -35,9 +35,34 @@
         "url": "https://github.com/jxiw/BiGS"
     },
     {
+        "name": "bricks",
+        "description": "Open-source natural language enrichments at your fingertips.",
+        "url": "https://github.com/code-kern-ai/bricks"
+    },
+    {
+        "name": "BYOD",
+        "description": "A framework for self-supervised model evaluation. In this framework, metrics are defined as invariances and sensitivities that can be checked in a self-supervised fashion using interventions based only on the model in question rather than external labels.",
+        "url": "https://github.com/neelsjain/BYOD"
+    },
+    {
+        "name": "ChainForge",
+        "description": "ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.",
+        "url": "https://github.com/ianarawjo/ChainForge"
+    },
+    {
+        "name": "cleanlab",
+        "description": "cleanlab automatically finds and fixes errors in any ML dataset",
+        "url": "https://github.com/cleanlab/cleanlab"
+    },
+    {
         "name": "COLLIE",
         "description": "COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.",
         "url": "https://github.com/princeton-nlp/Collie"
+    },
+    {
+        "name": "Cramming Language Model (Pretraining)",
+        "description": "Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.",
+        "url": "https://github.com/JonasGeiping/cramming"
     },
     {
         "name": "CRITIC",
@@ -50,19 +75,19 @@
         "url": "https://github.com/OpenNMT/CTranslate2"
     },
     {
-        "name": "ChainForge",
-        "description": "ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.",
-        "url": "https://github.com/ianarawjo/ChainForge"
+        "name": "cyclemoid-pytorch",
+        "description": "This is an implementation of the cyclemoid activation function for PyTorch.",
+        "url": "https://github.com/rasbt/cyclemoid-pytorch"
     },
     {
-        "name": "Cramming Language Model (Pretraining)",
-        "description": "Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.",
-        "url": "https://github.com/JonasGeiping/cramming"
+        "name": "dalai",
+        "description": "Run LLaMA and Alpaca on your computer.",
+        "url": "https://github.com/cocktailpeanut/dalai"
     },
     {
-        "name": "DGL",
-        "description": "DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.",
-        "url": "https://github.com/dmlc/dgl"
+        "name": "datasketch",
+        "description": "datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.",
+        "url": "https://github.com/ekzhu/datasketch"
     },
     {
         "name": "DeepSparse",
@@ -75,9 +100,24 @@
         "url": "https://github.com/microsoft/DeepSpeed"
     },
     {
+        "name": "DGL",
+        "description": "DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.",
+        "url": "https://github.com/dmlc/dgl"
+    },
+    {
         "name": "Dolly",
         "description": "Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.",
         "url": "https://github.com/databrickslabs/dolly"
+    },
+    {
+        "name": "embedchain",
+        "description": "embedchain is a framework to easily create LLM powered bots over any dataset.",
+        "url": "https://github.com/embedchain/embedchain"
+    },
+    {
+        "name": "evals",
+        "description": "Evals is a framework for evaluating OpenAI models and an open-source registry of benchmarks.",
+        "url": "https://github.com/openai/evals"
     },
     {
         "name": "ExLlama",
@@ -88,11 +128,6 @@
         "name": "Explainpaper",
         "description": "Upload a paper, highlight confusing text, get an explanation.",
         "url": "https://www.explainpaper.com"
-    },
-    {
-        "name": "FLAML",
-        "description": "A Fast Library for Automated Machine Learning & Tuning.",
-        "url": "https://github.com/microsoft/FLAML"
     },
     {
         "name": "FastChat",
@@ -110,6 +145,11 @@
         "url": "https://github.com/PaddlePaddle/FastDeploy"
     },
     {
+        "name": "FLAML",
+        "description": "A Fast Library for Automated Machine Learning & Tuning.",
+        "url": "https://github.com/microsoft/FLAML"
+    },
+    {
         "name": "FlashAttention",
         "description": "Fast and memory-efficient exact attention.",
         "url": "https://github.com/HazyResearch/flash-attention"
@@ -125,9 +165,9 @@
         "url": "https://github.com/FMInference/FlexGen"
     },
     {
-        "name": "GPT4All",
-        "description": "gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.",
-        "url": "https://github.com/nomic-ai/gpt4all"
+        "name": "ggml",
+        "description": "Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.",
+        "url": "https://github.com/ggerganov/ggml"
     },
     {
         "name": "Gibberish Detector",
@@ -135,14 +175,29 @@
         "url": "https://github.com/domanchi/gibberish-detector"
     },
     {
+        "name": "GPT4All",
+        "description": "gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.",
+        "url": "https://github.com/nomic-ai/gpt4all"
+    },
+    {
         "name": "Guardrails",
         "description": "Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).",
         "url": "https://github.com/ShreyaR/guardrails"
     },
     {
+        "name": "hlb-GPT",
+        "description": "Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.",
+        "url": "https://github.com/tysam-code/hlb-gpt"
+    },
+    {
         "name": "Horovod",
         "description": "Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet",
         "url": "https://github.com/horovod/horovod"
+    },
+    {
+        "name": "incdbscan",
+        "description": "the incremental version of the DBSCAN clustering algorithm",
+        "url": "https://github.com/DataOmbudsman/incdbscan"
     },
     {
         "name": "InternLM",
@@ -153,16 +208,6 @@
         "name": "L-Eval",
         "description": "L-Eval: Instituting Standardized Evaluation for Long Context Language Models.",
         "url": "https://github.com/openlmlab/leval"
-    },
-    {
-        "name": "LLMParser",
-        "description": "LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.",
-        "url": "https://github.com/kyang6/llmparser"
-    },
-    {
-        "name": "LLaMA-Adapter",
-        "description": "LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.",
-        "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
     },
     {
         "name": "Lamini",
@@ -190,19 +235,39 @@
         "url": "https://github.com/Lightning-AI/lit-llama"
     },
     {
+        "name": "LLaMA-Adapter",
+        "description": "LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.",
+        "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
+    },
+    {
+        "name": "llama.cpp",
+        "description": "Inference of LLaMA model in pure C/C++.",
+        "url": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
         "name": "LlamaIndex",
         "description": "LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.",
         "url": "https://github.com/jerryjliu/llama_index"
     },
     {
+        "name": "llm",
+        "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
+        "url": "https://github.com/rustformers/llm"
+    },
+    {
+        "name": "LLMParser",
+        "description": "LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.",
+        "url": "https://github.com/kyang6/llmparser"
+    },
+    {
+        "name": "lm-evaluation-harness",
+        "description": "A framework for few-shot evaluation of autoregressive language models.",
+        "url": "https://github.com/EleutherAI/lm-evaluation-harness"
+    },
+    {
         "name": "Lovely Tensors",
         "description": "Tensors, ready for human consumption.",
         "url": "https://github.com/xl0/lovely-tensors"
-    },
-    {
-        "name": "MLC LLM",
-        "description": "Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.",
-        "url": "https://github.com/mlc-ai/mlc-llm"
     },
     {
         "name": "Macaw-LLM",
@@ -230,6 +295,11 @@
         "url": "https://github.com/kuleshov/minillm"
     },
     {
+        "name": "MLC LLM",
+        "description": "Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.",
+        "url": "https://github.com/mlc-ai/mlc-llm"
+    },
+    {
         "name": "ModelScope",
         "description": "ModelScope is built upon the notion of “Model-as-a-Service” (MaaS). It seeks to bring together most advanced machine learning models from the AI community, and streamlines the process of leveraging AI models in real-world applications. The core ModelScope library open-sourced in this repository provides the interfaces and implementations that allow developers to perform model inference, training and evaluation.",
         "url": "https://github.com/modelscope/modelscope"
@@ -248,6 +318,16 @@
         "name": "Multimodal-GPT",
         "description": "Train a multi-modal chatbot with visual and language instructions!",
         "url": "https://github.com/open-mmlab/Multimodal-GPT"
+    },
+    {
+        "name": "mup",
+        "description": "Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+        "url": "https://github.com/microsoft/mup"
+    },
+    {
+        "name": "nebullvm",
+        "description": "Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.",
+        "url": "https://github.com/nebuly-ai/nebullvm"
     },
     {
         "name": "Ollama",
@@ -280,14 +360,14 @@
         "url": "https://github.com/OpenPipe/OpenPipe"
     },
     {
+        "name": "openplayground",
+        "description": "An LLM playground you can run on your laptop.",
+        "url": "https://github.com/nat/openplayground"
+    },
+    {
         "name": "Otter",
         "description": "Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following ability and in-context learning.",
         "url": "https://github.com/Luodian/otter"
-    },
-    {
-        "name": "PEFT",
-        "description": "Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.",
-        "url": "https://github.com/huggingface/peft"
     },
     {
         "name": "PaLM",
@@ -300,6 +380,21 @@
         "url": "https://github.com/lucidrains/PaLM-rlhf-pytorch"
     },
     {
+        "name": "PEFT",
+        "description": "Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.",
+        "url": "https://github.com/huggingface/peft"
+    },
+    {
+        "name": "privateGPT",
+        "description": "Interact privately with your documents using the power of GPT, 100% privately, no data leaks.",
+        "url": "https://github.com/imartinez/privateGPT"
+    },
+    {
+        "name": "pybaselines",
+        "description": "A Python library of algorithms for the baseline correction of experimental data.",
+        "url": "https://github.com/derb12/pybaselines"
+    },
+    {
         "name": "PyTorch Geometric",
         "description": "PyG (PyTorch Geometric) is a library built upon PyTorch to easily write and train Graph Neural Networks (GNNs) for a wide range of applications related to structured data.",
         "url": "https://github.com/pyg-team/pytorch_geometric"
@@ -310,9 +405,19 @@
         "url": "https://github.com/paulpierre/RasaGPT"
     },
     {
+        "name": "safari",
+        "description": "Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).",
+        "url": "https://github.com/HazyResearch/safari"
+    },
+    {
         "name": "Semantic Kernel",
         "description": "Semantic Kernel (SK) is a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages.",
         "url": "https://github.com/microsoft/semantic-kernel"
+    },
+    {
+        "name": "skorch",
+        "description": "A scikit-learn compatible neural network library that wraps PyTorch.",
+        "url": "https://github.com/skorch-dev/skorch"
     },
     {
         "name": "SparseML",
@@ -328,146 +433,6 @@
         "name": "StarCoder",
         "description": "Home of StarCoder: fine-tuning & inference!",
         "url": "https://github.com/bigcode-project/starcoder"
-    },
-    {
-        "name": "TextBox",
-        "description": "TextBox 2.0 is a text generation library with pre-trained language models.",
-        "url": "https://github.com/RUCAIBox/TextBox"
-    },
-    {
-        "name": "TextReducer",
-        "description": "TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.",
-        "url": "https://github.com/helliun/targetedSummarization"
-    },
-    {
-        "name": "TorchBench",
-        "description": "TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.",
-        "url": "https://github.com/pytorch/benchmark"
-    },
-    {
-        "name": "Training BERT with Compute/Time (Academic) Budget",
-        "description": "Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.",
-        "url": "https://github.com/IntelLabs/academic-budget-bert"
-    },
-    {
-        "name": "UpTrain",
-        "description": "UpTrain is an open-source, data-secure tool for ML practitioners to observe and refine their ML models by monitoring their performance, checking for (data) distribution shifts, and collecting edge cases to retrain them upon.",
-        "url": "https://github.com/uptrain-ai/uptrain"
-    },
-    {
-        "name": "WeightWatcher",
-        "description": "WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.",
-        "url": "https://github.com/CalculatedContent/WeightWatcher"
-    },
-    {
-        "name": "WizardLM",
-        "description": "WizardLM: An Instruction-following LLM Using Evol-Instruct. At present, our core contributors are preparing the 65B version and we expect to empower WizardLM with the ability to perform instruction evolution itself, aiming to evolve your specific data at a low cost.",
-        "url": "https://github.com/nlpxucan/WizardLM"
-    },
-    {
-        "name": "bagua",
-        "description": "Bagua is a deep learning training acceleration framework for PyTorch",
-        "url": "https://github.com/BaguaSys/bagua"
-    },
-    {
-        "name": "bricks",
-        "description": "Open-source natural language enrichments at your fingertips.",
-        "url": "https://github.com/code-kern-ai/bricks"
-    },
-    {
-        "name": "cleanlab",
-        "description": "cleanlab automatically finds and fixes errors in any ML dataset",
-        "url": "https://github.com/cleanlab/cleanlab"
-    },
-    {
-        "name": "cyclemoid-pytorch",
-        "description": "This is an implementation of the cyclemoid activation function for PyTorch.",
-        "url": "https://github.com/rasbt/cyclemoid-pytorch"
-    },
-    {
-        "name": "dalai",
-        "description": "Run LLaMA and Alpaca on your computer.",
-        "url": "https://github.com/cocktailpeanut/dalai"
-    },
-    {
-        "name": "datasketch",
-        "description": "datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.",
-        "url": "https://github.com/ekzhu/datasketch"
-    },
-    {
-        "name": "embedchain",
-        "description": "embedchain is a framework to easily create LLM powered bots over any dataset.",
-        "url": "https://github.com/embedchain/embedchain"
-    },
-    {
-        "name": "evals",
-        "description": "Evals is a framework for evaluating OpenAI models and an open-source registry of benchmarks.",
-        "url": "https://github.com/openai/evals"
-    },
-    {
-        "name": "ggml",
-        "description": "Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.",
-        "url": "https://github.com/ggerganov/ggml"
-    },
-    {
-        "name": "hlb-GPT",
-        "description": "Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.",
-        "url": "https://github.com/tysam-code/hlb-gpt"
-    },
-    {
-        "name": "incdbscan",
-        "description": "the incremental version of the DBSCAN clustering algorithm",
-        "url": "https://github.com/DataOmbudsman/incdbscan"
-    },
-    {
-        "name": "llama.cpp",
-        "description": "Inference of LLaMA model in pure C/C++.",
-        "url": "https://github.com/ggerganov/llama.cpp"
-    },
-    {
-        "name": "llm",
-        "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
-        "url": "https://github.com/rustformers/llm"
-    },
-    {
-        "name": "lm-evaluation-harness",
-        "description": "A framework for few-shot evaluation of autoregressive language models.",
-        "url": "https://github.com/EleutherAI/lm-evaluation-harness"
-    },
-    {
-        "name": "mup",
-        "description": "Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
-        "url": "https://github.com/microsoft/mup"
-    },
-    {
-        "name": "nebullvm",
-        "description": "Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.",
-        "url": "https://github.com/nebuly-ai/nebullvm"
-    },
-    {
-        "name": "openplayground",
-        "description": "An LLM playground you can run on your laptop.",
-        "url": "https://github.com/nat/openplayground"
-    },
-    {
-        "name": "privateGPT",
-        "description": "Interact privately with your documents using the power of GPT, 100% privately, no data leaks.",
-        "url": "https://github.com/imartinez/privateGPT"
-    },
-    {
-        "name": "pybaselines",
-        "description": "A Python library of algorithms for the baseline correction of experimental data.",
-        "url": "https://github.com/derb12/pybaselines"
-    },
-    {
-        "name": "safari",
-        "description": "Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).",
-        "url": "https://github.com/HazyResearch/safari"
-    },
-    {
-        "name": "skorch",
-        "description": "A scikit-learn compatible neural network library that wraps PyTorch.",
-        "url": "https://github.com/skorch-dev/skorch"
     },
     {
         "name": "state-spaces",
@@ -490,9 +455,24 @@
         "url": "https://github.com/j3soon/tbparse"
     },
     {
+        "name": "TextBox",
+        "description": "TextBox 2.0 is a text generation library with pre-trained language models.",
+        "url": "https://github.com/RUCAIBox/TextBox"
+    },
+    {
+        "name": "TextReducer",
+        "description": "TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.",
+        "url": "https://github.com/helliun/targetedSummarization"
+    },
+    {
         "name": "tinygrad",
         "description": "tinygrad is an extremely simple deep-learning framework. It supports both inference and training.",
         "url": "https://github.com/geohot/tinygrad"
+    },
+    {
+        "name": "TorchBench",
+        "description": "TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.",
+        "url": "https://github.com/pytorch/benchmark"
     },
     {
         "name": "torchdistX",
@@ -505,6 +485,11 @@
         "url": "https://github.com/jmschrei/torchegranate"
     },
     {
+        "name": "Training BERT with Compute/Time (Academic) Budget",
+        "description": "Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.",
+        "url": "https://github.com/IntelLabs/academic-budget-bert"
+    },
+    {
         "name": "transformer-deploy",
         "description": "Efficient, scalable and enterprise-grade CPU/GPU inference server for Hugging Face transformer models.",
         "url": "https://github.com/ELS-RD/transformer-deploy"
@@ -515,9 +500,24 @@
         "url": "https://github.com/timeseriesAI/tsai"
     },
     {
+        "name": "UpTrain",
+        "description": "UpTrain is an open-source, data-secure tool for ML practitioners to observe and refine their ML models by monitoring their performance, checking for (data) distribution shifts, and collecting edge cases to retrain them upon.",
+        "url": "https://github.com/uptrain-ai/uptrain"
+    },
+    {
         "name": "vLLM",
         "description": "vLLM is a fast and easy-to-use library for LLM inference and serving.",
         "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+        "name": "WeightWatcher",
+        "description": "WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.",
+        "url": "https://github.com/CalculatedContent/WeightWatcher"
+    },
+    {
+        "name": "WizardLM",
+        "description": "WizardLM: An Instruction-following LLM Using Evol-Instruct. At present, our core contributors are preparing the 65B version and we expect to empower WizardLM with the ability to perform instruction evolution itself, aiming to evolve your specific data at a low cost.",
+        "url": "https://github.com/nlpxucan/WizardLM"
     },
     {
         "name": "xturing",

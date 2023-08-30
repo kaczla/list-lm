@@ -567,8 +567,8 @@
 - FastChat-T5
   - Year: 2023
   - Publication: [Twitter message](https://twitter.com/lmsysorg/status/1652037026705985537)
-  - Model weights: [HuggingFace models](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
   - Code: [GitHub](https://github.com/lm-sys/FastChat)
+  - Model weights: [HuggingFace models](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
 
 - Vicuna
   - Year: 2023
@@ -661,8 +661,8 @@
 - SantaCoder
   - Year: 2023
   - Publication: [SantaCoder: don't reach for the stars!](https://arxiv.org/abs/2301.03988)
-  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/santacoder)
   - Code: [GitHub](https://github.com/bigcode-project/Megatron-LM)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/santacoder)
 
 - CodeGen2
   - Year: 2023
@@ -778,9 +778,8 @@
 - OpenAssistant
   - Year: 2023
   - Publication: [OpenAssistant Conversations -- Democratizing Large Language Model Alignment](https://arxiv.org/abs/2304.07327)
-  - Code: [GitHub](https://github.com/LAION-AI/Open-Assistant)
-  - Model weights: [HuggingFace models](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5)
   - Code: [GitHub](https://github.com/ZrrSkywalker/LLaMA-Adapter)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5)
 
 - RedPajama-INCITE
   - Year: 2023

@@ -30,7 +30,7 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
 
 def convert_markdown_to_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_data(markdown_path)
-    json_data = sorted([data.dict() for data in loaded_data], key=lambda x: x["name"])
+    json_data = sorted([data.dict() for data in loaded_data], key=lambda x: x["name"].lower())
     save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
 
 
@@ -46,3 +46,7 @@ def convert_markdown_to_json_all() -> None:
         "vocabulary_links",
     ]:
         convert_markdown_to_json(Path(f"data/readme/{file_name}.md"), Path(f"data/json/{file_name}.json"))
+
+
+if __name__ == "__main__":
+    convert_markdown_to_json_all()

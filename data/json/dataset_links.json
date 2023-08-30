@@ -20,14 +20,14 @@
         "url": "https://github.com/facebookresearch/cc_net"
     },
     {
-        "name": "DS-1000",
-        "description": "Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.",
-        "url": "https://github.com/HKUNLP/DS-1000"
-    },
-    {
         "name": "Deduplicated CommonCrawl Text",
         "description": "Processed Common Crawl snapshots.",
         "url": "http://statmt.org/ngrams/deduped"
+    },
+    {
+        "name": "DS-1000",
+        "description": "Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.",
+        "url": "https://github.com/HKUNLP/DS-1000"
     },
     {
         "name": "FewGLUE",

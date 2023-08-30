@@ -5,6 +5,11 @@
         "url": "https://github.com/marella/ctransformers"
     },
     {
+        "name": "candle",
+        "description": "Candle is a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use.",
+        "url": "https://github.com/huggingface/candle"
+    },
+    {
         "name": "CodeGeeX",
         "description": "We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters, pre-trained on a large code corpus of more than 20 programming languages.",
         "url": "https://github.com/THUDM/CodeGeeX"
@@ -45,14 +50,14 @@
         "url": "https://github.com/facebookresearch/fairscale"
     },
     {
-        "name": "FastSeq",
-        "description": "FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.",
-        "url": "https://github.com/microsoft/fastseq"
-    },
-    {
         "name": "FasterTransformer",
         "description": "This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.",
         "url": "https://github.com/NVIDIA/FasterTransformer"
+    },
+    {
+        "name": "FastSeq",
+        "description": "FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.",
+        "url": "https://github.com/microsoft/fastseq"
     },
     {
         "name": "FlagAI",
@@ -75,6 +80,11 @@
         "url": "https://github.com/h2oai/h2o-llmstudio"
     },
     {
+        "name": "h2oGPT",
+        "description": "h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.",
+        "url": "https://github.com/h2oai/h2ogpt"
+    },
+    {
         "name": "JARVIS",
         "description": "JARVIS, a system to connect LLMs with ML community.",
         "url": "https://github.com/microsoft/JARVIS"
@@ -88,21 +98,6 @@
         "name": "LASSL",
         "description": "LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.",
         "url": "https://github.com/lassl/lassl"
-    },
-    {
-        "name": "LLM Foundry",
-        "description": "This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.",
-        "url": "https://github.com/mosaicml/llm-foundry"
-    },
-    {
-        "name": "LMFlow",
-        "description": "An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.",
-        "url": "https://github.com/OptimalScale/LMFlow"
-    },
-    {
-        "name": "LOMO",
-        "description": "LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.",
-        "url": "https://github.com/OpenLMLab/LOMO"
     },
     {
         "name": "Latent Diffusion Models",
@@ -120,14 +115,24 @@
         "url": "https://github.com/Oneflow-Inc/libai"
     },
     {
+        "name": "LLM Foundry",
+        "description": "This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.",
+        "url": "https://github.com/mosaicml/llm-foundry"
+    },
+    {
+        "name": "LMFlow",
+        "description": "An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.",
+        "url": "https://github.com/OptimalScale/LMFlow"
+    },
+    {
+        "name": "LOMO",
+        "description": "LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.",
+        "url": "https://github.com/OpenLMLab/LOMO"
+    },
+    {
         "name": "LongT5",
         "description": "LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.",
         "url": "https://github.com/google-research/longt5"
-    },
-    {
-        "name": "MMF",
-        "description": "MMF is a modular framework for vision and language multimodal research",
-        "url": "https://github.com/facebookresearch/mmf"
     },
     {
         "name": "MaxText",
@@ -135,89 +140,19 @@
         "url": "https://github.com/google/maxtext"
     },
     {
-        "name": "Mosaic composer",
-        "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
-        "url": "https://github.com/mosaicml/composer"
-    },
-    {
-        "name": "NVIDIA Megatron-LM",
-        "description": "Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.",
-        "url": "https://github.com/NVIDIA/Megatron-LM"
-    },
-    {
-        "name": "NVIDIA Merlin",
-        "description": "NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.",
-        "url": "https://github.com/NVIDIA-Merlin/Merlin"
-    },
-    {
-        "name": "NVIDIA NeMo",
-        "description": "NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).",
-        "url": "https://github.com/NVIDIA/NeMo"
-    },
-    {
-        "name": "OSLO",
-        "description": "OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.",
-        "url": "https://github.com/EleutherAI/oslo"
-    },
-    {
-        "name": "OpenLLM",
-        "description": "An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.",
-        "url": "https://github.com/bentoml/OpenLLM"
-    },
-    {
-        "name": "RWKV",
-        "description": "RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
-        "url": "https://github.com/BlinkDL/RWKV-LM"
-    },
-    {
-        "name": "SeqIO",
-        "description": "Task-based datasets, preprocessing, and evaluation for sequence models.",
-        "url": "https://github.com/google/seqio"
-    },
-    {
-        "name": "Sockeye",
-        "description": "Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.",
-        "url": "https://github.com/awslabs/sockeye"
-    },
-    {
-        "name": "SparseZoo",
-        "description": "Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.",
-        "url": "https://github.com/neuralmagic/sparsezoo"
-    },
-    {
-        "name": "SpikeGPT",
-        "description": "SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.",
-        "url": "https://github.com/ridgerchu/SpikeGPT"
-    },
-    {
-        "name": "StableLM",
-        "description": "StableLM: Stability AI Language Models",
-        "url": "https://github.com/stability-AI/stableLM"
-    },
-    {
-        "name": "TorchScale",
-        "description": "TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.",
-        "url": "https://github.com/microsoft/torchscale"
-    },
-    {
-        "name": "Trankit",
-        "description": "A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing",
-        "url": "https://github.com/nlp-uoregon/trankit"
-    },
-    {
-        "name": "candle",
-        "description": "Candle is a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use.",
-        "url": "https://github.com/huggingface/candle"
-    },
-    {
-        "name": "h2oGPT",
-        "description": "h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.",
-        "url": "https://github.com/h2oai/h2ogpt"
-    },
-    {
         "name": "metaseq",
         "description": "A codebase for working with Open Pre-trained Transformers.",
         "url": "https://github.com/facebookresearch/metaseq"
+    },
+    {
+        "name": "MMF",
+        "description": "MMF is a modular framework for vision and language multimodal research",
+        "url": "https://github.com/facebookresearch/mmf"
+    },
+    {
+        "name": "Mosaic composer",
+        "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
+        "url": "https://github.com/mosaicml/composer"
     },
     {
         "name": "multimodal",
@@ -240,6 +175,41 @@
         "url": "https://github.com/PiotrNawrot/nanoT5"
     },
     {
+        "name": "NVIDIA Megatron-LM",
+        "description": "Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.",
+        "url": "https://github.com/NVIDIA/Megatron-LM"
+    },
+    {
+        "name": "NVIDIA Merlin",
+        "description": "NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.",
+        "url": "https://github.com/NVIDIA-Merlin/Merlin"
+    },
+    {
+        "name": "NVIDIA NeMo",
+        "description": "NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).",
+        "url": "https://github.com/NVIDIA/NeMo"
+    },
+    {
+        "name": "OpenLLM",
+        "description": "An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.",
+        "url": "https://github.com/bentoml/OpenLLM"
+    },
+    {
+        "name": "OSLO",
+        "description": "OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.",
+        "url": "https://github.com/EleutherAI/oslo"
+    },
+    {
+        "name": "RWKV",
+        "description": "RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
+        "url": "https://github.com/BlinkDL/RWKV-LM"
+    },
+    {
+        "name": "SeqIO",
+        "description": "Task-based datasets, preprocessing, and evaluation for sequence models.",
+        "url": "https://github.com/google/seqio"
+    },
+    {
         "name": "simpletransformers",
         "description": "This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.",
         "url": "https://github.com/ThilinaRajapakse/simpletransformers"
@@ -248,6 +218,26 @@
         "name": "small-text",
         "description": "Small-Text provides state-of-the-art Active Learning for Text Classification.",
         "url": "https://github.com/webis-de/small-text"
+    },
+    {
+        "name": "Sockeye",
+        "description": "Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.",
+        "url": "https://github.com/awslabs/sockeye"
+    },
+    {
+        "name": "SparseZoo",
+        "description": "Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.",
+        "url": "https://github.com/neuralmagic/sparsezoo"
+    },
+    {
+        "name": "SpikeGPT",
+        "description": "SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.",
+        "url": "https://github.com/ridgerchu/SpikeGPT"
+    },
+    {
+        "name": "StableLM",
+        "description": "StableLM: Stability AI Language Models",
+        "url": "https://github.com/stability-AI/stableLM"
     },
     {
         "name": "t5-experiments",
@@ -263,6 +253,16 @@
         "name": "tasknet",
         "description": "Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.",
         "url": "https://github.com/sileod/tasknet"
+    },
+    {
+        "name": "TorchScale",
+        "description": "TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.",
+        "url": "https://github.com/microsoft/torchscale"
+    },
+    {
+        "name": "Trankit",
+        "description": "A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing",
+        "url": "https://github.com/nlp-uoregon/trankit"
     },
     {
         "name": "transformers",

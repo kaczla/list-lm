@@ -5,6 +5,11 @@
         "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png"
     },
     {
+        "name": "labml.ai Deep Learning Paper Implementations",
+        "description": "60 Implementations/tutorials of deep learning papers with side-by-side notes.",
+        "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+    },
+    {
         "name": "ML Papers Explained",
         "description": "List of LM papers explained.",
         "url": "https://github.com/dair-ai/ML-Papers-Explained"
@@ -38,10 +43,5 @@
         "name": "Understanding and Coding the Self-Attention Mechanism of Large Language Models From Scratch",
         "description": "Understanding how self-attention works from scratch.",
         "url": "https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html"
-    },
-    {
-        "name": "labml.ai Deep Learning Paper Implementations",
-        "description": "60 Implementations/tutorials of deep learning papers with side-by-side notes.",
-        "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
     }
 ]

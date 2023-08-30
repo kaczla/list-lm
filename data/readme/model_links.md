@@ -14,7 +14,7 @@
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.
 - [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) - H2O LLM Studio, a framework and no-code GUI designed for fine-tuning state-of-the-art large language models (LLMs).
-- [h2oGPT](https://github.com/h2oai/h2ogpt)- h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.
+- [h2oGPT](https://github.com/h2oai/h2ogpt) - h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.
 - [JARVIS](https://github.com/microsoft/JARVIS) - JARVIS, a system to connect LLMs with ML community.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.
 - [LASSL](https://github.com/lassl/lassl) - LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.

@@ -1,13 +1,16 @@
 import json
+import logging
 import re
 from pathlib import Path
 
 from list_lm.data import ModelInfo, UrlData
 
+LOGGER = logging.getLogger(__name__)
+
 RGX_URL_MARKDOWN = re.compile(r"^\[(?P<title>[^]]+)\]\((?P<url>.+?)\)$")
 
 
-def group_elements(text: list[str], prefix_elements_separator: str = "- ") -> list[list[str]]:
+def group_into_model_info_data(text: list[str], prefix_elements_separator: str = "- ") -> list[list[str]]:
     elements_text: list[list[str]] = []
     element_text: list[str] = []
     for line in text:
@@ -24,25 +27,6 @@ def group_elements(text: list[str], prefix_elements_separator: str = "- ") -> li
     return elements_text
 
 
-def read_section_elements(readme_file_path: Path, section_name: str) -> list[list[str]]:
-    found_section = False
-    text = []
-    for line in readme_file_path.read_text().splitlines():
-        if not line:
-            continue
-
-        if found_section:
-            if line.startswith("#"):
-                break
-
-            text.append(line)
-
-        elif line.startswith(f"# {section_name}"):
-            found_section = True
-
-    return group_elements(text)
-
-
 def parse_url_data(text: str) -> UrlData:
     match = RGX_URL_MARKDOWN.match(text)
     if not match:
@@ -53,13 +37,16 @@ def parse_url_data(text: str) -> UrlData:
     return UrlData(title=title, url=url)
 
 
-def parse_element(element_text: list[str]) -> ModelInfo:
-    name = element_text[0][1:].strip()
+def parse_single_model_info(element_text: list[str]) -> ModelInfo:
+    name = element_text[0].strip().lstrip("-").strip()
     data: dict = {}
     for text in element_text[1:]:
         text = text.strip().lstrip("-").strip()
+        if not text:
+            continue
+
         if ":" not in text:
-            raise RuntimeError(f"Cannot parse element: {text} in {element_text}")
+            raise RuntimeError(f"Cannot parse element: {repr(text)} in {element_text}")
 
         key, value = text.split(":", maxsplit=1)
         key = key.lower().strip()
@@ -75,21 +62,20 @@ def parse_element(element_text: list[str]) -> ModelInfo:
     return ModelInfo(name=name, **data)
 
 
-def parse_elements(elements_text: list[list[str]]) -> list[ModelInfo]:
-    return [parse_element(element_text) for element_text in elements_text]
+def parse_markdown_to_model_info_list(markdown_path: Path) -> list[ModelInfo]:
+    elements_text = group_into_model_info_data(markdown_path.read_text().splitlines())
+    return [parse_single_model_info(element_text) for element_text in elements_text]
 
 
-def main(readme_file_path: Path, section_name: str, save_file_path: Path) -> None:
-    elements_text = read_section_elements(readme_file_path, section_name)
-    parsed_elements = parse_elements(elements_text)
-    save_file_path.write_text(
-        json.dumps(
-            [parsed_element.dict() for parsed_element in parsed_elements],
-            ensure_ascii=False,
-            indent=4,
-        )
-    )
+def convert_markdown_to_json(markdown_path: Path, save_path: Path) -> None:
+    loaded_data = parse_markdown_to_model_info_list(markdown_path)
+    json_data = [data.dict() for data in loaded_data]
+    save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
+
+
+def convert_markdown_to_json_all() -> None:
+    convert_markdown_to_json(Path("data/readme/language_models.md"), Path("data/json/model_data_list.json"))
 
 
 if __name__ == "__main__":
-    main(Path("README.md"), "Model lists", Path("model_data_list.json"))
+    convert_markdown_to_json_all()
