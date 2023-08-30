@@ -1,0 +1,9 @@
+- [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
+- [labml.ai Deep Learning Paper Implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 60 Implementations/tutorials of deep learning papers with side-by-side notes.
+- [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained) - List of LM papers explained.
+- [Open LLMs](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.
+- [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated (still actively updated) list of practical guide resources of LLMs.
+- [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architecture from the code.
+- [Transformer models: an introduction and catalog, 2023 Edition](https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376) - An introduction and catalog of Transformer models.
+- [Transformers from Scratch](https://e2eml.school/transformers.html) - Explanation of Transformer architecture.
+- [Understanding and Coding the Self-Attention Mechanism of Large Language Models From Scratch](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) - Understanding how self-attention works from scratch.

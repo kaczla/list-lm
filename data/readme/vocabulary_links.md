@@ -1,0 +1,3 @@
+- [SentencePiece](https://github.com/google/sentencepiece) - SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training. SentencePiece implements subword units (e.g., byte-pair-encoding (BPE) and unigram language model ) with the extension of direct training from raw sentences.
+- [tiktoken](https://github.com/openai/tiktoken) - tiktoken is a fast BPE tokeniser for use with OpenAI's models.
+- [tokenizers](https://github.com/huggingface/tokenizers) - Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.

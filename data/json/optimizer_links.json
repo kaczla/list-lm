@@ -1,0 +1,12 @@
+[
+    {
+        "name": "LOMO",
+        "description": "LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.",
+        "url": "https://arxiv.org/abs/2306.09782"
+    },
+    {
+        "name": "Sophia",
+        "description": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
+        "url": "https://arxiv.org/abs/2305.14342"
+    }
+]

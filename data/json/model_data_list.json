@@ -2652,7 +2652,7 @@
         "name": "Aquila",
         "year": 2023,
         "publication": {
-            "title": "Post - Aquila Language Model is the first open source language model that supports both Chinese and English knowledge",
+            "title": "README - Aquila Language Model is the first open source language model that supports both Chinese and English knowledge",
             "url": "https://github.com/FlagAI-Open/FlagAI/blob/e3062883ca5156d5c6f6b1992a5f1a08edbd437c/examples/Aquila/README_en.md"
         },
         "video": null,
@@ -2663,6 +2663,212 @@
         "model_weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/BAAI/Aquila-7B"
+        }
+    },
+    {
+        "name": "PolyLM",
+        "year": 2023,
+        "publication": {
+            "title": "PolyLM: An Open Source Polyglot Large Language Model",
+            "url": "https://arxiv.org/abs/2307.06018"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/DAMO-NLP-MT/PolyLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/DAMO-NLP-MT/polylm-13b"
+        }
+    },
+    {
+        "name": "Petals",
+        "year": 2023,
+        "publication": {
+            "title": "Petals: Collaborative Inference and Fine-tuning of Large Models",
+            "url": "https://arxiv.org/abs/2209.01188"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigscience-workshop/petals"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "PLBART",
+        "year": 2023,
+        "publication": {
+            "title": "Unified Pre-training for Program Understanding and Generation",
+            "url": "https://arxiv.org/abs/2103.06333"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/wasiahmad/PLBART"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://github.com/wasiahmad/PLBART/tree/9bf5e12bb7374218c21546aa31020ef102a151e7#fine-tuning"
+        }
+    },
+    {
+        "name": "LongLLaMA",
+        "year": 2023,
+        "publication": {
+            "title": "Focused Transformer: Contrastive Training for Context Scaling",
+            "url": "https://arxiv.org/abs/2307.03170"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/CStanKonrad/long_llama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/syzymon/long_llama_3b"
+        }
+    },
+    {
+        "name": "MPT-7B-8k",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Announcing MPT-7B-8K: 8K Context Length for Document Understanding",
+            "url": "https://www.mosaicml.com/blog/long-context-mpt-7b-8k"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/CStanKonrad/long_llama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mpt-7b-8k"
+        }
+    },
+    {
+        "name": "SQLCoder",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Open-sourcing SQLCoder: a state-of-the-art LLM for SQL generation",
+            "url": "https://defog.ai/blog/open-sourcing-sqlcoder/"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/defog-ai/sqlcoder"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/defog/sqlcoder"
+        }
+    },
+    {
+        "name": "Llama 2",
+        "year": 2023,
+        "publication": {
+            "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+            "url": "https://arxiv.org/abs/2307.09288"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/llama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Llama-2-7b"
+        }
+    },
+    {
+        "name": "BTLM-3B-8k",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - BTLM-3B-8K: 7B Performance in a 3 Billion Parameter Model",
+            "url": "https://www.cerebras.net/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cerebras/btlm-3b-8k-base"
+        }
+    },
+    {
+        "name": "Alfred-40B-0723",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing Alfred-40B-0723",
+            "url": "https://www.lighton.ai/blog/lighton-s-blog-4/introducing-alfred-40b-0723-38"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lightonai/alfred-40b-0723"
+        }
+    },
+    {
+        "name": "PanGu-Coder2",
+        "year": 2023,
+        "publication": {
+            "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+            "url": "https://arxiv.org/abs/2307.14936"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "Qwen-7B",
+        "year": 2023,
+        "publication": {
+            "title": "README - Qwen-7B is a Transformer-based large language model, which is pretrained on a large volume of data",
+            "url": "https://github.com/QwenLM/Qwen-7B/tree/96d10ebc9c6c170d294f2014f1b6926c9e80c95b"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen-7B"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen-7B"
+        }
+    },
+    {
+        "name": "Giraffe",
+        "year": 2023,
+        "publication": {
+            "title": "Giraffe: Adventures in Expanding Context Lengths in LLMs",
+            "url": "https://arxiv.org/abs/2308.10882"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/abacusai/Long-Context"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/abacusai/Giraffe-v2-13b-32k"
+        }
+    },
+    {
+        "name": "Code Llama",
+        "year": 2023,
+        "publication": {
+            "title": "Code Llama: Open Foundation Models for Code",
+            "url": "https://arxiv.org/abs/2308.12950"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/codellama"
+        },
+        "model_weights": {
+            "title": "Direct link",
+            "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/"
         }
     }
 ]

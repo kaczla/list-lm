@@ -81,12 +81,7 @@ def sort_links(text: List[str]) -> List[str]:
         if start_bracket_idx < 0 or end_bracket_idx < 0:
             link_with_names.append(("", i_link_text))
         else:
-            link_with_names.append(
-                (
-                    i_link_text[start_bracket_idx + 1 : end_bracket_idx].lower(),
-                    i_link_text,
-                )
-            )
+            link_with_names.append((i_link_text[start_bracket_idx + 1 : end_bracket_idx].lower(), i_link_text,))
     link_with_names.sort(key=lambda x: x[0])
     return [text for _, text in link_with_names]
 
@@ -94,21 +89,12 @@ def sort_links(text: List[str]) -> List[str]:
 def clean_markdown_link(link_text: str) -> str:
     start_name_index, end_name_index = link_text.find("["), link_text.find("]")
     start_url_index, end_url_index = link_text.rfind("("), link_text.rfind(")")
-    if (
-        start_name_index < 0
-        or end_name_index < 0
-        or start_url_index < 0
-        or end_url_index < 0
-    ):
-        LOGGER.warning(
-            f"Cannot detect name and URL from markdown link for: {repr(link_text)}"
-        )
+    if start_name_index < 0 or end_name_index < 0 or start_url_index < 0 or end_url_index < 0:
+        LOGGER.warning(f"Cannot detect name and URL from markdown link for: {repr(link_text)}")
         return link_text
 
     link_prefix = link_text[:start_name_index] if start_name_index > 0 else ""
-    link_suffix = (
-        link_text[end_url_index + 1 :] if (end_url_index + 1) < len(link_text) else ""
-    )
+    link_suffix = link_text[end_url_index + 1 :] if (end_url_index + 1) < len(link_text) else ""
     link_name = link_text[start_name_index + 1 : end_name_index].strip()
     link_url = link_text[start_url_index + 1 : end_url_index].strip()
     if link_url.endswith("/"):
@@ -125,9 +111,7 @@ def clean_text(text: List[str], is_link: bool) -> List[str]:
             separator = " - "
             count_separator = i_text.count(separator)
             if count_separator != 1:
-                LOGGER.warning(
-                    f"Found {count_separator} link-text separator - expected 1 in {repr(i_text)}"
-                )
+                LOGGER.warning(f"Found {count_separator} link-text separator - expected 1 in {repr(i_text)}")
                 cleaned_text.append(i_text)
                 continue
 
