@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List
 
 LOGGER = logging.getLogger(__name__)
 
@@ -11,7 +8,7 @@ LOGGER = logging.getLogger(__name__)
 @dataclass
 class Section:
     name: str
-    text: List[str]
+    text: list[str]
 
     def text_to_line(self) -> str:
         return "\n".join(self.text)
@@ -23,7 +20,7 @@ class Section:
         return text
 
 
-def parse_section(text: List[str]) -> Section:
+def parse_section(text: list[str]) -> Section:
     section_name = text.pop(0)[1:].strip()
 
     # Find empty lines at the beginning
@@ -55,8 +52,9 @@ def parse_section(text: List[str]) -> Section:
     return Section(name=section_name, text=text)
 
 
-def read_readme(file_path: Path) -> List[Section]:
-    sections, text_lines = [], []
+def read_readme(file_path: Path) -> list[Section]:
+    sections: list[Section] = []
+    text_lines: list[str] = []
 
     for line in file_path.read_text().split("\n"):
         if line.startswith("# ") and text_lines:
@@ -73,7 +71,7 @@ def read_readme(file_path: Path) -> List[Section]:
     return sections
 
 
-def sort_links(text: List[str]) -> List[str]:
+def sort_links(text: list[str]) -> list[str]:
     link_with_names = []
     for i_link_text in text:
         start_bracket_idx = i_link_text.find("[")
@@ -81,7 +79,12 @@ def sort_links(text: List[str]) -> List[str]:
         if start_bracket_idx < 0 or end_bracket_idx < 0:
             link_with_names.append(("", i_link_text))
         else:
-            link_with_names.append((i_link_text[start_bracket_idx + 1 : end_bracket_idx].lower(), i_link_text,))
+            link_with_names.append(
+                (
+                    i_link_text[start_bracket_idx + 1 : end_bracket_idx].lower(),
+                    i_link_text,
+                )
+            )
     link_with_names.sort(key=lambda x: x[0])
     return [text for _, text in link_with_names]
 
@@ -103,7 +106,7 @@ def clean_markdown_link(link_text: str) -> str:
     return f"{link_prefix}[{link_name}]({link_url}){link_suffix}"
 
 
-def clean_text(text: List[str], is_link: bool) -> List[str]:
+def clean_text(text: list[str], is_link: bool) -> list[str]:
     cleaned_text = []
     for i_text in text:
         i_text = i_text.strip()
@@ -124,7 +127,7 @@ def clean_text(text: List[str], is_link: bool) -> List[str]:
     return cleaned_text
 
 
-def process_sections_links(sections: List[Section], sort: bool = True) -> List[Section]:
+def process_sections_links(sections: list[Section], sort: bool = True) -> list[Section]:
     processed_sections = []
 
     for section in sections:
@@ -140,7 +143,7 @@ def process_sections_links(sections: List[Section], sort: bool = True) -> List[S
     return processed_sections
 
 
-def write_readme(sections: List[Section], save_path: Path) -> None:
+def write_readme(sections: list[Section], save_path: Path) -> None:
     LOGGER.info(f"Writing into: {save_path}")
     text_to_save = "\n".join([section.to_text() for section in sections])
     save_path.write_text(text_to_save)
