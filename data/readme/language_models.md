@@ -572,8 +572,8 @@
 
 - Vicuna
   - Year: 2023
-  - Publication: [Blog - Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality](https://vicuna.lmsys.org/)
-  - Model weights: [HuggingFace models](https://huggingface.co/lmsys/vicuna-13b-delta-v1.1)
+  - Publication: [Blog - Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality](https://lmsys.org/blog/2023-03-30-vicuna/)
+  - Model weights: [HuggingFace models](https://huggingface.co/lmsys/vicuna-7b-v1.5)
 
 - GPT4All-J
   - Year: 2023
@@ -600,7 +600,7 @@
 - OpenLLaMA
   - Year: 2023
   - Code: [GitHub](https://github.com/openlm-research/open_llama)
-  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b)
+  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b_v2)
 
 - ReplitLM
   - Year: 2023
@@ -905,7 +905,7 @@
 - WizardCoder
   - Year: 2023
   - Publication: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568)
-  - Code: [GitHub](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder)
+  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
   - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 
 - RMT
@@ -1022,3 +1022,35 @@
   - Publication: [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950)
   - Code: [GitHub](https://github.com/facebookresearch/codellama)
   - Model weights: [Direct link](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
+
+- Palmyra
+  - Year: 2023
+  - Publication: [Blog - Palmyra LLMs empower secure, enterprise-grade generative AI for business](https://writer.com/blog/palmyra/)
+  - Model weights: [HuggingFace models](https://huggingface.co/Writer/palmyra-large)
+
+- Unlimiformer
+  - Year: 2023
+  - Publication: [Unlimiformer: Long-Range Transformers with Unlimited Length Input](https://arxiv.org/abs/2305.01625)
+  - Code: [GitHub](https://github.com/abertsch72/unlimiformer)
+  - Model weights: [HuggingFace models](https://huggingface.co/abertsch/unlimiformer-bart-booksum-retrieval)
+
+- Baby-CoThought
+  - Year: 2023
+  - Publication: [Baby's CoThought: Leveraging Large Language Models for Enhanced Reasoning in Compact Models](https://arxiv.org/abs/2308.01684)
+  - Code: [GitHub](https://github.com/oooranz/Baby-CoThought)
+  - Model weights: [HuggingFace models](https://huggingface.co/yaanhaan/Baby-CoThought)
+
+- StableCode Complete Alpha
+  - Year: 2023
+  - Publication: [Blog - Announcing StableCode](https://stability.ai/blog/stablecode-llm-generative-ai-coding)
+  - Model weights: [HuggingFace models](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b)
+
+- Claude Instant 1.2
+  - Year: 2023
+  - Publication: [Blog - Releasing Claude Instant 1.2](https://www.anthropic.com/index/releasing-claude-instant-1-2)
+
+- WizardMath
+  - Year: 2023
+  - Publication: [WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583)
+  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardMath-7B-V1.0)

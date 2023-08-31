@@ -3,6 +3,7 @@
 - [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) - CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.
 - [Deduplicated CommonCrawl Text](http://statmt.org/ngrams/deduped) - Processed Common Crawl snapshots.
+- [Dolma](https://huggingface.co/datasets/allenai/dolma) - Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.

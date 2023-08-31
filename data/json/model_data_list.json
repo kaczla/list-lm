@@ -1603,13 +1603,13 @@
         "year": 2023,
         "publication": {
             "title": "Blog - Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality",
-            "url": "https://vicuna.lmsys.org/"
+            "url": "https://lmsys.org/blog/2023-03-30-vicuna/"
         },
         "video": null,
         "code": null,
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/lmsys/vicuna-13b-delta-v1.1"
+            "url": "https://huggingface.co/lmsys/vicuna-7b-v1.5"
         }
     },
     {
@@ -1685,7 +1685,7 @@
         },
         "model_weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/openlm-research/open_llama_7b"
+            "url": "https://huggingface.co/openlm-research/open_llama_7b_v2"
         }
     },
     {
@@ -2540,7 +2540,7 @@
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder"
+            "url": "https://github.com/nlpxucan/WizardLM"
         },
         "model_weights": {
             "title": "HuggingFace models",
@@ -2869,6 +2869,96 @@
         "model_weights": {
             "title": "Direct link",
             "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/"
+        }
+    },
+    {
+        "name": "Palmyra",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Palmyra LLMs empower secure, enterprise-grade generative AI for business",
+            "url": "https://writer.com/blog/palmyra/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Writer/palmyra-large"
+        }
+    },
+    {
+        "name": "Unlimiformer",
+        "year": 2023,
+        "publication": {
+            "title": "Unlimiformer: Long-Range Transformers with Unlimited Length Input",
+            "url": "https://arxiv.org/abs/2305.01625"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/abertsch72/unlimiformer"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/abertsch/unlimiformer-bart-booksum-retrieval"
+        }
+    },
+    {
+        "name": "Baby-CoThought",
+        "year": 2023,
+        "publication": {
+            "title": "Baby's CoThought: Leveraging Large Language Models for Enhanced Reasoning in Compact Models",
+            "url": "https://arxiv.org/abs/2308.01684"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/oooranz/Baby-CoThought"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/yaanhaan/Baby-CoThought"
+        }
+    },
+    {
+        "name": "StableCode Complete Alpha",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Announcing StableCode",
+            "url": "https://stability.ai/blog/stablecode-llm-generative-ai-coding"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stabilityai/stablecode-completion-alpha-3b"
+        }
+    },
+    {
+        "name": "Claude Instant 1.2",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Releasing Claude Instant 1.2",
+            "url": "https://www.anthropic.com/index/releasing-claude-instant-1-2"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": null
+    },
+    {
+        "name": "WizardMath",
+        "year": 2023,
+        "publication": {
+            "title": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+            "url": "https://arxiv.org/abs/2308.09583"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nlpxucan/WizardLM"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0"
         }
     }
 ]

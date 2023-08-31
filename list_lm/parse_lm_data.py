@@ -67,15 +67,17 @@ def parse_markdown_to_model_info_list(markdown_path: Path) -> list[ModelInfo]:
     return [parse_single_model_info(element_text) for element_text in elements_text]
 
 
-def convert_markdown_to_json(markdown_path: Path, save_path: Path) -> None:
+def convert_model_info_markdown_to_model_info_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_model_info_list(markdown_path)
     json_data = [data.dict() for data in loaded_data]
     save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
 
 
-def convert_markdown_to_json_all() -> None:
-    convert_markdown_to_json(Path("data/readme/language_models.md"), Path("data/json/model_data_list.json"))
+def convert_model_info_markdown_to_model_info_json_all() -> None:
+    convert_model_info_markdown_to_model_info_json(
+        Path("data/readme/language_models.md"), Path("data/json/model_data_list.json")
+    )
 
 
 if __name__ == "__main__":
-    convert_markdown_to_json_all()
+    convert_model_info_markdown_to_model_info_json_all()

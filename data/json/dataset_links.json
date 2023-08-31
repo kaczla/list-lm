@@ -25,6 +25,11 @@
         "url": "http://statmt.org/ngrams/deduped"
     },
     {
+        "name": "Dolma",
+        "description": "Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.",
+        "url": "https://huggingface.co/datasets/allenai/dolma"
+    },
+    {
         "name": "DS-1000",
         "description": "Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.",
         "url": "https://github.com/HKUNLP/DS-1000"

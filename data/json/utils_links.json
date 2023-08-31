@@ -15,6 +15,11 @@
         "url": "https://github.com/reactorsh/ambrosia"
     },
     {
+        "name": "AutoChain",
+        "description": "AutoChain: Build lightweight, extensible, and testable LLM Agents",
+        "url": "https://github.com/Forethought-Technologies/AutoChain"
+    },
+    {
         "name": "Aviary",
         "description": "Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.",
         "url": "https://github.com/ray-project/aviary"
@@ -38,6 +43,11 @@
         "name": "bricks",
         "description": "Open-source natural language enrichments at your fingertips.",
         "url": "https://github.com/code-kern-ai/bricks"
+    },
+    {
+        "name": "Burn",
+        "description": "Burn - A Flexible and Comprehensive Deep Learning Framework in Rust",
+        "url": "https://github.com/burn-rs/burn"
     },
     {
         "name": "BYOD",
@@ -235,6 +245,11 @@
         "url": "https://github.com/Lightning-AI/lit-llama"
     },
     {
+        "name": "LiteLLM",
+        "description": "lightweight package to simplify LLM API calls - Azure, OpenAI, Cohere, Anthropic, Replicate.",
+        "url": "https://github.com/BerriAI/litellm"
+    },
+    {
         "name": "LLaMA-Adapter",
         "description": "LLaMA-Adapter is a lightweight adaption method for fine-tuning instruction-following LLaMA models, using 52K data provided by Stanford Alpaca.",
         "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
@@ -243,6 +258,11 @@
         "name": "llama.cpp",
         "description": "Inference of LLaMA model in pure C/C++.",
         "url": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+        "name": "LLaMA2-Accessory",
+        "description": "LLaMA2-Accessory is an open-source toolkit for pre-training, fine-tuning and deployment of Large Language Models (LLMs) and mutlimodal LLMs.",
+        "url": "https://github.com/Alpha-VLLM/LLaMA2-Accessory"
     },
     {
         "name": "LlamaIndex",
@@ -285,9 +305,9 @@
         "url": "https://github.com/NVIDIA-Merlin/dataloader"
     },
     {
-        "name": "Mini-Chain",
-        "description": "A tiny library for large language models.",
-        "url": "https://github.com/srush/minichain"
+        "name": "MiniChain",
+        "description": "MiniChain is a tiny library for coding with large language models.",
+        "url": "https://github.com/srush/MiniChain"
     },
     {
         "name": "MiniLLM",
@@ -330,6 +350,11 @@
         "url": "https://github.com/nebuly-ai/nebullvm"
     },
     {
+        "name": "OctoPack",
+        "description": "OctoPack: Instruction Tuning Code Large Language Models",
+        "url": "https://github.com/bigcode-project/octopack"
+    },
+    {
         "name": "Ollama",
         "description": "Run, create, and share large language models (LLMs).",
         "url": "https://github.com/jmorganca/ollama"
@@ -370,6 +395,11 @@
         "url": "https://github.com/Luodian/otter"
     },
     {
+        "name": "Outlines",
+        "description": "Outlines is a library for neural text generation.",
+        "url": "https://github.com/normal-computing/outlines"
+    },
+    {
         "name": "PaLM",
         "description": "An open-source implementation of Google's PaLM models.",
         "url": "https://github.com/conceptofmind/PaLM"
@@ -393,6 +423,11 @@
         "name": "pybaselines",
         "description": "A Python library of algorithms for the baseline correction of experimental data.",
         "url": "https://github.com/derb12/pybaselines"
+    },
+    {
+        "name": "pykoi",
+        "description": "pykoi is an open-source python library for LLMs providing a unified interface for data & feedback collection, RLHF, and model comparisons.",
+        "url": "https://github.com/CambioML/pykoi"
     },
     {
         "name": "PyTorch Geometric",
@@ -453,6 +488,16 @@
         "name": "tbparse",
         "description": "A simple yet powerful tensorboard event log parser/reader.",
         "url": "https://github.com/j3soon/tbparse"
+    },
+    {
+        "name": "Text Generation Inference",
+        "description": "Text Generation Inference is a Rust, Python and gRPC server for text generation inference.",
+        "url": "https://github.com/huggingface/text-generation-inference"
+    },
+    {
+        "name": "Text Generation Inference (fork, free)",
+        "description": "Text Generation Inference is a Rust, Python and gRPC server for text generation inference.",
+        "url": "https://github.com/Preemo-Inc/text-generation-inference"
     },
     {
         "name": "TextBox",

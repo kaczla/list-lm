@@ -1,3 +1,5 @@
+from enum import StrEnum
+
 from pydantic import BaseModel
 
 
@@ -46,3 +48,23 @@ class ModelInfo(BaseModel):
             ]
             if element is not None
         ]
+
+
+class LinkType(StrEnum):
+    MODEL = "Model links"
+    UTILS = "Utils links"
+    GPU_PROFILING = "GPU profiling links"
+    VISUALIZATION = "Visualization links"
+    VOCABULARY = "Vocabulary links"
+    OPTIMIZER = "Optimizer links"
+    DATASET = "Dataset links"
+    DOCUMENTATION = "Documentation links"
+
+    @staticmethod
+    def create_from_value(value: str) -> "LinkType":
+        value_clean = value.lower().strip()
+        for enum in [*LinkType]:
+            if enum.value.lower() == value_clean:
+                return enum
+
+        raise ValueError(f"Cannot create enum LinkType for value: {repr(value)}")

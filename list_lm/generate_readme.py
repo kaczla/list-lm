@@ -13,6 +13,14 @@ def generate_lm_data() -> None:
         f_write.write("\n")
 
 
+def generate_links_selected(file_name: str) -> None:
+    json_data = json.loads(Path(f"data/json/{file_name}.json").read_text())
+    parsed_data = [ApplicationData(**single_data) for single_data in json_data]
+    with Path(f"data/readme/{file_name}.md").open("wt") as f_write:
+        for app_data in parsed_data:
+            f_write.write(f"- {app_data.to_markdown()}\n")
+
+
 def generate_links_all() -> None:
     for file_name in [
         "dataset_links",
@@ -24,11 +32,7 @@ def generate_links_all() -> None:
         "visualization_links",
         "vocabulary_links",
     ]:
-        json_data = json.loads(Path(f"data/json/{file_name}.json").read_text())
-        parsed_data = [ApplicationData(**single_data) for single_data in json_data]
-        with Path(f"data/readme/{file_name}.md").open("wt") as f_write:
-            for app_data in parsed_data:
-                f_write.write(f"- {app_data.to_markdown()}\n")
+        generate_links_selected(file_name)
 
 
 if __name__ == "__main__":

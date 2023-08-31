@@ -3,11 +3,23 @@ import logging
 import re
 from pathlib import Path
 
-from list_lm.data import ApplicationData
+from list_lm.data import ApplicationData, LinkType
 
 LOGGER = logging.getLogger(__name__)
 
 RGX_LINE_LINK = re.compile(r"^\[(?P<name>[^]]+)\]\((?P<url>.+?)\)\s*[-]\s*(?P<description>.*?)$")
+
+
+MAP_LINK_TYPE_NAME_TO_FILE_NAME = {
+    LinkType.MODEL: "model_links",
+    LinkType.UTILS: "utils_links",
+    LinkType.GPU_PROFILING: "gpu_profiling_links",
+    LinkType.VISUALIZATION: "visualization_links",
+    LinkType.VOCABULARY: "vocabulary_links",
+    LinkType.OPTIMIZER: "optimizer_links",
+    LinkType.DATASET: "dataset_links",
+    LinkType.DOCUMENTATION: "documentation_links",
+}
 
 
 def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
@@ -28,13 +40,13 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
     return loaded_data
 
 
-def convert_markdown_to_json(markdown_path: Path, save_path: Path) -> None:
+def convert_link_markdown_to_link_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_data(markdown_path)
     json_data = sorted([data.dict() for data in loaded_data], key=lambda x: x["name"].lower())
     save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
 
 
-def convert_markdown_to_json_all() -> None:
+def convert_link_markdown_to_link_json_all() -> None:
     for file_name in [
         "dataset_links",
         "documentation_links",
@@ -45,8 +57,15 @@ def convert_markdown_to_json_all() -> None:
         "visualization_links",
         "vocabulary_links",
     ]:
-        convert_markdown_to_json(Path(f"data/readme/{file_name}.md"), Path(f"data/json/{file_name}.json"))
+        convert_link_markdown_to_link_json(Path(f"data/readme/{file_name}.md"), Path(f"data/json/{file_name}.json"))
+
+
+def convert_link_type_to_file_name(link_type: LinkType) -> str:
+    if link_type in MAP_LINK_TYPE_NAME_TO_FILE_NAME:
+        return MAP_LINK_TYPE_NAME_TO_FILE_NAME[link_type]
+
+    raise ValueError(f"Cannot get file path to link type: {link_type.name}")
 
 
 if __name__ == "__main__":
-    convert_markdown_to_json_all()
+    convert_link_markdown_to_link_json_all()
