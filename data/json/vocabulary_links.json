@@ -13,5 +13,10 @@
         "name": "tokenizers",
         "description": "Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.",
         "url": "https://github.com/huggingface/tokenizers"
+    },
+    {
+        "name": "TokenMonster",
+        "description": "TokenMonster is an ungreedy subword tokenizer and vocabulary generator, enabling language models to run faster, cheaper, smarter and generate longer streams of text.",
+        "url": "https://github.com/alasdairforsythe/tokenmonster"
     }
 ]

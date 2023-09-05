@@ -90,6 +90,11 @@
         "url": "https://github.com/rasbt/cyclemoid-pytorch"
     },
     {
+        "name": "Daft",
+        "description": "Daft is a fast, Pythonic and scalable open-source dataframe library built for Python and Machine Learning workloads.",
+        "url": "https://github.com/Eventual-Inc/Daft"
+    },
+    {
         "name": "dalai",
         "description": "Run LLaMA and Alpaca on your computer.",
         "url": "https://github.com/cocktailpeanut/dalai"
@@ -193,6 +198,11 @@
         "name": "Guardrails",
         "description": "Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).",
         "url": "https://github.com/ShreyaR/guardrails"
+    },
+    {
+        "name": "Haystack",
+        "description": "Haystack is an end-to-end NLP framework that enables you to build applications powered by LLMs, Transformer models, vector search and more.",
+        "url": "https://github.com/deepset-ai/haystack"
     },
     {
         "name": "hlb-GPT",
@@ -478,6 +488,11 @@
         "name": "string2string",
         "description": "The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.",
         "url": "https://github.com/stanfordnlp/string2string"
+    },
+    {
+        "name": "Superagent",
+        "description": "Superagent is a powerful tool that simplifies the configuration and deployment of LLM (Large Language Model) Agents to production.",
+        "url": "https://github.com/homanp/superagent"
     },
     {
         "name": "surgeon-pytorch",

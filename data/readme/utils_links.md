@@ -16,6 +16,7 @@
 - [CRITIC](https://github.com/microsoft/ProphetNet/tree/master/CRITIC) - CRITIC empowers LLMs to validate and rectify themselves through interaction with external tools.
 - [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
 - [cyclemoid-pytorch](https://github.com/rasbt/cyclemoid-pytorch) - This is an implementation of the cyclemoid activation function for PyTorch.
+- [Daft](https://github.com/Eventual-Inc/Daft) - Daft is a fast, Pythonic and scalable open-source dataframe library built for Python and Machine Learning workloads.
 - [dalai](https://github.com/cocktailpeanut/dalai) - Run LLaMA and Alpaca on your computer.
 - [datasketch](https://github.com/ekzhu/datasketch) - datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) - Inference runtime offering GPU-class performance on CPUs and APIs to integrate ML into your application.
@@ -37,6 +38,7 @@
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
 - [Guardrails](https://github.com/ShreyaR/guardrails) - Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).
+- [Haystack](https://github.com/deepset-ai/haystack) - Haystack is an end-to-end NLP framework that enables you to build applications powered by LLMs, Transformer models, vector search and more.
 - [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
@@ -94,6 +96,7 @@
 - [StarCoder](https://github.com/bigcode-project/starcoder) - Home of StarCoder: fine-tuning & inference!
 - [state-spaces](https://github.com/HazyResearch/state-spaces) - Sequence Modeling with Structured State Spaces, contains: S4D, HTTYH, SaShiMi, S4, LSSL, HiPPO.
 - [string2string](https://github.com/stanfordnlp/string2string) - The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.
+- [Superagent](https://github.com/homanp/superagent) - Superagent is a powerful tool that simplifies the configuration and deployment of LLM (Large Language Model) Agents to production.
 - [surgeon-pytorch](https://github.com/archinetai/surgeon-pytorch) - A library to inspect and extract intermediate layers of PyTorch models.
 - [tbparse](https://github.com/j3soon/tbparse) - A simple yet powerful tensorboard event log parser/reader.
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Text Generation Inference is a Rust, Python and gRPC server for text generation inference.

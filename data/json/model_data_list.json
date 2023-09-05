@@ -1266,6 +1266,20 @@
         "model_weights": null
     },
     {
+        "name": "TransNormer",
+        "year": 2022,
+        "publication": {
+            "title": "The Devil in Linear Transformer",
+            "url": "https://arxiv.org/abs/2210.10340"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenNLPLab/Transnormer"
+        },
+        "model_weights": null
+    },
+    {
         "name": "LeX-Transformer",
         "year": 2023,
         "publication": {
@@ -2959,6 +2973,136 @@
         "model_weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0"
+        }
+    },
+    {
+        "name": "TinyLlama",
+        "year": 2023,
+        "publication": {
+            "title": "README - TinyLlama",
+            "url": "https://github.com/jzhang38/TinyLlama/blob/0fcf9b61130f189b78747b0b013262c72f01286a/README.md"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jzhang38/TinyLlama"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b"
+        }
+    },
+    {
+        "name": "OctoCoder",
+        "year": 2023,
+        "publication": {
+            "title": "OctoPack: Instruction Tuning Code Large Language Models",
+            "url": "https://arxiv.org/abs/2308.07124"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/octopack"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/octocoder"
+        }
+    },
+    {
+        "name": "OctoGeeX",
+        "year": 2023,
+        "publication": {
+            "title": "OctoPack: Instruction Tuning Code Large Language Models",
+            "url": "https://arxiv.org/abs/2308.07124"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/octopack"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/octogeex"
+        }
+    },
+    {
+        "name": "DeciCoder",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing DeciCoder: The New Gold Standard in Efficient and Accurate Code Generation",
+            "url": "https://deci.ai/blog/decicoder-efficient-and-accurate-code-generation-llm/"
+        },
+        "video": null,
+        "code": null,
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Deci/DeciCoder-1b"
+        }
+    },
+    {
+        "name": "CodeGeeX2",
+        "year": 2023,
+        "publication": {
+            "title": "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X",
+            "url": "https://arxiv.org/abs/2303.17568"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/CodeGeeX2"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/THUDM/codegeex2-6b"
+        }
+    },
+    {
+        "name": "LRPE",
+        "year": 2023,
+        "publication": {
+            "title": "Linearized Relative Positional Encoding",
+            "url": "https://arxiv.org/abs/2307.09270"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenNLPLab/Lrpe"
+        },
+        "model_weights": null
+    },
+    {
+        "name": "OpenMoE",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - OpenMoE v0.2 Release",
+            "url": "https://xuefuzhao.notion.site/Aug-2023-OpenMoE-v0-2-Release-43808efc0f5845caa788f2db52021879"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/XueFuzhao/OpenMoE"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/fuzhao/OpenMoE_Base"
+        }
+    },
+    {
+        "name": "Yarn-Llama-2",
+        "year": 2023,
+        "publication": {
+            "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+            "url": "https://arxiv.org/abs/2309.00071"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jquesnelle/yarn"
+        },
+        "model_weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-64k"
         }
     }
 ]

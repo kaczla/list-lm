@@ -120,6 +120,11 @@
         "url": "https://github.com/Oneflow-Inc/libai"
     },
     {
+        "name": "Lit-GPT",
+        "description": "Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.",
+        "url": "https://github.com/Lightning-AI/lit-gpt"
+    },
+    {
         "name": "LLM Foundry",
         "description": "This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.",
         "url": "https://github.com/mosaicml/llm-foundry"
@@ -200,9 +205,19 @@
         "url": "https://github.com/bentoml/OpenLLM"
     },
     {
+        "name": "OpenMoE",
+        "description": "OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.",
+        "url": "https://github.com/XueFuzhao/OpenMoE"
+    },
+    {
         "name": "OSLO",
         "description": "OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.",
         "url": "https://github.com/EleutherAI/oslo"
+    },
+    {
+        "name": "Pretrained Language Model",
+        "description": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+        "url": "https://github.com/huawei-noah/Pretrained-Language-Model"
     },
     {
         "name": "RWKV",

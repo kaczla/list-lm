@@ -451,6 +451,11 @@
   - Publication: [CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning](https://arxiv.org/abs/2207.01780)
   - Code: [GitHub](https://github.com/salesforce/CodeRL)
 
+- TransNormer
+  - Year: 2022
+  - Publication: [The Devil in Linear Transformer](https://arxiv.org/abs/2210.10340)
+  - Code: [GitHub](https://github.com/OpenNLPLab/Transnormer)
+
 - LeX-Transformer
   - Year: 2023
   - Publication: [A Length-Extrapolatable Transformer](https://arxiv.org/abs/2212.10554)
@@ -1054,3 +1059,49 @@
   - Publication: [WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583)
   - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
   - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardMath-7B-V1.0)
+
+- TinyLlama
+  - Year: 2023
+  - Publication: [README - TinyLlama](https://github.com/jzhang38/TinyLlama/blob/0fcf9b61130f189b78747b0b013262c72f01286a/README.md)
+  - Code: [GitHub](https://github.com/jzhang38/TinyLlama)
+  - Model weights: [HuggingFace models](https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b)
+
+- OctoCoder
+  - Year: 2023
+  - Publication: [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124)
+  - Code: [GitHub](https://github.com/bigcode-project/octopack)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/octocoder)
+
+- OctoGeeX
+  - Year: 2023
+  - Publication: [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124)
+  - Code: [GitHub](https://github.com/bigcode-project/octopack)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/octogeex)
+
+- DeciCoder
+  - Year: 2023
+  - Publication: [Blog - Introducing DeciCoder: The New Gold Standard in Efficient and Accurate Code Generation](https://deci.ai/blog/decicoder-efficient-and-accurate-code-generation-llm/)
+  - Model weights: [HuggingFace models](https://huggingface.co/Deci/DeciCoder-1b)
+
+- CodeGeeX2
+  - Year: 2023
+  - Publication: [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/abs/2303.17568)
+  - Code: [GitHub](https://github.com/THUDM/CodeGeeX2)
+  - Model weights: [HuggingFace models](https://huggingface.co/THUDM/codegeex2-6b)
+
+- LRPE
+  - Year: 2023
+  - Publication: [Linearized Relative Positional Encoding](https://arxiv.org/abs/2307.09270)
+  - Code: [GitHub](https://github.com/OpenNLPLab/Lrpe)
+
+- OpenMoE
+  - Year: 2023
+  - Publication: [Blog - OpenMoE v0.2 Release](https://xuefuzhao.notion.site/Aug-2023-OpenMoE-v0-2-Release-43808efc0f5845caa788f2db52021879)
+  - Code: [GitHub](https://github.com/XueFuzhao/OpenMoE)
+  - Model weights: [HuggingFace models](https://huggingface.co/fuzhao/OpenMoE_Base)
+
+- Yarn-Llama-2
+  - Year: 2023
+  - Publication: [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071)
+  - Code: [GitHub](https://github.com/jquesnelle/yarn)
+  - Model weights: [HuggingFace models](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-64k)
