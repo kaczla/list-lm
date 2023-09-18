@@ -30,6 +30,11 @@
         "url": "https://github.com/BaguaSys/bagua"
     },
     {
+        "name": "Batched LoRAs",
+        "description": "Maximize GPU util by routing inference through multiple LoRAs in the same batch.",
+        "url": "https://github.com/sabetAI/BLoRA"
+    },
+    {
         "name": "BayLing",
         "description": "BayLing is an instruction-following large language model equipped with advanced language alignment, showing superior capability in English/Chinese generation, instruction following and multi-turn interaction.",
         "url": "https://github.com/ictnlp/BayLing"
@@ -68,6 +73,11 @@
         "name": "COLLIE",
         "description": "COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.",
         "url": "https://github.com/princeton-nlp/Collie"
+    },
+    {
+        "name": "comgra",
+        "description": "Comgra stands for \"computation graph analysis\" and it is a library for use with pytorch that makes it easier to inspect the internals of your neural networks.",
+        "url": "https://github.com/FlorianDietz/comgra"
     },
     {
         "name": "Cramming Language Model (Pretraining)",
@@ -140,6 +150,11 @@
         "url": "https://github.com/turboderp/exllama"
     },
     {
+        "name": "ExLlamaV2",
+        "description": "ExLlamaV2 is a fast inference library for running LLMs locally on modern consumer-class GPUs",
+        "url": "https://github.com/turboderp/exllamav2"
+    },
+    {
         "name": "Explainpaper",
         "description": "Upload a paper, highlight confusing text, get an explanation.",
         "url": "https://www.explainpaper.com"
@@ -158,6 +173,11 @@
         "name": "FastDeploy",
         "description": "Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.",
         "url": "https://github.com/PaddlePaddle/FastDeploy"
+    },
+    {
+        "name": "fastText",
+        "description": "fastText is a library for efficient learning of word representations and sentence classification.",
+        "url": "https://github.com/facebookresearch/fastText/"
     },
     {
         "name": "FLAML",
@@ -298,6 +318,11 @@
         "name": "Lovely Tensors",
         "description": "Tensors, ready for human consumption.",
         "url": "https://github.com/xl0/lovely-tensors"
+    },
+    {
+        "name": "M3E",
+        "description": "Moka Massive Mixed Embedding",
+        "url": "https://github.com/wangyingdong/m3e-base"
     },
     {
         "name": "Macaw-LLM",
@@ -578,6 +603,11 @@
         "name": "WizardLM",
         "description": "WizardLM: An Instruction-following LLM Using Evol-Instruct. At present, our core contributors are preparing the 65B version and we expect to empower WizardLM with the ability to perform instruction evolution itself, aiming to evolve your specific data at a low cost.",
         "url": "https://github.com/nlpxucan/WizardLM"
+    },
+    {
+        "name": "word2vec",
+        "description": "This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.",
+        "url": "https://github.com/dav/word2vec"
     },
     {
         "name": "xturing",

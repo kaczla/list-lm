@@ -1,3 +1,4 @@
+from datetime import date
 from enum import StrEnum
 
 from pydantic import BaseModel
@@ -18,6 +19,11 @@ class UrlData(BaseModel):
 
     def to_markdown(self) -> str:
         return f"[{self.title}]({self.url})"
+
+
+class ArticleData(BaseModel):
+    title: str
+    date_create: date
 
 
 class ModelInfo(BaseModel):

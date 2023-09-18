@@ -7,6 +7,7 @@ from tkinter import ttk
 
 from list_lm.data import ApplicationData, LinkType, ModelInfo, UrlData
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
+from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import convert_link_type_to_file_name
 
 LOGGER = logging.getLogger(__name__)
@@ -331,9 +332,11 @@ class GUIApp:
     @staticmethod
     def parse_publication_url(url: str, title: str) -> UrlData | str:
         if "arxiv.org" in url:
+            page_date = parse_arxiv(url)
             if not title:
-                # TODO: Get title from web page
-                return "Missing publication title"
+                title = page_date.title
+            elif title != page_date.title:
+                LOGGER.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
 
             return UrlData(url=url, title=title)
 

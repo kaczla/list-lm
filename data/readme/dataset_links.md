@@ -13,6 +13,7 @@
 - [KILT](https://github.com/facebookresearch/KILT) - A Benchmark for Knowledge Intensive Language Tasks.
 - [LIMA](https://huggingface.co/datasets/GAIR/lima) - Dataset for LIMA: Less Is More for Alignment.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
+- [MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) - MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.
 - [OSCAR (Open Super-large Crawled ALMAnaCH coRpus)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.

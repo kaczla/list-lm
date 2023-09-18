@@ -75,6 +75,11 @@
         "url": "https://github.com/alexa/massive"
     },
     {
+        "name": "MathInstruct",
+        "description": "MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.",
+        "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct"
+    },
+    {
         "name": "MultiLegalPile",
         "description": "The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.",
         "url": "https://huggingface.co/datasets/joelito/Multi_Legal_Pile"

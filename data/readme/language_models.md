@@ -931,6 +931,7 @@
 - phi-1
   - Year: 2023
   - Publication: [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/phi-1)
 
 - CodeGen2.5
   - Year: 2023
@@ -1105,3 +1106,51 @@
   - Publication: [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071)
   - Code: [GitHub](https://github.com/jquesnelle/yarn)
   - Model weights: [HuggingFace models](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-64k)
+
+- Refact-1.6B
+  - Year: 2023
+  - Publication: [Applying All Recent Innovations To Train a Code Model](https://refact.ai/blog/2023/applying-recent-innovations-to-train-model/)
+  - Code: [GitHub](https://github.com/smallcloudai/refact/)
+  - Model weights: [HuggingFace models](https://huggingface.co/smallcloudai/Refact-1_6B-fim)
+
+- Falcon-180B
+  - Year: 2023
+  - Publication: [Blog - Spread Your Wings: Falcon 180B is here](https://huggingface.co/blog/falcon-180b)
+  - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/falcon-180B)
+
+- Persimmon-8B
+  - Year: 2023
+  - Publication: [Releasing Persimmon-8B](https://www.adept.ai/blog/persimmon-8b)
+  - Code: [GitHub](https://github.com/persimmon-ai-labs/adept-inference)
+  - Model weights: [Direct link](https://axtkn4xl5cip.objectstorage.us-phoenix-1.oci.customer-oci.com/n/axtkn4xl5cip/b/adept-public-data/o/8b_base_model_release.tar)
+
+- FLM-101B
+  - Year: 2023
+  - Publication: [FLM-101B: An Open LLM and How to Train It with $100K Budget](https://arxiv.org/abs/2309.03852)
+  - Model weights: [HuggingFace models](https://huggingface.co/CofeAI/FLM-101B)
+
+- MoLM
+  - Year: 2023
+  - Publication: [ModuleFormer: Modularity Emerges from Mixture-of-Experts](https://arxiv.org/abs/2306.04640)
+  - Code: [GitHub](https://github.com/IBM/ModuleFormer)
+  - Model weights: [HuggingFace models](https://huggingface.co/ibm/MoLM-350M-4B)
+
+- phi-1.5
+  - Year: 2023
+  - Publication: [Textbooks Are All You Need II: phi-1.5 technical report](https://arxiv.org/abs/2309.05463)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/phi-1_5)
+
+- DeciLM
+  - Year: 2023
+  - Publication: [Blog - 15 times Faster than Llama 2: Introducing DeciLM – NAS-Generated LLM with Variable GQA](https://deci.ai/blog/decilm-15-times-faster-than-llama2-nas-generated-llm-with-variable-gqa/)
+  - Model weights: [HuggingFace models](https://huggingface.co/Deci/DeciLM-6b)
+
+- One Wide FFN
+  - Year: 2023
+  - Publication: [One Wide Feedforward is All You Need](https://arxiv.org/abs/2309.01826)
+
+- MAmmoTH
+  - Year: 2023
+  - Publication: [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653)
+  - Code: [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
+  - Model weights: [HuggingFace models](https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B)

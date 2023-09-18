@@ -160,6 +160,11 @@
         "url": "https://github.com/facebookresearch/mmf"
     },
     {
+        "name": "ModuleFormer",
+        "description": "ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.",
+        "url": "https://github.com/IBM/ModuleFormer"
+    },
+    {
         "name": "Mosaic composer",
         "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
         "url": "https://github.com/mosaicml/composer"
@@ -198,6 +203,11 @@
         "name": "NVIDIA NeMo",
         "description": "NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).",
         "url": "https://github.com/NVIDIA/NeMo"
+    },
+    {
+        "name": "Nvidia TensorRT",
+        "description": "TensorRT is an SDK for high-performance deep learning inference, includes a deep learning inference optimizer and runtime that delivers low latency and high throughput for inference applications.",
+        "url": "https://github.com/NVIDIA/TensorRT"
     },
     {
         "name": "OpenLLM",
