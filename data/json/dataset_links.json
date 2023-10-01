@@ -20,6 +20,11 @@
         "url": "https://github.com/facebookresearch/cc_net"
     },
     {
+        "name": "CulturaX",
+        "description": "CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.",
+        "url": "https://huggingface.co/datasets/uonlp/CulturaX"
+    },
+    {
         "name": "Deduplicated CommonCrawl Text",
         "description": "Processed Common Crawl snapshots.",
         "url": "http://statmt.org/ngrams/deduped"
@@ -45,6 +50,11 @@
         "url": "https://github.com/google-research/FLAN/tree/main/flan/v2"
     },
     {
+        "name": "Glaive-code-assistant",
+        "description": "Glaive-code-assistant is a dataset of ~140k code problems and solutions generated using Glaive’s synthetic data generation platform.",
+        "url": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant"
+    },
+    {
         "name": "GLGE",
         "description": "This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).",
         "url": "https://github.com/microsoft/glge"
@@ -68,6 +78,11 @@
         "name": "LIMA",
         "description": "Dataset for LIMA: Less Is More for Alignment.",
         "url": "https://huggingface.co/datasets/GAIR/lima"
+    },
+    {
+        "name": "LMSYS-Chat",
+        "description": "This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.",
+        "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
     },
     {
         "name": "MASSIVE",

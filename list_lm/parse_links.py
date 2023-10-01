@@ -42,7 +42,7 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
 
 def convert_link_markdown_to_link_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_data(markdown_path)
-    json_data = sorted([data.dict() for data in loaded_data], key=lambda x: x["name"].lower())
+    json_data = sorted([data.model_dump(mode="json") for data in loaded_data], key=lambda x: x["name"].lower())
     save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
 
 

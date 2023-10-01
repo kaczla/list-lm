@@ -28,6 +28,6 @@ def parse_arxiv(url: str) -> ArticleData:
     title = str(html_tree.xpath("//meta[@name='citation_title']/@content")[0]).strip()
     date_str = str(html_tree.xpath("//meta[@name='citation_date']/@content")[0]).strip()
     converted_date = datetime.strptime(date_str, "%Y/%m/%d").date()
-    parsed_data = ArticleData(title=title, date_create=converted_date)
+    parsed_data = ArticleData(title=title, url=url, date_create=converted_date)
     LOGGER.info(f"HTML content parsed: {parsed_data}")
     return parsed_data

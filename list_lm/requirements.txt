@@ -1,7 +1,8 @@
 requests==2.31
 lxml==4.9.3
-ruff==0.0.287
-black==23.7.0
+pydantic==2.3.0
+ruff==0.0.291
+black==23.9.1
 isort==5.12.0
 mypy==1.5.1
 types-requests==2.31

@@ -215,6 +215,11 @@
         "url": "https://github.com/bentoml/OpenLLM"
     },
     {
+        "name": "OpenLM",
+        "description": "OpenLM is a minimal but performative language modeling (LM) repository, aimed to facilitate research on medium sized LMs.",
+        "url": "https://github.com/mlfoundations/open_lm"
+    },
+    {
         "name": "OpenMoE",
         "description": "OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.",
         "url": "https://github.com/XueFuzhao/OpenMoE"

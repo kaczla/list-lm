@@ -9,6 +9,7 @@
 - GPT
   - Year: 2018
   - Publication: [Blog - Improving Language Understanding with Unsupervised Learning](https://openai.com/blog/language-unsupervised)
+  - Model weights: [HuggingFace models](https://huggingface.co/openai-gpt)
 
 - BERT
   - Year: 2018
@@ -381,6 +382,7 @@
 
 - RWKV-LM
   - Year: 2022
+  - Publication: [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048)
   - Code: [GitHub](https://github.com/BlinkDL/RWKV-LM)
   - Model weights: [HuggingFace models](https://huggingface.co/BlinkDL/rwkv-4-pile-7b)
 
@@ -441,10 +443,6 @@
 - PaLM
   - Year: 2022
   - Publication: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
-
-- Megatron-Turing NLG
-  - Year: 2022
-  - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990)
 
 - CodeRL
   - Year: 2022
@@ -516,10 +514,11 @@
 
 - GPT-4
   - Year: 2023
-  - Publication: [GPT-4 Technical Report](https://cdn.openai.com/papers/gpt-4.pdf)
+  - Publication: [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
 
 - ChatGLM-6B
   - Year: 2023
+  - Publication: [README - ChatGLM-6B repository](https://github.com/THUDM/ChatGLM-6B/blob/d835c4b0017310d53b98bad98f68671fa861d158/README_en.md)
   - Code: [GitHub](https://github.com/THUDM/ChatGLM-6B)
   - Model weights: [HuggingFace models](https://huggingface.co/THUDM/chatglm-6b)
 
@@ -531,11 +530,13 @@
 
 - GeoV
   - Year: 2023
+  - Publication: [README - GeoV repository](https://github.com/geov-ai/geov/blob/4bd51d2d81168ca1d8917aeb7513a1d95feaf727/readme.md)
   - Code: [GitHub](https://github.com/geov-ai/geov)
   - Model weights: [HuggingFace models](https://huggingface.co/GeoV/GeoV-9b)
 
 - GPT4All
   - Year: 2023
+  - Publication: [Tweet: Today we're releasing GPT4All, an assistant-style chatbot distilled from 430k GPT-3.5-Turbo outputs that you can run on your laptop.](https://twitter.com/nomic_ai/status/1640834838578995202)
   - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
   - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-lora)
 
@@ -547,8 +548,7 @@
 
 - GPTrillion
   - Year: 2023
-  - Publication: [Introducing GPTrillion - the world’s first open-source 1.5T parameter model](https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo)
-  - Model weights: [HuggingFace models](https://huggingface.co/banana-dev/GPTrillion)
+  - Publication: [Tweet: GPTrillion: a 1.5T Parameter Open-Source Model](https://twitter.com/BananaDev_/status/1642211220072673286)
 
 - Pythia
   - Year: 2023
@@ -558,11 +558,13 @@
 
 - alpaca-opt
   - Year: 2023
+  - Publication: [README - alpaca-opt-6.7b repository](https://github.com/Manuel030/alpaca-opt/blob/0466819d3647568a125530488f79c5627dd292ed/README.md)
   - Code: [GitHub](https://github.com/Manuel030/alpaca-opt)
   - Model weights: [HuggingFace models](https://huggingface.co/Manuel030/alpaca-opt-6.7b)
 
 - GALPACA
   - Year: 2023
+  - Publication: [HuggingFace model card - galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
   - Model weights: [HuggingFace models](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
 
 - NarrowBERT
@@ -571,7 +573,7 @@
 
 - FastChat-T5
   - Year: 2023
-  - Publication: [Twitter message](https://twitter.com/lmsysorg/status/1652037026705985537)
+  - Publication: [Tweet: We are excited to release FastChat-T5: our compact and commercial-friendly chatbot!](https://twitter.com/lmsysorg/status/1652037026705985537)
   - Code: [GitHub](https://github.com/lm-sys/FastChat)
   - Model weights: [HuggingFace models](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
 
@@ -582,11 +584,13 @@
 
 - GPT4All-J
   - Year: 2023
+  - Publication: [Tweet: Announcing GPT4All-J: The First Apache-2 Licensed Chatbot That Runs Locally on Your Machine](https://twitter.com/andriy_mulyar/status/1646622168350875655)
   - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
-  - Model weights: [Direct link](https://gpt4all.io/ggml-gpt4all-j.bin)
+  - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-j)
 
 - MPT-1b-RedPajama-200b
   - Year: 2023
+  - Publication: [HuggingFace model card - MPT-1b-RedPajama-200b](https://huggingface.co/mosaicml/mpt-1b-redpajama-200b)
   - Code: [GitHub](https://github.com/mosaicml/examples)
   - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-1b-redpajama-200b)
 
@@ -604,11 +608,13 @@
 
 - OpenLLaMA
   - Year: 2023
+  - Publication: [README - OpenLLaMA repository](https://github.com/openlm-research/open_llama/blob/6e7f73eab7e799e2464f38ed977e537bae02873e/README.md)
   - Code: [GitHub](https://github.com/openlm-research/open_llama)
-  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_7b_v2)
+  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_13b)
 
 - ReplitLM
   - Year: 2023
+  - Publication: [Tweet: Last night, we released our new complete code model: replit-code-v1-3b.](https://twitter.com/Replit/status/1653802301331759104)
   - Code: [GitHub](https://github.com/replit/ReplitLM)
   - Model weights: [HuggingFace models](https://huggingface.co/replit/replit-code-v1-3b)
 
@@ -616,7 +622,7 @@
   - Year: 2023
   - Publication: [Blog - Introducing Lamini, the LLM Engine for Rapidly Customizing Models](https://lamini.ai/blog/introducing-lamini)
   - Code: [GitHub](https://github.com/lamini-ai/lamini)
-  - Model weights: [HuggingFace models](https://huggingface.co/lamini/instruct-tuned-12b)
+  - Model weights: [HuggingFace models](https://huggingface.co/lamini/instruct-peft-tuned-12b)
 
 - h2ogpt
   - Year: 2023
@@ -687,18 +693,14 @@
   - Code: [GitHub](https://github.com/open-mmlab/Multimodal-GPT)
   - Model weights: [Direct link](https://download.openmmlab.com/mmgpt/v0/mmgpt-lora-v0-release.pt)
 
-- OpenLLaMA
-  - Year: 2023
-  - Code: [GitHub](https://github.com/openlm-research/open_llama)
-  - Model weights: [HuggingFace models](https://huggingface.co/openlm-research/open_llama_13b)
-
 - Open-source PaLM
   - Year: 2023
+  - Publication: [README - Open-source PaLM repository](https://github.com/conceptofmind/PaLM/blob/dc2425df678d300b9d5b65d028fc70293c01a589/README.md)
   - Code: [GitHub](https://github.com/conceptofmind/PaLM)
   - Model weights: [HuggingFace models](https://huggingface.co/conceptofmind/palm-1b)
 
 - Jurassic-X
-  - Year: 2023
+  - Year: 2022
   - Publication: [Blog - Jurassic-X: Crossing the neuro-symbolic chasm with the MRKL system](https://www.ai21.com/blog/jurassic-x-crossing-the-neuro-symbolic-chasm-with-the-mrkl-system)
 
 - Jurassic-2
@@ -753,6 +755,7 @@
 
 - Falcon
   - Year: 2023
+  - Publication: [Blog - The Falcon has landed in the Hugging Face ecosystem](https://huggingface.co/blog/falcon)
   - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/falcon-40b)
 
 - Goat
@@ -763,6 +766,7 @@
 
 - Macaw-LLM
   - Year: 2023
+  - Publication: [Macaw-LLM: Multi-Modal Language Modeling with Image, Audio, Video, and Text Integration](https://arxiv.org/abs/2306.09093)
   - Code: [GitHub](https://github.com/lyuchenyang/Macaw-LLM)
 
 - MeZO
@@ -803,6 +807,7 @@
 
 - AlpacOOM
   - Year: 2023
+  - Publication: [Tweet: Alpaca + BLOOM = Alpacoom](https://twitter.com/alfredplpl/status/1636858660218617857)
   - Model weights: [HuggingFace models](https://huggingface.co/mrm8488/Alpacoom)
 
 - CodeT5+
@@ -841,6 +846,8 @@
 - InternLM
   - Year: 2023
   - Publication: [InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)
+  - Code: [GitHub](https://github.com/InternLM/InternLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/internlm/internlm-7b)
 
 - MEFT
   - Year: 2023
@@ -886,10 +893,6 @@
 - Orca
   - Year: 2023
   - Publication: [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.07174)
-
-- LongMem
-  - Year: 2023
-  - Publication: [Augmenting Language Models with Long-Term Memory](https://arxiv.org/abs/2306.02707)
 
 - Inflection-1
   - Year: 2023
@@ -939,11 +942,6 @@
   - Code: [GitHub](https://github.com/salesforce/CodeGen2)
   - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/codegen25-7b-multi)
 
-- MeZO
-  - Year: 2023
-  - Publication: [Fine-Tuning Language Models with Just Forward Passes](https://arxiv.org/abs/2305.17333)
-  - Code: [GitHub](https://github.com/princeton-nlp/MeZO)
-
 - INSTRUCTEVAL
   - Year: 2023
   - Publication: [INSTRUCTEVAL: Towards Holistic Evaluation of Instruction-Tuned Large Language Models](https://arxiv.org/abs/2306.04757)
@@ -952,7 +950,7 @@
 
 - Aquila
   - Year: 2023
-  - Publication: [README - Aquila Language Model is the first open source language model that supports both Chinese and English knowledge](https://github.com/FlagAI-Open/FlagAI/blob/e3062883ca5156d5c6f6b1992a5f1a08edbd437c/examples/Aquila/README_en.md)
+  - Publication: [README - Aquila repository](https://github.com/FlagAI-Open/FlagAI/blob/e3062883ca5156d5c6f6b1992a5f1a08edbd437c/examples/Aquila/README_en.md)
   - Code: [GitHub](https://github.com/FlagAI-Open/FlagAI)
   - Model weights: [HuggingFace models](https://huggingface.co/BAAI/Aquila-7B)
 
@@ -999,7 +997,7 @@
 
 - BTLM-3B-8k
   - Year: 2023
-  - Publication: [Blog - BTLM-3B-8K: 7B Performance in a 3 Billion Parameter Model](https://www.cerebras.net/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model/)
+  - Publication: [BTLM-3B-8K: 7B Parameter Performance in a 3B Parameter Model](https://arxiv.org/abs/2309.11568)
   - Model weights: [HuggingFace models](https://huggingface.co/cerebras/btlm-3b-8k-base)
 
 - Alfred-40B-0723
@@ -1013,7 +1011,7 @@
 
 - Qwen-7B
   - Year: 2023
-  - Publication: [README - Qwen-7B is a Transformer-based large language model, which is pretrained on a large volume of data](https://github.com/QwenLM/Qwen-7B/tree/96d10ebc9c6c170d294f2014f1b6926c9e80c95b)
+  - Publication: [README - Qwen-7B repository](https://github.com/QwenLM/Qwen-7B/blob/96d10ebc9c6c170d294f2014f1b6926c9e80c95b/README.md)
   - Code: [GitHub](https://github.com/QwenLM/Qwen-7B)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen-7B)
 
@@ -1063,7 +1061,7 @@
 
 - TinyLlama
   - Year: 2023
-  - Publication: [README - TinyLlama](https://github.com/jzhang38/TinyLlama/blob/0fcf9b61130f189b78747b0b013262c72f01286a/README.md)
+  - Publication: [README - TinyLlama repository](https://github.com/jzhang38/TinyLlama/blob/0fcf9b61130f189b78747b0b013262c72f01286a/README.md)
   - Code: [GitHub](https://github.com/jzhang38/TinyLlama)
   - Model weights: [HuggingFace models](https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b)
 
@@ -1154,3 +1152,51 @@
   - Publication: [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653)
   - Code: [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
   - Model weights: [HuggingFace models](https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B)
+
+- Kosmos-2.5
+  - Year: 2023
+  - Publication: [Kosmos-2.5: A Multimodal Literate Model](https://arxiv.org/abs/2309.11419)
+
+- Glaive-coder
+  - Year: 2023
+  - Publication: [Blog - Releasing glaive-coder-7B and the Code Models Arena](https://glaive.ai/blog/releasing-code-model-arena)
+  - Model weights: [HuggingFace models](https://huggingface.co/glaiveai/glaive-coder-7b)
+
+- MathGLM
+  - Year: 2023
+  - Publication: [GPT Can Solve Mathematical Problems Without a Calculator](https://arxiv.org/abs/2309.03241)
+  - Code: [GitHub](https://github.com/THUDM/MathGLM)
+  - Model weights: [Direct link](https://cloud.tsinghua.edu.cn/d/92127e3a1b4144db8d13/)
+
+- LongLoRA
+  - Year: 2023
+  - Publication: [LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models](https://arxiv.org/abs/2309.12307)
+  - Code: [GitHub](https://github.com/dvlab-research/LongLoRA)
+  - Model weights: [HuggingFace models](https://huggingface.co/Yukang/Llama-2-7b-longlora-100k-ft)
+
+- Mistral
+  - Year: 2023
+  - Publication: [Blog - Mistral 7B - The best 7B model to date, Apache 2.0](https://mistral.ai/news/announcing-mistral-7b/)
+  - Code: [GitHub](https://github.com/mistralai/mistral-src)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+
+- Redmond-Hermes-Coder
+  - Year: 2023
+  - Publication: [Tweet: Releasing Redmond-Hermes-Coder, a finetune of Wizardcoder on our dataset.](https://twitter.com/NousResearch/status/1674992144170340353)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Redmond-Hermes-Coder)
+
+- Nous-Hermes
+  - Year: 2023
+  - Publication: [Tweet: Nous-Hermes-13b fp16 weights have been released.](https://twitter.com/NousResearch/status/1664848823687028737)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Hermes-13b)
+
+- Nous-Capybara
+  - Year: 2023
+  - Publication: [HuggingFace model card - HuggingFace model card -](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
+
+- Diff-Codegen
+  - Year: 2023
+  - Publication: [Blog - Diff Models - A New Way to Edit Code](https://carper.ai/diff-models-a-new-way-to-edit-code/)
+  - Code: [GitHub](https://github.com/salesforce/CodeGen)
+  - Model weights: [HuggingFace models](https://huggingface.co/CarperAI/diff-codegen-6b-v2)

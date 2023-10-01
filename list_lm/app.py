@@ -4,13 +4,17 @@ import tkinter as tk
 from datetime import datetime
 from pathlib import Path
 from tkinter import ttk
+from typing import TypeVar
 
-from list_lm.data import ApplicationData, LinkType, ModelInfo, UrlData
+from list_lm.data import ApplicationData, ArticleData, LinkType, ModelInfo, ModelInfoDict, UrlData
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import convert_link_type_to_file_name
+from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
 
 LOGGER = logging.getLogger(__name__)
+
+T = TypeVar("T")
 
 
 class GUIApp:
@@ -68,6 +72,15 @@ class GUIApp:
             text_publication.insert(1.0, model_info.publication.url)
         text_publication.pack(padx=5)
 
+        label_publication_date_create = tk.Label(self.main_frame, text="Publication date:")
+        label_publication_date_create.pack()
+        text_publication_date_create = tk.Text(self.main_frame, height=1)
+        if model_info and model_info.publication:
+            text_publication_date_create.insert(1.0, convert_date_to_string(model_info.publication.date_create))
+        else:
+            text_publication_date_create.insert(1.0, convert_date_to_string(datetime.now().date()))
+        text_publication_date_create.pack(padx=5)
+
         label_code = tk.Label(self.main_frame, text="Source code:")
         label_code.pack()
         text_code = tk.Text(self.main_frame, height=1)
@@ -78,8 +91,8 @@ class GUIApp:
         label_model_weights = tk.Label(self.main_frame, text="Model weights:")
         label_model_weights.pack()
         text_model_weights = tk.Text(self.main_frame, height=1)
-        if model_info and model_info.model_weights:
-            text_model_weights.insert(1.0, model_info.model_weights.url)
+        if model_info and model_info.weights:
+            text_model_weights.insert(1.0, model_info.weights.url)
         text_model_weights.pack(padx=5)
 
         button_add_lm = tk.Button(
@@ -90,6 +103,7 @@ class GUIApp:
                 year_str=text_year.get(1.0, "end-1c"),
                 publication_url=text_publication.get(1.0, "end-1c"),
                 publication_title=text_publication_title.get(1.0, "end-1c"),
+                publication_date_create=text_publication_date_create.get(1.0, "end-1c"),
                 code_url=text_code.get(1.0, "end-1c"),
                 model_weights_url=text_model_weights.get(1.0, "end-1c"),
                 label_status=label_status,
@@ -110,6 +124,7 @@ class GUIApp:
         year_str: str,
         publication_url: str,
         publication_title: str,
+        publication_date_create: str,
         code_url: str,
         model_weights_url: str,
         label_status: tk.Label,
@@ -118,39 +133,39 @@ class GUIApp:
         year = int(year_str.strip())
         publication_url = publication_url.strip()
         publication_title = publication_title.strip()
+        publication_date_create = publication_date_create.strip()
         code_url = code_url.strip()
         model_weights_url = model_weights_url.strip()
 
         if not name:
             label_status.config(text="Missing model name!")
             return
-        if not publication_url and not code_url and not model_weights_url:
-            label_status.config(text="One element of model is required!")
+        if not publication_url:
+            label_status.config(text="Publication URL is required!")
             return
 
-        data_to_add = {
+        publication_data = self.return_value_or_update_status(
+            GUIApp.parse_publication_url(publication_url, publication_title, publication_date_create), label_status
+        )
+        code_data = (
+            self.return_value_or_update_status(GUIApp.parse_code_url(code_url), label_status) if code_url else None
+        )
+        model_weights_data = (
+            self.return_value_or_update_status(GUIApp.parse_model_weights_url(model_weights_url), label_status)
+            if model_weights_url
+            else None
+        )
+        if publication_data is None or label_status.cget("text"):
+            return
+
+        data_to_add: ModelInfoDict = {
             "name": name,
             "year": year,
-            "publication": None,
-            "code": None,
-            "model_weights": None,
+            "publication": publication_data,
+            "video": None,
+            "code": code_data,
+            "weights": model_weights_data,
         }
-        for key_name, data, fn, extra_args in [
-            (
-                "publication",
-                publication_url,
-                GUIApp.parse_publication_url,
-                {"title": publication_title},
-            ),
-            ("code", code_url, GUIApp.parse_code_url, {}),
-            ("model_weights", model_weights_url, GUIApp.parse_model_weights_url, {}),
-        ]:
-            if data:
-                parsed_data = fn(data, **extra_args)
-                if isinstance(parsed_data, str):
-                    label_status.config(text=parsed_data)
-                    return
-                data_to_add[key_name] = parsed_data
 
         # Clear errors
         label_status.config(text="")
@@ -163,16 +178,18 @@ class GUIApp:
 
         tk.Label(self.main_frame, text=model_info.name, font="bold").pack()
         tk.Label(self.main_frame, text=f"Year: {model_info.year}").pack()
-        for name, url_data in [
+        for name, data in [
             ("Publication:", model_info.publication),
             ("Code:", model_info.code),
             ("Video:", model_info.video),
-            ("Model weights:", model_info.model_weights),
+            ("Model weights:", model_info.weights),
         ]:
-            if url_data:
+            if data:
                 tk.Label(self.main_frame, text=f"{name}", font="bold").pack()
-                tk.Label(self.main_frame, text=url_data.title).pack()
-                tk.Label(self.main_frame, text=url_data.url).pack()
+                tk.Label(self.main_frame, text=data.title).pack()
+                if isinstance(data, ArticleData):
+                    tk.Label(self.main_frame, text=f"({convert_date_to_string(data.date_create)})").pack()
+                tk.Label(self.main_frame, text=data.url).pack()
 
         label_status = tk.Label(self.main_frame, text="")
 
@@ -195,7 +212,9 @@ class GUIApp:
         if self.MODEL_DATA_PATH.exists():
             model_data_list = [ModelInfo(**data) for data in json.loads(self.MODEL_DATA_PATH.read_text())]
         model_data_list.append(model_info)
-        self.MODEL_DATA_PATH.write_text(json.dumps([m.dict() for m in model_data_list], indent=4, ensure_ascii=False))
+        self.MODEL_DATA_PATH.write_text(
+            json.dumps([m.model_dump(mode="json") for m in model_data_list], indent=4, ensure_ascii=False)
+        )
         LOGGER.info("Language model inserted")
         LOGGER.info("Converting README...")
         generate_lm_data()
@@ -322,7 +341,7 @@ class GUIApp:
             data_list = [ApplicationData(**data) for data in json.loads(data_path.read_text())]
         data_list.append(application_data)
         data_list.sort(key=lambda x: x.name.lower())
-        data_path.write_text(json.dumps([m.dict() for m in data_list], indent=4, ensure_ascii=False))
+        data_path.write_text(json.dumps([m.model_dump(mode="json") for m in data_list], indent=4, ensure_ascii=False))
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
         generate_links_selected(file_name)
@@ -330,20 +349,41 @@ class GUIApp:
         label_status.config(text=f"{application_data.name} added")
 
     @staticmethod
-    def parse_publication_url(url: str, title: str) -> UrlData | str:
+    def parse_publication_url(url: str, title: str, date_create: str) -> ArticleData | str:
         if "arxiv.org" in url:
             page_date = parse_arxiv(url)
-            if not title:
-                title = page_date.title
-            elif title != page_date.title:
+            if title and title != page_date.title:
                 LOGGER.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
 
-            return UrlData(url=url, title=title)
+            return page_date
 
         elif not title:
             return "Missing publication title"
 
-        return UrlData(url=url, title=title)
+        if not is_valid_date_string(date_create):
+            return "Invalid publication date format"
+
+        # Add prefixes
+        added_prefix = False
+        for part_url, prefix in [
+            ("twitter.com", "Tweet: "),
+            ("huggingface.co", "HuggingFace model card - "),
+            ("README.md", "README - "),
+        ]:
+            if part_url in url:
+                added_prefix = True
+                if title.lower().startswith(prefix.lower()):
+                    title = title[: len(prefix)].strip()
+                title = prefix + title
+        if not added_prefix:
+            # Change "Blogpost" to "Blog"
+            if title.lower().startswith("blogpost -"):
+                title = title[:10].strip()
+            # Add "Blog" if is not at the beginning
+            if not title.lower().startswith("blog -"):
+                title = "Blog - " + title
+
+        return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
 
     @staticmethod
     def parse_code_url(url: str) -> UrlData | str:
@@ -365,6 +405,15 @@ class GUIApp:
 
     def run(self) -> None:
         self.main.mainloop()
+
+    @staticmethod
+    def return_value_or_update_status(result: T | str, label_status: tk.Label) -> T | None:
+        # Got string update status
+        if isinstance(result, str):
+            label_status.config(text=result)
+            return None
+
+        return result
 
 
 def main() -> None:

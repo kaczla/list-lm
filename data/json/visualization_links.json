@@ -8,5 +8,10 @@
         "name": "Ecoo",
         "description": "Ecco is a python library for exploring and explaining Natural Language Processing models using interactive visualizations.",
         "url": "https://github.com/jalammar/ecco"
+    },
+    {
+        "name": "Vizro",
+        "description": "Vizro is a toolkit for creating modular data visualization applications.",
+        "url": "https://github.com/mckinsey/vizro"
     }
 ]

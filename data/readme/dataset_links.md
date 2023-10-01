@@ -2,16 +2,19 @@
 - [BIG-bench](https://github.com/google/BIG-bench) - The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench.
 - [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) - CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.
+- [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) - CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.
 - [Deduplicated CommonCrawl Text](http://statmt.org/ngrams/deduped) - Processed Common Crawl snapshots.
 - [Dolma](https://huggingface.co/datasets/allenai/dolma) - Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
+- [Glaive-code-assistant](https://huggingface.co/datasets/glaiveai/glaive-code-assistant) - Glaive-code-assistant is a dataset of ~140k code problems and solutions generated using Glaive’s synthetic data generation platform.
 - [GLGE](https://github.com/microsoft/glge) - This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).
 - [HumanEval-X](https://huggingface.co/datasets/THUDM/humaneval-x) - HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.
 - [InstructEvalImpact](https://huggingface.co/datasets/declare-lab/InstructEvalImpact) - The IMPACT dataset contains 50 human created prompts for each category, 200 in total, to test LLMs general writing ability.
 - [KILT](https://github.com/facebookresearch/KILT) - A Benchmark for Knowledge Intensive Language Tasks.
 - [LIMA](https://huggingface.co/datasets/GAIR/lima) - Dataset for LIMA: Less Is More for Alignment.
+- [LMSYS-Chat](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) - This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
 - [MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) - MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.

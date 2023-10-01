@@ -110,9 +110,19 @@
         "url": "https://github.com/cocktailpeanut/dalai"
     },
     {
+        "name": "DALMs",
+        "description": "Domain Adapted Language Modeling Toolkit - E2E RAG",
+        "url": "https://github.com/arcee-ai/DALM"
+    },
+    {
         "name": "datasketch",
         "description": "datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.",
         "url": "https://github.com/ekzhu/datasketch"
+    },
+    {
+        "name": "DeepEval",
+        "description": "DeepEval provides metrics on different aspects when evaluating an LLM response to ensure that answers are relevant, consistent, unbiased, non-toxic.",
+        "url": "https://github.com/confident-ai/deepeval"
     },
     {
         "name": "DeepSparse",
@@ -133,6 +143,11 @@
         "name": "Dolly",
         "description": "Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.",
         "url": "https://github.com/databrickslabs/dolly"
+    },
+    {
+        "name": "DSPy",
+        "description": "DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.",
+        "url": "https://github.com/stanfordnlp/dspy"
     },
     {
         "name": "embedchain",
@@ -405,6 +420,11 @@
         "url": "https://github.com/togethercomputer/OpenChatKit"
     },
     {
+        "name": "OpenELM",
+        "description": "OpenELM is an open-source library by CarperAI, designed to enable evolutionary search with language models in both code and natural language.",
+        "url": "https://github.com/CarperAI/OpenELM"
+    },
+    {
         "name": "OpenFlamingo",
         "description": "An open-source framework for training large multimodal models.",
         "url": "https://github.com/mlfoundations/open_flamingo"
@@ -608,6 +628,11 @@
         "name": "word2vec",
         "description": "This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.",
         "url": "https://github.com/dav/word2vec"
+    },
+    {
+        "name": "Xinference",
+        "description": "Xorbits Inference(Xinference) is a powerful and versatile library designed to serve language, speech recognition, and multimodal models. With Xorbits Inference, you can effortlessly deploy and serve your or state-of-the-art built-in models using just a single command.",
+        "url": "https://github.com/xorbitsai/inference"
     },
     {
         "name": "xturing",

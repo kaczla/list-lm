@@ -69,7 +69,7 @@ def parse_markdown_to_model_info_list(markdown_path: Path) -> list[ModelInfo]:
 
 def convert_model_info_markdown_to_model_info_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_model_info_list(markdown_path)
-    json_data = [data.dict() for data in loaded_data]
+    json_data = [data.model_dump(mode="json") for data in loaded_data]
     save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
 
 

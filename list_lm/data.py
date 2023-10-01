@@ -1,5 +1,6 @@
 from datetime import date
 from enum import StrEnum
+from typing import TypedDict
 
 from pydantic import BaseModel
 
@@ -21,18 +22,17 @@ class UrlData(BaseModel):
         return f"[{self.title}]({self.url})"
 
 
-class ArticleData(BaseModel):
-    title: str
+class ArticleData(UrlData):
     date_create: date
 
 
 class ModelInfo(BaseModel):
     name: str
     year: int
-    publication: UrlData | None = None
+    publication: ArticleData
     video: UrlData | None = None
     code: UrlData | None = None
-    model_weights: UrlData | None = None
+    weights: UrlData | None = None
 
     def to_markdown_element(self) -> str:
         return "\n".join(
@@ -50,10 +50,19 @@ class ModelInfo(BaseModel):
                 ("Publication", self.publication),
                 ("Video", self.video),
                 ("Code", self.code),
-                ("Model weights", self.model_weights),
+                ("Model weights", self.weights),
             ]
             if element is not None
         ]
+
+
+class ModelInfoDict(TypedDict):
+    name: str
+    year: int
+    publication: ArticleData
+    video: UrlData | None
+    code: UrlData | None
+    weights: UrlData | None
 
 
 class LinkType(StrEnum):
@@ -69,6 +78,7 @@ class LinkType(StrEnum):
     @staticmethod
     def create_from_value(value: str) -> "LinkType":
         value_clean = value.lower().strip()
+        enum: LinkType
         for enum in [*LinkType]:
             if enum.value.lower() == value_clean:
                 return enum
