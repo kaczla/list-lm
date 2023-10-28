@@ -27,5 +27,6 @@
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B) - The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.
+- [tiny-codes](https://huggingface.co/datasets/nampdn-ai/tiny-codes) - This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.

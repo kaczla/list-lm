@@ -120,6 +120,16 @@
         "url": "https://github.com/Oneflow-Inc/libai"
     },
     {
+        "name": "LightSeq",
+        "description": "Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.",
+        "url": "https://github.com/RulinShao/LightSeq"
+    },
+    {
+        "name": "LightSeq",
+        "description": "ightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.",
+        "url": "https://github.com/RulinShao/LightSeq"
+    },
+    {
         "name": "Lit-GPT",
         "description": "Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.",
         "url": "https://github.com/Lightning-AI/lit-gpt"
@@ -273,6 +283,11 @@
         "name": "StableLM",
         "description": "StableLM: Stability AI Language Models",
         "url": "https://github.com/stability-AI/stableLM"
+    },
+    {
+        "name": "StreamingLLM",
+        "description": "Efficient Streaming Language Models with Attention Sinks",
+        "url": "https://github.com/mit-han-lab/streaming-llm"
     },
     {
         "name": "t5-experiments",

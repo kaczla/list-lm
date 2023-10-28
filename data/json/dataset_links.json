@@ -145,6 +145,11 @@
         "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B"
     },
     {
+        "name": "tiny-codes",
+        "description": "This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.",
+        "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes"
+    },
+    {
         "name": "WikiMatrix",
         "description": "WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.",
         "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix"

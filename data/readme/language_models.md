@@ -564,7 +564,7 @@
 
 - GALPACA
   - Year: 2023
-  - Publication: [HuggingFace model card - galpaca-6.7b](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
+  - Publication: [HuggingFace model card - GALPACA](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
   - Model weights: [HuggingFace models](https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b)
 
 - NarrowBERT
@@ -1192,7 +1192,7 @@
 
 - Nous-Capybara
   - Year: 2023
-  - Publication: [HuggingFace model card - HuggingFace model card -](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
+  - Publication: [HuggingFace model card - Nous-Capybara](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
 
 - Diff-Codegen
@@ -1200,3 +1200,50 @@
   - Publication: [Blog - Diff Models - A New Way to Edit Code](https://carper.ai/diff-models-a-new-way-to-edit-code/)
   - Code: [GitHub](https://github.com/salesforce/CodeGen)
   - Model weights: [HuggingFace models](https://huggingface.co/CarperAI/diff-codegen-6b-v2)
+
+- Zephyr 7B Alpha
+  - Year: 2023
+  - Publication: [HuggingFace model card - Zephyr 7B Alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
+  - Code: [GitHub](https://github.com/huggingface/alignment-handbook)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
+
+- LightSeq
+  - Year: 2023
+  - Publication: [LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers](https://arxiv.org/abs/2310.03294)
+  - Code: [GitHub](https://github.com/RulinShao/LightSeq)
+
+- Baichuan 2
+  - Year: 2023
+  - Publication: [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305)
+  - Code: [GitHub](https://github.com/baichuan-inc/Baichuan2)
+  - Model weights: [HuggingFace models](https://huggingface.co/baichuan-inc/Baichuan2-13B-Base)
+
+- StableLM-3B-4E1T
+  - Year: 2023
+  - Publication: [Blog - Technical report for StableLM-3B-4E1T](https://stability.wandb.io/stability-llm/stable-lm/reports/StableLM-3B-4E1T--VmlldzoyMjU4?accessToken=u3zujipenkx5g7rtcj9qojjgxpconyjktjkli2po09nffrffdhhchq045vp0wyfo)
+  - Code: [GitHub](https://github.com/Stability-AI/StableLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/stabilityai/stablelm-3b-4e1t)
+
+- Kosmos-G
+  - Year: 2023
+  - Publication: [Kosmos-G: Generating Images in Context with Multimodal Large Language Models](https://arxiv.org/abs/2310.02992)
+
+- MiniGPT-5
+  - Year: 2023
+  - Publication: [MiniGPT-5: Interleaved Vision-and-Language Generation via Generative Vokens](https://arxiv.org/abs/2310.02239)
+  - Code: [GitHub](https://github.com/eric-ai-lab/MiniGPT-5)
+
+- MiniGPT-4
+  - Year: 2023
+  - Publication: [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592)
+  - Code: [GitHub](https://github.com/Vision-CAIR/MiniGPT-4)
+
+- MiniGPT-v2
+  - Year: 2023
+  - Publication: [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)
+  - Code: [GitHub](https://github.com/Vision-CAIR/MiniGPT-4)
+
+- StreamingLLM
+  - Year: 2023
+  - Publication: [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
+  - Code: [GitHub](https://github.com/mit-han-lab/streaming-llm)
