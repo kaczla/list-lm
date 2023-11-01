@@ -30,6 +30,7 @@ T = TypeVar("T")
 class GUIApp:
     DATA_JSON_PATH = Path("data/json")
     DATA_README_PATH = Path("data/readme")
+    LINKS_PATH = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
     README_MODEL_DATA_PATH = DATA_README_PATH / f"{FILE_NAME_LM_MARKDOWN}.md"
 
@@ -134,6 +135,7 @@ class GUIApp:
         publication_date_create = publication_date_create.strip()
         code_url = code_url.strip()
         model_weights_url = model_weights_url.strip()
+        label_status.config(text="")
 
         if not name:
             label_status.config(text="Missing model name!")
@@ -154,7 +156,8 @@ class GUIApp:
             if model_weights_url
             else None
         )
-        if publication_data is None or label_status.cget("text"):
+        label_status_text = label_status.cget("text")
+        if publication_data is None or label_status_text:
             return
 
         data_to_add: ModelInfoDict = {
@@ -218,9 +221,7 @@ class GUIApp:
         LOGGER.info("README converted")
         label_status.config(text=f"{model_info.name} added")
 
-    def create_link_frame(
-        self, application_data: ApplicationData | None = None, link_type: LinkType | None = None
-    ) -> None:
+    def create_link_frame(self, application_data: ApplicationData | None = None) -> None:
         self.clear_main_frame()
 
         link_type_value = tk.StringVar()
@@ -228,8 +229,8 @@ class GUIApp:
         option_link_type = ttk.Combobox(self.main_frame, textvariable=link_type_value)
         option_link_type["values"] = link_type_string_values
         option_link_type.pack()
-        if link_type is not None:
-            link_type_value.set(str(link_type.value))
+        if application_data:
+            link_type_value.set(str(application_data.link_type.value))
 
         label_app_name = tk.Label(self.main_frame, text="Application name:")
         label_app_name.pack()
@@ -277,6 +278,7 @@ class GUIApp:
         link_type_str = link_type_str.strip()
         description = description.strip()
         url = url.strip()
+        label_status.config(text="")
 
         if not link_type_str:
             label_status.config(text="Link type is not selected")
@@ -297,15 +299,13 @@ class GUIApp:
             label_status.config(text="Invalid link type")
             return
 
-        self.show_link_frame(
-            ApplicationData(name=name, description=description, url=url, type_name=link_type_str), link_type
-        )
+        self.show_link_frame(ApplicationData(name=name, description=description, url=url, link_type=link_type))
 
-    def show_link_frame(self, application_data: ApplicationData, link_type: LinkType) -> None:
-        LOGGER.info(f"Adding {link_type}: {application_data}")
+    def show_link_frame(self, application_data: ApplicationData) -> None:
+        LOGGER.info(f"Adding {application_data.link_type}: {application_data}")
         self.clear_main_frame()
 
-        tk.Label(self.main_frame, text=f"[{link_type.value}]").pack()
+        tk.Label(self.main_frame, text=f"[{application_data.link_type.value}]").pack()
         tk.Label(self.main_frame, text=application_data.name, font="bold").pack()
         tk.Label(self.main_frame, text="Description:", font="bold").pack()
         tk.Label(self.main_frame, text=application_data.description).pack()
@@ -315,12 +315,12 @@ class GUIApp:
         tk.Button(
             self.main_frame,
             text="Add",
-            command=lambda: self.insert_link_frame(application_data, link_type, label_status),
+            command=lambda: self.insert_link_frame(application_data, label_status),
         ).pack()
         tk.Button(
             self.main_frame,
             text="Edit",
-            command=lambda: self.create_link_frame(application_data=application_data, link_type=link_type),
+            command=lambda: self.create_link_frame(application_data=application_data),
         ).pack()
         tk.Button(self.main_frame, text="New", command=self.create_link_frame).pack()
         tk.Button(self.main_frame, text="Menu", command=self.create_start_frame).pack()
@@ -331,17 +331,18 @@ class GUIApp:
 
         self.main_frame.pack()
 
-    def insert_link_frame(self, application_data: ApplicationData, link_type: LinkType, label_status: tk.Label) -> None:
-        LOGGER.info(f"Inserting {link_type.value} ({link_type.name}): {application_data}")
+    def insert_link_frame(self, application_data: ApplicationData, label_status: tk.Label) -> None:
+        LOGGER.info(
+            f"Inserting {application_data.link_type.value} ({application_data.link_type.name}): {application_data}"
+        )
         application_data_list: list[ApplicationData] = []
-        application_data_path = self.DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
-        if application_data_path.exists():
-            application_data_list = load_base_model_list(application_data_path, ApplicationData)
+        if self.LINKS_PATH.exists():
+            application_data_list = load_base_model_list(self.LINKS_PATH, ApplicationData)
         application_data_list.append(application_data)
-        save_base_model_list(application_data_path, application_data_list, sort_fn=get_application_data_sort_key)
+        save_base_model_list(self.LINKS_PATH, application_data_list, sort_fn=get_application_data_sort_key)
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
-        generate_links_selected(application_data_list, application_data.type_name)
+        generate_links_selected(application_data_list, application_data.link_type)
         LOGGER.info("README converted")
         label_status.config(text=f"{application_data.name} added")
 
@@ -355,35 +356,41 @@ class GUIApp:
             return page_date
 
         elif not title:
-            if "github.com" in url and url.endswith("README.md"):
+            if "github.com" in url and (url.endswith(("README.md", "README_en.md", "README_en.md"))):
                 title = f"README - {name} repository"
+                return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
             elif "huggingface.co" in url:
                 title = f"HuggingFace model card - {name}"
+                return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
             else:
                 return "Missing publication title"
 
         if not is_valid_date_string(date_create):
             return "Invalid publication date format"
 
-        # Add prefixes
-        added_prefix = False
+        # Check prefixes
         for part_url, prefix in [
             ("twitter.com", "Tweet: "),
             ("huggingface.co", "HuggingFace model card - "),
             ("README.md", "README - "),
         ]:
             if part_url in url:
-                added_prefix = True
                 if title.lower().startswith(prefix.lower()):
                     title = title[len(prefix) :].strip()
                 title = prefix + title
-        if not added_prefix:
-            # Change "Blogpost" to "Blog"
-            if title.lower().startswith("blogpost -"):
-                title = title[:10].strip()
-            # Add "Blog" if is not at the beginning
-            if not title.lower().startswith("blog -"):
-                title = "Blog - " + title
+                return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
+
+        # Check other domains to not add prefix "Blog"
+        for url_domain in ["dl.acm.org"]:
+            if url_domain in url:
+                return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
+
+        # Change "Blogpost" to "Blog"
+        if title.lower().startswith("blogpost -"):
+            title = title[:10].strip()
+        # Add "Blog" if is not at the beginning
+        if not title.lower().startswith("blog -"):
+            title = "Blog - " + title
 
         return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
 

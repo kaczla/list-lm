@@ -1,8 +1,8 @@
 from pathlib import Path
 
-from list_lm.data import ApplicationData, ModelInfo
+from list_lm.data import ApplicationData, LinkType, ModelInfo
 from list_lm.data_utils import load_base_model_list
-from list_lm.parse_links import FILE_NAME_LINKS
+from list_lm.parse_links import FILE_NAME_LINKS, MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 
 
@@ -14,25 +14,17 @@ def generate_lm_data() -> None:
         f_write.write("\n")
 
 
-def generate_links_selected(application_data_list: list[ApplicationData], file_type: str) -> None:
+def generate_links_selected(application_data_list: list[ApplicationData], link_type: LinkType) -> None:
+    file_type = MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME[link_type]
     with Path(f"data/readme/{file_type}.md").open("wt") as f_write:
         for application_data in application_data_list:
-            if application_data.type_name == file_type:
+            if application_data.link_type == link_type:
                 f_write.write(f"- {application_data.to_markdown()}\n")
 
 
 def generate_links_all() -> None:
     application_data_list = load_base_model_list(Path(f"data/json/{FILE_NAME_LINKS}.json"), ApplicationData)
-    for file_type in [
-        "dataset_links",
-        "documentation_links",
-        "gpu_profiling_links",
-        "model_links",
-        "optimizer_links",
-        "utils_links",
-        "visualization_links",
-        "vocabulary_links",
-    ]:
+    for file_type in [*LinkType]:
         generate_links_selected(application_data_list, file_type)
 
 

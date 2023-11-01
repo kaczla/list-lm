@@ -21,6 +21,9 @@ MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME = {
     LinkType.DOCUMENTATION: "documentation_links",
 }
 
+
+MAP_NORMALISED_NAME_TO_LINK_TYPE_NAME = {v: k for k, v in MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME.items()}
+
 FILE_NAME_LINKS = "all_links"
 
 
@@ -39,7 +42,7 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
                 name=rgx_match.group("name"),
                 url=rgx_match.group("url"),
                 description=rgx_match.group("description"),
-                type_name=file_type_name,
+                link_type=MAP_NORMALISED_NAME_TO_LINK_TYPE_NAME[file_type_name],
             )
             loaded_data.append(application_data)
 

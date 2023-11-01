@@ -20,7 +20,7 @@ def validate_links() -> None:
     for index, application_data in enumerate(application_data_list):
         LOGGER.info(
             f"[{index + 1}/{len(application_data_list)}]"
-            f" Checking model: {application_data.name} ({application_data.type_name})"
+            f" Checking model: {application_data.name} ({application_data.link_type})"
         )
 
         normalized_name = application_data.name.lower()
@@ -30,14 +30,14 @@ def validate_links() -> None:
                 if original_application_data.name.lower() == normalized_name:
                     if original_application_data.url == application_data.url:
                         error_msg = (
-                            f"Duplicated link in {application_data.type_name} - {application_data.name},"
+                            f"Duplicated link in {application_data.link_type} - {application_data.name},"
                             f" found original: {original_application_data})"
                         )
                         errors.append(error_msg)
                         break
 
                     warning_msg = (
-                        f"Potential duplicate, duplicated name in {application_data.type_name}"
+                        f"Potential duplicate, duplicated name in {application_data.link_type}"
                         f" - {application_data.name},"
                         f" found original: {original_application_data})"
                     )

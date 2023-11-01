@@ -7,11 +7,32 @@ from pydantic import BaseModel
 from list_lm.utils import convert_date_to_string
 
 
+class LinkType(StrEnum):
+    MODEL = "Model links"
+    UTILS = "Utils links"
+    GPU_PROFILING = "GPU profiling links"
+    VISUALIZATION = "Visualization links"
+    VOCABULARY = "Vocabulary links"
+    OPTIMIZER = "Optimizer links"
+    DATASET = "Dataset links"
+    DOCUMENTATION = "Documentation links"
+
+    @staticmethod
+    def create_from_value(value: str) -> "LinkType":
+        value_clean = value.lower().strip()
+        enum: LinkType
+        for enum in [*LinkType]:
+            if enum.value.lower() == value_clean:
+                return enum
+
+        raise ValueError(f"Cannot create enum LinkType for value: {repr(value)}")
+
+
 class ApplicationData(BaseModel):
     name: str
     description: str
     url: str
-    type_name: str
+    link_type: LinkType
 
     def to_markdown(self) -> str:
         return f"[{self.name}]({self.url}) - {self.description}"
@@ -71,25 +92,8 @@ class ModelInfoDict(TypedDict):
     weights: UrlData | None
 
 
-class LinkType(StrEnum):
-    MODEL = "Model links"
-    UTILS = "Utils links"
-    GPU_PROFILING = "GPU profiling links"
-    VISUALIZATION = "Visualization links"
-    VOCABULARY = "Vocabulary links"
-    OPTIMIZER = "Optimizer links"
-    DATASET = "Dataset links"
-    DOCUMENTATION = "Documentation links"
-
-    @staticmethod
-    def create_from_value(value: str) -> "LinkType":
-        value_clean = value.lower().strip()
-        enum: LinkType
-        for enum in [*LinkType]:
-            if enum.value.lower() == value_clean:
-                return enum
-
-        raise ValueError(f"Cannot create enum LinkType for value: {repr(value)}")
+class CacheArticleData(BaseModel):
+    url_to_article_data: dict[str, ArticleData]
 
 
 def get_model_info_sort_key(data: ModelInfo) -> date:
