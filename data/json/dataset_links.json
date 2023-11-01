@@ -2,186 +2,223 @@
     {
         "name": "AlpacaEval",
         "description": "AlpacaEval : An Automatic Evaluator for Instruction-following Language Models.",
-        "url": "https://github.com/tatsu-lab/alpaca_eval"
+        "url": "https://github.com/tatsu-lab/alpaca_eval",
+        "type_name": "dataset_links"
     },
     {
         "name": "BIG-bench",
         "description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench.",
-        "url": "https://github.com/google/BIG-bench"
+        "url": "https://github.com/google/BIG-bench",
+        "type_name": "dataset_links"
     },
     {
         "name": "CCMatrix",
         "description": "CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.",
-        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix"
+        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix",
+        "type_name": "dataset_links"
     },
     {
         "name": "CCNet",
         "description": "Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.",
-        "url": "https://github.com/facebookresearch/cc_net"
+        "url": "https://github.com/facebookresearch/cc_net",
+        "type_name": "dataset_links"
     },
     {
         "name": "CulturaX",
         "description": "CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.",
-        "url": "https://huggingface.co/datasets/uonlp/CulturaX"
+        "url": "https://huggingface.co/datasets/uonlp/CulturaX",
+        "type_name": "dataset_links"
     },
     {
         "name": "Deduplicated CommonCrawl Text",
         "description": "Processed Common Crawl snapshots.",
-        "url": "http://statmt.org/ngrams/deduped"
+        "url": "http://statmt.org/ngrams/deduped",
+        "type_name": "dataset_links"
     },
     {
         "name": "Dolma",
         "description": "Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.",
-        "url": "https://huggingface.co/datasets/allenai/dolma"
+        "url": "https://huggingface.co/datasets/allenai/dolma",
+        "type_name": "dataset_links"
     },
     {
         "name": "DS-1000",
         "description": "Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.",
-        "url": "https://github.com/HKUNLP/DS-1000"
+        "url": "https://github.com/HKUNLP/DS-1000",
+        "type_name": "dataset_links"
     },
     {
         "name": "Falcon RefinedWeb",
         "description": "Falcon RefinedWeb is a massive English web dataset.",
-        "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"
+        "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb",
+        "type_name": "dataset_links"
     },
     {
         "name": "FewGLUE",
         "description": "FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.",
-        "url": "https://github.com/timoschick/fewglue"
+        "url": "https://github.com/timoschick/fewglue",
+        "type_name": "dataset_links"
     },
     {
         "name": "Flan v2",
         "description": "Flan 2022 collection of datasets and templates.",
-        "url": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+        "url": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "type_name": "dataset_links"
     },
     {
         "name": "Glaive-code-assistant",
         "description": "Glaive-code-assistant is a dataset of ~140k code problems and solutions generated using Glaive’s synthetic data generation platform.",
-        "url": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant"
+        "url": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant",
+        "type_name": "dataset_links"
     },
     {
         "name": "GLGE",
         "description": "This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).",
-        "url": "https://github.com/microsoft/glge"
+        "url": "https://github.com/microsoft/glge",
+        "type_name": "dataset_links"
     },
     {
         "name": "HumanEval-X",
         "description": "HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.",
-        "url": "https://huggingface.co/datasets/THUDM/humaneval-x"
+        "url": "https://huggingface.co/datasets/THUDM/humaneval-x",
+        "type_name": "dataset_links"
     },
     {
         "name": "InstructEvalImpact",
         "description": "The IMPACT dataset contains 50 human created prompts for each category, 200 in total, to test LLMs general writing ability.",
-        "url": "https://huggingface.co/datasets/declare-lab/InstructEvalImpact"
+        "url": "https://huggingface.co/datasets/declare-lab/InstructEvalImpact",
+        "type_name": "dataset_links"
     },
     {
         "name": "KILT",
         "description": "A Benchmark for Knowledge Intensive Language Tasks.",
-        "url": "https://github.com/facebookresearch/KILT"
+        "url": "https://github.com/facebookresearch/KILT",
+        "type_name": "dataset_links"
     },
     {
         "name": "LIMA",
         "description": "Dataset for LIMA: Less Is More for Alignment.",
-        "url": "https://huggingface.co/datasets/GAIR/lima"
+        "url": "https://huggingface.co/datasets/GAIR/lima",
+        "type_name": "dataset_links"
     },
     {
         "name": "LMSYS-Chat",
         "description": "This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.",
-        "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+        "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "type_name": "dataset_links"
     },
     {
         "name": "MASSIVE",
         "description": "MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.",
-        "url": "https://github.com/alexa/massive"
+        "url": "https://github.com/alexa/massive",
+        "type_name": "dataset_links"
     },
     {
         "name": "MathInstruct",
         "description": "MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.",
-        "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct"
+        "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
+        "type_name": "dataset_links"
     },
     {
         "name": "MultiLegalPile",
         "description": "The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.",
-        "url": "https://huggingface.co/datasets/joelito/Multi_Legal_Pile"
+        "url": "https://huggingface.co/datasets/joelito/Multi_Legal_Pile",
+        "type_name": "dataset_links"
     },
     {
         "name": "OSCAR (Open Super-large Crawled ALMAnaCH coRpus)",
         "description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.",
-        "url": "https://oscar-corpus.com"
+        "url": "https://oscar-corpus.com",
+        "type_name": "dataset_links"
     },
     {
         "name": "P3",
         "description": "P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.",
-        "url": "https://huggingface.co/datasets/bigscience/P3"
+        "url": "https://huggingface.co/datasets/bigscience/P3",
+        "type_name": "dataset_links"
     },
     {
         "name": "PG-19 Language Modelling Benchmark",
         "description": "This repository contains the PG-19 language modeling benchmark. It includes a set of books extracted from the Project Gutenberg books library, that were published before 1919. It also contains metadata of book titles and publication dates.",
-        "url": "https://github.com/deepmind/pg19"
+        "url": "https://github.com/deepmind/pg19",
+        "type_name": "dataset_links"
     },
     {
         "name": "PRESTO",
         "description": "PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.",
-        "url": "https://github.com/google-research-datasets/presto"
+        "url": "https://github.com/google-research-datasets/presto",
+        "type_name": "dataset_links"
     },
     {
         "name": "PROSE Public Benchmark Suite",
         "description": "PROSE Public Benchmark Suite contains benchmarks drawn from three classes of tasks: string-to-string transformation, text-to-table transformation, substring extraction from semi-structured text, syntax (and some semantic) program repair for code that can be achieved with few edits.",
-        "url": "https://github.com/microsoft/prose-benchmarks"
+        "url": "https://github.com/microsoft/prose-benchmarks",
+        "type_name": "dataset_links"
     },
     {
         "name": "ReCoRD",
         "description": "This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.",
-        "url": "https://github.com/deepmind/rc-data"
+        "url": "https://github.com/deepmind/rc-data",
+        "type_name": "dataset_links"
     },
     {
         "name": "RedPajama-Data",
         "description": "RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.",
-        "url": "https://github.com/togethercomputer/RedPajama-Data"
+        "url": "https://github.com/togethercomputer/RedPajama-Data",
+        "type_name": "dataset_links"
     },
     {
         "name": "RedPajama-V2",
         "description": "RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.",
-        "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+        "type_name": "dataset_links"
     },
     {
         "name": "Seahorse",
         "description": "Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.",
-        "url": "https://github.com/google-research-datasets/seahorse"
+        "url": "https://github.com/google-research-datasets/seahorse",
+        "type_name": "dataset_links"
     },
     {
         "name": "Self-Instruct",
         "description": "Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.",
-        "url": "https://huggingface.co/datasets/yizhongw/self_instruct"
+        "url": "https://huggingface.co/datasets/yizhongw/self_instruct",
+        "type_name": "dataset_links"
     },
     {
         "name": "SlimPajama",
         "description": "The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.",
-        "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B"
+        "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
+        "type_name": "dataset_links"
     },
     {
         "name": "tiny-codes",
         "description": "This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.",
-        "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes"
+        "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes",
+        "type_name": "dataset_links"
     },
     {
         "name": "UltraChat",
         "description": "UltraChat is an open-source, large-scale, and multi-round dialogue data powered by Turbo APIs.",
-        "url": "https://huggingface.co/datasets/stingning/ultrachat"
+        "url": "https://huggingface.co/datasets/stingning/ultrachat",
+        "type_name": "dataset_links"
     },
     {
         "name": "UltraFeedback",
         "description": "UltraFeedback is a large-scale, fine-grained, diverse preference dataset, used for training powerful reward models and critic models.",
-        "url": "https://huggingface.co/datasets/openbmb/UltraFeedback"
+        "url": "https://huggingface.co/datasets/openbmb/UltraFeedback",
+        "type_name": "dataset_links"
     },
     {
         "name": "WikiMatrix",
         "description": "WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.",
-        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix"
+        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix",
+        "type_name": "dataset_links"
     },
     {
         "name": "xP3",
         "description": "xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.",
-        "url": "https://huggingface.co/datasets/bigscience/xP3"
+        "url": "https://huggingface.co/datasets/bigscience/xP3",
+        "type_name": "dataset_links"
     }
 ]

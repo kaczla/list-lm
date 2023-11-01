@@ -1,9 +1,9 @@
-import json
 import logging
 import re
 from pathlib import Path
 
-from list_lm.data import ApplicationData, LinkType
+from list_lm.data import ApplicationData, LinkType, get_application_data_sort_key
+from list_lm.data_utils import save_base_model_list
 
 LOGGER = logging.getLogger(__name__)
 
@@ -24,6 +24,7 @@ MAP_LINK_TYPE_NAME_TO_FILE_NAME = {
 
 def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
     loaded_data: list[ApplicationData] = []
+    file_type_name = markdown_path.stem
     with markdown_path.open("rt") as f_read:
         for line in f_read:
             line = line.strip().strip("-").strip()
@@ -33,7 +34,10 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
                 continue
 
             application_data = ApplicationData(
-                name=rgx_match.group("name"), url=rgx_match.group("url"), description=rgx_match.group("description")
+                name=rgx_match.group("name"),
+                url=rgx_match.group("url"),
+                description=rgx_match.group("description"),
+                type_name=file_type_name,
             )
             loaded_data.append(application_data)
 
@@ -42,8 +46,7 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
 
 def convert_link_markdown_to_link_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_data(markdown_path)
-    json_data = sorted([data.model_dump(mode="json") for data in loaded_data], key=lambda x: x["name"].lower())
-    save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
+    save_base_model_list(save_path, loaded_data, sort_fn=get_application_data_sort_key)
 
 
 def convert_link_markdown_to_link_json_all() -> None:

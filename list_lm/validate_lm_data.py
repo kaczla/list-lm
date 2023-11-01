@@ -1,18 +1,19 @@
-import json
 import logging
 from pathlib import Path
 
-from list_lm.data import ModelInfo
+from list_lm.data import ModelInfo, get_model_info_sort_key
+from list_lm.data_utils import load_base_model_list, save_base_model_list
 
 LOGGER = logging.getLogger(__name__)
 
 
 def validate_lm_data(path: Path) -> None:
-    model_info_list = [ModelInfo(**data) for data in json.loads(path.read_text())]
-    model_name_to_model_info = {}
+    model_info_list = load_base_model_list(path, ModelInfo)
+    model_name_to_model_info: dict[str, ModelInfo] = {}
 
     changed = False
     errors = []
+    model_info: ModelInfo
     for index, model_info in enumerate(model_info_list):
         LOGGER.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
         if model_info.name in model_name_to_model_info:
@@ -20,6 +21,7 @@ def validate_lm_data(path: Path) -> None:
             errors.append(error_msg)
         else:
             model_name_to_model_info[model_info.name] = model_info
+        # Here can be a logic for fixing issues in data
 
     if errors:
         for error_msg in errors:
@@ -28,7 +30,7 @@ def validate_lm_data(path: Path) -> None:
 
     if changed:
         LOGGER.info(f"Saving in: {path}")
-        path.write_text(json.dumps([m.model_dump(mode="json") for m in model_info_list], indent=4, ensure_ascii=False))
+        save_base_model_list(path, model_info_list, sort_fn=get_model_info_sort_key)
     else:
         LOGGER.info("Nothing changed - skip saving")
 

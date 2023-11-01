@@ -2,46 +2,55 @@
     {
         "name": "Graphic of learning rate schedulers",
         "description": "Simple visualizations of learning rate schedulers.",
-        "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png"
+        "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png",
+        "type_name": "documentation_links"
     },
     {
         "name": "labml.ai Deep Learning Paper Implementations",
         "description": "60 Implementations/tutorials of deep learning papers with side-by-side notes.",
-        "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+        "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "type_name": "documentation_links"
     },
     {
         "name": "ML Papers Explained",
         "description": "List of LM papers explained.",
-        "url": "https://github.com/dair-ai/ML-Papers-Explained"
+        "url": "https://github.com/dair-ai/ML-Papers-Explained",
+        "type_name": "documentation_links"
     },
     {
         "name": "Open LLMs",
         "description": "A list of open LLMs available for commercial use.",
-        "url": "https://github.com/eugeneyan/open-llms"
+        "url": "https://github.com/eugeneyan/open-llms",
+        "type_name": "documentation_links"
     },
     {
         "name": "The Practical Guides for Large Language Models",
         "description": "A curated (still actively updated) list of practical guide resources of LLMs.",
-        "url": "https://github.com/Mooler0410/LLMsPracticalGuide"
+        "url": "https://github.com/Mooler0410/LLMsPracticalGuide",
+        "type_name": "documentation_links"
     },
     {
         "name": "Transformer",
         "description": "Explanation of Transformer architecture from the code.",
-        "url": "https://nn.labml.ai/transformers/index.html"
+        "url": "https://nn.labml.ai/transformers/index.html",
+        "type_name": "documentation_links"
     },
     {
         "name": "Transformer models: an introduction and catalog, 2023 Edition",
         "description": "An introduction and catalog of Transformer models.",
-        "url": "https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376"
+        "url": "https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376",
+        "type_name": "documentation_links"
     },
     {
         "name": "Transformers from Scratch",
         "description": "Explanation of Transformer architecture.",
-        "url": "https://e2eml.school/transformers.html"
+        "url": "https://e2eml.school/transformers.html",
+        "type_name": "documentation_links"
     },
     {
         "name": "Understanding and Coding the Self-Attention Mechanism of Large Language Models From Scratch",
         "description": "Understanding how self-attention works from scratch.",
-        "url": "https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html"
+        "url": "https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html",
+        "type_name": "documentation_links"
     }
 ]

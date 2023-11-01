@@ -1,4 +1,3 @@
-import json
 import logging
 import tkinter as tk
 from datetime import datetime
@@ -6,7 +5,17 @@ from pathlib import Path
 from tkinter import ttk
 from typing import TypeVar
 
-from list_lm.data import ApplicationData, ArticleData, LinkType, ModelInfo, ModelInfoDict, UrlData
+from list_lm.data import (
+    ApplicationData,
+    ArticleData,
+    LinkType,
+    ModelInfo,
+    ModelInfoDict,
+    UrlData,
+    get_application_data_sort_key,
+    get_model_info_sort_key,
+)
+from list_lm.data_utils import load_base_model_list, save_base_model_list
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import convert_link_type_to_file_name
@@ -199,11 +208,9 @@ class GUIApp:
         LOGGER.info(f"Inserting language model: {model_info}")
         model_data_list: list[ModelInfo] = []
         if self.MODEL_DATA_PATH.exists():
-            model_data_list = [ModelInfo(**data) for data in json.loads(self.MODEL_DATA_PATH.read_text())]
+            model_data_list = load_base_model_list(self.MODEL_DATA_PATH, ModelInfo)
         model_data_list.append(model_info)
-        self.MODEL_DATA_PATH.write_text(
-            json.dumps([m.model_dump(mode="json") for m in model_data_list], indent=4, ensure_ascii=False)
-        )
+        save_base_model_list(self.MODEL_DATA_PATH, model_data_list, sort_fn=get_model_info_sort_key)
         LOGGER.info("Language model inserted")
         LOGGER.info("Converting README...")
         generate_lm_data()
@@ -289,7 +296,9 @@ class GUIApp:
             label_status.config(text="Invalid link type")
             return
 
-        self.show_link_frame(ApplicationData(name=name, description=description, url=url), link_type)
+        self.show_link_frame(
+            ApplicationData(name=name, description=description, url=url, type_name=link_type_str), link_type
+        )
 
     def show_link_frame(self, application_data: ApplicationData, link_type: LinkType) -> None:
         LOGGER.info(f"Adding {link_type}: {application_data}")
@@ -323,14 +332,13 @@ class GUIApp:
 
     def insert_link_frame(self, application_data: ApplicationData, link_type: LinkType, label_status: tk.Label) -> None:
         LOGGER.info(f"Inserting {link_type.value} ({link_type.name}): {application_data}")
-        data_list: list[ApplicationData] = []
+        application_data_list: list[ApplicationData] = []
         file_name = convert_link_type_to_file_name(link_type)
-        data_path = self.DATA_JSON_PATH / (file_name + ".json")
-        if data_path.exists():
-            data_list = [ApplicationData(**data) for data in json.loads(data_path.read_text())]
-        data_list.append(application_data)
-        data_list.sort(key=lambda x: x.name.lower())
-        data_path.write_text(json.dumps([m.model_dump(mode="json") for m in data_list], indent=4, ensure_ascii=False))
+        application_data_path = self.DATA_JSON_PATH / (file_name + ".json")
+        if application_data_path.exists():
+            application_data_list = load_base_model_list(application_data_path, ApplicationData)
+        application_data_list.append(application_data)
+        save_base_model_list(application_data_path, application_data_list, sort_fn=get_application_data_sort_key)
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
         generate_links_selected(file_name)
@@ -367,7 +375,7 @@ class GUIApp:
             if part_url in url:
                 added_prefix = True
                 if title.lower().startswith(prefix.lower()):
-                    title = title[len(prefix):].strip()
+                    title = title[len(prefix) :].strip()
                 title = prefix + title
         if not added_prefix:
             # Change "Blogpost" to "Blog"

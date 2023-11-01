@@ -1,9 +1,9 @@
-import json
 import logging
 import re
 from pathlib import Path
 
-from list_lm.data import ModelInfo, UrlData
+from list_lm.data import ModelInfo, UrlData, get_model_info_sort_key
+from list_lm.data_utils import save_base_model_list
 
 LOGGER = logging.getLogger(__name__)
 
@@ -69,8 +69,7 @@ def parse_markdown_to_model_info_list(markdown_path: Path) -> list[ModelInfo]:
 
 def convert_model_info_markdown_to_model_info_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_model_info_list(markdown_path)
-    json_data = [data.model_dump(mode="json") for data in loaded_data]
-    save_path.write_text(json.dumps(json_data, indent=4, ensure_ascii=False))
+    save_base_model_list(save_path, loaded_data, sort_fn=get_model_info_sort_key)
 
 
 def convert_model_info_markdown_to_model_info_json_all() -> None:

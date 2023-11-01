@@ -9,6 +9,7 @@ class ApplicationData(BaseModel):
     name: str
     description: str
     url: str
+    type_name: str
 
     def to_markdown(self) -> str:
         return f"[{self.name}]({self.url}) - {self.description}"
@@ -84,3 +85,11 @@ class LinkType(StrEnum):
                 return enum
 
         raise ValueError(f"Cannot create enum LinkType for value: {repr(value)}")
+
+
+def get_model_info_sort_key(data: ModelInfo) -> date:
+    return data.publication.date_create
+
+
+def get_application_data_sort_key(data: ApplicationData) -> str:
+    return data.name.lower()
