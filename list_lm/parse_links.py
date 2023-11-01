@@ -10,7 +10,7 @@ LOGGER = logging.getLogger(__name__)
 RGX_LINE_LINK = re.compile(r"^\[(?P<name>[^]]+)\]\((?P<url>.+?)\)\s*[-]\s*(?P<description>.*?)$")
 
 
-MAP_LINK_TYPE_NAME_TO_FILE_NAME = {
+MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME = {
     LinkType.MODEL: "model_links",
     LinkType.UTILS: "utils_links",
     LinkType.GPU_PROFILING: "gpu_profiling_links",
@@ -20,6 +20,8 @@ MAP_LINK_TYPE_NAME_TO_FILE_NAME = {
     LinkType.DATASET: "dataset_links",
     LinkType.DOCUMENTATION: "documentation_links",
 }
+
+FILE_NAME_LINKS = "all_links"
 
 
 def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
@@ -44,12 +46,8 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
     return loaded_data
 
 
-def convert_link_markdown_to_link_json(markdown_path: Path, save_path: Path) -> None:
-    loaded_data = parse_markdown_to_data(markdown_path)
-    save_base_model_list(save_path, loaded_data, sort_fn=get_application_data_sort_key)
-
-
 def convert_link_markdown_to_link_json_all() -> None:
+    all_links: list[ApplicationData] = []
     for file_name in [
         "dataset_links",
         "documentation_links",
@@ -60,14 +58,11 @@ def convert_link_markdown_to_link_json_all() -> None:
         "visualization_links",
         "vocabulary_links",
     ]:
-        convert_link_markdown_to_link_json(Path(f"data/readme/{file_name}.md"), Path(f"data/json/{file_name}.json"))
+        application_data = parse_markdown_to_data(Path(f"data/readme/{file_name}.md"))
+        all_links.extend(application_data)
 
-
-def convert_link_type_to_file_name(link_type: LinkType) -> str:
-    if link_type in MAP_LINK_TYPE_NAME_TO_FILE_NAME:
-        return MAP_LINK_TYPE_NAME_TO_FILE_NAME[link_type]
-
-    raise ValueError(f"Cannot get file path to link type: {link_type.name}")
+    save_path = Path(f"data/json/{FILE_NAME_LINKS}.json")
+    save_base_model_list(save_path, all_links, sort_fn=get_application_data_sort_key)
 
 
 if __name__ == "__main__":

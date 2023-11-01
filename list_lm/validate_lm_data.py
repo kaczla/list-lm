@@ -3,6 +3,7 @@ from pathlib import Path
 
 from list_lm.data import ModelInfo, get_model_info_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 
 LOGGER = logging.getLogger(__name__)
 
@@ -37,7 +38,7 @@ def validate_lm_data(path: Path) -> None:
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
-    validate_lm_data(Path("data/json/model_data_list.json"))
+    validate_lm_data(Path(f"data/json/{FILE_NAME_LM_DATA}.json"))
 
 
 if __name__ == "__main__":

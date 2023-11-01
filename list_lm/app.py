@@ -18,7 +18,8 @@ from list_lm.data import (
 from list_lm.data_utils import load_base_model_list, save_base_model_list
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
 from list_lm.parse_html import parse_arxiv
-from list_lm.parse_links import convert_link_type_to_file_name
+from list_lm.parse_links import FILE_NAME_LINKS
+from list_lm.parse_lm_data import FILE_NAME_LM_DATA, FILE_NAME_LM_MARKDOWN
 from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
 
 LOGGER = logging.getLogger(__name__)
@@ -29,8 +30,8 @@ T = TypeVar("T")
 class GUIApp:
     DATA_JSON_PATH = Path("data/json")
     DATA_README_PATH = Path("data/readme")
-    MODEL_DATA_PATH = DATA_JSON_PATH / "model_data_list.json"
-    README_MODEL_DATA_PATH = DATA_README_PATH / "language_models.md"
+    MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
+    README_MODEL_DATA_PATH = DATA_README_PATH / f"{FILE_NAME_LM_MARKDOWN}.md"
 
     def __init__(self) -> None:
         self.main = tk.Tk()
@@ -333,15 +334,14 @@ class GUIApp:
     def insert_link_frame(self, application_data: ApplicationData, link_type: LinkType, label_status: tk.Label) -> None:
         LOGGER.info(f"Inserting {link_type.value} ({link_type.name}): {application_data}")
         application_data_list: list[ApplicationData] = []
-        file_name = convert_link_type_to_file_name(link_type)
-        application_data_path = self.DATA_JSON_PATH / (file_name + ".json")
+        application_data_path = self.DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
         if application_data_path.exists():
             application_data_list = load_base_model_list(application_data_path, ApplicationData)
         application_data_list.append(application_data)
         save_base_model_list(application_data_path, application_data_list, sort_fn=get_application_data_sort_key)
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
-        generate_links_selected(file_name)
+        generate_links_selected(application_data_list, application_data.type_name)
         LOGGER.info("README converted")
         label_status.config(text=f"{application_data.name} added")
 

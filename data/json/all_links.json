@@ -18,6 +18,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "AlpacaEval",
+        "description": "AlpacaEval : An Automatic Evaluator for Instruction-following Language Models.",
+        "url": "https://github.com/tatsu-lab/alpaca_eval",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "AlpacaFarm",
         "description": "AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.",
         "url": "https://github.com/tatsu-lab/alpaca_farm",
@@ -66,6 +72,18 @@
         "type_name": "utils_links"
     },
     {
+        "name": "BertViz",
+        "description": "BertViz is a tool for visualizing attention in the Transformer model, supporting most models from the transformers library (BERT, GPT-2, XLNet, RoBERTa, XLM, CTRL, BART, etc.)",
+        "url": "https://github.com/jessevig/bertviz",
+        "type_name": "visualization_links"
+    },
+    {
+        "name": "BIG-bench",
+        "description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench.",
+        "url": "https://github.com/google/BIG-bench",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "BiGS",
         "description": "This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.",
         "url": "https://github.com/jxiw/BiGS",
@@ -90,6 +108,30 @@
         "type_name": "utils_links"
     },
     {
+        "name": "C Transformers",
+        "description": "Python bindings for the Transformer models implemented in C/C++ using GGML library.",
+        "url": "https://github.com/marella/ctransformers",
+        "type_name": "model_links"
+    },
+    {
+        "name": "candle",
+        "description": "Candle is a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use.",
+        "url": "https://github.com/huggingface/candle",
+        "type_name": "model_links"
+    },
+    {
+        "name": "CCMatrix",
+        "description": "CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.",
+        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "CCNet",
+        "description": "Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.",
+        "url": "https://github.com/facebookresearch/cc_net",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "ChainForge",
         "description": "ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.",
         "url": "https://github.com/ianarawjo/ChainForge",
@@ -102,10 +144,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "CodeGeeX",
+        "description": "We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters, pre-trained on a large code corpus of more than 20 programming languages.",
+        "url": "https://github.com/THUDM/CodeGeeX",
+        "type_name": "model_links"
+    },
+    {
+        "name": "CodeT5 and CodeT5+",
+        "description": "Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/",
+        "url": "https://github.com/salesforce/CodeT5",
+        "type_name": "model_links"
+    },
+    {
+        "name": "CodeTF",
+        "description": "CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.",
+        "url": "https://github.com/salesforce/CodeTF",
+        "type_name": "model_links"
+    },
+    {
         "name": "COLLIE",
         "description": "COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.",
         "url": "https://github.com/princeton-nlp/Collie",
         "type_name": "utils_links"
+    },
+    {
+        "name": "ColossalAI",
+        "description": "Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.",
+        "url": "https://github.com/hpcaitech/ColossalAI",
+        "type_name": "model_links"
     },
     {
         "name": "comgra",
@@ -130,6 +196,12 @@
         "description": "CTranslate2 is a C++ and Python library for efficient inference with Transformer models.",
         "url": "https://github.com/OpenNMT/CTranslate2",
         "type_name": "utils_links"
+    },
+    {
+        "name": "CulturaX",
+        "description": "CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.",
+        "url": "https://huggingface.co/datasets/uonlp/CulturaX",
+        "type_name": "dataset_links"
     },
     {
         "name": "cyclemoid-pytorch",
@@ -162,6 +234,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Deduplicated CommonCrawl Text",
+        "description": "Processed Common Crawl snapshots.",
+        "url": "http://statmt.org/ngrams/deduped",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "DeepEval",
         "description": "DeepEval provides metrics on different aspects when evaluating an LLM response to ensure that answers are relevant, consistent, unbiased, non-toxic.",
         "url": "https://github.com/confident-ai/deepeval",
@@ -180,6 +258,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "DeepSpeed-MII",
+        "description": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
+        "url": "https://github.com/microsoft/DeepSpeed-MII",
+        "type_name": "model_links"
+    },
+    {
         "name": "DGL",
         "description": "DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.",
         "url": "https://github.com/dmlc/dgl",
@@ -192,10 +276,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Dolma",
+        "description": "Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.",
+        "url": "https://huggingface.co/datasets/allenai/dolma",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "DS-1000",
+        "description": "Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.",
+        "url": "https://github.com/HKUNLP/DS-1000",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "DSPy",
         "description": "DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.",
         "url": "https://github.com/stanfordnlp/dspy",
         "type_name": "utils_links"
+    },
+    {
+        "name": "EasyLLM",
+        "description": "EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source.",
+        "url": "https://github.com/philschmid/easyllm",
+        "type_name": "model_links"
+    },
+    {
+        "name": "EasyLM",
+        "description": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.",
+        "url": "https://github.com/young-geng/EasyLM",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Ecoo",
+        "description": "Ecco is a python library for exploring and explaining Natural Language Processing models using interactive visualizations.",
+        "url": "https://github.com/jalammar/ecco",
+        "type_name": "visualization_links"
     },
     {
         "name": "embedchain",
@@ -234,6 +348,24 @@
         "type_name": "utils_links"
     },
     {
+        "name": "ExtremeBERT",
+        "description": "ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.",
+        "url": "https://github.com/extreme-bert/extreme-bert",
+        "type_name": "model_links"
+    },
+    {
+        "name": "FairScale",
+        "description": "FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.",
+        "url": "https://github.com/facebookresearch/fairscale",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Falcon RefinedWeb",
+        "description": "Falcon RefinedWeb is a massive English web dataset.",
+        "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "FastChat",
         "description": "FastChat is an open platform for training, serving, and evaluating large language model based chatbots.",
         "url": "https://github.com/lm-sys/FastChat",
@@ -246,16 +378,46 @@
         "type_name": "utils_links"
     },
     {
+        "name": "FasterTransformer",
+        "description": "This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.",
+        "url": "https://github.com/NVIDIA/FasterTransformer",
+        "type_name": "model_links"
+    },
+    {
+        "name": "FastSeq",
+        "description": "FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.",
+        "url": "https://github.com/microsoft/fastseq",
+        "type_name": "model_links"
+    },
+    {
         "name": "fastText",
         "description": "fastText is a library for efficient learning of word representations and sentence classification.",
         "url": "https://github.com/facebookresearch/fastText/",
         "type_name": "utils_links"
     },
     {
+        "name": "FewGLUE",
+        "description": "FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.",
+        "url": "https://github.com/timoschick/fewglue",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "FlagAI",
+        "description": "FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.",
+        "url": "https://github.com/FlagAI-Open/FlagAI",
+        "type_name": "model_links"
+    },
+    {
         "name": "FLAML",
         "description": "A Fast Library for Automated Machine Learning & Tuning.",
         "url": "https://github.com/microsoft/FLAML",
         "type_name": "utils_links"
+    },
+    {
+        "name": "Flan v2",
+        "description": "Flan 2022 collection of datasets and templates.",
+        "url": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "type_name": "dataset_links"
     },
     {
         "name": "FlashAttention",
@@ -270,6 +432,18 @@
         "type_name": "utils_links"
     },
     {
+        "name": "GENIUS",
+        "description": "GENIUS generating text using sketches! A strong and general textual data augmentation tool.",
+        "url": "https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius",
+        "type_name": "model_links"
+    },
+    {
+        "name": "GeoV",
+        "description": "The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.",
+        "url": "https://github.com/geov-ai/geov",
+        "type_name": "model_links"
+    },
+    {
         "name": "ggml",
         "description": "Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.",
         "url": "https://github.com/ggerganov/ggml",
@@ -280,6 +454,18 @@
         "description": "Train a model, and detect gibberish strings with it. Example gibberish: \"ertrjiloifdfyyoiu\".",
         "url": "https://github.com/domanchi/gibberish-detector",
         "type_name": "utils_links"
+    },
+    {
+        "name": "Glaive-code-assistant",
+        "description": "Glaive-code-assistant is a dataset of ~140k code problems and solutions generated using Glaive’s synthetic data generation platform.",
+        "url": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "GLGE",
+        "description": "This repository contains information about the general langugae generation evaluation benchmark GLGE, which is composed of 8 language generation tasks, including Abstractive Text Summarization (CNN/DailyMail, Gigaword, XSUM, MSNews), Answer-aware Question Generation (SQuAD 1.1, MSQG), Conversational Question Answering (CoQA), and Personalizing Dialogue (Personachat).",
+        "url": "https://github.com/microsoft/glge",
+        "type_name": "dataset_links"
     },
     {
         "name": "GlotLID",
@@ -294,10 +480,28 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Graphic of learning rate schedulers",
+        "description": "Simple visualizations of learning rate schedulers.",
+        "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png",
+        "type_name": "documentation_links"
+    },
+    {
         "name": "Guardrails",
         "description": "Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).",
         "url": "https://github.com/ShreyaR/guardrails",
         "type_name": "utils_links"
+    },
+    {
+        "name": "H2O LLM Studio",
+        "description": "H2O LLM Studio, a framework and no-code GUI designed for fine-tuning state-of-the-art large language models (LLMs).",
+        "url": "https://github.com/h2oai/h2o-llmstudio",
+        "type_name": "model_links"
+    },
+    {
+        "name": "h2oGPT",
+        "description": "h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.",
+        "url": "https://github.com/h2oai/h2ogpt",
+        "type_name": "model_links"
     },
     {
         "name": "Haystack",
@@ -318,10 +522,22 @@
         "type_name": "utils_links"
     },
     {
+        "name": "HumanEval-X",
+        "description": "HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.",
+        "url": "https://huggingface.co/datasets/THUDM/humaneval-x",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "incdbscan",
         "description": "the incremental version of the DBSCAN clustering algorithm",
         "url": "https://github.com/DataOmbudsman/incdbscan",
         "type_name": "utils_links"
+    },
+    {
+        "name": "InstructEvalImpact",
+        "description": "The IMPACT dataset contains 50 human created prompts for each category, 200 in total, to test LLMs general writing ability.",
+        "url": "https://huggingface.co/datasets/declare-lab/InstructEvalImpact",
+        "type_name": "dataset_links"
     },
     {
         "name": "InternLM",
@@ -330,10 +546,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "JARVIS",
+        "description": "JARVIS, a system to connect LLMs with ML community.",
+        "url": "https://github.com/microsoft/JARVIS",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Kernl",
+        "description": "Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.",
+        "url": "https://github.com/ELS-RD/kernl",
+        "type_name": "model_links"
+    },
+    {
+        "name": "KILT",
+        "description": "A Benchmark for Knowledge Intensive Language Tasks.",
+        "url": "https://github.com/facebookresearch/KILT",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "L-Eval",
         "description": "L-Eval: Instituting Standardized Evaluation for Long Context Language Models.",
         "url": "https://github.com/openlmlab/leval",
         "type_name": "utils_links"
+    },
+    {
+        "name": "labml.ai Deep Learning Paper Implementations",
+        "description": "60 Implementations/tutorials of deep learning papers with side-by-side notes.",
+        "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+        "type_name": "documentation_links"
     },
     {
         "name": "Lamini",
@@ -358,6 +598,48 @@
         "description": "Python building blocks to explore large language models on any computer with 512MB of RAM.",
         "url": "https://github.com/jncraton/languagemodels",
         "type_name": "utils_links"
+    },
+    {
+        "name": "LASSL",
+        "description": "LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.",
+        "url": "https://github.com/lassl/lassl",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Latent Diffusion Models",
+        "description": "High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting",
+        "url": "https://github.com/CompVis/latent-diffusion",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Levanter",
+        "description": "Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.",
+        "url": "https://github.com/stanford-crfm/levanter",
+        "type_name": "model_links"
+    },
+    {
+        "name": "LiBai",
+        "description": "LiBai is a large-scale open-source model training toolbox based on OneFlow",
+        "url": "https://github.com/Oneflow-Inc/libai",
+        "type_name": "model_links"
+    },
+    {
+        "name": "LightSeq",
+        "description": "Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.",
+        "url": "https://github.com/RulinShao/LightSeq",
+        "type_name": "model_links"
+    },
+    {
+        "name": "LIMA",
+        "description": "Dataset for LIMA: Less Is More for Alignment.",
+        "url": "https://huggingface.co/datasets/GAIR/lima",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "Lit-GPT",
+        "description": "Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.",
+        "url": "https://github.com/Lightning-AI/lit-gpt",
+        "type_name": "model_links"
     },
     {
         "name": "Lit-LLaMA",
@@ -408,6 +690,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "LLM Foundry",
+        "description": "This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.",
+        "url": "https://github.com/mosaicml/llm-foundry",
+        "type_name": "model_links"
+    },
+    {
         "name": "LLMParser",
         "description": "LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.",
         "url": "https://github.com/kyang6/llmparser",
@@ -418,6 +706,30 @@
         "description": "A framework for few-shot evaluation of autoregressive language models.",
         "url": "https://github.com/EleutherAI/lm-evaluation-harness",
         "type_name": "utils_links"
+    },
+    {
+        "name": "LMFlow",
+        "description": "An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.",
+        "url": "https://github.com/OptimalScale/LMFlow",
+        "type_name": "model_links"
+    },
+    {
+        "name": "LMSYS-Chat",
+        "description": "This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.",
+        "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "LOMO",
+        "description": "LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.",
+        "url": "https://arxiv.org/abs/2306.09782",
+        "type_name": "optimizer_links"
+    },
+    {
+        "name": "LongT5",
+        "description": "LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.",
+        "url": "https://github.com/google-research/longt5",
+        "type_name": "model_links"
     },
     {
         "name": "Lovely Tensors",
@@ -444,10 +756,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "MASSIVE",
+        "description": "MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.",
+        "url": "https://github.com/alexa/massive",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "MathInstruct",
+        "description": "MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.",
+        "url": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "MaxText",
+        "description": "MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.",
+        "url": "https://github.com/google/maxtext",
+        "type_name": "model_links"
+    },
+    {
         "name": "Merlin Dataloader",
         "description": "The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX",
         "url": "https://github.com/NVIDIA-Merlin/dataloader",
         "type_name": "utils_links"
+    },
+    {
+        "name": "metaseq",
+        "description": "A codebase for working with Open Pre-trained Transformers.",
+        "url": "https://github.com/facebookresearch/metaseq",
+        "type_name": "model_links"
     },
     {
         "name": "MiniChain",
@@ -462,16 +798,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "ML Papers Explained",
+        "description": "List of LM papers explained.",
+        "url": "https://github.com/dair-ai/ML-Papers-Explained",
+        "type_name": "documentation_links"
+    },
+    {
         "name": "MLC LLM",
         "description": "Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.",
         "url": "https://github.com/mlc-ai/mlc-llm",
         "type_name": "utils_links"
     },
     {
+        "name": "MMF",
+        "description": "MMF is a modular framework for vision and language multimodal research",
+        "url": "https://github.com/facebookresearch/mmf",
+        "type_name": "model_links"
+    },
+    {
         "name": "ModelScope",
         "description": "ModelScope is built upon the notion of “Model-as-a-Service” (MaaS). It seeks to bring together most advanced machine learning models from the AI community, and streamlines the process of leveraging AI models in real-world applications. The core ModelScope library open-sourced in this repository provides the interfaces and implementations that allow developers to perform model inference, training and evaluation.",
         "url": "https://github.com/modelscope/modelscope",
         "type_name": "utils_links"
+    },
+    {
+        "name": "ModuleFormer",
+        "description": "ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.",
+        "url": "https://github.com/IBM/ModuleFormer",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Mosaic composer",
+        "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
+        "url": "https://github.com/mosaicml/composer",
+        "type_name": "model_links"
     },
     {
         "name": "Mosaic streaming",
@@ -486,6 +846,24 @@
         "type_name": "utils_links"
     },
     {
+        "name": "MS-AMP",
+        "description": "MS-AMP is an automatic mixed precision package for deep learning developed by Microsoft.",
+        "url": "https://github.com/azure/ms-amp",
+        "type_name": "model_links"
+    },
+    {
+        "name": "MultiLegalPile",
+        "description": "The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.",
+        "url": "https://huggingface.co/datasets/joelito/Multi_Legal_Pile",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "multimodal",
+        "description": "TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.",
+        "url": "https://github.com/facebookresearch/multimodal",
+        "type_name": "model_links"
+    },
+    {
         "name": "Multimodal-GPT",
         "description": "Train a multi-modal chatbot with visual and language instructions!",
         "url": "https://github.com/open-mmlab/Multimodal-GPT",
@@ -498,6 +876,24 @@
         "type_name": "utils_links"
     },
     {
+        "name": "nanoGPT",
+        "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+        "url": "https://github.com/karpathy/nanoGPT",
+        "type_name": "model_links"
+    },
+    {
+        "name": "nanoPALM",
+        "description": "nanoPALM is the simplest, fastest repository for training/finetuning small to medium-sized PALM models.",
+        "url": "https://github.com/RobertRiachi/nanoPALM",
+        "type_name": "model_links"
+    },
+    {
+        "name": "nanoT5",
+        "description": "Fast & Simple repository for pre-training and fine-tuning T5-style models.",
+        "url": "https://github.com/PiotrNawrot/nanoT5",
+        "type_name": "model_links"
+    },
+    {
         "name": "nebullvm",
         "description": "Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.",
         "url": "https://github.com/nebuly-ai/nebullvm",
@@ -508,6 +904,48 @@
         "description": "Noisy Embedding Instruction Fine Tuning (NEFTune) add random noise to the embedding vectors of the training data during the forward pass of fine-tuning.",
         "url": "https://github.com/neelsjain/NEFTune",
         "type_name": "utils_links"
+    },
+    {
+        "name": "NVIDIA Megatron-LM",
+        "description": "Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "type_name": "model_links"
+    },
+    {
+        "name": "NVIDIA Merlin",
+        "description": "NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.",
+        "url": "https://github.com/NVIDIA-Merlin/Merlin",
+        "type_name": "model_links"
+    },
+    {
+        "name": "NVIDIA NeMo",
+        "description": "NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).",
+        "url": "https://github.com/NVIDIA/NeMo",
+        "type_name": "model_links"
+    },
+    {
+        "name": "NVIDIA Nsight Systems",
+        "description": "NVIDIA Nsight™ Systems is a system-wide performance analysis tool designed to visualize an application’s algorithms, help you identify the largest opportunities to optimize, and tune to scale efficiently across any quantity or size of CPUs and GPUs, from large servers to our smallest system on a chip (SoC).",
+        "url": "https://developer.nvidia.com/nsight-systems",
+        "type_name": "gpu_profiling_links"
+    },
+    {
+        "name": "Nvidia TensorRT",
+        "description": "TensorRT is an SDK for high-performance deep learning inference, includes a deep learning inference optimizer and runtime that delivers low latency and high throughput for inference applications.",
+        "url": "https://github.com/NVIDIA/TensorRT",
+        "type_name": "model_links"
+    },
+    {
+        "name": "NVIDIA Visual Profiler",
+        "description": "The NVIDIA Visual Profiler is a cross-platform performance profiling tool that delivers developers vital feedback for optimizing CUDA C/C++ applications.",
+        "url": "https://developer.nvidia.com/nvidia-visual-profiler",
+        "type_name": "gpu_profiling_links"
+    },
+    {
+        "name": "NVIDIA/NVTX",
+        "description": "The NVIDIA® Tools Extension SDK (NVTX) is a C-based Application Programming Interface (API) for annotating events, code ranges, and resources in your applications.",
+        "url": "https://github.com/NVIDIA/NVTX",
+        "type_name": "gpu_profiling_links"
     },
     {
         "name": "OctoPack",
@@ -534,6 +972,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Open LLMs",
+        "description": "A list of open LLMs available for commercial use.",
+        "url": "https://github.com/eugeneyan/open-llms",
+        "type_name": "documentation_links"
+    },
+    {
         "name": "OpenChatKit",
         "description": "OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.",
         "url": "https://github.com/togethercomputer/OpenChatKit",
@@ -552,10 +996,28 @@
         "type_name": "utils_links"
     },
     {
+        "name": "OpenLLM",
+        "description": "An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.",
+        "url": "https://github.com/bentoml/OpenLLM",
+        "type_name": "model_links"
+    },
+    {
+        "name": "OpenLM",
+        "description": "OpenLM is a minimal but performative language modeling (LM) repository, aimed to facilitate research on medium sized LMs.",
+        "url": "https://github.com/mlfoundations/open_lm",
+        "type_name": "model_links"
+    },
+    {
         "name": "OpenLM",
         "description": "Drop-in OpenAI-compatible library that can call LLMs from other providers (e.g., HuggingFace, Cohere, and more).",
         "url": "https://github.com/r2d4/openlm",
         "type_name": "utils_links"
+    },
+    {
+        "name": "OpenMoE",
+        "description": "OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.",
+        "url": "https://github.com/XueFuzhao/OpenMoE",
+        "type_name": "model_links"
     },
     {
         "name": "OpenPipe",
@@ -570,6 +1032,18 @@
         "type_name": "utils_links"
     },
     {
+        "name": "OSCAR (Open Super-large Crawled ALMAnaCH coRpus)",
+        "description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.",
+        "url": "https://oscar-corpus.com",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "OSLO",
+        "description": "OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.",
+        "url": "https://github.com/EleutherAI/oslo",
+        "type_name": "model_links"
+    },
+    {
         "name": "Otter",
         "description": "Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following ability and in-context learning.",
         "url": "https://github.com/Luodian/otter",
@@ -580,6 +1054,12 @@
         "description": "Outlines is a library for neural text generation.",
         "url": "https://github.com/normal-computing/outlines",
         "type_name": "utils_links"
+    },
+    {
+        "name": "P3",
+        "description": "P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.",
+        "url": "https://huggingface.co/datasets/bigscience/P3",
+        "type_name": "dataset_links"
     },
     {
         "name": "PaLM",
@@ -600,10 +1080,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "PG-19 Language Modelling Benchmark",
+        "description": "This repository contains the PG-19 language modeling benchmark. It includes a set of books extracted from the Project Gutenberg books library, that were published before 1919. It also contains metadata of book titles and publication dates.",
+        "url": "https://github.com/deepmind/pg19",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "PRESTO",
+        "description": "PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.",
+        "url": "https://github.com/google-research-datasets/presto",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "Pretrained Language Model",
+        "description": "Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.",
+        "url": "https://github.com/huawei-noah/Pretrained-Language-Model",
+        "type_name": "model_links"
+    },
+    {
         "name": "privateGPT",
         "description": "Interact privately with your documents using the power of GPT, 100% privately, no data leaks.",
         "url": "https://github.com/imartinez/privateGPT",
         "type_name": "utils_links"
+    },
+    {
+        "name": "PROSE Public Benchmark Suite",
+        "description": "PROSE Public Benchmark Suite contains benchmarks drawn from three classes of tasks: string-to-string transformation, text-to-table transformation, substring extraction from semi-structured text, syntax (and some semantic) program repair for code that can be achieved with few edits.",
+        "url": "https://github.com/microsoft/prose-benchmarks",
+        "type_name": "dataset_links"
     },
     {
         "name": "pybaselines",
@@ -624,10 +1128,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "PyTorch Profiler",
+        "description": "This recipe explains how to use PyTorch profiler and measure the time and memory consumption of the model’s operators.",
+        "url": "https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html",
+        "type_name": "gpu_profiling_links"
+    },
+    {
         "name": "RasaGPT",
         "description": "RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.",
         "url": "https://github.com/paulpierre/RasaGPT",
         "type_name": "utils_links"
+    },
+    {
+        "name": "ReCoRD",
+        "description": "This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.",
+        "url": "https://github.com/deepmind/rc-data",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "RedPajama-Data",
+        "description": "RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.",
+        "url": "https://github.com/togethercomputer/RedPajama-Data",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "RedPajama-V2",
+        "description": "RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.",
+        "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "RWKV",
+        "description": "RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
+        "url": "https://github.com/BlinkDL/RWKV-LM",
+        "type_name": "model_links"
     },
     {
         "name": "safari",
@@ -642,10 +1176,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Seahorse",
+        "description": "Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.",
+        "url": "https://github.com/google-research-datasets/seahorse",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "Self-Instruct",
+        "description": "Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.",
+        "url": "https://huggingface.co/datasets/yizhongw/self_instruct",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "Semantic Kernel",
         "description": "Semantic Kernel (SK) is a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages.",
         "url": "https://github.com/microsoft/semantic-kernel",
         "type_name": "utils_links"
+    },
+    {
+        "name": "SentencePiece",
+        "description": "SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training. SentencePiece implements subword units (e.g., byte-pair-encoding (BPE) and unigram language model ) with the extension of direct training from raw sentences.",
+        "url": "https://github.com/google/sentencepiece",
+        "type_name": "vocabulary_links"
+    },
+    {
+        "name": "SeqIO",
+        "description": "Task-based datasets, preprocessing, and evaluation for sequence models.",
+        "url": "https://github.com/google/seqio",
+        "type_name": "model_links"
+    },
+    {
+        "name": "simpletransformers",
+        "description": "This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.",
+        "url": "https://github.com/ThilinaRajapakse/simpletransformers",
+        "type_name": "model_links"
     },
     {
         "name": "skorch",
@@ -654,10 +1218,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "SlimPajama",
+        "description": "The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.",
+        "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "slowllama",
         "description": "Fine-tune Llama2 and CodeLLama models, including 70B/35B on Apple M1/M2 devices (for example, Macbook Air or Mac Mini) or consumer nVidia GPUs.",
         "url": "https://github.com/okuvshynov/slowllama",
         "type_name": "utils_links"
+    },
+    {
+        "name": "small-text",
+        "description": "Small-Text provides state-of-the-art Active Learning for Text Classification.",
+        "url": "https://github.com/webis-de/small-text",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Sockeye",
+        "description": "Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.",
+        "url": "https://github.com/awslabs/sockeye",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Sophia",
+        "description": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training",
+        "url": "https://arxiv.org/abs/2305.14342",
+        "type_name": "optimizer_links"
     },
     {
         "name": "SparseML",
@@ -666,10 +1254,28 @@
         "type_name": "utils_links"
     },
     {
+        "name": "SparseZoo",
+        "description": "Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.",
+        "url": "https://github.com/neuralmagic/sparsezoo",
+        "type_name": "model_links"
+    },
+    {
+        "name": "SpikeGPT",
+        "description": "SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.",
+        "url": "https://github.com/ridgerchu/SpikeGPT",
+        "type_name": "model_links"
+    },
+    {
         "name": "srf-attention",
         "description": "Simplex Random Feature attention, in PyTorch",
         "url": "https://github.com/notarussianteenager/srf-attention",
         "type_name": "utils_links"
+    },
+    {
+        "name": "StableLM",
+        "description": "StableLM: Stability AI Language Models",
+        "url": "https://github.com/stability-AI/stableLM",
+        "type_name": "model_links"
     },
     {
         "name": "Stanford Alpaca",
@@ -690,6 +1296,12 @@
         "type_name": "utils_links"
     },
     {
+        "name": "StreamingLLM",
+        "description": "Efficient Streaming Language Models with Attention Sinks",
+        "url": "https://github.com/mit-han-lab/streaming-llm",
+        "type_name": "model_links"
+    },
+    {
         "name": "string2string",
         "description": "The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.",
         "url": "https://github.com/stanfordnlp/string2string",
@@ -706,6 +1318,24 @@
         "description": "A library to inspect and extract intermediate layers of PyTorch models.",
         "url": "https://github.com/archinetai/surgeon-pytorch",
         "type_name": "utils_links"
+    },
+    {
+        "name": "t5-experiments",
+        "description": "Tools and scripts for experimenting with Transformers: Bert, T5.",
+        "url": "https://github.com/yurakuratov/t5-experiments",
+        "type_name": "model_links"
+    },
+    {
+        "name": "t5x",
+        "description": "T5X is a modular, composable, research-friendly framework for high-performance, configurable, self-service training, evaluation, and inference of sequence models (starting with language) at many scales.",
+        "url": "https://github.com/google-research/t5x",
+        "type_name": "model_links"
+    },
+    {
+        "name": "tasknet",
+        "description": "Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.",
+        "url": "https://github.com/sileod/tasknet",
+        "type_name": "model_links"
     },
     {
         "name": "tbparse",
@@ -738,10 +1368,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "The Practical Guides for Large Language Models",
+        "description": "A curated (still actively updated) list of practical guide resources of LLMs.",
+        "url": "https://github.com/Mooler0410/LLMsPracticalGuide",
+        "type_name": "documentation_links"
+    },
+    {
+        "name": "tiktoken",
+        "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
+        "url": "https://github.com/openai/tiktoken",
+        "type_name": "vocabulary_links"
+    },
+    {
+        "name": "tiny-codes",
+        "description": "This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.",
+        "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes",
+        "type_name": "dataset_links"
+    },
+    {
         "name": "tinygrad",
         "description": "tinygrad is an extremely simple deep-learning framework. It supports both inference and training.",
         "url": "https://github.com/geohot/tinygrad",
         "type_name": "utils_links"
+    },
+    {
+        "name": "tokenizers",
+        "description": "Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.",
+        "url": "https://github.com/huggingface/tokenizers",
+        "type_name": "vocabulary_links"
+    },
+    {
+        "name": "TokenMonster",
+        "description": "TokenMonster is an ungreedy subword tokenizer and vocabulary generator, enabling language models to run faster, cheaper, smarter and generate longer streams of text.",
+        "url": "https://github.com/alasdairforsythe/tokenmonster",
+        "type_name": "vocabulary_links"
     },
     {
         "name": "TorchBench",
@@ -762,10 +1422,40 @@
         "type_name": "utils_links"
     },
     {
+        "name": "torchnnprofiler",
+        "description": "Context Manager to profile the forward and backward times of PyTorch's nn.Module",
+        "url": "https://github.com/kshitij12345/torchnnprofiler",
+        "type_name": "gpu_profiling_links"
+    },
+    {
+        "name": "TorchScale",
+        "description": "TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.",
+        "url": "https://github.com/microsoft/torchscale",
+        "type_name": "model_links"
+    },
+    {
         "name": "Training BERT with Compute/Time (Academic) Budget",
         "description": "Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.",
         "url": "https://github.com/IntelLabs/academic-budget-bert",
         "type_name": "utils_links"
+    },
+    {
+        "name": "Trankit",
+        "description": "A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing",
+        "url": "https://github.com/nlp-uoregon/trankit",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Transformer",
+        "description": "Explanation of Transformer architecture from the code.",
+        "url": "https://nn.labml.ai/transformers/index.html",
+        "type_name": "documentation_links"
+    },
+    {
+        "name": "Transformer models: an introduction and catalog, 2023 Edition",
+        "description": "An introduction and catalog of Transformer models.",
+        "url": "https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376",
+        "type_name": "documentation_links"
     },
     {
         "name": "transformer-deploy",
@@ -774,10 +1464,52 @@
         "type_name": "utils_links"
     },
     {
+        "name": "transformers",
+        "description": "State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0",
+        "url": "https://github.com/huggingface/transformers",
+        "type_name": "model_links"
+    },
+    {
+        "name": "Transformers from Scratch",
+        "description": "Explanation of Transformer architecture.",
+        "url": "https://e2eml.school/transformers.html",
+        "type_name": "documentation_links"
+    },
+    {
         "name": "tsai",
         "description": "tsai is an open-source deep learning package built on top of Pytorch & fastai focused on state-of-the-art techniques for time series tasks like classification, regression, forecasting, imputation.",
         "url": "https://github.com/timeseriesAI/tsai",
         "type_name": "utils_links"
+    },
+    {
+        "name": "txtai",
+        "description": "txtai executes machine-learning workflows to transform data and build AI-powered semantic search applications.",
+        "url": "https://github.com/neuml/txtai",
+        "type_name": "model_links"
+    },
+    {
+        "name": "UltraChat",
+        "description": "UltraChat is an open-source, large-scale, and multi-round dialogue data powered by Turbo APIs.",
+        "url": "https://huggingface.co/datasets/stingning/ultrachat",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "UltraFeedback",
+        "description": "UltraFeedback is a large-scale, fine-grained, diverse preference dataset, used for training powerful reward models and critic models.",
+        "url": "https://huggingface.co/datasets/openbmb/UltraFeedback",
+        "type_name": "dataset_links"
+    },
+    {
+        "name": "Understanding and Coding the Self-Attention Mechanism of Large Language Models From Scratch",
+        "description": "Understanding how self-attention works from scratch.",
+        "url": "https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html",
+        "type_name": "documentation_links"
+    },
+    {
+        "name": "unilm",
+        "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.",
+        "url": "https://github.com/microsoft/unilm",
+        "type_name": "model_links"
     },
     {
         "name": "UpTrain",
@@ -786,16 +1518,34 @@
         "type_name": "utils_links"
     },
     {
+        "name": "Vizro",
+        "description": "Vizro is a toolkit for creating modular data visualization applications.",
+        "url": "https://github.com/mckinsey/vizro",
+        "type_name": "visualization_links"
+    },
+    {
         "name": "vLLM",
         "description": "vLLM is a fast and easy-to-use library for LLM inference and serving.",
         "url": "https://github.com/vllm-project/vllm",
         "type_name": "utils_links"
     },
     {
+        "name": "voltaML",
+        "description": "VoltaML is a lightweight library to convert and run your ML/DL deep learning models in high performance inference runtimes like TensorRT, TorchScript, ONNX and TVM.",
+        "url": "https://github.com/VoltaML/voltaML",
+        "type_name": "model_links"
+    },
+    {
         "name": "WeightWatcher",
         "description": "WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.",
         "url": "https://github.com/CalculatedContent/WeightWatcher",
         "type_name": "utils_links"
+    },
+    {
+        "name": "WikiMatrix",
+        "description": "WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.",
+        "url": "https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix",
+        "type_name": "dataset_links"
     },
     {
         "name": "WizardLM",
@@ -810,10 +1560,28 @@
         "type_name": "utils_links"
     },
     {
+        "name": "x-transformers",
+        "description": "A simple but complete full-attention transformer with a set of promising experimental features from various papers.",
+        "url": "https://github.com/lucidrains/x-transformers",
+        "type_name": "model_links"
+    },
+    {
+        "name": "xFormers",
+        "description": "xFormers is a modular and field agnostic library to flexibly generate transformer architectures by interoperable and optimized building blocks.",
+        "url": "https://github.com/facebookresearch/xformers",
+        "type_name": "model_links"
+    },
+    {
         "name": "Xinference",
         "description": "Xorbits Inference(Xinference) is a powerful and versatile library designed to serve language, speech recognition, and multimodal models. With Xorbits Inference, you can effortlessly deploy and serve your or state-of-the-art built-in models using just a single command.",
         "url": "https://github.com/xorbitsai/inference",
         "type_name": "utils_links"
+    },
+    {
+        "name": "xP3",
+        "description": "xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.",
+        "url": "https://huggingface.co/datasets/bigscience/xP3",
+        "type_name": "dataset_links"
     },
     {
         "name": "xturing",

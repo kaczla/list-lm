@@ -4,6 +4,8 @@ from typing import TypedDict
 
 from pydantic import BaseModel
 
+from list_lm.utils import convert_date_to_string
+
 
 class ApplicationData(BaseModel):
     name: str
@@ -26,6 +28,9 @@ class UrlData(BaseModel):
 class ArticleData(UrlData):
     date_create: date
 
+    def to_markdown(self) -> str:
+        return super().to_markdown() + f" ({convert_date_to_string(self.date_create)})"
+
 
 class ModelInfo(BaseModel):
     name: str
@@ -41,10 +46,10 @@ class ModelInfo(BaseModel):
                 f"- {self.name}",
                 f"  - Year: {self.year}",
             ]
-            + self.get_optional_elements_markdown()
+            + self.get_additional_elements_markdown()
         )
 
-    def get_optional_elements_markdown(self) -> list[str]:
+    def get_additional_elements_markdown(self) -> list[str]:
         return [
             f"  - {label}: {element.to_markdown()}"
             for label, element in [
