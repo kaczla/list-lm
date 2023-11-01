@@ -23,7 +23,6 @@
 - [Levanter](https://github.com/stanford-crfm/levanter) - Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
 - [LightSeq](https://github.com/RulinShao/LightSeq) - Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.
-- [LightSeq](https://github.com/RulinShao/LightSeq) - ightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) - Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
@@ -34,6 +33,7 @@
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [ModuleFormer](https://github.com/IBM/ModuleFormer) - ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.
 - [Mosaic composer](https://github.com/mosaicml/composer) - Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.
+- [MS-AMP](https://github.com/azure/ms-amp) - MS-AMP is an automatic mixed precision package for deep learning developed by Microsoft.
 - [multimodal](https://github.com/facebookresearch/multimodal) - TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
 - [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
 - [nanoPALM](https://github.com/RobertRiachi/nanoPALM) - nanoPALM is the simplest, fastest repository for training/finetuning small to medium-sized PALM models.

@@ -125,11 +125,6 @@
         "url": "https://github.com/RulinShao/LightSeq"
     },
     {
-        "name": "LightSeq",
-        "description": "ightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.",
-        "url": "https://github.com/RulinShao/LightSeq"
-    },
-    {
         "name": "Lit-GPT",
         "description": "Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.",
         "url": "https://github.com/Lightning-AI/lit-gpt"
@@ -178,6 +173,11 @@
         "name": "Mosaic composer",
         "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
         "url": "https://github.com/mosaicml/composer"
+    },
+    {
+        "name": "MS-AMP",
+        "description": "MS-AMP is an automatic mixed precision package for deep learning developed by Microsoft.",
+        "url": "https://github.com/azure/ms-amp"
     },
     {
         "name": "multimodal",

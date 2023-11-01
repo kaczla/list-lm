@@ -49,15 +49,6 @@ class GUIApp:
             text_name.insert(1.0, model_info.name)
         text_name.pack(padx=5)
 
-        label_year = tk.Label(self.main_frame, text="Year:")
-        label_year.pack()
-        text_year = tk.Text(self.main_frame, height=1)
-        if model_info:
-            text_year.insert(1.0, str(model_info.year))
-        else:
-            text_year.insert(1.0, str(datetime.now().year))
-        text_year.pack(padx=5)
-
         label_publication_title = tk.Label(self.main_frame, text="Publication title:")
         label_publication_title.pack()
         text_publication_title = tk.Text(self.main_frame, height=1)
@@ -100,7 +91,6 @@ class GUIApp:
             text="Add",
             command=lambda: self.add_lm(
                 name=text_name.get(1.0, "end-1c"),
-                year_str=text_year.get(1.0, "end-1c"),
                 publication_url=text_publication.get(1.0, "end-1c"),
                 publication_title=text_publication_title.get(1.0, "end-1c"),
                 publication_date_create=text_publication_date_create.get(1.0, "end-1c"),
@@ -121,7 +111,6 @@ class GUIApp:
     def add_lm(
         self,
         name: str,
-        year_str: str,
         publication_url: str,
         publication_title: str,
         publication_date_create: str,
@@ -130,7 +119,6 @@ class GUIApp:
         label_status: tk.Label,
     ) -> None:
         name = name.strip()
-        year = int(year_str.strip())
         publication_url = publication_url.strip()
         publication_title = publication_title.strip()
         publication_date_create = publication_date_create.strip()
@@ -145,7 +133,8 @@ class GUIApp:
             return
 
         publication_data = self.return_value_or_update_status(
-            GUIApp.parse_publication_url(publication_url, publication_title, publication_date_create), label_status
+            GUIApp.parse_publication_url(publication_url, publication_title, publication_date_create, name),
+            label_status,
         )
         code_data = (
             self.return_value_or_update_status(GUIApp.parse_code_url(code_url), label_status) if code_url else None
@@ -160,7 +149,7 @@ class GUIApp:
 
         data_to_add: ModelInfoDict = {
             "name": name,
-            "year": year,
+            "year": publication_data.date_create.year,
             "publication": publication_data,
             "video": None,
             "code": code_data,
@@ -349,7 +338,7 @@ class GUIApp:
         label_status.config(text=f"{application_data.name} added")
 
     @staticmethod
-    def parse_publication_url(url: str, title: str, date_create: str) -> ArticleData | str:
+    def parse_publication_url(url: str, title: str, date_create: str, name: str) -> ArticleData | str:
         if "arxiv.org" in url:
             page_date = parse_arxiv(url)
             if title and title != page_date.title:
@@ -358,7 +347,12 @@ class GUIApp:
             return page_date
 
         elif not title:
-            return "Missing publication title"
+            if "github.com" in url and url.endswith("README.md"):
+                title = f"README - {name} repository"
+            elif "huggingface.co" in url:
+                title = f"HuggingFace model card - {name}"
+            else:
+                return "Missing publication title"
 
         if not is_valid_date_string(date_create):
             return "Invalid publication date format"
@@ -373,7 +367,7 @@ class GUIApp:
             if part_url in url:
                 added_prefix = True
                 if title.lower().startswith(prefix.lower()):
-                    title = title[: len(prefix)].strip()
+                    title = title[len(prefix):].strip()
                 title = prefix + title
         if not added_prefix:
             # Change "Blogpost" to "Blog"

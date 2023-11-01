@@ -40,6 +40,11 @@
         "url": "https://github.com/HKUNLP/DS-1000"
     },
     {
+        "name": "Falcon RefinedWeb",
+        "description": "Falcon RefinedWeb is a massive English web dataset.",
+        "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb"
+    },
+    {
         "name": "FewGLUE",
         "description": "FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.",
         "url": "https://github.com/timoschick/fewglue"
@@ -120,6 +125,11 @@
         "url": "https://github.com/google-research-datasets/presto"
     },
     {
+        "name": "PROSE Public Benchmark Suite",
+        "description": "PROSE Public Benchmark Suite contains benchmarks drawn from three classes of tasks: string-to-string transformation, text-to-table transformation, substring extraction from semi-structured text, syntax (and some semantic) program repair for code that can be achieved with few edits.",
+        "url": "https://github.com/microsoft/prose-benchmarks"
+    },
+    {
         "name": "ReCoRD",
         "description": "This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.",
         "url": "https://github.com/deepmind/rc-data"
@@ -128,6 +138,11 @@
         "name": "RedPajama-Data",
         "description": "RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.",
         "url": "https://github.com/togethercomputer/RedPajama-Data"
+    },
+    {
+        "name": "RedPajama-V2",
+        "description": "RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.",
+        "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
     },
     {
         "name": "Seahorse",
@@ -148,6 +163,16 @@
         "name": "tiny-codes",
         "description": "This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.",
         "url": "https://huggingface.co/datasets/nampdn-ai/tiny-codes"
+    },
+    {
+        "name": "UltraChat",
+        "description": "UltraChat is an open-source, large-scale, and multi-round dialogue data powered by Turbo APIs.",
+        "url": "https://huggingface.co/datasets/stingning/ultrachat"
+    },
+    {
+        "name": "UltraFeedback",
+        "description": "UltraFeedback is a large-scale, fine-grained, diverse preference dataset, used for training powerful reward models and critic models.",
+        "url": "https://huggingface.co/datasets/openbmb/UltraFeedback"
     },
     {
         "name": "WikiMatrix",

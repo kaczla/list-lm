@@ -15,6 +15,11 @@
         "url": "https://github.com/tloen/alpaca-lora"
     },
     {
+        "name": "AlpacaFarm",
+        "description": "AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.",
+        "url": "https://github.com/tatsu-lab/alpaca_farm"
+    },
+    {
         "name": "Ambrosia",
         "description": "Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.",
         "url": "https://github.com/reactorsh/ambrosia"
@@ -240,6 +245,11 @@
         "url": "https://github.com/domanchi/gibberish-detector"
     },
     {
+        "name": "GlotLID",
+        "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
+        "url": "https://github.com/cisnlp/GlotLID"
+    },
+    {
         "name": "GPT4All",
         "description": "gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.",
         "url": "https://github.com/nomic-ai/gpt4all"
@@ -418,6 +428,11 @@
         "name": "nebullvm",
         "description": "Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.",
         "url": "https://github.com/nebuly-ai/nebullvm"
+    },
+    {
+        "name": "NEFTune",
+        "description": "Noisy Embedding Instruction Fine Tuning (NEFTune) add random noise to the embedding vectors of the training data during the forward pass of fine-tuning.",
+        "url": "https://github.com/neelsjain/NEFTune"
     },
     {
         "name": "OctoPack",

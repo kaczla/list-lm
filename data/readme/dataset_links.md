@@ -6,6 +6,7 @@
 - [Deduplicated CommonCrawl Text](http://statmt.org/ngrams/deduped) - Processed Common Crawl snapshots.
 - [Dolma](https://huggingface.co/datasets/allenai/dolma) - Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
+- [Falcon RefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) - Falcon RefinedWeb is a massive English web dataset.
 - [FewGLUE](https://github.com/timoschick/fewglue) - FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.
 - [Flan v2](https://github.com/google-research/FLAN/tree/main/flan/v2) - Flan 2022 collection of datasets and templates.
 - [Glaive-code-assistant](https://huggingface.co/datasets/glaiveai/glaive-code-assistant) - Glaive-code-assistant is a dataset of ~140k code problems and solutions generated using Glaive’s synthetic data generation platform.
@@ -22,11 +23,15 @@
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
 - [PG-19 Language Modelling Benchmark](https://github.com/deepmind/pg19) - This repository contains the PG-19 language modeling benchmark. It includes a set of books extracted from the Project Gutenberg books library, that were published before 1919. It also contains metadata of book titles and publication dates.
 - [PRESTO](https://github.com/google-research-datasets/presto) - PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.
+- [PROSE Public Benchmark Suite](https://github.com/microsoft/prose-benchmarks) - PROSE Public Benchmark Suite contains benchmarks drawn from three classes of tasks: string-to-string transformation, text-to-table transformation, substring extraction from semi-structured text, syntax (and some semantic) program repair for code that can be achieved with few edits.
 - [ReCoRD](https://github.com/deepmind/rc-data) - This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.
 - [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.
+- [RedPajama-V2](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2) - RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B) - The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.
 - [tiny-codes](https://huggingface.co/datasets/nampdn-ai/tiny-codes) - This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.
+- [UltraChat](https://huggingface.co/datasets/stingning/ultrachat) - UltraChat is an open-source, large-scale, and multi-round dialogue data powered by Turbo APIs.
+- [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback) - UltraFeedback is a large-scale, fine-grained, diverse preference dataset, used for training powerful reward models and critic models.
 - [WikiMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix) - WikiMatrix: Mining 135M Parallel Sentences in 1620 Language Pairs from Wikipedia.
 - [xP3](https://huggingface.co/datasets/bigscience/xP3) - xP3 (Crosslingual Public Pool of Prompts) is a collection of prompts & datasets across 46 of languages & 16 NLP tasks.

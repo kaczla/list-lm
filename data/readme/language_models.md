@@ -1201,12 +1201,6 @@
   - Code: [GitHub](https://github.com/salesforce/CodeGen)
   - Model weights: [HuggingFace models](https://huggingface.co/CarperAI/diff-codegen-6b-v2)
 
-- Zephyr 7B Alpha
-  - Year: 2023
-  - Publication: [HuggingFace model card - Zephyr 7B Alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
-  - Code: [GitHub](https://github.com/huggingface/alignment-handbook)
-  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
-
 - LightSeq
   - Year: 2023
   - Publication: [LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers](https://arxiv.org/abs/2310.03294)
@@ -1247,3 +1241,56 @@
   - Year: 2023
   - Publication: [Efficient Streaming Language Models with Attention Sinks](https://arxiv.org/abs/2309.17453)
   - Code: [GitHub](https://github.com/mit-han-lab/streaming-llm)
+
+- Zephyr
+  - Year: 2023
+  - Publication: [Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944)
+  - Code: [GitHub](https://github.com/huggingface/alignment-handbook)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
+
+- UltraLM / UltraLLaMA
+  - Year: 2023
+  - Publication: [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations](https://arxiv.org/abs/2305.14233)
+  - Code: [GitHub](https://github.com/thunlp/UltraChat)
+  - Model weights: [HuggingFace models](https://huggingface.co/openbmb/UltraLM-13b)
+
+- Xwin-LM
+  - Year: 2023
+  - Publication: [README - README -](https://github.com/Xwin-LM/Xwin-LM/blob/25862b325ee2a5b7c3c0007728eaeeb3daf5f05f/README.md)
+  - Code: [GitHub](https://github.com/Xwin-LM/Xwin-LM)
+  - Model weights: [HuggingFace models](https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2)
+
+- Memorizing Transformers, MemTRM
+  - Year: 2022
+  - Publication: [Memorizing Transformers](https://arxiv.org/abs/2203.08913)
+
+- FP8-LM
+  - Year: 2023
+  - Publication: [FP8-LM: Training FP8 Large Language Models](https://arxiv.org/abs/2310.18313)
+  - Code: [GitHub](https://github.com/Azure/MS-AMP)
+
+- Fuyu
+  - Year: 2023
+  - Publication: [Blog - Fuyu-8B: A Multimodal Architecture for AI Agents](https://www.adept.ai/blog/fuyu-8b)
+  - Model weights: [HuggingFace models](https://huggingface.co/adept/fuyu-8b)
+
+- CodeFusion
+  - Year: 2023
+  - Publication: [CodeFusion: A Pre-trained Diffusion Model for Code Generation](https://arxiv.org/abs/2310.17680)
+  - Code: [GitHub](https://github.com/microsoft/prose-benchmarks)
+
+- Llemma
+  - Year: 2023
+  - Publication: [Llemma: An Open Language Model For Mathematics](https://arxiv.org/abs/2310.10631)
+  - Code: [GitHub](https://github.com/EleutherAI/math-lm)
+  - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/llemma_7b)
+
+- StitchNet
+  - Year: 2023
+  - Publication: [StitchNet: Composing Neural Networks from Pre-Trained Fragments](https://arxiv.org/abs/2301.01947)
+  - Code: [GitHub](https://github.com/steerapi/stitchnet)
+
+- Nous-Capybara
+  - Year: 2023
+  - Publication: [HuggingFace model card - Nous-Capybara](https://huggingface.co/NousResearch/Nous-Capybara-7B-V1.9)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Capybara-7B-V1.9)

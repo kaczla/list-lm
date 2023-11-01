@@ -1,6 +1,7 @@
 - [AgentTuning](https://github.com/THUDM/AgentTuning) - AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.
 - [AITemplate](https://github.com/facebookincubator/AITemplate) - AITemplate (AIT) is a Python framework that transforms deep neural networks into CUDA (NVIDIA GPU) / HIP (AMD GPU) C++ code for lightning-fast inference serving.
 - [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) - This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA).
+- [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm) - AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.
 - [Ambrosia](https://github.com/reactorsh/ambrosia) - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
 - [AutoChain](https://github.com/Forethought-Technologies/AutoChain) - AutoChain: Build lightweight, extensible, and testable LLM Agents
 - [AutoGen](https://github.com/microsoft/autogen) - AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve tasks. AutoGen agents are customizable, conversable, and seamlessly allow human participation.
@@ -46,6 +47,7 @@
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. Running large language models like OPT-175B/GPT-3 on a single GPU. Up to 100x faster than other offloading systems.
 - [ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
+- [GlotLID](https://github.com/cisnlp/GlotLID) - GlotLID is an open-source language identification model with support for more than 1600 languages.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
 - [Guardrails](https://github.com/ShreyaR/guardrails) - Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).
 - [Haystack](https://github.com/deepset-ai/haystack) - Haystack is an end-to-end NLP framework that enables you to build applications powered by LLMs, Transformer models, vector search and more.
@@ -82,6 +84,7 @@
 - [Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) - Train a multi-modal chatbot with visual and language instructions!
 - [mup](https://github.com/microsoft/mup) - Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer
 - [nebullvm](https://github.com/nebuly-ai/nebullvm) - Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.
+- [NEFTune](https://github.com/neelsjain/NEFTune) - Noisy Embedding Instruction Fine Tuning (NEFTune) add random noise to the embedding vectors of the training data during the forward pass of fine-tuning.
 - [OctoPack](https://github.com/bigcode-project/octopack) - OctoPack: Instruction Tuning Code Large Language Models
 - [Ollama](https://github.com/jmorganca/ollama) - Run, create, and share large language models (LLMs).
 - [Opacus](https://github.com/pytorch/opacus) - Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.
