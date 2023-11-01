@@ -885,6 +885,21 @@
         }
     },
     {
+        "name": "LoRA",
+        "year": 2021,
+        "publication": {
+            "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+            "url": "https://arxiv.org/abs/2106.09685",
+            "date_create": "2021-06-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/LoRA"
+        },
+        "weights": null
+    },
+    {
         "name": "Charformer",
         "year": 2021,
         "publication": {
@@ -1119,6 +1134,18 @@
         "weights": null
     },
     {
+        "name": "BaGuaLu",
+        "year": 2022,
+        "publication": {
+            "title": "BaGuaLu: targeting brain scale pretrained models with over 37 million cores",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3503221.3508417",
+            "date_create": "2022-03-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "Chinchilla",
         "year": 2022,
         "publication": {
@@ -1241,6 +1268,36 @@
         "code": {
             "title": "GitHub",
             "url": "https://github.com/salesforce/CodeRL"
+        },
+        "weights": null
+    },
+    {
+        "name": "CALM",
+        "year": 2022,
+        "publication": {
+            "title": "Confident Adaptive Language Modeling",
+            "url": "https://arxiv.org/abs/2207.07061",
+            "date_create": "2022-07-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/google-research/t5x"
+        },
+        "weights": null
+    },
+    {
+        "name": "LLM.int8",
+        "year": 2022,
+        "publication": {
+            "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale",
+            "url": "https://arxiv.org/abs/2208.07339",
+            "date_create": "2022-08-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/TimDettmers/bitsandbytes"
         },
         "weights": null
     },
@@ -2052,6 +2109,24 @@
         "weights": null
     },
     {
+        "name": "MOSS",
+        "year": 2023,
+        "publication": {
+            "title": "README - MOSS repository",
+            "url": "https://github.com/OpenLMLab/MOSS/blob/cb43caf8f662f60c855c70e723b0cb9e943db4c0/README_en.md",
+            "date_create": "2023-04-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenLMLab/MOSS"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/fnlp/moss-moon-003-base"
+        }
+    },
+    {
         "name": "MPT-1b-RedPajama-200b",
         "year": 2023,
         "publication": {
@@ -2617,6 +2692,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openbmb/UltraLM-13b"
         }
+    },
+    {
+        "name": "QLoRA",
+        "year": 2023,
+        "publication": {
+            "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+            "url": "https://arxiv.org/abs/2305.14314",
+            "date_create": "2023-05-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/artidoro/qlora"
+        },
+        "weights": null
     },
     {
         "name": "Gorilla",
@@ -3513,6 +3603,21 @@
         }
     },
     {
+        "name": "DoLa",
+        "year": 2023,
+        "publication": {
+            "title": "DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models",
+            "url": "https://arxiv.org/abs/2309.03883",
+            "date_create": "2023-09-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/voidism/DoLa"
+        },
+        "weights": null
+    },
+    {
         "name": "phi-1.5",
         "year": 2023,
         "publication": {
@@ -3561,6 +3666,21 @@
         }
     },
     {
+        "name": "RAIN",
+        "year": 2023,
+        "publication": {
+            "title": "RAIN: Your Language Models Can Align Themselves without Finetuning",
+            "url": "https://arxiv.org/abs/2309.07124",
+            "date_create": "2023-09-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SafeAILab/RAIN"
+        },
+        "weights": null
+    },
+    {
         "name": "Xwin-LM",
         "year": 2023,
         "publication": {
@@ -3594,6 +3714,24 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
+        }
+    },
+    {
+        "name": "PoSE",
+        "year": 2023,
+        "publication": {
+            "title": "PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training",
+            "url": "https://arxiv.org/abs/2309.10400",
+            "date_create": "2023-09-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/dwzhu-pku/PoSE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/dwzhu/LLaMA-7B-PoSE-Linear-16k"
         }
     },
     {
@@ -3670,6 +3808,18 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Yukang/Llama-2-7b-longlora-100k-ft"
         }
+    },
+    {
+        "name": "QA-LoRA",
+        "year": 2023,
+        "publication": {
+            "title": "QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models",
+            "url": "https://arxiv.org/abs/2309.14717",
+            "date_create": "2023-09-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
     },
     {
         "name": "Mistral",
@@ -3777,6 +3927,30 @@
             "title": "GitHub",
             "url": "https://github.com/RulinShao/LightSeq"
         },
+        "weights": null
+    },
+    {
+        "name": "FIRE",
+        "year": 2023,
+        "publication": {
+            "title": "Functional Interpolation for Relative Positions Improves Long Context Transformers",
+            "url": "https://arxiv.org/abs/2310.04418",
+            "date_create": "2023-10-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "HyperAttention",
+        "year": 2023,
+        "publication": {
+            "title": "HyperAttention: Long-context Attention in Near-Linear Time",
+            "url": "https://arxiv.org/abs/2310.05869",
+            "date_create": "2023-10-09"
+        },
+        "video": null,
+        "code": null,
         "weights": null
     },
     {
