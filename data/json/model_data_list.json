@@ -2170,7 +2170,7 @@
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/nlpxucan/WizardLM"
+            "url": "https://github.com/nlpxucan/abcd"
         },
         "weights": {
             "title": "HuggingFace models",
@@ -2986,7 +2986,7 @@
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/nlpxucan/WizardLM"
+            "url": "https://github.com/nlpxucan/abcd"
         },
         "weights": {
             "title": "HuggingFace models",
@@ -3409,7 +3409,7 @@
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/nlpxucan/WizardLM"
+            "url": "https://github.com/nlpxucan/abcd"
         },
         "weights": {
             "title": "HuggingFace models",
@@ -3489,7 +3489,7 @@
         }
     },
     {
-        "name": "Yarn-Llama-2",
+        "name": "Yarn",
         "year": 2023,
         "publication": {
             "title": "YaRN: Efficient Context Window Extension of Large Language Models",
@@ -3503,7 +3503,7 @@
         },
         "weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-64k"
+            "url": "https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k"
         }
     },
     {
@@ -3649,6 +3649,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B"
         }
+    },
+    {
+        "name": "MoV, MoLoRA",
+        "year": 2023,
+        "publication": {
+            "title": "Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning",
+            "url": "https://arxiv.org/abs/2309.05444",
+            "date_create": "2023-09-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/for-ai/parameter-efficient-moe"
+        },
+        "weights": null
     },
     {
         "name": "DeciLM",
@@ -3810,6 +3825,24 @@
         }
     },
     {
+        "name": "MetaMath",
+        "year": 2023,
+        "publication": {
+            "title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+            "url": "https://arxiv.org/abs/2309.12284",
+            "date_create": "2023-09-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/meta-math/MetaMath"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-math/MetaMath-7B-V1.0"
+        }
+    },
+    {
         "name": "QA-LoRA",
         "year": 2023,
         "publication": {
@@ -3930,6 +3963,24 @@
         "weights": null
     },
     {
+        "name": "AgentInstruct",
+        "year": 2023,
+        "publication": {
+            "title": "Agent Instructs Large Language Models to be General Zero-Shot Reasoners",
+            "url": "https://arxiv.org/abs/2310.03710",
+            "date_create": "2023-10-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/wang-research-lab/agentinstruct"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/datasets/WangResearchLab/AgentInstruct"
+        }
+    },
+    {
         "name": "FIRE",
         "year": 2023,
         "publication": {
@@ -3987,6 +4038,21 @@
         }
     },
     {
+        "name": "MistralLite",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - MistralLite",
+            "url": "https://huggingface.co/amazon/MistralLite",
+            "date_create": "2023-10-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/amazon/MistralLite"
+        }
+    },
+    {
         "name": "Fuyu",
         "year": 2023,
         "publication": {
@@ -4000,6 +4066,18 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/adept/fuyu-8b"
         }
+    },
+    {
+        "name": "VeRA",
+        "year": 2023,
+        "publication": {
+            "title": "VeRA: Vector-based Random Matrix Adaptation",
+            "url": "https://arxiv.org/abs/2310.11454",
+            "date_create": "2023-10-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
     },
     {
         "name": "Zephyr",
@@ -4048,5 +4126,50 @@
             "url": "https://github.com/Azure/MS-AMP"
         },
         "weights": null
+    },
+    {
+        "name": "LeMa",
+        "year": 2023,
+        "publication": {
+            "title": "Learning From Mistakes Makes LLM Better Reasoner",
+            "url": "https://arxiv.org/abs/2310.20689",
+            "date_create": "2023-10-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/CodeT"
+        },
+        "weights": null
+    },
+    {
+        "name": "ChipNeMo",
+        "year": 2023,
+        "publication": {
+            "title": "ChipNeMo: Domain-Adapted LLMs for Chip Design",
+            "url": "https://arxiv.org/abs/2311.00176",
+            "date_create": "2023-10-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Deepseek Coder",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - DeepSeek Coder: Let the Code Write Itself",
+            "url": "https://deepseekcoder.github.io/",
+            "date_create": "2023-10-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-coder/"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base"
+        }
     }
 ]

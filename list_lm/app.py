@@ -339,7 +339,8 @@ class GUIApp:
         if self.LINKS_PATH.exists():
             application_data_list = load_base_model_list(self.LINKS_PATH, ApplicationData)
         application_data_list.append(application_data)
-        save_base_model_list(self.LINKS_PATH, application_data_list, sort_fn=get_application_data_sort_key)
+        application_data_list.sort(key=get_application_data_sort_key)
+        save_base_model_list(self.LINKS_PATH, application_data_list)
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
         generate_links_selected(application_data_list, application_data.link_type)

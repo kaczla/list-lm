@@ -33,6 +33,7 @@
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [ModuleFormer](https://github.com/IBM/ModuleFormer) - ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.
 - [Mosaic composer](https://github.com/mosaicml/composer) - Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.
+- [MoV and MoLoRA](https://github.com/for-ai/parameter-efficient-moe) - This repository contains the official code for the paper: "Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning."
 - [MS-AMP](https://github.com/azure/ms-amp) - MS-AMP is an automatic mixed precision package for deep learning developed by Microsoft.
 - [multimodal](https://github.com/facebookresearch/multimodal) - TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
 - [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
@@ -59,6 +60,7 @@
 - [t5-experiments](https://github.com/yurakuratov/t5-experiments) - Tools and scripts for experimenting with Transformers: Bert, T5.
 - [t5x](https://github.com/google-research/t5x) - T5X is a modular, composable, research-friendly framework for high-performance, configurable, self-service training, evaluation, and inference of sequence models (starting with language) at many scales.
 - [tasknet](https://github.com/sileod/tasknet) - Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.
+- [TigerLab](https://github.com/tigerlab-ai/tiger) - Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
 - [transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0

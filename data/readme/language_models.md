@@ -721,7 +721,7 @@
 - WizardLM
   - Year: 2023
   - Publication: [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244) (2023-04-24)
-  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
+  - Code: [GitHub](https://github.com/nlpxucan/abcd)
   - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardLM-30B-V1.0)
 
 - FastChat-T5
@@ -993,7 +993,7 @@
 - WizardCoder
   - Year: 2023
   - Publication: [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568) (2023-06-14)
-  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
+  - Code: [GitHub](https://github.com/nlpxucan/abcd)
   - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
 
 - Macaw-LLM
@@ -1134,7 +1134,7 @@
 - WizardMath
   - Year: 2023
   - Publication: [WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583) (2023-08-18)
-  - Code: [GitHub](https://github.com/nlpxucan/WizardLM)
+  - Code: [GitHub](https://github.com/nlpxucan/abcd)
   - Model weights: [HuggingFace models](https://huggingface.co/WizardLM/WizardMath-7B-V1.0)
 
 - SQLCoder
@@ -1161,11 +1161,11 @@
   - Code: [GitHub](https://github.com/facebookresearch/codellama)
   - Model weights: [Direct link](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)
 
-- Yarn-Llama-2
+- Yarn
   - Year: 2023
   - Publication: [YaRN: Efficient Context Window Extension of Large Language Models](https://arxiv.org/abs/2309.00071) (2023-08-31)
   - Code: [GitHub](https://github.com/jquesnelle/yarn)
-  - Model weights: [HuggingFace models](https://huggingface.co/conceptofmind/Yarn-Llama-2-7b-64k)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k)
 
 - TinyLlama
   - Year: 2023
@@ -1214,6 +1214,11 @@
   - Publication: [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653) (2023-09-11)
   - Code: [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
   - Model weights: [HuggingFace models](https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B)
+
+- MoV, MoLoRA
+  - Year: 2023
+  - Publication: [Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning](https://arxiv.org/abs/2309.05444) (2023-09-11)
+  - Code: [GitHub](https://github.com/for-ai/parameter-efficient-moe)
 
 - DeciLM
   - Year: 2023
@@ -1268,6 +1273,12 @@
   - Code: [GitHub](https://github.com/dvlab-research/LongLoRA)
   - Model weights: [HuggingFace models](https://huggingface.co/Yukang/Llama-2-7b-longlora-100k-ft)
 
+- MetaMath
+  - Year: 2023
+  - Publication: [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284) (2023-09-21)
+  - Code: [GitHub](https://github.com/meta-math/MetaMath)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-math/MetaMath-7B-V1.0)
+
 - QA-LoRA
   - Year: 2023
   - Publication: [QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2309.14717) (2023-09-26)
@@ -1308,6 +1319,12 @@
   - Publication: [LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers](https://arxiv.org/abs/2310.03294) (2023-10-05)
   - Code: [GitHub](https://github.com/RulinShao/LightSeq)
 
+- AgentInstruct
+  - Year: 2023
+  - Publication: [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](https://arxiv.org/abs/2310.03710) (2023-10-05)
+  - Code: [GitHub](https://github.com/wang-research-lab/agentinstruct)
+  - Model weights: [HuggingFace models](https://huggingface.co/datasets/WangResearchLab/AgentInstruct)
+
 - FIRE
   - Year: 2023
   - Publication: [Functional Interpolation for Relative Positions Improves Long Context Transformers](https://arxiv.org/abs/2310.04418) (2023-10-06)
@@ -1327,10 +1344,19 @@
   - Code: [GitHub](https://github.com/EleutherAI/math-lm)
   - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/llemma_7b)
 
+- MistralLite
+  - Year: 2023
+  - Publication: [HuggingFace model card - MistralLite](https://huggingface.co/amazon/MistralLite) (2023-10-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/amazon/MistralLite)
+
 - Fuyu
   - Year: 2023
   - Publication: [Blog - Fuyu-8B: A Multimodal Architecture for AI Agents](https://www.adept.ai/blog/fuyu-8b) (2023-10-17)
   - Model weights: [HuggingFace models](https://huggingface.co/adept/fuyu-8b)
+
+- VeRA
+  - Year: 2023
+  - Publication: [VeRA: Vector-based Random Matrix Adaptation](https://arxiv.org/abs/2310.11454) (2023-10-17)
 
 - Zephyr
   - Year: 2023
@@ -1347,3 +1373,18 @@
   - Year: 2023
   - Publication: [FP8-LM: Training FP8 Large Language Models](https://arxiv.org/abs/2310.18313) (2023-10-27)
   - Code: [GitHub](https://github.com/Azure/MS-AMP)
+
+- LeMa
+  - Year: 2023
+  - Publication: [Learning From Mistakes Makes LLM Better Reasoner](https://arxiv.org/abs/2310.20689) (2023-10-31)
+  - Code: [GitHub](https://github.com/microsoft/CodeT)
+
+- ChipNeMo
+  - Year: 2023
+  - Publication: [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176) (2023-10-31)
+
+- Deepseek Coder
+  - Year: 2023
+  - Publication: [Blog - DeepSeek Coder: Let the Code Write Itself](https://deepseekcoder.github.io/) (2023-10-28)
+  - Code: [GitHub](https://github.com/deepseek-ai/deepseek-coder/)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base)

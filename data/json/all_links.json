@@ -852,6 +852,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "MoV and MoLoRA",
+        "description": "This repository contains the official code for the paper: \"Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning.\"",
+        "url": "https://github.com/for-ai/parameter-efficient-moe",
+        "link_type": "Model links"
+    },
+    {
         "name": "MS-AMP",
         "description": "MS-AMP is an automatic mixed precision package for deep learning developed by Microsoft.",
         "url": "https://github.com/azure/ms-amp",
@@ -1378,6 +1384,12 @@
         "description": "A curated (still actively updated) list of practical guide resources of LLMs.",
         "url": "https://github.com/Mooler0410/LLMsPracticalGuide",
         "link_type": "Documentation links"
+    },
+    {
+        "name": "TigerLab",
+        "description": "Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.",
+        "url": "https://github.com/tigerlab-ai/tiger",
+        "link_type": "Model links"
     },
     {
         "name": "tiktoken",
