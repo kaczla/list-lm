@@ -3,6 +3,7 @@
 - [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) - This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA).
 - [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm) - AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.
 - [Ambrosia](https://github.com/reactorsh/ambrosia) - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
+- [AQT](https://github.com/google/aqt) - AQT is a software library designed for easy tensor opeartion quantization in JAX.
 - [AutoChain](https://github.com/Forethought-Technologies/AutoChain) - AutoChain: Build lightweight, extensible, and testable LLM Agents
 - [AutoGen](https://github.com/microsoft/autogen) - AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve tasks. AutoGen agents are customizable, conversable, and seamlessly allow human participation.
 - [Aviary](https://github.com/ray-project/aviary) - Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.
@@ -29,6 +30,7 @@
 - [DeepSparse](https://github.com/neuralmagic/deepsparse) - Inference runtime offering GPU-class performance on CPUs and APIs to integrate ML into your application.
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.
 - [DGL](https://github.com/dmlc/dgl) - DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.
+- [Diff Pruning](https://github.com/dguo98/DiffPruning) - Parameter Efficient Transfer Learning with Diff Pruning
 - [Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.
 - [DSPy](https://github.com/stanfordnlp/dspy) - DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.
 - [embedchain](https://github.com/embedchain/embedchain) - embedchain is a framework to easily create LLM powered bots over any dataset.
@@ -42,6 +44,7 @@
 - [fastText](https://github.com/facebookresearch/fastText/) - fastText is a library for efficient learning of word representations and sentence classification.
 - [FLAML](https://github.com/microsoft/FLAML) - A Fast Library for Automated Machine Learning & Tuning.
 - [FlashAttention](https://github.com/HazyResearch/flash-attention) - Fast and memory-efficient exact attention.
+- [FlashInfer](https://github.com/flashinfer-ai/flashinfer) - FlashInfer: Kernel Library for LLM Serving
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexGen allows high-throughput generation by IO-efficient offloading, compression, and large effective batch sizes.
 - [ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
@@ -66,6 +69,7 @@
 - [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory) - LLaMA2-Accessory is an open-source toolkit for pre-training, fine-tuning and deployment of Large Language Models (LLMs) and mutlimodal LLMs.
 - [LlamaIndex](https://github.com/jerryjliu/llama_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 - [llm](https://github.com/rustformers/llm) - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
+- [LLM decontaminator](https://github.com/lm-sys/llm-decontaminator) - Use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.
 - [LLMParser](https://github.com/kyang6/llmparser) - LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
@@ -93,6 +97,7 @@
 - [OpenLM](https://github.com/r2d4/openlm) - Drop-in OpenAI-compatible library that can call LLMs from other providers (e.g., HuggingFace, Cohere, and more).
 - [OpenPipe](https://github.com/OpenPipe/OpenPipe) - Test and deploy your LLM prompts in a data-driven way on an open-source and self-hostable platform.
 - [openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop.
+- [Optax](https://github.com/google-deepmind/optax) - Optax is a gradient processing and optimization library for JAX.
 - [Otter](https://github.com/Luodian/otter) - Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following ability and in-context learning.
 - [Outlines](https://github.com/normal-computing/outlines) - Outlines is a library for neural text generation.
 - [PaLM](https://github.com/conceptofmind/PaLM) - An open-source implementation of Google's PaLM models.
@@ -103,6 +108,7 @@
 - [pykoi](https://github.com/CambioML/pykoi) - pykoi is an open-source python library for LLMs providing a unified interface for data & feedback collection, RLHF, and model comparisons.
 - [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) - PyG (PyTorch Geometric) is a library built upon PyTorch to easily write and train Graph Neural Networks (GNNs) for a wide range of applications related to structured data.
 - [RasaGPT](https://github.com/paulpierre/RasaGPT) - RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.
+- [S-LoRA](https://github.com/S-LoRA/S-LoRA) - S-LoRA: Serving Thousands of Concurrent LoRA Adapters
 - [safari](https://github.com/HazyResearch/safari) - Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).
 - [SapientML](https://github.com/sapientml/sapientml) - SapientML is an AutoML technology that can learn from a corpus of existing datasets and their human-written pipelines, and efficiently generate a high-quality pipeline for a predictive task on a new dataset.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Semantic Kernel (SK) is a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages.

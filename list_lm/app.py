@@ -357,7 +357,10 @@ class GUIApp:
             return page_date
 
         elif not title:
-            if "github.com" in url and (url.endswith(("README.md", "README_en.md", "README_en.md"))):
+            if "github.com" in url:
+                if not url.endswith(("README.md", "README_en.md", "README_en.md")):
+                    return "Missing README.md URL in github.com"
+
                 title = f"README - {name} repository"
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
             elif "huggingface.co" in url:

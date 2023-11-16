@@ -1,3 +1,4 @@
+- [BitFit](https://github.com/benzakenelad/BitFit) - BitFit is a sparse-finetuning method where only the bias-terms of the model (or a subset of them) are being modified.
 - [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) - The bitsandbytes is a lightweight wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and quantization functions.
 - [C Transformers](https://github.com/marella/ctransformers) - Python bindings for the Transformer models implemented in C/C++ using GGML library.
 - [candle](https://github.com/huggingface/candle) - Candle is a minimalist ML framework for Rust with a focus on performance (including GPU support) and ease of use.
@@ -5,6 +6,7 @@
 - [CodeT5 and CodeT5+](https://github.com/salesforce/CodeT5) - Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/
 - [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
+- [DeepSpeed Model Implementations for Inference](https://github.com/microsoft/DeepSpeed-MII) - DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [EasyLLM](https://github.com/philschmid/easyllm) - EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source.
 - [EasyLM](https://github.com/young-geng/EasyLM) - Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
@@ -13,6 +15,7 @@
 - [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 - [FastSeq](https://github.com/microsoft/fastseq) - FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
+- [FlashFFTConv](https://github.com/HazyResearch/flash-fft-conv) - FlashFFTConv is a fast algorithm for computing long depthwise convolutions using the FFT algorithm.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.
 - [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) - H2O LLM Studio, a framework and no-code GUI designed for fine-tuning state-of-the-art large language models (LLMs).
@@ -23,10 +26,12 @@
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
 - [Levanter](https://github.com/stanford-crfm/levanter) - Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
+- [LightLLM](https://github.com/ModelTC/lightllm) - LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.
 - [LightSeq](https://github.com/RulinShao/LightSeq) - Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) - Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
+- [LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) - LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
@@ -51,6 +56,7 @@
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [SeqIO](https://github.com/google/seqio) - Task-based datasets, preprocessing, and evaluation for sequence models.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
+- [Simplified Transformers](https://github.com/bobby-he/simplified_transformers) - A simple design recipe for deep Transformers is to compose identical building blocks.
 - [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification.
 - [Sockeye](https://github.com/awslabs/sockeye) - Sockeye is an open-source sequence-to-sequence framework for Neural Machine Translation built on PyTorch.
 - [SparseZoo](https://github.com/neuralmagic/sparsezoo) - Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.
@@ -60,6 +66,7 @@
 - [t5-experiments](https://github.com/yurakuratov/t5-experiments) - Tools and scripts for experimenting with Transformers: Bert, T5.
 - [t5x](https://github.com/google-research/t5x) - T5X is a modular, composable, research-friendly framework for high-performance, configurable, self-service training, evaluation, and inference of sequence models (starting with language) at many scales.
 - [tasknet](https://github.com/sileod/tasknet) - Integration of HuggingFace Datasets with HuggingFace Trainer, and multitasking.
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.
 - [TigerLab](https://github.com/tigerlab-ai/tiger) - Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing

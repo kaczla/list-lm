@@ -36,6 +36,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "AQT",
+        "description": "AQT is a software library designed for easy tensor opeartion quantization in JAX.",
+        "url": "https://github.com/google/aqt",
+        "link_type": "Utils links"
+    },
+    {
         "name": "AutoChain",
         "description": "AutoChain: Build lightweight, extensible, and testable LLM Agents",
         "url": "https://github.com/Forethought-Technologies/AutoChain",
@@ -88,6 +94,12 @@
         "description": "This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.",
         "url": "https://github.com/jxiw/BiGS",
         "link_type": "Utils links"
+    },
+    {
+        "name": "BitFit",
+        "description": "BitFit is a sparse-finetuning method where only the bias-terms of the model (or a subset of them) are being modified.",
+        "url": "https://github.com/benzakenelad/BitFit",
+        "link_type": "Model links"
     },
     {
         "name": "bitsandbytes",
@@ -264,6 +276,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "DeepSpeed Model Implementations for Inference",
+        "description": "DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
+        "url": "https://github.com/microsoft/DeepSpeed-MII",
+        "link_type": "Model links"
+    },
+    {
         "name": "DeepSpeed-MII",
         "description": "MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.",
         "url": "https://github.com/microsoft/DeepSpeed-MII",
@@ -273,6 +291,12 @@
         "name": "DGL",
         "description": "DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.",
         "url": "https://github.com/dmlc/dgl",
+        "link_type": "Utils links"
+    },
+    {
+        "name": "Diff Pruning",
+        "description": "Parameter Efficient Transfer Learning with Diff Pruning",
+        "url": "https://github.com/dguo98/DiffPruning",
         "link_type": "Utils links"
     },
     {
@@ -429,6 +453,18 @@
         "name": "FlashAttention",
         "description": "Fast and memory-efficient exact attention.",
         "url": "https://github.com/HazyResearch/flash-attention",
+        "link_type": "Utils links"
+    },
+    {
+        "name": "FlashFFTConv",
+        "description": "FlashFFTConv is a fast algorithm for computing long depthwise convolutions using the FFT algorithm.",
+        "url": "https://github.com/HazyResearch/flash-fft-conv",
+        "link_type": "Model links"
+    },
+    {
+        "name": "FlashInfer",
+        "description": "FlashInfer: Kernel Library for LLM Serving",
+        "url": "https://github.com/flashinfer-ai/flashinfer",
         "link_type": "Utils links"
     },
     {
@@ -630,6 +666,12 @@
         "link_type": "Model links"
     },
     {
+        "name": "LightLLM",
+        "description": "LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.",
+        "url": "https://github.com/ModelTC/lightllm",
+        "link_type": "Model links"
+    },
+    {
         "name": "LightSeq",
         "description": "Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.",
         "url": "https://github.com/RulinShao/LightSeq",
@@ -696,6 +738,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "LLM decontaminator",
+        "description": "Use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.",
+        "url": "https://github.com/lm-sys/llm-decontaminator",
+        "link_type": "Utils links"
+    },
+    {
         "name": "LLM Foundry",
         "description": "This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.",
         "url": "https://github.com/mosaicml/llm-foundry",
@@ -730,6 +778,12 @@
         "description": "LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.",
         "url": "https://arxiv.org/abs/2306.09782",
         "link_type": "Optimizer links"
+    },
+    {
+        "name": "LongQLoRA",
+        "description": "LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.",
+        "url": "https://github.com/yangjianxin1/LongQLoRA",
+        "link_type": "Model links"
     },
     {
         "name": "LongT5",
@@ -1044,6 +1098,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "Optax",
+        "description": "Optax is a gradient processing and optimization library for JAX.",
+        "url": "https://github.com/google-deepmind/optax",
+        "link_type": "Utils links"
+    },
+    {
         "name": "OSCAR (Open Super-large Crawled ALMAnaCH coRpus)",
         "description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.",
         "url": "https://oscar-corpus.com",
@@ -1176,6 +1236,12 @@
         "link_type": "Model links"
     },
     {
+        "name": "S-LoRA",
+        "description": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+        "url": "https://github.com/S-LoRA/S-LoRA",
+        "link_type": "Utils links"
+    },
+    {
         "name": "safari",
         "description": "Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).",
         "url": "https://github.com/HazyResearch/safari",
@@ -1221,6 +1287,12 @@
         "name": "simpletransformers",
         "description": "This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.",
         "url": "https://github.com/ThilinaRajapakse/simpletransformers",
+        "link_type": "Model links"
+    },
+    {
+        "name": "Simplified Transformers",
+        "description": "A simple design recipe for deep Transformers is to compose identical building blocks.",
+        "url": "https://github.com/bobby-he/simplified_transformers",
         "link_type": "Model links"
     },
     {
@@ -1354,6 +1426,12 @@
         "description": "A simple yet powerful tensorboard event log parser/reader.",
         "url": "https://github.com/j3soon/tbparse",
         "link_type": "Utils links"
+    },
+    {
+        "name": "TensorRT-LLM",
+        "description": "TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.",
+        "url": "https://github.com/NVIDIA/TensorRT-LLM",
+        "link_type": "Model links"
     },
     {
         "name": "Text Generation Inference",

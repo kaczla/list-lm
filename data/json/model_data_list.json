@@ -609,6 +609,21 @@
         "weights": null
     },
     {
+        "name": "Diff pruning",
+        "year": 2020,
+        "publication": {
+            "title": "Parameter-Efficient Transfer Learning with Diff Pruning",
+            "url": "https://arxiv.org/abs/2012.07463",
+            "date_create": "2020-12-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/dguo98/DiffPruning"
+        },
+        "weights": null
+    },
+    {
         "name": "Key-Value Memory Feed-Forward",
         "year": 2020,
         "publication": {
@@ -900,6 +915,21 @@
         "weights": null
     },
     {
+        "name": "BitFit",
+        "year": 2021,
+        "publication": {
+            "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+            "url": "https://arxiv.org/abs/2106.10199",
+            "date_create": "2021-06-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/benzakenelad/BitFit"
+        },
+        "weights": null
+    },
+    {
         "name": "Charformer",
         "year": 2021,
         "publication": {
@@ -1158,6 +1188,21 @@
         "weights": null
     },
     {
+        "name": "NoPos",
+        "year": 2022,
+        "publication": {
+            "title": "Transformer Language Models without Positional Encodings Still Learn Positional Information",
+            "url": "https://arxiv.org/abs/2203.16634",
+            "date_create": "2022-03-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/adihaviv/NoPos"
+        },
+        "weights": null
+    },
+    {
         "name": "PaLM",
         "year": 2022,
         "publication": {
@@ -1383,6 +1428,18 @@
         }
     },
     {
+        "name": "OLLA",
+        "year": 2022,
+        "publication": {
+            "title": "OLLA: Optimizing the Lifetime and Location of Arrays to Reduce the Memory Usage of Neural Networks",
+            "url": "https://arxiv.org/abs/2210.12924",
+            "date_create": "2022-10-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "BLOOMZ & mT0",
         "year": 2022,
         "publication": {
@@ -1590,6 +1647,18 @@
         }
     },
     {
+        "name": "AltUp",
+        "year": 2023,
+        "publication": {
+            "title": "Alternating Updates for Efficient Transformers",
+            "url": "https://arxiv.org/abs/2301.13310",
+            "date_create": "2023-01-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "E-SPA (Exponential Signal Preserving Attention)",
         "year": 2023,
         "publication": {
@@ -1742,6 +1811,21 @@
         "code": {
             "title": "GitHub",
             "url": "https://github.com/jrobine/twm"
+        },
+        "weights": null
+    },
+    {
+        "name": "FlexGen",
+        "year": 2023,
+        "publication": {
+            "title": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU",
+            "url": "https://arxiv.org/abs/2303.06865",
+            "date_create": "2023-03-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/FMInference/FlexGen"
         },
         "weights": null
     },
@@ -3087,6 +3171,18 @@
         }
     },
     {
+        "name": "Position Interpolation",
+        "year": 2023,
+        "publication": {
+            "title": "Extending Context Window of Large Language Models via Positional Interpolation",
+            "url": "https://arxiv.org/abs/2306.15595",
+            "date_create": "2023-06-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "XGen",
         "year": 2023,
         "publication": {
@@ -3103,6 +3199,18 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/xgen-7b-8k-base"
         }
+    },
+    {
+        "name": "NTK",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation.",
+            "url": "https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/",
+            "date_create": "2023-06-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
     },
     {
         "name": "LongNet",
@@ -3666,6 +3774,21 @@
         "weights": null
     },
     {
+        "name": "vLLM",
+        "year": 2023,
+        "publication": {
+            "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+            "url": "https://arxiv.org/abs/2309.06180",
+            "date_create": "2023-09-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/vllm-project/vllm"
+        },
+        "weights": null
+    },
+    {
         "name": "DeciLM",
         "year": 2023,
         "publication": {
@@ -3789,6 +3912,24 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF"
+        }
+    },
+    {
+        "name": "OpenChat",
+        "year": 2023,
+        "publication": {
+            "title": "OpenChat: Advancing Open-source Language Models with Mixed-Quality Data",
+            "url": "https://arxiv.org/abs/2309.11235",
+            "date_create": "2023-09-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/imoneoi/openchat"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openchat/openchat_3.5"
         }
     },
     {
@@ -4005,6 +4146,21 @@
         "weights": null
     },
     {
+        "name": "MemGPT",
+        "year": 2023,
+        "publication": {
+            "title": "MemGPT: Towards LLMs as Operating Systems",
+            "url": "https://arxiv.org/abs/2310.08560",
+            "date_create": "2023-10-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/cpacker/MemGPT"
+        },
+        "weights": null
+    },
+    {
         "name": "MiniGPT-v2",
         "year": 2023,
         "publication": {
@@ -4128,6 +4284,39 @@
         "weights": null
     },
     {
+        "name": "Deepseek Coder",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - DeepSeek Coder: Let the Code Write Itself",
+            "url": "https://deepseekcoder.github.io/",
+            "date_create": "2023-10-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-coder/"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base"
+        }
+    },
+    {
+        "name": "Punica",
+        "year": 2023,
+        "publication": {
+            "title": "Punica: Multi-Tenant LoRA Serving",
+            "url": "https://arxiv.org/abs/2310.18547",
+            "date_create": "2023-10-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/punica-ai/punica"
+        },
+        "weights": null
+    },
+    {
         "name": "LeMa",
         "year": 2023,
         "publication": {
@@ -4155,21 +4344,153 @@
         "weights": null
     },
     {
-        "name": "Deepseek Coder",
+        "name": "TopicGPT",
         "year": 2023,
         "publication": {
-            "title": "Blog - DeepSeek Coder: Let the Code Write Itself",
-            "url": "https://deepseekcoder.github.io/",
-            "date_create": "2023-10-28"
+            "title": "TopicGPT: A Prompt-based Topic Modeling Framework",
+            "url": "https://arxiv.org/abs/2311.01449",
+            "date_create": "2023-11-02"
         },
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/deepseek-ai/deepseek-coder/"
+            "url": "https://github.com/chtmp223/topicGPT"
+        },
+        "weights": null
+    },
+    {
+        "name": "Yi",
+        "year": 2023,
+        "publication": {
+            "title": "README - Yi repository",
+            "url": "https://github.com/01-ai/Yi/blob/22ab4b5769cf6b8e46e0f6e9b133851b7e371ebb/README.md",
+            "date_create": "2023-11-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/01-ai/Yi"
         },
         "weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base"
+            "url": "https://huggingface.co/01-ai/Yi-34B"
         }
+    },
+    {
+        "name": "Simplified Transformers",
+        "year": 2023,
+        "publication": {
+            "title": "Simplifying Transformer Blocks",
+            "url": "https://arxiv.org/abs/2311.01906",
+            "date_create": "2023-11-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bobby-he/simplified_transformers"
+        },
+        "weights": null
+    },
+    {
+        "name": "LSS Transformer",
+        "year": 2023,
+        "publication": {
+            "title": "Ultra-Long Sequence Distributed Transformer",
+            "url": "https://arxiv.org/abs/2311.02382",
+            "date_create": "2023-11-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "CogVLM",
+        "year": 2023,
+        "publication": {
+            "title": "CogVLM: Visual Expert for Pretrained Language Models",
+            "url": "https://arxiv.org/abs/2311.03079",
+            "date_create": "2023-11-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/CogVLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/THUDM/CogVLM"
+        }
+    },
+    {
+        "name": "S-LoRA",
+        "year": 2023,
+        "publication": {
+            "title": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+            "url": "https://arxiv.org/abs/2311.03285",
+            "date_create": "2023-11-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/S-LoRA/S-LoRA"
+        },
+        "weights": null
+    },
+    {
+        "name": "LongQLoRA",
+        "year": 2023,
+        "publication": {
+            "title": "LongQLoRA: Efficient and Effective Method to Extend Context Length of Large Language Models",
+            "url": "https://arxiv.org/abs/2311.04879",
+            "date_create": "2023-11-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/yangjianxin1/LongQLoRA"
+        },
+        "weights": null
+    },
+    {
+        "name": "LLM Decontaminator",
+        "year": 2023,
+        "publication": {
+            "title": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
+            "url": "https://arxiv.org/abs/2311.04850",
+            "date_create": "2023-11-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lm-sys/llm-decontaminator"
+        },
+        "weights": null
+    },
+    {
+        "name": "Mirasol3B",
+        "year": 2023,
+        "publication": {
+            "title": "Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities",
+            "url": "https://arxiv.org/abs/2311.05698",
+            "date_create": "2023-11-09"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "FlashFFTConv",
+        "year": 2023,
+        "publication": {
+            "title": "FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores",
+            "url": "https://arxiv.org/abs/2311.05908",
+            "date_create": "2023-11-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HazyResearch/flash-fft-conv"
+        },
+        "weights": null
     }
 ]

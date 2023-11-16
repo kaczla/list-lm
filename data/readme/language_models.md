@@ -201,6 +201,11 @@
   - Year: 2020
   - Publication: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436) (2020-12-14)
 
+- Diff pruning
+  - Year: 2020
+  - Publication: [Parameter-Efficient Transfer Learning with Diff Pruning](https://arxiv.org/abs/2012.07463) (2020-12-14)
+  - Code: [GitHub](https://github.com/dguo98/DiffPruning)
+
 - Key-Value Memory Feed-Forward
   - Year: 2020
   - Publication: [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) (2020-12-29)
@@ -298,6 +303,11 @@
   - Publication: [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685) (2021-06-17)
   - Code: [GitHub](https://github.com/microsoft/LoRA)
 
+- BitFit
+  - Year: 2021
+  - Publication: [BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models](https://arxiv.org/abs/2106.10199) (2021-06-18)
+  - Code: [GitHub](https://github.com/benzakenelad/BitFit)
+
 - Charformer
   - Year: 2021
   - Publication: [Charformer: Fast Character Transformers via Gradient-based Subword Tokenization](https://arxiv.org/abs/2106.12672) (2021-06-23)
@@ -384,6 +394,11 @@
   - Year: 2022
   - Publication: [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) (2022-03-29)
 
+- NoPos
+  - Year: 2022
+  - Publication: [Transformer Language Models without Positional Encodings Still Learn Positional Information](https://arxiv.org/abs/2203.16634) (2022-03-30)
+  - Code: [GitHub](https://github.com/adihaviv/NoPos)
+
 - PaLM
   - Year: 2022
   - Publication: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311) (2022-04-05)
@@ -459,6 +474,10 @@
   - Code: [GitHub](https://github.com/google-research/t5x/blob/main/docs/models.md#flan-t5-checkpoints)
   - Model weights: [HuggingFace models](https://huggingface.co/google/flan-t5-base)
 
+- OLLA
+  - Year: 2022
+  - Publication: [OLLA: Optimizing the Lifetime and Location of Arrays to Reduce the Memory Usage of Neural Networks](https://arxiv.org/abs/2210.12924) (2022-10-24)
+
 - BLOOMZ & mT0
   - Year: 2022
   - Publication: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786) (2022-11-03)
@@ -528,6 +547,10 @@
   - Code: [GitHub](https://github.com/salesforce/CodeGen)
   - Model weights: [HuggingFace models](https://huggingface.co/CarperAI/diff-codegen-6b-v2)
 
+- AltUp
+  - Year: 2023
+  - Publication: [Alternating Updates for Efficient Transformers](https://arxiv.org/abs/2301.13310) (2023-01-30)
+
 - E-SPA (Exponential Signal Preserving Attention)
   - Year: 2023
   - Publication: [Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation](https://arxiv.org/abs/2302.10322) (2023-02-20)
@@ -579,6 +602,11 @@
   - Year: 2023
   - Publication: [Transformer-based World Models Are Happy With 100k Interactions](https://arxiv.org/abs/2303.07109) (2023-03-13)
   - Code: [GitHub](https://github.com/jrobine/twm)
+
+- FlexGen
+  - Year: 2023
+  - Publication: [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865) (2023-03-13)
+  - Code: [GitHub](https://github.com/FMInference/FlexGen)
 
 - GPT-4
   - Year: 2023
@@ -1027,11 +1055,19 @@
   - Code: [GitHub](https://github.com/microsoft/unilm/tree/master/kosmos-2)
   - Model weights: [direct link](https://conversationhub.blob.core.windows.net/beit-share-public/kosmos-2/kosmos-2.pt?sv=2021-10-04&st=2023-06-08T11%3A16%3A02Z&se=2033-06-09T11%3A16%3A00Z&sr=c&sp=r&sig=N4pfCVmSeq4L4tS8QbrFVsX6f6q844eft8xSuXdxU48%3D)
 
+- Position Interpolation
+  - Year: 2023
+  - Publication: [Extending Context Window of Large Language Models via Positional Interpolation](https://arxiv.org/abs/2306.15595) (2023-06-27)
+
 - XGen
   - Year: 2023
   - Publication: [Blog - Long Sequence Modeling with XGen: A 7B LLM Trained on 8K Input Sequence Length](https://blog.salesforceairesearch.com/xgen/) (2023-06-28)
   - Code: [GitHub](https://github.com/salesforce/xGen)
   - Model weights: [HuggingFace models](https://huggingface.co/Salesforce/xgen-7b-8k-base)
+
+- NTK
+  - Year: 2023
+  - Publication: [Blog - NTK-Aware Scaled RoPE allows LLaMA models to have extended (8k+) context size without any fine-tuning and minimal perplexity degradation.](https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/) (2023-06-29)
 
 - LongNet
   - Year: 2023
@@ -1220,6 +1256,11 @@
   - Publication: [Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning](https://arxiv.org/abs/2309.05444) (2023-09-11)
   - Code: [GitHub](https://github.com/for-ai/parameter-efficient-moe)
 
+- vLLM
+  - Year: 2023
+  - Publication: [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) (2023-09-12)
+  - Code: [GitHub](https://github.com/vllm-project/vllm)
+
 - DeciLM
   - Year: 2023
   - Publication: [Blog - 15 times Faster than Llama 2: Introducing DeciLM – NAS-Generated LLM with Variable GQA](https://deci.ai/blog/decilm-15-times-faster-than-llama2-nas-generated-llm-with-variable-gqa/) (2023-09-13)
@@ -1261,6 +1302,12 @@
   - Year: 2023
   - Publication: [HuggingFace model card - Nous-Capybara](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF) (2023-09-20)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF)
+
+- OpenChat
+  - Year: 2023
+  - Publication: [OpenChat: Advancing Open-source Language Models with Mixed-Quality Data](https://arxiv.org/abs/2309.11235) (2023-09-20)
+  - Code: [GitHub](https://github.com/imoneoi/openchat)
+  - Model weights: [HuggingFace models](https://huggingface.co/openchat/openchat_3.5)
 
 - Glaive-coder
   - Year: 2023
@@ -1333,6 +1380,11 @@
   - Year: 2023
   - Publication: [HyperAttention: Long-context Attention in Near-Linear Time](https://arxiv.org/abs/2310.05869) (2023-10-09)
 
+- MemGPT
+  - Year: 2023
+  - Publication: [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) (2023-10-12)
+  - Code: [GitHub](https://github.com/cpacker/MemGPT)
+
 - MiniGPT-v2
   - Year: 2023
   - Publication: [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478) (2023-10-14)
@@ -1374,6 +1426,17 @@
   - Publication: [FP8-LM: Training FP8 Large Language Models](https://arxiv.org/abs/2310.18313) (2023-10-27)
   - Code: [GitHub](https://github.com/Azure/MS-AMP)
 
+- Deepseek Coder
+  - Year: 2023
+  - Publication: [Blog - DeepSeek Coder: Let the Code Write Itself](https://deepseekcoder.github.io/) (2023-10-28)
+  - Code: [GitHub](https://github.com/deepseek-ai/deepseek-coder/)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base)
+
+- Punica
+  - Year: 2023
+  - Publication: [Punica: Multi-Tenant LoRA Serving](https://arxiv.org/abs/2310.18547) (2023-10-28)
+  - Code: [GitHub](https://github.com/punica-ai/punica)
+
 - LeMa
   - Year: 2023
   - Publication: [Learning From Mistakes Makes LLM Better Reasoner](https://arxiv.org/abs/2310.20689) (2023-10-31)
@@ -1383,8 +1446,52 @@
   - Year: 2023
   - Publication: [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176) (2023-10-31)
 
-- Deepseek Coder
+- TopicGPT
   - Year: 2023
-  - Publication: [Blog - DeepSeek Coder: Let the Code Write Itself](https://deepseekcoder.github.io/) (2023-10-28)
-  - Code: [GitHub](https://github.com/deepseek-ai/deepseek-coder/)
-  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base)
+  - Publication: [TopicGPT: A Prompt-based Topic Modeling Framework](https://arxiv.org/abs/2311.01449) (2023-11-02)
+  - Code: [GitHub](https://github.com/chtmp223/topicGPT)
+
+- Yi
+  - Year: 2023
+  - Publication: [README - Yi repository](https://github.com/01-ai/Yi/blob/22ab4b5769cf6b8e46e0f6e9b133851b7e371ebb/README.md) (2023-11-02)
+  - Code: [GitHub](https://github.com/01-ai/Yi)
+  - Model weights: [HuggingFace models](https://huggingface.co/01-ai/Yi-34B)
+
+- Simplified Transformers
+  - Year: 2023
+  - Publication: [Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906) (2023-11-03)
+  - Code: [GitHub](https://github.com/bobby-he/simplified_transformers)
+
+- LSS Transformer
+  - Year: 2023
+  - Publication: [Ultra-Long Sequence Distributed Transformer](https://arxiv.org/abs/2311.02382) (2023-11-04)
+
+- CogVLM
+  - Year: 2023
+  - Publication: [CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079) (2023-11-06)
+  - Code: [GitHub](https://github.com/THUDM/CogVLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/THUDM/CogVLM)
+
+- S-LoRA
+  - Year: 2023
+  - Publication: [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/abs/2311.03285) (2023-11-06)
+  - Code: [GitHub](https://github.com/S-LoRA/S-LoRA)
+
+- LongQLoRA
+  - Year: 2023
+  - Publication: [LongQLoRA: Efficient and Effective Method to Extend Context Length of Large Language Models](https://arxiv.org/abs/2311.04879) (2023-11-08)
+  - Code: [GitHub](https://github.com/yangjianxin1/LongQLoRA)
+
+- LLM Decontaminator
+  - Year: 2023
+  - Publication: [Rethinking Benchmark and Contamination for Language Models with Rephrased Samples](https://arxiv.org/abs/2311.04850) (2023-11-08)
+  - Code: [GitHub](https://github.com/lm-sys/llm-decontaminator)
+
+- Mirasol3B
+  - Year: 2023
+  - Publication: [Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities](https://arxiv.org/abs/2311.05698) (2023-11-09)
+
+- FlashFFTConv
+  - Year: 2023
+  - Publication: [FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores](https://arxiv.org/abs/2311.05908) (2023-11-10)
+  - Code: [GitHub](https://github.com/HazyResearch/flash-fft-conv)
