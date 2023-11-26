@@ -582,6 +582,12 @@
         "link_type": "Dataset links"
     },
     {
+        "name": "Intel Extension for Transformers",
+        "description": "Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms",
+        "url": "https://github.com/intel/intel-extension-for-transformers",
+        "link_type": "Utils links"
+    },
+    {
         "name": "InternLM",
         "description": "InternLM has open-sourced a 7 billion parameter base model and a chat model tailored for practical scenarios.",
         "url": "https://github.com/InternLM/InternLM",
@@ -795,6 +801,12 @@
         "name": "Lovely Tensors",
         "description": "Tensors, ready for human consumption.",
         "url": "https://github.com/xl0/lovely-tensors",
+        "link_type": "Utils links"
+    },
+    {
+        "name": "LQ-LoRA",
+        "description": "LQ-LoRA: Low-rank plus Quantized Matrix Decomposition for Efficient Language Model Finetuning",
+        "url": "https://github.com/HanGuo97/lq-lora",
         "link_type": "Utils links"
     },
     {
@@ -1026,6 +1038,12 @@
         "link_type": "Utils links"
     },
     {
+        "name": "OmniQuant",
+        "description": "OmniQuant is a simple and powerful quantization technique for LLMs.",
+        "url": "https://github.com/OpenGVLab/OmniQuant",
+        "link_type": "Utils links"
+    },
+    {
         "name": "Opacus",
         "description": "Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.",
         "url": "https://github.com/pytorch/opacus",
@@ -1204,6 +1222,12 @@
         "description": "This recipe explains how to use PyTorch profiler and measure the time and memory consumption of the model’s operators.",
         "url": "https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html",
         "link_type": "GPU profiling links"
+    },
+    {
+        "name": "QLoRA",
+        "description": "QLoRA uses bitsandbytes for quantization and is integrated with Hugging Face's PEFT and transformers libraries.",
+        "url": "https://github.com/artidoro/qlora",
+        "link_type": "Utils links"
     },
     {
         "name": "RasaGPT",

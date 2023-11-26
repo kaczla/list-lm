@@ -55,6 +55,7 @@
 - [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
 - [Horovod](https://github.com/horovod/horovod) - Horovod is a distributed deep learning training framework for TensorFlow, Keras, PyTorch, and Apache MXNet
 - [incdbscan](https://github.com/DataOmbudsman/incdbscan) - the incremental version of the DBSCAN clustering algorithm
+- [Intel Extension for Transformers](https://github.com/intel/intel-extension-for-transformers) - Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms
 - [InternLM](https://github.com/InternLM/InternLM) - InternLM has open-sourced a 7 billion parameter base model and a chat model tailored for practical scenarios.
 - [L-Eval](https://github.com/openlmlab/leval) - L-Eval: Instituting Standardized Evaluation for Long Context Language Models.
 - [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
@@ -73,6 +74,7 @@
 - [LLMParser](https://github.com/kyang6/llmparser) - LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
+- [LQ-LoRA](https://github.com/HanGuo97/lq-lora) - LQ-LoRA: Low-rank plus Quantized Matrix Decomposition for Efficient Language Model Finetuning
 - [M3E](https://github.com/wangyingdong/m3e-base) - Moka Massive Mixed Embedding
 - [Macaw-LLM](https://github.com/lyuchenyang/Macaw-LLM) - Macaw-LLM is an exploratory endeavor that pioneers multi-modal language modeling by seamlessly combining image, video, audio, and text data, built upon the foundations of CLIP, Whisper, and LLaMA.
 - [Marvin](https://github.com/PrefectHQ/marvin) - Meet Marvin: a batteries-included library for building AI-powered software. Marvin's job is to integrate AI directly into your codebase by making it look and feel like any other function.
@@ -89,6 +91,7 @@
 - [NEFTune](https://github.com/neelsjain/NEFTune) - Noisy Embedding Instruction Fine Tuning (NEFTune) add random noise to the embedding vectors of the training data during the forward pass of fine-tuning.
 - [OctoPack](https://github.com/bigcode-project/octopack) - OctoPack: Instruction Tuning Code Large Language Models
 - [Ollama](https://github.com/jmorganca/ollama) - Run, create, and share large language models (LLMs).
+- [OmniQuant](https://github.com/OpenGVLab/OmniQuant) - OmniQuant is a simple and powerful quantization technique for LLMs.
 - [Opacus](https://github.com/pytorch/opacus) - Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.
 - [Open LLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application
 - [OpenChatKit](https://github.com/togethercomputer/OpenChatKit) - OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.
@@ -107,6 +110,7 @@
 - [pybaselines](https://github.com/derb12/pybaselines) - A Python library of algorithms for the baseline correction of experimental data.
 - [pykoi](https://github.com/CambioML/pykoi) - pykoi is an open-source python library for LLMs providing a unified interface for data & feedback collection, RLHF, and model comparisons.
 - [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) - PyG (PyTorch Geometric) is a library built upon PyTorch to easily write and train Graph Neural Networks (GNNs) for a wide range of applications related to structured data.
+- [QLoRA](https://github.com/artidoro/qlora) - QLoRA uses bitsandbytes for quantization and is integrated with Hugging Face's PEFT and transformers libraries.
 - [RasaGPT](https://github.com/paulpierre/RasaGPT) - RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.
 - [S-LoRA](https://github.com/S-LoRA/S-LoRA) - S-LoRA: Serving Thousands of Concurrent LoRA Adapters
 - [safari](https://github.com/HazyResearch/safari) - Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).

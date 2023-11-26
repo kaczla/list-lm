@@ -835,6 +835,11 @@
   - Code: [GitHub](https://github.com/open-mmlab/Multimodal-GPT)
   - Model weights: [Direct link](https://download.openmmlab.com/mmgpt/v0/mmgpt-lora-v0-release.pt)
 
+- TNN
+  - Year: 2023
+  - Publication: [Toeplitz Neural Network for Sequence Modeling](https://arxiv.org/abs/2305.04749) (2023-05-08)
+  - Code: [GitHub](https://github.com/OpenNLPLab/Tnn)
+
 - StarCoder
   - Year: 2023
   - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) (2023-05-09)
@@ -1495,3 +1500,35 @@
   - Year: 2023
   - Publication: [FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores](https://arxiv.org/abs/2311.05908) (2023-11-10)
   - Code: [GitHub](https://github.com/HazyResearch/flash-fft-conv)
+
+- Neural-chat
+  - Year: 2023
+  - Publication: [HuggingFace model card - Neural-chat](https://huggingface.co/Intel/neural-chat-7b-v3-1) (2023-11-14)
+  - Code: [GitHub](https://github.com/intel/intel-extension-for-transformers)
+  - Model weights: [HuggingFace models](https://huggingface.co/Intel/neural-chat-7b-v3-1)
+
+- UltraFastBERT
+  - Year: 2023
+  - Publication: [Exponentially Faster Language Modelling](https://arxiv.org/abs/2311.10770) (2023-11-15)
+  - Code: [GitHub](https://github.com/pbelcak/UltraFastBERT)
+  - Model weights: [HuggingFace models](https://huggingface.co/pbelcak/UltraFastBERT-1x11-long)
+
+- Tulu 2
+  - Year: 2023
+  - Publication: [Camels in a Changing Climate: Enhancing LM Adaptation with Tulu 2](https://arxiv.org/abs/2311.10702) (2023-11-17)
+  - Code: [GitHub](https://github.com/allenai/open-instruct)
+  - Model weights: [HuggingFace models](https://huggingface.co/allenai/tulu-2-7b)
+
+- Orca 2
+  - Year: 2023
+  - Publication: [Orca 2: Teaching Small Language Models How to Reason](https://arxiv.org/abs/2311.11045) (2023-11-18)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/Orca-2-13b)
+
+- LQ-LoRA
+  - Year: 2023
+  - Publication: [LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning](https://arxiv.org/abs/2311.12023) (2023-11-20)
+  - Code: [GitHub](https://github.com/HanGuo97/lq-lora)
+
+- Inflection-2
+  - Year: 2023
+  - Publication: [Blog - Inflection-2: The Next Step Up](https://inflection.ai/inflection-2) (2023-11-22)

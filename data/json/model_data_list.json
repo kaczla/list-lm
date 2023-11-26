@@ -2511,6 +2511,21 @@
         }
     },
     {
+        "name": "TNN",
+        "year": 2023,
+        "publication": {
+            "title": "Toeplitz Neural Network for Sequence Modeling",
+            "url": "https://arxiv.org/abs/2305.04749",
+            "date_create": "2023-05-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenNLPLab/Tnn"
+        },
+        "weights": null
+    },
+    {
         "name": "StarCoder",
         "year": 2023,
         "publication": {
@@ -4491,6 +4506,102 @@
             "title": "GitHub",
             "url": "https://github.com/HazyResearch/flash-fft-conv"
         },
+        "weights": null
+    },
+    {
+        "name": "Neural-chat",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Neural-chat",
+            "url": "https://huggingface.co/Intel/neural-chat-7b-v3-1",
+            "date_create": "2023-11-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/intel/intel-extension-for-transformers"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Intel/neural-chat-7b-v3-1"
+        }
+    },
+    {
+        "name": "UltraFastBERT",
+        "year": 2023,
+        "publication": {
+            "title": "Exponentially Faster Language Modelling",
+            "url": "https://arxiv.org/abs/2311.10770",
+            "date_create": "2023-11-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/pbelcak/UltraFastBERT"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/pbelcak/UltraFastBERT-1x11-long"
+        }
+    },
+    {
+        "name": "Tulu 2",
+        "year": 2023,
+        "publication": {
+            "title": "Camels in a Changing Climate: Enhancing LM Adaptation with Tulu 2",
+            "url": "https://arxiv.org/abs/2311.10702",
+            "date_create": "2023-11-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/open-instruct"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/tulu-2-7b"
+        }
+    },
+    {
+        "name": "Orca 2",
+        "year": 2023,
+        "publication": {
+            "title": "Orca 2: Teaching Small Language Models How to Reason",
+            "url": "https://arxiv.org/abs/2311.11045",
+            "date_create": "2023-11-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/Orca-2-13b"
+        }
+    },
+    {
+        "name": "LQ-LoRA",
+        "year": 2023,
+        "publication": {
+            "title": "LQ-LoRA: Low-rank Plus Quantized Matrix Decomposition for Efficient Language Model Finetuning",
+            "url": "https://arxiv.org/abs/2311.12023",
+            "date_create": "2023-11-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HanGuo97/lq-lora"
+        },
+        "weights": null
+    },
+    {
+        "name": "Inflection-2",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Inflection-2: The Next Step Up",
+            "url": "https://inflection.ai/inflection-2",
+            "date_create": "2023-11-22"
+        },
+        "video": null,
+        "code": null,
         "weights": null
     }
 ]
