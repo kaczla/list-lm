@@ -15,6 +15,7 @@ class LinkType(StrEnum):
     VOCABULARY = "Vocabulary links"
     OPTIMIZER = "Optimizer links"
     DATASET = "Dataset links"
+    TOPIC = "Topic links"
     DOCUMENTATION = "Documentation links"
 
     @staticmethod
@@ -33,6 +34,7 @@ class ApplicationData(BaseModel):
     description: str
     url: str
     link_type: LinkType
+    manual_validated: bool = False
 
     def to_markdown(self) -> str:
         return f"[{self.name}]({self.url}) - {self.description}"

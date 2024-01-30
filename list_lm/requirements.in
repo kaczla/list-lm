@@ -1,9 +1,9 @@
 requests>=2.31,<2.32
 lxml>=4.9,<4.10
 pydantic>=2.5,<2.6
-ruff==0.1.5
-black>=23.11,<24.0
-isort>=5.12,<5.13
+ruff==0.1.11
+black>=23.12,<24.0
+isort>=5.13,<5.14
 pip-tools>=7.3,<7.4
-mypy>=1.7,<1.8
+mypy>=1.8,<1.9
 types-requests>=2.31,<2.32

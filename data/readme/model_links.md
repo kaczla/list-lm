@@ -6,6 +6,7 @@
 - [CodeT5 and CodeT5+](https://github.com/salesforce/CodeT5) - Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/
 - [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
+- [deepseek-LLM](https://github.com/deepseek-ai/deepseek-LLM) - DeepSeek LLM: Let there be answers
 - [DeepSpeed Model Implementations for Inference](https://github.com/microsoft/DeepSpeed-MII) - DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [EasyLLM](https://github.com/philschmid/easyllm) - EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source.
@@ -18,6 +19,8 @@
 - [FlashFFTConv](https://github.com/HazyResearch/flash-fft-conv) - FlashFFTConv is a fast algorithm for computing long depthwise convolutions using the FFT algorithm.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.
+- [gigaGPT](https://github.com/Cerebras/gigaGPT) - We present gigaGPT – the simplest implementation for training large language models with tens or hundreds of billions of parameters.
+- [gpt-fast](https://github.com/pytorch-labs/gpt-fast) - Simple and efficient pytorch-native transformer text generation.
 - [H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) - H2O LLM Studio, a framework and no-code GUI designed for fine-tuning state-of-the-art large language models (LLMs).
 - [h2oGPT](https://github.com/h2oai/h2ogpt) - h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.
 - [JARVIS](https://github.com/microsoft/JARVIS) - JARVIS, a system to connect LLMs with ML community.
@@ -29,11 +32,13 @@
 - [LightLLM](https://github.com/ModelTC/lightllm) - LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.
 - [LightSeq](https://github.com/RulinShao/LightSeq) - Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) - Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.
+- [llamafile](https://github.com/Mozilla-Ocho/llamafile) - llamafile lets you distribute and run LLMs with a single file.
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
 - [LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) - LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
+- [MegaBlocks](https://github.com/stanford-futuredata/megablocks) - MegaBlocks is a light-weight library for mixture-of-experts (MoE) training.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [ModuleFormer](https://github.com/IBM/ModuleFormer) - ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.
@@ -44,6 +49,7 @@
 - [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
 - [nanoPALM](https://github.com/RobertRiachi/nanoPALM) - nanoPALM is the simplest, fastest repository for training/finetuning small to medium-sized PALM models.
 - [nanoT5](https://github.com/PiotrNawrot/nanoT5) - Fast & Simple repository for pre-training and fine-tuning T5-style models.
+- [nanotron](https://github.com/huggingface/nanotron) - The objective of this library is to provide easy distributed primitives in order to train a variety of models efficiently using 3D parallelism.
 - [NVIDIA Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Megatron is an efficient, model-parallel (tensor, sequence, and pipeline), and multi-node pre-training of transformer based models such as GPT, BERT, and T5 using mixed precision.
 - [NVIDIA Merlin](https://github.com/NVIDIA-Merlin/Merlin) - NVIDIA Merlin is an open source library providing end-to-end GPU-accelerated recommender systems, from feature engineering and preprocessing to training deep learning models and running inference in production.
 - [NVIDIA NeMo](https://github.com/NVIDIA/NeMo) - NVIDIA NeMo is a conversational AI toolkit built for researchers working on automatic speech recognition (ASR), text-to-speech synthesis (TTS), large language models (LLMs), and natural language processing (NLP).
@@ -55,6 +61,7 @@
 - [Pretrained Language Model](https://github.com/huawei-noah/Pretrained-Language-Model) - Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [SeqIO](https://github.com/google/seqio) - Task-based datasets, preprocessing, and evaluation for sequence models.
+- [SGLang](https://github.com/sgl-project/sglang/) - SGLang is a structured generation language designed for large language models (LLMs). It makes your interaction with LLMs faster and more controllable by co-designing the frontend language and the runtime system.
 - [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) - This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.
 - [Simplified Transformers](https://github.com/bobby-he/simplified_transformers) - A simple design recipe for deep Transformers is to compose identical building blocks.
 - [small-text](https://github.com/webis-de/small-text) - Small-Text provides state-of-the-art Active Learning for Text Classification.
@@ -71,8 +78,10 @@
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
 - [transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
+- [Tricksy](https://github.com/austinsilveria/tricksy) - Fast approximate inference on a single GPU with sparsity aware offloading
 - [txtai](https://github.com/neuml/txtai) - txtai executes machine-learning workflows to transform data and build AI-powered semantic search applications.
 - [unilm](https://github.com/microsoft/unilm) - Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
+- [unsloth](https://github.com/unslothai/unsloth) - 2-5x faster 60% less memory local QLoRA finetuning
 - [voltaML](https://github.com/VoltaML/voltaML) - VoltaML is a lightweight library to convert and run your ML/DL deep learning models in high performance inference runtimes like TensorRT, TorchScript, ONNX and TVM.
 - [x-transformers](https://github.com/lucidrains/x-transformers) - A simple but complete full-attention transformer with a set of promising experimental features from various papers.
 - [xFormers](https://github.com/facebookresearch/xformers) - xFormers is a modular and field agnostic library to flexibly generate transformer architectures by interoperable and optimized building blocks.

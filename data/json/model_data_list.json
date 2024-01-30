@@ -492,6 +492,18 @@
         "weights": null
     },
     {
+        "name": "ColBERT",
+        "year": 2020,
+        "publication": {
+            "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+            "url": "https://arxiv.org/abs/2004.12832",
+            "date_create": "2020-04-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "Synthesizer",
         "year": 2020,
         "publication": {
@@ -693,7 +705,10 @@
             "title": "GitHub",
             "url": "https://github.com/tensorflow/mesh/blob/master/mesh_tensorflow/transformer/moe.py"
         },
-        "weights": null
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/switch-c-2048"
+        }
     },
     {
         "name": "WuDao",
@@ -1035,6 +1050,18 @@
         "weights": null
     },
     {
+        "name": "PLATO-XL",
+        "year": 2021,
+        "publication": {
+            "title": "PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation",
+            "url": "https://arxiv.org/abs/2109.09519",
+            "date_create": "2021-09-20"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "T0",
         "year": 2021,
         "publication": {
@@ -1164,6 +1191,24 @@
         "weights": null
     },
     {
+        "name": "CodeGen",
+        "year": 2022,
+        "publication": {
+            "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+            "url": "https://arxiv.org/abs/2203.13474",
+            "date_create": "2022-03-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeGen"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codegen-16B-multi"
+        }
+    },
+    {
         "name": "BaGuaLu",
         "year": 2022,
         "publication": {
@@ -1290,6 +1335,18 @@
         "weights": null
     },
     {
+        "name": "YaLM",
+        "year": 2022,
+        "publication": {
+            "title": "Blog - Yandex Publishes YaLM 100B. It’s the Largest GPT-Like Neural Network in Open Source",
+            "url": "https://medium.com/yandex/yandex-publishes-yalm-100b-its-the-largest-gpt-like-neural-network-in-open-source-d1df53d0e9a6",
+            "date_create": "2022-06-23"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "Minerva",
         "year": 2022,
         "publication": {
@@ -1360,6 +1417,21 @@
             "url": "https://github.com/bigscience-workshop/petals"
         },
         "weights": null
+    },
+    {
+        "name": "NeMo Megatron",
+        "year": 2022,
+        "publication": {
+            "title": "HuggingFace model card - NeMo Megatron",
+            "url": "https://huggingface.co/nvidia/nemo-megatron-gpt-1.3B",
+            "date_create": "2022-09-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/nemo-megatron-gpt-1.3B"
+        }
     },
     {
         "name": "GLM-130B",
@@ -1486,6 +1558,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/galactica-6.7b"
         }
+    },
+    {
+        "name": "MegaBlocks",
+        "year": 2022,
+        "publication": {
+            "title": "MegaBlocks: Efficient Sparse Training with Mixture-of-Experts",
+            "url": "https://arxiv.org/abs/2211.15841",
+            "date_create": "2022-11-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stanford-futuredata/megablocks"
+        },
+        "weights": null
     },
     {
         "name": "NPM",
@@ -1743,6 +1830,21 @@
         "weights": null
     },
     {
+        "name": "Palmyra",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Palmyra LLMs empower secure, enterprise-grade generative AI for business",
+            "url": "https://writer.com/blog/palmyra/",
+            "date_create": "2023-03-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Writer/palmyra-large"
+        }
+    },
+    {
         "name": "PaLM-E",
         "year": 2023,
         "publication": {
@@ -1753,24 +1855,6 @@
         "video": null,
         "code": null,
         "weights": null
-    },
-    {
-        "name": "MosaicBERT",
-        "year": 2023,
-        "publication": {
-            "title": "MosaicBERT: Pretraining BERT from Scratch for $20",
-            "url": "https://www.mosaicml.com/blog/mosaicbert",
-            "date_create": "2023-03-09"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/mosaicml/examples"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/mosaicml/mosaic-bert-base"
-        }
     },
     {
         "name": "Jurassic-2",
@@ -1888,6 +1972,18 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mrm8488/Alpacoom"
         }
+    },
+    {
+        "name": "CoLT5",
+        "year": 2023,
+        "publication": {
+            "title": "CoLT5: Faster Long-Range Transformers with Conditional Computation",
+            "url": "https://arxiv.org/abs/2303.09752",
+            "date_create": "2023-03-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
     },
     {
         "name": "GPT4All",
@@ -2142,6 +2238,24 @@
         }
     },
     {
+        "name": "LLaVA",
+        "year": 2023,
+        "publication": {
+            "title": "Visual Instruction Tuning",
+            "url": "https://arxiv.org/abs/2304.08485",
+            "date_create": "2023-04-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/haotian-liu/LLaVA"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/liuhaotian/llava-v1.5-7b"
+        }
+    },
+    {
         "name": "umT5",
         "year": 2023,
         "publication": {
@@ -2382,24 +2496,6 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codegen2-16B"
-        }
-    },
-    {
-        "name": "CodeGen2.5",
-        "year": 2023,
-        "publication": {
-            "title": "Blog - CodeGen2: Lessons for Training LLMs on Programming and Natural Languages",
-            "url": "https://arxiv.org/abs/2305.02309",
-            "date_create": "2023-05-03"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/salesforce/CodeGen2"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/Salesforce/codegen25-7b-multi"
         }
     },
     {
@@ -3228,6 +3324,24 @@
         "weights": null
     },
     {
+        "name": "LongChat",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - How Long Can Open-Source LLMs Truly Promise on Context Length?",
+            "url": "https://lmsys.org/blog/2023-06-29-longchat/",
+            "date_create": "2023-06-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/DachengLi1/LongChat"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lmsys/longchat-7b-v1.5-32k"
+        }
+    },
+    {
         "name": "LongNet",
         "year": 2023,
         "publication": {
@@ -3241,6 +3355,24 @@
             "url": "https://github.com/microsoft/unilm"
         },
         "weights": null
+    },
+    {
+        "name": "CodeGen2.5",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - CodeGen2.5: Small, but mighty",
+            "url": "https://blog.salesforceairesearch.com/codegen25/",
+            "date_create": "2023-07-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/salesforce/CodeGen2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Salesforce/codegen25-7b-multi"
+        }
     },
     {
         "name": "InternLM",
@@ -3310,6 +3442,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/DAMO-NLP-MT/polylm-13b"
         }
+    },
+    {
+        "name": "RetNet",
+        "year": 2023,
+        "publication": {
+            "title": "Retentive Network: A Successor to Transformer for Large Language Models",
+            "url": "https://arxiv.org/abs/2307.08621",
+            "date_create": "2023-07-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/unilm/tree/master/retnet"
+        },
+        "weights": null
     },
     {
         "name": "MPT-7B-8k",
@@ -3423,6 +3570,21 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/yaanhaan/Baby-CoThought"
+        }
+    },
+    {
+        "name": "OpenHermes",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - OpenHermes",
+            "url": "https://huggingface.co/teknium/OpenHermes-13B",
+            "date_create": "2023-08-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/teknium/OpenHermes-13B"
         }
     },
     {
@@ -3612,6 +3774,21 @@
         }
     },
     {
+        "name": "Jais",
+        "year": 2023,
+        "publication": {
+            "title": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models",
+            "url": "https://arxiv.org/abs/2308.16149",
+            "date_create": "2023-08-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/core42/jais-13b"
+        }
+    },
+    {
         "name": "Yarn",
         "year": 2023,
         "publication": {
@@ -3627,24 +3804,6 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k"
-        }
-    },
-    {
-        "name": "TinyLlama",
-        "year": 2023,
-        "publication": {
-            "title": "README - TinyLlama repository",
-            "url": "https://github.com/jzhang38/TinyLlama/blob/0fcf9b61130f189b78747b0b013262c72f01286a/README.md",
-            "date_create": "2023-09-04"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/jzhang38/TinyLlama"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b"
         }
     },
     {
@@ -3804,6 +3963,21 @@
         "weights": null
     },
     {
+        "name": "OpenHermes-2-Mistral",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - OpenHermes-2-Mistral",
+            "url": "https://huggingface.co/teknium/OpenHermes-2-Mistral-7B",
+            "date_create": "2023-09-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/teknium/OpenHermes-2-Mistral-7B"
+        }
+    },
+    {
         "name": "DeciLM",
         "year": 2023,
         "publication": {
@@ -3850,6 +4024,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2"
         }
+    },
+    {
+        "name": "AdaptLLM",
+        "year": 2023,
+        "publication": {
+            "title": "Adapting Large Language Models via Reading Comprehension",
+            "url": "https://arxiv.org/abs/2309.09530",
+            "date_create": "2023-09-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/LMOps"
+        },
+        "weights": null
     },
     {
         "name": "Baichuan 2",
@@ -4077,6 +4266,21 @@
         "weights": null
     },
     {
+        "name": "OpenHermes-2.5-Mistral",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - OpenHermes-2.5-Mistral",
+            "url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+            "date_create": "2023-09-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B"
+        }
+    },
+    {
         "name": "MiniGPT-5",
         "year": 2023,
         "publication": {
@@ -4159,6 +4363,54 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "LLMLingua",
+        "year": 2023,
+        "publication": {
+            "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+            "url": "https://arxiv.org/abs/2310.05736",
+            "date_create": "2023-10-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/LLMLingua"
+        },
+        "weights": null
+    },
+    {
+        "name": "LongLLMLingua",
+        "year": 2023,
+        "publication": {
+            "title": "LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression",
+            "url": "https://arxiv.org/abs/2310.06839",
+            "date_create": "2023-10-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/LLMLingua"
+        },
+        "weights": null
+    },
+    {
+        "name": "CodeFuse",
+        "year": 2023,
+        "publication": {
+            "title": "CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model",
+            "url": "https://arxiv.org/abs/2310.06266",
+            "date_create": "2023-10-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/codefuse-ai/MFTCoder"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/codefuse-ai/CodeFuse-13B"
+        }
     },
     {
         "name": "MemGPT",
@@ -4251,6 +4503,33 @@
         "weights": null
     },
     {
+        "name": "Monarch Mixer:",
+        "year": 2023,
+        "publication": {
+            "title": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+            "url": "https://arxiv.org/abs/2310.12109",
+            "date_create": "2023-10-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Obsidian",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Obsidian",
+            "url": "https://huggingface.co/NousResearch/Obsidian-3B-V0.5",
+            "date_create": "2023-10-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Obsidian-3B-V0.5"
+        }
+    },
+    {
         "name": "Zephyr",
         "year": 2023,
         "publication": {
@@ -4267,6 +4546,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"
         }
+    },
+    {
+        "name": "QMoE",
+        "year": 2023,
+        "publication": {
+            "title": "QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models",
+            "url": "https://arxiv.org/abs/2310.16795",
+            "date_create": "2023-10-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/IST-DASLab/qmoe"
+        },
+        "weights": null
     },
     {
         "name": "CodeFusion",
@@ -4509,6 +4803,24 @@
         "weights": null
     },
     {
+        "name": "MiniMA",
+        "year": 2023,
+        "publication": {
+            "title": "Towards the Law of Capacity Gap in Distilling Language Models",
+            "url": "https://arxiv.org/abs/2311.07052",
+            "date_create": "2023-11-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/genezc/minima"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/GeneZC/MiniMA-3B"
+        }
+    },
+    {
         "name": "Neural-chat",
         "year": 2023,
         "publication": {
@@ -4593,6 +4905,33 @@
         "weights": null
     },
     {
+        "name": "System 2 Attention",
+        "year": 2023,
+        "publication": {
+            "title": "System 2 Attention (is something you might need too)",
+            "url": "https://arxiv.org/abs/2311.11829",
+            "date_create": "2023-11-20"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Lookahead Decoding",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Break the Sequential Dependency of LLM Inference Using Lookahead Decoding",
+            "url": "https://lmsys.org/blog/2023-11-21-lookahead-decoding/",
+            "date_create": "2023-11-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/hao-ai-lab/LookaheadDecoding"
+        },
+        "weights": null
+    },
+    {
         "name": "Inflection-2",
         "year": 2023,
         "publication": {
@@ -4603,5 +4942,695 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "QuIP",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - QuIP with Lattice Codebooks",
+            "url": "https://cornell-relaxml.github.io/quip-sharp/",
+            "date_create": "2023-11-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Cornell-RelaxML/quip-sharp"
+        },
+        "weights": null
+    },
+    {
+        "name": "Starling",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Starling-7B: Increasing LLM Helpfulness & Harmlessness with RLAIF",
+            "url": "https://starling.cs.berkeley.edu/",
+            "date_create": "2023-11-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/berkeley-nest/Starling-RM-7B-alpha"
+        }
+    },
+    {
+        "name": "Notus",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Notus",
+            "url": "https://huggingface.co/argilla/notus-7b-v1",
+            "date_create": "2023-12-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/argilla-io/notus"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/argilla/notus-7b-v1"
+        }
+    },
+    {
+        "name": "Mamba",
+        "year": 2023,
+        "publication": {
+            "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+            "url": "https://arxiv.org/abs/2312.00752",
+            "date_create": "2023-12-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/havenhq/mamba-chat"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/havenhq/mamba-chat"
+        }
+    },
+    {
+        "name": "Magicoder",
+        "year": 2023,
+        "publication": {
+            "title": "Magicoder: Source Code Is All You Need",
+            "url": "https://arxiv.org/abs/2312.02120",
+            "date_create": "2023-12-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ise-uiuc/magicoder"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ise-uiuc/Magicoder-CL-7B"
+        }
+    },
+    {
+        "name": "RankZephyr",
+        "year": 2023,
+        "publication": {
+            "title": "RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!",
+            "url": "https://arxiv.org/abs/2312.02724",
+            "date_create": "2023-12-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/castorini/rank_llm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/castorini/rank_vicuna_7b_v1"
+        }
+    },
+    {
+        "name": "Xaberius",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Xaberius",
+            "url": "https://huggingface.co/fblgit/una-xaberius-34b-v1beta",
+            "date_create": "2023-12-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/fblgit/una-xaberius-34b-v1beta"
+        }
+    },
+    {
+        "name": "OneLLM",
+        "year": 2023,
+        "publication": {
+            "title": "OneLLM: One Framework to Align All Modalities with Language",
+            "url": "https://arxiv.org/abs/2312.03700",
+            "date_create": "2023-12-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/csuhan/OneLLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/csuhan/OneLLM-7B"
+        }
+    },
+    {
+        "name": "StableLM Zephyr",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Introducing Stable LM Zephyr 3B: A New Addition to Stable LM, Bringing Powerful LLM Assistants to Edge Devices",
+            "url": "https://stability.ai/news/stablelm-zephyr-3b-stability-llm",
+            "date_create": "2023-12-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stabilityai/stablelm-zephyr-3b"
+        }
+    },
+    {
+        "name": "EAGLE",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - EAGLE: Lossless Acceleration of LLM Decoding by Feature Extrapolation",
+            "url": "https://sites.google.com/view/eagle-llm",
+            "date_create": "2023-12-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "StripedHyena",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Paving the way to efficient architectures: StripedHyena-7B, open source models offering a glimpse into a world beyond Transformers",
+            "url": "https://www.together.ai/blog/stripedhyena-7b",
+            "date_create": "2023-12-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/togethercomputer/stripedhyena"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/togethercomputer/StripedHyena-Hessian-7B"
+        }
+    },
+    {
+        "name": "Amber",
+        "year": 2023,
+        "publication": {
+            "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
+            "url": "https://arxiv.org/abs/2312.06550",
+            "date_create": "2023-12-11"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LLM360/Amber"
+        }
+    },
+    {
+        "name": "CrystalCoder",
+        "year": 2023,
+        "publication": {
+            "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
+            "url": "https://arxiv.org/abs/2312.06550",
+            "date_create": "2023-12-11"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LLM360/CrystalCoder"
+        }
+    },
+    {
+        "name": "phi-2",
+        "year": 2023,
+        "publication": {
+            "title": "Blog - Phi-2: The surprising power of small language models",
+            "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+            "date_create": "2023-12-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/phi-2"
+        }
+    },
+    {
+        "name": "SGLang",
+        "year": 2023,
+        "publication": {
+            "title": "Efficiently Programming Large Language Models using SGLang",
+            "url": "https://arxiv.org/abs/2312.07104",
+            "date_create": "2023-12-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sgl-project/sglang/"
+        },
+        "weights": null
+    },
+    {
+        "name": "SwitchHead",
+        "year": 2023,
+        "publication": {
+            "title": "SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention",
+            "url": "https://arxiv.org/abs/2312.07987",
+            "date_create": "2023-12-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/robertcsordas/moe_attention"
+        },
+        "weights": null
+    },
+    {
+        "name": "Dolphin 2.5",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Dolphin 2.5",
+            "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b",
+            "date_create": "2023-12-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
+        }
+    },
+    {
+        "name": "PowerInfer",
+        "year": 2023,
+        "publication": {
+            "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+            "url": "https://arxiv.org/abs/2312.12456",
+            "date_create": "2023-12-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SJTU-IPADS/PowerInfer"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PowerInfer/ReluLLaMA-7B-PowerInfer-GGUF"
+        }
+    },
+    {
+        "name": "Gemini",
+        "year": 2023,
+        "publication": {
+            "title": "Gemini: A Family of Highly Capable Multimodal Models",
+            "url": "https://arxiv.org/abs/2312.11805",
+            "date_create": "2023-12-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "WhiteRabbitNeo",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - WhiteRabbitNeo",
+            "url": "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-33B-v1",
+            "date_create": "2023-12-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/whiterabbitneo/WhiteRabbitNeo-33B-v1"
+        }
+    },
+    {
+        "name": "MosaicBERT",
+        "year": 2023,
+        "publication": {
+            "title": "MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining",
+            "url": "https://arxiv.org/abs/2312.17482",
+            "date_create": "2023-12-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mosaicml/examples"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mosaicml/mosaic-bert-base"
+        }
+    },
+    {
+        "name": "TinyLlama",
+        "year": 2023,
+        "publication": {
+            "title": "TinyLlama: An Open-Source Small Language Model",
+            "url": "https://arxiv.org/abs/2401.02385",
+            "date_create": "2024-01-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jzhang38/TinyLlama"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b"
+        }
+    },
+    {
+        "name": "LLaMA Pro",
+        "year": 2024,
+        "publication": {
+            "title": "LLaMA Pro: Progressive LLaMA with Block Expansion",
+            "url": "https://arxiv.org/abs/2401.02415",
+            "date_create": "2024-01-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/TencentARC/LLaMA-Pro"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/TencentARC/LLaMA-Pro-8B"
+        }
+    },
+    {
+        "name": "Deepseek LLM",
+        "year": 2023,
+        "publication": {
+            "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+            "url": "https://arxiv.org/abs/2401.02954",
+            "date_create": "2024-01-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-LLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base"
+        }
+    },
+    {
+        "name": "Infinite-LLM",
+        "year": 2024,
+        "publication": {
+            "title": "Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache",
+            "url": "https://arxiv.org/abs/2401.02669",
+            "date_create": "2024-01-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Activation Beacon",
+        "year": 2024,
+        "publication": {
+            "title": "Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon",
+            "url": "https://arxiv.org/abs/2401.03462",
+            "date_create": "2024-01-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/FlagOpen/FlagEmbedding"
+        },
+        "weights": null
+    },
+    {
+        "name": "MoE-Mamba",
+        "year": 2024,
+        "publication": {
+            "title": "MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts",
+            "url": "https://arxiv.org/abs/2401.04081",
+            "date_create": "2024-01-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/llm-random/llm-random"
+        },
+        "weights": null
+    },
+    {
+        "name": "Mixtral of Experts",
+        "year": 2024,
+        "publication": {
+            "title": "Mixtral of Experts",
+            "url": "https://arxiv.org/abs/2401.04088",
+            "date_create": "2024-01-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mistralai/mistral-src"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+        }
+    },
+    {
+        "name": "TeleChat",
+        "year": 2024,
+        "publication": {
+            "title": "TeleChat Technical Report",
+            "url": "https://arxiv.org/abs/2401.03804",
+            "date_create": "2024-01-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Lightning Attention-2",
+        "year": 2024,
+        "publication": {
+            "title": "Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models",
+            "url": "https://arxiv.org/abs/2401.04658",
+            "date_create": "2024-01-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenNLPLab/lightning-attention"
+        },
+        "weights": null
+    },
+    {
+        "name": "MegaDolphin",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - MegaDolphin",
+            "url": "https://huggingface.co/cognitivecomputations/MegaDolphin-120b",
+            "date_create": "2024-01-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cognitivecomputations/MegaDolphin-120b"
+        }
+    },
+    {
+        "name": "DeepSeekMoE",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+            "url": "https://arxiv.org/abs/2401.06066",
+            "date_create": "2024-01-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base"
+        }
+    },
+    {
+        "name": "Patchscopes",
+        "year": 2024,
+        "publication": {
+            "title": "Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models",
+            "url": "https://arxiv.org/abs/2401.06102",
+            "date_create": "2024-01-11"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "DeepSeekMoE",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+            "url": "https://arxiv.org/abs/2401.06066",
+            "date_create": "2024-01-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base"
+        }
+    },
+    {
+        "name": "Mixtral Nous-Hermes",
+        "year": 2024,
+        "publication": {
+            "title": "Tweet: Introducing our new flagship LLM, Nous-Hermes 2 on Mixtral 8x7B.",
+            "url": "https://twitter.com/NousResearch/status/1746988416779309143",
+            "date_create": "2024-01-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+        }
+    },
+    {
+        "name": "Stable Code",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Stable Code 3B: Coding on the Edge",
+            "url": "https://stability.ai/news/stable-code-2024-llm-code-completion-release",
+            "date_create": "2024-01-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stabilityai/stable-code-3b"
+        }
+    },
+    {
+        "name": "AlphaCodium",
+        "year": 2024,
+        "publication": {
+            "title": "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+            "url": "https://arxiv.org/abs/2401.08500",
+            "date_create": "2024-01-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Codium-ai/AlphaCodium"
+        },
+        "weights": null
+    },
+    {
+        "name": "Stable LM 2",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Stable LM 2 1.6B",
+            "url": "https://stability.ai/news/introducing-stable-lm-2",
+            "date_create": "2024-01-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Stability-AI/StableLM"
+        },
+        "weights": {
+            "title": "Direct link",
+            "url": "https://stability.ai/news/introducing-stable-lm-2"
+        }
+    },
+    {
+        "name": "Imp",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Imp",
+            "url": "https://huggingface.co/MILVLG/imp-v1-3b",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MILVLG/imp"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/MILVLG/imp-v1-3b"
+        }
+    },
+    {
+        "name": "Snorkel AI",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - New benchmark results demonstrate value of Snorkel AI approach to LLM alignment",
+            "url": "https://snorkel.ai/new-benchmark-results-demonstrate-value-of-snorkel-ai-approach-to-llm-alignment/",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO"
+        }
+    },
+    {
+        "name": "MaLA-500",
+        "year": 2024,
+        "publication": {
+            "title": "MaLA-500: Massive Language Adaptation of Large Language Models",
+            "url": "https://arxiv.org/abs/2401.13303",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/MaLA-LM/mala-500"
+        }
+    },
+    {
+        "name": "MambaByte",
+        "year": 2024,
+        "publication": {
+            "title": "MambaByte: Token-free Selective State Space Model",
+            "url": "https://arxiv.org/abs/2401.13660",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "SliceGPT",
+        "year": 2024,
+        "publication": {
+            "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+            "url": "https://arxiv.org/abs/2401.15024",
+            "date_create": "2024-01-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/TransformerCompression"
+        },
+        "weights": null
+    },
+    {
+        "name": "Eagle 7B",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Eagle 7B: Soaring past Transformers with 1 Trillion Tokens Across 100+ Languages",
+            "url": "https://blog.rwkv.com/p/eagle-7b-soaring-past-transformers",
+            "date_create": "2024-01-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/RWKV/v5-Eagle-7B"
+        }
     }
 ]

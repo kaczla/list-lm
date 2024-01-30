@@ -18,6 +18,7 @@ MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME = {
     LinkType.VOCABULARY: "vocabulary_links",
     LinkType.OPTIMIZER: "optimizer_links",
     LinkType.DATASET: "dataset_links",
+    LinkType.TOPIC: "topic_links",
     LinkType.DOCUMENTATION: "documentation_links",
 }
 

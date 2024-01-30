@@ -1,7 +1,9 @@
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
+- [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard) - Public LLM leaderboard computed using Vectara's Hallucination Evaluation Model.
 - [labml.ai Deep Learning Paper Implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 60 Implementations/tutorials of deep learning papers with side-by-side notes.
 - [ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained) - List of LM papers explained.
 - [Open LLMs](https://github.com/eugeneyan/open-llms) - A list of open LLMs available for commercial use.
+- [The Alignment Handbook](https://github.com/huggingface/alignment-handbook) - obust recipes for to align language models with human and AI preferences.
 - [The Practical Guides for Large Language Models](https://github.com/Mooler0410/LLMsPracticalGuide) - A curated (still actively updated) list of practical guide resources of LLMs.
 - [Transformer](https://nn.labml.ai/transformers/index.html) - Explanation of Transformer architecture from the code.
 - [Transformer models: an introduction and catalog, 2023 Edition](https://amatriain.net/blog/transformer-models-an-introduction-and-catalog-2d1e9039f376) - An introduction and catalog of Transformer models.

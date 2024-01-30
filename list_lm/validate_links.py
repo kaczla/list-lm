@@ -28,6 +28,13 @@ def validate_links() -> None:
         if original_application_data_list:
             for original_application_data in original_application_data_list:
                 if original_application_data.name.lower() == normalized_name:
+                    # Skip manually validated
+                    if (
+                        original_application_data.manual_validated == application_data.manual_validated
+                        and application_data.manual_validated
+                    ):
+                        continue
+
                     if original_application_data.url == application_data.url:
                         error_msg = (
                             f"Duplicated link in {application_data.link_type} - {application_data.name},"
