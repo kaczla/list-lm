@@ -3774,6 +3774,21 @@
         }
     },
     {
+        "name": "Phind-CodeLlama",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Phind-CodeLlama",
+            "url": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2",
+            "date_create": "2023-08-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"
+        }
+    },
+    {
         "name": "Jais",
         "year": 2023,
         "publication": {
@@ -4476,6 +4491,21 @@
         }
     },
     {
+        "name": "MistralLite",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - MistralLite",
+            "url": "https://huggingface.co/amazon/MistralLite",
+            "date_create": "2023-10-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/amazon/MistralLite"
+        }
+    },
+    {
         "name": "Fuyu",
         "year": 2023,
         "publication": {
@@ -4707,6 +4737,18 @@
             "title": "Ultra-Long Sequence Distributed Transformer",
             "url": "https://arxiv.org/abs/2311.02382",
             "date_create": "2023-11-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Octavius",
+        "year": 2023,
+        "publication": {
+            "title": "Octavius: Mitigating Task Interference in MLLMs via MoE",
+            "url": "https://arxiv.org/abs/2311.02684",
+            "date_create": "2023-11-05"
         },
         "video": null,
         "code": null,
@@ -5277,6 +5319,18 @@
         }
     },
     {
+        "name": "LLM Maybe LongLM",
+        "year": 2024,
+        "publication": {
+            "title": "LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning",
+            "url": "https://arxiv.org/abs/2401.01325",
+            "date_create": "2024-01-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "TinyLlama",
         "year": 2023,
         "publication": {
@@ -5418,6 +5472,21 @@
         "weights": null
     },
     {
+        "name": "RoSA",
+        "year": 2024,
+        "publication": {
+            "title": "RoSA: Accurate Parameter-Efficient Fine-Tuning via Robust Adaptation",
+            "url": "https://arxiv.org/abs/2401.04679",
+            "date_create": "2024-01-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/IST-DASLab/RoSA"
+        },
+        "weights": null
+    },
+    {
         "name": "MegaDolphin",
         "year": 2024,
         "publication": {
@@ -5526,6 +5595,24 @@
         "weights": null
     },
     {
+        "name": "ReFT",
+        "year": 2024,
+        "publication": {
+            "title": "ReFT: Reasoning with Reinforced Fine-Tuning",
+            "url": "https://arxiv.org/abs/2401.08967",
+            "date_create": "2024-01-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lqtrung1998/mwp_ReFT"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/lqtrung1998/Codellama-7b-hf-ReFT-GSM8k"
+        }
+    },
+    {
         "name": "Stable LM 2",
         "year": 2024,
         "publication": {
@@ -5604,6 +5691,30 @@
         "weights": null
     },
     {
+        "name": "MM-LLMs",
+        "year": 2024,
+        "publication": {
+            "title": "MM-LLMs: Recent Advances in MultiModal Large Language Models",
+            "url": "https://arxiv.org/abs/2401.13601",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "SpacTor-T5",
+        "year": 2024,
+        "publication": {
+            "title": "SpacTor-T5: Pre-training T5 Models with Span Corruption and Replaced Token Detection",
+            "url": "https://arxiv.org/abs/2401.13160",
+            "date_create": "2024-01-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "SliceGPT",
         "year": 2024,
         "publication": {
@@ -5631,6 +5742,72 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/RWKV/v5-Eagle-7B"
+        }
+    },
+    {
+        "name": "H2O-Danube",
+        "year": 2024,
+        "publication": {
+            "title": "H2O-Danube-1.8B Technical Report",
+            "url": "https://arxiv.org/abs/2401.16818",
+            "date_create": "2024-01-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/h2oai/h2o-danube-1.8b-base"
+        }
+    },
+    {
+        "name": "KVQuant",
+        "year": 2024,
+        "publication": {
+            "title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization",
+            "url": "https://arxiv.org/abs/2401.18079",
+            "date_create": "2024-01-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SqueezeAILab/KVQuant/"
+        },
+        "weights": null
+    },
+    {
+        "name": "OLMo",
+        "year": 2024,
+        "publication": {
+            "title": "OLMo: Accelerating the Science of Language Models",
+            "url": "https://arxiv.org/abs/2402.00838",
+            "date_create": "2024-02-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/OLMo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/OLMo-1B"
+        }
+    },
+    {
+        "name": "BlackMamba",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - BlackMamba: Mixture of Experts for State-Space Models",
+            "url": "https://static1.squarespace.com/static/658ded386c43c219ee47caba/t/65bd73200920d050ccbac40c/1706914594353/blackMamba.pdf",
+            "date_create": "2024-02-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Zyphra/BlackMamba"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Zyphra/BlackMamba-1.5B"
         }
     }
 ]
