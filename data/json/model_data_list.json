@@ -1,5 +1,32 @@
 [
     {
+        "name": "GloVe",
+        "year": 2014,
+        "publication": {
+            "title": "Blog - GloVe: Global Vectors for Word Representation",
+            "url": "https://aclanthology.org/D14-1162/",
+            "date_create": "2014-10-25"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "fastText",
+        "year": 2016,
+        "publication": {
+            "title": "Enriching Word Vectors with Subword Information",
+            "url": "https://arxiv.org/abs/1607.04606",
+            "date_create": "2016-07-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/fastText"
+        },
+        "weights": null
+    },
+    {
         "name": "MoE",
         "year": 2017,
         "publication": {
@@ -2823,6 +2850,21 @@
         }
     },
     {
+        "name": "LLM-Pruner",
+        "year": 2023,
+        "publication": {
+            "title": "LLM-Pruner: On the Structural Pruning of Large Language Models",
+            "url": "https://arxiv.org/abs/2305.11627",
+            "date_create": "2023-05-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/horseee/LLM-Pruner"
+        },
+        "weights": null
+    },
+    {
         "name": "RWKV-LM",
         "year": 2023,
         "publication": {
@@ -3537,24 +3579,6 @@
         }
     },
     {
-        "name": "Qwen-7B",
-        "year": 2023,
-        "publication": {
-            "title": "README - Qwen-7B repository",
-            "url": "https://github.com/QwenLM/Qwen-7B/blob/96d10ebc9c6c170d294f2014f1b6926c9e80c95b/README.md",
-            "date_create": "2023-08-03"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/QwenLM/Qwen-7B"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/Qwen/Qwen-7B"
-        }
-    },
-    {
         "name": "Baby-CoThought",
         "year": 2023,
         "publication": {
@@ -4233,6 +4257,24 @@
         }
     },
     {
+        "name": "Qwen",
+        "year": 2023,
+        "publication": {
+            "title": "Qwen Technical Report",
+            "url": "https://arxiv.org/abs/2309.16609",
+            "date_create": "2023-09-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen-7B"
+        }
+    },
+    {
         "name": "Nous-Hermes",
         "year": 2023,
         "publication": {
@@ -4526,6 +4568,18 @@
         "publication": {
             "title": "VeRA: Vector-based Random Matrix Adaptation",
             "url": "https://arxiv.org/abs/2310.11454",
+            "date_create": "2023-10-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "BitNet",
+        "year": 2023,
+        "publication": {
+            "title": "BitNet: Scaling 1-bit Transformers for Large Language Models",
+            "url": "https://arxiv.org/abs/2310.11453",
             "date_create": "2023-10-17"
         },
         "video": null,
@@ -5226,6 +5280,18 @@
         "weights": null
     },
     {
+        "name": "LLM in a flash",
+        "year": 2023,
+        "publication": {
+            "title": "LLM in a flash: Efficient Large Language Model Inference with Limited Memory",
+            "url": "https://arxiv.org/abs/2312.11514",
+            "date_create": "2023-12-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "SwitchHead",
         "year": 2023,
         "publication": {
@@ -5329,6 +5395,24 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "SPIN",
+        "year": 2024,
+        "publication": {
+            "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+            "url": "https://arxiv.org/abs/2401.01335",
+            "date_create": "2024-01-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/uclaml/SPIN"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/UCLA-AGI/zephyr-7b-sft-full-SPIN-iter0"
+        }
     },
     {
         "name": "TinyLlama",
@@ -5730,6 +5814,21 @@
         "weights": null
     },
     {
+        "name": "SliceGPT",
+        "year": 2024,
+        "publication": {
+            "title": "SliceGPT: Compress Large Language Models by Deleting Rows and Columns",
+            "url": "https://arxiv.org/abs/2401.15024",
+            "date_create": "2024-01-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/TransformerCompression"
+        },
+        "weights": null
+    },
+    {
         "name": "Eagle 7B",
         "year": 2024,
         "publication": {
@@ -5758,6 +5857,21 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/h2oai/h2o-danube-1.8b-base"
         }
+    },
+    {
+        "name": "KVQuant",
+        "year": 2024,
+        "publication": {
+            "title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization",
+            "url": "https://arxiv.org/abs/2401.18079",
+            "date_create": "2024-01-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SqueezeAILab/KVQuant/"
+        },
+        "weights": null
     },
     {
         "name": "KVQuant",
@@ -5809,5 +5923,227 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Zyphra/BlackMamba-1.5B"
         }
+    },
+    {
+        "name": "Tiny Titans",
+        "year": 2024,
+        "publication": {
+            "title": "Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?",
+            "url": "https://arxiv.org/abs/2402.00841",
+            "date_create": "2024-02-01"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Smaug",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Smaug",
+            "url": "https://huggingface.co/abacusai/Smaug-72B-v0.1",
+            "date_create": "2024-02-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/abacusai/Smaug-72B-v0.1"
+        }
+    },
+    {
+        "name": "Nomic Embed",
+        "year": 2024,
+        "publication": {
+            "title": "Nomic Embed: Training a Reproducible Long Context Text Embedder",
+            "url": "https://arxiv.org/abs/2402.01613",
+            "date_create": "2024-02-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nomic-ai/contrastors"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1"
+        }
+    },
+    {
+        "name": "Qwen 1.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Qwen 1.5",
+            "url": "https://qwenlm.github.io/blog/qwen1.5/",
+            "date_create": "2024-02-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen1.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen1.5-0.5B"
+        }
+    },
+    {
+        "name": "DeepSeekMath",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+            "url": "https://arxiv.org/abs/2402.03300",
+            "date_create": "2024-02-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/deepseek-math"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base"
+        }
+    },
+    {
+        "name": "SQLCoder 2",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - SQLCoder 2",
+            "url": "https://huggingface.co/defog/sqlcoder-7b-2",
+            "date_create": "2024-02-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/defog-ai/sqlcoder"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/defog/sqlcoder-7b-2"
+        }
+    },
+    {
+        "name": "RethinkTinyLM",
+        "year": 2024,
+        "publication": {
+            "title": "Rethinking Optimization and Architecture for Tiny Language Models",
+            "url": "https://arxiv.org/abs/2402.02791",
+            "date_create": "2024-02-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/YuchuanTian/RethinkTinyLM"
+        },
+        "weights": null
+    },
+    {
+        "name": "Self-Discover",
+        "year": 2024,
+        "publication": {
+            "title": "Self-Discover: Large Language Models Self-Compose Reasoning Structures",
+            "url": "https://arxiv.org/abs/2402.03620",
+            "date_create": "2024-02-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "e5",
+        "year": 2024,
+        "publication": {
+            "title": "Multilingual E5 Text Embeddings: A Technical Report",
+            "url": "https://arxiv.org/abs/2402.05672",
+            "date_create": "2024-02-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/unilm/tree/master/e5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/intfloat/e5-small-v2"
+        }
+    },
+    {
+        "name": "InternLM-Math",
+        "year": 2024,
+        "publication": {
+            "title": "InternLM-Math: Open Math Large Language Models Toward Verifiable Reasoning",
+            "url": "https://arxiv.org/abs/2402.06332",
+            "date_create": "2024-02-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/InternLM/InternLM-Math"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/internlm/internlm2-math-7b"
+        }
+    },
+    {
+        "name": "DoRA",
+        "year": 2024,
+        "publication": {
+            "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+            "url": "https://arxiv.org/abs/2402.09353",
+            "date_create": "2024-02-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "GritLM",
+        "year": 2024,
+        "publication": {
+            "title": "Generative Representational Instruction Tuning",
+            "url": "https://arxiv.org/abs/2402.09906",
+            "date_create": "2024-02-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ContextualAI/gritlm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/GritLM/GritLM-7B"
+        }
+    },
+    {
+        "name": "LoRA+",
+        "year": 2024,
+        "publication": {
+            "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+            "url": "https://arxiv.org/abs/2402.12354",
+            "date_create": "2024-02-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nikhil-ghosh-berkeley/loraplus"
+        },
+        "weights": null
+    },
+    {
+        "name": "LongRoPE",
+        "year": 2024,
+        "publication": {
+            "title": "LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens",
+            "url": "https://arxiv.org/abs/2402.13753",
+            "date_create": "2024-02-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/LongRoPE"
+        },
+        "weights": null
     }
 ]

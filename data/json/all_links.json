@@ -70,6 +70,13 @@
         "manual_validated": false
     },
     {
+        "name": "Axolotl",
+        "description": "Axolotl is a tool designed to streamline the fine-tuning of various AI models, offering support for multiple configurations and architectures.",
+        "url": "https://github.com/OpenAccess-AI-Collective/axolotl",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "bagua",
         "description": "Bagua is a deep learning training acceleration framework for PyTorch",
         "url": "https://github.com/BaguaSys/bagua",
@@ -504,6 +511,13 @@
         "manual_validated": false
     },
     {
+        "name": "fabric",
+        "description": "fabric is an open-source framework for augmenting humans using AI.",
+        "url": "https://github.com/danielmiessler/fabric",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "FairScale",
         "description": "FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.",
         "url": "https://github.com/facebookresearch/fairscale",
@@ -868,6 +882,13 @@
         "manual_validated": false
     },
     {
+        "name": "LightEval",
+        "description": "LightEval is a lightweight LLM evaluation suite that Hugging Face has been using internally with the recently released LLM data processing library datatrove and LLM training library nanotron.",
+        "url": "https://github.com/huggingface/lighteval",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "LightLLM",
         "description": "LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.",
         "url": "https://github.com/ModelTC/lightllm",
@@ -1036,6 +1057,13 @@
         "manual_validated": false
     },
     {
+        "name": "LoRAX",
+        "description": "LoRAX (LoRA eXchange) is a framework that allows users to serve thousands of fine-tuned models on a single GPU, dramatically reducing the cost of serving without compromising on throughput or latency.",
+        "url": "https://github.com/predibase/lorax",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Lovely Tensors",
         "description": "Tensors, ready for human consumption.",
         "url": "https://github.com/xl0/lovely-tensors",
@@ -1131,6 +1159,13 @@
         "description": "microagents: Modular Agents Capable of Self-Editing Their Prompts and Python code",
         "url": "https://github.com/aymenfurter/microagents",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "minbpe",
+        "description": "Minimal, clean code for the (byte-level) Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization.",
+        "url": "https://github.com/karpathy/minbpe",
+        "link_type": "Vocabulary links",
         "manual_validated": false
     },
     {

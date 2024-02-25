@@ -1,3 +1,12 @@
+- GloVe
+  - Year: 2014
+  - Publication: [Blog - GloVe: Global Vectors for Word Representation](https://aclanthology.org/D14-1162/) (2014-10-25)
+
+- fastText
+  - Year: 2016
+  - Publication: [Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606) (2016-07-15)
+  - Code: [GitHub](https://github.com/facebookresearch/fastText)
+
 - MoE
   - Year: 2017
   - Publication: [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538) (2017-01-23)
@@ -939,6 +948,11 @@
   - Publication: [Blog - BLOOMChat: a New Open Multilingual Chat LLM](https://sambanova.ai/blog/introducing-bloomchat-176b-the-multilingual-chat-based-llm/) (2023-05-19)
   - Model weights: [HuggingFace models](https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1)
 
+- LLM-Pruner
+  - Year: 2023
+  - Publication: [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/abs/2305.11627) (2023-05-19)
+  - Code: [GitHub](https://github.com/horseee/LLM-Pruner)
+
 - RWKV-LM
   - Year: 2023
   - Publication: [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) (2023-05-22)
@@ -1177,12 +1191,6 @@
   - Publication: [Blog - Introducing Alfred-40B-0723](https://www.lighton.ai/blog/lighton-s-blog-4/introducing-alfred-40b-0723-38) (2023-07-31)
   - Model weights: [HuggingFace models](https://huggingface.co/lightonai/alfred-40b-0723)
 
-- Qwen-7B
-  - Year: 2023
-  - Publication: [README - Qwen-7B repository](https://github.com/QwenLM/Qwen-7B/blob/96d10ebc9c6c170d294f2014f1b6926c9e80c95b/README.md) (2023-08-03)
-  - Code: [GitHub](https://github.com/QwenLM/Qwen-7B)
-  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen-7B)
-
 - Baby-CoThought
   - Year: 2023
   - Publication: [Baby's CoThought: Leveraging Large Language Models for Enhanced Reasoning in Compact Models](https://arxiv.org/abs/2308.01684) (2023-08-03)
@@ -1409,6 +1417,12 @@
   - Code: [GitHub](https://github.com/mistralai/mistral-src)
   - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Mistral-7B-v0.1)
 
+- Qwen
+  - Year: 2023
+  - Publication: [Qwen Technical Report](https://arxiv.org/abs/2309.16609) (2023-09-28)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen-7B)
+
 - Nous-Hermes
   - Year: 2023
   - Publication: [Tweet: Nous-Hermes-13b fp16 weights have been released.](https://twitter.com/NousResearch/status/1664848823687028737) (2023-09-29)
@@ -1508,6 +1522,10 @@
 - VeRA
   - Year: 2023
   - Publication: [VeRA: Vector-based Random Matrix Adaptation](https://arxiv.org/abs/2310.11454) (2023-10-17)
+
+- BitNet
+  - Year: 2023
+  - Publication: [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453) (2023-10-17)
 
 - Monarch Mixer:
   - Year: 2023
@@ -1740,6 +1758,10 @@
   - Publication: [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/abs/2312.07104) (2023-12-12)
   - Code: [GitHub](https://github.com/sgl-project/sglang/)
 
+- LLM in a flash
+  - Year: 2023
+  - Publication: [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/abs/2312.11514) (2023-12-12)
+
 - SwitchHead
   - Year: 2023
   - Publication: [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987) (2023-12-13)
@@ -1774,6 +1796,12 @@
 - LLM Maybe LongLM
   - Year: 2024
   - Publication: [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://arxiv.org/abs/2401.01325) (2024-01-02)
+
+- SPIN
+  - Year: 2024
+  - Publication: [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) (2024-01-02)
+  - Code: [GitHub](https://github.com/uclaml/SPIN)
+  - Model weights: [HuggingFace models](https://huggingface.co/UCLA-AGI/zephyr-7b-sft-full-SPIN-iter0)
 
 - TinyLlama
   - Year: 2023
@@ -1908,6 +1936,11 @@
   - Publication: [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) (2024-01-26)
   - Code: [GitHub](https://github.com/microsoft/TransformerCompression)
 
+- SliceGPT
+  - Year: 2024
+  - Publication: [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) (2024-01-26)
+  - Code: [GitHub](https://github.com/microsoft/TransformerCompression)
+
 - Eagle 7B
   - Year: 2024
   - Publication: [Blog - Eagle 7B: Soaring past Transformers with 1 Trillion Tokens Across 100+ Languages](https://blog.rwkv.com/p/eagle-7b-soaring-past-transformers) (2024-01-29)
@@ -1923,6 +1956,11 @@
   - Publication: [KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079) (2024-01-31)
   - Code: [GitHub](https://github.com/SqueezeAILab/KVQuant/)
 
+- KVQuant
+  - Year: 2024
+  - Publication: [KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization](https://arxiv.org/abs/2401.18079) (2024-01-31)
+  - Code: [GitHub](https://github.com/SqueezeAILab/KVQuant/)
+
 - OLMo
   - Year: 2024
   - Publication: [OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838) (2024-02-01)
@@ -1931,6 +1969,80 @@
 
 - BlackMamba
   - Year: 2024
-  - Publication: [Blog - BlackMamba: Mixture of Experts for State-Space Models](https://static1.squarespace.com/static/658ded386c43c219ee47caba/t/65bd73200920d050ccbac40c/1706914594353/blackMamba.pdf) (2024-02-03)
+  - Publication: [Blog - BlackMamba: Mixture of Experts for State-Space Models](https://static1.squarespace.com/static/658ded386c43c219ee47caba/t/65bd73200920d050ccbac40c/1706914594353/blackMamba.pdf) (2024-02-01)
   - Code: [GitHub](https://github.com/Zyphra/BlackMamba)
   - Model weights: [HuggingFace models](https://huggingface.co/Zyphra/BlackMamba-1.5B)
+
+- Tiny Titans
+  - Year: 2024
+  - Publication: [Tiny Titans: Can Smaller Large Language Models Punch Above Their Weight in the Real World for Meeting Summarization?](https://arxiv.org/abs/2402.00841) (2024-02-01)
+
+- Smaug
+  - Year: 2024
+  - Publication: [HuggingFace model card - Smaug](https://huggingface.co/abacusai/Smaug-72B-v0.1) (2024-02-02)
+  - Model weights: [HuggingFace models](https://huggingface.co/abacusai/Smaug-72B-v0.1)
+
+- Nomic Embed
+  - Year: 2024
+  - Publication: [Nomic Embed: Training a Reproducible Long Context Text Embedder](https://arxiv.org/abs/2402.01613) (2024-02-02)
+  - Code: [GitHub](https://github.com/nomic-ai/contrastors)
+  - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/nomic-embed-text-v1)
+
+- Qwen 1.5
+  - Year: 2024
+  - Publication: [Blog - Introducing Qwen 1.5](https://qwenlm.github.io/blog/qwen1.5/) (2024-02-04)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen1.5-0.5B)
+
+- DeepSeekMath
+  - Year: 2024
+  - Publication: [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) (2024-02-05)
+  - Code: [GitHub](https://github.com/deepseek-ai/deepseek-math)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/deepseek-math-7b-base)
+
+- SQLCoder 2
+  - Year: 2024
+  - Publication: [HuggingFace model card - SQLCoder 2](https://huggingface.co/defog/sqlcoder-7b-2) (2024-02-05)
+  - Code: [GitHub](https://github.com/defog-ai/sqlcoder)
+  - Model weights: [HuggingFace models](https://huggingface.co/defog/sqlcoder-7b-2)
+
+- RethinkTinyLM
+  - Year: 2024
+  - Publication: [Rethinking Optimization and Architecture for Tiny Language Models](https://arxiv.org/abs/2402.02791) (2024-02-05)
+  - Code: [GitHub](https://github.com/YuchuanTian/RethinkTinyLM)
+
+- Self-Discover
+  - Year: 2024
+  - Publication: [Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620) (2024-02-06)
+
+- e5
+  - Year: 2024
+  - Publication: [Multilingual E5 Text Embeddings: A Technical Report](https://arxiv.org/abs/2402.05672) (2024-02-08)
+  - Code: [GitHub](https://github.com/microsoft/unilm/tree/master/e5)
+  - Model weights: [HuggingFace models](https://huggingface.co/intfloat/e5-small-v2)
+
+- InternLM-Math
+  - Year: 2024
+  - Publication: [InternLM-Math: Open Math Large Language Models Toward Verifiable Reasoning](https://arxiv.org/abs/2402.06332) (2024-02-09)
+  - Code: [GitHub](https://github.com/InternLM/InternLM-Math)
+  - Model weights: [HuggingFace models](https://huggingface.co/internlm/internlm2-math-7b)
+
+- DoRA
+  - Year: 2024
+  - Publication: [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/abs/2402.09353) (2024-02-14)
+
+- GritLM
+  - Year: 2024
+  - Publication: [Generative Representational Instruction Tuning](https://arxiv.org/abs/2402.09906) (2024-02-15)
+  - Code: [GitHub](https://github.com/ContextualAI/gritlm)
+  - Model weights: [HuggingFace models](https://huggingface.co/GritLM/GritLM-7B)
+
+- LoRA+
+  - Year: 2024
+  - Publication: [LoRA+: Efficient Low Rank Adaptation of Large Models](https://arxiv.org/abs/2402.12354) (2024-02-19)
+  - Code: [GitHub](https://github.com/nikhil-ghosh-berkeley/loraplus)
+
+- LongRoPE
+  - Year: 2024
+  - Publication: [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753) (2024-02-21)
+  - Code: [GitHub](https://github.com/microsoft/LongRoPE)
