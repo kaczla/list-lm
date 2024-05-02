@@ -6,11 +6,11 @@
 #
 annotated-types==0.6.0
     # via pydantic
-black==23.12.1
+black==24.4.2
     # via -r list_lm/requirements.in
-build==1.0.3
+build==1.2.1
     # via pip-tools
-certifi==2023.11.17
+certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -18,50 +18,52 @@ click==8.1.7
     # via
     #   black
     #   pip-tools
-idna==3.6
+idna==3.7
     # via requests
 isort==5.13.2
     # via -r list_lm/requirements.in
-lxml==4.9.4
+lxml==5.2.1
     # via -r list_lm/requirements.in
-mypy==1.8.0
+mypy==1.10.0
     # via -r list_lm/requirements.in
 mypy-extensions==1.0.0
     # via
     #   black
     #   mypy
-packaging==23.2
+packaging==24.0
     # via
     #   black
     #   build
 pathspec==0.12.1
     # via black
-pip-tools==7.3.0
+pip-tools==7.4.1
     # via -r list_lm/requirements.in
-platformdirs==4.1.0
+platformdirs==4.2.1
     # via black
-pydantic==2.5.3
+pydantic==2.7.1
     # via -r list_lm/requirements.in
-pydantic-core==2.14.6
+pydantic-core==2.18.2
     # via pydantic
-pyproject-hooks==1.0.0
-    # via build
+pyproject-hooks==1.1.0
+    # via
+    #   build
+    #   pip-tools
 requests==2.31.0
     # via -r list_lm/requirements.in
-ruff==0.1.11
+ruff==0.4.2
     # via -r list_lm/requirements.in
-types-requests==2.31.0.20240106
+types-requests==2.31.0.20240406
     # via -r list_lm/requirements.in
-typing-extensions==4.9.0
+typing-extensions==4.11.0
     # via
     #   mypy
     #   pydantic
     #   pydantic-core
-urllib3==2.1.0
+urllib3==2.2.1
     # via
     #   requests
     #   types-requests
-wheel==0.42.0
+wheel==0.43.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
