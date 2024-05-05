@@ -11,6 +11,7 @@
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [EasyLLM](https://github.com/philschmid/easyllm) - EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source.
 - [EasyLM](https://github.com/young-geng/EasyLM) - Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
+- [Expert Sparsity](https://github.com/lucky-lance/expert_sparsity) - Official Pytorch implementation of the expert pruning and dynamic skipping methods.
 - [ExtremeBERT](https://github.com/extreme-bert/extreme-bert) - ExtremeBERT is a toolkit that accelerates the pretraining of customized language models on customized datasets.
 - [FairScale](https://github.com/facebookresearch/fairscale) - FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.
 - [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.

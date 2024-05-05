@@ -4752,24 +4752,6 @@
         "weights": null
     },
     {
-        "name": "Yi",
-        "year": 2023,
-        "publication": {
-            "title": "README - Yi repository",
-            "url": "https://github.com/01-ai/Yi/blob/22ab4b5769cf6b8e46e0f6e9b133851b7e371ebb/README.md",
-            "date_create": "2023-11-02"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/01-ai/Yi"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/01-ai/Yi-34B"
-        }
-    },
-    {
         "name": "Simplified Transformers",
         "year": 2023,
         "publication": {
@@ -5451,6 +5433,24 @@
         }
     },
     {
+        "name": "LLaMA Pro",
+        "year": 2024,
+        "publication": {
+            "title": "LLaMA Pro: Progressive LLaMA with Block Expansion",
+            "url": "https://arxiv.org/abs/2401.02415",
+            "date_create": "2024-01-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/TencentARC/LLaMA-Pro"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/TencentARC/LLaMA-Pro-8B"
+        }
+    },
+    {
         "name": "Deepseek LLM",
         "year": 2023,
         "publication": {
@@ -5479,6 +5479,21 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "Genstruct",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Genstruct",
+            "url": "https://huggingface.co/NousResearch/Genstruct-7B",
+            "date_create": "2024-01-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Genstruct-7B"
+        }
     },
     {
         "name": "Activation Beacon",
@@ -6144,6 +6159,183 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LongRoPE"
         },
+        "weights": null
+    },
+    {
+        "name": "Gemma",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Gemma: Introducing new state-of-the-art open models",
+            "url": "https://blog.google/technology/developers/gemma-open-models/",
+            "date_create": "2024-02-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/gemma-7b"
+        }
+    },
+    {
+        "name": "MobileLLM",
+        "year": 2024,
+        "publication": {
+            "title": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+            "url": "https://arxiv.org/abs/2402.14905",
+            "date_create": "2024-02-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "MegaScale",
+        "year": 2024,
+        "publication": {
+            "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+            "url": "https://arxiv.org/abs/2402.15627",
+            "date_create": "2024-02-23"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Nemotron-4",
+        "year": 2024,
+        "publication": {
+            "title": "Nemotron-4 15B Technical Report",
+            "url": "https://arxiv.org/abs/2402.16819",
+            "date_create": "2024-02-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Mistral Pro",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Mistral Pro",
+            "url": "https://huggingface.co/TencentARC/Mistral_Pro_8B_v0.1",
+            "date_create": "2024-02-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/TencentARC/Mistral_Pro_8B_v0.1"
+        }
+    },
+    {
+        "name": "BitNet",
+        "year": 2024,
+        "publication": {
+            "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+            "url": "https://arxiv.org/abs/2402.17764",
+            "date_create": "2024-02-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Griffin",
+        "year": 2024,
+        "publication": {
+            "title": "Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models",
+            "url": "https://arxiv.org/abs/2402.19427",
+            "date_create": "2024-02-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "StarCoder-2",
+        "year": 2024,
+        "publication": {
+            "title": "StarCoder 2 and The Stack v2: The Next Generation",
+            "url": "https://arxiv.org/abs/2402.19173",
+            "date_create": "2024-02-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/starcoder2-15b"
+        }
+    },
+    {
+        "name": "Resonance RoPE",
+        "year": 2024,
+        "publication": {
+            "title": "Resonance RoPE: Improving Context Length Generalization of Large Language Models",
+            "url": "https://arxiv.org/abs/2403.00071",
+            "date_create": "2024-02-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sheryc/resonance_rope"
+        },
+        "weights": null
+    },
+    {
+        "name": "Claude 3",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing the next generation of Claude",
+            "url": "https://www.anthropic.com/news/claude-3-family",
+            "date_create": "2024-03-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Design2Code",
+        "year": 2024,
+        "publication": {
+            "title": "Design2Code: How Far Are We From Automating Front-End Engineering?",
+            "url": "https://arxiv.org/abs/2403.03163",
+            "date_create": "2024-03-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NoviScl/Design2Code"
+        },
+        "weights": null
+    },
+    {
+        "name": "Yi",
+        "year": 2024,
+        "publication": {
+            "title": "Yi: Open Foundation Models by 01.AI",
+            "url": "https://arxiv.org/abs/2403.04652",
+            "date_create": "2024-03-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/01-ai/Yi"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/01-ai/Yi-34B"
+        }
+    },
+    {
+        "name": "inflection-2.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Inflection-2.5: meet the world's best personal AI",
+            "url": "https://inflection.ai/inflection-2-5",
+            "date_create": "2024-03-07"
+        },
+        "video": null,
+        "code": null,
         "weights": null
     }
 ]

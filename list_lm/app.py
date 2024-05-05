@@ -172,13 +172,16 @@ class GUIApp:
         # Clear errors
         label_status.config(text="")
         lm_data = ModelInfo(**data_to_add)
-        self.show_lm_data_frame(lm_data)
+        is_duplicated = self.is_duplicated_model_name(lm_data.name)
+        self.show_lm_data_frame(lm_data, is_duplicated=is_duplicated)
 
-    def show_lm_data_frame(self, model_info: ModelInfo) -> None:
+    def show_lm_data_frame(self, model_info: ModelInfo, is_duplicated: bool = False) -> None:
         LOGGER.info(f"Adding language model: {model_info}")
         self.clear_main_frame()
 
         tk.Label(self.main_frame, text=model_info.name, font="bold").pack()
+        if is_duplicated:
+            tk.Label(self.main_frame, text="(DUPLICATED NAME)", foreground="red").pack()
         tk.Label(self.main_frame, text=f"Year: {model_info.year}").pack()
         for name, data in [
             ("Publication:", model_info.publication),
@@ -427,6 +430,15 @@ class GUIApp:
             return None
 
         return result
+
+    @staticmethod
+    def is_duplicated_model_name(model_name: str) -> bool:
+        if GUIApp.MODEL_DATA_PATH.exists():
+            model_names_set = {
+                model_info.name for model_info in load_base_model_list(GUIApp.MODEL_DATA_PATH, ModelInfo)
+            }
+            return model_name in model_names_set
+        return False
 
 
 def main() -> None:

@@ -497,6 +497,13 @@
         "manual_validated": false
     },
     {
+        "name": "Expert Sparsity",
+        "description": "Official Pytorch implementation of the expert pruning and dynamic skipping methods.",
+        "url": "https://github.com/lucky-lance/expert_sparsity",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "Explainpaper",
         "description": "Upload a paper, highlight confusing text, get an explanation.",
         "url": "https://www.explainpaper.com",

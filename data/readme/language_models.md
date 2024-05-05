@@ -1582,12 +1582,6 @@
   - Publication: [TopicGPT: A Prompt-based Topic Modeling Framework](https://arxiv.org/abs/2311.01449) (2023-11-02)
   - Code: [GitHub](https://github.com/chtmp223/topicGPT)
 
-- Yi
-  - Year: 2023
-  - Publication: [README - Yi repository](https://github.com/01-ai/Yi/blob/22ab4b5769cf6b8e46e0f6e9b133851b7e371ebb/README.md) (2023-11-02)
-  - Code: [GitHub](https://github.com/01-ai/Yi)
-  - Model weights: [HuggingFace models](https://huggingface.co/01-ai/Yi-34B)
-
 - Simplified Transformers
   - Year: 2023
   - Publication: [Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906) (2023-11-03)
@@ -1815,6 +1809,12 @@
   - Code: [GitHub](https://github.com/TencentARC/LLaMA-Pro)
   - Model weights: [HuggingFace models](https://huggingface.co/TencentARC/LLaMA-Pro-8B)
 
+- LLaMA Pro
+  - Year: 2024
+  - Publication: [LLaMA Pro: Progressive LLaMA with Block Expansion](https://arxiv.org/abs/2401.02415) (2024-01-04)
+  - Code: [GitHub](https://github.com/TencentARC/LLaMA-Pro)
+  - Model weights: [HuggingFace models](https://huggingface.co/TencentARC/LLaMA-Pro-8B)
+
 - Deepseek LLM
   - Year: 2023
   - Publication: [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954) (2024-01-05)
@@ -1824,6 +1824,11 @@
 - Infinite-LLM
   - Year: 2024
   - Publication: [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (2024-01-05)
+
+- Genstruct
+  - Year: 2024
+  - Publication: [HuggingFace model card - Genstruct](https://huggingface.co/NousResearch/Genstruct-7B) (2024-01-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Genstruct-7B)
 
 - Activation Beacon
   - Year: 2024
@@ -2046,3 +2051,62 @@
   - Year: 2024
   - Publication: [LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753) (2024-02-21)
   - Code: [GitHub](https://github.com/microsoft/LongRoPE)
+
+- Gemma
+  - Year: 2024
+  - Publication: [Blog - Gemma: Introducing new state-of-the-art open models](https://blog.google/technology/developers/gemma-open-models/) (2024-02-21)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/gemma-7b)
+
+- MobileLLM
+  - Year: 2024
+  - Publication: [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/abs/2402.14905) (2024-02-22)
+
+- MegaScale
+  - Year: 2024
+  - Publication: [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/abs/2402.15627) (2024-02-23)
+
+- Nemotron-4
+  - Year: 2024
+  - Publication: [Nemotron-4 15B Technical Report](https://arxiv.org/abs/2402.16819) (2024-02-26)
+
+- Mistral Pro
+  - Year: 2024
+  - Publication: [HuggingFace model card - Mistral Pro](https://huggingface.co/TencentARC/Mistral_Pro_8B_v0.1) (2024-02-27)
+  - Model weights: [HuggingFace models](https://huggingface.co/TencentARC/Mistral_Pro_8B_v0.1)
+
+- BitNet
+  - Year: 2024
+  - Publication: [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) (2024-02-27)
+
+- Griffin
+  - Year: 2024
+  - Publication: [Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models](https://arxiv.org/abs/2402.19427) (2024-02-29)
+
+- StarCoder-2
+  - Year: 2024
+  - Publication: [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173) (2024-02-29)
+  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoder2-15b)
+
+- Resonance RoPE
+  - Year: 2024
+  - Publication: [Resonance RoPE: Improving Context Length Generalization of Large Language Models](https://arxiv.org/abs/2403.00071) (2024-02-29)
+  - Code: [GitHub](https://github.com/sheryc/resonance_rope)
+
+- Claude 3
+  - Year: 2024
+  - Publication: [Blog - Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family) (2024-03-04)
+
+- Design2Code
+  - Year: 2024
+  - Publication: [Design2Code: How Far Are We From Automating Front-End Engineering?](https://arxiv.org/abs/2403.03163) (2024-03-05)
+  - Code: [GitHub](https://github.com/NoviScl/Design2Code)
+
+- Yi
+  - Year: 2024
+  - Publication: [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) (2024-03-07)
+  - Code: [GitHub](https://github.com/01-ai/Yi)
+  - Model weights: [HuggingFace models](https://huggingface.co/01-ai/Yi-34B)
+
+- inflection-2.5
+  - Year: 2024
+  - Publication: [Blog - Inflection-2.5: meet the world's best personal AI](https://inflection.ai/inflection-2-5) (2024-03-07)
