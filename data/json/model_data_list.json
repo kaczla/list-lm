@@ -5304,6 +5304,21 @@
         }
     },
     {
+        "name": "ZeroQuant",
+        "year": 2023,
+        "publication": {
+            "title": "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks",
+            "url": "https://arxiv.org/abs/2312.08583",
+            "date_create": "2023-12-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/DeepSpeed"
+        },
+        "weights": null
+    },
+    {
         "name": "PowerInfer",
         "year": 2023,
         "publication": {
@@ -5814,6 +5829,21 @@
         "weights": null
     },
     {
+        "name": "FP6-LLM",
+        "year": 2024,
+        "publication": {
+            "title": "FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design",
+            "url": "https://arxiv.org/abs/2401.14112",
+            "date_create": "2024-01-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/usyd-fsalab/fp6_llm"
+        },
+        "weights": null
+    },
+    {
         "name": "SliceGPT",
         "year": 2024,
         "publication": {
@@ -6309,6 +6339,33 @@
         "weights": null
     },
     {
+        "name": "SaulLM",
+        "year": 2024,
+        "publication": {
+            "title": "SaulLM-7B: A pioneering Large Language Model for Law",
+            "url": "https://arxiv.org/abs/2403.03883",
+            "date_create": "2024-03-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Equall/Saul-Base"
+        }
+    },
+    {
+        "name": "GaLore",
+        "year": 2024,
+        "publication": {
+            "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+            "url": "https://arxiv.org/abs/2403.03507",
+            "date_create": "2024-03-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "Yi",
         "year": 2024,
         "publication": {
@@ -6333,6 +6390,48 @@
             "title": "Blog - Inflection-2.5: meet the world's best personal AI",
             "url": "https://inflection.ai/inflection-2-5",
             "date_create": "2024-03-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "DeepSpeed-FP6",
+        "year": 2024,
+        "publication": {
+            "title": "README - DeepSpeed-FP6: The Power of FP6-Centric Serving for Large Language Models",
+            "url": "https://github.com/microsoft/DeepSpeed/blob/d86a68c3d407b4aebb2116cec6f351ea5e799c19/blogs/deepspeed-fp6/03-05-2024/README.md",
+            "date_create": "2024-03-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/DeepSpeed"
+        },
+        "weights": null
+    },
+    {
+        "name": "GEAR",
+        "year": 2024,
+        "publication": {
+            "title": "GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM",
+            "url": "https://arxiv.org/abs/2403.05527",
+            "date_create": "2024-03-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/opengear-project/GEAR"
+        },
+        "weights": null
+    },
+    {
+        "name": "Quiet-STaR",
+        "year": 2024,
+        "publication": {
+            "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+            "url": "https://arxiv.org/abs/2403.09629",
+            "date_create": "2024-03-14"
         },
         "video": null,
         "code": null,

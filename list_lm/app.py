@@ -15,11 +15,11 @@ from list_lm.data import (
     get_application_data_sort_key,
     get_model_info_sort_key,
 )
-from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.data_manager import DataManager
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import FILE_NAME_LINKS
-from list_lm.parse_lm_data import FILE_NAME_LM_DATA, FILE_NAME_LM_MARKDOWN
+from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
 
 LOGGER = logging.getLogger(__name__)
@@ -29,10 +29,8 @@ T = TypeVar("T")
 
 class GUIApp:
     DATA_JSON_PATH = Path("data/json")
-    DATA_README_PATH = Path("data/readme")
     LINKS_PATH = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
-    README_MODEL_DATA_PATH = DATA_README_PATH / f"{FILE_NAME_LM_MARKDOWN}.md"
 
     def __init__(self) -> None:
         self.main = tk.Tk()
@@ -40,6 +38,8 @@ class GUIApp:
         self.main.geometry("350x450+700+200")
         self.main_frame = tk.Frame()
         self.create_start_frame()
+        self.data_manager_links = DataManager(self.LINKS_PATH, ApplicationData, get_application_data_sort_key)
+        self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)
 
     def create_start_frame(self) -> None:
         self.clear_main_frame()
@@ -213,11 +213,7 @@ class GUIApp:
 
     def insert_lm_data(self, model_info: ModelInfo, label_status: tk.Label) -> None:
         LOGGER.info(f"Inserting language model: {model_info}")
-        model_data_list: list[ModelInfo] = []
-        if self.MODEL_DATA_PATH.exists():
-            model_data_list = load_base_model_list(self.MODEL_DATA_PATH, ModelInfo)
-        model_data_list.append(model_info)
-        save_base_model_list(self.MODEL_DATA_PATH, model_data_list, sort_fn=get_model_info_sort_key)
+        self.data_manager_models.add(model_info)
         LOGGER.info("Language model inserted")
         LOGGER.info("Converting README...")
         generate_lm_data()
@@ -338,17 +334,18 @@ class GUIApp:
         LOGGER.info(
             f"Inserting {application_data.link_type.value} ({application_data.link_type.name}): {application_data}"
         )
-        application_data_list: list[ApplicationData] = []
-        if self.LINKS_PATH.exists():
-            application_data_list = load_base_model_list(self.LINKS_PATH, ApplicationData)
-        application_data_list.append(application_data)
-        application_data_list.sort(key=get_application_data_sort_key)
-        save_base_model_list(self.LINKS_PATH, application_data_list)
+        self.data_manager_links.add(application_data)
         LOGGER.info("Link added")
         LOGGER.info("Converting README...")
-        generate_links_selected(application_data_list, application_data.link_type)
+        generate_links_selected(self.data_manager_links.get_data(), application_data.link_type)
         LOGGER.info("README converted")
         label_status.config(text=f"{application_data.name} added")
+
+    def is_duplicated_model_name(self, model_name: str) -> bool:
+        if GUIApp.MODEL_DATA_PATH.exists():
+            model_names_set = {model_info.name for model_info in self.data_manager_models.get_data()}
+            return model_name in model_names_set
+        return False
 
     @staticmethod
     def parse_publication_url(url: str, title: str, date_create: str, name: str) -> ArticleData | str:
@@ -430,15 +427,6 @@ class GUIApp:
             return None
 
         return result
-
-    @staticmethod
-    def is_duplicated_model_name(model_name: str) -> bool:
-        if GUIApp.MODEL_DATA_PATH.exists():
-            model_names_set = {
-                model_info.name for model_info in load_base_model_list(GUIApp.MODEL_DATA_PATH, ModelInfo)
-            }
-            return model_name in model_names_set
-        return False
 
 
 def main() -> None:

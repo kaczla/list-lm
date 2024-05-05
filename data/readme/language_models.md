@@ -1766,6 +1766,11 @@
   - Publication: [HuggingFace model card - Dolphin 2.5](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b) (2023-12-14)
   - Model weights: [HuggingFace models](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)
 
+- ZeroQuant
+  - Year: 2023
+  - Publication: [ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks](https://arxiv.org/abs/2312.08583) (2023-12-14)
+  - Code: [GitHub](https://github.com/microsoft/DeepSpeed)
+
 - PowerInfer
   - Year: 2023
   - Publication: [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://arxiv.org/abs/2312.12456) (2023-12-16)
@@ -1936,6 +1941,11 @@
   - Year: 2024
   - Publication: [SpacTor-T5: Pre-training T5 Models with Span Corruption and Replaced Token Detection](https://arxiv.org/abs/2401.13160) (2024-01-24)
 
+- FP6-LLM
+  - Year: 2024
+  - Publication: [FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design](https://arxiv.org/abs/2401.14112) (2024-01-25)
+  - Code: [GitHub](https://github.com/usyd-fsalab/fp6_llm)
+
 - SliceGPT
   - Year: 2024
   - Publication: [SliceGPT: Compress Large Language Models by Deleting Rows and Columns](https://arxiv.org/abs/2401.15024) (2024-01-26)
@@ -2101,6 +2111,15 @@
   - Publication: [Design2Code: How Far Are We From Automating Front-End Engineering?](https://arxiv.org/abs/2403.03163) (2024-03-05)
   - Code: [GitHub](https://github.com/NoviScl/Design2Code)
 
+- SaulLM
+  - Year: 2024
+  - Publication: [SaulLM-7B: A pioneering Large Language Model for Law](https://arxiv.org/abs/2403.03883) (2024-03-06)
+  - Model weights: [HuggingFace models](https://huggingface.co/Equall/Saul-Base)
+
+- GaLore
+  - Year: 2024
+  - Publication: [GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection](https://arxiv.org/abs/2403.03507) (2024-03-06)
+
 - Yi
   - Year: 2024
   - Publication: [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) (2024-03-07)
@@ -2110,3 +2129,17 @@
 - inflection-2.5
   - Year: 2024
   - Publication: [Blog - Inflection-2.5: meet the world's best personal AI](https://inflection.ai/inflection-2-5) (2024-03-07)
+
+- DeepSpeed-FP6
+  - Year: 2024
+  - Publication: [README - DeepSpeed-FP6: The Power of FP6-Centric Serving for Large Language Models](https://github.com/microsoft/DeepSpeed/blob/d86a68c3d407b4aebb2116cec6f351ea5e799c19/blogs/deepspeed-fp6/03-05-2024/README.md) (2024-03-08)
+  - Code: [GitHub](https://github.com/microsoft/DeepSpeed)
+
+- GEAR
+  - Year: 2024
+  - Publication: [GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM](https://arxiv.org/abs/2403.05527) (2024-03-08)
+  - Code: [GitHub](https://github.com/opengear-project/GEAR)
+
+- Quiet-STaR
+  - Year: 2024
+  - Publication: [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) (2024-03-14)

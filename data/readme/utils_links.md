@@ -85,6 +85,7 @@
 - [LoRAX](https://github.com/predibase/lorax) - LoRAX (LoRA eXchange) is a framework that allows users to serve thousands of fine-tuned models on a single GPU, dramatically reducing the cost of serving without compromising on throughput or latency.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
 - [LQ-LoRA](https://github.com/HanGuo97/lq-lora) - LQ-LoRA: Low-rank plus Quantized Matrix Decomposition for Efficient Language Model Finetuning
+- [luminal](https://github.com/jafioti/luminal) - Luminal is a deep learning library that uses composable compilers to achieve high performance.
 - [M3E](https://github.com/wangyingdong/m3e-base) - Moka Massive Mixed Embedding
 - [Macaw-LLM](https://github.com/lyuchenyang/Macaw-LLM) - Macaw-LLM is an exploratory endeavor that pioneers multi-modal language modeling by seamlessly combining image, video, audio, and text data, built upon the foundations of CLIP, Whisper, and LLaMA.
 - [Mamba-Chat](https://github.com/havenhq/mamba-chat) - Mamba-Chat is the first chat language model based on a state-space model architecture, not a transformer.
@@ -151,11 +152,11 @@
 - [Text Generation Inference (fork, free)](https://github.com/Preemo-Inc/text-generation-inference) - Text Generation Inference is a Rust, Python and gRPC server for text generation inference.
 - [TextBox](https://github.com/RUCAIBox/TextBox) - TextBox 2.0 is a text generation library with pre-trained language models.
 - [TextReducer](https://github.com/helliun/targetedSummarization) - TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.
-- [tinygrad](https://github.com/geohot/tinygrad) - tinygrad is an extremely simple deep-learning framework. It supports both inference and training.
-- [tinygrad](https://github.com/tinygrad/tinygrad) - tinygrad: For something between PyTorch and karpathy/micrograd.
+- [tinygrad](https://github.com/tinygrad/tinygrad) - tinygrad is an extremely simple deep-learning framework. It supports both inference and training.
 - [TorchBench](https://github.com/pytorch/benchmark) - TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.
 - [torchdistX](https://github.com/pytorch/torchdistx) - Torch Distributed Experimental
 - [torchegranate](https://github.com/jmschrei/torchegranate) - Fast, flexible and easy to use probabilistic modelling with PyTorch.
+- [torchtune](https://github.com/pytorch/torchtune) - torchtune is a PyTorch-native library for easily authoring, fine-tuning and experimenting with LLMs.
 - [Training BERT with Compute/Time (Academic) Budget](https://github.com/IntelLabs/academic-budget-bert) - Repository contains scripts for pre-training and finetuning BERT-like models with limited time and compute budget.
 - [transformer-deploy](https://github.com/ELS-RD/transformer-deploy) - Efficient, scalable and enterprise-grade CPU/GPU inference server for Hugging Face transformer models.
 - [tsai](https://github.com/timeseriesAI/tsai) - tsai is an open-source deep learning package built on top of Pytorch & fastai focused on state-of-the-art techniques for time series tasks like classification, regression, forecasting, imputation.

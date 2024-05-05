@@ -1001,6 +1001,13 @@
         "manual_validated": false
     },
     {
+        "name": "llm.c",
+        "description": "LLM training in simple, raw C/CUDA",
+        "url": "https://github.com/karpathy/llm.c",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "LLMLingua",
         "description": "LLMLingua utilizes a compact, well-trained language model (e.g., GPT2-small, LLaMA-7B) to identify and remove non-essential tokens in prompts",
         "url": "https://github.com/microsoft/LLMLingua",
@@ -1081,6 +1088,13 @@
         "name": "LQ-LoRA",
         "description": "LQ-LoRA: Low-rank plus Quantized Matrix Decomposition for Efficient Language Model Finetuning",
         "url": "https://github.com/HanGuo97/lq-lora",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "luminal",
+        "description": "Luminal is a deep learning library that uses composable compilers to achieve high performance.",
+        "url": "https://github.com/jafioti/luminal",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -2004,7 +2018,7 @@
     {
         "name": "tinygrad",
         "description": "tinygrad is an extremely simple deep-learning framework. It supports both inference and training.",
-        "url": "https://github.com/geohot/tinygrad",
+        "url": "https://github.com/tinygrad/tinygrad",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -2055,6 +2069,13 @@
         "description": "TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.",
         "url": "https://github.com/microsoft/torchscale",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "torchtune",
+        "description": "torchtune is a PyTorch-native library for easily authoring, fine-tuning and experimenting with LLMs.",
+        "url": "https://github.com/pytorch/torchtune",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {

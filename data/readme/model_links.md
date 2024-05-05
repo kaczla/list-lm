@@ -35,6 +35,7 @@
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) - Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) - llamafile lets you distribute and run LLMs with a single file.
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
+- [llm.c](https://github.com/karpathy/llm.c) - LLM training in simple, raw C/CUDA
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
 - [LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) - LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
