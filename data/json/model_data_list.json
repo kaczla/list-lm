@@ -4485,6 +4485,24 @@
         "weights": null
     },
     {
+        "name": "LoftQ",
+        "year": 2023,
+        "publication": {
+            "title": "LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models",
+            "url": "https://arxiv.org/abs/2310.08659",
+            "date_create": "2023-10-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/yxli2123/LoftQ"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LoftQ/Meta-Llama-3-8B-4bit-64rank"
+        }
+    },
+    {
         "name": "MiniGPT-v2",
         "year": 2023,
         "publication": {
@@ -6426,6 +6444,36 @@
         "weights": null
     },
     {
+        "name": "Command R",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Command R Fine-Tuning: Industry-Leading Performance at a Fraction of the Cost",
+            "url": "https://cohere.com/blog/commandr-fine-tuning",
+            "date_create": "2024-03-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://huggingface.co/CohereForAI/c4ai-command-r-v01"
+        },
+        "weights": null
+    },
+    {
+        "name": "ScatterMoE",
+        "year": 2024,
+        "publication": {
+            "title": "Scattered Mixture-of-Experts Implementation",
+            "url": "https://arxiv.org/abs/2403.08245",
+            "date_create": "2024-03-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/shawntan/scattermoe"
+        },
+        "weights": null
+    },
+    {
         "name": "Quiet-STaR",
         "year": 2024,
         "publication": {
@@ -6436,5 +6484,77 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "MM1",
+        "year": 2024,
+        "publication": {
+            "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+            "url": "https://arxiv.org/abs/2403.09611",
+            "date_create": "2024-03-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "GemMoE",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - GemMoE",
+            "url": "https://huggingface.co/Crystalcareai/GemMoE-Base-Random",
+            "date_create": "2024-03-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Command R+",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Command R+: A Scalable LLM Built for Business",
+            "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+            "date_create": "2024-04-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+        }
+    },
+    {
+        "name": "Arctic-Embed",
+        "year": 2024,
+        "publication": {
+            "title": "Arctic-Embed: Scalable, Efficient, and Accurate Text Embedding Models",
+            "url": "https://arxiv.org/abs/2405.05374",
+            "date_create": "2024-05-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Snowflake-Labs/arctic-embed"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
+        }
+    },
+    {
+        "name": "Codestral",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Codestral: Hello, World!",
+            "url": "https://mistral.ai/news/codestral",
+            "date_create": "2024-05-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Codestral-22B-v0.1"
+        }
     }
 ]

@@ -1722,6 +1722,13 @@
         "manual_validated": false
     },
     {
+        "name": "ScatterMoE",
+        "description": "Triton-based implementation of Sparse Mixture-of-Experts (SMoE) on GPUs.",
+        "url": "https://github.com/shawntan/scattermoe",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "Seahorse",
         "description": "Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.",
         "url": "https://github.com/google-research-datasets/seahorse",

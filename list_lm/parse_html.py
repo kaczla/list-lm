@@ -5,7 +5,7 @@ from pathlib import Path
 import requests
 from lxml import html
 
-from list_lm.data import ArticleData, CacheArticleData
+from list_lm.data import ArticleDataExtended, CacheArticleData
 from list_lm.data_utils import load_base_model, save_base_model
 
 LOGGER = logging.getLogger(__name__)
@@ -25,7 +25,7 @@ def get_html_string(url: str) -> str:
     return response.text
 
 
-def parse_arxiv(url: str, caching: bool = True) -> ArticleData:
+def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
     cache: CacheArticleData | None = None
     if caching and CACHE_FILE_ARXIV.exists():
         cache = load_base_model(CACHE_FILE_ARXIV, CacheArticleData)
@@ -38,7 +38,15 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleData:
     title = str(html_tree.xpath("//meta[@name='citation_title']/@content")[0]).strip()
     date_str = str(html_tree.xpath("//meta[@name='citation_date']/@content")[0]).strip()
     converted_date = datetime.strptime(date_str, "%Y/%m/%d").date()
-    parsed_data = ArticleData(title=title, url=url, date_create=converted_date)
+    abstract_str = str(html_tree.xpath("//meta[@name='citation_abstract']/@content")[0]).strip()
+    abstract_urls = list(map(str, html_tree.xpath("//div[@id='abs']/blockquote[contains(@class,'abstract')]/a/@href")))
+    parsed_data = ArticleDataExtended(
+        title=title,
+        url=url,
+        date_create=converted_date,
+        abstract=abstract_str,
+        article_urls=abstract_urls if abstract_urls else None,
+    )
     LOGGER.info(f"HTML content parsed: {parsed_data}")
 
     if caching:

@@ -1493,6 +1493,12 @@
   - Publication: [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) (2023-10-12)
   - Code: [GitHub](https://github.com/cpacker/MemGPT)
 
+- LoftQ
+  - Year: 2023
+  - Publication: [LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models](https://arxiv.org/abs/2310.08659) (2023-10-12)
+  - Code: [GitHub](https://github.com/yxli2123/LoftQ)
+  - Model weights: [HuggingFace models](https://huggingface.co/LoftQ/Meta-Llama-3-8B-4bit-64rank)
+
 - MiniGPT-v2
   - Year: 2023
   - Publication: [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478) (2023-10-14)
@@ -2140,6 +2146,40 @@
   - Publication: [GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM](https://arxiv.org/abs/2403.05527) (2024-03-08)
   - Code: [GitHub](https://github.com/opengear-project/GEAR)
 
+- Command R
+  - Year: 2024
+  - Publication: [Blog - Introducing Command R Fine-Tuning: Industry-Leading Performance at a Fraction of the Cost](https://cohere.com/blog/commandr-fine-tuning) (2024-03-09)
+  - Code: [GitHub](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
+
+- ScatterMoE
+  - Year: 2024
+  - Publication: [Scattered Mixture-of-Experts Implementation](https://arxiv.org/abs/2403.08245) (2024-03-13)
+  - Code: [GitHub](https://github.com/shawntan/scattermoe)
+
 - Quiet-STaR
   - Year: 2024
   - Publication: [Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629) (2024-03-14)
+
+- MM1
+  - Year: 2024
+  - Publication: [MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](https://arxiv.org/abs/2403.09611) (2024-03-14)
+
+- GemMoE
+  - Year: 2024
+  - Publication: [HuggingFace model card - GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) (2024-03-15)
+
+- Command R+
+  - Year: 2024
+  - Publication: [Blog - Introducing Command R+: A Scalable LLM Built for Business](https://cohere.com/blog/command-r-plus-microsoft-azure) (2024-04-04)
+  - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/c4ai-command-r-plus)
+
+- Arctic-Embed
+  - Year: 2024
+  - Publication: [Arctic-Embed: Scalable, Efficient, and Accurate Text Embedding Models](https://arxiv.org/abs/2405.05374) (2024-05-08)
+  - Code: [GitHub](https://github.com/Snowflake-Labs/arctic-embed)
+  - Model weights: [HuggingFace models](https://huggingface.co/Snowflake/snowflake-arctic-embed-xs)
+
+- Codestral
+  - Year: 2024
+  - Publication: [Blog - Codestral: Hello, World!](https://mistral.ai/news/codestral) (2024-05-29)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Codestral-22B-v0.1)

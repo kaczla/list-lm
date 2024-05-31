@@ -55,6 +55,18 @@ class ArticleData(UrlData):
         return super().to_markdown() + f" ({convert_date_to_string(self.date_create)})"
 
 
+class ArticleDataExtended(ArticleData):
+    abstract: str | None = None
+    article_urls: list[str] | None = None
+
+    def to_article_data(self) -> ArticleData:
+        return ArticleData(
+            title=self.title,
+            url=self.url,
+            date_create=self.date_create,
+        )
+
+
 class ModelInfo(BaseModel):
     name: str
     year: int
@@ -95,7 +107,7 @@ class ModelInfoDict(TypedDict):
 
 
 class CacheArticleData(BaseModel):
-    url_to_article_data: dict[str, ArticleData]
+    url_to_article_data: dict[str, ArticleDataExtended]
 
 
 def get_model_info_sort_key(data: ModelInfo) -> date:

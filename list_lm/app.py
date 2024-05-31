@@ -354,7 +354,7 @@ class GUIApp:
             if title and title != page_date.title:
                 LOGGER.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
 
-            return page_date
+            return page_date.to_article_data()
 
         elif not title:
             if "github.com" in url:
