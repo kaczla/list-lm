@@ -624,6 +624,21 @@
         "weights": null
     },
     {
+        "name": "DeLighT",
+        "year": 2020,
+        "publication": {
+            "title": "DeLighT: Deep and Light-weight Transformer",
+            "url": "https://arxiv.org/abs/2008.00623",
+            "date_create": "2020-08-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sacmehta/delight"
+        },
+        "weights": null
+    },
+    {
         "name": "DA-Transformer",
         "year": 2020,
         "publication": {
@@ -633,6 +648,21 @@
         },
         "video": null,
         "code": null,
+        "weights": null
+    },
+    {
+        "name": "CharacterBERT",
+        "year": 2020,
+        "publication": {
+            "title": "CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters",
+            "url": "https://arxiv.org/abs/2010.10392",
+            "date_create": "2020-10-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/helboukkouri/character-bert"
+        },
         "weights": null
     },
     {
@@ -2994,6 +3024,24 @@
         }
     },
     {
+        "name": "Backpacks",
+        "year": 2023,
+        "publication": {
+            "title": "Backpack Language Models",
+            "url": "https://arxiv.org/abs/2305.16765",
+            "date_create": "2023-05-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/john-hewitt/backpacks-flash-attn"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stanfordnlp/backpack-gpt2"
+        }
+    },
+    {
         "name": "MeZO",
         "year": 2023,
         "publication": {
@@ -4225,6 +4273,18 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/meta-math/MetaMath-7B-V1.0"
         }
+    },
+    {
+        "name": "DeepSpeed-Ulysses",
+        "year": 2023,
+        "publication": {
+            "title": "DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models",
+            "url": "https://arxiv.org/abs/2309.14509",
+            "date_create": "2023-09-25"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
     },
     {
         "name": "QA-LoRA",
@@ -6288,6 +6348,24 @@
         "weights": null
     },
     {
+        "name": "CLLMs (Consistency Large Language Models)",
+        "year": 2024,
+        "publication": {
+            "title": "CLLMs: Consistency Large Language Models",
+            "url": "https://arxiv.org/abs/2403.00835",
+            "date_create": "2024-02-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/hao-ai-lab/Consistency_LLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cllm/consistency-llm-7b-sharegpt48k"
+        }
+    },
+    {
         "name": "Griffin",
         "year": 2024,
         "publication": {
@@ -6459,6 +6537,36 @@
         "weights": null
     },
     {
+        "name": "ORPO",
+        "year": 2024,
+        "publication": {
+            "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+            "url": "https://arxiv.org/abs/2403.07691",
+            "date_create": "2024-03-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/xfactlab/orpo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/kaist-ai/mistral-orpo-alpha"
+        }
+    },
+    {
+        "name": "BTX (Branch-Train-MiX)",
+        "year": 2024,
+        "publication": {
+            "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+            "url": "https://arxiv.org/abs/2403.07816",
+            "date_create": "2024-03-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "ScatterMoE",
         "year": 2024,
         "publication": {
@@ -6498,6 +6606,30 @@
         "weights": null
     },
     {
+        "name": "BurstAttention",
+        "year": 2024,
+        "publication": {
+            "title": "BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences",
+            "url": "https://arxiv.org/abs/2403.09347",
+            "date_create": "2024-03-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "DMC (Dynamic Memory Compression)",
+        "year": 2024,
+        "publication": {
+            "title": "Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference",
+            "url": "https://arxiv.org/abs/2403.09636",
+            "date_create": "2024-03-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
         "name": "GemMoE",
         "year": 2024,
         "publication": {
@@ -6508,6 +6640,198 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "Agent-FLAN",
+        "year": 2024,
+        "publication": {
+            "title": "Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models",
+            "url": "https://arxiv.org/abs/2403.12881",
+            "date_create": "2024-03-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/InternLM/Agent-FLAN"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/internlm/Agent-FLAN-7b"
+        }
+    },
+    {
+        "name": "LLM2LLM",
+        "year": 2024,
+        "publication": {
+            "title": "LLM2LLM: Boosting LLMs with Novel Iterative Data Enhancement",
+            "url": "https://arxiv.org/abs/2403.15042",
+            "date_create": "2024-03-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SqueezeAILab/LLM2LLM"
+        },
+        "weights": null
+    },
+    {
+        "name": "FollowIR",
+        "year": 2024,
+        "publication": {
+            "title": "FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions",
+            "url": "https://arxiv.org/abs/2403.15246",
+            "date_create": "2024-03-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/orionw/FollowIR"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/jhu-clsp/FollowIR-7B"
+        }
+    },
+    {
+        "name": "InternLM2",
+        "year": 2024,
+        "publication": {
+            "title": "InternLM2 Technical Report",
+            "url": "https://arxiv.org/abs/2403.17297",
+            "date_create": "2024-03-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Jamba",
+        "year": 2024,
+        "publication": {
+            "title": "DiJiang: Efficient Large Language Models through Compact Kernelization",
+            "url": "https://arxiv.org/abs/2403.19928",
+            "date_create": "2024-03-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs/Jamba-v0.1"
+        }
+    },
+    {
+        "name": "Transformer-Lite",
+        "year": 2024,
+        "publication": {
+            "title": "Transformer-Lite: High-efficiency Deployment of Large Language Models on Mobile Phone GPUs",
+            "url": "https://arxiv.org/abs/2403.20041",
+            "date_create": "2024-03-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Gecko",
+        "year": 2024,
+        "publication": {
+            "title": "Gecko: Versatile Text Embeddings Distilled from Large Language Models",
+            "url": "https://arxiv.org/abs/2403.20327",
+            "date_create": "2024-03-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Aurora-M",
+        "year": 2024,
+        "publication": {
+            "title": "Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order",
+            "url": "https://arxiv.org/abs/2404.00399",
+            "date_create": "2024-03-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/aurora-m/aurora-m-base"
+        }
+    },
+    {
+        "name": "Poro",
+        "year": 2024,
+        "publication": {
+            "title": "Poro 34B and the Blessing of Multilinguality",
+            "url": "https://arxiv.org/abs/2404.01856",
+            "date_create": "2024-04-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LumiOpen/Poro-34B"
+        }
+    },
+    {
+        "name": "Mixture-of-Depths",
+        "year": 2024,
+        "publication": {
+            "title": "Mixture-of-Depths: Dynamically allocating compute in transformer-based language models",
+            "url": "https://arxiv.org/abs/2404.02258",
+            "date_create": "2024-04-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "LASP (Linear Attention Sequence Parallelism)",
+        "year": 2024,
+        "publication": {
+            "title": "Linear Attention Sequence Parallelism",
+            "url": "https://arxiv.org/abs/2404.02882",
+            "date_create": "2024-04-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenNLPLab/LASP"
+        },
+        "weights": null
+    },
+    {
+        "name": "ChatGLM-Math",
+        "year": 2024,
+        "publication": {
+            "title": "ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline",
+            "url": "https://arxiv.org/abs/2404.02893",
+            "date_create": "2024-04-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/ChatGLM-Math"
+        },
+        "weights": null
+    },
+    {
+        "name": "PiSSA",
+        "year": 2024,
+        "publication": {
+            "title": "PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models",
+            "url": "https://arxiv.org/abs/2404.02948",
+            "date_create": "2024-04-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/GraphPKU/PiSSA"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/fxmeng/PiSSA-Llama-3-8B-Instruct-r16"
+        }
     },
     {
         "name": "Command R+",
@@ -6522,6 +6846,108 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
+        }
+    },
+    {
+        "name": "ReFT (Representation Finetuning)",
+        "year": 2024,
+        "publication": {
+            "title": "ReFT: Representation Finetuning for Language Models",
+            "url": "https://arxiv.org/abs/2404.03592",
+            "date_create": "2024-04-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stanfordnlp/pyreft"
+        },
+        "weights": null
+    },
+    {
+        "name": "Megalodon",
+        "year": 2024,
+        "publication": {
+            "title": "Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length",
+            "url": "https://arxiv.org/abs/2404.08801",
+            "date_create": "2024-04-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/XuezheMax/megalodon"
+        },
+        "weights": null
+    },
+    {
+        "name": "TransformerFAM",
+        "year": 2024,
+        "publication": {
+            "title": "TransformerFAM: Feedback attention is working memory",
+            "url": "https://arxiv.org/abs/2404.09173",
+            "date_create": "2024-04-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Prepacking",
+        "year": 2024,
+        "publication": {
+            "title": "Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models",
+            "url": "https://arxiv.org/abs/2404.09529",
+            "date_create": "2024-04-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/siyan-zhao/prepacking"
+        },
+        "weights": null
+    },
+    {
+        "name": "decoupleQ",
+        "year": 2024,
+        "publication": {
+            "title": "decoupleQ: Towards 2-bit Post-Training Uniform Quantization via decoupling Parameters into Integer and Floating Points",
+            "url": "https://arxiv.org/abs/2404.12759",
+            "date_create": "2024-04-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bytedance/decoupleQ"
+        },
+        "weights": null
+    },
+    {
+        "name": "MoVA",
+        "year": 2024,
+        "publication": {
+            "title": "MoVA: Adapting Mixture of Vision Experts to Multimodal Context",
+            "url": "https://arxiv.org/abs/2404.13046",
+            "date_create": "2024-04-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/TempleX98/MoVA"
+        },
+        "weights": null
+    },
+    {
+        "name": "phi-3",
+        "year": 2024,
+        "publication": {
+            "title": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+            "url": "https://arxiv.org/abs/2404.14219",
+            "date_create": "2024-04-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct"
         }
     },
     {

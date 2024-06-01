@@ -206,9 +206,19 @@
   - Publication: [Rethinking Positional Encoding in Language Pre-training](https://arxiv.org/abs/2006.15595) (2020-06-28)
   - Code: [GitHub](https://github.com/guolinke/TUPE)
 
+- DeLighT
+  - Year: 2020
+  - Publication: [DeLighT: Deep and Light-weight Transformer](https://arxiv.org/abs/2008.00623) (2020-08-03)
+  - Code: [GitHub](https://github.com/sacmehta/delight)
+
 - DA-Transformer
   - Year: 2020
   - Publication: [DA-Transformer: Distance-aware Transformer](https://arxiv.org/abs/2010.06925) (2020-10-14)
+
+- CharacterBERT
+  - Year: 2020
+  - Publication: [CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters](https://arxiv.org/abs/2010.10392) (2020-10-20)
+  - Code: [GitHub](https://github.com/helboukkouri/character-bert)
 
 - Informer
   - Year: 2020
@@ -996,6 +1006,12 @@
   - Code: [GitHub](https://github.com/smallcloudai/refact/)
   - Model weights: [HuggingFace models](https://huggingface.co/smallcloudai/Refact-1_6B-fim)
 
+- Backpacks
+  - Year: 2023
+  - Publication: [Backpack Language Models](https://arxiv.org/abs/2305.16765) (2023-05-26)
+  - Code: [GitHub](https://github.com/john-hewitt/backpacks-flash-attn)
+  - Model weights: [HuggingFace models](https://huggingface.co/stanfordnlp/backpack-gpt2)
+
 - MeZO
   - Year: 2023
   - Publication: [Fine-Tuning Language Models with Just Forward Passes](https://arxiv.org/abs/2305.17333) (2023-05-27)
@@ -1406,6 +1422,10 @@
   - Publication: [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284) (2023-09-21)
   - Code: [GitHub](https://github.com/meta-math/MetaMath)
   - Model weights: [HuggingFace models](https://huggingface.co/meta-math/MetaMath-7B-V1.0)
+
+- DeepSpeed-Ulysses
+  - Year: 2023
+  - Publication: [DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models](https://arxiv.org/abs/2309.14509) (2023-09-25)
 
 - QA-LoRA
   - Year: 2023
@@ -2094,6 +2114,12 @@
   - Year: 2024
   - Publication: [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) (2024-02-27)
 
+- CLLMs (Consistency Large Language Models)
+  - Year: 2024
+  - Publication: [CLLMs: Consistency Large Language Models](https://arxiv.org/abs/2403.00835) (2024-02-28)
+  - Code: [GitHub](https://github.com/hao-ai-lab/Consistency_LLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/cllm/consistency-llm-7b-sharegpt48k)
+
 - Griffin
   - Year: 2024
   - Publication: [Griffin: Mixing Gated Linear Recurrences with Local Attention for Efficient Language Models](https://arxiv.org/abs/2402.19427) (2024-02-29)
@@ -2151,6 +2177,16 @@
   - Publication: [Blog - Introducing Command R Fine-Tuning: Industry-Leading Performance at a Fraction of the Cost](https://cohere.com/blog/commandr-fine-tuning) (2024-03-09)
   - Code: [GitHub](https://huggingface.co/CohereForAI/c4ai-command-r-v01)
 
+- ORPO
+  - Year: 2024
+  - Publication: [ORPO: Monolithic Preference Optimization without Reference Model](https://arxiv.org/abs/2403.07691) (2024-03-12)
+  - Code: [GitHub](https://github.com/xfactlab/orpo)
+  - Model weights: [HuggingFace models](https://huggingface.co/kaist-ai/mistral-orpo-alpha)
+
+- BTX (Branch-Train-MiX)
+  - Year: 2024
+  - Publication: [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/abs/2403.07816) (2024-03-12)
+
 - ScatterMoE
   - Year: 2024
   - Publication: [Scattered Mixture-of-Experts Implementation](https://arxiv.org/abs/2403.08245) (2024-03-13)
@@ -2164,14 +2200,120 @@
   - Year: 2024
   - Publication: [MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](https://arxiv.org/abs/2403.09611) (2024-03-14)
 
+- BurstAttention
+  - Year: 2024
+  - Publication: [BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences](https://arxiv.org/abs/2403.09347) (2024-03-14)
+
+- DMC (Dynamic Memory Compression)
+  - Year: 2024
+  - Publication: [Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference](https://arxiv.org/abs/2403.09636) (2024-03-14)
+
 - GemMoE
   - Year: 2024
   - Publication: [HuggingFace model card - GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) (2024-03-15)
+
+- Agent-FLAN
+  - Year: 2024
+  - Publication: [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881) (2024-03-19)
+  - Code: [GitHub](https://github.com/InternLM/Agent-FLAN)
+  - Model weights: [HuggingFace models](https://huggingface.co/internlm/Agent-FLAN-7b)
+
+- LLM2LLM
+  - Year: 2024
+  - Publication: [LLM2LLM: Boosting LLMs with Novel Iterative Data Enhancement](https://arxiv.org/abs/2403.15042) (2024-03-22)
+  - Code: [GitHub](https://github.com/SqueezeAILab/LLM2LLM)
+
+- FollowIR
+  - Year: 2024
+  - Publication: [FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions](https://arxiv.org/abs/2403.15246) (2024-03-22)
+  - Code: [GitHub](https://github.com/orionw/FollowIR)
+  - Model weights: [HuggingFace models](https://huggingface.co/jhu-clsp/FollowIR-7B)
+
+- InternLM2
+  - Year: 2024
+  - Publication: [InternLM2 Technical Report](https://arxiv.org/abs/2403.17297) (2024-03-26)
+
+- Jamba
+  - Year: 2024
+  - Publication: [DiJiang: Efficient Large Language Models through Compact Kernelization](https://arxiv.org/abs/2403.19928) (2024-03-29)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/Jamba-v0.1)
+
+- Transformer-Lite
+  - Year: 2024
+  - Publication: [Transformer-Lite: High-efficiency Deployment of Large Language Models on Mobile Phone GPUs](https://arxiv.org/abs/2403.20041) (2024-03-29)
+
+- Gecko
+  - Year: 2024
+  - Publication: [Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327) (2024-03-29)
+
+- Aurora-M
+  - Year: 2024
+  - Publication: [Aurora-M: The First Open Source Multilingual Language Model Red-teamed according to the U.S. Executive Order](https://arxiv.org/abs/2404.00399) (2024-03-30)
+  - Model weights: [HuggingFace models](https://huggingface.co/aurora-m/aurora-m-base)
+
+- Poro
+  - Year: 2024
+  - Publication: [Poro 34B and the Blessing of Multilinguality](https://arxiv.org/abs/2404.01856) (2024-04-02)
+  - Model weights: [HuggingFace models](https://huggingface.co/LumiOpen/Poro-34B)
+
+- Mixture-of-Depths
+  - Year: 2024
+  - Publication: [Mixture-of-Depths: Dynamically allocating compute in transformer-based language models](https://arxiv.org/abs/2404.02258) (2024-04-02)
+
+- LASP (Linear Attention Sequence Parallelism)
+  - Year: 2024
+  - Publication: [Linear Attention Sequence Parallelism](https://arxiv.org/abs/2404.02882) (2024-04-03)
+  - Code: [GitHub](https://github.com/OpenNLPLab/LASP)
+
+- ChatGLM-Math
+  - Year: 2024
+  - Publication: [ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline](https://arxiv.org/abs/2404.02893) (2024-04-03)
+  - Code: [GitHub](https://github.com/THUDM/ChatGLM-Math)
+
+- PiSSA
+  - Year: 2024
+  - Publication: [PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948) (2024-04-03)
+  - Code: [GitHub](https://github.com/GraphPKU/PiSSA)
+  - Model weights: [HuggingFace models](https://huggingface.co/fxmeng/PiSSA-Llama-3-8B-Instruct-r16)
 
 - Command R+
   - Year: 2024
   - Publication: [Blog - Introducing Command R+: A Scalable LLM Built for Business](https://cohere.com/blog/command-r-plus-microsoft-azure) (2024-04-04)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/c4ai-command-r-plus)
+
+- ReFT (Representation Finetuning)
+  - Year: 2024
+  - Publication: [ReFT: Representation Finetuning for Language Models](https://arxiv.org/abs/2404.03592) (2024-04-04)
+  - Code: [GitHub](https://github.com/stanfordnlp/pyreft)
+
+- Megalodon
+  - Year: 2024
+  - Publication: [Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length](https://arxiv.org/abs/2404.08801) (2024-04-12)
+  - Code: [GitHub](https://github.com/XuezheMax/megalodon)
+
+- TransformerFAM
+  - Year: 2024
+  - Publication: [TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173) (2024-04-14)
+
+- Prepacking
+  - Year: 2024
+  - Publication: [Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models](https://arxiv.org/abs/2404.09529) (2024-04-15)
+  - Code: [GitHub](https://github.com/siyan-zhao/prepacking)
+
+- decoupleQ
+  - Year: 2024
+  - Publication: [decoupleQ: Towards 2-bit Post-Training Uniform Quantization via decoupling Parameters into Integer and Floating Points](https://arxiv.org/abs/2404.12759) (2024-04-19)
+  - Code: [GitHub](https://github.com/bytedance/decoupleQ)
+
+- MoVA
+  - Year: 2024
+  - Publication: [MoVA: Adapting Mixture of Vision Experts to Multimodal Context](https://arxiv.org/abs/2404.13046) (2024-04-19)
+  - Code: [GitHub](https://github.com/TempleX98/MoVA)
+
+- phi-3
+  - Year: 2024
+  - Publication: [Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone](https://arxiv.org/abs/2404.14219) (2024-04-22)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)
 
 - Arctic-Embed
   - Year: 2024
