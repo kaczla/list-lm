@@ -6138,25 +6138,6 @@
         "manual_validated": false
     },
     {
-        "name": "Stable LM 2",
-        "year": 2024,
-        "publication": {
-            "title": "Blog - Introducing Stable LM 2 1.6B",
-            "url": "https://stability.ai/news/introducing-stable-lm-2",
-            "date_create": "2024-01-19"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/Stability-AI/StableLM"
-        },
-        "weights": {
-            "title": "Direct link",
-            "url": "https://stability.ai/news/introducing-stable-lm-2"
-        },
-        "manual_validated": false
-    },
-    {
         "name": "Imp",
         "year": 2024,
         "publication": {
@@ -6543,6 +6524,19 @@
             "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
             "url": "https://arxiv.org/abs/2402.09353",
             "date_create": "2024-02-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemini 1.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Our next-generation model: Gemini 1.5",
+            "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+            "date_create": "2024-02-15"
         },
         "video": null,
         "code": null,
@@ -8087,7 +8081,7 @@
             "url": "https://github.com/mcleish7/arithmetic"
         },
         "weights": null,
-        "manual_validated": false
+        "manual_validated": true
     },
     {
         "name": "Yuan 2.0-M32",
@@ -8154,6 +8148,19 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/m-a-p/neo_7b"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Gemini 1.5 Pro",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Gemini 1.5 Pro and 1.5 Flash GA, 1.5 Flash tuning support, higher rate limits, and more API updates",
+            "url": "https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/",
+            "date_create": "2024-05-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
         "manual_validated": false
     },
     {

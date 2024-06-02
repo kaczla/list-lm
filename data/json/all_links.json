@@ -49,6 +49,13 @@
         "manual_validated": false
     },
     {
+        "name": "attorch",
+        "description": "attorch is a subset of PyTorch's nn module, written purely in Python using OpenAI's Triton. Its goal is to be an easily hackable, self-contained, and readable collection of neural network modules whilst maintaining or improving upon the efficiency of PyTorch.",
+        "url": "https://github.com/BobMcDear/attorch",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AutoChain",
         "description": "AutoChain: Build lightweight, extensible, and testable LLM Agents",
         "url": "https://github.com/Forethought-Technologies/AutoChain",
@@ -115,6 +122,13 @@
         "name": "BiGS",
         "description": "This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.",
         "url": "https://github.com/jxiw/BiGS",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "BitBLAS",
+        "description": "BitBLAS is a library to support mixed-precision BLAS operations on GPUs",
+        "url": "https://github.com/microsoft/BitBLAS",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -217,6 +231,13 @@
         "manual_validated": false
     },
     {
+        "name": "ChunkLlama",
+        "description": "Dual chunk attention is a training-free and effective method for extending the context window of large language models (LLMs) to more than 8x times their original pre-training length",
+        "url": "https://github.com/HKUNLP/ChunkLlama",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "cleanlab",
         "description": "cleanlab automatically finds and fixes errors in any ML dataset",
         "url": "https://github.com/cleanlab/cleanlab",
@@ -263,6 +284,13 @@
         "description": "Comgra stands for \"computation graph analysis\" and it is a library for use with pytorch that makes it easier to inspect the internals of your neural networks.",
         "url": "https://github.com/FlorianDietz/comgra",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "CoreNet",
+        "description": "CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.",
+        "url": "https://github.com/apple/corenet",
+        "link_type": "Model links",
         "manual_validated": false
     },
     {
@@ -322,6 +350,13 @@
         "manual_validated": false
     },
     {
+        "name": "databonsai",
+        "description": "databonsai is a Python library that uses LLMs to perform data cleaning tasks.",
+        "url": "https://github.com/databonsai/databonsai",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "datasketch",
         "description": "datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.",
         "url": "https://github.com/ekzhu/datasketch",
@@ -332,6 +367,13 @@
         "name": "DataTrove",
         "description": "DataTrove is a library to process, filter and deduplicate text data at a very large scale. It provides a set of prebuilt commonly used processing blocks with a framework to easily add custom functionality.",
         "url": "https://github.com/huggingface/datatrove",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "decoupleQ",
+        "description": "decoupleQ: Towards 2-bit Post-Training Uniform Quantization via decoupling Parameters into Integer and Floating Points",
+        "url": "https://github.com/bytedance/decoupleQ",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -784,6 +826,13 @@
         "manual_validated": false
     },
     {
+        "name": "Instructor",
+        "description": "Instructor is a Python library that makes it a breeze to work with structured outputs from large language models (LLMs). Built on top of Pydantic, it provides a simple, transparent, and user-friendly API to manage validation, retries, and streaming responses.",
+        "url": "https://github.com/jxnl/instructor",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Intel Extension for Transformers",
         "description": "Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms",
         "url": "https://github.com/intel/intel-extension-for-transformers",
@@ -1169,6 +1218,13 @@
         "manual_validated": false
     },
     {
+        "name": "mergekit",
+        "description": "mergekit is a toolkit for merging pre-trained language models. mergekit uses an out-of-core approach to perform unreasonably elaborate merges in resource-constrained situations. Merges can be run entirely on CPU or accelerated with as little as 8 GB of VRAM.",
+        "url": "https://github.com/arcee-ai/mergekit",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "Merlin Dataloader",
         "description": "The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX",
         "url": "https://github.com/NVIDIA-Merlin/dataloader",
@@ -1211,6 +1267,27 @@
         "manual_validated": false
     },
     {
+        "name": "Mirage",
+        "description": "Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.",
+        "url": "https://github.com/mirage-project/mirage",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Transformer",
+        "description": "This repository contains minimal code to run our 7B model and to finetune it.",
+        "url": "https://github.com/mistralai-sf24/hackathon",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "mistral.rs",
+        "description": "https://github.com/EricLBuehler/mistral.rs",
+        "url": "https://github.com/EricLBuehler/mistral.rs",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Mixtral offloading",
         "description": "Run Mixtral-8x7B models in Colab or consumer desktops",
         "url": "https://github.com/dvmazur/mixtral-offloading",
@@ -1249,6 +1326,13 @@
         "name": "ModelScope",
         "description": "ModelScope is built upon the notion of “Model-as-a-Service” (MaaS). It seeks to bring together most advanced machine learning models from the AI community, and streamlines the process of leveraging AI models in real-world applications. The core ModelScope library open-sourced in this repository provides the interfaces and implementations that allow developers to perform model inference, training and evaluation.",
         "url": "https://github.com/modelscope/modelscope",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Modula",
+        "description": "Modula is a deep learning framework designed for graceful scaling. The user defines a compound module (i.e. neural network) in Modula by arbitrarily composing atom and bond modules (e.g. linear layers and nonlinearities). Modula then automatically normalizes weight updates in the modular norm corresponding to this compound. This leads to automatic learning rate transfer across width, depth and possibly other architectural dimensions.",
+        "url": "https://github.com/jxbz/modula",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1680,6 +1764,13 @@
         "manual_validated": false
     },
     {
+        "name": "QUICK",
+        "description": "QUICK, a collection of novel optimized CUDA kernels designed for faster inference of quantized Large Language Models (LLMs). QUICK addresses the shared memory write-back bank conflict issue in state-of-the-art mixed precision General Matrix Multiplication (GEMM) kernels.",
+        "url": "https://github.com/squeezebits/quick",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "RasaGPT",
         "description": "RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.",
         "url": "https://github.com/paulpierre/RasaGPT",
@@ -2093,6 +2184,13 @@
         "manual_validated": false
     },
     {
+        "name": "torchtitan",
+        "description": "torchtitan is a proof-of-concept for Large-scale LLM training using native PyTorch. It is (and will continue to be) a repo to showcase PyTorch's latest distributed training features in a clean, minimal codebase. torchtitan is complementary to and not a replacement for any of the great large-scale LLM training codebases such as Megatron, Megablocks, LLM Foundry, Deepspeed.",
+        "url": "https://github.com/pytorch/torchtitan",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "torchtune",
         "description": "torchtune is a PyTorch-native library for easily authoring, fine-tuning and experimenting with LLMs.",
         "url": "https://github.com/pytorch/torchtune",
@@ -2118,6 +2216,13 @@
         "description": "Explanation of Transformer architecture from the code.",
         "url": "https://nn.labml.ai/transformers/index.html",
         "link_type": "Documentation links",
+        "manual_validated": false
+    },
+    {
+        "name": "Transformer Debugger",
+        "description": "Transformer Debugger (TDB) is a tool developed by OpenAI's Superalignment team with the goal of supporting investigations into specific behaviors of small language models. The tool combines automated interpretability techniques with sparse autoencoders.",
+        "url": "https://github.com/openai/transformer-debugger",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {

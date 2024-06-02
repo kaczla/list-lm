@@ -1919,12 +1919,6 @@
   - Code: [GitHub](https://github.com/lqtrung1998/mwp_ReFT)
   - Model weights: [HuggingFace models](https://huggingface.co/lqtrung1998/Codellama-7b-hf-ReFT-GSM8k)
 
-- Stable LM 2
-  - Year: 2024
-  - Publication: [Blog - Introducing Stable LM 2 1.6B](https://stability.ai/news/introducing-stable-lm-2) (2024-01-19)
-  - Code: [GitHub](https://github.com/Stability-AI/StableLM)
-  - Model weights: [Direct link](https://stability.ai/news/introducing-stable-lm-2)
-
 - Imp
   - Year: 2024
   - Publication: [HuggingFace model card - Imp](https://huggingface.co/MILVLG/imp-v1-3b) (2024-01-24)
@@ -2047,6 +2041,10 @@
 - DoRA
   - Year: 2024
   - Publication: [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/abs/2402.09353) (2024-02-14)
+
+- Gemini 1.5
+  - Year: 2024
+  - Publication: [Blog - Our next-generation model: Gemini 1.5](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/) (2024-02-15)
 
 - GritLM
   - Year: 2024
@@ -2549,6 +2547,10 @@
   - Publication: [MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series](https://arxiv.org/abs/2405.19327) (2024-05-29)
   - Code: [GitHub](https://github.com/multimodal-art-projection/MAP-NEO)
   - Model weights: [HuggingFace models](https://huggingface.co/m-a-p/neo_7b)
+
+- Gemini 1.5 Pro
+  - Year: 2024
+  - Publication: [Blog - Gemini 1.5 Pro and 1.5 Flash GA, 1.5 Flash tuning support, higher rate limits, and more API updates](https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/) (2024-05-30)
 
 - CodeQwen1.5
   - Year: 2024

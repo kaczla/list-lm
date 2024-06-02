@@ -98,8 +98,10 @@ class GUIApp:
             text_model_weights.insert(1.0, model_info.weights.url)
         text_model_weights.pack(padx=5)
 
+        frame_buttons = tk.Frame(self.main_frame)
+        frame_buttons.pack()
         button_add_lm = tk.Button(
-            self.main_frame,
+            frame_buttons,
             text="Add",
             command=lambda: self.add_lm(
                 name=text_name.get(1.0, "end-1c"),
@@ -111,9 +113,9 @@ class GUIApp:
                 label_status=label_status,
             ),
         )
-        button_add_lm.pack()
-        button_menu = tk.Button(self.main_frame, text="Menu", command=self.create_start_frame)
-        button_menu.pack()
+        button_add_lm.pack(side=tk.LEFT)
+        button_menu = tk.Button(frame_buttons, text="Menu", command=self.create_start_frame)
+        button_menu.pack(side=tk.LEFT)
 
         label_status = tk.Label(self.main_frame, text="")
         label_status.pack()
@@ -202,13 +204,17 @@ class GUIApp:
 
         label_status = tk.Label(self.main_frame, text="")
 
+        frame_buttons_1 = tk.Frame(self.main_frame)
+        frame_buttons_1.pack()
         button_add_lm = tk.Button(
-            self.main_frame, text="Add", command=lambda: self.insert_lm_data(model_info, label_status)
+            frame_buttons_1, text="Add", command=lambda: self.insert_lm_data(model_info, label_status)
         )
-        button_add_lm.pack()
-        tk.Button(self.main_frame, text="Edit", command=lambda: self.create_lm_frame(model_info=model_info)).pack()
-        tk.Button(self.main_frame, text="New", command=self.create_lm_frame).pack()
-        tk.Button(self.main_frame, text="Menu", command=self.create_start_frame).pack()
+        button_add_lm.pack(side=tk.LEFT)
+        tk.Button(frame_buttons_1, text="Edit", command=lambda: self.create_lm_frame(model_info=model_info)).pack()
+        frame_buttons_2 = tk.Frame(self.main_frame)
+        frame_buttons_2.pack()
+        tk.Button(frame_buttons_2, text="New", command=self.create_lm_frame).pack(side=tk.LEFT)
+        tk.Button(frame_buttons_2, text="Menu", command=self.create_start_frame).pack(side=tk.LEFT)
 
         # Add status label at the end
         label_status.pack()
@@ -256,8 +262,10 @@ class GUIApp:
             text_app_url.insert(1.0, application_data.url)
         text_app_url.pack(padx=5)
 
+        frame_buttons = tk.Frame(self.main_frame)
+        frame_buttons.pack()
         button_add_lm = tk.Button(
-            self.main_frame,
+            frame_buttons,
             text="Add",
             command=lambda: self.add_link(
                 name=text_app_name.get(1.0, "end-1c"),
@@ -267,9 +275,9 @@ class GUIApp:
                 label_status=label_status,
             ),
         )
-        button_add_lm.pack()
-        button_menu = tk.Button(self.main_frame, text="Menu", command=self.create_start_frame)
-        button_menu.pack()
+        button_add_lm.pack(side=tk.LEFT)
+        button_menu = tk.Button(frame_buttons, text="Menu", command=self.create_start_frame)
+        button_menu.pack(side=tk.LEFT)
 
         label_status = tk.Label(self.main_frame, text="")
         label_status.pack()
@@ -315,18 +323,22 @@ class GUIApp:
         tk.Label(self.main_frame, text="URL:", font="bold").pack()
         tk.Label(self.main_frame, text=application_data.url).pack()
 
+        frame_buttons_1 = tk.Frame(self.main_frame)
+        frame_buttons_1.pack()
         tk.Button(
-            self.main_frame,
+            frame_buttons_1,
             text="Add",
             command=lambda: self.insert_link_frame(application_data, label_status),
-        ).pack()
+        ).pack(side=tk.LEFT)
         tk.Button(
-            self.main_frame,
+            frame_buttons_1,
             text="Edit",
             command=lambda: self.create_link_frame(application_data=application_data),
-        ).pack()
-        tk.Button(self.main_frame, text="New", command=self.create_link_frame).pack()
-        tk.Button(self.main_frame, text="Menu", command=self.create_start_frame).pack()
+        ).pack(side=tk.LEFT)
+        frame_buttons_2 = tk.Frame(self.main_frame)
+        frame_buttons_2.pack()
+        tk.Button(frame_buttons_2, text="New", command=self.create_link_frame).pack(side=tk.LEFT)
+        tk.Button(frame_buttons_2, text="Menu", command=self.create_start_frame).pack(side=tk.LEFT)
 
         # Add status label at the end
         label_status = tk.Label(self.main_frame, text="")

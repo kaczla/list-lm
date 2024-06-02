@@ -6,6 +6,7 @@
 - [CodeT5 and CodeT5+](https://github.com/salesforce/CodeT5) - Official research release for CodeT5 and CodeT5+ models for Code Understanding and Generation from Salesforce Research/
 - [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
+- [CoreNet](https://github.com/apple/corenet) - CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.
 - [deepseek-LLM](https://github.com/deepseek-ai/deepseek-LLM) - DeepSeek LLM: Let there be answers
 - [DeepSpeed Model Implementations for Inference](https://github.com/microsoft/DeepSpeed-MII) - DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
@@ -42,6 +43,7 @@
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [MegaBlocks](https://github.com/stanford-futuredata/megablocks) - MegaBlocks is a light-weight library for mixture-of-experts (MoE) training.
+- [mergekit](https://github.com/arcee-ai/mergekit) - mergekit is a toolkit for merging pre-trained language models. mergekit uses an out-of-core approach to perform unreasonably elaborate merges in resource-constrained situations. Merges can be run entirely on CPU or accelerated with as little as 8 GB of VRAM.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [ModuleFormer](https://github.com/IBM/ModuleFormer) - ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.
@@ -80,6 +82,7 @@
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) - TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.
 - [TigerLab](https://github.com/tigerlab-ai/tiger) - Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.
 - [TorchScale](https://github.com/microsoft/torchscale) - TorchScale is a PyTorch library that allows researchers and developers to scale up Transformers efficiently and effectively. It has the implementation of fundamental research to improve modeling generality and capability, as well as training stability and efficiency of scaling Transformers.
+- [torchtitan](https://github.com/pytorch/torchtitan) - torchtitan is a proof-of-concept for Large-scale LLM training using native PyTorch. It is (and will continue to be) a repo to showcase PyTorch's latest distributed training features in a clean, minimal codebase. torchtitan is complementary to and not a replacement for any of the great large-scale LLM training codebases such as Megatron, Megablocks, LLM Foundry, Deepspeed.
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
 - [transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
 - [Tricksy](https://github.com/austinsilveria/tricksy) - Fast approximate inference on a single GPU with sparsity aware offloading
