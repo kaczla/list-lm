@@ -234,7 +234,7 @@
   - Year: 2020
   - Publication: [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) (2020-12-29)
 
-- MiniLM v2
+- MiniLMv2
   - Year: 2020
   - Publication: [MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers](https://arxiv.org/abs/2012.15828) (2020-12-31)
 
@@ -281,7 +281,7 @@
   - Publication: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021-04-09)
   - Code: [GitHub](https://github.com/NVIDIA/Megatron-LM)
 
-- 24hBERT
+- 24hBERT / Academic Budget BERT
   - Year: 2021
   - Publication: [How to Train BERT with an Academic Budget](https://arxiv.org/abs/2104.07705) (2021-04-15)
   - Code: [GitHub](https://github.com/IntelLabs/academic-budget-bert)
@@ -411,7 +411,7 @@
   - Year: 2022
   - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990) (2022-01-28)
 
-- Memorizing Transformers, MemTRM
+- MemTRM (Memorizing Transformers)
   - Year: 2022
   - Publication: [Memorizing Transformers](https://arxiv.org/abs/2203.08913) (2022-03-16)
 
@@ -522,7 +522,7 @@
   - Year: 2022
   - Publication: [OLLA: Optimizing the Lifetime and Location of Arrays to Reduce the Memory Usage of Neural Networks](https://arxiv.org/abs/2210.12924) (2022-10-24)
 
-- BLOOMZ & mT0
+- BLOOMZ / mT0
   - Year: 2022
   - Publication: [Crosslingual Generalization through Multitask Finetuning](https://arxiv.org/abs/2211.01786) (2022-11-03)
   - Model weights: [HuggingFace models](https://huggingface.co/bigscience/bloomz)
@@ -709,7 +709,7 @@
 
 - CodeGeeX2
   - Year: 2023
-  - Publication: [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/abs/2303.17568) (2023-03-30)
+  - Publication: [README - CodeGeeX2 repository](https://github.com/THUDM/CodeGeeX2/blob/2812282082f0be535235214e379119a69e865415/README_EN.md) (2023-03-30)
   - Code: [GitHub](https://github.com/THUDM/CodeGeeX2)
   - Model weights: [HuggingFace models](https://huggingface.co/THUDM/codegeex2-6b)
 
@@ -856,18 +856,6 @@
   - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) (2023-05-05)
   - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
   - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b)
-
-- MPT-7B-Chat
-  - Year: 2023
-  - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) (2023-05-05)
-  - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
-  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b-chat)
-
-- MPT-7B-Instruct
-  - Year: 2023
-  - Publication: [Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) (2023-05-05)
-  - Code: [GitHub](https://github.com/mosaicml/llm-foundry)
-  - Model weights: [HuggingFace models](https://huggingface.co/mosaicml/mpt-7b-instruct)
 
 - Otter
   - Year: 2023
@@ -1212,15 +1200,20 @@
 
 - OctoCoder
   - Year: 2023
-  - Publication: [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124) (2023-08-14)
+  - Publication: [HuggingFace model card - OctoCoder](https://huggingface.co/bigcode/octocoder) (2023-08-14)
   - Code: [GitHub](https://github.com/bigcode-project/octopack)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/octocoder)
 
 - OctoGeeX
   - Year: 2023
-  - Publication: [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124) (2023-08-14)
+  - Publication: [HuggingFace model card - OctoGeeX](https://huggingface.co/bigcode/octogeex) (2023-08-14)
   - Code: [GitHub](https://github.com/bigcode-project/octopack)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/octogeex)
+
+- OctoPack
+  - Year: 2023
+  - Publication: [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124) (2023-08-14)
+  - Code: [GitHub](https://github.com/bigcode-project/octopack)
 
 - Aquila
   - Year: 2023
@@ -1748,13 +1741,19 @@
 
 - Amber
   - Year: 2023
-  - Publication: [LLM360: Towards Fully Transparent Open-Source LLMs](https://arxiv.org/abs/2312.06550) (2023-12-11)
+  - Publication: [HuggingFace model card - Amber](https://huggingface.co/LLM360/Amber) (2023-12-11)
+  - Code: [HuggingFace models](https://github.com/LLM360/amber-train)
   - Model weights: [HuggingFace models](https://huggingface.co/LLM360/Amber)
 
 - CrystalCoder
   - Year: 2023
-  - Publication: [LLM360: Towards Fully Transparent Open-Source LLMs](https://arxiv.org/abs/2312.06550) (2023-12-11)
+  - Publication: [HuggingFace model card - CrystalCoder](https://huggingface.co/LLM360/CrystalCoder) (2023-12-11)
+  - Code: [HuggingFace models](https://github.com/LLM360/crystalcoder-train)
   - Model weights: [HuggingFace models](https://huggingface.co/LLM360/CrystalCoder)
+
+- LLM360
+  - Year: 2023
+  - Publication: [LLM360: Towards Fully Transparent Open-Source LLMs](https://arxiv.org/abs/2312.06550) (2023-12-11)
 
 - LLM in a flash
   - Year: 2023
@@ -2312,6 +2311,12 @@
   - Year: 2024
   - Publication: [Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models](https://arxiv.org/abs/2404.09529) (2024-04-15)
   - Code: [GitHub](https://github.com/siyan-zhao/prepacking)
+
+- K2
+  - Year: 2024
+  - Publication: [Direct link - LLM360 K2-65B: Scaling Up Fully Transparent Open-Source LLMs](https://www.llm360.ai/paper2.pdf) (2024-04-17)
+  - Code: [GitHub](https://github.com/LLM360/k2-train)
+  - Model weights: [HuggingFace models](https://huggingface.co/LLM360/K2)
 
 - Mixtral 8x22B
   - Year: 2024

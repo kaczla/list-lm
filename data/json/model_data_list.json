@@ -2748,44 +2748,6 @@
         "manual_validated": false
     },
     {
-        "name": "MPT-7B-Chat",
-        "year": 2023,
-        "publication": {
-            "title": "Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
-            "url": "https://www.mosaicml.com/blog/mpt-7b",
-            "date_create": "2023-05-05"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/mosaicml/llm-foundry"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/mosaicml/mpt-7b-chat"
-        },
-        "manual_validated": false
-    },
-    {
-        "name": "MPT-7B-Instruct",
-        "year": 2023,
-        "publication": {
-            "title": "Blog - Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs",
-            "url": "https://www.mosaicml.com/blog/mpt-7b",
-            "date_create": "2023-05-05"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/mosaicml/llm-foundry"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/mosaicml/mpt-7b-instruct"
-        },
-        "manual_validated": false
-    },
-    {
         "name": "Otter",
         "year": 2023,
         "publication": {
@@ -3877,8 +3839,8 @@
         "name": "OctoCoder",
         "year": 2023,
         "publication": {
-            "title": "OctoPack: Instruction Tuning Code Large Language Models",
-            "url": "https://arxiv.org/abs/2308.07124",
+            "title": "HuggingFace model card - OctoCoder",
+            "url": "https://huggingface.co/bigcode/octocoder",
             "date_create": "2023-08-14"
         },
         "video": null,
@@ -3896,8 +3858,8 @@
         "name": "OctoGeeX",
         "year": 2023,
         "publication": {
-            "title": "OctoPack: Instruction Tuning Code Large Language Models",
-            "url": "https://arxiv.org/abs/2308.07124",
+            "title": "HuggingFace model card - OctoGeeX",
+            "url": "https://huggingface.co/bigcode/octogeex",
             "date_create": "2023-08-14"
         },
         "video": null,
@@ -3909,6 +3871,22 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/octogeex"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "OctoPack",
+        "year": 2023,
+        "publication": {
+            "title": "OctoPack: Instruction Tuning Code Large Language Models",
+            "url": "https://arxiv.org/abs/2308.07124",
+            "date_create": "2023-08-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/octopack"
+        },
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -5588,12 +5566,15 @@
         "name": "Amber",
         "year": 2023,
         "publication": {
-            "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
-            "url": "https://arxiv.org/abs/2312.06550",
+            "title": "HuggingFace model card - Amber",
+            "url": "https://huggingface.co/LLM360/Amber",
             "date_create": "2023-12-11"
         },
         "video": null,
-        "code": null,
+        "code": {
+            "title": "HuggingFace models",
+            "url": "https://github.com/LLM360/amber-train"
+        },
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/LLM360/Amber"
@@ -5604,16 +5585,32 @@
         "name": "CrystalCoder",
         "year": 2023,
         "publication": {
+            "title": "HuggingFace model card - CrystalCoder",
+            "url": "https://huggingface.co/LLM360/CrystalCoder",
+            "date_create": "2023-12-11"
+        },
+        "video": null,
+        "code": {
+            "title": "HuggingFace models",
+            "url": "https://github.com/LLM360/crystalcoder-train"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LLM360/CrystalCoder"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "LLM360",
+        "year": 2023,
+        "publication": {
             "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
             "url": "https://arxiv.org/abs/2312.06550",
             "date_create": "2023-12-11"
         },
         "video": null,
         "code": null,
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/LLM360/CrystalCoder"
-        },
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -7397,6 +7394,25 @@
             "url": "https://github.com/siyan-zhao/prepacking"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "K2",
+        "year": 2024,
+        "publication": {
+            "title": "Direct link - LLM360 K2-65B: Scaling Up Fully Transparent Open-Source LLMs",
+            "url": "https://www.llm360.ai/paper2.pdf",
+            "date_create": "2024-04-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/LLM360/k2-train"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LLM360/K2"
+        },
         "manual_validated": false
     },
     {

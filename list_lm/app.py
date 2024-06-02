@@ -385,6 +385,12 @@ class GUIApp:
                 title = prefix + title
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
 
+        # Check suffixes
+        for suffix in [".pdf"]:
+            if url.endswith(suffix):
+                title = "Direct link - " + title
+                return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
+
         # Check other domains to not add prefix "Blog"
         for url_domain in ["dl.acm.org"]:
             if url_domain in url:

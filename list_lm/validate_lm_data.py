@@ -12,11 +12,14 @@ LOGGER = logging.getLogger(__name__)
 def validate_lm_data(path: Path, check_model_names: bool) -> None:
     model_info_list = load_base_model_list(path, ModelInfo)
     model_name_to_model_info: dict[str, ModelInfo] = {}
+    title_to_model_info: dict[str, ModelInfo] = {}
+    url_to_model_info: dict[str, ModelInfo] = {}
 
     errors = []
     changed = False
     model_info: ModelInfo
 
+    # Check if model name is present in the title or abstract of publication
     if check_model_names:
         for model_info in model_info_list:
             if model_info.manual_validated:
@@ -52,11 +55,24 @@ def validate_lm_data(path: Path, check_model_names: bool) -> None:
 
     for index, model_info in enumerate(model_info_list):
         LOGGER.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
-        if model_info.name in model_name_to_model_info:
-            error_msg = f"Duplicated model name - {model_info.name}"
-            errors.append(error_msg)
+        model_name = model_info.name
+        if model_name in model_name_to_model_info:
+            errors.append(f"Duplicated model name - {model_name}")
         else:
-            model_name_to_model_info[model_info.name] = model_info
+            model_name_to_model_info[model_name] = model_info
+
+        title = model_info.publication.title
+        if title in title_to_model_info:
+            errors.append(f"Duplicated publication title {title!r} for: {model_name}")
+        else:
+            title_to_model_info[title] = model_info
+
+        url = model_info.publication.url
+        if url in url_to_model_info:
+            errors.append(f"Duplicated publication URL {url} for: {model_name}")
+        else:
+            url_to_model_info[url] = model_info
+
         # Here can be a logic for fixing issues in data
 
     if errors:
