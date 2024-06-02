@@ -115,8 +115,8 @@ class CacheArticleData(BaseModel):
     url_to_article_data: dict[str, ArticleDataExtended]
 
 
-def get_model_info_sort_key(data: ModelInfo) -> date:
-    return data.publication.date_create
+def get_model_info_sort_key(data: ModelInfo) -> tuple[date, str]:
+    return data.publication.date_create, data.name.lower()
 
 
 def get_application_data_sort_key(data: ApplicationData) -> str:
