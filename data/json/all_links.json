@@ -1617,6 +1617,13 @@
         "manual_validated": false
     },
     {
+        "name": "Prometheus-Eval",
+        "description": "A repository for evaluating LLMs in generation tasks.",
+        "url": "https://github.com/prometheus-eval/prometheus-eval",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "PromptBench",
         "description": "PromptBench: A Unified Library for Evaluating and Understanding Large Language Models.",
         "url": "https://github.com/microsoft/promptbench",

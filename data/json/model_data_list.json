@@ -4921,6 +4921,25 @@
         "manual_validated": false
     },
     {
+        "name": "UltraLM 2.0",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - UltraLM 2.0",
+            "url": "https://huggingface.co/openbmb/UltraLM-13b-v2.0",
+            "date_create": "2023-10-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/thunlp/UltraChat"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openbmb/UltraLM-13b-v2.0"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Obsidian",
         "year": 2023,
         "publication": {
@@ -5036,6 +5055,22 @@
             "url": "https://github.com/punica-ai/punica"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "OpenChat 3.5",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - OpenChat 3.5",
+            "url": "https://huggingface.co/openchat/openchat_3.5",
+            "date_create": "2023-10-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openchat/openchat_3.5"
+        },
         "manual_validated": false
     },
     {
@@ -6650,6 +6685,25 @@
         "manual_validated": false
     },
     {
+        "name": "Stable LM 2",
+        "year": 2024,
+        "publication": {
+            "title": "Stable LM 2 1.6B Technical Report",
+            "url": "https://arxiv.org/abs/2402.17834",
+            "date_create": "2024-02-27"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Stability-AI/StableLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stabilityai/stablelm-2-1_6b"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "CLLMs (Consistency Large Language Models)",
         "year": 2024,
         "publication": {
@@ -6844,11 +6898,11 @@
             "date_create": "2024-03-09"
         },
         "video": null,
-        "code": {
-            "title": "GitHub",
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/c4ai-command-r-v01"
         },
-        "weights": null,
         "manual_validated": false
     },
     {
@@ -7205,6 +7259,25 @@
         "manual_validated": false
     },
     {
+        "name": "Eurus",
+        "year": 2024,
+        "publication": {
+            "title": "Advancing LLM Reasoning Generalists with Preference Trees",
+            "url": "https://arxiv.org/abs/2404.02078",
+            "date_create": "2024-04-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenBMB/Eurus"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openbmb/Eurus-7b-sft"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Mixture-of-Depths",
         "year": 2024,
         "publication": {
@@ -7312,6 +7385,22 @@
         "code": {
             "title": "GitHub",
             "url": "https://github.com/stanfordnlp/pyreft"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SqueezeAttention",
+        "year": 2024,
+        "publication": {
+            "title": "SqueezeAttention: 2D Management of KV-Cache in LLM Inference via Layer-wise Optimal Budget",
+            "url": "https://arxiv.org/abs/2404.04793",
+            "date_create": "2024-04-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/hetailang/SqueezeAttention"
         },
         "weights": null,
         "manual_validated": false
@@ -7432,6 +7521,25 @@
         "manual_validated": false
     },
     {
+        "name": "LongEmbed",
+        "year": 2024,
+        "publication": {
+            "title": "LongEmbed: Extending Embedding Models for Long Context Retrieval",
+            "url": "https://arxiv.org/abs/2404.12096",
+            "date_create": "2024-04-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/dwzhu-pku/longembed"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/dwzhu/e5rope-base"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "decoupleQ",
         "year": 2024,
         "publication": {
@@ -7544,6 +7652,25 @@
         "manual_validated": false
     },
     {
+        "name": "StarCoder2-Instruct",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - StarCoder2-Instruct",
+            "url": "https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1",
+            "date_create": "2024-04-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bigcode-project/starcoder2-self-align"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/bigcode/starcoder2-15b-instruct-v0.1"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Snowflake Arctic",
         "year": 2024,
         "publication": {
@@ -7559,6 +7686,22 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Snowflake/snowflake-arctic-instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Hermes 2 Pro",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Hermes 2 Pro",
+            "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B",
+            "date_create": "2024-04-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B"
         },
         "manual_validated": false
     },
@@ -7598,6 +7741,22 @@
         "manual_validated": false
     },
     {
+        "name": "Hermes-2 Theta",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Hermes-2 Theta",
+            "url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B",
+            "date_create": "2024-05-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "AlphaMath",
         "year": 2024,
         "publication": {
@@ -7632,6 +7791,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TIGER-Lab/MAmmoTH2-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-V2",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+            "url": "https://arxiv.org/abs/2405.04434",
+            "date_create": "2024-05-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-V2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2"
         },
         "manual_validated": false
     },
@@ -7867,6 +8045,19 @@
         "manual_validated": false
     },
     {
+        "name": "Aaren",
+        "year": 2024,
+        "publication": {
+            "title": "Attention as an RNN",
+            "url": "https://arxiv.org/abs/2405.13956",
+            "date_create": "2024-05-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Aya 23",
         "year": 2024,
         "publication": {
@@ -7880,6 +8071,22 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/aya-23-8B"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Abacus Embeddings",
+        "year": 2024,
+        "publication": {
+            "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+            "url": "https://arxiv.org/abs/2405.17399",
+            "date_create": "2024-05-27"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mcleish7/arithmetic"
+        },
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -7928,6 +8135,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MAP-Neo",
+        "year": 2024,
+        "publication": {
+            "title": "MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series",
+            "url": "https://arxiv.org/abs/2405.19327",
+            "date_create": "2024-05-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/multimodal-art-projection/MAP-NEO"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/m-a-p/neo_7b"
+        },
         "manual_validated": false
     },
     {

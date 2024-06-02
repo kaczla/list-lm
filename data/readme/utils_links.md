@@ -124,6 +124,7 @@
 - [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.
 - [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) - PowerInfer is a CPU/GPU LLM inference engine leveraging activation locality for your device.
 - [privateGPT](https://github.com/imartinez/privateGPT) - Interact privately with your documents using the power of GPT, 100% privately, no data leaks.
+- [Prometheus-Eval](https://github.com/prometheus-eval/prometheus-eval) - A repository for evaluating LLMs in generation tasks.
 - [PromptBench](https://github.com/microsoft/promptbench) - PromptBench: A Unified Library for Evaluating and Understanding Large Language Models.
 - [pybaselines](https://github.com/derb12/pybaselines) - A Python library of algorithms for the baseline correction of experimental data.
 - [pykoi](https://github.com/CambioML/pykoi) - pykoi is an open-source python library for LLMs providing a unified interface for data & feedback collection, RLHF, and model comparisons.
