@@ -3813,6 +3813,21 @@
         }
     },
     {
+        "name": "Idefics",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Introducing IDEFICS: An Open Reproduction of State-of-the-Art Visual Language Model",
+            "url": "https://huggingface.co/blog/idefics",
+            "date_create": "2023-08-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceM4/idefics-80b-instruct"
+        }
+    },
+    {
         "name": "Code Llama",
         "year": 2023,
         "publication": {
@@ -6561,6 +6576,51 @@
         "weights": null
     },
     {
+        "name": "Idefics2",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Introducing Idefics2: A Powerful 8B Vision-Language Model for the community",
+            "url": "https://huggingface.co/blog/idefics2",
+            "date_create": "2024-03-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceM4/idefics2-8b"
+        }
+    },
+    {
+        "name": "Pile-T5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Pile-T5",
+            "url": "https://blog.eleuther.ai/pile-t5/",
+            "date_create": "2024-03-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/EleutherAI/pile-t5-base"
+        }
+    },
+    {
+        "name": "Grok-1",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Open Release of Grok-1",
+            "url": "https://x.ai/blog/grok-os",
+            "date_create": "2024-03-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/xai-org/grok-1"
+        }
+    },
+    {
         "name": "Agent-FLAN",
         "year": 2024,
         "publication": {
@@ -6621,6 +6681,69 @@
         },
         "video": null,
         "code": null,
+        "weights": null
+    },
+    {
+        "name": "DBRX",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing DBRX: A New State-of-the-Art Open LLM",
+            "url": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+            "date_create": "2024-03-27"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/databricks/dbrx"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/databricks/dbrx-instruct"
+        }
+    },
+    {
+        "name": "Grok-1.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Announcing Grok-1.5",
+            "url": "https://x.ai/blog/grok-1.5",
+            "date_create": "2024-03-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "Qwen1.5-MoE",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters",
+            "url": "https://qwenlm.github.io/blog/qwen-moe/",
+            "date_create": "2024-03-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen1.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat"
+        }
+    },
+    {
+        "name": "DiJiang",
+        "year": 2024,
+        "publication": {
+            "title": "DiJiang: Efficient Large Language Models through Compact Kernelization",
+            "url": "https://arxiv.org/abs/2403.19928",
+            "date_create": "2024-03-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/YuchuanTian/DiJiang"
+        },
         "weights": null
     },
     {
@@ -6798,6 +6921,24 @@
         "weights": null
     },
     {
+        "name": "JetMoE",
+        "year": 2024,
+        "publication": {
+            "title": "JetMoE: Reaching Llama2 Performance with 0.1M Dollars",
+            "url": "https://arxiv.org/abs/2404.07413",
+            "date_create": "2024-04-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/myshell-ai/JetMoE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/jetmoe/jetmoe-8b"
+        }
+    },
+    {
         "name": "Megalodon",
         "year": 2024,
         "publication": {
@@ -6838,6 +6979,21 @@
             "url": "https://github.com/siyan-zhao/prepacking"
         },
         "weights": null
+    },
+    {
+        "name": "Mixtral 8x22B",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Mixtral 8x22B - Cheaper, Better, Faster, Stronger",
+            "url": "https://mistral.ai/news/mixtral-8x22b/",
+            "date_create": "2024-04-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1"
+        }
     },
     {
         "name": "decoupleQ",
@@ -6943,6 +7099,24 @@
         "video": null,
         "code": null,
         "weights": null
+    },
+    {
+        "name": "Snowflake Arctic",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Snowflake Arctic: The Best LLM for Enterprise AI — Efficiently Intelligent, Truly Open",
+            "url": "https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/",
+            "date_create": "2024-04-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Snowflake-Labs/snowflake-arctic"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Snowflake/snowflake-arctic-instruct"
+        }
     },
     {
         "name": "KAN (Kolmogorov-Arnold Networks)",
@@ -7245,6 +7419,24 @@
         }
     },
     {
+        "name": "Yuan 2.0-M32",
+        "year": 2024,
+        "publication": {
+            "title": "Yuan 2.0-M32: Mixture of Experts with Attention Router",
+            "url": "https://arxiv.org/abs/2405.17976",
+            "date_create": "2024-05-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/IEIT-Yuan/Yuan2.0-M32"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/IEITYuan/Yuan2-M32-hf"
+        }
+    },
+    {
         "name": "Codestral",
         "year": 2024,
         "publication": {
@@ -7257,6 +7449,36 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Codestral-22B-v0.1"
+        }
+    },
+    {
+        "name": "CoPE (Contextual Position Encoding)",
+        "year": 2024,
+        "publication": {
+            "title": "Contextual Position Encoding: Learning to Count What's Important",
+            "url": "https://arxiv.org/abs/2405.18719",
+            "date_create": "2024-05-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null
+    },
+    {
+        "name": "CodeQwen1.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Code with CodeQwen1.5",
+            "url": "https://qwenlm.github.io/blog/codeqwen1.5/",
+            "date_create": "2024-06-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/CodeQwen1.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat"
         }
     }
 ]

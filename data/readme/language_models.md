@@ -1269,6 +1269,11 @@
   - Code: [GitHub](https://github.com/XueFuzhao/OpenMoE)
   - Model weights: [HuggingFace models](https://huggingface.co/fuzhao/OpenMoE_Base)
 
+- Idefics
+  - Year: 2023
+  - Publication: [HuggingFace model card - Introducing IDEFICS: An Open Reproduction of State-of-the-Art Visual Language Model](https://huggingface.co/blog/idefics) (2023-08-22)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct)
+
 - Code Llama
   - Year: 2023
   - Publication: [Code Llama: Open Foundation Models for Code](https://arxiv.org/abs/2308.12950) (2023-08-24)
@@ -2185,6 +2190,21 @@
   - Year: 2024
   - Publication: [HuggingFace model card - GemMoE](https://huggingface.co/Crystalcareai/GemMoE-Base-Random) (2024-03-15)
 
+- Idefics2
+  - Year: 2024
+  - Publication: [HuggingFace model card - Introducing Idefics2: A Powerful 8B Vision-Language Model for the community](https://huggingface.co/blog/idefics2) (2024-03-15)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceM4/idefics2-8b)
+
+- Pile-T5
+  - Year: 2024
+  - Publication: [Blog - Pile-T5](https://blog.eleuther.ai/pile-t5/) (2024-03-15)
+  - Model weights: [HuggingFace models](https://huggingface.co/EleutherAI/pile-t5-base)
+
+- Grok-1
+  - Year: 2024
+  - Publication: [Blog - Open Release of Grok-1](https://x.ai/blog/grok-os) (2024-03-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/xai-org/grok-1)
+
 - Agent-FLAN
   - Year: 2024
   - Publication: [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881) (2024-03-19)
@@ -2205,6 +2225,27 @@
 - InternLM2
   - Year: 2024
   - Publication: [InternLM2 Technical Report](https://arxiv.org/abs/2403.17297) (2024-03-26)
+
+- DBRX
+  - Year: 2024
+  - Publication: [Blog - Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (2024-03-27)
+  - Code: [GitHub](https://github.com/databricks/dbrx)
+  - Model weights: [HuggingFace models](https://huggingface.co/databricks/dbrx-instruct)
+
+- Grok-1.5
+  - Year: 2024
+  - Publication: [Blog - Announcing Grok-1.5](https://x.ai/blog/grok-1.5) (2024-03-28)
+
+- Qwen1.5-MoE
+  - Year: 2024
+  - Publication: [Blog - Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters](https://qwenlm.github.io/blog/qwen-moe/) (2024-03-28)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen1.5-110B-Chat)
+
+- DiJiang
+  - Year: 2024
+  - Publication: [DiJiang: Efficient Large Language Models through Compact Kernelization](https://arxiv.org/abs/2403.19928) (2024-03-29)
+  - Code: [GitHub](https://github.com/YuchuanTian/DiJiang)
 
 - Gecko
   - Year: 2024
@@ -2264,6 +2305,12 @@
   - Publication: [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143) (2024-04-10)
   - Code: [GitHub](https://github.com/dingo-actual/infini-transformer)
 
+- JetMoE
+  - Year: 2024
+  - Publication: [JetMoE: Reaching Llama2 Performance with 0.1M Dollars](https://arxiv.org/abs/2404.07413) (2024-04-11)
+  - Code: [GitHub](https://github.com/myshell-ai/JetMoE)
+  - Model weights: [HuggingFace models](https://huggingface.co/jetmoe/jetmoe-8b)
+
 - Megalodon
   - Year: 2024
   - Publication: [Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length](https://arxiv.org/abs/2404.08801) (2024-04-12)
@@ -2277,6 +2324,11 @@
   - Year: 2024
   - Publication: [Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models](https://arxiv.org/abs/2404.09529) (2024-04-15)
   - Code: [GitHub](https://github.com/siyan-zhao/prepacking)
+
+- Mixtral 8x22B
+  - Year: 2024
+  - Publication: [Blog - Mixtral 8x22B - Cheaper, Better, Faster, Stronger](https://mistral.ai/news/mixtral-8x22b/) (2024-04-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Mixtral-8x22B-v0.1)
 
 - decoupleQ
   - Year: 2024
@@ -2312,6 +2364,12 @@
 - NExT
   - Year: 2024
   - Publication: [NExT: Teaching Large Language Models to Reason about Code Execution](https://arxiv.org/abs/2404.14662) (2024-04-23)
+
+- Snowflake Arctic
+  - Year: 2024
+  - Publication: [Blog - Snowflake Arctic: The Best LLM for Enterprise AI — Efficiently Intelligent, Truly Open](https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/) (2024-04-24)
+  - Code: [GitHub](https://github.com/Snowflake-Labs/snowflake-arctic)
+  - Model weights: [HuggingFace models](https://huggingface.co/Snowflake/snowflake-arctic-instruct)
 
 - KAN (Kolmogorov-Arnold Networks)
   - Year: 2024
@@ -2413,7 +2471,23 @@
   - Publication: [Aya 23: Open Weight Releases to Further Multilingual Progress](https://arxiv.org/abs/2405.15032) (2024-05-23)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/aya-23-8B)
 
+- Yuan 2.0-M32
+  - Year: 2024
+  - Publication: [Yuan 2.0-M32: Mixture of Experts with Attention Router](https://arxiv.org/abs/2405.17976) (2024-05-28)
+  - Code: [GitHub](https://github.com/IEIT-Yuan/Yuan2.0-M32)
+  - Model weights: [HuggingFace models](https://huggingface.co/IEITYuan/Yuan2-M32-hf)
+
 - Codestral
   - Year: 2024
   - Publication: [Blog - Codestral: Hello, World!](https://mistral.ai/news/codestral) (2024-05-29)
   - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Codestral-22B-v0.1)
+
+- CoPE (Contextual Position Encoding)
+  - Year: 2024
+  - Publication: [Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719) (2024-05-29)
+
+- CodeQwen1.5
+  - Year: 2024
+  - Publication: [Blog - Code with CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/) (2024-06-02)
+  - Code: [GitHub](https://github.com/QwenLM/CodeQwen1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)
