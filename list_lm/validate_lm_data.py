@@ -9,7 +9,11 @@ from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 LOGGER = logging.getLogger(__name__)
 
 
-def validate_lm_data(path: Path, check_model_names: bool) -> None:
+def validate_lm_data(
+    path: Path,
+    check_model_names: bool = False,
+    update_publication_data: bool = False,
+) -> None:
     model_info_list = load_base_model_list(path, ModelInfo)
     model_name_to_model_info: dict[str, ModelInfo] = {}
     title_to_model_info: dict[str, ModelInfo] = {}
@@ -18,6 +22,13 @@ def validate_lm_data(path: Path, check_model_names: bool) -> None:
     errors = []
     changed = False
     model_info: ModelInfo
+
+    if update_publication_data:
+        for model_info in model_info_list:
+            is_updated = update_publication_data_in_model_info(model_info)
+            if is_updated:
+                model_info.manual_validated = False
+                changed = True
 
     # Check if model name is present in the title or abstract of publication
     if check_model_names:
@@ -87,9 +98,30 @@ def validate_lm_data(path: Path, check_model_names: bool) -> None:
         LOGGER.info("Nothing changed - skip saving")
 
 
+def update_publication_data_in_model_info(model_info: ModelInfo) -> bool:
+    is_updated = False
+
+    if "arxiv" in model_info.publication.url:
+        article_data = parse_arxiv(model_info.publication.url)
+
+        if article_data.title != model_info.publication.title:
+            model_info.publication.title = article_data.title
+            is_updated = True
+
+        if article_data.date_create != model_info.publication.date_create:
+            model_info.publication.date_create = article_data.date_create
+            is_updated = True
+
+    return is_updated
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO)
-    validate_lm_data(Path(f"data/json/{FILE_NAME_LM_DATA}.json"), check_model_names=True)
+    validate_lm_data(
+        Path(f"data/json/{FILE_NAME_LM_DATA}.json"),
+        check_model_names=True,
+        update_publication_data=True,
+    )
 
 
 if __name__ == "__main__":

@@ -946,7 +946,7 @@
         "name": "PanGu",
         "year": 2021,
         "publication": {
-            "title": "PanGu: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation",
+            "title": "PanGu-$\\alpha$: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation",
             "url": "https://arxiv.org/abs/2104.12369",
             "date_create": "2021-04-26"
         },
@@ -1266,7 +1266,7 @@
         "name": "Memory efficient attention",
         "year": 2021,
         "publication": {
-            "title": "Self-attention Does Not Need O(n2) Memory",
+            "title": "Self-attention Does Not Need $O(n^2)$ Memory",
             "url": "https://arxiv.org/abs/2112.05682",
             "date_create": "2021-12-10"
         },
@@ -3182,7 +3182,7 @@
         "name": "MEFT",
         "year": 2023,
         "publication": {
-            "title": "Make Your Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning",
+            "title": "Make Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning",
             "url": "https://arxiv.org/abs/2306.00477",
             "date_create": "2023-06-01"
         },
@@ -4671,10 +4671,10 @@
         "manual_validated": true
     },
     {
-        "name": "LightSeq",
+        "name": "LightSeq / DistFlashAttn",
         "year": 2023,
         "publication": {
-            "title": "LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers",
+            "title": "DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training",
             "url": "https://arxiv.org/abs/2310.03294",
             "date_create": "2023-10-05"
         },
@@ -5116,7 +5116,7 @@
         "name": "Octavius",
         "year": 2023,
         "publication": {
-            "title": "Octavius: Mitigating Task Interference in MLLMs via MoE",
+            "title": "Octavius: Mitigating Task Interference in MLLMs via LoRA-MoE",
             "url": "https://arxiv.org/abs/2311.02684",
             "date_create": "2023-11-05"
         },
