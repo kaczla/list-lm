@@ -106,6 +106,11 @@ class ModelInfoDict(TypedDict):
     weights: UrlData | None
 
 
+class SuggestedModelInfo(BaseModel):
+    suggested_model_names: list[str]
+    article_data: ArticleDataExtended
+
+
 class CacheArticleData(BaseModel):
     url_to_article_data: dict[str, ArticleDataExtended]
 

@@ -1036,6 +1036,13 @@
         "manual_validated": false
     },
     {
+        "name": "LMQuant",
+        "description": "LMQuant is an open source large foundation models quantization toolbox based on PyTorch. LMQuant is implemented by QServe, an efficient GPU inference library.",
+        "url": "https://github.com/mit-han-lab/lmquant",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "LMSYS-Chat",
         "description": "This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.",
         "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",

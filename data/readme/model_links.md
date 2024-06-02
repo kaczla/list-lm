@@ -37,6 +37,7 @@
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [llm.c](https://github.com/karpathy/llm.c) - LLM training in simple, raw C/CUDA
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
+- [LMQuant](https://github.com/mit-han-lab/lmquant) - LMQuant is an open source large foundation models quantization toolbox based on PyTorch. LMQuant is implemented by QServe, an efficient GPU inference library.
 - [LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) - LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.

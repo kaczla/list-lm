@@ -11,7 +11,6 @@ from list_lm.data import (
     LinkType,
     ModelInfo,
     ModelInfoDict,
-    UrlData,
     get_application_data_sort_key,
     get_model_info_sort_key,
 )
@@ -20,6 +19,7 @@ from list_lm.generate_readme import generate_links_selected, generate_lm_data
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
+from list_lm.parser_lm_data import ParserLMData
 from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
 
 LOGGER = logging.getLogger(__name__)
@@ -33,6 +33,7 @@ class GUIApp:
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
 
     def __init__(self) -> None:
+        self.parser = ParserLMData()
         self.main = tk.Tk()
         self.main.title("List-LM - GUI App")
         self.main.geometry("350x450+700+200")
@@ -149,10 +150,10 @@ class GUIApp:
             label_status,
         )
         code_data = (
-            self.return_value_or_update_status(GUIApp.parse_code_url(code_url), label_status) if code_url else None
+            self.return_value_or_update_status(self.parser.parse_code_url(code_url), label_status) if code_url else None
         )
         model_weights_data = (
-            self.return_value_or_update_status(GUIApp.parse_model_weights_url(model_weights_url), label_status)
+            self.return_value_or_update_status(self.parser.parse_model_weights_url(model_weights_url), label_status)
             if model_weights_url
             else None
         )
@@ -397,20 +398,6 @@ class GUIApp:
             title = "Blog - " + title
 
         return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
-
-    @staticmethod
-    def parse_code_url(url: str) -> UrlData | str:
-        if "github.com" in url:
-            return UrlData(url=url, title="GitHub")
-
-        return "Unsupported code URL!"
-
-    @staticmethod
-    def parse_model_weights_url(url: str) -> UrlData | str:
-        if "huggingface.co" in url:
-            return UrlData(url=url, title="HuggingFace models")
-
-        return UrlData(url=url, title="Direct link")
 
     def clear_main_frame(self) -> None:
         self.main_frame.destroy()
