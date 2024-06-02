@@ -19,7 +19,7 @@ class AutoAddLMGUIApp:
 
     def __init__(self) -> None:
         self.parser = ParserLMData()
-        self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)
+        self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)  # type: ignore[arg-type]
 
         self.main = tk.Tk()
         self.main.title("Auto add LM - GUI App")

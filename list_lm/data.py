@@ -74,6 +74,7 @@ class ModelInfo(BaseModel):
     video: UrlData | None = None
     code: UrlData | None = None
     weights: UrlData | None = None
+    manual_validated: bool = False
 
     def to_markdown_element(self) -> str:
         return "\n".join(

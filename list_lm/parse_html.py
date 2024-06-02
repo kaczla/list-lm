@@ -38,7 +38,12 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
     title = str(html_tree.xpath("//meta[@name='citation_title']/@content")[0]).strip()
     date_str = str(html_tree.xpath("//meta[@name='citation_date']/@content")[0]).strip()
     converted_date = datetime.strptime(date_str, "%Y/%m/%d").date()
-    abstract_str = str(html_tree.xpath("//meta[@name='citation_abstract']/@content")[0]).strip()
+    abstract_data = html_tree.xpath("//meta[@name='citation_abstract']/@content")
+    if abstract_data:
+        abstract_str = str(abstract_data[0]).strip()
+    else:
+        abstract_str = ""
+        LOGGER.error(f"Cannot get abstract for: {url}")
     abstract_urls = list(map(str, html_tree.xpath("//div[@id='abs']/blockquote[contains(@class,'abstract')]/a/@href")))
     parsed_data = ArticleDataExtended(
         title=title,

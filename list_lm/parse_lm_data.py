@@ -92,7 +92,7 @@ def parse_markdown_to_model_info_list(markdown_path: Path) -> list[ModelInfo]:
 
 def convert_model_info_markdown_to_model_info_json(markdown_path: Path, save_path: Path) -> None:
     loaded_data = parse_markdown_to_model_info_list(markdown_path)
-    save_base_model_list(save_path, loaded_data, sort_fn=get_model_info_sort_key)
+    save_base_model_list(save_path, loaded_data, sort_fn=get_model_info_sort_key)  # type: ignore[arg-type]
 
 
 def convert_model_info_markdown_to_model_info_json_all() -> None:

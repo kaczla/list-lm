@@ -6,6 +6,7 @@
   - Year: 2016
   - Publication: [Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606) (2016-07-15)
   - Code: [GitHub](https://github.com/facebookresearch/fastText)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/fasttext-en-vectors)
 
 - MoE
   - Year: 2017
@@ -38,7 +39,7 @@
   - Publication: [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](https://arxiv.org/abs/1901.02860) (2019-01-09)
   - Code: [GitHub](https://github.com/kimiyoung/transformer-xl)
 
-- LightConv/DynamicConv
+- LightConv / DynamicConv
   - Year: 2019
   - Publication: [Pay Less Attention with Lightweight and Dynamic Convolutions](https://arxiv.org/abs/1901.10430) (2019-01-29)
   - Code: [GitHub](https://github.com/pytorch/fairseq/tree/master/examples/pay_less_attention_paper)
@@ -116,7 +117,7 @@
 
 - Sandwich Transformers
   - Year: 2019
-  - Publication: [https://arxiv.org/abs/1911.03864](https://arxiv.org/abs/1911.03864) (2019-11-10)
+  - Publication: [Improving Transformer Models by Reordering their Sublayers](https://arxiv.org/abs/1911.03864) (2019-11-10)
   - Video: [YouTube](https://www.youtube.com/watch?v=rFuuGEj3AhU)
   - Code: [GitHub](https://github.com/ofirpress/sandwich_transformer)
 
@@ -280,7 +281,7 @@
   - Publication: [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](https://arxiv.org/abs/2104.04473) (2021-04-09)
   - Code: [GitHub](https://github.com/NVIDIA/Megatron-LM)
 
-- 24hBERT - Academic Budget BERT
+- 24hBERT
   - Year: 2021
   - Publication: [How to Train BERT with an Academic Budget](https://arxiv.org/abs/2104.07705) (2021-04-15)
   - Code: [GitHub](https://github.com/IntelLabs/academic-budget-bert)
@@ -635,6 +636,11 @@
   - Year: 2023
   - Publication: [Blog - Announcing Jurassic-2 and Task-Specific APIs](https://www.ai21.com/blog/introducing-j2) (2023-03-09)
 
+- StarChat
+  - Year: 2023
+  - Publication: [HuggingFace model card - Creating a Coding Assistant with StarCoder](https://huggingface.co/blog/starchat-alpha) (2023-03-09)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/starchat-alpha)
+
 - Alpaca
   - Year: 2023
   - Publication: [Alpaca: A Strong Open-Source Instruction-Following Model](https://crfm.stanford.edu/2023/03/13/alpaca.html) (2023-03-13)
@@ -892,29 +898,11 @@
   - Code: [GitHub](https://github.com/facebookresearch/ImageBind)
   - Model weights: [Direct link](https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth)
 
-- StarChat Alpha
-  - Year: 2023
-  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) (2023-05-09)
-  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
-  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceH4/starchat-alpha)
-
 - StarCoder
   - Year: 2023
   - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) (2023-05-09)
   - Code: [GitHub](https://github.com/bigcode-project/starcoder)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoder)
-
-- StarCoderBase
-  - Year: 2023
-  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) (2023-05-09)
-  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
-  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoderbase)
-
-- StarCoderPlus
-  - Year: 2023
-  - Publication: [StarCoder: may the source be with you!](https://arxiv.org/abs/2305.06161) (2023-05-09)
-  - Code: [GitHub](https://github.com/bigcode-project/starcoder)
-  - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoderplus)
 
 - DLite
   - Year: 2023
@@ -962,7 +950,7 @@
   - Year: 2023
   - Publication: [Blog - Intel Announces Aurora genAI, Generative AI Model With 1 Trillion Parameters](https://wccftech.com/intel-aurora-genai-chatgpt-competitor-generative-ai-model-with-1-trillion-parameters) (2023-05-22)
 
-- RWKV-LM
+- RWKV
   - Year: 2023
   - Publication: [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048) (2023-05-22)
   - Code: [GitHub](https://github.com/BlinkDL/RWKV-LM)
@@ -979,7 +967,7 @@
   - Publication: [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) (2023-05-23)
   - Code: [GitHub](https://github.com/artidoro/qlora)
 
-- UltraLM / UltraLLaMA
+- UltraLLaMA
   - Year: 2023
   - Publication: [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations](https://arxiv.org/abs/2305.14233) (2023-05-23)
   - Code: [GitHub](https://github.com/thunlp/UltraChat)
@@ -1026,6 +1014,10 @@
   - Publication: [Blog - The Falcon has landed in the Hugging Face ecosystem](https://huggingface.co/blog/falcon) (2023-06-05)
   - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/falcon-40b)
 
+- Orca
+  - Year: 2023
+  - Publication: [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707) (2023-06-05)
+
 - SpQR
   - Year: 2023
   - Publication: [SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression](https://arxiv.org/abs/2306.03078) (2023-06-05)
@@ -1064,10 +1056,6 @@
   - Year: 2023
   - Publication: [Augmenting Language Models with Long-Term Memory](https://arxiv.org/abs/2306.07174) (2023-06-12)
   - Code: [GitHub](https://github.com/Victorwz/LongMem)
-
-- Orca
-  - Year: 2023
-  - Publication: [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.07174) (2023-06-12)
 
 - h2ogpt
   - Year: 2023
@@ -1333,7 +1321,7 @@
   - Code: [GitHub](https://github.com/TIGER-AI-Lab/MAmmoTH)
   - Model weights: [HuggingFace models](https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B)
 
-- MoV, MoLoRA
+- MoV and MoLoRA
   - Year: 2023
   - Publication: [Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning](https://arxiv.org/abs/2309.05444) (2023-09-11)
   - Code: [GitHub](https://github.com/for-ai/parameter-efficient-moe)
@@ -2236,6 +2224,11 @@
   - Year: 2024
   - Publication: [Blog - Announcing Grok-1.5](https://x.ai/blog/grok-1.5) (2024-03-28)
 
+- Jamba
+  - Year: 2024
+  - Publication: [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) (2024-03-28)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/Jamba-v0.1)
+
 - Qwen1.5-MoE
   - Year: 2024
   - Publication: [Blog - Qwen1.5-MoE: Matching 7B Model Performance with 1/3 Activated Parameters](https://qwenlm.github.io/blog/qwen-moe/) (2024-03-28)
@@ -2250,11 +2243,6 @@
 - Gecko
   - Year: 2024
   - Publication: [Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327) (2024-03-29)
-
-- Jamba
-  - Year: 2024
-  - Publication: [DiJiang: Efficient Large Language Models through Compact Kernelization](https://arxiv.org/abs/2403.19928) (2024-03-29)
-  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/Jamba-v0.1)
 
 - Transformer-Lite
   - Year: 2024

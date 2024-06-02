@@ -40,7 +40,7 @@ class GUIApp:
         self.main_frame = tk.Frame()
         self.create_start_frame()
         self.data_manager_links = DataManager(self.LINKS_PATH, ApplicationData, get_application_data_sort_key)
-        self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)
+        self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)  # type: ignore[arg-type]
 
     def create_start_frame(self) -> None:
         self.clear_main_frame()

@@ -8,7 +8,7 @@ from pydantic import BaseModel
 BASE_MODEL_TYPE = TypeVar("BASE_MODEL_TYPE", bound=BaseModel)
 SORT_VALUE_TYPE = str | int | float | bool | date
 
-SORT_FN_TYPING = Callable[[BASE_MODEL_TYPE], SORT_VALUE_TYPE]
+SORT_FN_TYPING = Callable[[BASE_MODEL_TYPE], SORT_VALUE_TYPE] | Callable[[BASE_MODEL_TYPE], tuple[SORT_VALUE_TYPE]]
 
 
 def load_base_model(file_path: Path, base_model_type: type[BASE_MODEL_TYPE]) -> BASE_MODEL_TYPE:

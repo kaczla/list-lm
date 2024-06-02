@@ -9,7 +9,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "fastText",
@@ -24,7 +25,11 @@
             "title": "GitHub",
             "url": "https://github.com/facebookresearch/fastText"
         },
-        "weights": null
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/fasttext-en-vectors"
+        },
+        "manual_validated": true
     },
     {
         "name": "MoE",
@@ -36,7 +41,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Transformer",
@@ -48,7 +54,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "RR-Transformer",
@@ -60,7 +67,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "GPT",
@@ -75,7 +83,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openai-gpt"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "flair",
@@ -90,7 +99,8 @@
             "title": "GitHub",
             "url": "https://github.com/flairNLP/flair"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BERT",
@@ -102,7 +112,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Transformer-XL",
@@ -117,10 +128,11 @@
             "title": "GitHub",
             "url": "https://github.com/kimiyoung/transformer-xl"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
-        "name": "LightConv/DynamicConv",
+        "name": "LightConv / DynamicConv",
         "year": 2019,
         "publication": {
             "title": "Pay Less Attention with Lightweight and Dynamic Convolutions",
@@ -132,7 +144,8 @@
             "title": "GitHub",
             "url": "https://github.com/pytorch/fairseq/tree/master/examples/pay_less_attention_paper"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Evolved Transformer",
@@ -144,7 +157,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GPT-2",
@@ -159,7 +173,8 @@
             "title": "GitHub",
             "url": "https://github.com/openai/gpt-2"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ERNIE",
@@ -177,7 +192,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PaddlePaddle/ernie-1.0-base-zh"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Sparse Transformer",
@@ -189,7 +205,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Adaptive Span",
@@ -204,7 +221,8 @@
             "title": "GitHub",
             "url": "https://github.com/facebookresearch/adaptive-span"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "XLNet",
@@ -216,7 +234,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "All-attention network",
@@ -228,7 +247,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "RoBERTa",
@@ -243,7 +263,8 @@
             "title": "GitHub",
             "url": "https://github.com/pytorch/fairseq/tree/master/examples/roberta"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ERNIE 2.0",
@@ -261,7 +282,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PaddlePaddle/ernie-2.0-base-en"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "StructBERT",
@@ -273,7 +295,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Adaptively Sparse Transformers",
@@ -285,7 +308,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CTRL",
@@ -300,7 +324,8 @@
             "title": "GitHub",
             "url": "https://github.com/salesforce/ctrl"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Megatron-LM",
@@ -315,7 +340,8 @@
             "title": "GitHub",
             "url": "https://github.com/NVIDIA/Megatron-LM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ALBERT",
@@ -330,7 +356,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/ALBERT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "kNN-LM",
@@ -345,13 +372,14 @@
             "title": "GitHub",
             "url": "https://github.com/urvashik/knnlm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Sandwich Transformers",
         "year": 2019,
         "publication": {
-            "title": "https://arxiv.org/abs/1911.03864",
+            "title": "Improving Transformer Models by Reordering their Sublayers",
             "url": "https://arxiv.org/abs/1911.03864",
             "date_create": "2019-11-10"
         },
@@ -363,7 +391,8 @@
             "title": "GitHub",
             "url": "https://github.com/ofirpress/sandwich_transformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "TENER",
@@ -375,7 +404,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BiT (Big Transfer)",
@@ -387,7 +417,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Feedback Transformer",
@@ -399,7 +430,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MiniLM",
@@ -411,7 +443,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Routing Transformer",
@@ -426,7 +459,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/routing_transformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Floater",
@@ -441,7 +475,8 @@
             "title": "GitHub",
             "url": "https://github.com/xuanqing94/FLOATER"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "MobileBERT",
@@ -456,7 +491,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/mobilebert"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Poor Man's BERT",
@@ -471,7 +507,8 @@
             "title": "GitHub",
             "url": "https://github.com/hsajjad/transformers"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Longformer",
@@ -486,7 +523,8 @@
             "title": "GitHub",
             "url": "https://github.com/allenai/longformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MPNet",
@@ -501,7 +539,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/MPNet"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ColBERT",
@@ -513,7 +552,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeeBERT",
@@ -528,7 +568,8 @@
             "title": "GitHub",
             "url": "https://github.com/castorini/DeeBERT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Synthesizer",
@@ -543,7 +584,8 @@
             "title": "GitHub",
             "url": "https://github.com/leaderj1001/Synthesizer-Rethinking-Self-Attention-Transformer-Models) / [GitHub](https://github.com/10-zin/Synthesizer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Adaptive Transformers",
@@ -558,7 +600,8 @@
             "title": "GitHub",
             "url": "https://github.com/prajjwal1/adaptive_transformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeBERTa",
@@ -576,7 +619,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/deberta-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Linformer",
@@ -591,7 +635,8 @@
             "title": "GitHub",
             "url": "https://github.com/Kyan820815/Linformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BRC",
@@ -606,7 +651,8 @@
             "title": "GitHub",
             "url": "https://github.com/nvecoven/BRC) / [GitHub](https://github.com/742617000027/nBRC"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "TUPE",
@@ -621,7 +667,8 @@
             "title": "GitHub",
             "url": "https://github.com/guolinke/TUPE"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeLighT",
@@ -636,7 +683,8 @@
             "title": "GitHub",
             "url": "https://github.com/sacmehta/delight"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DA-Transformer",
@@ -648,7 +696,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CharacterBERT",
@@ -663,7 +712,8 @@
             "title": "GitHub",
             "url": "https://github.com/helboukkouri/character-bert"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Diff pruning",
@@ -678,7 +728,8 @@
             "title": "GitHub",
             "url": "https://github.com/dguo98/DiffPruning"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Informer",
@@ -690,7 +741,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Key-Value Memory Feed-Forward",
@@ -702,10 +754,11 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
-        "name": "MiniLM v2",
+        "name": "MiniLMv2",
         "year": 2020,
         "publication": {
             "title": "MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers",
@@ -714,7 +767,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Shortformer",
@@ -729,7 +783,8 @@
             "title": "GitHub",
             "url": "https://github.com/ofirpress/shortformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeBERTaV2",
@@ -747,7 +802,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/deberta-v2-xlarge"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Switch Transformer",
@@ -765,7 +821,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/google/switch-c-2048"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "WuDao",
@@ -777,7 +834,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "UniT",
@@ -792,7 +850,8 @@
             "title": "GitHub",
             "url": "https://github.com/facebookresearch/mmf"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PLBART",
@@ -810,7 +869,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://github.com/wasiahmad/PLBART/tree/9bf5e12bb7374218c21546aa31020ef102a151e7#fine-tuning"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GLM",
@@ -828,7 +888,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/BAAI/glm-10b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Megatron-LM v2",
@@ -843,10 +904,11 @@
             "title": "GitHub",
             "url": "https://github.com/NVIDIA/Megatron-LM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
-        "name": "24hBERT - Academic Budget BERT",
+        "name": "24hBERT / Academic Budget BERT",
         "year": 2021,
         "publication": {
             "title": "How to Train BERT with an Academic Budget",
@@ -858,7 +920,8 @@
             "title": "GitHub",
             "url": "https://github.com/IntelLabs/academic-budget-bert"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "RoFormer",
@@ -876,7 +939,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/junnyu/roformer_chinese_base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "PanGu",
@@ -888,7 +952,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FNet",
@@ -906,7 +971,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/f_net"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "EL-Attention",
@@ -921,7 +987,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/fastseq"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ByT5",
@@ -936,7 +1003,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/byt5"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Luna",
@@ -951,7 +1019,8 @@
             "title": "GitHub",
             "url": "https://github.com/XuezheMax/fairseq-apollo"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GPT-J",
@@ -969,7 +1038,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/EleutherAI/gpt-j-6b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LoRA",
@@ -984,7 +1054,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LoRA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BitFit",
@@ -999,7 +1070,8 @@
             "title": "GitHub",
             "url": "https://github.com/benzakenelad/BitFit"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Charformer",
@@ -1014,7 +1086,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/charformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ERNIE 3.0",
@@ -1026,7 +1099,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ALiBi",
@@ -1044,7 +1118,8 @@
         "weights": {
             "title": "Private page",
             "url": "https://github.com/ofirpress/attention_with_linear_biases/tree/master/examples/language_model"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CodeT5",
@@ -1062,7 +1137,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codet5-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "HyperCLOVA",
@@ -1074,7 +1150,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Jurassic-1",
@@ -1089,7 +1166,8 @@
             "title": "GitHub",
             "url": "https://github.com/ai21labs/lm-evaluation"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Primer",
@@ -1104,7 +1182,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/primer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PLATO-XL",
@@ -1116,7 +1195,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "T0",
@@ -1134,7 +1214,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigscience/T0"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "NormFormer",
@@ -1146,7 +1227,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeBERTaV3",
@@ -1164,7 +1246,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/deberta-v3-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Gopher",
@@ -1176,7 +1259,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Memory efficient attention",
@@ -1191,7 +1275,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/memory_efficient_attention"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "XGLM",
@@ -1209,7 +1294,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/xglm-7.5B"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "LaMDA",
@@ -1221,7 +1307,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Megatron-Turing NLG",
@@ -1233,10 +1320,11 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
-        "name": "Memorizing Transformers, MemTRM",
+        "name": "MemTRM (Memorizing Transformers)",
         "year": 2022,
         "publication": {
             "title": "Memorizing Transformers",
@@ -1245,7 +1333,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeGen",
@@ -1263,7 +1352,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codegen-16B-multi"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BaGuaLu",
@@ -1275,7 +1365,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Chinchilla",
@@ -1287,7 +1378,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "NoPos",
@@ -1302,7 +1394,8 @@
             "title": "GitHub",
             "url": "https://github.com/adihaviv/NoPos"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "PaLM",
@@ -1314,7 +1407,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GPT-NeoX",
@@ -1332,7 +1426,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/EleutherAI/gpt-neox-20b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Jurassic-X",
@@ -1344,7 +1439,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OPT",
@@ -1359,7 +1455,8 @@
             "title": "GitHub",
             "url": "https://github.com/facebookresearch/metaseq"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "UL2",
@@ -1374,7 +1471,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/google-research/tree/master/ul2"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FlashAttention",
@@ -1389,7 +1487,8 @@
             "title": "GitHub",
             "url": "https://github.com/HazyResearch/flash-attention"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "YaLM",
@@ -1401,7 +1500,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Minerva",
@@ -1413,7 +1513,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeRL",
@@ -1428,7 +1529,8 @@
             "title": "GitHub",
             "url": "https://github.com/salesforce/CodeRL"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CALM",
@@ -1443,7 +1545,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/t5x"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LLM.int8",
@@ -1458,7 +1561,8 @@
             "title": "GitHub",
             "url": "https://github.com/TimDettmers/bitsandbytes"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Petals",
@@ -1473,7 +1577,8 @@
             "title": "GitHub",
             "url": "https://github.com/bigscience-workshop/petals"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "NeMo Megatron",
@@ -1488,7 +1593,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/nvidia/nemo-megatron-gpt-1.3B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GLM-130B",
@@ -1506,7 +1612,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/spaces/THUDM/GLM-130B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Magneto",
@@ -1521,7 +1628,8 @@
             "title": "GitHub",
             "url": "https://github.com/sunyt32/torchscale"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "TransNormer",
@@ -1536,7 +1644,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenNLPLab/Transnormer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FlanT5",
@@ -1554,7 +1663,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/google/flan-t5-base"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "OLLA",
@@ -1566,10 +1676,11 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
-        "name": "BLOOMZ & mT0",
+        "name": "BLOOMZ / mT0",
         "year": 2022,
         "publication": {
             "title": "Crosslingual Generalization through Multitask Finetuning",
@@ -1581,7 +1692,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigscience/bloomz"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "BLOOM",
@@ -1596,7 +1708,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigscience/bloom"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Galactica",
@@ -1614,7 +1727,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/galactica-6.7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MegaBlocks",
@@ -1629,7 +1743,8 @@
             "title": "GitHub",
             "url": "https://github.com/stanford-futuredata/megablocks"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "NPM",
@@ -1647,7 +1762,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/npm"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BioMedLM",
@@ -1665,7 +1781,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stanford-crfm/BioMedLM"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LeX-Transformer",
@@ -1680,7 +1797,8 @@
             "title": "GitHub",
             "url": "https://github.com/sunyt32/torchscale"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OPT-IML",
@@ -1695,7 +1813,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/opt-iml-30b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Cramming",
@@ -1710,7 +1829,8 @@
             "title": "GitHub",
             "url": "https://github.com/JonasGeiping/cramming"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "StitchNet",
@@ -1725,7 +1845,8 @@
             "title": "GitHub",
             "url": "https://github.com/steerapi/stitchnet"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SantaCoder",
@@ -1743,7 +1864,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/santacoder"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "NarrowBERT",
@@ -1755,7 +1877,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Diff-Codegen",
@@ -1773,7 +1896,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CarperAI/diff-codegen-6b-v2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "AltUp",
@@ -1785,7 +1909,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "E-SPA (Exponential Signal Preserving Attention)",
@@ -1797,7 +1922,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Hyena",
@@ -1812,7 +1938,8 @@
             "title": "GitHub",
             "url": "https://github.com/HazyResearch/safari"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "KOSMOS-1",
@@ -1824,7 +1951,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LLama",
@@ -1842,7 +1970,8 @@
         "weights": {
             "title": "Private page - request required",
             "url": "https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SpikeGPT",
@@ -1857,7 +1986,8 @@
             "title": "GitHub",
             "url": "https://github.com/ridgerchu/SpikeGPT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Palmyra",
@@ -1872,7 +2002,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Writer/palmyra-large"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ParaFormer",
@@ -1884,7 +2015,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PaLM-E",
@@ -1896,7 +2028,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Jurassic-2",
@@ -1908,7 +2041,24 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "StarChat",
+        "year": 2023,
+        "publication": {
+            "title": "HuggingFace model card - Creating a Coding Assistant with StarCoder",
+            "url": "https://huggingface.co/blog/starchat-alpha",
+            "date_create": "2023-03-09"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceH4/starchat-alpha"
+        },
+        "manual_validated": false
     },
     {
         "name": "Alpaca",
@@ -1923,7 +2073,8 @@
             "title": "GitHub",
             "url": "https://github.com/tatsu-lab/stanford_alpaca"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FlexGen",
@@ -1938,7 +2089,8 @@
             "title": "GitHub",
             "url": "https://github.com/FMInference/FlexGen"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "TWM",
@@ -1953,7 +2105,8 @@
             "title": "GitHub",
             "url": "https://github.com/jrobine/twm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GPT-4",
@@ -1965,7 +2118,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "alpaca-opt",
@@ -1983,7 +2137,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Manuel030/alpaca-opt-6.7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GALPACA",
@@ -1998,7 +2153,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/GeorgiaTechResearchInstitute/galpaca-6.7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "AlpacOOM",
@@ -2013,7 +2169,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mrm8488/Alpacoom"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CoLT5",
@@ -2025,7 +2182,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GPT4All",
@@ -2043,7 +2201,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/nomic-ai/gpt4all-lora"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLaMA-Adapter",
@@ -2058,7 +2217,8 @@
             "title": "GitHub",
             "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OpenFlamingo",
@@ -2076,7 +2236,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openflamingo/OpenFlamingo-9B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BloombergGPT",
@@ -2088,7 +2249,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeGeeX",
@@ -2106,14 +2268,15 @@
         "weights": {
             "title": "Private page - request required",
             "url": "https://models.aminer.cn/codegeex/download/request"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CodeGeeX2",
         "year": 2023,
         "publication": {
-            "title": "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X",
-            "url": "https://arxiv.org/abs/2303.17568",
+            "title": "README - CodeGeeX2 repository",
+            "url": "https://github.com/THUDM/CodeGeeX2/blob/2812282082f0be535235214e379119a69e865415/README_EN.md",
             "date_create": "2023-03-30"
         },
         "video": null,
@@ -2124,7 +2287,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/THUDM/codegeex2-6b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GeoV",
@@ -2142,7 +2306,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/GeoV/GeoV-9b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Vicuna",
@@ -2157,7 +2322,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lmsys/vicuna-7b-v1.5"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GPTrillion",
@@ -2169,7 +2335,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Koala",
@@ -2187,7 +2354,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/young-geng/koala"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Pythia",
@@ -2205,7 +2373,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/EleutherAI/pythia-70m"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Cerebras-GPT",
@@ -2223,7 +2392,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cerebras/Cerebras-GPT-13B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Dolly",
@@ -2241,7 +2411,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/databricks/dolly-v2-12b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "GPT4All-J",
@@ -2259,7 +2430,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/nomic-ai/gpt4all-j"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OpenAssistant",
@@ -2277,7 +2449,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLaVA",
@@ -2295,7 +2468,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/liuhaotian/llava-v1.5-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "umT5",
@@ -2313,7 +2487,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://github.com/google-research/t5x/blob/main/docs/models.md#umt5-checkpoints"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MOSS",
@@ -2331,7 +2506,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/fnlp/moss-moon-003-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "RMT",
@@ -2346,7 +2522,8 @@
             "title": "GitHub",
             "url": "https://github.com/booydar/t5-experiments/tree/scaling-report"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "StableLM-Alpha",
@@ -2364,7 +2541,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stabilityai/stablelm-base-alpha-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MiniGPT-4",
@@ -2379,7 +2557,8 @@
             "title": "GitHub",
             "url": "https://github.com/Vision-CAIR/MiniGPT-4"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MPT-1b-RedPajama-200b",
@@ -2397,7 +2576,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mpt-1b-redpajama-200b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "WizardLM",
@@ -2415,7 +2595,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/WizardLM/WizardLM-30B-V1.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "FastChat-T5",
@@ -2433,7 +2614,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lmsys/fastchat-t5-3b-v1.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Lamini",
@@ -2451,7 +2633,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lamini/instruct-peft-tuned-12b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLaMA-Adapter V2",
@@ -2466,7 +2649,8 @@
             "title": "GitHub",
             "url": "https://github.com/ZrrSkywalker/LLaMA-Adapter"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OpenLLaMA",
@@ -2484,7 +2668,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openlm-research/open_llama_13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Unlimiformer",
@@ -2502,7 +2687,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/abertsch/unlimiformer-bart-booksum-retrieval"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CodeGen2",
@@ -2520,7 +2706,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codegen2-16B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ReplitLM",
@@ -2538,7 +2725,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/replit/replit-code-v1-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MPT-7B",
@@ -2556,7 +2744,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mpt-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MPT-7B-Chat",
@@ -2574,7 +2763,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mpt-7b-chat"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MPT-7B-Instruct",
@@ -2592,7 +2782,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mpt-7b-instruct"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Otter",
@@ -2610,7 +2801,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/luodian/otter-9b-hf"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Open-source PaLM",
@@ -2628,7 +2820,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/conceptofmind/palm-1b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Multimodal-GPT",
@@ -2646,7 +2839,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://download.openmmlab.com/mmgpt/v0/mmgpt-lora-v0-release.pt"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "TNN",
@@ -2661,7 +2855,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenNLPLab/Tnn"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ImageBind",
@@ -2679,25 +2874,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth"
-        }
-    },
-    {
-        "name": "StarChat Alpha",
-        "year": 2023,
-        "publication": {
-            "title": "StarCoder: may the source be with you!",
-            "url": "https://arxiv.org/abs/2305.06161",
-            "date_create": "2023-05-09"
         },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/bigcode-project/starcoder"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/HuggingFaceH4/starchat-alpha"
-        }
+        "manual_validated": false
     },
     {
         "name": "StarCoder",
@@ -2715,43 +2893,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/starcoder"
-        }
-    },
-    {
-        "name": "StarCoderBase",
-        "year": 2023,
-        "publication": {
-            "title": "StarCoder: may the source be with you!",
-            "url": "https://arxiv.org/abs/2305.06161",
-            "date_create": "2023-05-09"
         },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/bigcode-project/starcoder"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/bigcode/starcoderbase"
-        }
-    },
-    {
-        "name": "StarCoderPlus",
-        "year": 2023,
-        "publication": {
-            "title": "StarCoder: may the source be with you!",
-            "url": "https://arxiv.org/abs/2305.06161",
-            "date_create": "2023-05-09"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/bigcode-project/starcoder"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/bigcode/starcoderplus"
-        }
+        "manual_validated": false
     },
     {
         "name": "DLite",
@@ -2766,7 +2909,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/aisquared/dlite-v2-1_5b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "PaLM 2",
@@ -2778,7 +2922,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MEGABYTE",
@@ -2790,7 +2935,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeT5+",
@@ -2808,7 +2954,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codet5p-16b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DarkBERT",
@@ -2820,7 +2967,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LIMA",
@@ -2832,7 +2980,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "mLongT5",
@@ -2847,7 +2996,8 @@
             "title": "GitHub",
             "url": "https://github.com/google-research/longt5"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BLOOMChat",
@@ -2862,7 +3012,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/sambanovasystems/BLOOMChat-176B-v1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLM-Pruner",
@@ -2877,7 +3028,8 @@
             "title": "GitHub",
             "url": "https://github.com/horseee/LLM-Pruner"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Aurora genAI",
@@ -2889,10 +3041,11 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
-        "name": "RWKV-LM",
+        "name": "RWKV",
         "year": 2023,
         "publication": {
             "title": "RWKV: Reinventing RNNs for the Transformer Era",
@@ -2907,7 +3060,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/BlinkDL/rwkv-4-pile-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Goat",
@@ -2925,7 +3079,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/tiedong/goat-lora-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "QLoRA",
@@ -2940,10 +3095,11 @@
             "title": "GitHub",
             "url": "https://github.com/artidoro/qlora"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
-        "name": "UltraLM / UltraLLaMA",
+        "name": "UltraLLaMA",
         "year": 2023,
         "publication": {
             "title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
@@ -2958,7 +3114,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openbmb/UltraLM-13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Gorilla",
@@ -2973,7 +3130,8 @@
             "title": "GitHub",
             "url": "https://github.com/ShishirPatil/gorilla"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Backpacks",
@@ -2991,7 +3149,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stanfordnlp/backpack-gpt2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BiomedGPT",
@@ -3006,7 +3165,8 @@
             "title": "GitHub",
             "url": "https://github.com/taokz/BiomedGPT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Refact-1.6B",
@@ -3024,7 +3184,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/smallcloudai/Refact-1_6B-fim"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MeZO",
@@ -3039,7 +3200,8 @@
             "title": "GitHub",
             "url": "https://github.com/princeton-nlp/MeZO"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "NoPE",
@@ -3051,7 +3213,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MEFT",
@@ -3066,7 +3229,8 @@
             "title": "GitHub",
             "url": "https://github.com/baohaoLiao/mefts"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Falcon",
@@ -3081,7 +3245,21 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/tiiuae/falcon-40b"
-        }
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Orca",
+        "year": 2023,
+        "publication": {
+            "title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+            "url": "https://arxiv.org/abs/2306.02707",
+            "date_create": "2023-06-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SpQR",
@@ -3096,7 +3274,8 @@
             "title": "GitHub",
             "url": "https://github.com/Vahe1994/SpQR"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "RedPajama-INCITE",
@@ -3114,7 +3293,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "INSTRUCTEVAL",
@@ -3132,7 +3312,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/declare-lab/flan-alpaca-xxl"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MoLM",
@@ -3150,7 +3331,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/ibm/MoLM-350M-4B"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "Tulu",
@@ -3168,7 +3350,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/allenai/tulu-65b"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "FinGPT",
@@ -3183,7 +3366,8 @@
             "title": "GitHub",
             "url": "https://github.com/ai4finance-foundation/fingpt"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LongMem",
@@ -3198,19 +3382,8 @@
             "title": "GitHub",
             "url": "https://github.com/Victorwz/LongMem"
         },
-        "weights": null
-    },
-    {
-        "name": "Orca",
-        "year": 2023,
-        "publication": {
-            "title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
-            "url": "https://arxiv.org/abs/2306.07174",
-            "date_create": "2023-06-12"
-        },
-        "video": null,
-        "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "h2ogpt",
@@ -3228,7 +3401,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/h2oai/h2ogpt-oasst1-512-12b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SqueezeLLM",
@@ -3243,7 +3417,8 @@
             "title": "GitHub",
             "url": "https://github.com/SqueezeAILab/SqueezeLLM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "WizardCoder",
@@ -3261,7 +3436,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Macaw-LLM",
@@ -3276,7 +3452,8 @@
             "title": "GitHub",
             "url": "https://github.com/lyuchenyang/Macaw-LLM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LOMO",
@@ -3291,7 +3468,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenLMLab/LOMO"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "phi-1",
@@ -3306,7 +3484,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/phi-1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Inflection-1",
@@ -3318,7 +3497,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ChatGLM-6B",
@@ -3336,7 +3516,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/THUDM/chatglm-6b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Kosmos-2",
@@ -3354,7 +3535,8 @@
         "weights": {
             "title": "direct link",
             "url": "https://conversationhub.blob.core.windows.net/beit-share-public/kosmos-2/kosmos-2.pt?sv=2021-10-04&st=2023-06-08T11%3A16%3A02Z&se=2033-06-09T11%3A16%3A00Z&sr=c&sp=r&sig=N4pfCVmSeq4L4tS8QbrFVsX6f6q844eft8xSuXdxU48%3D"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Position Interpolation",
@@ -3366,7 +3548,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "XGen",
@@ -3384,7 +3567,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/xgen-7b-8k-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LongChat",
@@ -3402,7 +3586,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lmsys/longchat-7b-v1.5-32k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "NTK",
@@ -3414,7 +3599,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LongNet",
@@ -3429,7 +3615,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/unilm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeGen2.5",
@@ -3447,7 +3634,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Salesforce/codegen25-7b-multi"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "InternLM",
@@ -3465,7 +3653,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/internlm/internlm-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LongLLaMA",
@@ -3483,7 +3672,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/syzymon/long_llama_3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Redmond-Hermes-Coder",
@@ -3498,7 +3688,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Redmond-Hermes-Coder"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "PolyLM",
@@ -3516,7 +3707,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/DAMO-NLP-MT/polylm-13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "RetNet",
@@ -3531,7 +3723,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/unilm/tree/master/retnet"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Llama 2",
@@ -3549,7 +3742,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/meta-llama/Llama-2-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LRPE",
@@ -3564,7 +3758,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenNLPLab/Lrpe"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MPT-7B-8k",
@@ -3582,7 +3777,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mpt-7b-8k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "PanGu-Coder2",
@@ -3594,7 +3790,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Alfred-40B-0723",
@@ -3609,7 +3806,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lightonai/alfred-40b-0723"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Baby-CoThought",
@@ -3627,7 +3825,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/yaanhaan/Baby-CoThought"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "OpenHermes",
@@ -3642,7 +3841,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/teknium/OpenHermes-13B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "StableCode Complete Alpha",
@@ -3657,7 +3857,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stabilityai/stablecode-completion-alpha-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Claude Instant 1.2",
@@ -3669,7 +3870,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OctoCoder",
@@ -3687,7 +3889,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/octocoder"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OctoGeeX",
@@ -3705,7 +3908,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/octogeex"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Aquila",
@@ -3723,7 +3927,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/BAAI/Aquila-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DeciCoder",
@@ -3738,7 +3943,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Deci/DeciCoder-1b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "WizardMath",
@@ -3756,7 +3962,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SQLCoder",
@@ -3774,7 +3981,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/defog/sqlcoder"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Giraffe",
@@ -3792,7 +4000,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/abacusai/Giraffe-v2-13b-32k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OpenMoE",
@@ -3810,7 +4019,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/fuzhao/OpenMoE_Base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Idefics",
@@ -3825,7 +4035,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/HuggingFaceM4/idefics-80b-instruct"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Code Llama",
@@ -3843,7 +4054,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Phind-CodeLlama",
@@ -3858,7 +4070,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Phind/Phind-CodeLlama-34B-v2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Jais",
@@ -3873,7 +4086,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/core42/jais-13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Yarn",
@@ -3891,7 +4105,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "One Wide FFN",
@@ -3903,7 +4118,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Falcon-180B",
@@ -3918,7 +4134,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/tiiuae/falcon-180B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MathGLM",
@@ -3936,7 +4153,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://cloud.tsinghua.edu.cn/d/92127e3a1b4144db8d13/"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DoLa",
@@ -3951,7 +4169,8 @@
             "title": "GitHub",
             "url": "https://github.com/voidism/DoLa"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FLM-101B",
@@ -3966,7 +4185,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CofeAI/FLM-101B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Persimmon-8B",
@@ -3984,7 +4204,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://axtkn4xl5cip.objectstorage.us-phoenix-1.oci.customer-oci.com/n/axtkn4xl5cip/b/adept-public-data/o/8b_base_model_release.tar"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MAmmoTH",
@@ -4002,10 +4223,11 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
-        "name": "MoV, MoLoRA",
+        "name": "MoV and MoLoRA",
         "year": 2023,
         "publication": {
             "title": "Pushing Mixture of Experts to the Limit: Extremely Parameter Efficient MoE for Instruction Tuning",
@@ -4017,7 +4239,8 @@
             "title": "GitHub",
             "url": "https://github.com/for-ai/parameter-efficient-moe"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "phi-1.5",
@@ -4032,7 +4255,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/phi-1_5"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OpenHermes-2-Mistral",
@@ -4047,7 +4271,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/teknium/OpenHermes-2-Mistral-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "vLLM",
@@ -4062,7 +4287,8 @@
             "title": "GitHub",
             "url": "https://github.com/vllm-project/vllm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DeciLM",
@@ -4077,7 +4303,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Deci/DeciLM-6b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "RAIN",
@@ -4092,7 +4319,8 @@
             "title": "GitHub",
             "url": "https://github.com/SafeAILab/RAIN"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Xwin-LM",
@@ -4110,7 +4338,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "AdaptLLM",
@@ -4125,7 +4354,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LMOps"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "Baichuan 2",
@@ -4143,7 +4373,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "PoSE",
@@ -4161,7 +4392,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/dwzhu/LLaMA-7B-PoSE-Linear-16k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BTLM-3B-8k",
@@ -4176,7 +4408,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cerebras/btlm-3b-8k-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Kosmos-2.5",
@@ -4188,7 +4421,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Nous-Capybara",
@@ -4203,7 +4437,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Nous-Capybara-7B-GGUF"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OpenChat",
@@ -4221,7 +4456,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/openchat/openchat_3.5"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Glaive-coder",
@@ -4236,7 +4472,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/glaiveai/glaive-coder-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LongLoRA",
@@ -4254,7 +4491,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Yukang/Llama-2-7b-longlora-100k-ft"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MetaMath",
@@ -4272,7 +4510,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/meta-math/MetaMath-7B-V1.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DeepSpeed-Ulysses",
@@ -4284,7 +4523,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "QA-LoRA",
@@ -4296,7 +4536,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mistral",
@@ -4314,7 +4555,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Qwen",
@@ -4332,7 +4574,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Qwen/Qwen-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Nous-Hermes",
@@ -4347,7 +4590,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Nous-Hermes-13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OpenHermes-2.5-Mistral",
@@ -4362,7 +4606,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "StableLM-3B-4E1T",
@@ -4380,7 +4625,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stabilityai/stablelm-3b-4e1t"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "StreamingLLM",
@@ -4395,7 +4641,8 @@
             "title": "GitHub",
             "url": "https://github.com/mit-han-lab/streaming-llm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MiniGPT-5",
@@ -4410,7 +4657,8 @@
             "title": "GitHub",
             "url": "https://github.com/eric-ai-lab/MiniGPT-5"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Kosmos-G",
@@ -4422,7 +4670,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "AgentInstruct",
@@ -4440,7 +4689,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/datasets/WangResearchLab/AgentInstruct"
-        }
+        },
+        "manual_validated": true
     },
     {
         "name": "LightSeq",
@@ -4455,7 +4705,8 @@
             "title": "GitHub",
             "url": "https://github.com/RulinShao/LightSeq"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FIRE",
@@ -4467,7 +4718,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "HyperAttention",
@@ -4479,7 +4731,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LLMLingua",
@@ -4494,7 +4747,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LLMLingua"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeFuse",
@@ -4512,7 +4766,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/codefuse-ai/CodeFuse-13B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LongLLMLingua",
@@ -4527,7 +4782,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LLMLingua"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LoftQ",
@@ -4545,7 +4801,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/LoftQ/Meta-Llama-3-8B-4bit-64rank"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MemGPT",
@@ -4560,7 +4817,8 @@
             "title": "GitHub",
             "url": "https://github.com/cpacker/MemGPT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Prometheus",
@@ -4575,7 +4833,8 @@
             "title": "GitHub",
             "url": "https://github.com/prometheus-eval/prometheus"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MiniGPT-v2",
@@ -4590,7 +4849,8 @@
             "title": "GitHub",
             "url": "https://github.com/Vision-CAIR/MiniGPT-4"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Llemma",
@@ -4608,7 +4868,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/EleutherAI/llemma_7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MistralLite",
@@ -4623,7 +4884,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/amazon/MistralLite"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "BitNet",
@@ -4635,7 +4897,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Fuyu",
@@ -4650,7 +4913,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/adept/fuyu-8b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "VeRA",
@@ -4662,7 +4926,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Monarch Mixer:",
@@ -4674,7 +4939,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Obsidian",
@@ -4689,7 +4955,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Obsidian-3B-V0.5"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "QMoE",
@@ -4704,7 +4971,8 @@
             "title": "GitHub",
             "url": "https://github.com/IST-DASLab/qmoe"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Zephyr",
@@ -4722,7 +4990,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CodeFusion",
@@ -4737,7 +5006,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/prose-benchmarks"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FP8-LM",
@@ -4752,7 +5022,8 @@
             "title": "GitHub",
             "url": "https://github.com/Azure/MS-AMP"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Deepseek Coder",
@@ -4770,7 +5041,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Punica",
@@ -4785,7 +5057,8 @@
             "title": "GitHub",
             "url": "https://github.com/punica-ai/punica"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ChipNeMo",
@@ -4797,7 +5070,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LeMa",
@@ -4812,7 +5086,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/CodeT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "TopicGPT",
@@ -4827,7 +5102,8 @@
             "title": "GitHub",
             "url": "https://github.com/chtmp223/topicGPT"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Simplified Transformers",
@@ -4842,7 +5118,8 @@
             "title": "GitHub",
             "url": "https://github.com/bobby-he/simplified_transformers"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LSS Transformer",
@@ -4854,7 +5131,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Octavius",
@@ -4866,7 +5144,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CogVLM",
@@ -4884,7 +5163,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/THUDM/CogVLM"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "S-LoRA",
@@ -4899,7 +5179,8 @@
             "title": "GitHub",
             "url": "https://github.com/S-LoRA/S-LoRA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LLM Decontaminator",
@@ -4914,7 +5195,8 @@
             "title": "GitHub",
             "url": "https://github.com/lm-sys/llm-decontaminator"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "LongQLoRA",
@@ -4929,7 +5211,8 @@
             "title": "GitHub",
             "url": "https://github.com/yangjianxin1/LongQLoRA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mirasol3B",
@@ -4941,7 +5224,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FlashFFTConv",
@@ -4956,7 +5240,8 @@
             "title": "GitHub",
             "url": "https://github.com/HazyResearch/flash-fft-conv"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MiniMA",
@@ -4974,7 +5259,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/GeneZC/MiniMA-3B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Neural-chat",
@@ -4992,7 +5278,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Intel/neural-chat-7b-v3-1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "UltraFastBERT",
@@ -5010,7 +5297,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/pbelcak/UltraFastBERT-1x11-long"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Tulu 2",
@@ -5028,7 +5316,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/allenai/tulu-2-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Orca 2",
@@ -5043,7 +5332,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/Orca-2-13b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LQ-LoRA",
@@ -5058,7 +5348,8 @@
             "title": "GitHub",
             "url": "https://github.com/HanGuo97/lq-lora"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "System 2 Attention",
@@ -5070,7 +5361,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Lookahead Decoding",
@@ -5085,7 +5377,8 @@
             "title": "GitHub",
             "url": "https://github.com/hao-ai-lab/LookaheadDecoding"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Inflection-2",
@@ -5097,7 +5390,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "QuIP",
@@ -5112,7 +5406,8 @@
             "title": "GitHub",
             "url": "https://github.com/Cornell-RelaxML/quip-sharp"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Starling",
@@ -5127,7 +5422,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/berkeley-nest/Starling-RM-7B-alpha"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Mamba",
@@ -5145,7 +5441,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/havenhq/mamba-chat"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Notus",
@@ -5163,7 +5460,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/argilla/notus-7b-v1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Magicoder",
@@ -5181,7 +5479,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/ise-uiuc/Magicoder-CL-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "RankZephyr",
@@ -5199,7 +5498,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/castorini/rank_vicuna_7b_v1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Xaberius",
@@ -5214,7 +5514,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/fblgit/una-xaberius-34b-v1beta"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OneLLM",
@@ -5232,7 +5533,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/csuhan/OneLLM-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "StableLM Zephyr",
@@ -5247,7 +5549,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stabilityai/stablelm-zephyr-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "EAGLE",
@@ -5259,7 +5562,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "StripedHyena",
@@ -5277,7 +5581,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/togethercomputer/StripedHyena-Hessian-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Amber",
@@ -5292,7 +5597,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/LLM360/Amber"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CrystalCoder",
@@ -5307,7 +5613,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/LLM360/CrystalCoder"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLM in a flash",
@@ -5319,7 +5626,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "phi-2",
@@ -5334,7 +5642,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/phi-2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SGLang",
@@ -5349,7 +5658,8 @@
             "title": "GitHub",
             "url": "https://github.com/sgl-project/sglang/"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SwitchHead",
@@ -5364,7 +5674,8 @@
             "title": "GitHub",
             "url": "https://github.com/robertcsordas/moe_attention"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Dolphin 2.5",
@@ -5379,7 +5690,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ZeroQuant",
@@ -5394,7 +5706,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/DeepSpeed"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PowerInfer",
@@ -5412,7 +5725,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PowerInfer/ReluLLaMA-7B-PowerInfer-GGUF"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Gemini",
@@ -5424,7 +5738,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "WhiteRabbitNeo",
@@ -5439,7 +5754,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/whiterabbitneo/WhiteRabbitNeo-33B-v1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MosaicBERT",
@@ -5457,7 +5773,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mosaicml/mosaic-bert-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLM Maybe LongLM",
@@ -5469,7 +5786,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SPIN",
@@ -5487,7 +5805,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/UCLA-AGI/zephyr-7b-sft-full-SPIN-iter0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLaMA Pro",
@@ -5505,7 +5824,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TencentARC/LLaMA-Pro-8B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "TinyLlama",
@@ -5523,7 +5843,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PY007/TinyLlama-1.1B-step-50K-105b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Deepseek LLM",
@@ -5541,7 +5862,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Genstruct",
@@ -5556,7 +5878,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Genstruct-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Infinite-LLM",
@@ -5568,7 +5891,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Activation Beacon",
@@ -5583,7 +5907,8 @@
             "title": "GitHub",
             "url": "https://github.com/FlagOpen/FlagEmbedding"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mixtral of Experts",
@@ -5601,7 +5926,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MoE-Mamba",
@@ -5616,7 +5942,8 @@
             "title": "GitHub",
             "url": "https://github.com/llm-random/llm-random"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "TeleChat",
@@ -5628,7 +5955,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Lightning Attention-2",
@@ -5643,7 +5971,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenNLPLab/lightning-attention"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "RoSA",
@@ -5658,7 +5987,8 @@
             "title": "GitHub",
             "url": "https://github.com/IST-DASLab/RoSA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MegaDolphin",
@@ -5673,7 +6003,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cognitivecomputations/MegaDolphin-120b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DeepSeekMoE",
@@ -5691,7 +6022,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Patchscopes",
@@ -5703,7 +6035,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mixtral Nous-Hermes",
@@ -5718,7 +6051,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "AlphaCodium",
@@ -5733,7 +6067,8 @@
             "title": "GitHub",
             "url": "https://github.com/Codium-ai/AlphaCodium"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Stable Code",
@@ -5748,7 +6083,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/stabilityai/stable-code-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ReFT",
@@ -5766,7 +6102,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/lqtrung1998/Codellama-7b-hf-ReFT-GSM8k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Stable LM 2",
@@ -5784,7 +6121,8 @@
         "weights": {
             "title": "Direct link",
             "url": "https://stability.ai/news/introducing-stable-lm-2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Imp",
@@ -5802,7 +6140,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/MILVLG/imp-v1-3b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MaLA-500",
@@ -5817,7 +6156,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/MaLA-LM/mala-500"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MambaByte",
@@ -5829,7 +6169,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MM-LLMs",
@@ -5841,7 +6182,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Snorkel AI",
@@ -5856,7 +6198,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SpacTor-T5",
@@ -5868,7 +6211,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "FP6-LLM",
@@ -5883,7 +6227,8 @@
             "title": "GitHub",
             "url": "https://github.com/usyd-fsalab/fp6_llm"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SliceGPT",
@@ -5898,7 +6243,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/TransformerCompression"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Eagle 7B",
@@ -5913,7 +6259,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/RWKV/v5-Eagle-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "H2O-Danube",
@@ -5928,7 +6275,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/h2oai/h2o-danube-1.8b-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "KVQuant",
@@ -5943,7 +6291,8 @@
             "title": "GitHub",
             "url": "https://github.com/SqueezeAILab/KVQuant/"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BlackMamba",
@@ -5961,7 +6310,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Zyphra/BlackMamba-1.5B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "OLMo",
@@ -5979,7 +6329,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/allenai/OLMo-1B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Tiny Titans",
@@ -5991,7 +6342,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Nomic Embed",
@@ -6009,7 +6361,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Smaug",
@@ -6024,7 +6377,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/abacusai/Smaug-72B-v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Qwen 1.5",
@@ -6042,7 +6396,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Qwen/Qwen1.5-0.5B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DeepSeekMath",
@@ -6060,7 +6415,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/deepseek-math-7b-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "RethinkTinyLM",
@@ -6075,7 +6431,8 @@
             "title": "GitHub",
             "url": "https://github.com/YuchuanTian/RethinkTinyLM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SQLCoder 2",
@@ -6093,7 +6450,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/defog/sqlcoder-7b-2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Self-Discover",
@@ -6105,7 +6463,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "e5",
@@ -6123,7 +6482,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/intfloat/e5-small-v2"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "InternLM-Math",
@@ -6141,7 +6501,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/internlm/internlm2-math-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DoRA",
@@ -6153,7 +6514,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GritLM",
@@ -6171,7 +6533,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/GritLM/GritLM-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LoRA+",
@@ -6186,7 +6549,8 @@
             "title": "GitHub",
             "url": "https://github.com/nikhil-ghosh-berkeley/loraplus"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Gemma",
@@ -6201,7 +6565,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/google/gemma-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LongRoPE",
@@ -6216,7 +6581,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/LongRoPE"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MobileLLM",
@@ -6228,7 +6594,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MegaScale",
@@ -6240,7 +6607,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Nemotron-4",
@@ -6252,7 +6620,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BitNet b1.58",
@@ -6264,7 +6633,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mistral Pro",
@@ -6279,7 +6649,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TencentARC/Mistral_Pro_8B_v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CLLMs (Consistency Large Language Models)",
@@ -6297,7 +6668,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cllm/consistency-llm-7b-sharegpt48k"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Griffin",
@@ -6309,7 +6681,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Resonance RoPE",
@@ -6324,7 +6697,8 @@
             "title": "GitHub",
             "url": "https://github.com/sheryc/resonance_rope"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "StarCoder-2",
@@ -6339,7 +6713,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/bigcode/starcoder2-15b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Claude 3",
@@ -6351,7 +6726,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Design2Code",
@@ -6366,7 +6742,8 @@
             "title": "GitHub",
             "url": "https://github.com/NoviScl/Design2Code"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GaLore",
@@ -6378,7 +6755,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SaulLM",
@@ -6393,7 +6771,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Equall/Saul-Base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "inflection-2.5",
@@ -6405,7 +6784,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Yi",
@@ -6423,7 +6803,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/01-ai/Yi-34B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DeepSpeed-FP6",
@@ -6438,7 +6819,8 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/DeepSpeed"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GEAR",
@@ -6453,7 +6835,8 @@
             "title": "GitHub",
             "url": "https://github.com/opengear-project/GEAR"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Command R",
@@ -6468,7 +6851,8 @@
             "title": "GitHub",
             "url": "https://huggingface.co/CohereForAI/c4ai-command-r-v01"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BTX (Branch-Train-MiX)",
@@ -6480,7 +6864,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "ORPO",
@@ -6498,7 +6883,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/kaist-ai/mistral-orpo-alpha"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ScatterMoE",
@@ -6513,7 +6899,8 @@
             "title": "GitHub",
             "url": "https://github.com/shawntan/scattermoe"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "BurstAttention",
@@ -6525,7 +6912,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DMC (Dynamic Memory Compression)",
@@ -6537,7 +6925,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MM1",
@@ -6549,7 +6938,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Quiet-STaR",
@@ -6561,7 +6951,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "GemMoE",
@@ -6573,7 +6964,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Idefics2",
@@ -6588,7 +6980,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/HuggingFaceM4/idefics2-8b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Pile-T5",
@@ -6603,7 +6996,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/EleutherAI/pile-t5-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Grok-1",
@@ -6618,7 +7012,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/xai-org/grok-1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Agent-FLAN",
@@ -6636,7 +7031,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/internlm/Agent-FLAN-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "FollowIR",
@@ -6654,7 +7050,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/jhu-clsp/FollowIR-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "LLM2LLM",
@@ -6669,7 +7066,8 @@
             "title": "GitHub",
             "url": "https://github.com/SqueezeAILab/LLM2LLM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "InternLM2",
@@ -6681,7 +7079,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "DBRX",
@@ -6699,7 +7098,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/databricks/dbrx-instruct"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Grok-1.5",
@@ -6711,7 +7111,24 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Jamba",
+        "year": 2024,
+        "publication": {
+            "title": "Jamba: A Hybrid Transformer-Mamba Language Model",
+            "url": "https://arxiv.org/abs/2403.19887",
+            "date_create": "2024-03-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs/Jamba-v0.1"
+        },
+        "manual_validated": false
     },
     {
         "name": "Qwen1.5-MoE",
@@ -6729,7 +7146,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Qwen/Qwen1.5-110B-Chat"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "DiJiang",
@@ -6744,7 +7162,8 @@
             "title": "GitHub",
             "url": "https://github.com/YuchuanTian/DiJiang"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Gecko",
@@ -6756,22 +7175,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
-    },
-    {
-        "name": "Jamba",
-        "year": 2024,
-        "publication": {
-            "title": "DiJiang: Efficient Large Language Models through Compact Kernelization",
-            "url": "https://arxiv.org/abs/2403.19928",
-            "date_create": "2024-03-29"
-        },
-        "video": null,
-        "code": null,
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/ai21labs/Jamba-v0.1"
-        }
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Transformer-Lite",
@@ -6783,7 +7188,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Aurora-M",
@@ -6798,7 +7204,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/aurora-m/aurora-m-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Mixture-of-Depths",
@@ -6810,7 +7217,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Poro",
@@ -6825,7 +7233,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/LumiOpen/Poro-34B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ChatGLM-Math",
@@ -6840,7 +7249,8 @@
             "title": "GitHub",
             "url": "https://github.com/THUDM/ChatGLM-Math"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LASP (Linear Attention Sequence Parallelism)",
@@ -6855,7 +7265,8 @@
             "title": "GitHub",
             "url": "https://github.com/OpenNLPLab/LASP"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PiSSA",
@@ -6873,7 +7284,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/fxmeng/PiSSA-Llama-3-8B-Instruct-r16"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Command R+",
@@ -6888,7 +7300,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/c4ai-command-r-plus"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ReFT (Representation Finetuning)",
@@ -6903,7 +7316,8 @@
             "title": "GitHub",
             "url": "https://github.com/stanfordnlp/pyreft"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Infini-Transformer",
@@ -6918,7 +7332,8 @@
             "title": "GitHub",
             "url": "https://github.com/dingo-actual/infini-transformer"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": true
     },
     {
         "name": "JetMoE",
@@ -6936,7 +7351,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/jetmoe/jetmoe-8b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Megalodon",
@@ -6951,7 +7367,8 @@
             "title": "GitHub",
             "url": "https://github.com/XuezheMax/megalodon"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "TransformerFAM",
@@ -6963,7 +7380,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Prepacking",
@@ -6978,7 +7396,8 @@
             "title": "GitHub",
             "url": "https://github.com/siyan-zhao/prepacking"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Mixtral 8x22B",
@@ -6993,7 +7412,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "decoupleQ",
@@ -7008,7 +7428,8 @@
             "title": "GitHub",
             "url": "https://github.com/bytedance/decoupleQ"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MoVA",
@@ -7023,7 +7444,8 @@
             "title": "GitHub",
             "url": "https://github.com/TempleX98/MoVA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "OpenELM",
@@ -7041,7 +7463,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/apple/OpenELM"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "phi-3",
@@ -7056,7 +7479,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/microsoft/Phi-3-mini-128k-instruct"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "SEED-X",
@@ -7074,7 +7498,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/AILab-CVC/SEED-X-17B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MH-MoE (Multi-Head Mixture-of-Experts)",
@@ -7086,7 +7511,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "NExT",
@@ -7098,7 +7524,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Snowflake Arctic",
@@ -7116,7 +7543,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Snowflake/snowflake-arctic-instruct"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "KAN (Kolmogorov-Arnold Networks)",
@@ -7131,7 +7559,8 @@
             "title": "GitHub",
             "url": "https://github.com/KindXiaoming/pykan"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Prometheus 2",
@@ -7149,7 +7578,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/prometheus-eval/prometheus-7b-v2.0"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "AlphaMath",
@@ -7167,7 +7597,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/MARIO-Math-Reasoning/AlphaMath-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "MAmmoTH2",
@@ -7185,7 +7616,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TIGER-Lab/MAmmoTH2-7B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Granite Code Models",
@@ -7203,7 +7635,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/ibm-granite/granite-3b-code-base"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "QServe",
@@ -7218,7 +7651,8 @@
             "title": "GitHub",
             "url": "https://github.com/mit-han-lab/qserve"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "vAttention",
@@ -7230,7 +7664,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "xLSTM",
@@ -7242,7 +7677,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Arctic-Embed",
@@ -7260,7 +7696,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-xs"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "YOCO",
@@ -7272,7 +7709,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CuMo",
@@ -7290,7 +7728,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/shi-labs/CuMo-mistral-7b"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "ZeTT (Zero-Shot Tokenizer Transfer)",
@@ -7305,7 +7744,8 @@
             "title": "GitHub",
             "url": "https://github.com/bminixhofer/zett"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Chameleon",
@@ -7317,7 +7757,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "LCKV (Layer-Condensed KV Cache)",
@@ -7332,7 +7773,8 @@
             "title": "GitHub",
             "url": "https://github.com/whyNLP/LCKV"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "MoRA",
@@ -7347,7 +7789,8 @@
             "title": "GitHub",
             "url": "https://github.com/kongds/MoRA"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CLA (Cross-Layer Attention)",
@@ -7359,7 +7802,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "PyramidInfer",
@@ -7371,7 +7815,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "SirLLM",
@@ -7386,7 +7831,8 @@
             "title": "GitHub",
             "url": "https://github.com/Zoeyyao27/SirLLM"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Wav-KAN",
@@ -7401,7 +7847,8 @@
             "title": "GitHub",
             "url": "https://github.com/zavareh1/Wav-KAN"
         },
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Aya 23",
@@ -7416,7 +7863,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/aya-23-8B"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Yuan 2.0-M32",
@@ -7434,7 +7882,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/IEITYuan/Yuan2-M32-hf"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "Codestral",
@@ -7449,7 +7898,8 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Codestral-22B-v0.1"
-        }
+        },
+        "manual_validated": false
     },
     {
         "name": "CoPE (Contextual Position Encoding)",
@@ -7461,7 +7911,8 @@
         },
         "video": null,
         "code": null,
-        "weights": null
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "CodeQwen1.5",
@@ -7479,6 +7930,7 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat"
-        }
+        },
+        "manual_validated": false
     }
 ]
