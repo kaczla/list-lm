@@ -195,6 +195,9 @@ class GUIApp:
                 tk.Label(self.main_frame, text=data.title).pack()
                 if isinstance(data, ArticleData):
                     tk.Label(self.main_frame, text=f"({convert_date_to_string(data.date_create)})").pack()
+                    date_now = datetime.now().date()
+                    if data.date_create == date_now:
+                        tk.Label(self.main_frame, text="(THE DATE IS TODAY)", foreground="red").pack()
                 tk.Label(self.main_frame, text=data.url).pack()
 
         label_status = tk.Label(self.main_frame, text="")
