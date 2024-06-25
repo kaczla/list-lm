@@ -1404,6 +1404,12 @@
   - Code: [GitHub](https://github.com/meta-math/MetaMath)
   - Model weights: [HuggingFace models](https://huggingface.co/meta-math/MetaMath-7B-V1.0)
 
+- BAMBOO
+  - Year: 2023
+  - Publication: [BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models](https://arxiv.org/abs/2309.13345) (2023-09-23)
+  - Code: [GitHub](https://github.com/RUCAIBox/BAMBOO)
+  - Model weights: [HuggingFace models](https://huggingface.co/PowerInfer/Bamboo-base-v0_1)
+
 - DeepSpeed-Ulysses
   - Year: 2023
   - Publication: [DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models](https://arxiv.org/abs/2309.14509) (2023-09-25)
@@ -2338,6 +2344,10 @@
   - Publication: [Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models](https://arxiv.org/abs/2404.09529) (2024-04-15)
   - Code: [GitHub](https://github.com/siyan-zhao/prepacking)
 
+- Zamba
+  - Year: 2024
+  - Publication: [X: Zamba-7B](https://x.com/QuentinAnthon15/status/1780280071304937978) (2024-04-16)
+
 - K2
   - Year: 2024
   - Publication: [Direct link - LLM360 K2-65B: Scaling Up Fully Transparent Open-Source LLMs](https://www.llm360.ai/paper2.pdf) (2024-04-17)
@@ -2490,6 +2500,11 @@
   - Publication: [Layer-Condensed KV Cache for Efficient Inference of Large Language Models](https://arxiv.org/abs/2405.10637) (2024-05-17)
   - Code: [GitHub](https://github.com/whyNLP/LCKV)
 
+- SLAB
+  - Year: 2024
+  - Publication: [SLAB: Efficient Transformers with Simplified Linear Attention and Progressive Re-parameterized Batch Normalization](https://arxiv.org/abs/2405.11582) (2024-05-19)
+  - Code: [GitHub](https://github.com/xinghaochen/SLAB)
+
 - MoRA
   - Year: 2024
   - Publication: [MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2405.12130) (2024-05-20)
@@ -2517,15 +2532,45 @@
   - Year: 2024
   - Publication: [Attention as an RNN](https://arxiv.org/abs/2405.13956) (2024-05-22)
 
+- Dense Connector
+  - Year: 2024
+  - Publication: [Dense Connector for MLLMs](https://arxiv.org/abs/2405.13800) (2024-05-22)
+  - Code: [GitHub](https://github.com/HJYao00/DenseConnector)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuanjinYao/DenseConnector-v1.5-7B)
+
+- AlignGPT
+  - Year: 2024
+  - Publication: [AlignGPT: Multi-modal Large Language Models with Adaptive Alignment Capability](https://arxiv.org/abs/2405.14129) (2024-05-23)
+  - Code: [GitHub](https://github.com/AlignGPT-VL/AlignGPT)
+  - Model weights: [HuggingFace models](https://huggingface.co/nlpzhaof/aligngpt-7b)
+
 - Aya 23
   - Year: 2024
   - Publication: [Aya 23: Open Weight Releases to Further Multilingual Progress](https://arxiv.org/abs/2405.15032) (2024-05-23)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/aya-23-8B)
 
+- LLM-Stacking
+  - Year: 2024
+  - Publication: [Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training](https://arxiv.org/abs/2405.15319) (2024-05-24)
+  - Code: [GitHub](https://github.com/tongxuluo/prts)
+  - Model weights: [HuggingFace models](https://huggingface.co/llm-stacking/StackingLaw_Factor_1.1B12L)
+
 - Abacus Embeddings
   - Year: 2024
   - Publication: [Transformers Can Do Arithmetic with the Right Embeddings](https://arxiv.org/abs/2405.17399) (2024-05-27)
   - Code: [GitHub](https://github.com/mcleish7/arithmetic)
+
+- Trans-LoRA
+  - Year: 2024
+  - Publication: [$\textit{Trans-LoRA}$: towards data-free Transferable Parameter Efficient Finetuning](https://arxiv.org/abs/2405.17258) (2024-05-27)
+
+- LLaMA-NAS
+  - Year: 2024
+  - Publication: [LLaMA-NAS: Efficient Neural Architecture Search for Large Language Models](https://arxiv.org/abs/2405.18377) (2024-05-28)
+
+- VeLoRA
+  - Year: 2024
+  - Publication: [VeLoRA: Memory Efficient Training using Rank-1 Sub-Token Projections](https://arxiv.org/abs/2405.17991) (2024-05-28)
 
 - Yuan 2.0-M32
   - Year: 2024
@@ -2552,8 +2597,87 @@
   - Year: 2024
   - Publication: [Blog - Gemini 1.5 Pro and 1.5 Flash GA, 1.5 Flash tuning support, higher rate limits, and more API updates](https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/) (2024-05-30)
 
+- Mamba-2
+  - Year: 2024
+  - Publication: [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060) (2024-05-31)
+  - Code: [GitHub](https://github.com/state-spaces/mamba)
+
 - CodeQwen1.5
   - Year: 2024
   - Publication: [Blog - Code with CodeQwen1.5](https://qwenlm.github.io/blog/codeqwen1.5/) (2024-06-02)
   - Code: [GitHub](https://github.com/QwenLM/CodeQwen1.5)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)
+
+- MatMul-free
+  - Year: 2024
+  - Publication: [Scalable MatMul-free Language Modeling](https://arxiv.org/abs/2406.02528) (2024-06-04)
+  - Code: [GitHub](https://github.com/ridgerchu/matmulfreellm)
+  - Model weights: [HuggingFace models](https://huggingface.co/ridger/MMfreeLM-370M)
+
+- MoA (Mixture-of-Agents)
+  - Year: 2024
+  - Publication: [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692) (2024-06-07)
+  - Code: [GitHub](https://github.com/togethercomputer/moa)
+
+- Qwen2
+  - Year: 2024
+  - Publication: [Blog - Hello Qwen2](https://qwenlm.github.io/blog/qwen2/) (2024-06-07)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2-7B-Instruct)
+
+- PowerInfer-2
+  - Year: 2024
+  - Publication: [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/abs/2406.06282) (2024-06-10)
+  - Code: [GitHub](https://github.com/SJTU-IPADS/PowerInfer)
+
+- ShiftAddLLM
+  - Year: 2024
+  - Publication: [ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization](https://arxiv.org/abs/2406.05981) (2024-06-10)
+  - Code: [GitHub](https://github.com/GATECH-EIC/ShiftAddLLM)
+
+- Turbo Sparse
+  - Year: 2024
+  - Publication: [Turbo Sparse: Achieving LLM SOTA Performance with Minimal Activated Parameters](https://arxiv.org/abs/2406.05955) (2024-06-10)
+  - Model weights: [HuggingFace models](https://huggingface.co/PowerInfer/TurboSparse-Mistral-Instruct)
+
+- Linearized-LLM
+  - Year: 2024
+  - Publication: [When Linear Attention Meets Autoregressive Decoding: Towards More Effective and Efficient Linearized Large Language Models](https://arxiv.org/abs/2406.07368) (2024-06-11)
+  - Code: [GitHub](https://github.com/GATECH-EIC/Linearized-LLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/LinearizedLLM/llama-2-7b-aug-linear)
+
+- Mamba-based LM
+  - Year: 2024
+  - Publication: [An Empirical Study of Mamba-based Language Models](https://arxiv.org/abs/2406.07887) (2024-06-12)
+
+- MLKV (Multi-Layer Key-Value Heads)
+  - Year: 2024
+  - Publication: [MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding](https://arxiv.org/abs/2406.09297) (2024-06-13)
+  - Code: [GitHub](https://github.com/zaydzuhri/pythia-mlkv)
+
+- DeepSeek-Coder-V2
+  - Year: 2024
+  - Publication: [DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence](https://arxiv.org/abs/2406.11931) (2024-06-17)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-Coder-V2)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base)
+
+- ERASE
+  - Year: 2024
+  - Publication: [Language Modeling with Editable External Knowledge](https://arxiv.org/abs/2406.11830) (2024-06-17)
+  - Code: [GitHub](https://github.com/belindal/ERASE)
+
+- GLM-4
+  - Year: 2024
+  - Publication: [ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools](https://arxiv.org/abs/2406.12793) (2024-06-18)
+  - Code: [GitHub](https://github.com/THUDM/GLM-4)
+  - Model weights: [HuggingFace models](https://huggingface.co/THUDM/glm-4-9b-chat)
+
+- LayerMerge
+  - Year: 2024
+  - Publication: [LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging](https://arxiv.org/abs/2406.12837) (2024-06-18)
+  - Code: [GitHub](https://github.com/snu-mllab/LayerMerge)
+
+- DeciMamba
+  - Year: 2024
+  - Publication: [DeciMamba: Exploring the Length Extrapolation Potential of Mamba](https://arxiv.org/abs/2406.14528) (2024-06-20)
+  - Code: [GitHub](https://github.com/assafbk/DeciMamba)

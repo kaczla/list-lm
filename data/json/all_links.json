@@ -1197,6 +1197,13 @@
         "manual_validated": false
     },
     {
+        "name": "MatMul-Free LM",
+        "description": "MatMul-Free LM is a language model architecture that eliminates the need for Matrix Multiplication (MatMul) operations.",
+        "url": "https://github.com/ridgerchu/matmulfreellm",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "MaxText",
         "description": "MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.",
         "url": "https://github.com/google/maxtext",

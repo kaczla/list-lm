@@ -4492,6 +4492,25 @@
         "manual_validated": false
     },
     {
+        "name": "BAMBOO",
+        "year": 2023,
+        "publication": {
+            "title": "BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models",
+            "url": "https://arxiv.org/abs/2309.13345",
+            "date_create": "2023-09-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/RUCAIBox/BAMBOO"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PowerInfer/Bamboo-base-v0_1"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "DeepSpeed-Ulysses",
         "year": 2023,
         "publication": {
@@ -7480,6 +7499,19 @@
         "manual_validated": false
     },
     {
+        "name": "Zamba",
+        "year": 2024,
+        "publication": {
+            "title": "X: Zamba-7B",
+            "url": "https://x.com/QuentinAnthon15/status/1780280071304937978",
+            "date_create": "2024-04-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "K2",
         "year": 2024,
         "publication": {
@@ -7965,6 +7997,22 @@
         "manual_validated": false
     },
     {
+        "name": "SLAB",
+        "year": 2024,
+        "publication": {
+            "title": "SLAB: Efficient Transformers with Simplified Linear Attention and Progressive Re-parameterized Batch Normalization",
+            "url": "https://arxiv.org/abs/2405.11582",
+            "date_create": "2024-05-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/xinghaochen/SLAB"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "MoRA",
         "year": 2024,
         "publication": {
@@ -8052,6 +8100,44 @@
         "manual_validated": false
     },
     {
+        "name": "Dense Connector",
+        "year": 2024,
+        "publication": {
+            "title": "Dense Connector for MLLMs",
+            "url": "https://arxiv.org/abs/2405.13800",
+            "date_create": "2024-05-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HJYao00/DenseConnector"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuanjinYao/DenseConnector-v1.5-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "AlignGPT",
+        "year": 2024,
+        "publication": {
+            "title": "AlignGPT: Multi-modal Large Language Models with Adaptive Alignment Capability",
+            "url": "https://arxiv.org/abs/2405.14129",
+            "date_create": "2024-05-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/AlignGPT-VL/AlignGPT"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nlpzhaof/aligngpt-7b"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Aya 23",
         "year": 2024,
         "publication": {
@@ -8064,6 +8150,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereForAI/aya-23-8B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "LLM-Stacking",
+        "year": 2024,
+        "publication": {
+            "title": "Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training",
+            "url": "https://arxiv.org/abs/2405.15319",
+            "date_create": "2024-05-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tongxuluo/prts"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/llm-stacking/StackingLaw_Factor_1.1B12L"
         },
         "manual_validated": false
     },
@@ -8082,6 +8187,45 @@
         },
         "weights": null,
         "manual_validated": true
+    },
+    {
+        "name": "Trans-LoRA",
+        "year": 2024,
+        "publication": {
+            "title": "$\\textit{Trans-LoRA}$: towards data-free Transferable Parameter Efficient Finetuning",
+            "url": "https://arxiv.org/abs/2405.17258",
+            "date_create": "2024-05-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "LLaMA-NAS",
+        "year": 2024,
+        "publication": {
+            "title": "LLaMA-NAS: Efficient Neural Architecture Search for Large Language Models",
+            "url": "https://arxiv.org/abs/2405.18377",
+            "date_create": "2024-05-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "VeLoRA",
+        "year": 2024,
+        "publication": {
+            "title": "VeLoRA: Memory Efficient Training using Rank-1 Sub-Token Projections",
+            "url": "https://arxiv.org/abs/2405.17991",
+            "date_create": "2024-05-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
     },
     {
         "name": "Yuan 2.0-M32",
@@ -8164,6 +8308,22 @@
         "manual_validated": false
     },
     {
+        "name": "Mamba-2",
+        "year": 2024,
+        "publication": {
+            "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+            "url": "https://arxiv.org/abs/2405.21060",
+            "date_create": "2024-05-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/state-spaces/mamba"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "CodeQwen1.5",
         "year": 2024,
         "publication": {
@@ -8180,6 +8340,242 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "MatMul-free",
+        "year": 2024,
+        "publication": {
+            "title": "Scalable MatMul-free Language Modeling",
+            "url": "https://arxiv.org/abs/2406.02528",
+            "date_create": "2024-06-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ridgerchu/matmulfreellm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ridger/MMfreeLM-370M"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "MoA (Mixture-of-Agents)",
+        "year": 2024,
+        "publication": {
+            "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+            "url": "https://arxiv.org/abs/2406.04692",
+            "date_create": "2024-06-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/togethercomputer/moa"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Hello Qwen2",
+            "url": "https://qwenlm.github.io/blog/qwen2/",
+            "date_create": "2024-06-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "PowerInfer-2",
+        "year": 2024,
+        "publication": {
+            "title": "PowerInfer-2: Fast Large Language Model Inference on a Smartphone",
+            "url": "https://arxiv.org/abs/2406.06282",
+            "date_create": "2024-06-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SJTU-IPADS/PowerInfer"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "ShiftAddLLM",
+        "year": 2024,
+        "publication": {
+            "title": "ShiftAddLLM: Accelerating Pretrained LLMs via Post-Training Multiplication-Less Reparameterization",
+            "url": "https://arxiv.org/abs/2406.05981",
+            "date_create": "2024-06-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/GATECH-EIC/ShiftAddLLM"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Turbo Sparse",
+        "year": 2024,
+        "publication": {
+            "title": "Turbo Sparse: Achieving LLM SOTA Performance with Minimal Activated Parameters",
+            "url": "https://arxiv.org/abs/2406.05955",
+            "date_create": "2024-06-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PowerInfer/TurboSparse-Mistral-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Linearized-LLM",
+        "year": 2024,
+        "publication": {
+            "title": "When Linear Attention Meets Autoregressive Decoding: Towards More Effective and Efficient Linearized Large Language Models",
+            "url": "https://arxiv.org/abs/2406.07368",
+            "date_create": "2024-06-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/GATECH-EIC/Linearized-LLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LinearizedLLM/llama-2-7b-aug-linear"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mamba-based LM",
+        "year": 2024,
+        "publication": {
+            "title": "An Empirical Study of Mamba-based Language Models",
+            "url": "https://arxiv.org/abs/2406.07887",
+            "date_create": "2024-06-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": true
+    },
+    {
+        "name": "MLKV (Multi-Layer Key-Value Heads)",
+        "year": 2024,
+        "publication": {
+            "title": "MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding",
+            "url": "https://arxiv.org/abs/2406.09297",
+            "date_create": "2024-06-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zaydzuhri/pythia-mlkv"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-Coder-V2",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence",
+            "url": "https://arxiv.org/abs/2406.11931",
+            "date_create": "2024-06-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-Coder-V2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "ERASE",
+        "year": 2024,
+        "publication": {
+            "title": "Language Modeling with Editable External Knowledge",
+            "url": "https://arxiv.org/abs/2406.11830",
+            "date_create": "2024-06-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/belindal/ERASE"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-4",
+        "year": 2024,
+        "publication": {
+            "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+            "url": "https://arxiv.org/abs/2406.12793",
+            "date_create": "2024-06-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/GLM-4"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/THUDM/glm-4-9b-chat"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "LayerMerge",
+        "year": 2024,
+        "publication": {
+            "title": "LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging",
+            "url": "https://arxiv.org/abs/2406.12837",
+            "date_create": "2024-06-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/snu-mllab/LayerMerge"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeciMamba",
+        "year": 2024,
+        "publication": {
+            "title": "DeciMamba: Exploring the Length Extrapolation Potential of Mamba",
+            "url": "https://arxiv.org/abs/2406.14528",
+            "date_create": "2024-06-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/assafbk/DeciMamba"
+        },
+        "weights": null,
         "manual_validated": false
     }
 ]

@@ -41,6 +41,7 @@
 - [LMQuant](https://github.com/mit-han-lab/lmquant) - LMQuant is an open source large foundation models quantization toolbox based on PyTorch. LMQuant is implemented by QServe, an efficient GPU inference library.
 - [LongQLoRA](https://github.com/yangjianxin1/LongQLoRA) - LongQLoRA is a memory-efficient and effective method to extend context length of Large Language Models with less training GPUs.
 - [LongT5](https://github.com/google-research/longt5) - LongT5 is an extension of the T5 model that handles long sequence inputs more efficiently.
+- [MatMul-Free LM](https://github.com/ridgerchu/matmulfreellm) - MatMul-Free LM is a language model architecture that eliminates the need for Matrix Multiplication (MatMul) operations.
 - [MaxText](https://github.com/google/maxtext) - MaxText is a high performance, arbitrarily scalable, open-source, simple, easily forkable, well-tested, batteries included LLM written in pure Python/Jax and targeting Google Cloud TPUs.
 - [MegaBlocks](https://github.com/stanford-futuredata/megablocks) - MegaBlocks is a light-weight library for mixture-of-experts (MoE) training.
 - [mergekit](https://github.com/arcee-ai/mergekit) - mergekit is a toolkit for merging pre-trained language models. mergekit uses an out-of-core approach to perform unreasonably elaborate merges in resource-constrained situations. Merges can be run entirely on CPU or accelerated with as little as 8 GB of VRAM.
