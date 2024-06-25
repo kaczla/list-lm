@@ -31,7 +31,7 @@ class AutoAddLMGUIApp:
         self.clear_main_frame()
         ollama_is_available = self.parser.ollama_client.is_available()
         if not ollama_is_available:
-            label_model_name = tk.Label(self.main_frame, text="Ollama is unavailable.")
+            label_model_name = tk.Label(self.main_frame, text="Ollama is unavailable.", fg="red")
             label_model_name.pack()
         else:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
