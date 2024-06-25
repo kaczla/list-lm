@@ -16,34 +16,34 @@ isort==5.13.2
     # via -r list_lm/requirements.in
 lxml==5.2.2
     # via -r list_lm/requirements.in
-mypy==1.10.0
+mypy==1.10.1
     # via -r list_lm/requirements.in
 mypy-extensions==1.0.0
     # via
     #   black
     #   mypy
-packaging==24.0
+packaging==24.1
     # via black
 pathspec==0.12.1
     # via black
 platformdirs==4.2.2
     # via black
-pydantic==2.7.2
+pydantic==2.7.4
     # via -r list_lm/requirements.in
-pydantic-core==2.18.3
+pydantic-core==2.18.4
     # via pydantic
-requests==2.31.0
+requests==2.32.3
     # via -r list_lm/requirements.in
-ruff==0.4.7
+ruff==0.4.10
     # via -r list_lm/requirements.in
-types-requests==2.31.0.20240406
+types-requests==2.32.0.20240622
     # via -r list_lm/requirements.in
-typing-extensions==4.12.1
+typing-extensions==4.12.2
     # via
     #   mypy
     #   pydantic
     #   pydantic-core
-urllib3==2.2.1
+urllib3==2.2.2
     # via
     #   requests
     #   types-requests
