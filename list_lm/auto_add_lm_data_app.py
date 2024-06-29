@@ -4,7 +4,7 @@ from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
-from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, get_model_info_sort_key
+from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, UnsupportedUrl, get_model_info_sort_key
 from list_lm.data_manager import DataManager
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.parser_lm_data import ParserLMData
@@ -30,22 +30,24 @@ class AutoAddLMGUIApp:
 
     def add_lm_urls_frame(self) -> None:
         self.clear_main_frame()
+        option_model_name = ttk.Combobox(self.main_frame)
         ollama_is_available = self.parser.ollama_client.is_available()
         if not ollama_is_available:
-            label_model_name = tk.Label(self.main_frame, text="Ollama is unavailable.", fg="red")
-            label_model_name.pack()
+            self.show_text_frame("Ollama is unavailable!", color="red")
+            return
         else:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
             label_model_name.pack()
+
             model_names = self.parser.ollama_client.get_model_list()
+            if not model_names:
+                self.show_text_frame("Missing model in ollama service!", color="red")
+                return
+
             selected_value = ""
-            if model_names:
-                if self.DEFAULT_MODEL_NAME in model_names:
-                    selected_value = self.DEFAULT_MODEL_NAME
-                else:
-                    selected_value = ""
-                    model_names.insert(0, "")
-            option_model_name = ttk.Combobox(self.main_frame)
+            if self.DEFAULT_MODEL_NAME in model_names:
+                selected_value = self.DEFAULT_MODEL_NAME
+
             option_model_name["values"] = model_names
             option_model_name.set(selected_value)
             option_model_name.pack()
@@ -60,15 +62,13 @@ class AutoAddLMGUIApp:
             text="Process",
             command=lambda: self.process_lm_urls_status_frame(
                 urls=text_urls.get(1.0, "end-1c").split("\n"),
-                ollama_model_name=(
-                    (option_model_name.get() if option_model_name.get() else None) if ollama_is_available else None
-                ),
+                ollama_model_name=option_model_name.get(),
             ),
         )
         button_process.pack()
         self.main_frame.pack()
 
-    def process_lm_urls_status_frame(self, urls: list[str], ollama_model_name: str | None) -> None:
+    def process_lm_urls_status_frame(self, urls: list[str], ollama_model_name: str) -> None:
         # Remove empty and duplicated URLs
         urls = self.parser.remove_duplicates([url for url in urls if url.strip()])
         if not urls:
@@ -123,11 +123,11 @@ class AutoAddLMGUIApp:
                 continue
 
             LOGGER.info(f"Processing LM data from URL: {url}")
-            suggested_model_info = self.parser.parse_url(url, ollama_model_name)
-            if suggested_model_info:
-                suggested_model_info_list.append(suggested_model_info)
-            else:
+            parsed_output = self.parser.parse_url(url, ollama_model_name)
+            if isinstance(parsed_output, UnsupportedUrl):
                 not_parsed_urls.append(url)
+            else:
+                suggested_model_info_list.append(parsed_output)
             # Update progress bar
             update_progress_bar(url_number)
             # Update invalid ULRs
@@ -366,9 +366,9 @@ class AutoAddLMGUIApp:
 
         self.main_frame.pack()
 
-    def show_text_frame(self, text: str) -> None:
+    def show_text_frame(self, text: str, color: str = "black") -> None:
         self.clear_main_frame()
-        label_title = tk.Label(self.main_frame, text=text, font="bold")
+        label_title = tk.Label(self.main_frame, text=text, font="bold", fg=color)
         label_title.pack()
         button_add_lm = tk.Button(self.main_frame, text="Add LM data", command=lambda: self.add_lm_urls_frame())
         button_add_lm.pack()

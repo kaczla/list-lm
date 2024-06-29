@@ -116,6 +116,14 @@ class CacheArticleData(BaseModel):
     url_to_article_data: dict[str, ArticleDataExtended]
 
 
+class UnsupportedUrl(BaseModel):
+    url: str
+
+
+class UnparsedUrl(UnsupportedUrl):
+    message: str
+
+
 def get_model_info_sort_key(data: ModelInfo) -> tuple[date, str]:
     return data.publication.date_create, data.name.lower()
 
