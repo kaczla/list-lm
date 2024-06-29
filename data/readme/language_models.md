@@ -2681,3 +2681,13 @@
   - Year: 2024
   - Publication: [DeciMamba: Exploring the Length Extrapolation Potential of Mamba](https://arxiv.org/abs/2406.14528) (2024-06-20)
   - Code: [GitHub](https://github.com/assafbk/DeciMamba)
+
+- EAGLE-2
+  - Year: 2024
+  - Publication: [EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees](https://arxiv.org/abs/2406.16858) (2024-06-24)
+  - Code: [GitHub](https://github.com/SafeAILab/EAGLE)
+
+- Gemma 2
+  - Year: 2024
+  - Publication: [Blog - Gemma 2 is now available to researchers and developers](https://blog.google/technology/developers/google-gemma-2/) (2024-06-27)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/gemma-2-9b-it)

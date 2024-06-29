@@ -35,8 +35,8 @@ class ParserLMData:
     def auto_parse_arxiv(self, url: str, ollama_model_name: str | None) -> SuggestedModelInfo:
         article_data = parse_arxiv(url, caching=self.enable_caching)
         model_names = self.get_model_names_from_arxiv_data(article_data)
-        prompt = get_model_name_prompt(article_data.title, article_data.abstract if article_data.abstract else "")
         if ollama_model_name:
+            prompt = get_model_name_prompt(article_data.title, article_data.abstract if article_data.abstract else "")
             model_name = self.ollama_client.generate(ollama_model_name, prompt)
             model_names.append(model_name)
         model_names = self.remove_duplicates(model_names)

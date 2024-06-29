@@ -16,6 +16,7 @@ LOGGER = logging.getLogger(__name__)
 class AutoAddLMGUIApp:
     DATA_JSON_PATH = Path("data/json")
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
+    DEFAULT_MODEL_NAME = "llama3:latest"
 
     def __init__(self) -> None:
         self.parser = ParserLMData()
@@ -24,7 +25,7 @@ class AutoAddLMGUIApp:
         self.main = tk.Tk()
         self.main.title("Auto add LM - GUI App")
         self.main.geometry("850x650+700+200")
-        self.main_frame = tk.Frame()
+        self.main_frame = tk.Frame(self.main)
         self.add_lm_urls_frame()
 
     def add_lm_urls_frame(self) -> None:
@@ -37,11 +38,16 @@ class AutoAddLMGUIApp:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
             label_model_name.pack()
             model_names = self.parser.ollama_client.get_model_list()
+            selected_value = ""
             if model_names:
-                model_names.insert(0, "")
-            model_name_value = tk.StringVar()
-            option_model_name = ttk.Combobox(self.main_frame, textvariable=model_name_value)
+                if self.DEFAULT_MODEL_NAME in model_names:
+                    selected_value = self.DEFAULT_MODEL_NAME
+                else:
+                    selected_value = ""
+                    model_names.insert(0, "")
+            option_model_name = ttk.Combobox(self.main_frame)
             option_model_name["values"] = model_names
+            option_model_name.set(selected_value)
             option_model_name.pack()
 
         label_urls = tk.Label(self.main_frame, text="URLs to process:")
@@ -65,6 +71,10 @@ class AutoAddLMGUIApp:
     def process_lm_urls_status_frame(self, urls: list[str], ollama_model_name: str | None) -> None:
         # Remove empty and duplicated URLs
         urls = self.parser.remove_duplicates([url for url in urls if url.strip()])
+        if not urls:
+            self.show_text_frame("Nothing to process!")
+            return
+
         suggested_model_info_list: list[SuggestedModelInfo] = []
         not_parsed_urls: list[str] = []
         duplicated_urls: list[str] = []
@@ -72,7 +82,7 @@ class AutoAddLMGUIApp:
         self.clear_main_frame()
         label_title = tk.Label(self.main_frame, text=f"Processing {len(urls)} URLs")
         label_title.pack()
-        progress_bar_step = 100.0 / float(len(urls))
+        progress_bar_step = 100.0 / float(len(urls)) if urls else 100.0
         progress_bar = ttk.Progressbar(self.main_frame, orient="horizontal", mode="determinate", length=250)
         progress_bar.pack()
         label_status = tk.Label(self.main_frame, text="Processing...")
@@ -145,13 +155,13 @@ class AutoAddLMGUIApp:
         suggested_model_info_list: list[SuggestedModelInfo],
         selected_data: SuggestedModelInfo | None = None,
     ) -> None:
+        if not suggested_model_info_list:
+            self.show_text_frame("Everything done")
+            return
+
         self.clear_main_frame()
         label_title = tk.Label(self.main_frame, text=f"{len(suggested_model_info_list)} models to verify:", font="bold")
         label_title.pack()
-        if not suggested_model_info_list:
-            label_title.config(text="Everything done")
-            self.main_frame.pack()
-            return
 
         title_to_suggested_model_info = {
             suggested_model_info.article_data.title: suggested_model_info
@@ -356,9 +366,17 @@ class AutoAddLMGUIApp:
 
         self.main_frame.pack()
 
+    def show_text_frame(self, text: str) -> None:
+        self.clear_main_frame()
+        label_title = tk.Label(self.main_frame, text=text, font="bold")
+        label_title.pack()
+        button_add_lm = tk.Button(self.main_frame, text="Add LM data", command=lambda: self.add_lm_urls_frame())
+        button_add_lm.pack()
+        self.main_frame.pack()
+
     def clear_main_frame(self) -> None:
         self.main_frame.destroy()
-        self.main_frame = tk.Frame()
+        self.main_frame = tk.Frame(self.main)
 
     def run(self) -> None:
         self.main.mainloop()

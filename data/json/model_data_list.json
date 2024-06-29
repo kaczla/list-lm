@@ -8577,5 +8577,37 @@
         },
         "weights": null,
         "manual_validated": false
+    },
+    {
+        "name": "EAGLE-2",
+        "year": 2024,
+        "publication": {
+            "title": "EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees",
+            "url": "https://arxiv.org/abs/2406.16858",
+            "date_create": "2024-06-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SafeAILab/EAGLE"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemma 2",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Gemma 2 is now available to researchers and developers",
+            "url": "https://blog.google/technology/developers/google-gemma-2/",
+            "date_create": "2024-06-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/gemma-2-9b-it"
+        },
+        "manual_validated": false
     }
 ]
