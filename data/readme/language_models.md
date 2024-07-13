@@ -1147,6 +1147,11 @@
   - Code: [GitHub](https://github.com/DAMO-NLP-MT/PolyLM)
   - Model weights: [HuggingFace models](https://huggingface.co/DAMO-NLP-MT/polylm-13b)
 
+- FlashAttention-2
+  - Year: 2023
+  - Publication: [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/abs/2307.08691) (2023-07-17)
+  - Code: [GitHub](https://github.com/Dao-AILab/flash-attention)
+
 - RetNet
   - Year: 2023
   - Publication: [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621) (2023-07-17)
@@ -2422,6 +2427,10 @@
   - Publication: [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756) (2024-04-30)
   - Code: [GitHub](https://github.com/KindXiaoming/pykan)
 
+- Multi-token Prediction
+  - Year: 2024
+  - Publication: [Better & Faster Large Language Models via Multi-token Prediction](https://arxiv.org/abs/2404.19737) (2024-04-30)
+
 - Prometheus 2
   - Year: 2024
   - Publication: [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://arxiv.org/abs/2405.01535) (2024-05-02)
@@ -2608,6 +2617,11 @@
   - Code: [GitHub](https://github.com/QwenLM/CodeQwen1.5)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)
 
+- Block Transformer
+  - Year: 2024
+  - Publication: [Block Transformer: Global-to-Local Language Modeling for Fast Inference](https://arxiv.org/abs/2406.02657) (2024-06-04)
+  - Code: [GitHub](https://github.com/itsnamgyu/block-transformer)
+
 - MatMul-free
   - Year: 2024
   - Publication: [Scalable MatMul-free Language Modeling](https://arxiv.org/abs/2406.02528) (2024-06-04)
@@ -2687,7 +2701,40 @@
   - Publication: [EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees](https://arxiv.org/abs/2406.16858) (2024-06-24)
   - Code: [GitHub](https://github.com/SafeAILab/EAGLE)
 
+- RouteLLM
+  - Year: 2024
+  - Publication: [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665) (2024-06-26)
+  - Code: [GitHub](https://github.com/lm-sys/RouteLLM)
+
 - Gemma 2
   - Year: 2024
   - Publication: [Blog - Gemma 2 is now available to researchers and developers](https://blog.google/technology/developers/google-gemma-2/) (2024-06-27)
   - Model weights: [HuggingFace models](https://huggingface.co/google/gemma-2-9b-it)
+
+- UCP (Universal Checkpointing)
+  - Year: 2024
+  - Publication: [Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training](https://arxiv.org/abs/2406.18820) (2024-06-27)
+
+- Memory^3
+  - Year: 2024
+  - Publication: [$\text{Memory}^3$: Language Modeling with Explicit Memory](https://arxiv.org/abs/2407.01178) (2024-07-01)
+
+- MInference
+  - Year: 2024
+  - Publication: [MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention](https://arxiv.org/abs/2407.02490) (2024-07-02)
+  - Code: [GitHub](https://github.com/microsoft/MInference)
+
+- TTT-Linear
+  - Year: 2024
+  - Publication: [Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/abs/2407.04620) (2024-07-05)
+  - Code: [GitHub](https://github.com/test-time-training/ttt-lm-pytorch)
+
+- Lookback Lens
+  - Year: 2024
+  - Publication: [Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps](https://arxiv.org/abs/2407.07071) (2024-07-09)
+  - Code: [GitHub](https://github.com/voidism/Lookback-Lens)
+
+- FlashAttention-3
+  - Year: 2024
+  - Publication: [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://arxiv.org/abs/2407.08608) (2024-07-11)
+  - Code: [GitHub](https://github.com/Dao-AILab/flash-attention)

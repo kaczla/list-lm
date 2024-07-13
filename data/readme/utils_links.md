@@ -99,6 +99,7 @@
 - [Medusa](https://github.com/FasterDecoding/Medusa) - Medusa is a simple framework that democratizes the acceleration techniques for LLM generation with multiple decoding heads.
 - [Merlin Dataloader](https://github.com/NVIDIA-Merlin/dataloader) - The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX
 - [microagents](https://github.com/aymenfurter/microagents) - microagents: Modular Agents Capable of Self-Editing Their Prompts and Python code
+- [MInference](https://github.com/microsoft/MInference) - MInference: Million-Tokens Prompt Inference for Long-context LLMs
 - [MiniChain](https://github.com/srush/MiniChain) - MiniChain is a tiny library for coding with large language models.
 - [MiniLLM](https://github.com/kuleshov/minillm) - MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs.
 - [Mirage](https://github.com/mirage-project/mirage) - Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.

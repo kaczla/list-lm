@@ -1,4 +1,6 @@
+- [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) - A Survey on Mixture of Experts
 - [Chain of Explanation](https://arxiv.org/abs/2209.04889) - Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech
 - [Chain-of-Knowledge](https://arxiv.org/abs/2305.13269) - Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources
 - [Chain-of-Thought](https://arxiv.org/abs/2201.11903) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495) - Chain-of-Verification Reduces Hallucination in Large Language Models
+- [Instruction Tuning With Loss Over Instructions](https://arxiv.org/abs/2405.14394) - Instruction Tuning With Loss Over Instructions

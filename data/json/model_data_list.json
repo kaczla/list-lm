@@ -3673,6 +3673,22 @@
         "manual_validated": false
     },
     {
+        "name": "FlashAttention-2",
+        "year": 2023,
+        "publication": {
+            "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+            "url": "https://arxiv.org/abs/2307.08691",
+            "date_create": "2023-07-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Dao-AILab/flash-attention"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "RetNet",
         "year": 2023,
         "publication": {
@@ -7748,6 +7764,19 @@
         "manual_validated": false
     },
     {
+        "name": "Multi-token Prediction",
+        "year": 2024,
+        "publication": {
+            "title": "Better & Faster Large Language Models via Multi-token Prediction",
+            "url": "https://arxiv.org/abs/2404.19737",
+            "date_create": "2024-04-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Prometheus 2",
         "year": 2024,
         "publication": {
@@ -8343,6 +8372,22 @@
         "manual_validated": false
     },
     {
+        "name": "Block Transformer",
+        "year": 2024,
+        "publication": {
+            "title": "Block Transformer: Global-to-Local Language Modeling for Fast Inference",
+            "url": "https://arxiv.org/abs/2406.02657",
+            "date_create": "2024-06-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/itsnamgyu/block-transformer"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "MatMul-free",
         "year": 2024,
         "publication": {
@@ -8595,6 +8640,22 @@
         "manual_validated": false
     },
     {
+        "name": "RouteLLM",
+        "year": 2024,
+        "publication": {
+            "title": "RouteLLM: Learning to Route LLMs with Preference Data",
+            "url": "https://arxiv.org/abs/2406.18665",
+            "date_create": "2024-06-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/lm-sys/RouteLLM"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Gemma 2",
         "year": 2024,
         "publication": {
@@ -8608,6 +8669,96 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/google/gemma-2-9b-it"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "UCP (Universal Checkpointing)",
+        "year": 2024,
+        "publication": {
+            "title": "Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training",
+            "url": "https://arxiv.org/abs/2406.18820",
+            "date_create": "2024-06-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Memory^3",
+        "year": 2024,
+        "publication": {
+            "title": "$\\text{Memory}^3$: Language Modeling with Explicit Memory",
+            "url": "https://arxiv.org/abs/2407.01178",
+            "date_create": "2024-07-01"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MInference",
+        "year": 2024,
+        "publication": {
+            "title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention",
+            "url": "https://arxiv.org/abs/2407.02490",
+            "date_create": "2024-07-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/MInference"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "TTT-Linear",
+        "year": 2024,
+        "publication": {
+            "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+            "url": "https://arxiv.org/abs/2407.04620",
+            "date_create": "2024-07-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/test-time-training/ttt-lm-pytorch"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Lookback Lens",
+        "year": 2024,
+        "publication": {
+            "title": "Lookback Lens: Detecting and Mitigating Contextual Hallucinations in Large Language Models Using Only Attention Maps",
+            "url": "https://arxiv.org/abs/2407.07071",
+            "date_create": "2024-07-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/voidism/Lookback-Lens"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "FlashAttention-3",
+        "year": 2024,
+        "publication": {
+            "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+            "url": "https://arxiv.org/abs/2407.08608",
+            "date_create": "2024-07-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Dao-AILab/flash-attention"
+        },
+        "weights": null,
         "manual_validated": false
     }
 ]

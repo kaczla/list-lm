@@ -1,5 +1,12 @@
 [
     {
+        "name": "A Survey on Mixture of Experts",
+        "description": "A Survey on Mixture of Experts",
+        "url": "https://arxiv.org/abs/2407.06204",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "AgentTuning",
         "description": "AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.",
         "url": "https://github.com/THUDM/AgentTuning",
@@ -826,6 +833,13 @@
         "manual_validated": false
     },
     {
+        "name": "Instruction Tuning With Loss Over Instructions",
+        "description": "Instruction Tuning With Loss Over Instructions",
+        "url": "https://arxiv.org/abs/2405.14394",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "Instructor",
         "description": "Instructor is a Python library that makes it a breeze to work with structured outputs from large language models (LLMs). Built on top of Pydantic, it provides a simple, transparent, and user-friendly API to manage validation, retries, and streaming responses.",
         "url": "https://github.com/jxnl/instructor",
@@ -1257,6 +1271,13 @@
         "description": "Minimal, clean code for the (byte-level) Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization.",
         "url": "https://github.com/karpathy/minbpe",
         "link_type": "Vocabulary links",
+        "manual_validated": false
+    },
+    {
+        "name": "MInference",
+        "description": "MInference: Million-Tokens Prompt Inference for Long-context LLMs",
+        "url": "https://github.com/microsoft/MInference",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -1803,6 +1824,13 @@
         "description": "RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.",
         "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "RouteLLM",
+        "description": "RouteLLM is a framework for serving and evaluating LLM routers.",
+        "url": "https://github.com/lm-sys/RouteLLM",
+        "link_type": "Model links",
         "manual_validated": false
     },
     {

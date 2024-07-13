@@ -65,6 +65,7 @@
 - [OpenMoE](https://github.com/XueFuzhao/OpenMoE) - OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.
 - [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
 - [Pretrained Language Model](https://github.com/huawei-noah/Pretrained-Language-Model) - Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
+- [RouteLLM](https://github.com/lm-sys/RouteLLM) - RouteLLM is a framework for serving and evaluating LLM routers.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [ScatterMoE](https://github.com/shawntan/scattermoe) - Triton-based implementation of Sparse Mixture-of-Experts (SMoE) on GPUs.
 - [SeqIO](https://github.com/google/seqio) - Task-based datasets, preprocessing, and evaluation for sequence models.
