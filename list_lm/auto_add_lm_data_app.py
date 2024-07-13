@@ -6,6 +6,7 @@ from tkinter import ttk
 
 from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, UnsupportedUrl, get_model_info_sort_key
 from list_lm.data_manager import DataManager
+from list_lm.generate_readme import generate_lm_data
 from list_lm.log_utils import init_logs
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.parser_lm_data import ParserLMData
@@ -22,6 +23,7 @@ class AutoAddLMGUIApp:
     def __init__(self) -> None:
         self.parser = ParserLMData()
         self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)  # type: ignore[arg-type]
+        self.id_data_changed = False
 
         self.main = tk.Tk()
         self.main.title("Auto add LM - GUI App")
@@ -158,6 +160,7 @@ class AutoAddLMGUIApp:
     ) -> None:
         if not suggested_model_info_list:
             self.show_text_frame("Everything done")
+            self.generate_readme_files()
             return
 
         self.clear_main_frame()
@@ -231,6 +234,7 @@ class AutoAddLMGUIApp:
             del suggested_model_info_list[index]
             del title_raw_list[index]
             del title_to_suggested_model_info[accepted_data.article_data.title]
+            self.id_data_changed = True
 
             if len(suggested_model_info_list) <= 0:
                 self.verify_lm_data([])
@@ -374,6 +378,11 @@ class AutoAddLMGUIApp:
         button_add_lm = tk.Button(self.main_frame, text="Add LM data", command=lambda: self.add_lm_urls_frame())
         button_add_lm.pack()
         self.main_frame.pack()
+
+    def generate_readme_files(self) -> None:
+        if self.id_data_changed:
+            self.id_data_changed = False
+            generate_lm_data()
 
     def clear_main_frame(self) -> None:
         self.main_frame.destroy()
