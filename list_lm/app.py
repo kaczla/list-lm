@@ -16,6 +16,7 @@ from list_lm.data import (
 )
 from list_lm.data_manager import DataManager
 from list_lm.generate_readme import generate_links_selected, generate_lm_data
+from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
@@ -438,7 +439,7 @@ class GUIApp:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO)
+    init_logs(debug=True)
     gui_app = GUIApp()
     gui_app.run()
 

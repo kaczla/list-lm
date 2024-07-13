@@ -1,9 +1,13 @@
+import logging
 from pathlib import Path
 
 from list_lm.data import ApplicationData, LinkType, ModelInfo
 from list_lm.data_utils import load_base_model_list
+from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS, MAP_LINK_TYPE_NAME_TO_NORMALISED_NAME
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
+
+LOGGER = logging.getLogger(__name__)
 
 
 def generate_lm_data() -> None:
@@ -12,6 +16,7 @@ def generate_lm_data() -> None:
         text_to_save = "\n\n".join([model_data.to_markdown_element() for model_data in model_data_list])
         f_write.write(text_to_save)
         f_write.write("\n")
+    LOGGER.info("Generated README for LM data")
 
 
 def generate_links_selected(application_data_list: list[ApplicationData], link_type: LinkType) -> None:
@@ -20,6 +25,7 @@ def generate_links_selected(application_data_list: list[ApplicationData], link_t
         for application_data in application_data_list:
             if application_data.link_type == link_type:
                 f_write.write(f"- {application_data.to_markdown()}\n")
+        LOGGER.info(f"Generated README for {file_type}")
 
 
 def generate_links_all() -> None:
@@ -29,5 +35,6 @@ def generate_links_all() -> None:
 
 
 if __name__ == "__main__":
+    init_logs()
     generate_lm_data()
     generate_links_all()

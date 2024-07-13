@@ -6,6 +6,7 @@ from tkinter import ttk
 
 from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, UnsupportedUrl, get_model_info_sort_key
 from list_lm.data_manager import DataManager
+from list_lm.log_utils import init_logs
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.parser_lm_data import ParserLMData
 from list_lm.utils import convert_date_to_string
@@ -383,8 +384,7 @@ class AutoAddLMGUIApp:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.DEBUG)
-    logging.getLogger("urllib3").setLevel(logging.INFO)
+    init_logs(debug=True)
     gui_app = AutoAddLMGUIApp()
     gui_app.run()
 

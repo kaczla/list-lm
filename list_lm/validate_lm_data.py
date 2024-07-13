@@ -3,6 +3,7 @@ from pathlib import Path
 
 from list_lm.data import ModelInfo, get_model_info_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 
@@ -116,7 +117,7 @@ def update_publication_data_in_model_info(model_info: ModelInfo) -> bool:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO)
+    init_logs()
     validate_lm_data(
         Path(f"data/json/{FILE_NAME_LM_DATA}.json"),
         check_model_names=True,

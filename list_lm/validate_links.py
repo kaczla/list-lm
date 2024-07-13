@@ -3,6 +3,7 @@ from pathlib import Path
 
 from list_lm.data import ApplicationData, get_application_data_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
 
 LOGGER = logging.getLogger(__name__)
@@ -76,7 +77,7 @@ def validate_links() -> None:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO)
+    init_logs()
     validate_links()
 
 
