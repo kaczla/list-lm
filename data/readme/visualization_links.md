@@ -1,3 +1,4 @@
 - [BertViz](https://github.com/jessevig/bertviz) - BertViz is a tool for visualizing attention in the Transformer model, supporting most models from the transformers library (BERT, GPT-2, XLNet, RoBERTa, XLM, CTRL, BART, etc.)
 - [Ecoo](https://github.com/jalammar/ecco) - Ecco is a python library for exploring and explaining Natural Language Processing models using interactive visualizations.
+- [Inspectus](https://github.com/labmlai/inspectus) - Inspectus is a versatile visualization tool for machine learning. It runs smoothly in Jupyter notebooks via an easy-to-use Python API.
 - [Vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.

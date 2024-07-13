@@ -70,6 +70,13 @@
         "manual_validated": false
     },
     {
+        "name": "AutoCrawler",
+        "description": "AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation",
+        "url": "https://arxiv.org/abs/2404.12753",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "AutoGen",
         "description": "AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve tasks. AutoGen agents are customizable, conversable, and seamlessly allow human participation.",
         "url": "https://github.com/microsoft/autogen",
@@ -291,6 +298,13 @@
         "description": "Comgra stands for \"computation graph analysis\" and it is a library for use with pytorch that makes it easier to inspect the internals of your neural networks.",
         "url": "https://github.com/FlorianDietz/comgra",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Common Corpus",
+        "description": "The largest public domain dataset for training LLMs.",
+        "url": "https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613",
+        "link_type": "Dataset links",
         "manual_validated": false
     },
     {
@@ -525,6 +539,13 @@
         "manual_validated": false
     },
     {
+        "name": "EvoEval",
+        "description": "EvoEval is a holistic benchmark suite created by evolving HumanEval problems.",
+        "url": "https://github.com/evo-eval/evoeval",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "ExecuTorch",
         "description": "ExecuTorch is an end-to-end solution for enabling on-device inference capabilities across mobile and edge devices including wearables, embedded devices and microcontrollers. It is part of the PyTorch Edge ecosystem and enables efficient deployment of PyTorch models to edge devices.",
         "url": "https://github.com/pytorch/executorch",
@@ -626,6 +647,13 @@
         "name": "FewGLUE",
         "description": "FewGLUE dataset, consisting of a random selection of 32 training examples from the SuperGLUE training sets and up to 20,000 unlabeled examples for each SuperGLUE task.",
         "url": "https://github.com/timoschick/fewglue",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "FineWeb",
+        "description": "The FineWeb dataset consists of more than 15T tokens of cleaned and deduplicated english web data from CommonCrawl.",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
         "link_type": "Dataset links",
         "manual_validated": false
     },
@@ -805,6 +833,13 @@
         "manual_validated": false
     },
     {
+        "name": "HumanEval",
+        "description": "The HumanEval dataset released by OpenAI includes 164 programming problems with a function sig- nature, docstring, body, and several unit tests.",
+        "url": "https://huggingface.co/datasets/openai/openai_humaneval",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "HumanEval-X",
         "description": "HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples (each with test cases) in Python, C++, Java, JavaScript, and Go, and can be used for various tasks, such as code generation and translation.",
         "url": "https://huggingface.co/datasets/THUDM/humaneval-x",
@@ -823,6 +858,13 @@
         "description": "We introduce weight selection, a method for initializing models by selecting a subset of weights from a pretrained larger model. With no extra cost, it is effective for improving the accuracy of a smaller model and reducing its training time needed to reach a certain accuracy level.",
         "url": "https://github.com/OscarXZQ/weight-selection",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Inspectus",
+        "description": "Inspectus is a versatile visualization tool for machine learning. It runs smoothly in Jupyter notebooks via an easy-to-use Python API.",
+        "url": "https://github.com/labmlai/inspectus",
+        "link_type": "Visualization links",
         "manual_validated": false
     },
     {
@@ -1788,6 +1830,13 @@
         "name": "QMoE",
         "description": "Code for the paper \"QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models\".",
         "url": "https://github.com/IST-DASLab/qmoe",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Quality Prompts",
+        "description": "Quality Prompts implements 58 prompting techniques explained in this survey from OpenAI, Microsoft, et al.",
+        "url": "https://github.com/sarthakrastogi/quality-prompts",
         "link_type": "Utils links",
         "manual_validated": false
     },

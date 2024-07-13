@@ -142,6 +142,7 @@
 - [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) - PyG (PyTorch Geometric) is a library built upon PyTorch to easily write and train Graph Neural Networks (GNNs) for a wide range of applications related to structured data.
 - [QLoRA](https://github.com/artidoro/qlora) - QLoRA uses bitsandbytes for quantization and is integrated with Hugging Face's PEFT and transformers libraries.
 - [QMoE](https://github.com/IST-DASLab/qmoe) - Code for the paper "QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models".
+- [Quality Prompts](https://github.com/sarthakrastogi/quality-prompts) - Quality Prompts implements 58 prompting techniques explained in this survey from OpenAI, Microsoft, et al.
 - [QUICK](https://github.com/squeezebits/quick) - QUICK, a collection of novel optimized CUDA kernels designed for faster inference of quantized Large Language Models (LLMs). QUICK addresses the shared memory write-back bank conflict issue in state-of-the-art mixed precision General Matrix Multiplication (GEMM) kernels.
 - [RasaGPT](https://github.com/paulpierre/RasaGPT) - RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.
 - [S-LoRA](https://github.com/S-LoRA/S-LoRA) - S-LoRA: Serving Thousands of Concurrent LoRA Adapters

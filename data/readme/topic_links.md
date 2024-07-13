@@ -1,4 +1,5 @@
 - [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) - A Survey on Mixture of Experts
+- [AutoCrawler](https://arxiv.org/abs/2404.12753) - AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation
 - [Chain of Explanation](https://arxiv.org/abs/2209.04889) - Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech
 - [Chain-of-Knowledge](https://arxiv.org/abs/2305.13269) - Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources
 - [Chain-of-Thought](https://arxiv.org/abs/2201.11903) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
