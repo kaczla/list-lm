@@ -1,9 +1,10 @@
 import logging
 import re
 
-from list_lm.data import ArticleDataExtended, SuggestedModelInfo, UnsupportedUrl, UrlData
+from list_lm.data import ArticleDataExtended, SuggestedModelInfo, UnsupportedUrl, UrlData, UrlType
 from list_lm.ollama_client import OllamaClient
 from list_lm.parse_html import parse_arxiv
+from list_lm.parse_url import parse_url
 from list_lm.prompt_template import get_model_name_prompt
 
 REGEX_ARXIV_MODEL_NAME_FROM_TITLE = re.compile(
@@ -24,8 +25,8 @@ class ParserLMData:
         self.enable_caching = True
 
     def parse_url(self, url: str, ollama_model_name: str) -> SuggestedModelInfo | UnsupportedUrl:
-        # TODO: Add enum link type and update in all code
-        if "arxiv" in url:
+        url_type = parse_url(url)
+        if url_type == UrlType.ARXIV:
             return self.auto_parse_arxiv(url, ollama_model_name)
 
         else:
@@ -72,14 +73,16 @@ class ParserLMData:
 
     @staticmethod
     def parse_code_url(url: str) -> UrlData | str:
-        if "github.com" in url:
+        url_type = parse_url(url)
+        if url_type == UrlType.GITHUB:
             return UrlData(url=url, title="GitHub")
 
         return "Unsupported code URL!"
 
     @staticmethod
     def parse_model_weights_url(url: str) -> UrlData | str:
-        if "huggingface.co" in url:
+        url_type = parse_url(url)
+        if url_type == UrlType.HUGGINGFACE:
             return UrlData(url=url, title="HuggingFace models")
 
         return UrlData(url=url, title="Direct link")

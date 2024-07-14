@@ -7,6 +7,15 @@ from pydantic import BaseModel
 from list_lm.utils import convert_date_to_string
 
 
+class UrlType(StrEnum):
+    GITHUB = "github"
+    ARXIV = "arxiv"
+    HUGGINGFACE = "huggingface"
+    X = "x"
+    ACM = "acm"
+    UNKNOWN = "unknown"
+
+
 class LinkType(StrEnum):
     MODEL = "Model links"
     UTILS = "Utils links"

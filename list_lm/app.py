@@ -11,6 +11,7 @@ from list_lm.data import (
     LinkType,
     ModelInfo,
     ModelInfoDict,
+    UrlType,
     get_application_data_sort_key,
     get_model_info_sort_key,
 )
@@ -20,6 +21,7 @@ from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
+from list_lm.parse_url import parse_url
 from list_lm.parser_lm_data import ParserLMData
 from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
 
@@ -366,7 +368,8 @@ class GUIApp:
 
     @staticmethod
     def parse_publication_url(url: str, title: str, date_create: str, name: str) -> ArticleData | str:
-        if "arxiv.org" in url:
+        url_type = parse_url(url)
+        if url_type == UrlType.ARXIV:
             page_date = parse_arxiv(url)
             if title and title != page_date.title:
                 LOGGER.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
@@ -374,13 +377,13 @@ class GUIApp:
             return page_date.to_article_data()
 
         elif not title:
-            if "github.com" in url:
+            if url_type == UrlType.GITHUB:
                 if not url.endswith(("README.md", "README_en.md", "README_en.md")):
                     return "Missing README.md URL in github.com"
 
                 title = f"README - {name} repository"
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
-            elif "huggingface.co" in url:
+            elif url_type == UrlType.HUGGINGFACE:
                 title = f"HuggingFace model card - {name}"
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
             else:
@@ -388,14 +391,16 @@ class GUIApp:
 
         if not is_valid_date_string(date_create):
             return "Invalid publication date format"
-
         # Check prefixes
-        for part_url, prefix in [
-            ("twitter.com", "Tweet: "),
-            ("huggingface.co", "HuggingFace model card - "),
+        part_url_or_url_type: UrlType | str
+        for part_url_or_url_type, prefix in [
+            (UrlType.X, "Tweet: "),
+            (UrlType.HUGGINGFACE, "HuggingFace model card - "),
             ("README.md", "README - "),
         ]:
-            if part_url in url:
+            if (
+                isinstance(part_url_or_url_type, UrlType) and url_type == part_url_or_url_type
+            ) or part_url_or_url_type in url:
                 if title.lower().startswith(prefix.lower()):
                     title = title[len(prefix) :].strip()
                 title = prefix + title
@@ -408,8 +413,8 @@ class GUIApp:
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
 
         # Check other domains to not add prefix "Blog"
-        for url_domain in ["dl.acm.org"]:
-            if url_domain in url:
+        for i_url_type in [UrlType.ACM]:
+            if url_type == i_url_type:
                 return ArticleData(url=url, title=title, date_create=convert_string_to_date(date_create))
 
         # Change "Blogpost" to "Blog"
