@@ -116,13 +116,19 @@ class AutoAddLMGUIApp:
         }
         for url_number, url in enumerate(urls):
             url_number += 1
+
             # Update label status
-            label_status.config(text=f"Processing {url_number} URL: {url}")
+            msg = f"Processing {url_number} URL: {url}"
+            LOGGER.info(msg)
+            label_status.config(text=msg)
             self.main_frame.update()
+
             # Skip parsed URLS
             if url in saved_url_to_model_info:
                 duplicated_urls.append(f"{saved_url_to_model_info[url].name} - {url}")
                 update_progress_bar(url_number)
+                LOGGER.warning(f"Skipping duplicated URL: {url}")
+                self.main_frame.update()
                 continue
 
             LOGGER.info(f"Processing LM data from URL: {url}")
@@ -131,13 +137,16 @@ class AutoAddLMGUIApp:
                 not_parsed_urls.append(url)
             else:
                 suggested_model_info_list.append(parsed_output)
+
             # Update progress bar
             update_progress_bar(url_number)
+
             # Update invalid ULRs
             if not_parsed_urls:
                 label_not_parsed_urls.config(
                     text=f"Not parsed {len(not_parsed_urls)} URLs:\n{'\n'.join(not_parsed_urls)}"
                 )
+
             # Update duplicated URLs
             if duplicated_urls:
                 label_duplicated_urls.config(
@@ -229,8 +238,8 @@ class AutoAddLMGUIApp:
                 code=parsed_url_code,
                 weights=parsed_url_weight,
             )
-            LOGGER.info(f"Added model info: {model_info}")
             self.data_manager_models.add(model_info)
+            LOGGER.info(f"Added model info: {model_info}")
             del suggested_model_info_list[index]
             del title_raw_list[index]
             del title_to_suggested_model_info[accepted_data.article_data.title]
@@ -242,6 +251,7 @@ class AutoAddLMGUIApp:
 
             select_next_lm_data(index)
 
+        selected_index = 0
         frame_option = tk.Frame(self.main_frame)
         frame_option.pack()
         button_previous = tk.Button(frame_option, text="<", command=lambda: select_next_lm_data(selected_index - 1))
@@ -311,20 +321,24 @@ class AutoAddLMGUIApp:
                 text_model_name.pack(side=tk.LEFT)
                 text_model_names.append(text_model_name)
                 del text_model_name
+
             # URLs section
             text_urls: list[tk.Text] = []
             checkbox_code_url_values: list[tk.IntVar] = []
             checkbox_weight_url_values: list[tk.IntVar] = []
+
             # Label with URLs section
             label_suggested_urls = tk.Label(self.main_frame, text="Suggested URLs:", font="bold")
             label_suggested_urls.pack()
             label_suggested_urls_2 = tk.Label(self.main_frame, text="(C = Code, W = Model weight)")
             label_suggested_urls_2.pack()
+
             # Iter over all URLs
             all_urls = (selected_data.article_data.article_urls or []) + ["", ""]
             for index_url, url in enumerate(all_urls):
                 frame_url = tk.Frame(self.main_frame)
                 frame_url.pack()
+
                 # Checkboxes for selecting code URL
                 checkbox_code_url_fn = partial(
                     disable_all_checkbutton, value_list=checkbox_code_url_values, checkbutton_index=index_url
@@ -340,6 +354,7 @@ class AutoAddLMGUIApp:
                 )
                 checkbox_code_url.pack(side=tk.LEFT, ipadx=5)
                 checkbox_code_url_values.append(checkbox_code_url_value)
+
                 # Checkboxes for selecting model weight URL
                 checkbox_weight_url_fn = partial(
                     disable_all_checkbutton, value_list=checkbox_weight_url_values, checkbutton_index=index_url
@@ -355,16 +370,19 @@ class AutoAddLMGUIApp:
                 )
                 checkbox_weight_url.pack(side=tk.LEFT, ipadx=5)
                 checkbox_weight_url_values.append(checkbox_weight_url_value)
+
                 # URL value
                 text_url = tk.Text(frame_url, height=1, width=55)
                 text_url.insert("1.0", url)
                 text_url.pack(side=tk.LEFT)
                 text_urls.append(text_url)
                 del text_url
+
             # Main button for accepting LM data
             button_accept_fn = partial(accept_lm_data, index=selected_index)
             button_accept = tk.Button(self.main_frame, text="Accept", command=button_accept_fn)
             button_accept.pack()
+
             # Label for validation errors
             label_status = tk.Label(self.main_frame, text="")
             label_status.pack()
