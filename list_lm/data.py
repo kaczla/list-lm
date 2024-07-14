@@ -49,6 +49,10 @@ class ApplicationData(BaseModel):
         return f"[{self.name}]({self.url}) - {self.description}"
 
 
+class SuggestedApplicationData(ApplicationData):
+    readme_text: str
+
+
 class UrlData(BaseModel):
     title: str
     url: str

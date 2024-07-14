@@ -1,16 +1,19 @@
 import logging
+import re
 from datetime import datetime
 from pathlib import Path
 
 import requests
 from lxml import html
 
-from list_lm.data import ArticleDataExtended, CacheArticleData
+from list_lm.data import ArticleDataExtended, CacheArticleData, UnparsedUrl
 from list_lm.data_utils import load_base_model, save_base_model
 
 LOGGER = logging.getLogger(__name__)
 
 CACHE_FILE_ARXIV = Path(".cache/cache_arxiv.json")
+
+REGEX_GITHUB_URL = re.compile(r"github.com/(?P<author>[^/]+)/(?P<project>[^/?]+)")
 
 
 def get_html_string(url: str) -> str:
@@ -60,3 +63,20 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
         save_base_model(CACHE_FILE_ARXIV, cache)
 
     return parsed_data
+
+
+def get_github_readme(url: str) -> str | UnparsedUrl:
+    regex_match = REGEX_GITHUB_URL.search(url)
+    if not regex_match:
+        return UnparsedUrl(url=url, message="Cannot match GitHub URL")
+
+    url_author_name = regex_match.group("author")
+    url_project_name = regex_match.group("project")
+    for branch_name in ["master", "main"]:
+        url = f"https://raw.githubusercontent.com/{url_author_name}/{url_project_name}/{branch_name}/README.md"
+        try:
+            return get_html_string(url)
+        except RuntimeError:
+            continue
+
+    return UnparsedUrl(url=url, message="Cannot find README.md in GitHub URL")
