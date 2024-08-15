@@ -604,6 +604,19 @@
         "manual_validated": false
     },
     {
+        "name": "RAG (Retrieval-Augmented Generation)",
+        "year": 2020,
+        "publication": {
+            "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+            "url": "https://arxiv.org/abs/2005.11401",
+            "date_create": "2020-05-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "DeBERTa",
         "year": 2020,
         "publication": {
@@ -6839,7 +6852,7 @@
         "manual_validated": false
     },
     {
-        "name": "SaulLM",
+        "name": "SaulLM-7B",
         "year": 2024,
         "publication": {
             "title": "SaulLM-7B: A pioneering Large Language Model for Law",
@@ -7559,6 +7572,22 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Llama 3",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Meta Llama 3: The most capable openly available LLM to date",
+            "url": "https://ai.meta.com/blog/meta-llama-3/",
+            "date_create": "2024-04-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
         },
         "manual_validated": false
     },
@@ -8407,6 +8436,25 @@
         "manual_validated": false
     },
     {
+        "name": "Circuit Breakers",
+        "year": 2024,
+        "publication": {
+            "title": "Improving Alignment and Robustness with Circuit Breakers",
+            "url": "https://arxiv.org/abs/2406.04313",
+            "date_create": "2024-06-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/GraySwanAI/circuit-breakers"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/GraySwanAI/Llama-3-8B-Instruct-RR"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "MoA (Mixture-of-Agents)",
         "year": 2024,
         "publication": {
@@ -8538,6 +8586,25 @@
         "manual_validated": false
     },
     {
+        "name": "DCLM",
+        "year": 2024,
+        "publication": {
+            "title": "DataComp-LM: In search of the next generation of training sets for language models",
+            "url": "https://arxiv.org/abs/2406.11794",
+            "date_create": "2024-06-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mlfoundations/dclm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/apple/DCLM-7B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "DeepSeek-Coder-V2",
         "year": 2024,
         "publication": {
@@ -8656,22 +8723,6 @@
         "manual_validated": false
     },
     {
-        "name": "Gemma 2",
-        "year": 2024,
-        "publication": {
-            "title": "Blog - Gemma 2 is now available to researchers and developers",
-            "url": "https://blog.google/technology/developers/google-gemma-2/",
-            "date_create": "2024-06-27"
-        },
-        "video": null,
-        "code": null,
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/google/gemma-2-9b-it"
-        },
-        "manual_validated": false
-    },
-    {
         "name": "UCP (Universal Checkpointing)",
         "year": 2024,
         "publication": {
@@ -8695,7 +8746,7 @@
         "video": null,
         "code": null,
         "weights": null,
-        "manual_validated": false
+        "manual_validated": true
     },
     {
         "name": "MInference",
@@ -8710,6 +8761,19 @@
             "title": "GitHub",
             "url": "https://github.com/microsoft/MInference"
         },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "RankRAG",
+        "year": 2024,
+        "publication": {
+            "title": "RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs",
+            "url": "https://arxiv.org/abs/2407.02485",
+            "date_create": "2024-07-02"
+        },
+        "video": null,
+        "code": null,
         "weights": null,
         "manual_validated": false
     },
@@ -8758,6 +8822,351 @@
             "title": "GitHub",
             "url": "https://github.com/Dao-AILab/flash-attention"
         },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Lynx",
+        "year": 2024,
+        "publication": {
+            "title": "Lynx: An Open Source Hallucination Evaluation Model",
+            "url": "https://arxiv.org/abs/2407.08488",
+            "date_create": "2024-07-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/patronus-ai/Lynx-hallucination-detection"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PatronusAI/Llama-3-Patronus-Lynx-70B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Q-GaLore",
+        "year": 2024,
+        "publication": {
+            "title": "Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients",
+            "url": "https://arxiv.org/abs/2407.08296",
+            "date_create": "2024-07-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/VITA-Group/Q-GaLore"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Codestral Mamba",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Codestral Mamba",
+            "url": "https://mistral.ai/news/codestral-mamba/",
+            "date_create": "2024-07-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mistralai/mistral-inference"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mamba-Codestral-7B-v0.1"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "MathΣtral",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - MathΣtral",
+            "url": "https://mistral.ai/news/mathstral/",
+            "date_create": "2024-07-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/mistralai/mistral-inference"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mathstral-7B-v0.1"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "SmolLM",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - SmolLM - blazingly fast and remarkably powerful",
+            "url": "https://huggingface.co/blog/smollm",
+            "date_create": "2024-07-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceTB/SmolLM-135M"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Spectra",
+        "year": 2024,
+        "publication": {
+            "title": "Spectra: A Comprehensive Study of Ternary, Quantized, and FP16 Language Models",
+            "url": "https://arxiv.org/abs/2407.12327",
+            "date_create": "2024-07-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NolanoOrg/SpectraSuite"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/SpectraSuite/FloatLM_99M"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral NeMo",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Mistral NeMo",
+            "url": "https://mistral.ai/news/mistral-nemo/",
+            "date_create": "2024-07-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mistral-Nemo-Base-2407"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "BOND",
+        "year": 2024,
+        "publication": {
+            "title": "BOND: Aligning LLMs with Best-of-N Distillation",
+            "url": "https://arxiv.org/abs/2407.14622",
+            "date_create": "2024-07-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "LazyLLM",
+        "year": 2024,
+        "publication": {
+            "title": "LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference",
+            "url": "https://arxiv.org/abs/2407.14057",
+            "date_create": "2024-07-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Large 2",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Large Enough",
+            "url": "https://mistral.ai/news/mistral-large-2407/",
+            "date_create": "2024-07-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "u-uP",
+        "year": 2024,
+        "publication": {
+            "title": "u-$\\mu$P: The Unit-Scaled Maximal Update Parametrization",
+            "url": "https://arxiv.org/abs/2407.17465",
+            "date_create": "2024-07-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": true
+    },
+    {
+        "name": "SaulLM-141B",
+        "year": 2024,
+        "publication": {
+            "title": "SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain",
+            "url": "https://arxiv.org/abs/2407.19584",
+            "date_create": "2024-07-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemma 2",
+        "year": 2024,
+        "publication": {
+            "title": "Gemma 2: Improving Open Language Models at a Practical Size",
+            "url": "https://arxiv.org/abs/2408.00118",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/gemma-2-2b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Gemma Scope",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Gemma Scope",
+            "url": "https://huggingface.co/google/gemma-scope",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/gemma-scope"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Llama 3.1",
+        "year": 2024,
+        "publication": {
+            "title": "The Llama 3 Herd of Models",
+            "url": "https://arxiv.org/abs/2407.21783",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/meta-llama/llama3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+        },
+        "manual_validated": true
+    },
+    {
+        "name": "ShieldGemma",
+        "year": 2024,
+        "publication": {
+            "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
+            "url": "https://arxiv.org/abs/2407.21772",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/shieldgemma-2b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "InternLM2.5",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - InternLM2.5",
+            "url": "https://huggingface.co/internlm/internlm2_5-20b-chat",
+            "date_create": "2024-08-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/InternLM/InternLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/internlm/internlm2_5-20b-chat"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "EXAONE 3.0",
+        "year": 2024,
+        "publication": {
+            "title": "EXAONE 3.0 7.8B Instruction Tuned Language Model",
+            "url": "https://arxiv.org/abs/2408.03541",
+            "date_create": "2024-08-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/LG-AI-EXAONE/EXAONE-3.0"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Tree Attention",
+        "year": 2024,
+        "publication": {
+            "title": "Tree Attention: Topology-aware Decoding for Long-Context Attention on GPU clusters",
+            "url": "https://arxiv.org/abs/2408.04093",
+            "date_create": "2024-08-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Zyphra/tree_attention"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2-Math",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing Qwen2-Math",
+            "url": "https://qwenlm.github.io/blog/qwen2-math/",
+            "date_create": "2024-08-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen2-Math"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen2-Math-72B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Grok-2",
+        "year": 2024,
+        "publication": {
+            "title": "Tweet: Grok-2 Beta Release",
+            "url": "https://x.ai/blog/grok-2",
+            "date_create": "2024-08-13"
+        },
+        "video": null,
+        "code": null,
         "weights": null,
         "manual_validated": false
     }

@@ -14,6 +14,13 @@
         "manual_validated": false
     },
     {
+        "name": "AIChat",
+        "description": "AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.",
+        "url": "https://github.com/sigoden/aichat",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AITemplate",
         "description": "AITemplate (AIT) is a Python framework that transforms deep neural networks into CUDA (NVIDIA GPU) / HIP (AMD GPU) C++ code for lightning-fast inference serving.",
         "url": "https://github.com/facebookincubator/AITemplate",
@@ -777,6 +784,13 @@
         "manual_validated": false
     },
     {
+        "name": "gpu.cpp",
+        "description": "gpu.cpp is a lightweight library that makes portable GPU compute with C++ simple.",
+        "url": "https://github.com/AnswerDotAI/gpu.cpp",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Graphic of learning rate schedulers",
         "description": "Simple visualizations of learning rate schedulers.",
         "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png",
@@ -809,6 +823,13 @@
         "description": "Public LLM leaderboard computed using Vectara's Hallucination Evaluation Model.",
         "url": "https://github.com/vectara/hallucination-leaderboard",
         "link_type": "Documentation links",
+        "manual_validated": false
+    },
+    {
+        "name": "HaluBench",
+        "description": "HaluBench is a hallucination evaluation benchmark of 15k samples that consists of Context-Question-Answer triplets annotated for whether the examples contain hallucinations.",
+        "url": "https://huggingface.co/datasets/PatronusAI/HaluBench",
+        "link_type": "Dataset links",
         "manual_validated": false
     },
     {
@@ -2188,6 +2209,13 @@
         "description": "A curated (still actively updated) list of practical guide resources of LLMs.",
         "url": "https://github.com/Mooler0410/LLMsPracticalGuide",
         "link_type": "Documentation links",
+        "manual_validated": false
+    },
+    {
+        "name": "The Prompt Report",
+        "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+        "url": "https://arxiv.org/abs/2406.06608",
+        "link_type": "Topic links",
         "manual_validated": false
     },
     {

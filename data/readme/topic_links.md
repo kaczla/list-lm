@@ -5,3 +5,4 @@
 - [Chain-of-Thought](https://arxiv.org/abs/2201.11903) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495) - Chain-of-Verification Reduces Hallucination in Large Language Models
 - [Instruction Tuning With Loss Over Instructions](https://arxiv.org/abs/2405.14394) - Instruction Tuning With Loss Over Instructions
+- [The Prompt Report](https://arxiv.org/abs/2406.06608) - The Prompt Report: A Systematic Survey of Prompting Techniques

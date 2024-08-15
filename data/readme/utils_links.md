@@ -1,4 +1,5 @@
 - [AgentTuning](https://github.com/THUDM/AgentTuning) - AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.
+- [AIChat](https://github.com/sigoden/aichat) - AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.
 - [AITemplate](https://github.com/facebookincubator/AITemplate) - AITemplate (AIT) is a Python framework that transforms deep neural networks into CUDA (NVIDIA GPU) / HIP (AMD GPU) C++ code for lightning-fast inference serving.
 - [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) - This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA).
 - [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm) - AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.
@@ -60,6 +61,7 @@
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
 - [GlotLID](https://github.com/cisnlp/GlotLID) - GlotLID is an open-source language identification model with support for more than 1600 languages.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
+- [gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp) - gpu.cpp is a lightweight library that makes portable GPU compute with C++ simple.
 - [Guardrails](https://github.com/ShreyaR/guardrails) - Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).
 - [Haystack](https://github.com/deepset-ai/haystack) - Haystack is an end-to-end NLP framework that enables you to build applications powered by LLMs, Transformer models, vector search and more.
 - [hlb-GPT](https://github.com/tysam-code/hlb-gpt) - Minimalistic, fast, and experimentation-friendly researcher's toolbench for GPT-like models in <350 lines of code. Reaches <3.8 validation loss on wikitext-103 on a single A100 in just over 3 minutes.
