@@ -4,6 +4,8 @@ from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
+from pyperclip import copy as copy_clipboard
+
 from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, UnsupportedUrl, get_model_info_sort_key
 from list_lm.data_manager import DataManager
 from list_lm.generate_readme import generate_lm_data
@@ -205,6 +207,19 @@ class AutoAddLMGUIApp:
 
             return ""
 
+        def reject_lm_data(index: int) -> None:
+            if len(suggested_model_info_list) <= 0 or index >= len(suggested_model_info_list):
+                return
+
+            label_status.config(text="")
+            accepted_data = suggested_model_info_list[index]
+            LOGGER.info(f"Rejected model data: {accepted_data}")
+            del suggested_model_info_list[index]
+            del title_raw_list[index]
+            del title_to_suggested_model_info[accepted_data.article_data.title]
+
+            select_next_lm_data(index)
+
         def accept_lm_data(index: int) -> None:
             if len(suggested_model_info_list) <= 0 or index >= len(suggested_model_info_list):
                 return
@@ -245,10 +260,6 @@ class AutoAddLMGUIApp:
             del title_to_suggested_model_info[accepted_data.article_data.title]
             self.id_data_changed = True
 
-            if len(suggested_model_info_list) <= 0:
-                self.verify_lm_data([])
-                return
-
             select_next_lm_data(index)
 
         selected_index = 0
@@ -272,18 +283,33 @@ class AutoAddLMGUIApp:
         if selected_data:
             selected_index = title_raw_list.index(selected_data.article_data.title)
             title_list_value.set(selected_data.article_data.title)
+
+            # Title
             label_article_title = tk.Label(self.main_frame, text="Selected article:", font="bold")
             label_article_title.pack()
-            text_article_url = tk.Text(self.main_frame, width=50, height=1)
+
+            # Article url
+            frame_url = tk.Frame(self.main_frame)
+            frame_url.pack()
+            text_article_url = tk.Text(frame_url, width=50, height=1)
             text_article_url.insert("1.0", selected_data.article_data.url)
-            text_article_url.pack()
+            text_article_url.pack(side=tk.LEFT)
+            button_application_url_fn = partial(copy_clipboard, selected_data.article_data.url)
+            button_application_url = tk.Button(frame_url, text="📋", command=button_application_url_fn)
+            button_application_url.pack(side=tk.LEFT)
+
+            # Article title
             label_article_title = tk.Label(self.main_frame, text=selected_data.article_data.title)
             label_article_title.pack()
+
+            # Article date
             label_article_date = tk.Label(
                 self.main_frame,
                 text=f"({convert_date_to_string(selected_data.article_data.date_create)})",
             )
             label_article_date.pack()
+
+            # Article abstract
             text_article_abstract = tk.Text(self.main_frame, width=85, height=8)
             text_article_abstract.insert(
                 "1.0", selected_data.article_data.abstract if selected_data.article_data.abstract else ""
@@ -295,6 +321,7 @@ class AutoAddLMGUIApp:
                     if i != checkbutton_index:
                         value.set(0)
 
+            # Suggested URLs
             label_suggested_model_names = tk.Label(self.main_frame, text="Suggested model names:", font="bold")
             label_suggested_model_names.pack()
             checkbox_model_name_values: list[tk.IntVar] = []
@@ -378,10 +405,21 @@ class AutoAddLMGUIApp:
                 text_urls.append(text_url)
                 del text_url
 
-            # Main button for accepting LM data
+                # Button for saving URL to the clipboard
+                if url:
+                    button_url_fn = partial(copy_clipboard, url)
+                    button_url = tk.Button(frame_url, text="📋", command=button_url_fn)
+                    button_url.pack(side=tk.LEFT)
+
+            # Main button for accepting && rejecting LM data
+            frame_buttons = tk.Frame(self.main_frame)
+            frame_buttons.pack()
             button_accept_fn = partial(accept_lm_data, index=selected_index)
-            button_accept = tk.Button(self.main_frame, text="Accept", command=button_accept_fn)
-            button_accept.pack()
+            button_accept = tk.Button(frame_buttons, text="Accept", command=button_accept_fn)
+            button_accept.pack(side=tk.LEFT)
+            button_reject_fn = partial(reject_lm_data, index=selected_index)
+            button_reject = tk.Button(frame_buttons, text="Reject", command=button_reject_fn)
+            button_reject.pack(side=tk.LEFT)
 
             # Label for validation errors
             label_status = tk.Label(self.main_frame, text="")

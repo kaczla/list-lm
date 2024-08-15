@@ -4,6 +4,7 @@
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.
 - [Common Corpus](https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613) - The largest public domain dataset for training LLMs.
 - [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) - CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.
+- [DCLM](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0) - DCLM is a pretraining dataset that achieves strong performance on language model benchmarks.
 - [Deduplicated CommonCrawl Text](http://statmt.org/ngrams/deduped) - Processed Common Crawl snapshots.
 - [Dolma](https://huggingface.co/datasets/allenai/dolma) - Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials.
 - [DS-1000](https://github.com/HKUNLP/DS-1000) - Official data and code release for the paper DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation.
@@ -32,6 +33,7 @@
 - [ReCoRD](https://github.com/deepmind/rc-data) - This repository contains a script to generate question/answer pairs using CNN and Daily Mail articles downloaded from the Wayback Machine.
 - [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) - RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset. This repo contains a reproducible data receipe for the RedPajama data.
 - [RedPajama-V2](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2) - RedPajama-V2 is an open dataset for training large language models. The dataset includes over 100B text documents coming from 84 CommonCrawl snapshots and processed using the CCNet pipeline.
+- [SciCode Benchmark](https://scicode-bench.github.io/) - SciCode: A Research Coding Benchmark Curated by Scientists
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B) - The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.

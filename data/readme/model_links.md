@@ -7,6 +7,7 @@
 - [CodeTF](https://github.com/salesforce/CodeTF) - CodeTF is a one-stop Python transformer-based library for code large language models (Code LLMs) and code intelligence, provides a seamless interface for training and inferencing on code intelligence tasks like code summarization, translation, code generation and so on.
 - [ColossalAI](https://github.com/hpcaitech/ColossalAI) - Colossal-AI: A Unified Deep Learning System for Big Model Era. Making large AI models cheaper, faster and more accessible.
 - [CoreNet](https://github.com/apple/corenet) - CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.
+- [DataComp-LM](https://github.com/mlfoundations/dclm) - DataComp-LM (DCLM) is a comprehensive framework designed for building and training large language models (LLMs) with diverse datasets.
 - [deepseek-LLM](https://github.com/deepseek-ai/deepseek-LLM) - DeepSeek LLM: Let there be answers
 - [DeepSpeed Model Implementations for Inference](https://github.com/microsoft/DeepSpeed-MII) - DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
@@ -64,6 +65,7 @@
 - [OpenLM](https://github.com/mlfoundations/open_lm) - OpenLM is a minimal but performative language modeling (LM) repository, aimed to facilitate research on medium sized LMs.
 - [OpenMoE](https://github.com/XueFuzhao/OpenMoE) - OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.
 - [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
+- [Pints Train](https://github.com/Pints-AI/1.5-Pints) - Pints Train is a compact LLM pretrained in 9 days by using high quality data.
 - [Pretrained Language Model](https://github.com/huawei-noah/Pretrained-Language-Model) - Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) - RouteLLM is a framework for serving and evaluating LLM routers.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.

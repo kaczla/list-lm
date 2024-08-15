@@ -315,6 +315,13 @@
         "manual_validated": false
     },
     {
+        "name": "Constrained-CoT",
+        "description": "Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost",
+        "url": "https://arxiv.org/abs/2407.19825",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "CoreNet",
         "description": "CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.",
         "url": "https://github.com/apple/corenet",
@@ -385,6 +392,13 @@
         "manual_validated": false
     },
     {
+        "name": "DataComp-LM",
+        "description": "DataComp-LM (DCLM) is a comprehensive framework designed for building and training large language models (LLMs) with diverse datasets.",
+        "url": "https://github.com/mlfoundations/dclm",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "datasketch",
         "description": "datasketch gives you probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. MinHash, LSH, LSH Forest, Weighted MinHash, HyperLogLog, HyperLogLog++, LSH Ensemble.",
         "url": "https://github.com/ekzhu/datasketch",
@@ -399,6 +413,13 @@
         "manual_validated": false
     },
     {
+        "name": "DCLM",
+        "description": "DCLM is a pretraining dataset that achieves strong performance on language model benchmarks.",
+        "url": "https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "decoupleQ",
         "description": "decoupleQ: Towards 2-bit Post-Training Uniform Quantization via decoupling Parameters into Integer and Floating Points",
         "url": "https://github.com/bytedance/decoupleQ",
@@ -410,6 +431,13 @@
         "description": "Processed Common Crawl snapshots.",
         "url": "http://statmt.org/ngrams/deduped",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "Deep learning Cookbook",
+        "description": "Deep learning for dummies. All the practical details and useful utilities that go into working with real models.",
+        "url": "https://github.com/EleutherAI/cookbook",
+        "link_type": "Documentation links",
         "manual_validated": false
     },
     {
@@ -500,6 +528,13 @@
         "name": "DSPy",
         "description": "DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.",
         "url": "https://github.com/stanfordnlp/dspy",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "E5-V: Universal Embeddings with Multimodal Large Language Models",
+        "description": "E5-V is a framework for multimodal embeddings.",
+        "url": "https://github.com/kongds/e5-v",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -714,6 +749,13 @@
         "manual_validated": false
     },
     {
+        "name": "Flute",
+        "description": "Flute is a fast matrix multiplication library for lookup table-quantized large language models.",
+        "url": "https://github.com/HanGuo97/flute",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "GENIUS",
         "description": "GENIUS generating text using sketches! A strong and general textual data augmentation tool.",
         "url": "https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius",
@@ -795,6 +837,13 @@
         "description": "Simple visualizations of learning rate schedulers.",
         "url": "https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png",
         "link_type": "Documentation links",
+        "manual_validated": false
+    },
+    {
+        "name": "Grokfast",
+        "description": "Grokfast: Accelerated Grokking by Amplifying Slow Gradients",
+        "url": "https://arxiv.org/abs/2405.20233",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {
@@ -1764,9 +1813,23 @@
         "manual_validated": false
     },
     {
+        "name": "Pints Train",
+        "description": "Pints Train is a compact LLM pretrained in 9 days by using high quality data.",
+        "url": "https://github.com/Pints-AI/1.5-Pints",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "PowerInfer",
         "description": "PowerInfer is a CPU/GPU LLM inference engine leveraging activation locality for your device.",
         "url": "https://github.com/SJTU-IPADS/PowerInfer",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Praison AI",
+        "description": "Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.",
+        "url": "https://github.com/MervinPraison/PraisonAI",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1925,6 +1988,13 @@
         "manual_validated": false
     },
     {
+        "name": "SALSA",
+        "description": "No learning rates needed: Introducing SALSA - Stable Armijo Line Search Adaptation",
+        "url": "https://arxiv.org/abs/2407.20650",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "SapientML",
         "description": "SapientML is an AutoML technology that can learn from a corpus of existing datasets and their human-written pipelines, and efficiently generate a high-quality pipeline for a predictive task on a new dataset.",
         "url": "https://github.com/sapientml/sapientml",
@@ -1932,10 +2002,24 @@
         "manual_validated": false
     },
     {
+        "name": "Scaling Laws with Vocabulary",
+        "description": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+        "url": "https://arxiv.org/abs/2407.13623",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "ScatterMoE",
         "description": "Triton-based implementation of Sparse Mixture-of-Experts (SMoE) on GPUs.",
         "url": "https://github.com/shawntan/scattermoe",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "SciCode Benchmark",
+        "description": "SciCode: A Research Coding Benchmark Curated by Scientists",
+        "url": "https://scicode-bench.github.io/",
+        "link_type": "Dataset links",
         "manual_validated": false
     },
     {
@@ -2363,6 +2447,13 @@
         "description": "Explanation of Transformer architecture.",
         "url": "https://e2eml.school/transformers.html",
         "link_type": "Documentation links",
+        "manual_validated": false
+    },
+    {
+        "name": "transtokenizers",
+        "description": "transtokenizers is a token translation for language models",
+        "url": "https://github.com/lagom-nlp/transtokenizer",
+        "link_type": "Vocabulary links",
         "manual_validated": false
     },
     {

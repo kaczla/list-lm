@@ -42,6 +42,7 @@
 - [Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.
 - [DPO: Direct Preference Optimization](https://github.com/eric-mitchell/direct-preference-optimization) - Reference implementation for DPO (Direct Preference Optimization)
 - [DSPy](https://github.com/stanfordnlp/dspy) - DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.
+- [E5-V: Universal Embeddings with Multimodal Large Language Models](https://github.com/kongds/e5-v) - E5-V is a framework for multimodal embeddings.
 - [EAGLE](https://github.com/SafeAILab/EAGLE) - EAGLE (Extrapolation Algorithm for Greater Language-model Efficiency) is a new baseline for fast decoding of Large Language Models (LLMs) with provable performance maintenance.
 - [embedchain](https://github.com/embedchain/embedchain) - embedchain is a framework to easily create LLM powered bots over any dataset.
 - [evals](https://github.com/openai/evals) - Evals is a framework for evaluating OpenAI models and an open-source registry of benchmarks.
@@ -57,6 +58,7 @@
 - [FlashAttention](https://github.com/HazyResearch/flash-attention) - Fast and memory-efficient exact attention.
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer) - FlashInfer: Kernel Library for LLM Serving
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexGen allows high-throughput generation by IO-efficient offloading, compression, and large effective batch sizes.
+- [Flute](https://github.com/HanGuo97/flute) - Flute is a fast matrix multiplication library for lookup table-quantized large language models.
 - [ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
 - [GlotLID](https://github.com/cisnlp/GlotLID) - GlotLID is an open-source language identification model with support for more than 1600 languages.
@@ -136,6 +138,7 @@
 - [PaLM + RLHF](https://github.com/lucidrains/PaLM-rlhf-pytorch) - Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM.
 - [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.
 - [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) - PowerInfer is a CPU/GPU LLM inference engine leveraging activation locality for your device.
+- [Praison AI](https://github.com/MervinPraison/PraisonAI) - Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.
 - [privateGPT](https://github.com/imartinez/privateGPT) - Interact privately with your documents using the power of GPT, 100% privately, no data leaks.
 - [Prometheus-Eval](https://github.com/prometheus-eval/prometheus-eval) - A repository for evaluating LLMs in generation tasks.
 - [PromptBench](https://github.com/microsoft/promptbench) - PromptBench: A Unified Library for Evaluating and Understanding Large Language Models.

@@ -1,3 +1,4 @@
+- [Deep learning Cookbook](https://github.com/EleutherAI/cookbook) - Deep learning for dummies. All the practical details and useful utilities that go into working with real models.
 - [Graphic of learning rate schedulers](https://raw.githubusercontent.com/rasbt/machine-learning-notes/7abac1b3dfe47b84887fcee80e5cca0e7ebf5061/learning-rates/scheduler-comparison/overview.png) - Simple visualizations of learning rate schedulers.
 - [Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard) - Public LLM leaderboard computed using Vectara's Hallucination Evaluation Model.
 - [labml.ai Deep Learning Paper Implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) - 60 Implementations/tutorials of deep learning papers with side-by-side notes.

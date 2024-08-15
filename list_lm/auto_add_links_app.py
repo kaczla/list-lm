@@ -4,6 +4,8 @@ from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
+from pyperclip import copy as copy_clipboard
+
 from list_lm.data import (
     ApplicationData,
     LinkType,
@@ -204,6 +206,19 @@ class AutoAddLinksGUIApp:
                 suggested_application_list, selected_data=name_to_suggested_application[next_name]
             )
 
+        def reject_application(index: int) -> None:
+            if len(suggested_application_list) <= 0 or index >= len(suggested_application_list):
+                return
+
+            label_status.config(text="")
+            selected_name = self.get_text_from_text_fields(text_application_name)
+            LOGGER.info(f"Rejected application: {selected_name}")
+            del suggested_application_list[index]
+            del application_type_raw_list[index]
+            del name_to_suggested_application[selected_name]
+
+            select_next_lm_data(index)
+
         def accept_application(index: int) -> None:
             if len(suggested_application_list) <= 0 or index >= len(suggested_application_list):
                 return
@@ -211,7 +226,7 @@ class AutoAddLinksGUIApp:
             selected_name = self.get_text_from_text_fields(text_application_name)
             selected_url = self.get_text_from_text_fields(text_application_url)
             selected_description = self.get_text_from_text_fields(text_application_description)
-            selected_link_type = LinkType[application_type_value.get()]
+            selected_link_type = LinkType.create_from_value(application_type_value.get())
             if not selected_name:
                 label_status.config(text="Application name cannot be empty!")
                 return
@@ -235,10 +250,6 @@ class AutoAddLinksGUIApp:
             del application_type_raw_list[index]
             del name_to_suggested_application[application_data.name]
             self.id_data_changed = True
-
-            if len(suggested_application_list) <= 0:
-                self.verify_application_data([])
-                return
 
             select_next_lm_data(index)
 
@@ -276,9 +287,14 @@ class AutoAddLinksGUIApp:
             # URL
             label_application_url = tk.Label(self.main_frame, text="URL:")
             label_application_url.pack()
-            text_application_url = tk.Text(self.main_frame, width=50, height=1)
+            frame_url = tk.Frame(self.main_frame)
+            frame_url.pack()
+            text_application_url = tk.Text(frame_url, width=50, height=1)
             text_application_url.insert("1.0", selected_data.url)
-            text_application_url.pack()
+            text_application_url.pack(side=tk.LEFT)
+            button_application_url_fn = partial(copy_clipboard, selected_data.url)
+            button_application_url = tk.Button(frame_url, text="📋", command=button_application_url_fn)
+            button_application_url.pack(side=tk.LEFT)
 
             # Description
             label_application_description = tk.Label(self.main_frame, text="Description:")
@@ -306,10 +322,15 @@ class AutoAddLinksGUIApp:
             text_application_readme.insert("1.0", selected_data.readme_text)
             text_application_readme.pack()
 
-            # Main button for accepting LM data
+            # Main button for accepting && rejecting LM data
+            frame_buttons = tk.Frame(self.main_frame)
+            frame_buttons.pack()
             button_accept_fn = partial(accept_application, index=selected_index)
-            button_accept = tk.Button(self.main_frame, text="Accept", command=button_accept_fn)
-            button_accept.pack()
+            button_accept = tk.Button(frame_buttons, text="Accept", command=button_accept_fn)
+            button_accept.pack(side=tk.LEFT)
+            button_reject_fn = partial(reject_application, index=selected_index)
+            button_reject = tk.Button(frame_buttons, text="Reject", command=button_reject_fn)
+            button_reject.pack(side=tk.LEFT)
 
             # Label for validation errors
             label_status = tk.Label(self.main_frame, text="")

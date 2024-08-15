@@ -4,5 +4,7 @@
 - [Chain-of-Knowledge](https://arxiv.org/abs/2305.13269) - Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources
 - [Chain-of-Thought](https://arxiv.org/abs/2201.11903) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495) - Chain-of-Verification Reduces Hallucination in Large Language Models
+- [Constrained-CoT](https://arxiv.org/abs/2407.19825) - Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost
 - [Instruction Tuning With Loss Over Instructions](https://arxiv.org/abs/2405.14394) - Instruction Tuning With Loss Over Instructions
+- [Scaling Laws with Vocabulary](https://arxiv.org/abs/2407.13623) - Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies
 - [The Prompt Report](https://arxiv.org/abs/2406.06608) - The Prompt Report: A Systematic Survey of Prompting Techniques

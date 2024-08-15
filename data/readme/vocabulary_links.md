@@ -3,3 +3,4 @@
 - [tiktoken](https://github.com/openai/tiktoken) - tiktoken is a fast BPE tokeniser for use with OpenAI's models.
 - [tokenizers](https://github.com/huggingface/tokenizers) - Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.
 - [TokenMonster](https://github.com/alasdairforsythe/tokenmonster) - TokenMonster is an ungreedy subword tokenizer and vocabulary generator, enabling language models to run faster, cheaper, smarter and generate longer streams of text.
+- [transtokenizers](https://github.com/lagom-nlp/transtokenizer) - transtokenizers is a token translation for language models

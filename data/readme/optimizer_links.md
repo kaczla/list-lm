@@ -1,2 +1,4 @@
+- [Grokfast](https://arxiv.org/abs/2405.20233) - Grokfast: Accelerated Grokking by Amplifying Slow Gradients
 - [LOMO](https://arxiv.org/abs/2306.09782) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.
+- [SALSA](https://arxiv.org/abs/2407.20650) - No learning rates needed: Introducing SALSA - Stable Armijo Line Search Adaptation
 - [Sophia](https://arxiv.org/abs/2305.14342) - Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training
