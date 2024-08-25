@@ -721,6 +721,13 @@
         "manual_validated": false
     },
     {
+        "name": "Flash Linear Attention",
+        "description": "Flash Linear Attention a collection of efficient Triton-based implementations for state-of-the-art linear attention models.",
+        "url": "https://github.com/sustcsonglin/flash-linear-attention",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "FlashAttention",
         "description": "Fast and memory-efficient exact attention.",
         "url": "https://github.com/HazyResearch/flash-attention",
@@ -1460,6 +1467,13 @@
         "description": "MMF is a modular framework for vision and language multimodal research",
         "url": "https://github.com/facebookresearch/mmf",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "Model Merging Survey",
+        "description": "Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities",
+        "url": "https://arxiv.org/abs/2408.07666",
+        "link_type": "Topic links",
         "manual_validated": false
     },
     {
@@ -2303,6 +2317,13 @@
         "manual_validated": false
     },
     {
+        "name": "The Prompt Report",
+        "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+        "url": "https://arxiv.org/abs/2406.06608",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "TigerLab",
         "description": "Tiger toolkit (TigerRag, TigerTune, TigerDA, TigerArmor) as an open-source resource for developers to create AI models and language applications tailored to their specific needs.",
         "url": "https://github.com/tigerlab-ai/tiger",
@@ -2342,6 +2363,13 @@
         "description": "TokenMonster is an ungreedy subword tokenizer and vocabulary generator, enabling language models to run faster, cheaper, smarter and generate longer streams of text.",
         "url": "https://github.com/alasdairforsythe/tokenmonster",
         "link_type": "Vocabulary links",
+        "manual_validated": false
+    },
+    {
+        "name": "Torch-Pruning",
+        "description": "Torch-Pruning is designed for structural pruning",
+        "url": "https://github.com/VainF/Torch-Pruning",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {

@@ -5598,6 +5598,22 @@
         "manual_validated": false
     },
     {
+        "name": "Llama Guard",
+        "year": 2023,
+        "publication": {
+            "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+            "url": "https://arxiv.org/abs/2312.06674",
+            "date_create": "2023-12-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/LlamaGuard-7b"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "StableLM Zephyr",
         "year": 2023,
         "publication": {
@@ -7592,6 +7608,22 @@
         "manual_validated": false
     },
     {
+        "name": "Llama Guard 2",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Llama Guard 2",
+            "url": "https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B",
+            "date_create": "2024-04-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "LongEmbed",
         "year": 2024,
         "publication": {
@@ -8691,6 +8723,19 @@
         "manual_validated": false
     },
     {
+        "name": "SmartSpec",
+        "year": 2024,
+        "publication": {
+            "title": "Optimizing Speculative Decoding for Serving Large Language Models Using Goodput",
+            "url": "https://arxiv.org/abs/2406.14066",
+            "date_create": "2024-06-20"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "EAGLE-2",
         "year": 2024,
         "publication": {
@@ -8976,6 +9021,25 @@
         "manual_validated": false
     },
     {
+        "name": "Minitron",
+        "year": 2024,
+        "publication": {
+            "title": "Compact Language Models via Pruning and Knowledge Distillation",
+            "url": "https://arxiv.org/abs/2407.14679",
+            "date_create": "2024-07-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/Minitron"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Nemotron-4-Minitron-4B-Base"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Mistral Large 2",
         "year": 2024,
         "publication": {
@@ -9067,6 +9131,38 @@
             "url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
         },
         "manual_validated": true
+    },
+    {
+        "name": "Llama Guard 3",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Llama Guard 3",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Prompt Guard",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Prompt Guard",
+            "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M",
+            "date_create": "2024-07-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Prompt-Guard-86M"
+        },
+        "manual_validated": false
     },
     {
         "name": "ShieldGemma",
@@ -9168,6 +9264,156 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "LongWriter",
+        "year": 2024,
+        "publication": {
+            "title": "LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs",
+            "url": "https://arxiv.org/abs/2408.07055",
+            "date_create": "2024-08-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/THUDM/LongWriter"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/THUDM/LongWriter-glm4-9b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-Prover-V1.5",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search",
+            "url": "https://arxiv.org/abs/2408.08152",
+            "date_create": "2024-08-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V1.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Hermes 3",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Nous research presents Hermes 3",
+            "url": "https://nousresearch.com/hermes3/",
+            "date_create": "2024-08-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Phi 3.5",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Phi 3.5",
+            "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+            "date_create": "2024-08-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Magnum v2",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Magnum v2",
+            "url": "https://huggingface.co/anthracite-org/magnum-v2-123b",
+            "date_create": "2024-08-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/anthracite-org/magnum-v2-123b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Llama 3.1 Storm",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - Llama-3.1-Storm-8B: Improved SLM with Self-Curation + Model Merging",
+            "url": "https://huggingface.co/blog/akjindal53244/llama31-storm8b",
+            "date_create": "2024-08-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/akjindal53244/Llama-3.1-Storm-8B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "MagicDec",
+        "year": 2024,
+        "publication": {
+            "title": "MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding",
+            "url": "https://arxiv.org/abs/2408.11049",
+            "date_create": "2024-08-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Infini-AI-Lab/MagicDec/"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Minitron Approach",
+        "year": 2024,
+        "publication": {
+            "title": "LLM Pruning and Distillation in Practice: The Minitron Approach",
+            "url": "https://arxiv.org/abs/2408.11796",
+            "date_create": "2024-08-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Mistral-NeMo-Minitron-8B-Base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Jamba 1.5",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - The Jamba 1.5 Open Model Family: The Most Powerful and Efficient Long Context Models",
+            "url": "https://www.ai21.com/blog/announcing-jamba-model-family",
+            "date_create": "2024-08-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+        },
         "manual_validated": false
     }
 ]

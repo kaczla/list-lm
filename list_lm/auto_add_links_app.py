@@ -25,12 +25,12 @@ LOGGER = logging.getLogger(__name__)
 class AutoAddLinksGUIApp:
     DATA_JSON_PATH = Path("data/json")
     LINKS_PATH = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
-    DEFAULT_MODEL_NAME = "llama3:latest"
+    DEFAULT_MODEL_NAME = "llama3.1:latest"
 
     def __init__(self) -> None:
         self.parser = ParserLinks()
         self.data_manager_models = DataManager(self.LINKS_PATH, ApplicationData, get_application_data_sort_key)
-        self.id_data_changed = False
+        self.is_data_changed = False
 
         self.main = tk.Tk()
         self.main.title("Auto add links - GUI App")
@@ -249,7 +249,7 @@ class AutoAddLinksGUIApp:
             del suggested_application_list[index]
             del application_type_raw_list[index]
             del name_to_suggested_application[application_data.name]
-            self.id_data_changed = True
+            self.is_data_changed = True
 
             select_next_lm_data(index)
 
@@ -280,7 +280,7 @@ class AutoAddLinksGUIApp:
             # Name
             label_application_name = tk.Label(self.main_frame, text="Name:")
             label_application_name.pack()
-            text_application_name = tk.Text(self.main_frame, width=20, height=1)
+            text_application_name = tk.Text(self.main_frame, width=30, height=1)
             text_application_name.insert("1.0", selected_data.name)
             text_application_name.pack()
 
@@ -351,8 +351,8 @@ class AutoAddLinksGUIApp:
         self.main_frame.pack()
 
     def generate_readme_files(self) -> None:
-        if self.id_data_changed:
-            self.id_data_changed = False
+        if self.is_data_changed:
+            self.is_data_changed = False
             generate_links_all()
 
     def clear_main_frame(self) -> None:

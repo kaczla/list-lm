@@ -19,6 +19,7 @@
 - [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 - [FastSeq](https://github.com/microsoft/fastseq) - FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
+- [Flash Linear Attention](https://github.com/sustcsonglin/flash-linear-attention) - Flash Linear Attention a collection of efficient Triton-based implementations for state-of-the-art linear attention models.
 - [FlashFFTConv](https://github.com/HazyResearch/flash-fft-conv) - FlashFFTConv is a fast algorithm for computing long depthwise convolutions using the FFT algorithm.
 - [GENIUS](https://github.com/beyondguo/geniushttps://github.com/beyondguo/genius) - GENIUS generating text using sketches! A strong and general textual data augmentation tool.
 - [GeoV](https://github.com/geov-ai/geov) - The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.

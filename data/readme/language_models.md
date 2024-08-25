@@ -1750,6 +1750,11 @@
   - Code: [GitHub](https://github.com/csuhan/OneLLM)
   - Model weights: [HuggingFace models](https://huggingface.co/csuhan/OneLLM-7B)
 
+- Llama Guard
+  - Year: 2023
+  - Publication: [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/abs/2312.06674) (2023-12-07)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/LlamaGuard-7b)
+
 - StableLM Zephyr
   - Year: 2023
   - Publication: [Blog - Introducing Stable LM Zephyr 3B: A New Addition to Stable LM, Bringing Powerful LLM Assistants to Edge Devices](https://stability.ai/news/stablelm-zephyr-3b-stability-llm) (2023-12-07)
@@ -2373,6 +2378,11 @@
   - Publication: [Blog - Introducing Meta Llama 3: The most capable openly available LLM to date](https://ai.meta.com/blog/meta-llama-3/) (2024-04-18)
   - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
 
+- Llama Guard 2
+  - Year: 2024
+  - Publication: [HuggingFace model card - Llama Guard 2](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B) (2024-04-18)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)
+
 - LongEmbed
   - Year: 2024
   - Publication: [LongEmbed: Extending Embedding Models for Long Context Retrieval](https://arxiv.org/abs/2404.12096) (2024-04-18)
@@ -2717,6 +2727,10 @@
   - Publication: [DeciMamba: Exploring the Length Extrapolation Potential of Mamba](https://arxiv.org/abs/2406.14528) (2024-06-20)
   - Code: [GitHub](https://github.com/assafbk/DeciMamba)
 
+- SmartSpec
+  - Year: 2024
+  - Publication: [Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066) (2024-06-20)
+
 - EAGLE-2
   - Year: 2024
   - Publication: [EAGLE-2: Faster Inference of Language Models with Dynamic Draft Trees](https://arxiv.org/abs/2406.16858) (2024-06-24)
@@ -2806,6 +2820,12 @@
   - Year: 2024
   - Publication: [LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference](https://arxiv.org/abs/2407.14057) (2024-07-19)
 
+- Minitron
+  - Year: 2024
+  - Publication: [Compact Language Models via Pruning and Knowledge Distillation](https://arxiv.org/abs/2407.14679) (2024-07-19)
+  - Code: [GitHub](https://github.com/NVlabs/Minitron)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Nemotron-4-Minitron-4B-Base)
+
 - Mistral Large 2
   - Year: 2024
   - Publication: [Blog - Large Enough](https://mistral.ai/news/mistral-large-2407/) (2024-07-24)
@@ -2834,6 +2854,16 @@
   - Publication: [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) (2024-07-31)
   - Code: [GitHub](https://github.com/meta-llama/llama3)
   - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B)
+
+- Llama Guard 3
+  - Year: 2024
+  - Publication: [HuggingFace model card - Llama Guard 3](https://huggingface.co/meta-llama/Llama-Guard-3-8B) (2024-07-31)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Llama-Guard-3-8B)
+
+- Prompt Guard
+  - Year: 2024
+  - Publication: [HuggingFace model card - Prompt Guard](https://huggingface.co/meta-llama/Prompt-Guard-86M) (2024-07-31)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Prompt-Guard-86M)
 
 - ShieldGemma
   - Year: 2024
@@ -2866,3 +2896,50 @@
 - Grok-2
   - Year: 2024
   - Publication: [Tweet: Grok-2 Beta Release](https://x.ai/blog/grok-2) (2024-08-13)
+
+- LongWriter
+  - Year: 2024
+  - Publication: [LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs](https://arxiv.org/abs/2408.07055) (2024-08-13)
+  - Code: [GitHub](https://github.com/THUDM/LongWriter)
+  - Model weights: [HuggingFace models](https://huggingface.co/THUDM/LongWriter-glm4-9b)
+
+- DeepSeek-Prover-V1.5
+  - Year: 2024
+  - Publication: [DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search](https://arxiv.org/abs/2408.08152) (2024-08-15)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-Prover-V1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-Prover-V1.5-Base)
+
+- Hermes 3
+  - Year: 2024
+  - Publication: [Blog - Nous research presents Hermes 3](https://nousresearch.com/hermes3/) (2024-08-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B)
+
+- Phi 3.5
+  - Year: 2024
+  - Publication: [HuggingFace model card - Phi 3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) (2024-08-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)
+
+- Magnum v2
+  - Year: 2024
+  - Publication: [HuggingFace model card - Magnum v2](https://huggingface.co/anthracite-org/magnum-v2-123b) (2024-08-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/anthracite-org/magnum-v2-123b)
+
+- Llama 3.1 Storm
+  - Year: 2024
+  - Publication: [HuggingFace model card - Llama-3.1-Storm-8B: Improved SLM with Self-Curation + Model Merging](https://huggingface.co/blog/akjindal53244/llama31-storm8b) (2024-08-19)
+  - Model weights: [HuggingFace models](https://huggingface.co/akjindal53244/Llama-3.1-Storm-8B)
+
+- MagicDec
+  - Year: 2024
+  - Publication: [MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding](https://arxiv.org/abs/2408.11049) (2024-08-20)
+  - Code: [GitHub](https://github.com/Infini-AI-Lab/MagicDec/)
+
+- Minitron Approach
+  - Year: 2024
+  - Publication: [LLM Pruning and Distillation in Practice: The Minitron Approach](https://arxiv.org/abs/2408.11796) (2024-08-21)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Mistral-NeMo-Minitron-8B-Base)
+
+- Jamba 1.5
+  - Year: 2024
+  - Publication: [Blog - The Jamba 1.5 Open Model Family: The Most Powerful and Efficient Long Context Models](https://www.ai21.com/blog/announcing-jamba-model-family) (2024-08-22)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large)

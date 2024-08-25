@@ -20,12 +20,12 @@ LOGGER = logging.getLogger(__name__)
 class AutoAddLMGUIApp:
     DATA_JSON_PATH = Path("data/json")
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
-    DEFAULT_MODEL_NAME = "llama3:latest"
+    DEFAULT_MODEL_NAME = "llama3.1:latest"
 
     def __init__(self) -> None:
         self.parser = ParserLMData()
         self.data_manager_models = DataManager(self.MODEL_DATA_PATH, ModelInfo, get_model_info_sort_key)  # type: ignore[arg-type]
-        self.id_data_changed = False
+        self.is_data_changed = False
 
         self.main = tk.Tk()
         self.main.title("Auto add LM - GUI App")
@@ -258,7 +258,7 @@ class AutoAddLMGUIApp:
             del suggested_model_info_list[index]
             del title_raw_list[index]
             del title_to_suggested_model_info[accepted_data.article_data.title]
-            self.id_data_changed = True
+            self.is_data_changed = True
 
             select_next_lm_data(index)
 
@@ -436,8 +436,8 @@ class AutoAddLMGUIApp:
         self.main_frame.pack()
 
     def generate_readme_files(self) -> None:
-        if self.id_data_changed:
-            self.id_data_changed = False
+        if self.is_data_changed:
+            self.is_data_changed = False
             generate_lm_data()
 
     def clear_main_frame(self) -> None:

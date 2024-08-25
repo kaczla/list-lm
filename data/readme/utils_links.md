@@ -172,6 +172,7 @@
 - [TextBox](https://github.com/RUCAIBox/TextBox) - TextBox 2.0 is a text generation library with pre-trained language models.
 - [TextReducer](https://github.com/helliun/targetedSummarization) - TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.
 - [tinygrad](https://github.com/tinygrad/tinygrad) - tinygrad is an extremely simple deep-learning framework. It supports both inference and training.
+- [Torch-Pruning](https://github.com/VainF/Torch-Pruning) - Torch-Pruning is designed for structural pruning
 - [TorchBench](https://github.com/pytorch/benchmark) - TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.
 - [torchdistX](https://github.com/pytorch/torchdistx) - Torch Distributed Experimental
 - [torchegranate](https://github.com/jmschrei/torchegranate) - Fast, flexible and easy to use probabilistic modelling with PyTorch.
