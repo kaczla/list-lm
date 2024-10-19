@@ -38,7 +38,7 @@ class AutoAddLMGUIApp:
         option_model_name = ttk.Combobox(self.main_frame)
         ollama_is_available = self.parser.ollama_client.is_available()
         if not ollama_is_available:
-            self.show_text_frame("Ollama is unavailable!", color="red")
+            self.show_text_frame("Ollama is unavailable!", color="red", hide_button=True)
             return
         else:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
@@ -427,12 +427,13 @@ class AutoAddLMGUIApp:
 
         self.main_frame.pack()
 
-    def show_text_frame(self, text: str, color: str = "black") -> None:
+    def show_text_frame(self, text: str, color: str = "black", hide_button: bool = False) -> None:
         self.clear_main_frame()
         label_title = tk.Label(self.main_frame, text=text, font="bold", fg=color)
         label_title.pack()
-        button_add_lm = tk.Button(self.main_frame, text="Add LM data", command=lambda: self.add_lm_urls_frame())
-        button_add_lm.pack()
+        if not hide_button:
+            button_add_lm = tk.Button(self.main_frame, text="Add LM data", command=lambda: self.add_lm_urls_frame())
+            button_add_lm.pack()
         self.main_frame.pack()
 
     def generate_readme_files(self) -> None:

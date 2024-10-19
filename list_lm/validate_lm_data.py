@@ -3,6 +3,7 @@ from pathlib import Path
 
 from list_lm.data import ModelInfo, get_model_info_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.generate_readme import generate_lm_data
 from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
@@ -87,6 +88,11 @@ def validate_lm_data(
 
         # Here can be a logic for fixing issues in data
 
+    # Check sort order in data
+    sorted_model_info_list = sorted(model_info_list, key=get_model_info_sort_key)
+    if model_info_list != sorted_model_info_list:
+        changed = True
+
     if errors:
         for error_msg in errors:
             LOGGER.error(error_msg)
@@ -95,6 +101,7 @@ def validate_lm_data(
     if changed:
         LOGGER.info(f"Saving in: {path}")
         save_base_model_list(path, model_info_list, sort_fn=get_model_info_sort_key)  # type: ignore[arg-type]
+        generate_lm_data()
     else:
         LOGGER.info("Nothing changed - skip saving")
 

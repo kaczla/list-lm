@@ -80,7 +80,7 @@ class ParserLMData:
         return "Unsupported code URL!"
 
     @staticmethod
-    def parse_model_weights_url(url: str) -> UrlData | str:
+    def parse_model_weights_url(url: str) -> UrlData:
         url_type = parse_url(url)
         if url_type == UrlType.HUGGINGFACE:
             return UrlData(url=url, title="HuggingFace models")

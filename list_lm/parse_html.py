@@ -5,6 +5,7 @@ from pathlib import Path
 
 import requests
 from lxml import html
+from urllib3 import Retry
 
 from list_lm.data import ArticleDataExtended, CacheArticleData, UnparsedUrl
 from list_lm.data_utils import load_base_model, save_base_model
@@ -16,13 +17,24 @@ CACHE_FILE_ARXIV = Path(".cache/cache_arxiv.json")
 REGEX_GITHUB_URL = re.compile(r"github.com/(?P<author>[^/]+)/(?P<project>[^/?]+)")
 
 
+def get_request_session() -> requests.Session:
+    adapter = requests.adapters.HTTPAdapter(
+        max_retries=Retry(total=5, backoff_factor=0.1, status_forcelist=[413, 429, 500, 502, 503, 504])
+    )
+    session = requests.Session()
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+
 def get_html_string(url: str) -> str:
     LOGGER.info(f"Getting HTML content from: {url}")
-    response = requests.get(url, timeout=60)
-    if response.status_code != 200:
-        msg = f"Cannot get HTML content for: {url!r} (status: {response.status_code}, text: {response.text!r})"
-        LOGGER.error(msg)
-        raise RuntimeError(msg)
+    with get_request_session() as session:
+        response = session.get(url, timeout=60)
+        if response.status_code != 200:
+            msg = f"Cannot get HTML content for: {url!r} (status: {response.status_code}, text: {response.text!r})"
+            LOGGER.error(msg)
+            raise RuntimeError(msg)
 
     LOGGER.info("Collected HTML content")
     return response.text

@@ -8,7 +8,6 @@ LOGGER = logging.getLogger(__name__)
 
 
 class OllamaClient:
-
     def __init__(self, url: str = "http://localhost:11434") -> None:
         self.url = url
         self.url_list_models = urljoin(self.url, "api/tags")

@@ -157,11 +157,15 @@ class GUIApp:
         code_data = (
             self.return_value_or_update_status(self.parser.parse_code_url(code_url), label_status) if code_url else None
         )
-        model_weights_data = (
-            self.return_value_or_update_status(self.parser.parse_model_weights_url(model_weights_url), label_status)
-            if model_weights_url
-            else None
-        )
+        model_weights_data = None
+        if model_weights_url:
+            model_weights_data = self.parser.parse_model_weights_url(model_weights_url)
+        else:
+            # When model weight missing and publication URL is the model weight
+            publication_url_type = parse_url(publication_url)
+            if publication_url_type == UrlType.HUGGINGFACE:
+                model_weights_data = self.parser.parse_model_weights_url(publication_url)
+
         label_status_text = label_status.cget("text")
         if publication_data is None or label_status_text:
             return
@@ -378,7 +382,7 @@ class GUIApp:
 
         elif not title:
             if url_type == UrlType.GITHUB:
-                if not url.endswith(("README.md", "README_en.md", "README_en.md")):
+                if not url.endswith(("README.md", "README_en.md")):
                     return "Missing README.md URL in github.com"
 
                 title = f"README - {name} repository"

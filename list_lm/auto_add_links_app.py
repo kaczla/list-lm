@@ -42,8 +42,8 @@ class AutoAddLinksGUIApp:
         self.clear_main_frame()
         ollama_is_available = self.parser.ollama_client.is_available()
         if not ollama_is_available:
-            label_model_name = tk.Label(self.main_frame, text="Ollama is unavailable.", fg="red")
-            label_model_name.pack()
+            self.show_text_frame("Ollama is unavailable!", color="red", hide_button=True)
+            return
         else:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
             label_model_name.pack()
@@ -342,12 +342,13 @@ class AutoAddLinksGUIApp:
     def get_text_from_text_fields(text_field: tk.Text) -> str:
         return text_field.get(1.0, "end-1c").strip()
 
-    def show_text_frame(self, text: str) -> None:
+    def show_text_frame(self, text: str, color: str = "black", hide_button: bool = False) -> None:
         self.clear_main_frame()
-        label_title = tk.Label(self.main_frame, text=text, font="bold")
+        label_title = tk.Label(self.main_frame, text=text, font="bold", fg=color)
         label_title.pack()
-        button_add_links = tk.Button(self.main_frame, text="Add links", command=lambda: self.add_links_frame())
-        button_add_links.pack()
+        if not hide_button:
+            button_add_links = tk.Button(self.main_frame, text="Add links", command=lambda: self.add_links_frame())
+            button_add_links.pack()
         self.main_frame.pack()
 
     def generate_readme_files(self) -> None:

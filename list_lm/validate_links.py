@@ -3,6 +3,7 @@ from pathlib import Path
 
 from list_lm.data import ApplicationData, get_application_data_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
+from list_lm.generate_readme import generate_links_all
 from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
 
@@ -59,9 +60,15 @@ def validate_links() -> None:
 
         # Here can be a logic for fixing issues in data
 
+    # Check sort order in data
+    sorted_application_data_list = sorted(application_data_list, key=get_application_data_sort_key)
+    if application_data_list != sorted_application_data_list:
+        changed = True
+
     if changed:
         LOGGER.info(f"Saving in: {path}")
         save_base_model_list(path, application_data_list, sort_fn=get_application_data_sort_key)
+        generate_links_all()
     else:
         LOGGER.info("Nothing changed - skip saving")
 
