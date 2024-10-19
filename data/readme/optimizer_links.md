@@ -1,4 +1,8 @@
+- [AdEMAMix](https://arxiv.org/abs/2409.03137) - The AdEMAMix Optimizer: Better, Faster, Older
+- [DiLoCo](https://arxiv.org/abs/2311.08105) - DiLoCo: Distributed Low-Communication Training of Language Models
+- [DisTrO](https://github.com/NousResearch/DisTrO) - DisTrO (Distributed Training Over-The-Internet), a family of low latency distributed optimizers that reduce inter-GPU communication requirements by three to four orders of magnitude.
 - [Grokfast](https://arxiv.org/abs/2405.20233) - Grokfast: Accelerated Grokking by Amplifying Slow Gradients
 - [LOMO](https://arxiv.org/abs/2306.09782) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.
+- [Modded-NanoGPT Optimizer](https://github.com/KellerJordan/modded-nanogpt) - Proposed optimizer - less memory usage than Adam, ~1.5x faster training, and <2% wallclock overhead
 - [SALSA](https://arxiv.org/abs/2407.20650) - No learning rates needed: Introducing SALSA - Stable Armijo Line Search Adaptation
 - [Sophia](https://arxiv.org/abs/2305.14342) - Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training

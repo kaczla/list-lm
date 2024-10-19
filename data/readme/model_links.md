@@ -11,6 +11,7 @@
 - [deepseek-LLM](https://github.com/deepseek-ai/deepseek-LLM) - DeepSeek LLM: Let there be answers
 - [DeepSpeed Model Implementations for Inference](https://github.com/microsoft/DeepSpeed-MII) - DeepSpeed Model Implementations for Inference (MII) makes low-latency and high-throughput inference possible, powered by DeepSpeed.
 - [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII) - MII makes low-latency and high-throughput inference possible, powered by DeepSpeed.
+- [DistillKit](https://github.com/arcee-ai/DistillKit) - DistillKit is an open-source research effort in model distillation by Arcee.AI. Our goal is to provide the community with easy-to-use tools for researching, exploring, and enhancing the adoption of open-source Large Language Model (LLM) distillation methods.
 - [EasyLLM](https://github.com/philschmid/easyllm) - EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source.
 - [EasyLM](https://github.com/young-geng/EasyLM) - Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax. EasyLM can scale up LLM training to hundreds of TPU/GPU accelerators by leveraging JAX's pjit functionality.
 - [Expert Sparsity](https://github.com/lucky-lance/expert_sparsity) - Official Pytorch implementation of the expert pruning and dynamic skipping methods.
@@ -18,6 +19,7 @@
 - [FairScale](https://github.com/facebookresearch/fairscale) - FairScale is a PyTorch extension library for high performance and large scale training. This library extends basic PyTorch capabilities while adding new SOTA scaling techniques.
 - [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) - This repository provides a script and recipe to run the highly optimized transformer-based encoder and decoder component, and it is tested and maintained by NVIDIA.
 - [FastSeq](https://github.com/microsoft/fastseq) - FastSeq provides efficient implementation of popular sequence models (e.g. Bart, ProphetNet) for text generation, summarization, translation tasks etc.
+- [Felafax](https://github.com/felafax/felafax) - Felafax is a framework for continued-training and fine-tuning open source LLMs using XLA runtime.
 - [FlagAI](https://github.com/FlagAI-Open/FlagAI) - FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model. Our goal is to support training, fine-tuning, and deployment of large-scale models on various downstream tasks with multi-modality.
 - [Flash Linear Attention](https://github.com/sustcsonglin/flash-linear-attention) - Flash Linear Attention a collection of efficient Triton-based implementations for state-of-the-art linear attention models.
 - [FlashFFTConv](https://github.com/HazyResearch/flash-fft-conv) - FlashFFTConv is a fast algorithm for computing long depthwise convolutions using the FFT algorithm.
@@ -29,14 +31,18 @@
 - [h2oGPT](https://github.com/h2oai/h2ogpt) - h2oGPT - The world's best open source GPT: open-source repository with fully permissive, commercially usable code, data and models and code for fine-tuning large language models.
 - [JARVIS](https://github.com/microsoft/JARVIS) - JARVIS, a system to connect LLMs with ML community.
 - [Kernl](https://github.com/ELS-RD/kernl) - Kernl lets you run Pytorch transformer models several times faster on GPU with a single line of code, and is designed to be easily hackable. Kernl is the first OSS inference engine written in OpenAI Triton, a new language designed by OpenAI to make it easier to write GPU kernels.
+- [KTransformers](https://github.com/kvcache-ai/ktransformers) - KTransformers is a flexible, Python-centric framework designed with extensibility at its core.
 - [LASSL](https://github.com/lassl/lassl) - LASSL is a LAnguage framework for Self-Supervised Learning. LASSL aims to provide an easy-to-use framework for pretraining language model by only using Huggingface's Transformers and Datasets.
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion) - High-Resolution Image Synthesis with Latent Diffusion Models, contains: Text-to-Image, Inpainting
+- [Lazy Predict](https://github.com/shankarpandala/lazypredict) - Lazy Predict helps build a lot of basic models without much code and helps understand which models works better without any parameter tuning.
 - [Levanter](https://github.com/stanford-crfm/levanter) - Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.
 - [LiBai](https://github.com/Oneflow-Inc/libai) - LiBai is a large-scale open-source model training toolbox based on OneFlow
+- [Liger Kernel](https://github.com/linkedin/Liger-Kernel) - Liger Kernel is a collection of Triton kernels designed specifically for LLM training.
 - [LightLLM](https://github.com/ModelTC/lightllm) - LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.
 - [LightSeq](https://github.com/RulinShao/LightSeq) - Official repository for LightSeq: Sequence Level Parallelism for Distributed Training of Long Context Transformers. LightSeq achieves up to 2x faster, 2-8x longer sequences vs Megatron-LM on 16 80GB A100s.
 - [Lit-GPT](https://github.com/Lightning-AI/lit-gpt) - Hackable implementation of state-of-the-art open-source LLMs based on nanoGPT. Supports flash attention, 4-bit and 8-bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training.
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) - llamafile lets you distribute and run LLMs with a single file.
+- [llm](https://github.com/simonw/llm) - llm is a CLI utility and Python library for interacting with Large Language Models, both via remote APIs and models that can be installed and run on your own machine.
 - [LLM Foundry](https://github.com/mosaicml/llm-foundry) - This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform.
 - [llm.c](https://github.com/karpathy/llm.c) - LLM training in simple, raw C/CUDA
 - [LMFlow](https://github.com/OptimalScale/LMFlow) - An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
@@ -48,6 +54,7 @@
 - [MegaBlocks](https://github.com/stanford-futuredata/megablocks) - MegaBlocks is a light-weight library for mixture-of-experts (MoE) training.
 - [mergekit](https://github.com/arcee-ai/mergekit) - mergekit is a toolkit for merging pre-trained language models. mergekit uses an out-of-core approach to perform unreasonably elaborate merges in resource-constrained situations. Merges can be run entirely on CPU or accelerated with as little as 8 GB of VRAM.
 - [metaseq](https://github.com/facebookresearch/metaseq) - A codebase for working with Open Pre-trained Transformers.
+- [MLC LLM](https://github.com/mlc-ai/mlc-llm) - MLC LLM is a machine learning compiler and high-performance deployment engine for large language models. The mission of this project is to enable everyone to develop, optimize, and deploy AI models natively on everyone's platforms.
 - [MMF](https://github.com/facebookresearch/mmf) - MMF is a modular framework for vision and language multimodal research
 - [ModuleFormer](https://github.com/IBM/ModuleFormer) - ModuleFormer is a MoE-based architecture that includes two different types of experts: stick-breaking attention heads and feedforward experts. We released a collection of ModuleFormer-based Language Models (MoLM) ranging in scale from 4 billion to 8 billion parameters.
 - [Mosaic composer](https://github.com/mosaicml/composer) - Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.
@@ -65,6 +72,7 @@
 - [OpenLLM](https://github.com/bentoml/OpenLLM) - An open platform for operating large language models (LLMs) in production. Fine-tune, serve, deploy, and monitor any LLMs with ease.
 - [OpenLM](https://github.com/mlfoundations/open_lm) - OpenLM is a minimal but performative language modeling (LM) repository, aimed to facilitate research on medium sized LMs.
 - [OpenMoE](https://github.com/XueFuzhao/OpenMoE) - OpenMoE is a project aimed at igniting the open-source MoE community! We are releasing a family of open-sourced Mixture-of-Experts (MoE) Large Language Models.
+- [Optima](https://github.com/thunlp/Optima) - Optima is a novel training framework designed to optimize LLM-based multi-agent systems. By leveraging iterative training, Optima significantly enhances agent communication efficiency while boosting response accuracy. Our approach not only reduces token usage but also paves the way for improved inference-time scaling laws.
 - [OSLO](https://github.com/EleutherAI/oslo) - OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.
 - [Pints Train](https://github.com/Pints-AI/1.5-Pints) - Pints Train is a compact LLM pretrained in 9 days by using high quality data.
 - [Pretrained Language Model](https://github.com/huawei-noah/Pretrained-Language-Model) - Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
@@ -91,6 +99,7 @@
 - [Trankit](https://github.com/nlp-uoregon/trankit) - A Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
 - [transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
 - [Tricksy](https://github.com/austinsilveria/tricksy) - Fast approximate inference on a single GPU with sparsity aware offloading
+- [TRL](https://github.com/huggingface/trl) - TRL is a library to post-train LLMs and diffusion models with methods such as Supervised Fine-tuning (SFT), Proximal Policy Optimization (PPO), and Direct Preference Optimization (DPO).
 - [txtai](https://github.com/neuml/txtai) - txtai executes machine-learning workflows to transform data and build AI-powered semantic search applications.
 - [unilm](https://github.com/microsoft/unilm) - Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities.
 - [unsloth](https://github.com/unslothai/unsloth) - 2-5x faster 60% less memory local QLoRA finetuning

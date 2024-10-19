@@ -1,4 +1,3 @@
-- [A Survey on Mixture of Experts](https://arxiv.org/abs/2407.06204) - A Survey on Mixture of Experts
 - [AutoCrawler](https://arxiv.org/abs/2404.12753) - AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation
 - [Chain of Explanation](https://arxiv.org/abs/2209.04889) - Chain of Explanation: New Prompting Method to Generate Higher Quality Natural Language Explanation for Implicit Hate Speech
 - [Chain-of-Knowledge](https://arxiv.org/abs/2305.13269) - Chain-of-Knowledge: Grounding Large Language Models via Dynamic Knowledge Adapting over Heterogeneous Sources
@@ -6,7 +5,9 @@
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495) - Chain-of-Verification Reduces Hallucination in Large Language Models
 - [Constrained-CoT](https://arxiv.org/abs/2407.19825) - Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost
 - [Instruction Tuning With Loss Over Instructions](https://arxiv.org/abs/2405.14394) - Instruction Tuning With Loss Over Instructions
-- [Model Merging Survey](https://arxiv.org/abs/2408.07666) - Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities
 - [Scaling Laws with Vocabulary](https://arxiv.org/abs/2407.13623) - Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies
-- [The Prompt Report](https://arxiv.org/abs/2406.06608) - The Prompt Report: A Systematic Survey of Prompting Techniques
-- [The Prompt Report](https://arxiv.org/abs/2406.06608) - The Prompt Report: A Systematic Survey of Prompting Techniques
+- [Survey - Low-bit Large Language Models](https://arxiv.org/abs/2409.16694) - A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms
+- [Survey - Mixture of Experts](https://arxiv.org/abs/2407.06204) - A Survey on Mixture of Experts
+- [Survey - Model Merging](https://arxiv.org/abs/2408.07666) - Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities
+- [Survey - Small Language Models](https://arxiv.org/abs/2409.15790) - Small Language Models: Survey, Measurements, and Insights
+- [Survey - The Prompt Report](https://arxiv.org/abs/2406.06608) - The Prompt Report: A Systematic Survey of Prompting Techniques

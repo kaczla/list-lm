@@ -1939,6 +1939,11 @@
   - Code: [GitHub](https://github.com/lqtrung1998/mwp_ReFT)
   - Model weights: [HuggingFace models](https://huggingface.co/lqtrung1998/Codellama-7b-hf-ReFT-GSM8k)
 
+- StableLM 2 Zephyr
+  - Year: 2024
+  - Publication: [HuggingFace model card - StableLM 2 Zephyr](https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b) (2024-01-19)
+  - Model weights: [HuggingFace models](https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b)
+
 - Imp
   - Year: 2024
   - Publication: [HuggingFace model card - Imp](https://huggingface.co/MILVLG/imp-v1-3b) (2024-01-24)
@@ -2095,6 +2100,12 @@
   - Year: 2024
   - Publication: [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/abs/2402.15627) (2024-02-23)
 
+- MobiLlama
+  - Year: 2024
+  - Publication: [HuggingFace model card - MobiLlama](https://huggingface.co/MBZUAI/MobiLlama-1B) (2024-02-24)
+  - Code: [GitHub](https://github.com/mbzuai-oryx/MobiLlama)
+  - Model weights: [HuggingFace models](https://huggingface.co/MBZUAI/MobiLlama-1B)
+
 - Nemotron-4
   - Year: 2024
   - Publication: [Nemotron-4 15B Technical Report](https://arxiv.org/abs/2402.16819) (2024-02-26)
@@ -2133,6 +2144,11 @@
   - Year: 2024
   - Publication: [StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/abs/2402.19173) (2024-02-29)
   - Model weights: [HuggingFace models](https://huggingface.co/bigcode/starcoder2-15b)
+
+- InfiMM-HD
+  - Year: 2024
+  - Publication: [InfiMM-HD: A Leap Forward in High-Resolution Multimodal Understanding](https://arxiv.org/abs/2403.01487) (2024-03-03)
+  - Model weights: [HuggingFace models](https://huggingface.co/Infi-MM/infimm-hd)
 
 - Claude 3
   - Year: 2024
@@ -2328,10 +2344,21 @@
   - Publication: [ReFT: Representation Finetuning for Language Models](https://arxiv.org/abs/2404.03592) (2024-04-04)
   - Code: [GitHub](https://github.com/stanfordnlp/pyreft)
 
+- H2O-Danube2
+  - Year: 2024
+  - Publication: [HuggingFace model card - H2O-Danube2](https://huggingface.co/h2oai/h2o-danube2-1.8b-chat) (2024-04-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/h2oai/h2o-danube2-1.8b-chat)
+
 - SqueezeAttention
   - Year: 2024
   - Publication: [SqueezeAttention: 2D Management of KV-Cache in LLM Inference via Layer-wise Optimal Budget](https://arxiv.org/abs/2404.04793) (2024-04-07)
   - Code: [GitHub](https://github.com/hetailang/SqueezeAttention)
+
+- RecurrentGemma
+  - Year: 2024
+  - Publication: [HuggingFace model card - RecurrentGemma](https://huggingface.co/google/recurrentgemma-2b-it) (2024-04-09)
+  - Code: [GitHub](https://github.com/google-deepmind/recurrentgemma)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/recurrentgemma-2b-it)
 
 - Infini-Transformer
   - Year: 2024
@@ -2357,10 +2384,6 @@
   - Year: 2024
   - Publication: [Prepacking: A Simple Method for Fast Prefilling and Increased Throughput in Large Language Models](https://arxiv.org/abs/2404.09529) (2024-04-15)
   - Code: [GitHub](https://github.com/siyan-zhao/prepacking)
-
-- Zamba
-  - Year: 2024
-  - Publication: [X: Zamba-7B](https://x.com/QuentinAnthon15/status/1780280071304937978) (2024-04-16)
 
 - K2
   - Year: 2024
@@ -2460,6 +2483,11 @@
   - Year: 2024
   - Publication: [HuggingFace model card - Hermes-2 Theta](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B) (2024-05-05)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B)
+
+- Higgs Llama
+  - Year: 2024
+  - Publication: [Blog - Announcing the Higgs Family of LLMs](https://boson.ai/higgs-opensource/) (2024-05-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/bosonai/Higgs-Llama-3-70B)
 
 - AlphaMath
   - Year: 2024
@@ -2577,11 +2605,21 @@
   - Publication: [Aya 23: Open Weight Releases to Further Multilingual Progress](https://arxiv.org/abs/2405.15032) (2024-05-23)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/aya-23-8B)
 
+- SimPO
+  - Year: 2024
+  - Publication: [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734) (2024-05-23)
+  - Code: [GitHub](https://github.com/princeton-nlp/SimPO)
+  - Model weights: [HuggingFace models](https://huggingface.co/princeton-nlp/gemma-2-9b-it-SimPO)
+
 - LLM-Stacking
   - Year: 2024
   - Publication: [Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training](https://arxiv.org/abs/2405.15319) (2024-05-24)
   - Code: [GitHub](https://github.com/tongxuluo/prts)
   - Model weights: [HuggingFace models](https://huggingface.co/llm-stacking/StackingLaw_Factor_1.1B12L)
+
+- Zamba
+  - Year: 2024
+  - Publication: [Zamba: A Compact 7B SSM Hybrid Model](https://arxiv.org/abs/2405.16712) (2024-05-26)
 
 - Abacus Embeddings
   - Year: 2024
@@ -2689,6 +2727,11 @@
   - Year: 2024
   - Publication: [An Empirical Study of Mamba-based Language Models](https://arxiv.org/abs/2406.07887) (2024-06-12)
 
+- Fox
+  - Year: 2024
+  - Publication: [Tweet: TensorOpera Unveils Fox Foundation Model: A Pioneering Small Language Model (SLM) for Cloud and Edge](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) (2024-06-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/tensoropera/Fox-1-1.6B)
+
 - MLKV (Multi-Layer Key-Value Heads)
   - Year: 2024
   - Publication: [MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding](https://arxiv.org/abs/2406.09297) (2024-06-13)
@@ -2721,6 +2764,11 @@
   - Year: 2024
   - Publication: [LayerMerge: Neural Network Depth Compression through Layer Pruning and Merging](https://arxiv.org/abs/2406.12837) (2024-06-18)
   - Code: [GitHub](https://github.com/snu-mllab/LayerMerge)
+
+- NuExtract
+  - Year: 2024
+  - Publication: [HuggingFace model card - NuExtract](https://huggingface.co/numind/NuExtract-large) (2024-06-19)
+  - Model weights: [HuggingFace models](https://huggingface.co/numind/NuExtract-large)
 
 - DeciMamba
   - Year: 2024
@@ -2784,6 +2832,16 @@
   - Publication: [Q-GaLore: Quantized GaLore with INT4 Projection and Layer-Adaptive Low-Rank Gradients](https://arxiv.org/abs/2407.08296) (2024-07-11)
   - Code: [GitHub](https://github.com/VITA-Group/Q-GaLore)
 
+- H2O-Danube3
+  - Year: 2024
+  - Publication: [H2O-Danube3 Technical Report](https://arxiv.org/abs/2407.09276) (2024-07-12)
+  - Model weights: [HuggingFace models](https://huggingface.co/h2oai/h2o-danube3-4b-chat)
+
+- Arcee-Nova
+  - Year: 2024
+  - Publication: [HuggingFace model card - Arcee-Nova](https://huggingface.co/arcee-ai/Arcee-Nova) (2024-07-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/arcee-ai/Arcee-Nova?ref=blog.arcee.ai)
+
 - Codestral Mamba
   - Year: 2024
   - Publication: [Blog - Codestral Mamba](https://mistral.ai/news/codestral-mamba/) (2024-07-16)
@@ -2806,6 +2864,10 @@
   - Publication: [Spectra: A Comprehensive Study of Ternary, Quantized, and FP16 Language Models](https://arxiv.org/abs/2407.12327) (2024-07-17)
   - Code: [GitHub](https://github.com/NolanoOrg/SpectraSuite)
   - Model weights: [HuggingFace models](https://huggingface.co/SpectraSuite/FloatLM_99M)
+
+- Higgs Llama V2
+  - Year: 2024
+  - Publication: [Blog - Announcing Higgs Llama V2](https://boson.ai/higgs-v2/) (2024-07-18)
 
 - Mistral NeMo
   - Year: 2024
@@ -2870,6 +2932,11 @@
   - Publication: [ShieldGemma: Generative AI Content Moderation Based on Gemma](https://arxiv.org/abs/2407.21772) (2024-07-31)
   - Model weights: [HuggingFace models](https://huggingface.co/google/shieldgemma-2b)
 
+- InfiMM
+  - Year: 2024
+  - Publication: [Blog - InfiMM: Advancing Multimodal Understanding with an Open-Sourced Visual Language Model](https://aclanthology.org/2024.findings-acl.27/) (2024-08-01)
+  - Model weights: [HuggingFace models](https://huggingface.co/Infi-MM/infimm-zephyr)
+
 - InternLM2.5
   - Year: 2024
   - Publication: [HuggingFace model card - InternLM2.5](https://huggingface.co/internlm/internlm2_5-20b-chat) (2024-08-06)
@@ -2919,6 +2986,12 @@
   - Publication: [HuggingFace model card - Phi 3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) (2024-08-16)
   - Model weights: [HuggingFace models](https://huggingface.co/microsoft/Phi-3.5-mini-instruct)
 
+- Zamba 2
+  - Year: 2024
+  - Publication: [HuggingFace model card - Zamba 2](https://huggingface.co/Zyphra/Zamba2-1.2B) (2024-08-16)
+  - Code: [GitHub](https://github.com/Zyphra/transformers_zamba2)
+  - Model weights: [HuggingFace models](https://huggingface.co/Zyphra/Zamba2-1.2B)
+
 - Magnum v2
   - Year: 2024
   - Publication: [HuggingFace model card - Magnum v2](https://huggingface.co/anthracite-org/magnum-v2-123b) (2024-08-17)
@@ -2943,3 +3016,267 @@
   - Year: 2024
   - Publication: [Blog - The Jamba 1.5 Open Model Family: The Most Powerful and Efficient Long Context Models](https://www.ai21.com/blog/announcing-jamba-model-family) (2024-08-22)
   - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large)
+
+- LlavaOLMoBitnet1B
+  - Year: 2024
+  - Publication: [LLaVaOLMoBitnet1B: Ternary LLM goes Multimodal!](https://arxiv.org/abs/2408.13402) (2024-08-23)
+  - Model weights: [HuggingFace models](https://huggingface.co/IntelLabs/LlavaOLMoBitnet1B)
+
+- Mamba2-Llama3
+  - Year: 2024
+  - Publication: [The Mamba in the Llama: Distilling and Accelerating Hybrid Models](https://arxiv.org/abs/2408.15237) (2024-08-27)
+
+- Rene
+  - Year: 2024
+  - Publication: [Blog - The On‑Device Intelligence Update](https://cartesia.ai/blog/2024-08-27-on-device) (2024-08-27)
+  - Model weights: [HuggingFace models](https://huggingface.co/cartesia-ai/Rene-v0.1-1.3b-pytorch)
+
+- LTM-2-mini
+  - Year: 2024
+  - Publication: [Tweet: 100M Token Context Windows](https://magic.dev/blog/100m-token-context-windows) (2024-08-29)
+
+- Command R 08-2024
+  - Year: 2024
+  - Publication: [Blog - Updates to the Command R Series](https://cohere.com/blog/command-series-0824) (2024-08-30)
+  - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/c4ai-command-r-08-2024)
+
+- FPDT (Fully Pipelined Distributed Transformer)
+  - Year: 2024
+  - Publication: [Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer](https://arxiv.org/abs/2408.16978) (2024-08-30)
+
+- MemLong
+  - Year: 2024
+  - Publication: [MemLong: Memory-Augmented Retrieval for Long Text Modeling](https://arxiv.org/abs/2408.16967) (2024-08-30)
+  - Code: [GitHub](https://github.com/Bui1dMySea/MemLong)
+
+- OLMoE
+  - Year: 2024
+  - Publication: [OLMoE: Open Mixture-of-Experts Language Models](https://arxiv.org/abs/2409.02060) (2024-09-03)
+  - Code: [GitHub](https://github.com/allenai/OLMoE)
+  - Model weights: [HuggingFace models](https://huggingface.co/allenai/OLMoE-1B-7B-0924)
+
+- LongLLaVA
+  - Year: 2024
+  - Publication: [LongLLaVA: Scaling Multi-modal LLMs to 1000 Images Efficiently via a Hybrid Architecture](https://arxiv.org/abs/2409.02889) (2024-09-04)
+  - Code: [GitHub](https://github.com/freedomintelligence/longllava)
+  - Model weights: [HuggingFace models](https://huggingface.co/FreedomIntelligence/LongLLaVA)
+
+- DeepSeek-V2.5
+  - Year: 2024
+  - Publication: [HuggingFace model card - DeepSeek-V2.5](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) (2024-09-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V2.5)
+
+- Yi-Coder
+  - Year: 2024
+  - Publication: [Blog - Meet Yi-Coder: A Small but Mighty LLM for Code](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) (2024-09-05)
+  - Code: [GitHub](https://github.com/01-ai/Yi-Coder)
+  - Model weights: [HuggingFace models](https://huggingface.co/01-ai/Yi-Coder-9B-Chat)
+
+- FlashSigmoid
+  - Year: 2024
+  - Publication: [Theory, Analysis, and Best Practices for Sigmoid Self-Attention](https://arxiv.org/abs/2409.04431) (2024-09-06)
+  - Code: [GitHub](https://github.com/apple/ml-sigmoid-attention)
+
+- OneGen
+  - Year: 2024
+  - Publication: [OneGen: Efficient One-Pass Unified Generation and Retrieval for LLMs](https://arxiv.org/abs/2409.05152) (2024-09-08)
+  - Code: [GitHub](https://github.com/zjunlp/OneGen)
+  - Model weights: [HuggingFace models](https://huggingface.co/zjunlp/OneGen-EntityLinking-Llama2-7B)
+
+- Arcee-SuperNova
+  - Year: 2024
+  - Publication: [Blog - Arcee-SuperNova: Training Pipeline and Model Composition](https://blog.arcee.ai/arcee-supernova-training-pipeline-and-model-composition/) (2024-09-10)
+
+- SaRA
+  - Year: 2024
+  - Publication: [SaRA: High-Efficient Diffusion Model Fine-tuning with Progressive Sparse Low-Rank Adaptation](https://arxiv.org/abs/2409.06633) (2024-09-10)
+  - Code: [GitHub](https://github.com/sjtuplayer/SaRA)
+
+- GSA (Gated Slot Attention)
+  - Year: 2024
+  - Publication: [Gated Slot Attention for Efficient Linear-Time Sequence Modeling](https://arxiv.org/abs/2409.07146) (2024-09-11)
+  - Code: [GitHub](https://github.com/berlino/gated_linear_attention)
+  - Model weights: [HuggingFace models](https://huggingface.co/fla-hub/gla-2.7B-100B)
+
+- Reader-LM
+  - Year: 2024
+  - Publication: [Blog - Reader-LM: Small Language Models for Cleaning and Converting HTML to Markdown](https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown/) (2024-09-11)
+  - Model weights: [HuggingFace models](https://huggingface.co/jinaai/reader-lm-1.5b)
+
+- jina-embeddings-v3
+  - Year: 2024
+  - Publication: [jina-embeddings-v3: Multilingual Embeddings With Task LoRA](https://arxiv.org/abs/2409.10173) (2024-09-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/jinaai/jina-embeddings-v3)
+
+- KAT (Kolmogorov-Arnold Transformer)
+  - Year: 2024
+  - Publication: [Kolmogorov-Arnold Transformer](https://arxiv.org/abs/2409.10594) (2024-09-16)
+  - Code: [GitHub](https://github.com/Adamdad/kat)
+
+- NVLM
+  - Year: 2024
+  - Publication: [NVLM: Open Frontier-Class Multimodal LLMs](https://arxiv.org/abs/2409.11402) (2024-09-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/NVLM-D-72B)
+
+- GRIN MOE
+  - Year: 2024
+  - Publication: [GRIN: GRadient-INformed MoE](https://arxiv.org/abs/2409.12136) (2024-09-18)
+
+- Qwen2.5-Coder
+  - Year: 2024
+  - Publication: [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186) (2024-09-18)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5-Coder)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-Coder-7B)
+
+- Qwen2.5
+  - Year: 2024
+  - Publication: [Blog - Qwen2.5: A Party of Foundation Models!](https://qwenlm.github.io/blog/qwen2.5/) (2024-09-19)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-72B)
+
+- Qwen2.5-Math
+  - Year: 2024
+  - Publication: [Blog - Introducing Qwen2-MathQwen2.5-Math: The world's leading open-sourced mathematical LLMs](https://qwenlm.github.io/blog/qwen2.5-math/) (2024-09-19)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5-Math)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-Math-72B)
+
+- Llama-3.1-Nemotron
+  - Year: 2024
+  - Publication: [Blog - Advancing the Accuracy-Efficiency Frontier with Llama-3.1-Nemotron-51B](https://developer.nvidia.com/blog/advancing-the-accuracy-efficiency-frontier-with-llama-3-1-nemotron-51b/) (2024-09-23)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Llama-3_1-Nemotron-51B-Instruct)
+
+- BitQ
+  - Year: 2024
+  - Publication: [BitQ: Tailoring Block Floating Point Precision for Improved DNN Efficiency on Resource-Constrained Devices](https://arxiv.org/abs/2409.17093) (2024-09-25)
+  - Code: [GitHub](https://github.com/Cheliosoops/BitQ)
+
+- Llama 3.2
+  - Year: 2024
+  - Publication: [Blog - Llama 3.2: Revolutionizing edge AI and vision with open, customizable models](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) (2024-09-25)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
+
+- Molmo
+  - Year: 2024
+  - Publication: [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models](https://arxiv.org/abs/2409.17146) (2024-09-25)
+
+- VPTQ (Vector Post-Training Quantization)
+  - Year: 2024
+  - Publication: [VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2409.17066) (2024-09-25)
+  - Code: [GitHub](https://github.com/microsoft/VPTQ)
+
+- EMOVA
+  - Year: 2024
+  - Publication: [EMOVA: Empowering Language Models to See, Hear and Speak with Vivid Emotions](https://arxiv.org/abs/2409.18042) (2024-09-26)
+
+- MIO
+  - Year: 2024
+  - Publication: [MIO: A Foundation Model on Multimodal Tokens](https://arxiv.org/abs/2409.17692) (2024-09-26)
+
+- Cottention
+  - Year: 2024
+  - Publication: [Cottention: Linear Transformers With Cosine Attention](https://arxiv.org/abs/2409.18747) (2024-09-27)
+  - Code: [GitHub](https://github.com/gmongaras/Cottention_Transformer)
+  - Model weights: [HuggingFace models](https://huggingface.co/gmongaras/Cosine_Attention_GPT_300M)
+
+- Hyper-Connections
+  - Year: 2024
+  - Publication: [Hyper-Connections](https://arxiv.org/abs/2409.19606) (2024-09-29)
+
+- Dracarys2
+  - Year: 2024
+  - Publication: [HuggingFace model card - Dracarys2](https://huggingface.co/abacusai/Dracarys2-72B-Instruct) (2024-09-30)
+  - Model weights: [HuggingFace models](https://huggingface.co/abacusai/Dracarys2-72B-Instruct)
+
+- LFM
+  - Year: 2024
+  - Publication: [Blog - Liquid Foundation Models: Our First Series of Generative AI Models](https://www.liquid.ai/liquid-foundation-models) (2024-09-30)
+
+- MM1.5
+  - Year: 2024
+  - Publication: [MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning](https://arxiv.org/abs/2409.20566) (2024-09-30)
+
+- nGPT (Normalized Transformer)
+  - Year: 2024
+  - Publication: [nGPT: Normalized Transformer with Representation Learning on the Hypersphere](https://arxiv.org/abs/2410.01131) (2024-10-01)
+
+- ENTP (Encoder-only Next Token Prediction)
+  - Year: 2024
+  - Publication: [ENTP: Encoder-only Next Token Prediction](https://arxiv.org/abs/2410.01600) (2024-10-02)
+
+- FactAlign
+  - Year: 2024
+  - Publication: [FactAlign: Long-form Factuality Alignment of Large Language Models](https://arxiv.org/abs/2410.01691) (2024-10-02)
+  - Code: [GitHub](https://github.com/MiuLab/FactAlign)
+  - Model weights: [HuggingFace models](https://huggingface.co/datasets/chaoweihuang/factalign-gemma2-f1_0.75)
+
+- Leopard
+  - Year: 2024
+  - Publication: [Leopard: A Vision Language Model For Text-Rich Multi-Image Tasks](https://arxiv.org/abs/2410.01744) (2024-10-02)
+  - Code: [GitHub](https://github.com/tencent-ailab/Leopard)
+
+- minLSTMs
+  - Year: 2024
+  - Publication: [Were RNNs All We Needed?](https://arxiv.org/abs/2410.01201) (2024-10-02)
+
+- Reflection
+  - Year: 2024
+  - Publication: [Blog - Update on Reflection-70B](https://glaive.ai/blog/post/reflection-postmortem) (2024-10-02)
+  - Code: [GitHub](https://github.com/glaive-ai/reflection_70b_training)
+  - Model weights: [HuggingFace models](https://huggingface.co/glaiveai/Reflection-Llama-3.1-70B)
+
+- Selective Attention
+  - Year: 2024
+  - Publication: [Selective Attention Improves Transformer](https://arxiv.org/abs/2410.02703) (2024-10-03)
+
+- ToolGen
+  - Year: 2024
+  - Publication: [ToolGen: Unified Tool Retrieval and Calling via Generation](https://arxiv.org/abs/2410.03439) (2024-10-04)
+  - Code: [GitHub](https://github.com/Reason-Wang/ToolGen)
+  - Model weights: [HuggingFace models](https://huggingface.co/reasonwang/ToolGen-Llama-3-8B)
+
+- Diff Transformer
+  - Year: 2024
+  - Publication: [Differential Transformer](https://arxiv.org/abs/2410.05258) (2024-10-07)
+  - Code: [GitHub](https://github.com/microsoft/unilm/tree/master/Diff-Transformer)
+
+- Falcon Mamba
+  - Year: 2024
+  - Publication: [Falcon Mamba: The First Competitive Attention-free 7B Language Model](https://arxiv.org/abs/2410.05355) (2024-10-07)
+  - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/falcon-mamba-7b)
+
+- PredFormer
+  - Year: 2024
+  - Publication: [PredFormer: Transformers Are Effective Spatial-Temporal Predictive Learners](https://arxiv.org/abs/2410.04733) (2024-10-07)
+  - Model weights: [Direct link](https://github.com/yyyujintang/PredFormer)
+
+- Aria
+  - Year: 2024
+  - Publication: [Aria: An Open Multimodal Native Mixture-of-Experts Model](https://arxiv.org/abs/2410.05993) (2024-10-08)
+  - Code: [GitHub](https://github.com/rhymes-ai/Aria)
+  - Model weights: [HuggingFace models](https://huggingface.co/rhymes-ai/Aria)
+
+- Pixtral
+  - Year: 2024
+  - Publication: [Pixtral 12B](https://arxiv.org/abs/2410.07073) (2024-10-09)
+
+- DuoAttention
+  - Year: 2024
+  - Publication: [DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads](https://arxiv.org/abs/2410.10819) (2024-10-14)
+  - Code: [GitHub](https://github.com/mit-han-lab/duo-attention)
+
+- Zamba 2 7B
+  - Year: 2024
+  - Publication: [Blog - Zamba2-7B](https://zyphra.webflow.io/post/zamba2-7b) (2024-10-14)
+  - Code: [GitHub](https://github.com/Zyphra/Zamba2)
+  - Model weights: [HuggingFace models](https://huggingface.co/Zyphra/Zamba2-7B-Instruct)
+
+- Ministral
+  - Year: 2024
+  - Publication: [Tweet: Un Ministral, des Ministraux](https://mistral.ai/news/ministraux/) (2024-10-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410)
+
+- Janus
+  - Year: 2024
+  - Publication: [Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2410.13848) (2024-10-17)
+  - Code: [GitHub](https://github.com/deepseek-ai/Janus)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/Janus-1.3B)

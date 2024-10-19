@@ -1,9 +1,9 @@
 [
     {
-        "name": "A Survey on Mixture of Experts",
-        "description": "A Survey on Mixture of Experts",
-        "url": "https://arxiv.org/abs/2407.06204",
-        "link_type": "Topic links",
+        "name": "AdEMAMix",
+        "description": "The AdEMAMix Optimizer: Better, Faster, Older",
+        "url": "https://arxiv.org/abs/2409.03137",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {
@@ -17,6 +17,13 @@
         "name": "AIChat",
         "description": "AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.",
         "url": "https://github.com/sigoden/aichat",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "AirLLM",
+        "description": "AirLLM optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning.",
+        "url": "https://github.com/lyogavin/airllm",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -56,6 +63,13 @@
         "manual_validated": false
     },
     {
+        "name": "AntiSlop Sampler",
+        "description": "The AntiSlop sampler uses a backtracking mechanism to go back and retry with adjusted token probabilities when it encounters a disallowed word or phrase.",
+        "url": "https://github.com/sam-paech/antislop-sampler",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AQT",
         "description": "AQT is a software library designed for easy tensor opeartion quantization in JAX.",
         "url": "https://github.com/google/aqt",
@@ -87,6 +101,13 @@
         "name": "AutoGen",
         "description": "AutoGen is a framework that enables development of LLM applications using multiple agents that can converse with each other to solve tasks. AutoGen agents are customizable, conversable, and seamlessly allow human participation.",
         "url": "https://github.com/microsoft/autogen",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "AutoGen Studio",
+        "description": "AutoGen Studio is an AutoGen-powered AI app (user interface) to help you rapidly prototype AI agents, enhance them with skills, compose them into workflows and interact with them to accomplish tasks.",
+        "url": "https://github.com/microsoft/autogen/tree/main/samples/apps/autogen-studio",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -315,6 +336,13 @@
         "manual_validated": false
     },
     {
+        "name": "Composio",
+        "description": "Composio equip's your AI agents & LLMs with 100+ high-quality integrations via function calling",
+        "url": "https://github.com/ComposioHQ/composio",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Constrained-CoT",
         "description": "Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost",
         "url": "https://arxiv.org/abs/2407.19825",
@@ -497,6 +525,27 @@
         "manual_validated": false
     },
     {
+        "name": "DiLoCo",
+        "description": "DiLoCo: Distributed Low-Communication Training of Language Models",
+        "url": "https://arxiv.org/abs/2311.08105",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
+        "name": "DistillKit",
+        "description": "DistillKit is an open-source research effort in model distillation by Arcee.AI. Our goal is to provide the community with easy-to-use tools for researching, exploring, and enhancing the adoption of open-source Large Language Model (LLM) distillation methods.",
+        "url": "https://github.com/arcee-ai/DistillKit",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "DisTrO",
+        "description": "DisTrO (Distributed Training Over-The-Internet), a family of low latency distributed optimizers that reduce inter-GPU communication requirements by three to four orders of magnitude.",
+        "url": "https://github.com/NousResearch/DisTrO",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "Dolly",
         "description": "Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.",
         "url": "https://github.com/databrickslabs/dolly",
@@ -585,6 +634,13 @@
         "description": "EvoEval is a holistic benchmark suite created by evolving HumanEval problems.",
         "url": "https://github.com/evo-eval/evoeval",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "EvolKit",
+        "description": "EvolKit is an framework for automatically enhancing the complexity of instructions used in fine-tuning Large Language Models (LLMs). Our project aims to revolutionize the evolution process by leveraging open-source LLMs, moving away from closed-source alternatives.",
+        "url": "https://github.com/arcee-ai/EvolKit",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -683,6 +739,13 @@
         "description": "fastText is a library for efficient learning of word representations and sentence classification.",
         "url": "https://github.com/facebookresearch/fastText/",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Felafax",
+        "description": "Felafax is a framework for continued-training and fine-tuning open source LLMs using XLA runtime.",
+        "url": "https://github.com/felafax/felafax",
+        "link_type": "Model links",
         "manual_validated": false
     },
     {
@@ -924,6 +987,13 @@
         "manual_validated": false
     },
     {
+        "name": "In-The-Wild Jailbreak Prompts on LLMs",
+        "description": "Collect 15,140 prompts from four platforms (Reddit, Discord, websites, and open-source datasets).",
+        "url": "https://github.com/verazuo/jailbreak_llms",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "incdbscan",
         "description": "the incremental version of the DBSCAN clustering algorithm",
         "url": "https://github.com/DataOmbudsman/incdbscan",
@@ -1001,6 +1071,13 @@
         "manual_validated": false
     },
     {
+        "name": "KTransformers",
+        "description": "KTransformers is a flexible, Python-centric framework designed with extensibility at its core.",
+        "url": "https://github.com/kvcache-ai/ktransformers",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "L-Eval",
         "description": "L-Eval: Instituting Standardized Evaluation for Long Context Language Models.",
         "url": "https://github.com/openlmlab/leval",
@@ -1057,6 +1134,13 @@
         "manual_validated": false
     },
     {
+        "name": "Lazy Predict",
+        "description": "Lazy Predict helps build a lot of basic models without much code and helps understand which models works better without any parameter tuning.",
+        "url": "https://github.com/shankarpandala/lazypredict",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "Levanter",
         "description": "Levanter is a framework for training large language models (LLMs) and other foundation models that strives for legibility, scalability, and reproducibility.",
         "url": "https://github.com/stanford-crfm/levanter",
@@ -1067,6 +1151,13 @@
         "name": "LiBai",
         "description": "LiBai is a large-scale open-source model training toolbox based on OneFlow",
         "url": "https://github.com/Oneflow-Inc/libai",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "Liger Kernel",
+        "description": "Liger Kernel is a collection of Triton kernels designed specifically for LLM training.",
+        "url": "https://github.com/linkedin/Liger-Kernel",
         "link_type": "Model links",
         "manual_validated": false
     },
@@ -1120,6 +1211,13 @@
         "manual_validated": false
     },
     {
+        "name": "LitServe",
+        "description": "LitServe is an easy-to-use, flexible serving engine for AI models built on FastAPI. It augments FastAPI with features like batching, streaming, and GPU autoscaling eliminate the need to rebuild a FastAPI server per model.",
+        "url": "https://github.com/Lightning-AI/litserve",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Llama 2 Everywhere (Unikraft-centric setup)",
         "description": "Standalone, Binary Portable, Bootable Llama 2. This is a Unikraft-centric setup of Llama 2 Everywhere (L2E).",
         "url": "https://github.com/unikraft/app-llama2-c",
@@ -1148,6 +1246,13 @@
         "manual_validated": false
     },
     {
+        "name": "LlamaDuo",
+        "description": "LlamaDuo is a project showcases an LLMOps pipeline that fine-tunes a small-size LLM model to prepare for the outage of the service LLM.",
+        "url": "https://github.com/deep-diver/llamaduo",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "llamafile",
         "description": "llamafile lets you distribute and run LLMs with a single file.",
         "url": "https://github.com/Mozilla-Ocho/llamafile",
@@ -1166,7 +1271,14 @@
         "description": "llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.",
         "url": "https://github.com/rustformers/llm",
         "link_type": "Utils links",
-        "manual_validated": false
+        "manual_validated": true
+    },
+    {
+        "name": "llm",
+        "description": "llm is a CLI utility and Python library for interacting with Large Language Models, both via remote APIs and models that can be installed and run on your own machine.",
+        "url": "https://github.com/simonw/llm",
+        "link_type": "Model links",
+        "manual_validated": true
     },
     {
         "name": "LLM decontaminator",
@@ -1450,9 +1562,9 @@
     },
     {
         "name": "MLC LLM",
-        "description": "Enable everyone to develop, optimize and deploy AI models natively on everyone's devices.",
+        "description": "MLC LLM is a machine learning compiler and high-performance deployment engine for large language models. The mission of this project is to enable everyone to develop, optimize, and deploy AI models natively on everyone's platforms.",
         "url": "https://github.com/mlc-ai/mlc-llm",
-        "link_type": "Utils links",
+        "link_type": "Model links",
         "manual_validated": false
     },
     {
@@ -1470,10 +1582,10 @@
         "manual_validated": false
     },
     {
-        "name": "Model Merging Survey",
-        "description": "Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities",
-        "url": "https://arxiv.org/abs/2408.07666",
-        "link_type": "Topic links",
+        "name": "Modded-NanoGPT Optimizer",
+        "description": "Proposed optimizer - less memory usage than Adam, ~1.5x faster training, and <2% wallclock overhead",
+        "url": "https://github.com/KellerJordan/modded-nanogpt",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {
@@ -1761,6 +1873,13 @@
         "description": "Optax is a gradient processing and optimization library for JAX.",
         "url": "https://github.com/google-deepmind/optax",
         "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Optima",
+        "description": "Optima is a novel training framework designed to optimize LLM-based multi-agent systems. By leveraging iterative training, Optima significantly enhances agent communication efficiency while boosting response accuracy. Our approach not only reduces token usage but also paves the way for improved inference-time scaling laws.",
+        "url": "https://github.com/thunlp/Optima",
+        "link_type": "Model links",
         "manual_validated": false
     },
     {
@@ -2219,6 +2338,41 @@
         "manual_validated": false
     },
     {
+        "name": "Survey - Low-bit Large Language Models",
+        "description": "A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms",
+        "url": "https://arxiv.org/abs/2409.16694",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
+        "name": "Survey - Mixture of Experts",
+        "description": "A Survey on Mixture of Experts",
+        "url": "https://arxiv.org/abs/2407.06204",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
+        "name": "Survey - Model Merging",
+        "description": "Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities",
+        "url": "https://arxiv.org/abs/2408.07666",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
+        "name": "Survey - Small Language Models",
+        "description": "Small Language Models: Survey, Measurements, and Insights",
+        "url": "https://arxiv.org/abs/2409.15790",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
+        "name": "Survey - The Prompt Report",
+        "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+        "url": "https://arxiv.org/abs/2406.06608",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "SwitchHead",
         "description": "The official repository for our paper \"SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention\".",
         "url": "https://github.com/robertcsordas/moe_attention",
@@ -2307,20 +2461,6 @@
         "description": "A curated (still actively updated) list of practical guide resources of LLMs.",
         "url": "https://github.com/Mooler0410/LLMsPracticalGuide",
         "link_type": "Documentation links",
-        "manual_validated": false
-    },
-    {
-        "name": "The Prompt Report",
-        "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
-        "url": "https://arxiv.org/abs/2406.06608",
-        "link_type": "Topic links",
-        "manual_validated": false
-    },
-    {
-        "name": "The Prompt Report",
-        "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
-        "url": "https://arxiv.org/abs/2406.06608",
-        "link_type": "Topic links",
         "manual_validated": false
     },
     {
@@ -2492,6 +2632,13 @@
         "manual_validated": false
     },
     {
+        "name": "TRL",
+        "description": "TRL is a library to post-train LLMs and diffusion models with methods such as Supervised Fine-tuning (SFT), Proximal Policy Optimization (PPO), and Direct Preference Optimization (DPO).",
+        "url": "https://github.com/huggingface/trl",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
         "name": "tsai",
         "description": "tsai is an open-source deep learning package built on top of Pytorch & fastai focused on state-of-the-art techniques for time series tasks like classification, regression, forecasting, imputation.",
         "url": "https://github.com/timeseriesAI/tsai",
@@ -2593,6 +2740,13 @@
         "name": "word2vec",
         "description": "This tool provides an efficient implementation of the continuous bag-of-words and skip-gram architectures for computing vector representations of words.",
         "url": "https://github.com/dav/word2vec",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "WordLlama",
+        "description": "WordLlama is a fast, lightweight NLP toolkit designed for tasks like fuzzy deduplication, similarity computation, ranking, clustering, and semantic text splitting.",
+        "url": "https://github.com/dleemiller/WordLlama",
         "link_type": "Utils links",
         "manual_validated": false
     },
