@@ -175,7 +175,12 @@ class AutoAddLMGUIApp:
             return
 
         self.clear_main_frame()
-        label_title = tk.Label(self.main_frame, text=f"{len(suggested_model_info_list)} models to verify:", font="bold")
+        label_title_text = (
+            "1 model to verify:"
+            if len(suggested_model_info_list) == 1
+            else f"{len(suggested_model_info_list)} models to verify:"
+        )
+        label_title = tk.Label(self.main_frame, text=label_title_text, font="bold")
         label_title.pack()
 
         title_to_suggested_model_info = {
