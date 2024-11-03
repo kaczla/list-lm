@@ -2095,6 +2095,7 @@
 - MobileLLM
   - Year: 2024
   - Publication: [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/abs/2402.14905) (2024-02-22)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-1B)
 
 - MegaScale
   - Year: 2024
@@ -2113,6 +2114,7 @@
 - BitNet b1.58
   - Year: 2024
   - Publication: [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764) (2024-02-27)
+  - Code: [GitHub](https://github.com/microsoft/BitNet)
 
 - Mistral Pro
   - Year: 2024
@@ -2459,6 +2461,12 @@
   - Code: [GitHub](https://github.com/Snowflake-Labs/snowflake-arctic)
   - Model weights: [HuggingFace models](https://huggingface.co/Snowflake/snowflake-arctic-instruct)
 
+- LayerSkip
+  - Year: 2024
+  - Publication: [LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding](https://arxiv.org/abs/2404.16710) (2024-04-25)
+  - Code: [GitHub](https://github.com/facebookresearch/LayerSkip)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/layerskip-llama3-8B)
+
 - Hermes 2 Pro
   - Year: 2024
   - Publication: [HuggingFace model card - Hermes 2 Pro](https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B) (2024-04-30)
@@ -2616,6 +2624,12 @@
   - Publication: [Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training](https://arxiv.org/abs/2405.15319) (2024-05-24)
   - Code: [GitHub](https://github.com/tongxuluo/prts)
   - Model weights: [HuggingFace models](https://huggingface.co/llm-stacking/StackingLaw_Factor_1.1B12L)
+
+- SpinQuant
+  - Year: 2024
+  - Publication: [SpinQuant: LLM quantization with learned rotations](https://arxiv.org/abs/2405.16406) (2024-05-26)
+  - Code: [GitHub](https://github.com/facebookresearch/SpinQuant)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8)
 
 - Zamba
   - Year: 2024
@@ -2778,6 +2792,12 @@
 - SmartSpec
   - Year: 2024
   - Publication: [Optimizing Speculative Decoding for Serving Large Language Models Using Goodput](https://arxiv.org/abs/2406.14066) (2024-06-20)
+
+- LLM-Drop
+  - Year: 2024
+  - Publication: [What Matters in Transformers? Not All Attention is Needed](https://arxiv.org/abs/2406.15786) (2024-06-22)
+  - Code: [GitHub](https://github.com/Shwai-He/LLM-Drop)
+  - Model weights: [HuggingFace models](https://huggingface.co/s1ghhh/Llama-3-70b-Drop)
 
 - EAGLE-2
   - Year: 2024
@@ -3255,20 +3275,51 @@
   - Code: [GitHub](https://github.com/rhymes-ai/Aria)
   - Model weights: [HuggingFace models](https://huggingface.co/rhymes-ai/Aria)
 
+- MoE++
+  - Year: 2024
+  - Publication: [MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts](https://arxiv.org/abs/2410.07348) (2024-10-09)
+  - Code: [GitHub](https://github.com/SkyworkAI/MoE-plus-plus)
+  - Model weights: [HuggingFace models](https://huggingface.co/Chat-UniVi/MoE-Plus-Plus-7B)
+
 - Pixtral
   - Year: 2024
   - Publication: [Pixtral 12B](https://arxiv.org/abs/2410.07073) (2024-10-09)
+
+- KV Prediction
+  - Year: 2024
+  - Publication: [KV Prediction for Improved Time to First Token](https://arxiv.org/abs/2410.08391) (2024-10-10)
+  - Code: [GitHub](https://github.com/apple/corenet/tree/main/projects/kv-prediction)
+
+- FlatQuant
+  - Year: 2024
+  - Publication: [FlatQuant: Flatness Matters for LLM Quantization](https://arxiv.org/abs/2410.09426) (2024-10-12)
+  - Code: [GitHub](https://github.com/ruikangliu/FlatQuant)
 
 - DuoAttention
   - Year: 2024
   - Publication: [DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads](https://arxiv.org/abs/2410.10819) (2024-10-14)
   - Code: [GitHub](https://github.com/mit-han-lab/duo-attention)
 
+- MoEE (Mixture-of-Experts Embedding)
+  - Year: 2024
+  - Publication: [Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free](https://arxiv.org/abs/2410.10814) (2024-10-14)
+  - Code: [GitHub](https://github.com/tianyi-lab/MoE-Embedding)
+
+- SeedLM
+  - Year: 2024
+  - Publication: [SeedLM: Compressing LLM Weights into Seeds of Pseudo-Random Generators](https://arxiv.org/abs/2410.10714) (2024-10-14)
+
 - Zamba 2 7B
   - Year: 2024
   - Publication: [Blog - Zamba2-7B](https://zyphra.webflow.io/post/zamba2-7b) (2024-10-14)
   - Code: [GitHub](https://github.com/Zyphra/Zamba2)
   - Model weights: [HuggingFace models](https://huggingface.co/Zyphra/Zamba2-7B-Instruct)
+
+- MoH (Multi-Head Attention as Mixture-of-Head Attention)
+  - Year: 2024
+  - Publication: [MoH: Multi-Head Attention as Mixture-of-Head Attention](https://arxiv.org/abs/2410.11842) (2024-10-15)
+  - Code: [GitHub](https://github.com/SkyworkAI/MoH)
+  - Model weights: [HuggingFace models](https://huggingface.co/Chat-UniVi/MoH-LLaMA3-8B)
 
 - Ministral
   - Year: 2024
@@ -3280,3 +3331,30 @@
   - Publication: [Janus: Decoupling Visual Encoding for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2410.13848) (2024-10-17)
   - Code: [GitHub](https://github.com/deepseek-ai/Janus)
   - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/Janus-1.3B)
+
+- SeerAttention
+  - Year: 2024
+  - Publication: [SeerAttention: Learning Intrinsic Sparse Attention in Your LLMs](https://arxiv.org/abs/2410.13276) (2024-10-17)
+  - Code: [GitHub](https://github.com/microsoft/SeerAttention)
+
+- Granite 3.0
+  - Year: 2024
+  - Publication: [Blog - IBM Granite 3.0: open, state-of-the-art enterprise models](https://www.ibm.com/new/ibm-granite-3-0-open-state-of-the-art-enterprise-models) (2024-10-21)
+  - Code: [GitHub](https://github.com/ibm-granite/granite-3.0-language-models)
+  - Model weights: [HuggingFace models](https://huggingface.co/ibm-granite/granite-3.0-8b-instruct)
+
+- Pangea
+  - Year: 2024
+  - Publication: [Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages](https://arxiv.org/abs/2410.16153) (2024-10-21)
+  - Code: [GitHub](https://github.com/neulab/Pangea)
+  - Model weights: [HuggingFace models](https://huggingface.co/neulab/Pangea-7B)
+
+- Aya Expanse
+  - Year: 2024
+  - Publication: [Tweet: Aya Expanse: Connecting Our World](https://cohere.com/blog/aya-expanse-connecting-our-world) (2024-10-24)
+  - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/aya-expanse-32b)
+
+- MrT5 (MergeT5)
+  - Year: 2024
+  - Publication: [MrT5: Dynamic Token Merging for Efficient Byte-level Language Models](https://arxiv.org/abs/2410.20771) (2024-10-28)
+  - Code: [GitHub](https://github.com/jkallini/mrt5)
