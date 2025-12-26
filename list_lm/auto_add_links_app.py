@@ -132,7 +132,8 @@ class AutoAddLinksGUIApp:
             if url in saved_url_to_app_data:
                 duplicated_urls.append(f"{saved_url_to_app_data[url].name} - {url}")
                 update_progress_bar(url_number)
-                LOGGER.warning(f"Skipping duplicated URL: {url}")
+                application_data = saved_url_to_app_data[url]
+                LOGGER.warning(f"Skipping duplicated URL ({url!r}), existing app: {application_data.name!r}")
                 self.main_frame.update()
                 continue
 

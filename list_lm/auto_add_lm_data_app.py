@@ -129,7 +129,8 @@ class AutoAddLMGUIApp:
             if url in saved_url_to_model_info:
                 duplicated_urls.append(f"{saved_url_to_model_info[url].name} - {url}")
                 update_progress_bar(url_number)
-                LOGGER.warning(f"Skipping duplicated URL: {url}")
+                model_info = saved_url_to_model_info[url]
+                LOGGER.info(f"Skipping duplicated URL ({url!r}), existing model: {model_info.name!r}")
                 self.main_frame.update()
                 continue
 
