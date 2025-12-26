@@ -25,7 +25,7 @@ LOGGER = logging.getLogger(__name__)
 class AutoAddLinksGUIApp:
     DATA_JSON_PATH = Path("data/json")
     LINKS_PATH = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
-    DEFAULT_MODEL_NAME = "llama3.1:latest"
+    DEFAULT_MODEL_NAME = "olmo-3:7b"
 
     def __init__(self) -> None:
         self.parser = ParserLinks()
