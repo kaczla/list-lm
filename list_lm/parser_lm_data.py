@@ -1,5 +1,6 @@
-import logging
 import re
+
+from loguru import logger
 
 from list_lm.data import ArticleDataExtended, SuggestedModelInfo, UnsupportedUrl, UrlData, UrlType
 from list_lm.ollama_client import OllamaClient
@@ -16,8 +17,6 @@ REGEX_ARXIV_MODEL_NAME_FROM_ABSTRACT = re.compile(
     flags=re.IGNORECASE,
 )
 
-LOGGER = logging.getLogger(__name__)
-
 
 class ParserLMData:
     def __init__(self) -> None:
@@ -30,7 +29,7 @@ class ParserLMData:
             return self.auto_parse_arxiv(url, ollama_model_name)
 
         else:
-            LOGGER.error(f"Unsupported URL: {url}")
+            logger.error(f"Unsupported URL: {url}")
             return UnsupportedUrl(url=url)
 
     def auto_parse_arxiv(self, url: str, ollama_model_name: str) -> SuggestedModelInfo:

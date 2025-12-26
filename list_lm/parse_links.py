@@ -1,11 +1,10 @@
-import logging
 import re
 from pathlib import Path
 
+from loguru import logger
+
 from list_lm.data import ApplicationData, LinkType, get_application_data_sort_key
 from list_lm.data_utils import save_base_model_list
-
-LOGGER = logging.getLogger(__name__)
 
 RGX_LINE_LINK = re.compile(r"^\[(?P<name>[^]]+)\]\((?P<url>.+?)\)\s*[-]\s*(?P<description>.*?)$")
 
@@ -36,7 +35,7 @@ def parse_markdown_to_data(markdown_path: Path) -> list[ApplicationData]:
             line = line.strip().strip("-").strip()
             rgx_match = RGX_LINE_LINK.search(line)
             if not rgx_match:
-                LOGGER.error(f"Cannot parse line with Markdown link: {repr(line)} - skipping")
+                logger.error(f"Cannot parse line with Markdown link: {repr(line)} - skipping")
                 continue
 
             application_data = ApplicationData(

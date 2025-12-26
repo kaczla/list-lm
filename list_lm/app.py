@@ -1,9 +1,10 @@
-import logging
 import tkinter as tk
 from datetime import datetime
 from pathlib import Path
 from tkinter import ttk
 from typing import TypeVar
+
+from loguru import logger
 
 from list_lm.data import (
     ApplicationData,
@@ -24,8 +25,6 @@ from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.parse_url import parse_url
 from list_lm.parser_lm_data import ParserLMData
 from list_lm.utils import convert_date_to_string, convert_string_to_date, is_valid_date_string
-
-LOGGER = logging.getLogger(__name__)
 
 T = TypeVar("T")
 
@@ -186,7 +185,7 @@ class GUIApp:
         self.show_lm_data_frame(lm_data, is_duplicated=is_duplicated)
 
     def show_lm_data_frame(self, model_info: ModelInfo, is_duplicated: bool = False) -> None:
-        LOGGER.info(f"Adding language model: {model_info}")
+        logger.info(f"Adding language model: {model_info}")
         self.clear_main_frame()
 
         tk.Label(self.main_frame, text=model_info.name, font="bold").pack()
@@ -229,12 +228,11 @@ class GUIApp:
         self.main_frame.pack()
 
     def insert_lm_data(self, model_info: ModelInfo, label_status: tk.Label) -> None:
-        LOGGER.info(f"Inserting language model: {model_info}")
+        logger.info(f"Inserting language model: {model_info}")
         self.data_manager_models.add(model_info)
-        LOGGER.info("Language model inserted")
-        LOGGER.info("Converting README...")
+        logger.info("Language model inserted, converting README...")
         generate_lm_data()
-        LOGGER.info("README converted")
+        logger.info("README converted successfully")
         label_status.config(text=f"{model_info.name} added")
 
     def create_link_frame(self, application_data: ApplicationData | None = None) -> None:
@@ -313,14 +311,14 @@ class GUIApp:
         try:
             link_type = LinkType.create_from_value(link_type_str)
         except ValueError:
-            LOGGER.error(f"Cannot parser link type value: {repr(link_type_str)}")
+            logger.error(f"Cannot parser link type value: {repr(link_type_str)}")
             label_status.config(text="Invalid link type")
             return
 
         self.show_link_frame(ApplicationData(name=name, description=description, url=url, link_type=link_type))
 
     def show_link_frame(self, application_data: ApplicationData) -> None:
-        LOGGER.info(f"Adding {application_data.link_type}: {application_data}")
+        logger.info(f"Adding {application_data.link_type}: {application_data}")
         self.clear_main_frame()
 
         tk.Label(self.main_frame, text=f"[{application_data.link_type.value}]").pack()
@@ -354,14 +352,13 @@ class GUIApp:
         self.main_frame.pack()
 
     def insert_link_frame(self, application_data: ApplicationData, label_status: tk.Label) -> None:
-        LOGGER.info(
+        logger.info(
             f"Inserting {application_data.link_type.value} ({application_data.link_type.name}): {application_data}"
         )
         self.data_manager_links.add(application_data)
-        LOGGER.info("Link added")
-        LOGGER.info("Converting README...")
+        logger.info("Link added, converting README...")
         generate_links_selected(self.data_manager_links.get_data(), application_data.link_type)
-        LOGGER.info("README converted")
+        logger.info("README converted")
         label_status.config(text=f"{application_data.name} added")
 
     def is_duplicated_model_name(self, model_name: str) -> bool:
@@ -376,7 +373,7 @@ class GUIApp:
         if url_type == UrlType.ARXIV:
             page_date = parse_arxiv(url)
             if title and title != page_date.title:
-                LOGGER.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
+                logger.warning(f"Different article title, passed by user: {title!r} and extracted: {page_date.title!r}")
 
             return page_date.to_article_data()
 

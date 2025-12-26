@@ -1,16 +1,14 @@
-import logging
 import re
 from datetime import datetime
 from pathlib import Path
 
 import requests
+from loguru import logger
 from lxml import html
 from urllib3 import Retry
 
 from list_lm.data import ArticleDataExtended, CacheArticleData, UnparsedUrl
 from list_lm.data_utils import load_base_model, save_base_model
-
-LOGGER = logging.getLogger(__name__)
 
 CACHE_FILE_ARXIV = Path(".cache/cache_arxiv.json")
 
@@ -28,15 +26,15 @@ def get_request_session() -> requests.Session:
 
 
 def get_html_string(url: str) -> str:
-    LOGGER.info(f"Getting HTML content from: {url}")
+    logger.info(f"Getting HTML content from: {url}")
     with get_request_session() as session:
         response = session.get(url, timeout=60)
         if response.status_code != 200:
             msg = f"Cannot get HTML content for: {url!r} (status: {response.status_code}, text: {response.text!r})"
-            LOGGER.error(msg)
+            logger.error(msg)
             raise RuntimeError(msg)
 
-    LOGGER.info("Collected HTML content")
+    logger.info("Collected HTML content")
     return response.text
 
 
@@ -48,7 +46,7 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
             return cache.url_to_article_data[url]
 
     html_string = get_html_string(url)
-    LOGGER.info("Parsing HTML content")
+    logger.info("Parsing HTML content")
     html_tree = html.fromstring(html_string.encode())
     title = str(html_tree.xpath("//meta[@name='citation_title']/@content")[0]).strip()
     date_str = str(html_tree.xpath("//meta[@name='citation_date']/@content")[0]).strip()
@@ -58,8 +56,9 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
         abstract_str = str(abstract_data[0]).strip()
     else:
         abstract_str = ""
-        LOGGER.error(f"Cannot get abstract for: {url}")
+        logger.error(f"Cannot get abstract for: {url}")
     abstract_urls = list(map(str, html_tree.xpath("//div[@id='abs']/blockquote[contains(@class,'abstract')]/a/@href")))
+    abstract_urls = sorted(set(abstract_urls))
     parsed_data = ArticleDataExtended(
         title=title,
         url=url,
@@ -67,7 +66,7 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
         abstract=abstract_str,
         article_urls=abstract_urls if abstract_urls else None,
     )
-    LOGGER.info(f"HTML content parsed: {parsed_data}")
+    logger.info(f"HTML content parsed: {parsed_data}")
 
     if caching:
         cache = cache if cache is not None else CacheArticleData(url_to_article_data={})

@@ -1,5 +1,6 @@
-import logging
 from pathlib import Path
+
+from loguru import logger
 
 from list_lm.data import ModelInfo, get_model_info_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
@@ -7,8 +8,6 @@ from list_lm.generate_readme import generate_lm_data
 from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
-
-LOGGER = logging.getLogger(__name__)
 
 
 def validate_lm_data(
@@ -67,7 +66,7 @@ def validate_lm_data(
                     errors.append(f"Cannot find model name: {model_info.name!r} in publication title/abstract.")
 
     for index, model_info in enumerate(model_info_list):
-        LOGGER.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
+        logger.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
         model_name = model_info.name
         if model_name in model_name_to_model_info:
             errors.append(f"Duplicated model name - {model_name}")
@@ -95,15 +94,15 @@ def validate_lm_data(
 
     if errors:
         for error_msg in errors:
-            LOGGER.error(error_msg)
-        LOGGER.info(f"Found {len(errors)} errors")
+            logger.error(error_msg)
+        logger.info(f"Found {len(errors)} errors")
 
     if changed:
-        LOGGER.info(f"Saving in: {path}")
+        logger.info(f"Saving in: {path}")
         save_base_model_list(path, model_info_list, sort_fn=get_model_info_sort_key)  # type: ignore[arg-type]
         generate_lm_data()
     else:
-        LOGGER.info("Nothing changed - skip saving")
+        logger.info("Nothing changed - skip saving")
 
 
 def update_publication_data_in_model_info(model_info: ModelInfo) -> bool:

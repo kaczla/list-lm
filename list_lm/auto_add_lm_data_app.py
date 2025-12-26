@@ -1,9 +1,9 @@
-import logging
 import tkinter as tk
 from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
+from loguru import logger
 from pyperclip import copy as copy_clipboard
 
 from list_lm.data import ArticleData, ModelInfo, SuggestedModelInfo, UnsupportedUrl, get_model_info_sort_key
@@ -13,8 +13,6 @@ from list_lm.log_utils import init_logs
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
 from list_lm.parser_lm_data import ParserLMData
 from list_lm.utils import convert_date_to_string
-
-LOGGER = logging.getLogger(__name__)
 
 
 class AutoAddLMGUIApp:
@@ -106,6 +104,7 @@ class AutoAddLMGUIApp:
         label_not_parsed_urls = tk.Label(self.main_frame, text="")
         label_not_parsed_urls.pack()
         self.main_frame.pack()
+        logger.info(f"Processing {len(urls)} URLs with model {ollama_model_name!r}")
 
         def update_progress_bar(index_url: int) -> None:
             if index_url >= len(urls):
@@ -121,7 +120,7 @@ class AutoAddLMGUIApp:
 
             # Update label status
             msg = f"Processing {url_number} URL: {url}"
-            LOGGER.info(msg)
+            logger.info(msg)
             label_status.config(text=msg)
             self.main_frame.update()
 
@@ -130,11 +129,11 @@ class AutoAddLMGUIApp:
                 duplicated_urls.append(f"{saved_url_to_model_info[url].name} - {url}")
                 update_progress_bar(url_number)
                 model_info = saved_url_to_model_info[url]
-                LOGGER.info(f"Skipping duplicated URL ({url!r}), existing model: {model_info.name!r}")
+                logger.info(f"Skipping duplicated URL ({url!r}), existing model: {model_info.name!r}")
                 self.main_frame.update()
                 continue
 
-            LOGGER.info(f"Processing LM data from URL: {url}")
+            logger.info(f"Processing LM data from URL: {url!r}")
             parsed_output = self.parser.parse_url(url, ollama_model_name)
             if isinstance(parsed_output, UnsupportedUrl):
                 not_parsed_urls.append(url)
@@ -157,11 +156,14 @@ class AutoAddLMGUIApp:
                 )
 
             self.main_frame.update()
+            logger.info(f"Processed URL {url_number}/{len(urls)}: {url!r}")
 
+        logger.info(f"Finished processing {len(urls)} URLs")
         if suggested_model_info_list:
             label_status.config(text=f"Processed {len(urls)} URLs")
             button_verify["state"] = "normal"
         else:
+            logger.warning("Nothing to verify - all URLs were skipped or failed to parse")
             label_status.config(text=f"Processed {len(urls)} URLs - nothing to verify")
         self.main_frame.update()
 
@@ -219,7 +221,7 @@ class AutoAddLMGUIApp:
 
             label_status.config(text="")
             accepted_data = suggested_model_info_list[index]
-            LOGGER.info(f"Rejected model data: {accepted_data}")
+            logger.info(f"Rejected model data: {accepted_data}")
             del suggested_model_info_list[index]
             del title_raw_list[index]
             del title_to_suggested_model_info[accepted_data.article_data.title]
@@ -260,7 +262,7 @@ class AutoAddLMGUIApp:
                 weights=parsed_url_weight,
             )
             self.data_manager_models.add(model_info)
-            LOGGER.info(f"Added model info: {model_info}")
+            logger.info(f"Added model info: {model_info}")
             del suggested_model_info_list[index]
             del title_raw_list[index]
             del title_to_suggested_model_info[accepted_data.article_data.title]

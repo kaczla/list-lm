@@ -1,9 +1,9 @@
-import logging
 import tkinter as tk
 from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
+from loguru import logger
 from pyperclip import copy as copy_clipboard
 
 from list_lm.data import (
@@ -18,8 +18,6 @@ from list_lm.generate_readme import generate_links_all
 from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.parser_links import ParserLinks
-
-LOGGER = logging.getLogger(__name__)
 
 
 class AutoAddLinksGUIApp:
@@ -124,7 +122,7 @@ class AutoAddLinksGUIApp:
 
             # Update label status
             msg = f"Processing {url_number} URL: {url}"
-            LOGGER.info(msg)
+            logger.info(msg)
             label_status.config(text=msg)
             self.main_frame.update()
 
@@ -133,11 +131,11 @@ class AutoAddLinksGUIApp:
                 duplicated_urls.append(f"{saved_url_to_app_data[url].name} - {url}")
                 update_progress_bar(url_number)
                 application_data = saved_url_to_app_data[url]
-                LOGGER.warning(f"Skipping duplicated URL ({url!r}), existing app: {application_data.name!r}")
+                logger.warning(f"Skipping duplicated URL ({url!r}), existing app: {application_data.name!r}")
                 self.main_frame.update()
                 continue
 
-            LOGGER.info(f"Processing Application data from URL: {url}")
+            logger.info(f"Processing Application data from URL: {url}")
             parsed_output = self.parser.parse_url(url, ollama_model_name)
             if isinstance(parsed_output, UnsupportedUrl):
                 not_parsed_urls.append(url)
@@ -213,7 +211,7 @@ class AutoAddLinksGUIApp:
 
             label_status.config(text="")
             selected_name = self.get_text_from_text_fields(text_application_name)
-            LOGGER.info(f"Rejected application: {selected_name}")
+            logger.info(f"Rejected application: {selected_name}")
             del suggested_application_list[index]
             del application_type_raw_list[index]
             del name_to_suggested_application[selected_name]
@@ -246,7 +244,7 @@ class AutoAddLinksGUIApp:
                 link_type=selected_link_type,
             )
             self.data_manager_models.add(application_data)
-            LOGGER.info(f"Added application: {application_data}")
+            logger.info(f"Added application: {application_data}")
             del suggested_application_list[index]
             del application_type_raw_list[index]
             del name_to_suggested_application[application_data.name]

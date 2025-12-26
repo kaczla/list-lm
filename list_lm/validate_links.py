@@ -1,13 +1,12 @@
-import logging
 from pathlib import Path
+
+from loguru import logger
 
 from list_lm.data import ApplicationData, get_application_data_sort_key
 from list_lm.data_utils import load_base_model_list, save_base_model_list
 from list_lm.generate_readme import generate_links_all
 from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
-
-LOGGER = logging.getLogger(__name__)
 
 
 def validate_links() -> None:
@@ -20,7 +19,7 @@ def validate_links() -> None:
 
     application_data: ApplicationData
     for index, application_data in enumerate(application_data_list):
-        LOGGER.info(
+        logger.info(
             f"[{index + 1}/{len(application_data_list)}]"
             f" Checking model: {application_data.name} ({application_data.link_type})"
         )
@@ -66,21 +65,21 @@ def validate_links() -> None:
         changed = True
 
     if changed:
-        LOGGER.info(f"Saving in: {path}")
+        logger.info(f"Saving in: {path}")
         save_base_model_list(path, application_data_list, sort_fn=get_application_data_sort_key)
         generate_links_all()
     else:
-        LOGGER.info("Nothing changed - skip saving")
+        logger.info("Nothing changed - skip saving")
 
     if errors:
         for error_msg in errors:
-            LOGGER.error(error_msg)
-        LOGGER.info(f"Found {len(errors)} errors")
+            logger.error(error_msg)
+        logger.info(f"Found {len(errors)} errors")
 
     if warnings:
         for warning_msg in warnings:
-            LOGGER.warning(warning_msg)
-        LOGGER.info(f"Found {len(warnings)} warnings")
+            logger.warning(warning_msg)
+        logger.info(f"Found {len(warnings)} warnings")
 
 
 def main() -> None:

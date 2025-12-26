@@ -1,12 +1,9 @@
-import logging
 import re
 from pathlib import Path
 
 from list_lm.data import ArticleData, ModelInfo, UrlData, get_model_info_sort_key
 from list_lm.data_utils import save_base_model_list
 from list_lm.utils import convert_string_to_date
-
-LOGGER = logging.getLogger(__name__)
 
 RGX_URL_MARKDOWN = re.compile(r"^\[(?P<title>[^]]+)\]\((?P<url>.+?)\)$")
 RGX_URL_MARKDOWN_WITH_DATE = re.compile(
