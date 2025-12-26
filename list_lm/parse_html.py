@@ -10,7 +10,8 @@ from urllib3 import Retry
 from list_lm.data import ArticleDataExtended, CacheArticleData, UnparsedUrl
 from list_lm.data_utils import load_base_model, save_base_model
 
-CACHE_FILE_ARXIV = Path(".cache/cache_arxiv.json")
+CACHE_DIR = Path(".cache")
+CACHE_FILE_ARXIV = CACHE_DIR / "cache_arxiv.json"
 
 REGEX_GITHUB_URL = re.compile(r"github.com/(?P<author>[^/]+)/(?P<project>[^/?]+)")
 
@@ -71,6 +72,8 @@ def parse_arxiv(url: str, caching: bool = True) -> ArticleDataExtended:
     if caching:
         cache = cache if cache is not None else CacheArticleData(url_to_article_data={})
         cache.url_to_article_data[url] = parsed_data
+        if not CACHE_DIR.exists():
+            CACHE_DIR.mkdir()
         save_base_model(CACHE_FILE_ARXIV, cache)
 
     return parsed_data
