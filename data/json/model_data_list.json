@@ -4748,6 +4748,22 @@
         "manual_validated": false
     },
     {
+        "name": "GFlowNets",
+        "year": 2023,
+        "publication": {
+            "title": "Amortizing intractable inference in large language models",
+            "url": "https://arxiv.org/abs/2310.04363",
+            "date_create": "2023-10-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/GFNOrg/gfn-lm-tuning"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "HyperAttention",
         "year": 2023,
         "publication": {
@@ -8633,6 +8649,25 @@
         "manual_validated": false
     },
     {
+        "name": "Xmodel-LM",
+        "year": 2024,
+        "publication": {
+            "title": "Xmodel-LM Technical Report",
+            "url": "https://arxiv.org/abs/2406.02856",
+            "date_create": "2024-06-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/XiaoduoAILab/XmodelLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/XiaoduoAILab/Xmodel_LM"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Circuit Breakers",
         "year": 2024,
         "publication": {
@@ -10603,6 +10638,25 @@
         "manual_validated": false
     },
     {
+        "name": "Mini-Omni2",
+        "year": 2024,
+        "publication": {
+            "title": "Mini-Omni2: Towards Open-source GPT-4o with Vision, Speech and Duplex Capabilities",
+            "url": "https://arxiv.org/abs/2410.11190",
+            "date_create": "2024-10-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/gpt-omni/mini-omni2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/gpt-omni/mini-omni2"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "MoH (Multi-Head Attention as Mixture-of-Head Attention)",
         "year": 2024,
         "publication": {
@@ -10654,6 +10708,22 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/Janus-1.3B"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Neural Attention Memory Models (NAMMs)",
+        "year": 2024,
+        "publication": {
+            "title": "An Evolved Universal Transformer Memory",
+            "url": "https://arxiv.org/abs/2410.13166",
+            "date_create": "2024-10-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SakanaAI/evo-memory"
+        },
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -10740,6 +10810,992 @@
             "url": "https://github.com/jkallini/mrt5"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Relaxed Recursive Transformers",
+        "year": 2024,
+        "publication": {
+            "title": "Relaxed Recursive Transformers: Effective Parameter Sharing with Layer-wise LoRA",
+            "url": "https://arxiv.org/abs/2410.20672",
+            "date_create": "2024-10-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SmolLM 2",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - SmolLM 2",
+            "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B",
+            "date_create": "2024-10-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "TokenFormer",
+        "year": 2024,
+        "publication": {
+            "title": "TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters",
+            "url": "https://arxiv.org/abs/2410.23168",
+            "date_create": "2024-10-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Haiyang-W/TokenFormer"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Haiyang-W/TokenFormer-1-5B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "AMD-OLMo",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - AMD-OLMo",
+            "url": "https://huggingface.co/amd/AMD-OLMo",
+            "date_create": "2024-10-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/amd/AMD-OLMo"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Sample-Efficient Alignment (SEA)",
+        "year": 2024,
+        "publication": {
+            "title": "Sample-Efficient Alignment for LLMs",
+            "url": "https://arxiv.org/abs/2411.01493",
+            "date_create": "2024-11-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sail-sg/oat"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Context Parallelism",
+        "year": 2024,
+        "publication": {
+            "title": "Context Parallelism for Scalable Million-Token Inference",
+            "url": "https://arxiv.org/abs/2411.01783",
+            "date_create": "2024-11-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Hunyuan-Large",
+        "year": 2024,
+        "publication": {
+            "title": "Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent",
+            "url": "https://arxiv.org/abs/2411.02265",
+            "date_create": "2024-11-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tencent/Hunyuan-Large"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tencent/Tencent-Hunyuan-Large"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "LASER",
+        "year": 2024,
+        "publication": {
+            "title": "LASER: Attention with Exponential Transformation",
+            "url": "https://arxiv.org/abs/2411.03493",
+            "date_create": "2024-11-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "BitNet a4.8",
+        "year": 2024,
+        "publication": {
+            "title": "BitNet a4.8: 4-bit Activations for 1-bit LLMs",
+            "url": "https://arxiv.org/abs/2411.04965",
+            "date_create": "2024-11-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Online-LoRA",
+        "year": 2024,
+        "publication": {
+            "title": "README - Online-LoRA repository",
+            "url": "https://github.com/Christina200/Online-LoRA-official/blob/01598cf1f1d6ba33fef5852daeeceb4c0b4a71ff/README.md",
+            "date_create": "2024-11-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/christina200/online-lora-official"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "OpenCoder",
+        "year": 2024,
+        "publication": {
+            "title": "OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models",
+            "url": "https://arxiv.org/abs/2411.04905",
+            "date_create": "2024-11-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenCoder-llm/OpenCoder-llm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/infly/OpenCoder-8B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Q-SFT",
+        "year": 2024,
+        "publication": {
+            "title": "Q-SFT: Q-Learning for Language Models via Supervised Fine-Tuning",
+            "url": "https://arxiv.org/abs/2411.05193",
+            "date_create": "2024-11-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "CodeRankEmbed",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - CodeRankEmbed",
+            "url": "https://huggingface.co/cornstack/CodeRankEmbed",
+            "date_create": "2024-11-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cornstack/CodeRankEmbed"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "CodeRankLLM",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - CodeRankLLM",
+            "url": "https://huggingface.co/cornstack/CodeRankLLM",
+            "date_create": "2024-11-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cornstack/CodeRankLLM"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2.5-Turbo",
+        "year": 2024,
+        "publication": {
+            "title": "Tweet: Extending the Context Length to 1M Tokens!",
+            "url": "Extending the Context Length to 1M Tokens!",
+            "date_create": "2024-11-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Bi-Mamba",
+        "year": 2024,
+        "publication": {
+            "title": "Bi-Mamba: Towards Accurate 1-Bit State Space Models",
+            "url": "https://arxiv.org/abs/2411.11843",
+            "date_create": "2024-11-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "UltraMem",
+        "year": 2024,
+        "publication": {
+            "title": "Ultra-Sparse Memory Network",
+            "url": "https://arxiv.org/abs/2411.12364",
+            "date_create": "2024-11-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Hymba",
+        "year": 2024,
+        "publication": {
+            "title": "Hymba: A Hybrid-head Architecture for Small Language Models",
+            "url": "https://arxiv.org/abs/2411.13676",
+            "date_create": "2024-11-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/hymba"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Hymba-1.5B-Base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "InstCache",
+        "year": 2024,
+        "publication": {
+            "title": "InstCache: A Predictive Cache for LLM Serving",
+            "url": "https://arxiv.org/abs/2411.13820",
+            "date_create": "2024-11-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Tülu 3",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Tülu 3: The next era in open post-training",
+            "url": "https://www.interconnects.ai/p/tulu-3",
+            "date_create": "2024-11-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "SmolVLM",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - SmolVLM - small yet mighty Vision Language Model",
+            "url": "https://huggingface.co/blog/smolvlm",
+            "date_create": "2024-11-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Multi-Head Mixture-of-Experts (MH-MoE)",
+        "year": 2024,
+        "publication": {
+            "title": "MH-MoE: Multi-Head Mixture-of-Experts",
+            "url": "https://arxiv.org/abs/2411.16205",
+            "date_create": "2024-11-25"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "LongKey",
+        "year": 2024,
+        "publication": {
+            "title": "LongKey: Keyphrase Extraction for Long Documents",
+            "url": "https://arxiv.org/abs/2411.17863",
+            "date_create": "2024-11-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jeohalves/longkey"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Low-Bit Quantization",
+        "year": 2024,
+        "publication": {
+            "title": "Low-Bit Quantization Favors Undertrained LLMs: Scaling Laws for Quantized LLMs with 100T Training Tokens",
+            "url": "https://arxiv.org/abs/2411.17691",
+            "date_create": "2024-11-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Star Attention",
+        "year": 2024,
+        "publication": {
+            "title": "Star Attention: Efficient LLM Inference over Long Sequences",
+            "url": "https://arxiv.org/abs/2411.17116",
+            "date_create": "2024-11-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVIDIA/Star-Attention"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeepThought-8B",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Introducing DeepThought-8B: A small, capable reasoning model",
+            "url": "https://www.ruliad.co/news/introducing-deepthought8b",
+            "date_create": "2024-11-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ruliad/deepthought-8b-llama-v0.01-alpha"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "QwQ-32B-Preview",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - QwQ: Reflect Deeply on the Boundaries of the Unknown",
+            "url": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+            "date_create": "2024-11-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/QwQ-32B-Preview"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Adaptive Inference of Multi-Modal LLMs (AIM)",
+        "year": 2024,
+        "publication": {
+            "title": "AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning",
+            "url": "https://arxiv.org/abs/2412.03248",
+            "date_create": "2024-12-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/LaVi-Lab/AIM"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "PaliGemma 2",
+        "year": 2024,
+        "publication": {
+            "title": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+            "url": "https://arxiv.org/abs/2412.03555",
+            "date_create": "2024-12-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Llama 3.3",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Llama 3.3",
+            "url": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/",
+            "date_create": "2024-12-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/meta-llama/llama-models"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-V2.5-1210",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - DeepSeek-V2.5-1210",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
+            "date_create": "2024-12-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Granite Guardian",
+        "year": 2024,
+        "publication": {
+            "title": "Granite Guardian",
+            "url": "https://arxiv.org/abs/2412.07724",
+            "date_create": "2024-12-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ibm-granite/granite-guardian"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ibm-granite/granite-guardian-3.3-8b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Maya",
+        "year": 2024,
+        "publication": {
+            "title": "Maya: An Instruction Finetuned Multilingual Multimodal Model",
+            "url": "https://arxiv.org/abs/2412.07112",
+            "date_create": "2024-12-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/nahidalam/maya"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/maya-multimodal/maya"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Phi-4",
+        "year": 2024,
+        "publication": {
+            "title": "Phi-4 Technical Report",
+            "url": "https://arxiv.org/abs/2412.08905",
+            "date_create": "2024-12-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/phi-4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Byte Latent Transformer (BLT)",
+        "year": 2024,
+        "publication": {
+            "title": "Byte Latent Transformer: Patches Scale Better Than Tokens",
+            "url": "https://arxiv.org/abs/2412.09871",
+            "date_create": "2024-12-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/blt"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/blt-7b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "ModernBERT",
+        "year": 2024,
+        "publication": {
+            "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+            "url": "https://arxiv.org/abs/2412.13663",
+            "date_create": "2024-12-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/AnswerDotAI/ModernBERT"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/answerdotai/ModernBERT-base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2.5",
+        "year": 2024,
+        "publication": {
+            "title": "Qwen2.5 Technical Report",
+            "url": "https://arxiv.org/abs/2412.15115",
+            "date_create": "2024-12-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen2.5-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "ReMoE",
+        "year": 2024,
+        "publication": {
+            "title": "ReMoE: Fully Differentiable Mixture-of-Experts with ReLU Routing",
+            "url": "https://arxiv.org/abs/2412.14711",
+            "date_create": "2024-12-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/thu-ml/ReMoE"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Multi-matrix Factorization Attention (MFA)",
+        "year": 2024,
+        "publication": {
+            "title": "Multi-matrix Factorization Attention",
+            "url": "https://arxiv.org/abs/2412.19255",
+            "date_create": "2024-12-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "INTELLECT-1",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - INTELLECT-1 Release: The First Globally Trained 10B Parameter Model",
+            "url": "https://www.primeintellect.ai/blog/intellect-1-release",
+            "date_create": "2024-12-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrimeIntellect-ai/prime"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PrimeIntellect/INTELLECT-1-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "OLMo 2",
+        "year": 2024,
+        "publication": {
+            "title": "2 OLMo 2 Furious",
+            "url": "https://arxiv.org/abs/2501.00656",
+            "date_create": "2024-12-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/OLMo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/OLMo-2-1124-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "SYNTHETIC-1",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - SYNTHETIC-1 Release: Two Million Collaboratively Generated Reasoning Traces from Deepseek-R1",
+            "url": "https://www.primeintellect.ai/blog/synthetic-1-release",
+            "date_create": "2025-02-20"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "INTELLECT-2",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - INTELLECT-2 Release: The First 32B Parameter Model Trained Through Globally Distributed Reinforcement Learning",
+            "url": "https://www.primeintellect.ai/blog/intellect-2-release",
+            "date_create": "2025-05-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrimeIntellect-ai/prime-rl"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/PrimeIntellect/INTELLECT-2"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Hierarchical Reasoning Model (HRM)",
+        "year": 2025,
+        "publication": {
+            "title": "Hierarchical Reasoning Model",
+            "url": "https://arxiv.org/abs/2506.21734",
+            "date_create": "2025-06-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/sapientinc/HRM"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "EI-BERT",
+        "year": 2025,
+        "publication": {
+            "title": "Put Teacher in Student's Shoes: Cross-Distillation for Ultra-compact Model Compression Framework",
+            "url": "https://arxiv.org/abs/2507.04636",
+            "date_create": "2025-07-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SYNTHETIC-2",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - SYNTHETIC-2 Release: Four Million Collaboratively Generated Reasoning Traces",
+            "url": "https://www.primeintellect.ai/blog/synthetic-2-release",
+            "date_create": "2025-07-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Neighborhood Adaptive Block-Level Attention (NABLA)",
+        "year": 2025,
+        "publication": {
+            "title": "$\\nabla$NABLA: Neighborhood Adaptive Block-Level Attention",
+            "url": "https://arxiv.org/abs/2507.13546",
+            "date_create": "2025-07-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/gen-ai-team/Wan2.1-NABLA"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai-forever/Wan2.1-T2V-14B-NABLA-0.7"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Group Sequence Policy Optimization (GSPO)",
+        "year": 2025,
+        "publication": {
+            "title": "Group Sequence Policy Optimization",
+            "url": "https://arxiv.org/abs/2507.18071",
+            "date_create": "2025-07-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-4.5",
+        "year": 2025,
+        "publication": {
+            "title": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+            "url": "https://arxiv.org/abs/2508.06471",
+            "date_create": "2025-08-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-4.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Jet-Nemotron",
+        "year": 2025,
+        "publication": {
+            "title": "Jet-Nemotron: Efficient Language Model with Post Neural Architecture Search",
+            "url": "https://www.arxiv.org/abs/2508.15884",
+            "date_create": "2025-08-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/Jet-Nemotron"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/jet-ai/Jet-Nemotron-4B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Set Block Decoding (SBD)",
+        "year": 2025,
+        "publication": {
+            "title": "Set Block Decoding is a Language Model Inference Accelerator",
+            "url": "https://arxiv.org/abs/2509.04185",
+            "date_create": "2025-09-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Tiny Recursive Model (TRM)",
+        "year": 2025,
+        "publication": {
+            "title": "Less is More: Recursive Reasoning with Tiny Networks",
+            "url": "https://arxiv.org/abs/2510.04871",
+            "date_create": "2025-10-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Dr.LLM",
+        "year": 2025,
+        "publication": {
+            "title": "Dr.LLM: Dynamic Layer Routing in LLMs",
+            "url": "https://arxiv.org/abs/2510.12773",
+            "date_create": "2025-10-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Elastic-Cache",
+        "year": 2025,
+        "publication": {
+            "title": "Attention Is All You Need for KV Cache in Diffusion LLMs",
+            "url": "https://arxiv.org/abs/2510.14973",
+            "date_create": "2025-10-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "ZAYA1",
+        "year": 2025,
+        "publication": {
+            "title": "Training Foundation Models on a Full-Stack AMD Platform: Compute, Networking, and System Design",
+            "url": "https://arxiv.org/abs/2511.17127",
+            "date_create": "2025-11-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Zyphra/ZAYA1-base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "INTELLECT-3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - INTELLECT-3: A 100B+ MoE trained with large-scale RL",
+            "url": "https://www.primeintellect.ai/blog/intellect-3",
+            "date_create": "2025-11-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Nanbeige4",
+        "year": 2025,
+        "publication": {
+            "title": "Nanbeige4-3B Technical Report: Exploring the Frontier of Small Language Models",
+            "url": "https://arxiv.org/abs/2512.06266",
+            "date_create": "2025-12-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Nanbeige/Nanbeige4-3B-Base"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepCode",
+        "year": 2025,
+        "publication": {
+            "title": "DeepCode: Open Agentic Coding",
+            "url": "https://arxiv.org/abs/2512.07921",
+            "date_create": "2025-12-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HKUDS/DeepCode"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "VulnLLM-R",
+        "year": 2025,
+        "publication": {
+            "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+            "url": "https://arxiv.org/abs/2512.07533",
+            "date_create": "2025-12-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ucsb-mlsec/VulnLLM-R"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/UCSB-SURFI/VulnLLM-R-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Olmo 3",
+        "year": 2025,
+        "publication": {
+            "title": "Olmo 3",
+            "url": "https://arxiv.org/abs/2512.13961",
+            "date_create": "2025-12-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/open-instruct/"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/Olmo-3-1125-32B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "T5Gemma 2",
+        "year": 2025,
+        "publication": {
+            "title": "T5Gemma 2: Seeing, Reading, and Understanding Longer",
+            "url": "https://arxiv.org/abs/2512.14856",
+            "date_create": "2025-12-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Bolmo",
+        "year": 2025,
+        "publication": {
+            "title": "Bolmo: Byteifying the Next Generation of Language Models",
+            "url": "https://arxiv.org/abs/2512.15586",
+            "date_create": "2025-12-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/bolmo-core"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/allenai/Bolmo-7B"
+        },
         "manual_validated": false
     }
 ]

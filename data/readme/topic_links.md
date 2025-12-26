@@ -4,6 +4,7 @@
 - [Chain-of-Thought](https://arxiv.org/abs/2201.11903) - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 - [Chain-of-Verification](https://arxiv.org/abs/2309.11495) - Chain-of-Verification Reduces Hallucination in Large Language Models
 - [Constrained-CoT](https://arxiv.org/abs/2407.19825) - Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost
+- [Context Parallelism](https://arxiv.org/abs/2411.01783) - Context Parallelism for Scalable Million-Token Inference
 - [Instruction Tuning With Loss Over Instructions](https://arxiv.org/abs/2405.14394) - Instruction Tuning With Loss Over Instructions
 - [Scaling Laws with Vocabulary](https://arxiv.org/abs/2407.13623) - Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies
 - [Survey - Low-bit Large Language Models](https://arxiv.org/abs/2409.16694) - A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms

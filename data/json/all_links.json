@@ -350,6 +350,13 @@
         "manual_validated": false
     },
     {
+        "name": "Context Parallelism",
+        "description": "Context Parallelism for Scalable Million-Token Inference",
+        "url": "https://arxiv.org/abs/2411.01783",
+        "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
         "name": "CoreNet",
         "description": "CoreNet is a deep neural network toolkit that allows researchers and engineers to train standard and novel small and large-scale models for variety of tasks, including foundation models (e.g., CLIP and LLM), object classification, object detection, and semantic segmentation.",
         "url": "https://github.com/apple/corenet",
