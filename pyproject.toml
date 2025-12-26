@@ -5,31 +5,55 @@ description = "List of Language Models"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "lxml>=5.4,<6.0",
-    "pydantic>=2.12,<3.0",
-    "pyperclip>=1.11,<2.0",
-    "requests>=2.32,<3.0",
+  "lxml>=5.4,<6.0",
+  "pydantic>=2.12,<3.0",
+  "pyperclip>=1.11,<2.0",
+  "requests>=2.32,<3.0",
 ]
 
 [dependency-groups]
-dev = [
-    "mypy>=1.19,<2.0",
-    "ruff>=0.14.0,<1.0",
-    "types-requests>=2.32,<3.0",
-]
+dev = ["mypy>=1.19,<2.0", "ruff>=0.14.0,<1.0", "types-requests>=2.32,<3.0"]
 
 [tool.ruff]
 line-length = 120
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "I", "N", "YTT", "ANN", "S", "BLE", "B", "A", "EXE", "INP", "PIE", "T20", "PT", "Q", "SIM", "ARG", "PTH", "PGH", "RUF"]
-ignore = ["ANN101", "ANN401", "S101", "SIM118", "RUF005", "RUF010"]
+select = [
+  "E",
+  "F",
+  "W",
+  "I",
+  "N",
+  "YTT",
+  "ANN",
+  "S",
+  "BLE",
+  "B",
+  "A",
+  "EXE",
+  "INP",
+  "PIE",
+  "T20",
+  "PT",
+  "Q",
+  "SIM",
+  "ARG",
+  "PTH",
+  "PGH",
+  "RUF",
+]
+ignore = ["ANN401", "S101", "SIM118", "RUF005", "RUF010"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["D101", "D102", "D103", "D106", "S105", "S106"]
 
 [tool.ruff.lint.pep8-naming]
-classmethod-decorators = ["classmethod", "classproperty", "pydantic.validator", "pydantic.root_validator"]
+classmethod-decorators = [
+  "classmethod",
+  "classproperty",
+  "pydantic.validator",
+  "pydantic.root_validator",
+]
 
 [tool.ruff.lint.flake8-quotes]
 docstring-quotes = "double"
