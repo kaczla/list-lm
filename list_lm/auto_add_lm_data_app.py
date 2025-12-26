@@ -119,7 +119,7 @@ class AutoAddLMGUIApp:
             url_number += 1
 
             # Update label status
-            msg = f"Processing {url_number} URL: {url}"
+            msg = f"Processing number {url_number}/{len(urls)} URL: {url}"
             logger.info(msg)
             label_status.config(text=msg)
             self.main_frame.update()
@@ -127,6 +127,9 @@ class AutoAddLMGUIApp:
             # Skip parsed URLS
             if url in saved_url_to_model_info:
                 duplicated_urls.append(f"{saved_url_to_model_info[url].name} - {url}")
+                label_duplicated_urls.config(
+                    text=f"Found {len(duplicated_urls)} duplicated URLS:\n{'\n'.join(duplicated_urls)}"
+                )
                 update_progress_bar(url_number)
                 model_info = saved_url_to_model_info[url]
                 logger.info(f"Skipping duplicated URL ({url!r}), existing model: {model_info.name!r}")
