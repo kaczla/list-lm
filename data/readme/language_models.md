@@ -2991,6 +2991,11 @@
   - Code: [GitHub](https://github.com/QwenLM/Qwen2-Math)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2-Math-72B-Instruct)
 
+- rStar
+  - Year: 2024
+  - Publication: [Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers](https://arxiv.org/abs/2408.06195) (2024-08-12)
+  - Code: [GitHub](https://github.com/zhentingqi/rStar)
+
 - Grok-2
   - Year: 2024
   - Publication: [Tweet: Grok-2 Beta Release](https://x.ai/blog/grok-2) (2024-08-13)
@@ -3586,10 +3591,37 @@
   - Code: [GitHub](https://github.com/allenai/OLMo)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/OLMo-2-1124-7B)
 
+- TensorGRaD
+  - Year: 2025
+  - Publication: [TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training](https://arxiv.org/abs/2501.02379) (2025-01-04)
+
+- MixNet
+  - Year: 2025
+  - Publication: [MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training](https://arxiv.org/abs/2501.03905) (2025-01-07)
+
+- rStar-Math
+  - Year: 2025
+  - Publication: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) (2025-01-08)
+  - Code: [GitHub](https://github.com/microsoft/rStar)
+
 - SYNTHETIC-1
   - Year: 2025
   - Publication: [Blog - SYNTHETIC-1 Release: Two Million Collaboratively Generated Reasoning Traces from Deepseek-R1](https://www.primeintellect.ai/blog/synthetic-1-release) (2025-02-20)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B)
+
+- Forgetting Transformer
+  - Year: 2025
+  - Publication: [Forgetting Transformer: Softmax Attention with a Forget Gate](https://arxiv.org/abs/2503.02130) (2025-03-03)
+  - Code: [GitHub](https://github.com/zhixuan-lin/forgetting-transformer)
+
+- PowerAttention
+  - Year: 2025
+  - Publication: [PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention](https://arxiv.org/abs/2503.03588) (2025-03-05)
+
+- Symbolic Mixture-of-Experts (Symbolic-MoE)
+  - Year: 2025
+  - Publication: [Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning](https://arxiv.org/abs/2503.05641) (2025-03-07)
+  - Code: [GitHub](https://github.com/dinobby/Symbolic-MoE/)
 
 - INTELLECT-2
   - Year: 2025

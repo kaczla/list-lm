@@ -9566,6 +9566,22 @@
         "manual_validated": false
     },
     {
+        "name": "rStar",
+        "year": 2024,
+        "publication": {
+            "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers",
+            "url": "https://arxiv.org/abs/2408.06195",
+            "date_create": "2024-08-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zhentingqi/rStar"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Grok-2",
         "year": 2024,
         "publication": {
@@ -11469,6 +11485,48 @@
         "manual_validated": false
     },
     {
+        "name": "TensorGRaD",
+        "year": 2025,
+        "publication": {
+            "title": "TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training",
+            "url": "https://arxiv.org/abs/2501.02379",
+            "date_create": "2025-01-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MixNet",
+        "year": 2025,
+        "publication": {
+            "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
+            "url": "https://arxiv.org/abs/2501.03905",
+            "date_create": "2025-01-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "rStar-Math",
+        "year": 2025,
+        "publication": {
+            "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+            "url": "https://arxiv.org/abs/2501.04519",
+            "date_create": "2025-01-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/rStar"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "SYNTHETIC-1",
         "year": 2025,
         "publication": {
@@ -11482,6 +11540,51 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Forgetting Transformer",
+        "year": 2025,
+        "publication": {
+            "title": "Forgetting Transformer: Softmax Attention with a Forget Gate",
+            "url": "https://arxiv.org/abs/2503.02130",
+            "date_create": "2025-03-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zhixuan-lin/forgetting-transformer"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "PowerAttention",
+        "year": 2025,
+        "publication": {
+            "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+            "url": "https://arxiv.org/abs/2503.03588",
+            "date_create": "2025-03-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Symbolic Mixture-of-Experts (Symbolic-MoE)",
+        "year": 2025,
+        "publication": {
+            "title": "Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning",
+            "url": "https://arxiv.org/abs/2503.05641",
+            "date_create": "2025-03-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/dinobby/Symbolic-MoE/"
+        },
+        "weights": null,
         "manual_validated": false
     },
     {
