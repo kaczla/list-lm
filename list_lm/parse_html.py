@@ -28,6 +28,7 @@ def get_request_session() -> requests.Session:
 
 def get_html_string(url: str) -> str:
     logger.info(f"Getting HTML content from: {url}")
+    # Add retry
     with get_request_session() as session:
         response = session.get(url, timeout=60)
         if response.status_code != 200:
