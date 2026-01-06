@@ -3260,6 +3260,11 @@
   - Code: [GitHub](https://github.com/glaive-ai/reflection_70b_training)
   - Model weights: [HuggingFace models](https://huggingface.co/glaiveai/Reflection-Llama-3.1-70B)
 
+- SageAttention
+  - Year: 2024
+  - Publication: [SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration](https://arxiv.org/abs/2410.02367) (2024-10-03)
+  - Code: [GitHub](https://github.com/thu-ml/SageAttention)
+
 - Selective Attention
   - Year: 2024
   - Publication: [Selective Attention Improves Transformer](https://arxiv.org/abs/2410.02703) (2024-10-03)
@@ -3458,6 +3463,17 @@
   - Year: 2024
   - Publication: [Tweet: Extending the Context Length to 1M Tokens!](Extending the Context Length to 1M Tokens!) (2024-11-15)
 
+- Xmodel-1.5
+  - Year: 2024
+  - Publication: [Xmodel-1.5: An 1B-scale Multilingual LLM](https://arxiv.org/abs/2411.10083) (2024-11-15)
+  - Code: [GitHub](https://github.com/XiaoduoAILab/XmodelLM-1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/XiaoduoAILab/XmodelLM1.5)
+
+- SageAttention 2
+  - Year: 2024
+  - Publication: [SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization](https://arxiv.org/abs/2411.10958) (2024-11-17)
+  - Code: [GitHub](https://github.com/thu-ml/SageAttention)
+
 - Bi-Mamba
   - Year: 2024
   - Publication: [Bi-Mamba: Towards Accurate 1-Bit State Space Models](https://arxiv.org/abs/2411.11843) (2024-11-18)
@@ -3579,6 +3595,12 @@
   - Year: 2024
   - Publication: [Multi-matrix Factorization Attention](https://arxiv.org/abs/2412.19255) (2024-12-26)
 
+- Xmodel-2
+  - Year: 2024
+  - Publication: [Xmodel-2 Technical Report](https://arxiv.org/abs/2412.19638) (2024-12-27)
+  - Code: [GitHub](https://github.com/XiaoduoAILab/Xmodel-2)
+  - Model weights: [HuggingFace models](https://huggingface.co/XiaoduoAILab/Xmodel-2)
+
 - INTELLECT-1
   - Year: 2024
   - Publication: [Blog - INTELLECT-1 Release: The First Globally Trained 10B Parameter Model](https://www.primeintellect.ai/blog/intellect-1-release) (2024-12-29)
@@ -3623,20 +3645,57 @@
   - Publication: [Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning](https://arxiv.org/abs/2503.05641) (2025-03-07)
   - Code: [GitHub](https://github.com/dinobby/Symbolic-MoE/)
 
+- Encoder-Decoder Gemma
+  - Year: 2025
+  - Publication: [Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation](https://arxiv.org/abs/2504.06225) (2025-04-08)
+
 - INTELLECT-2
   - Year: 2025
   - Publication: [Blog - INTELLECT-2 Release: The First 32B Parameter Model Trained Through Globally Distributed Reinforcement Learning](https://www.primeintellect.ai/blog/intellect-2-release) (2025-05-11)
   - Code: [GitHub](https://github.com/PrimeIntellect-ai/prime-rl)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/INTELLECT-2)
 
+- SageAttention 3
+  - Year: 2025
+  - Publication: [SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training](https://arxiv.org/abs/2505.11594) (2025-05-16)
+  - Code: [GitHub](https://github.com/thu-ml/SageAttention)
+
+- SageAttention 2++
+  - Year: 2025
+  - Publication: [SageAttention2++: A More Efficient Implementation of SageAttention2](https://arxiv.org/abs/2505.21136) (2025-05-27)
+  - Code: [GitHub](https://github.com/thu-ml/SageAttention)
+
+- Mercury Coder
+  - Year: 2025
+  - Publication: [Mercury: Ultra-Fast Language Models Based on Diffusion](https://arxiv.org/abs/2506.17298) (2025-06-17)
+
+- MEM1
+  - Year: 2025
+  - Publication: [MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents](https://arxiv.org/abs/2506.15841) (2025-06-18)
+  - Code: [GitHub](https://github.com/MIT-MI/MEM1)
+  - Model weights: [HuggingFace models](https://huggingface.co/Mem-Lab/Qwen2.5-7B-RL-RAG-Q2-EM-Release)
+
+- DiffuCoder
+  - Year: 2025
+  - Publication: [DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](https://arxiv.org/abs/2506.20639) (2025-06-25)
+  - Code: [GitHub](https://github.com/apple/ml-diffucoder)
+
 - Hierarchical Reasoning Model (HRM)
   - Year: 2025
   - Publication: [Hierarchical Reasoning Model](https://arxiv.org/abs/2506.21734) (2025-06-26)
   - Code: [GitHub](https://github.com/sapientinc/HRM)
 
+- 2-Simplicial Transformer
+  - Year: 2025
+  - Publication: [Fast and Simplex: 2-Simplicial Attention in Triton](https://arxiv.org/abs/2507.02754) (2025-07-03)
+
 - EI-BERT
   - Year: 2025
   - Publication: [Put Teacher in Student's Shoes: Cross-Distillation for Ultra-compact Model Compression Framework](https://arxiv.org/abs/2507.04636) (2025-07-07)
+
+- H-Net
+  - Year: 2025
+  - Publication: [Dynamic Chunking for End-to-End Hierarchical Sequence Modeling](https://arxiv.org/abs/2507.07955) (2025-07-10)
 
 - SYNTHETIC-2
   - Year: 2025
@@ -3684,6 +3743,12 @@
   - Year: 2025
   - Publication: [Training Foundation Models on a Full-Stack AMD Platform: Compute, Networking, and System Design](https://arxiv.org/abs/2511.17127) (2025-11-21)
   - Model weights: [HuggingFace models](https://huggingface.co/Zyphra/ZAYA1-base)
+
+- Xmodel-2.5
+  - Year: 2025
+  - Publication: [Xmodel-2.5: 1.3B Data-Efficient Reasoning SLM](https://arxiv.org/abs/2511.19496) (2025-11-23)
+  - Code: [GitHub](https://github.com/XiaoduoAILab/Xmodel-2.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/XiaoduoAILab/Xmodel-2.5)
 
 - INTELLECT-3
   - Year: 2025
