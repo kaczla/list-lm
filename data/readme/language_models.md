@@ -2378,6 +2378,12 @@
   - Code: [GitHub](https://github.com/myshell-ai/JetMoE)
   - Model weights: [HuggingFace models](https://huggingface.co/jetmoe/jetmoe-8b)
 
+- Rho-1
+  - Year: 2024
+  - Publication: [Rho-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965) (2024-04-11)
+  - Code: [GitHub](https://github.com/microsoft/rho)
+  - Model weights: [HuggingFace models](https://huggingface.co/microsoft/rho-math-1b-v0.1)
+
 - Megalodon
   - Year: 2024
   - Publication: [Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length](https://arxiv.org/abs/2404.08801) (2024-04-12)
@@ -3381,6 +3387,12 @@
   - Code: [GitHub](https://github.com/neulab/Pangea)
   - Model weights: [HuggingFace models](https://huggingface.co/neulab/Pangea-7B)
 
+- MiniPLM
+  - Year: 2024
+  - Publication: [MiniPLM: Knowledge Distillation for Pre-Training Language Models](https://arxiv.org/abs/2410.17215) (2024-10-22)
+  - Code: [GitHub](https://github.com/thu-coai/MiniPLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/MiniLLM/MiniPLM-Qwen-1.2B)
+
 - Aya Expanse
   - Year: 2024
   - Publication: [Tweet: Aya Expanse: Connecting Our World](https://cohere.com/blog/aya-expanse-connecting-our-world) (2024-10-24)
@@ -3458,6 +3470,12 @@
   - Year: 2024
   - Publication: [HuggingFace model card - CodeRankLLM](https://huggingface.co/cornstack/CodeRankLLM) (2024-11-08)
   - Model weights: [HuggingFace models](https://huggingface.co/cornstack/CodeRankLLM)
+
+- JanusFlow
+  - Year: 2024
+  - Publication: [JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation](https://arxiv.org/abs/2411.07975) (2024-11-12)
+  - Code: [GitHub](https://github.com/deepseek-ai/Janus)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/JanusFlow-1.3B)
 
 - Qwen2.5-Turbo
   - Year: 2024
@@ -3626,10 +3644,50 @@
   - Publication: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) (2025-01-08)
   - Code: [GitHub](https://github.com/microsoft/rStar)
 
+- Janus-Pro
+  - Year: 2025
+  - Publication: [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) (2025-01-29)
+  - Code: [GitHub](https://github.com/deepseek-ai/Janus)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/Janus-Pro-7B)
+
+- Self-MoA
+  - Year: 2025
+  - Publication: [Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?](https://arxiv.org/abs/2502.00674) (2025-02-02)
+
+- SmolLM2
+  - Year: 2025
+  - Publication: [SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model](https://arxiv.org/abs/2502.02737) (2025-02-04)
+  - Model weights: [HuggingFace models](https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B)
+
+- TransMLA
+  - Year: 2025
+  - Publication: [TransMLA: Multi-Head Latent Attention Is All You Need](https://arxiv.org/abs/2502.07864) (2025-02-11)
+  - Code: [GitHub](https://github.com/MuLabPKU/TransMLA)
+
+- Natively trainable Sparse Attention (NSA)
+  - Year: 2025
+  - Publication: [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/abs/2502.11089) (2025-02-16)
+
+- MoBA
+  - Year: 2025
+  - Publication: [MoBA: Mixture of Block Attention for Long-Context LLMs](https://arxiv.org/abs/2502.13189) (2025-02-18)
+  - Code: [GitHub](https://github.com/MoonshotAI/MoBA)
+
 - SYNTHETIC-1
   - Year: 2025
   - Publication: [Blog - SYNTHETIC-1 Release: Two Million Collaboratively Generated Reasoning Traces from Deepseek-R1](https://www.primeintellect.ai/blog/synthetic-1-release) (2025-02-20)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B)
+
+- FlexPrefill
+  - Year: 2025
+  - Publication: [FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference](https://arxiv.org/abs/2502.20766) (2025-02-28)
+  - Code: [GitHub](https://github.com/ByteDance-Seed/FlexPrefill)
+
+- Babel
+  - Year: 2025
+  - Publication: [Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers](https://arxiv.org/abs/2503.00865) (2025-03-02)
+  - Code: [GitHub](https://github.com/babel-llm/babel-llm)
+  - Model weights: [HuggingFace models](https://huggingface.co/Tower-Babel/Babel-9B)
 
 - Forgetting Transformer
   - Year: 2025
@@ -3649,21 +3707,80 @@
   - Year: 2025
   - Publication: [Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation](https://arxiv.org/abs/2504.06225) (2025-04-08)
 
+- Llama-Nemotron
+  - Year: 2025
+  - Publication: [Llama-Nemotron: Efficient Reasoning Models](https://arxiv.org/abs/2505.00949) (2025-05-02)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1)
+
+- Absolute Zero Reasoner (AZR)
+  - Year: 2025
+  - Publication: [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) (2025-05-06)
+  - Code: [GitHub](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner)
+  - Model weights: [HuggingFace models](https://huggingface.co/andrewzh/Absolute_Zero_Reasoner-Coder-7b)
+
 - INTELLECT-2
   - Year: 2025
   - Publication: [Blog - INTELLECT-2 Release: The First 32B Parameter Model Trained Through Globally Distributed Reinforcement Learning](https://www.primeintellect.ai/blog/intellect-2-release) (2025-05-11)
   - Code: [GitHub](https://github.com/PrimeIntellect-ai/prime-rl)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/INTELLECT-2)
 
+- Seed1.5-VL
+  - Year: 2025
+  - Publication: [Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) (2025-05-11)
+  - Code: [GitHub](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+- UMoE
+  - Year: 2025
+  - Publication: [UMoE: Unifying Attention and FFN with Shared Experts](https://arxiv.org/abs/2505.07260) (2025-05-12)
+  - Code: [GitHub](https://github.com/ysngki/UMoE)
+
+- DeepSeek-V3/R1
+  - Year: 2025
+  - Publication: [Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures](https://arxiv.org/abs/2505.09343) (2025-05-14)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V3)
+
+- J1
+  - Year: 2025
+  - Publication: [J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning](https://arxiv.org/abs/2505.10320) (2025-05-15)
+
 - SageAttention 3
   - Year: 2025
   - Publication: [SageAttention3: Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training](https://arxiv.org/abs/2505.11594) (2025-05-16)
   - Code: [GitHub](https://github.com/thu-ml/SageAttention)
 
+- Model Merging
+  - Year: 2025
+  - Publication: [Model Merging in Pre-training of Large Language Models](https://arxiv.org/abs/2505.12082) (2025-05-17)
+
+- Quartet
+  - Year: 2025
+  - Publication: [Quartet: Native FP4 Training Can Be Optimal for Large Language Models](https://arxiv.org/abs/2505.14669) (2025-05-20)
+  - Code: [GitHub](https://github.com/IST-DASLab/Quartet)
+
+- QwenLong-L1
+  - Year: 2025
+  - Publication: [QwenLong-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2505.17667) (2025-05-23)
+  - Code: [GitHub](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
+  - Model weights: [HuggingFace models](https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1-32B)
+
 - SageAttention 2++
   - Year: 2025
   - Publication: [SageAttention2++: A More Efficient Implementation of SageAttention2](https://arxiv.org/abs/2505.21136) (2025-05-27)
   - Code: [GitHub](https://github.com/thu-ml/SageAttention)
+
+- StochasTok
+  - Year: 2025
+  - Publication: [StochasTok: Improving Fine-Grained Subword Understanding in LLMs](https://arxiv.org/abs/2506.01687) (2025-06-02)
+  - Code: [GitHub](https://github.com/anyasims/stochastok)
+
+- AceReason-Nemotron 1.1
+  - Year: 2025
+  - Publication: [AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](https://arxiv.org/abs/2506.13284) (2025-06-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/AceReason-Nemotron-1.1-7B)
+
+- Autoregressive U-Nets (AU-Net)
+  - Year: 2025
+  - Publication: [From Bytes to Ideas: Language Modeling with Autoregressive U-Nets](https://arxiv.org/abs/2506.14761) (2025-06-17)
 
 - Mercury Coder
   - Year: 2025
@@ -3727,6 +3844,11 @@
   - Year: 2025
   - Publication: [Set Block Decoding is a Language Model Inference Accelerator](https://arxiv.org/abs/2509.04185) (2025-09-04)
 
+- SPELL
+  - Year: 2025
+  - Publication: [SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models](https://arxiv.org/abs/2509.23863) (2025-09-28)
+  - Code: [GitHub](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
+
 - Tiny Recursive Model (TRM)
   - Year: 2025
   - Publication: [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/abs/2510.04871) (2025-10-06)
@@ -3776,6 +3898,12 @@
   - Code: [GitHub](https://github.com/allenai/open-instruct/)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/Olmo-3-1125-32B)
 
+- QwenLong-L1.5
+  - Year: 2025
+  - Publication: [QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management](https://arxiv.org/abs/2512.12967) (2025-12-15)
+  - Code: [GitHub](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
+  - Model weights: [HuggingFace models](https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1.5-30B-A3B)
+
 - T5Gemma 2
   - Year: 2025
   - Publication: [T5Gemma 2: Seeing, Reading, and Understanding Longer](https://arxiv.org/abs/2512.14856) (2025-12-16)
@@ -3785,3 +3913,9 @@
   - Publication: [Bolmo: Byteifying the Next Generation of Language Models](https://arxiv.org/abs/2512.15586) (2025-12-17)
   - Code: [GitHub](https://github.com/allenai/bolmo-core)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/Bolmo-7B)
+
+- Falcon-H1R
+  - Year: 2026
+  - Publication: [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) (2026-01-05)
+  - Code: [GitHub](https://github.com/tiiuae/falcon-h1r)
+  - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/Falcon-H1R-7B)

@@ -7607,6 +7607,25 @@
         "manual_validated": false
     },
     {
+        "name": "Rho-1",
+        "year": 2024,
+        "publication": {
+            "title": "Rho-1: Not All Tokens Are What You Need",
+            "url": "https://arxiv.org/abs/2404.07965",
+            "date_create": "2024-04-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/microsoft/rho"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/microsoft/rho-math-1b-v0.1"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Megalodon",
         "year": 2024,
         "publication": {
@@ -10813,6 +10832,25 @@
         "manual_validated": false
     },
     {
+        "name": "MiniPLM",
+        "year": 2024,
+        "publication": {
+            "title": "MiniPLM: Knowledge Distillation for Pre-Training Language Models",
+            "url": "https://arxiv.org/abs/2410.17215",
+            "date_create": "2024-10-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/thu-coai/MiniPLM"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/MiniLLM/MiniPLM-Qwen-1.2B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Aya Expanse",
         "year": 2024,
         "publication": {
@@ -11059,6 +11097,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/cornstack/CodeRankLLM"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "JanusFlow",
+        "year": 2024,
+        "publication": {
+            "title": "JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation",
+            "url": "https://arxiv.org/abs/2411.07975",
+            "date_create": "2024-11-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/Janus"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/JanusFlow-1.3B"
         },
         "manual_validated": false
     },
@@ -11597,6 +11654,99 @@
         "manual_validated": false
     },
     {
+        "name": "Janus-Pro",
+        "year": 2025,
+        "publication": {
+            "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+            "url": "https://arxiv.org/abs/2501.17811",
+            "date_create": "2025-01-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/Janus"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/Janus-Pro-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Self-MoA",
+        "year": 2025,
+        "publication": {
+            "title": "Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?",
+            "url": "https://arxiv.org/abs/2502.00674",
+            "date_create": "2025-02-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SmolLM2",
+        "year": 2025,
+        "publication": {
+            "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+            "url": "https://arxiv.org/abs/2502.02737",
+            "date_create": "2025-02-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "TransMLA",
+        "year": 2025,
+        "publication": {
+            "title": "TransMLA: Multi-Head Latent Attention Is All You Need",
+            "url": "https://arxiv.org/abs/2502.07864",
+            "date_create": "2025-02-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MuLabPKU/TransMLA"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Natively trainable Sparse Attention (NSA)",
+        "year": 2025,
+        "publication": {
+            "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+            "url": "https://arxiv.org/abs/2502.11089",
+            "date_create": "2025-02-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MoBA",
+        "year": 2025,
+        "publication": {
+            "title": "MoBA: Mixture of Block Attention for Long-Context LLMs",
+            "url": "https://arxiv.org/abs/2502.13189",
+            "date_create": "2025-02-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MoonshotAI/MoBA"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "SYNTHETIC-1",
         "year": 2025,
         "publication": {
@@ -11609,6 +11759,41 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "FlexPrefill",
+        "year": 2025,
+        "publication": {
+            "title": "FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference",
+            "url": "https://arxiv.org/abs/2502.20766",
+            "date_create": "2025-02-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ByteDance-Seed/FlexPrefill"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Babel",
+        "year": 2025,
+        "publication": {
+            "title": "Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers",
+            "url": "https://arxiv.org/abs/2503.00865",
+            "date_create": "2025-03-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/babel-llm/babel-llm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Tower-Babel/Babel-9B"
         },
         "manual_validated": false
     },
@@ -11671,6 +11856,41 @@
         "manual_validated": false
     },
     {
+        "name": "Llama-Nemotron",
+        "year": 2025,
+        "publication": {
+            "title": "Llama-Nemotron: Efficient Reasoning Models",
+            "url": "https://arxiv.org/abs/2505.00949",
+            "date_create": "2025-05-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Absolute Zero Reasoner (AZR)",
+        "year": 2025,
+        "publication": {
+            "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+            "url": "https://arxiv.org/abs/2505.03335",
+            "date_create": "2025-05-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/LeapLabTHU/Absolute-Zero-Reasoner"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/andrewzh/Absolute_Zero_Reasoner-Coder-7b"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "INTELLECT-2",
         "year": 2025,
         "publication": {
@@ -11690,6 +11910,67 @@
         "manual_validated": false
     },
     {
+        "name": "Seed1.5-VL",
+        "year": 2025,
+        "publication": {
+            "title": "Seed1.5-VL Technical Report",
+            "url": "https://arxiv.org/abs/2505.07062",
+            "date_create": "2025-05-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ByteDance-Seed/Seed1.5-VL"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "UMoE",
+        "year": 2025,
+        "publication": {
+            "title": "UMoE: Unifying Attention and FFN with Shared Experts",
+            "url": "https://arxiv.org/abs/2505.07260",
+            "date_create": "2025-05-12"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ysngki/UMoE"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-V3/R1",
+        "year": 2025,
+        "publication": {
+            "title": "Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures",
+            "url": "https://arxiv.org/abs/2505.09343",
+            "date_create": "2025-05-14"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "J1",
+        "year": 2025,
+        "publication": {
+            "title": "J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2505.10320",
+            "date_create": "2025-05-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "SageAttention 3",
         "year": 2025,
         "publication": {
@@ -11706,6 +11987,54 @@
         "manual_validated": false
     },
     {
+        "name": "Model Merging",
+        "year": 2025,
+        "publication": {
+            "title": "Model Merging in Pre-training of Large Language Models",
+            "url": "https://arxiv.org/abs/2505.12082",
+            "date_create": "2025-05-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Quartet",
+        "year": 2025,
+        "publication": {
+            "title": "Quartet: Native FP4 Training Can Be Optimal for Large Language Models",
+            "url": "https://arxiv.org/abs/2505.14669",
+            "date_create": "2025-05-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/IST-DASLab/Quartet"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "QwenLong-L1",
+        "year": 2025,
+        "publication": {
+            "title": "QwenLong-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2505.17667",
+            "date_create": "2025-05-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1-32B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "SageAttention 2++",
         "year": 2025,
         "publication": {
@@ -11718,6 +12047,51 @@
             "title": "GitHub",
             "url": "https://github.com/thu-ml/SageAttention"
         },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "StochasTok",
+        "year": 2025,
+        "publication": {
+            "title": "StochasTok: Improving Fine-Grained Subword Understanding in LLMs",
+            "url": "https://arxiv.org/abs/2506.01687",
+            "date_create": "2025-06-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/anyasims/stochastok"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "AceReason-Nemotron 1.1",
+        "year": 2025,
+        "publication": {
+            "title": "AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy",
+            "url": "https://arxiv.org/abs/2506.13284",
+            "date_create": "2025-06-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/AceReason-Nemotron-1.1-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Autoregressive U-Nets (AU-Net)",
+        "year": 2025,
+        "publication": {
+            "title": "From Bytes to Ideas: Language Modeling with Autoregressive U-Nets",
+            "url": "https://arxiv.org/abs/2506.14761",
+            "date_create": "2025-06-17"
+        },
+        "video": null,
+        "code": null,
         "weights": null,
         "manual_validated": false
     },
@@ -11921,6 +12295,22 @@
         "manual_validated": false
     },
     {
+        "name": "SPELL",
+        "year": 2025,
+        "publication": {
+            "title": "SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models",
+            "url": "https://arxiv.org/abs/2509.23863",
+            "date_create": "2025-09-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Tiny Recursive Model (TRM)",
         "year": 2025,
         "publication": {
@@ -12078,6 +12468,25 @@
         "manual_validated": false
     },
     {
+        "name": "QwenLong-L1.5",
+        "year": 2025,
+        "publication": {
+            "title": "QwenLong-L1.5: Post-Training Recipe for Long-Context Reasoning and Memory Management",
+            "url": "https://arxiv.org/abs/2512.12967",
+            "date_create": "2025-12-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1.5-30B-A3B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "T5Gemma 2",
         "year": 2025,
         "publication": {
@@ -12106,6 +12515,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/allenai/Bolmo-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Falcon-H1R",
+        "year": 2026,
+        "publication": {
+            "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+            "url": "https://arxiv.org/abs/2601.02346",
+            "date_create": "2026-01-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tiiuae/falcon-h1r"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
         },
         "manual_validated": false
     }
