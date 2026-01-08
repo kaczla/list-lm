@@ -3644,6 +3644,12 @@
   - Publication: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) (2025-01-08)
   - Code: [GitHub](https://github.com/microsoft/rStar)
 
+- Baichuan-Omni-1.5
+  - Year: 2025
+  - Publication: [Baichuan-Omni-1.5 Technical Report](https://arxiv.org/abs/2501.15368) (2025-01-26)
+  - Code: [GitHub](https://github.com/baichuan-inc/Baichuan-Omni-1.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5)
+
 - Janus-Pro
   - Year: 2025
   - Publication: [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) (2025-01-29)
@@ -3703,9 +3709,72 @@
   - Publication: [Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning](https://arxiv.org/abs/2503.05641) (2025-03-07)
   - Code: [GitHub](https://github.com/dinobby/Symbolic-MoE/)
 
+- Dynamic Tanh (DyT)
+  - Year: 2025
+  - Publication: [Transformers without Normalization](https://arxiv.org/abs/2503.10622) (2025-03-13)
+  - Code: [GitHub](https://github.com/jiachenzhu/DyT)
+
+- SuperBPE
+  - Year: 2025
+  - Publication: [SuperBPE: Space Travel for Language Models](https://arxiv.org/abs/2503.13423) (2025-03-17)
+  - Code: [GitHub](https://github.com/PythonNut/superbpe)
+  - Model weights: [HuggingFace models](https://huggingface.co/UW/OLMo2-8B-SuperBPE-t180k)
+
+- FFN Fusion
+  - Year: 2025
+  - Publication: [FFN Fusion: Rethinking Sequential Computation in Large Language Models](https://arxiv.org/abs/2503.18908) (2025-03-24)
+
+- Trajectory Balance with Asynchrony (TBA)
+  - Year: 2025
+  - Publication: [Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training](https://arxiv.org/abs/2503.18929) (2025-03-24)
+  - Code: [GitHub](https://github.com/bbartoldson/TBA)
+
+- TransMamba
+  - Year: 2025
+  - Publication: [TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2503.24067) (2025-03-31)
+  - Code: [GitHub](https://github.com/Yixing-Li/TransMamba)
+
+- Multi-Token Attention (MTA)
+  - Year: 2025
+  - Publication: [Multi-Token Attention](https://arxiv.org/abs/2504.00927) (2025-04-01)
+  - Code: [GitHub](https://github.com/facebookresearch/RAM)
+
+- ShieldGemma 2
+  - Year: 2025
+  - Publication: [ShieldGemma 2: Robust and Tractable Image Content Moderation](https://arxiv.org/abs/2504.01081) (2025-04-01)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/shieldgemma-2-4b-it)
+
+- MegaScale-Infer
+  - Year: 2025
+  - Publication: [MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism](https://arxiv.org/abs/2504.02263) (2025-04-03)
+
+- Nemotron-H
+  - Year: 2025
+  - Publication: [Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models](https://arxiv.org/abs/2504.03624) (2025-04-04)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Nemotron-H-56B-Base-8K)
+
 - Encoder-Decoder Gemma
   - Year: 2025
   - Publication: [Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation](https://arxiv.org/abs/2504.06225) (2025-04-08)
+
+- Cluster-driven Expert Pruning (C-Prune)
+  - Year: 2025
+  - Publication: [Cluster-Driven Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2504.07807) (2025-04-10)
+  - Code: [GitHub](https://github.com/Fighoture/MoE_unsupervised_pruning)
+
+- Critical-Layer, Core-Expert, Collaborative Pathway Optimization (C3PO)
+  - Year: 2025
+  - Publication: [C3PO: Critical-Layer, Core-Expert, Collaborative Pathway Optimization for Test-Time Expert Re-Mixing](https://arxiv.org/abs/2504.07964) (2025-04-10)
+  - Code: [GitHub](https://github.com/tianyi-lab/C3PO)
+
+- M1
+  - Year: 2025
+  - Publication: [M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models](https://arxiv.org/abs/2504.10449) (2025-04-14)
+  - Code: [GitHub](https://github.com/jxiw/M1)
+
+- Trelawney
+  - Year: 2025
+  - Publication: [Looking beyond the next token](https://arxiv.org/abs/2504.11336) (2025-04-15)
 
 - Llama-Nemotron
   - Year: 2025

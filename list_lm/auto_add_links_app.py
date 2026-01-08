@@ -23,7 +23,7 @@ from list_lm.parser_links import ParserLinks
 class AutoAddLinksGUIApp:
     DATA_JSON_PATH = Path("data/json")
     LINKS_PATH = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
-    DEFAULT_MODEL_NAME = "olmo-3:7b"
+    DEFAULT_MODEL_NAME = "olmo-3:7b-think"
 
     def __init__(self) -> None:
         self.parser = ParserLinks()

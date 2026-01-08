@@ -11654,6 +11654,25 @@
         "manual_validated": false
     },
     {
+        "name": "Baichuan-Omni-1.5",
+        "year": 2025,
+        "publication": {
+            "title": "Baichuan-Omni-1.5 Technical Report",
+            "url": "https://arxiv.org/abs/2501.15368",
+            "date_create": "2025-01-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/baichuan-inc/Baichuan-Omni-1.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Janus-Pro",
         "year": 2025,
         "publication": {
@@ -11843,12 +11862,214 @@
         "manual_validated": false
     },
     {
+        "name": "Dynamic Tanh (DyT)",
+        "year": 2025,
+        "publication": {
+            "title": "Transformers without Normalization",
+            "url": "https://arxiv.org/abs/2503.10622",
+            "date_create": "2025-03-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jiachenzhu/DyT"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SuperBPE",
+        "year": 2025,
+        "publication": {
+            "title": "SuperBPE: Space Travel for Language Models",
+            "url": "https://arxiv.org/abs/2503.13423",
+            "date_create": "2025-03-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PythonNut/superbpe"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/UW/OLMo2-8B-SuperBPE-t180k"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "FFN Fusion",
+        "year": 2025,
+        "publication": {
+            "title": "FFN Fusion: Rethinking Sequential Computation in Large Language Models",
+            "url": "https://arxiv.org/abs/2503.18908",
+            "date_create": "2025-03-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Trajectory Balance with Asynchrony (TBA)",
+        "year": 2025,
+        "publication": {
+            "title": "Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training",
+            "url": "https://arxiv.org/abs/2503.18929",
+            "date_create": "2025-03-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/bbartoldson/TBA"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "TransMamba",
+        "year": 2025,
+        "publication": {
+            "title": "TransMamba: A Sequence-Level Hybrid Transformer-Mamba Language Model",
+            "url": "https://arxiv.org/abs/2503.24067",
+            "date_create": "2025-03-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Yixing-Li/TransMamba"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Multi-Token Attention (MTA)",
+        "year": 2025,
+        "publication": {
+            "title": "Multi-Token Attention",
+            "url": "https://arxiv.org/abs/2504.00927",
+            "date_create": "2025-04-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/RAM"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "ShieldGemma 2",
+        "year": 2025,
+        "publication": {
+            "title": "ShieldGemma 2: Robust and Tractable Image Content Moderation",
+            "url": "https://arxiv.org/abs/2504.01081",
+            "date_create": "2025-04-01"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/shieldgemma-2-4b-it"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "MegaScale-Infer",
+        "year": 2025,
+        "publication": {
+            "title": "MegaScale-Infer: Serving Mixture-of-Experts at Scale with Disaggregated Expert Parallelism",
+            "url": "https://arxiv.org/abs/2504.02263",
+            "date_create": "2025-04-03"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Nemotron-H",
+        "year": 2025,
+        "publication": {
+            "title": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+            "url": "https://arxiv.org/abs/2504.03624",
+            "date_create": "2025-04-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Nemotron-H-56B-Base-8K"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Encoder-Decoder Gemma",
         "year": 2025,
         "publication": {
             "title": "Encoder-Decoder Gemma: Improving the Quality-Efficiency Trade-Off via Adaptation",
             "url": "https://arxiv.org/abs/2504.06225",
             "date_create": "2025-04-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Cluster-driven Expert Pruning (C-Prune)",
+        "year": 2025,
+        "publication": {
+            "title": "Cluster-Driven Expert Pruning for Mixture-of-Experts Large Language Models",
+            "url": "https://arxiv.org/abs/2504.07807",
+            "date_create": "2025-04-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Fighoture/MoE_unsupervised_pruning"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Critical-Layer, Core-Expert, Collaborative Pathway Optimization (C3PO)",
+        "year": 2025,
+        "publication": {
+            "title": "C3PO: Critical-Layer, Core-Expert, Collaborative Pathway Optimization for Test-Time Expert Re-Mixing",
+            "url": "https://arxiv.org/abs/2504.07964",
+            "date_create": "2025-04-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tianyi-lab/C3PO"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "M1",
+        "year": 2025,
+        "publication": {
+            "title": "M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models",
+            "url": "https://arxiv.org/abs/2504.10449",
+            "date_create": "2025-04-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jxiw/M1"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Trelawney",
+        "year": 2025,
+        "publication": {
+            "title": "Looking beyond the next token",
+            "url": "https://arxiv.org/abs/2504.11336",
+            "date_create": "2025-04-15"
         },
         "video": null,
         "code": null,

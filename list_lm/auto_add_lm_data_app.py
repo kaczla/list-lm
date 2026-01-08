@@ -18,7 +18,7 @@ from list_lm.utils import convert_date_to_string
 class AutoAddLMGUIApp:
     DATA_JSON_PATH = Path("data/json")
     MODEL_DATA_PATH = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
-    DEFAULT_MODEL_NAME = "olmo-3:7b"
+    DEFAULT_MODEL_NAME = "olmo-3:7b-think"
 
     def __init__(self) -> None:
         self.parser = ParserLMData()
