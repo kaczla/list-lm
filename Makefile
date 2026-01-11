@@ -1,4 +1,4 @@
-all: format lint_fix
+all: format lint_fix lint_shell
 	@echo "[INFO] All checks complete!"
 
 lint:
@@ -9,6 +9,10 @@ lint_fix:
 	@echo "[INFO] Running lint fix..."
 	@uv run ruff check --select I --fix list_lm
 	@uv run ruff check --fix list_lm
+
+lint_shell:
+	@echo "[INFO] Running shell check..."
+	@uv run shellcheck scripts/*.sh
 
 format:
 	@echo "[INFO] Running format..."
