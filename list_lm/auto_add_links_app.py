@@ -3,8 +3,8 @@ from functools import partial
 from pathlib import Path
 from tkinter import ttk
 
+import pyperclip
 from loguru import logger
-from pyperclip import copy as copy_clipboard
 
 from list_lm.data import (
     ApplicationData,
@@ -41,6 +41,13 @@ class AutoAddLinksGUIApp:
         ollama_is_available = self.parser.ollama_client.is_available()
         if not ollama_is_available:
             self.show_text_frame("Ollama is unavailable!", color="red", hide_button=True)
+            return
+        elif not pyperclip.is_available():
+            self.show_text_frame(
+                'Copy functionality unavailable! Please install xclip, xsel, or wl-clipboard (for "wayland" sessions).',
+                color="red",
+                hide_button=True,
+            )
             return
         else:
             label_model_name = tk.Label(self.main_frame, text="Ollama model name:")
@@ -291,7 +298,7 @@ class AutoAddLinksGUIApp:
             text_application_url = tk.Text(frame_url, width=50, height=1)
             text_application_url.insert("1.0", selected_data.url)
             text_application_url.pack(side=tk.LEFT)
-            button_application_url_fn = partial(copy_clipboard, selected_data.url)
+            button_application_url_fn = partial(pyperclip.copy, selected_data.url)
             button_application_url = tk.Button(frame_url, text="📋", command=button_application_url_fn)
             button_application_url.pack(side=tk.LEFT)
 
