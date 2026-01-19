@@ -392,6 +392,12 @@
   - Code: [GitHub](https://github.com/microsoft/DeBERTa)
   - Model weights: [HuggingFace models](https://huggingface.co/microsoft/deberta-v3-base)
 
+- ColBERT v2
+  - Year: 2021
+  - Publication: [ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction](https://arxiv.org/abs/2112.01488) (2021-12-02)
+  - Code: [GitHub](https://github.com/stanford-futuredata/ColBERT)
+  - Model weights: [HuggingFace models](https://huggingface.co/colbert-ir/colbertv2.0)
+
 - Gopher
   - Year: 2021
   - Publication: [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) (2021-12-08)
@@ -1830,6 +1836,12 @@
   - Year: 2023
   - Publication: [Gemini: A Family of Highly Capable Multimodal Models](https://arxiv.org/abs/2312.11805) (2023-12-19)
 
+- InternVL
+  - Year: 2023
+  - Publication: [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) (2023-12-21)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL)
+
 - WhiteRabbitNeo
   - Year: 2023
   - Publication: [HuggingFace model card - WhiteRabbitNeo](https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-33B-v1) (2023-12-27)
@@ -1856,6 +1868,11 @@
   - Publication: [LLaMA Pro: Progressive LLaMA with Block Expansion](https://arxiv.org/abs/2401.02415) (2024-01-04)
   - Code: [GitHub](https://github.com/TencentARC/LLaMA-Pro)
   - Model weights: [HuggingFace models](https://huggingface.co/TencentARC/LLaMA-Pro-8B)
+
+- nomic-bert
+  - Year: 2024
+  - Publication: [HuggingFace model card - nomic-bert](https://huggingface.co/nomic-ai/nomic-bert-2048) (2024-01-04)
+  - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/nomic-bert-2048)
 
 - TinyLlama
   - Year: 2023
@@ -2472,6 +2489,12 @@
   - Code: [GitHub](https://github.com/Snowflake-Labs/snowflake-arctic)
   - Model weights: [HuggingFace models](https://huggingface.co/Snowflake/snowflake-arctic-instruct)
 
+- InternVL 1.5
+  - Year: 2024
+  - Publication: [How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites](https://arxiv.org/abs/2404.16821) (2024-04-25)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5)
+
 - LayerSkip
   - Year: 2024
   - Publication: [LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding](https://arxiv.org/abs/2404.16710) (2024-04-25)
@@ -2842,6 +2865,12 @@
 - RankRAG
   - Year: 2024
   - Publication: [RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs](https://arxiv.org/abs/2407.02485) (2024-07-02)
+
+- InternVL 2
+  - Year: 2024
+  - Publication: [Blog - InternVL2: Better than the Best - Expanding Performance Boundaries of Open-Source Multimodal Models with the Progressive Scaling Strategy](https://internvl.github.io/blog/2024-07-02-InternVL-2.0/) (2024-07-04)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL2-26B)
 
 - TTT-Linear
   - Year: 2024
@@ -3381,6 +3410,12 @@
   - Code: [GitHub](https://github.com/ibm-granite/granite-3.0-language-models)
   - Model weights: [HuggingFace models](https://huggingface.co/ibm-granite/granite-3.0-8b-instruct)
 
+- Mini-InternVL
+  - Year: 2024
+  - Publication: [Mini-InternVL: A Flexible-Transfer Pocket Multimodal Model with 5% Parameters and 90% Performance](https://arxiv.org/abs/2410.16261) (2024-10-21)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/Mini-InternVL-Chat-2B-V1-5)
+
 - Pangea
   - Year: 2024
   - Publication: [Pangea: A Fully Open Multilingual Multimodal LLM for 39 Languages](https://arxiv.org/abs/2410.16153) (2024-10-21)
@@ -3477,6 +3512,12 @@
   - Code: [GitHub](https://github.com/deepseek-ai/Janus)
   - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/JanusFlow-1.3B)
 
+- InternVL 2.5 MPO
+  - Year: 2024
+  - Publication: [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/abs/2411.10442) (2024-11-15)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL2-8B-MPO)
+
 - Qwen2.5-Turbo
   - Year: 2024
   - Publication: [Tweet: Extending the Context Length to 1M Tokens!](Extending the Context Length to 1M Tokens!) (2024-11-15)
@@ -3557,6 +3598,12 @@
 - PaliGemma 2
   - Year: 2024
   - Publication: [PaliGemma 2: A Family of Versatile VLMs for Transfer](https://arxiv.org/abs/2412.03555) (2024-12-04)
+
+- InternVL 2.5
+  - Year: 2024
+  - Publication: [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) (2024-12-06)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL2_5-78B)
 
 - Llama 3.3
   - Year: 2024
@@ -3767,6 +3814,11 @@
   - Publication: [C3PO: Critical-Layer, Core-Expert, Collaborative Pathway Optimization for Test-Time Expert Re-Mixing](https://arxiv.org/abs/2504.07964) (2025-04-10)
   - Code: [GitHub](https://github.com/tianyi-lab/C3PO)
 
+- InternVL 3
+  - Year: 2025
+  - Publication: [InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models](https://arxiv.org/abs/2504.10479) (2025-04-14)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+
 - M1
   - Year: 2025
   - Publication: [M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models](https://arxiv.org/abs/2504.10449) (2025-04-14)
@@ -3908,6 +3960,12 @@
   - Publication: [Jet-Nemotron: Efficient Language Model with Post Neural Architecture Search](https://www.arxiv.org/abs/2508.15884) (2025-08-21)
   - Code: [GitHub](https://github.com/NVlabs/Jet-Nemotron)
   - Model weights: [HuggingFace models](https://huggingface.co/jet-ai/Jet-Nemotron-4B)
+
+- InternVL 3.5
+  - Year: 2025
+  - Publication: [InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency](https://arxiv.org/abs/2508.18265) (2025-08-25)
+  - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
+  - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL3_5-8B)
 
 - Set Block Decoding (SBD)
   - Year: 2025

@@ -1263,6 +1263,25 @@
         "manual_validated": false
     },
     {
+        "name": "ColBERT v2",
+        "year": 2021,
+        "publication": {
+            "title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+            "url": "https://arxiv.org/abs/2112.01488",
+            "date_create": "2021-12-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stanford-futuredata/ColBERT"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/colbert-ir/colbertv2.0"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Gopher",
         "year": 2021,
         "publication": {
@@ -5854,6 +5873,25 @@
         "manual_validated": false
     },
     {
+        "name": "InternVL",
+        "year": 2023,
+        "publication": {
+            "title": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+            "url": "https://arxiv.org/abs/2312.14238",
+            "date_create": "2023-12-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "WhiteRabbitNeo",
         "year": 2023,
         "publication": {
@@ -5936,6 +5974,22 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/TencentARC/LLaMA-Pro-8B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "nomic-bert",
+        "year": 2024,
+        "publication": {
+            "title": "HuggingFace model card - nomic-bert",
+            "url": "https://huggingface.co/nomic-ai/nomic-bert-2048",
+            "date_create": "2024-01-04"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nomic-ai/nomic-bert-2048"
         },
         "manual_validated": false
     },
@@ -7907,6 +7961,25 @@
         "manual_validated": false
     },
     {
+        "name": "InternVL 1.5",
+        "year": 2024,
+        "publication": {
+            "title": "How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites",
+            "url": "https://arxiv.org/abs/2404.16821",
+            "date_create": "2024-04-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "LayerSkip",
         "year": 2024,
         "publication": {
@@ -9090,6 +9163,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "InternVL 2",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - InternVL2: Better than the Best - Expanding Performance Boundaries of Open-Source Multimodal Models with the Progressive Scaling Strategy",
+            "url": "https://internvl.github.io/blog/2024-07-02-InternVL-2.0/",
+            "date_create": "2024-07-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL2-26B"
+        },
         "manual_validated": false
     },
     {
@@ -10813,6 +10905,25 @@
         "manual_validated": false
     },
     {
+        "name": "Mini-InternVL",
+        "year": 2024,
+        "publication": {
+            "title": "Mini-InternVL: A Flexible-Transfer Pocket Multimodal Model with 5% Parameters and 90% Performance",
+            "url": "https://arxiv.org/abs/2410.16261",
+            "date_create": "2024-10-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/Mini-InternVL-Chat-2B-V1-5"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Pangea",
         "year": 2024,
         "publication": {
@@ -11120,6 +11231,25 @@
         "manual_validated": false
     },
     {
+        "name": "InternVL 2.5 MPO",
+        "year": 2024,
+        "publication": {
+            "title": "Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization",
+            "url": "https://arxiv.org/abs/2411.10442",
+            "date_create": "2024-11-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL2-8B-MPO"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Qwen2.5-Turbo",
         "year": 2024,
         "publication": {
@@ -11377,6 +11507,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "InternVL 2.5",
+        "year": 2024,
+        "publication": {
+            "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+            "url": "https://arxiv.org/abs/2412.05271",
+            "date_create": "2024-12-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL2_5-78B"
+        },
         "manual_validated": false
     },
     {
@@ -12048,6 +12197,22 @@
         "manual_validated": false
     },
     {
+        "name": "InternVL 3",
+        "year": 2025,
+        "publication": {
+            "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+            "url": "https://arxiv.org/abs/2504.10479",
+            "date_create": "2025-04-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "M1",
         "year": 2025,
         "publication": {
@@ -12499,6 +12664,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/jet-ai/Jet-Nemotron-4B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "InternVL 3.5",
+        "year": 2025,
+        "publication": {
+            "title": "InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency",
+            "url": "https://arxiv.org/abs/2508.18265",
+            "date_create": "2025-08-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/OpenGVLab/InternVL"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/OpenGVLab/InternVL3_5-8B"
         },
         "manual_validated": false
     },
