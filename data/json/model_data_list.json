@@ -12941,5 +12941,94 @@
             "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
         },
         "manual_validated": false
+    },
+    {
+        "name": "Confucius Code Agent",
+        "year": 2025,
+        "publication": {
+            "title": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
+            "url": "https://arxiv.org/abs/2512.10398",
+            "date_create": "2025-12-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/luby72/confucius"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DropPE",
+        "year": 2025,
+        "publication": {
+            "title": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings",
+            "url": "https://arxiv.org/abs/2512.12167",
+            "date_create": "2025-12-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SakanaAI/DroPE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/SakanaAI/Llama-2-7b-hf-DroPE"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-4.7",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - GLM-4.7",
+            "url": "https://z.ai/blog/glm-4.7",
+            "date_create": "2025-12-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-4.7"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/zai-org/GLM-4.7"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Ministral 3",
+        "year": 2026,
+        "publication": {
+            "title": "Ministral 3",
+            "url": "https://arxiv.org/abs/2601.08584",
+            "date_create": "2026-01-13"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/mistralai/ministral-3"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DASD-4B-Thinking",
+        "year": 2026,
+        "publication": {
+            "title": "Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
+            "url": "https://arxiv.org/abs/2601.09088",
+            "date_create": "2026-01-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/D2I-ai/dasd-thinking"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Alibaba-Apsara/DASD-4B-Thinking"
+        },
+        "manual_validated": false
     }
 ]

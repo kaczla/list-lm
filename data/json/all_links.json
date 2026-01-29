@@ -7,6 +7,13 @@
         "manual_validated": false
     },
     {
+        "name": "ADOPT",
+        "description": "Modified Adam optimizer that can converge with any β₂ with the optimal rate.",
+        "url": "https://github.com/iShohei220/adopt",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "AgentTuning",
         "description": "AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.",
         "url": "https://github.com/THUDM/AgentTuning",
