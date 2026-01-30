@@ -4019,6 +4019,17 @@
   - Code: [GitHub](https://github.com/ucsb-mlsec/VulnLLM-R)
   - Model weights: [HuggingFace models](https://huggingface.co/UCSB-SURFI/VulnLLM-R-7B)
 
+- Confucius Code Agent
+  - Year: 2025
+  - Publication: [Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases](https://arxiv.org/abs/2512.10398) (2025-12-11)
+  - Code: [GitHub](https://github.com/luby72/confucius)
+
+- DropPE
+  - Year: 2025
+  - Publication: [Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings](https://arxiv.org/abs/2512.12167) (2025-12-13)
+  - Code: [GitHub](https://github.com/SakanaAI/DroPE)
+  - Model weights: [HuggingFace models](https://huggingface.co/SakanaAI/Llama-2-7b-hf-DroPE)
+
 - Olmo 3
   - Year: 2025
   - Publication: [Olmo 3](https://arxiv.org/abs/2512.13961) (2025-12-15)
@@ -4041,8 +4052,25 @@
   - Code: [GitHub](https://github.com/allenai/bolmo-core)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/Bolmo-7B)
 
+- GLM-4.7
+  - Year: 2025
+  - Publication: [Blog - GLM-4.7](https://z.ai/blog/glm-4.7) (2025-12-22)
+  - Code: [GitHub](https://github.com/zai-org/GLM-4.7)
+  - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-4.7)
+
 - Falcon-H1R
   - Year: 2026
   - Publication: [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) (2026-01-05)
   - Code: [GitHub](https://github.com/tiiuae/falcon-h1r)
   - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/Falcon-H1R-7B)
+
+- Ministral 3
+  - Year: 2026
+  - Publication: [Ministral 3](https://arxiv.org/abs/2601.08584) (2026-01-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/mistralai/ministral-3)
+
+- DASD-4B-Thinking
+  - Year: 2026
+  - Publication: [Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning](https://arxiv.org/abs/2601.09088) (2026-01-14)
+  - Code: [GitHub](https://github.com/D2I-ai/dasd-thinking)
+  - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-Apsara/DASD-4B-Thinking)

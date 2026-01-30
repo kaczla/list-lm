@@ -57,6 +57,10 @@ def validate_lm_data(
                     model_names.append(model_name)
 
                 for model_name in model_names:
+                    if model_name.replace(" ", "") != model_name:
+                        model_names.append(model_name.replace(" ", ""))
+
+                for model_name in model_names:
                     model_name = model_name.lower()
                     if model_name in article_data.title.lower() or (
                         article_data.abstract and model_name in article_data.abstract.lower()

@@ -10230,25 +10230,6 @@
         "manual_validated": false
     },
     {
-        "name": "Qwen2.5",
-        "year": 2024,
-        "publication": {
-            "title": "Blog - Qwen2.5: A Party of Foundation Models!",
-            "url": "https://qwenlm.github.io/blog/qwen2.5/",
-            "date_create": "2024-09-19"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/QwenLM/Qwen2.5"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/Qwen/Qwen2.5-72B"
-        },
-        "manual_validated": false
-    },
-    {
         "name": "Qwen2.5-Math",
         "year": 2024,
         "publication": {
@@ -11247,7 +11228,7 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/OpenGVLab/InternVL2-8B-MPO"
         },
-        "manual_validated": false
+        "manual_validated": true
     },
     {
         "name": "Qwen2.5-Turbo",
@@ -11666,7 +11647,7 @@
         "video": null,
         "code": {
             "title": "GitHub",
-            "url": "https://github.com/QwenLM/Qwen3"
+            "url": "https://github.com/QwenLM/Qwen2.5"
         },
         "weights": {
             "title": "HuggingFace models",
@@ -12854,6 +12835,41 @@
         "manual_validated": false
     },
     {
+        "name": "Confucius Code Agent",
+        "year": 2025,
+        "publication": {
+            "title": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
+            "url": "https://arxiv.org/abs/2512.10398",
+            "date_create": "2025-12-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/luby72/confucius"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DroPE",
+        "year": 2025,
+        "publication": {
+            "title": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings",
+            "url": "https://arxiv.org/abs/2512.12167",
+            "date_create": "2025-12-13"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SakanaAI/DroPE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/SakanaAI/Llama-2-7b-hf-DroPE"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Olmo 3",
         "year": 2025,
         "publication": {
@@ -12924,60 +12940,6 @@
         "manual_validated": false
     },
     {
-        "name": "Falcon-H1R",
-        "year": 2026,
-        "publication": {
-            "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
-            "url": "https://arxiv.org/abs/2601.02346",
-            "date_create": "2026-01-05"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/tiiuae/falcon-h1r"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
-        },
-        "manual_validated": false
-    },
-    {
-        "name": "Confucius Code Agent",
-        "year": 2025,
-        "publication": {
-            "title": "Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases",
-            "url": "https://arxiv.org/abs/2512.10398",
-            "date_create": "2025-12-11"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/luby72/confucius"
-        },
-        "weights": null,
-        "manual_validated": false
-    },
-    {
-        "name": "DropPE",
-        "year": 2025,
-        "publication": {
-            "title": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings",
-            "url": "https://arxiv.org/abs/2512.12167",
-            "date_create": "2025-12-13"
-        },
-        "video": null,
-        "code": {
-            "title": "GitHub",
-            "url": "https://github.com/SakanaAI/DroPE"
-        },
-        "weights": {
-            "title": "HuggingFace models",
-            "url": "https://huggingface.co/SakanaAI/Llama-2-7b-hf-DroPE"
-        },
-        "manual_validated": false
-    },
-    {
         "name": "GLM-4.7",
         "year": 2025,
         "publication": {
@@ -12993,6 +12955,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/zai-org/GLM-4.7"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Falcon-H1R",
+        "year": 2026,
+        "publication": {
+            "title": "Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling",
+            "url": "https://arxiv.org/abs/2601.02346",
+            "date_create": "2026-01-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tiiuae/falcon-h1r"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
         },
         "manual_validated": false
     },
