@@ -3199,12 +3199,6 @@
   - Code: [GitHub](https://github.com/QwenLM/Qwen2.5-Coder)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-Coder-7B)
 
-- Qwen2.5
-  - Year: 2024
-  - Publication: [Blog - Qwen2.5: A Party of Foundation Models!](https://qwenlm.github.io/blog/qwen2.5/) (2024-09-19)
-  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5)
-  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-72B)
-
 - Qwen2.5-Math
   - Year: 2024
   - Publication: [Blog - Introducing Qwen2-MathQwen2.5-Math: The world's leading open-sourced mathematical LLMs](https://qwenlm.github.io/blog/qwen2.5-math/) (2024-09-19)
@@ -3648,7 +3642,7 @@
 - Qwen2.5
   - Year: 2024
   - Publication: [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) (2024-12-19)
-  - Code: [GitHub](https://github.com/QwenLM/Qwen3)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-7B)
 
 - ReMoE
@@ -4024,7 +4018,7 @@
   - Publication: [Confucius Code Agent: Scalable Agent Scaffolding for Real-World Codebases](https://arxiv.org/abs/2512.10398) (2025-12-11)
   - Code: [GitHub](https://github.com/luby72/confucius)
 
-- DropPE
+- DroPE
   - Year: 2025
   - Publication: [Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings](https://arxiv.org/abs/2512.12167) (2025-12-13)
   - Code: [GitHub](https://github.com/SakanaAI/DroPE)
@@ -4074,3 +4068,8 @@
   - Publication: [Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning](https://arxiv.org/abs/2601.09088) (2026-01-14)
   - Code: [GitHub](https://github.com/D2I-ai/dasd-thinking)
   - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-Apsara/DASD-4B-Thinking)
+
+- Kimi K2.5
+  - Year: 2026
+  - Publication: [Blog - Kimi K2.5](https://www.kimi.com/blog/kimi-k2-5.html) (2026-01-27)
+  - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2.5)

@@ -13011,5 +13011,21 @@
             "url": "https://huggingface.co/Alibaba-Apsara/DASD-4B-Thinking"
         },
         "manual_validated": false
+    },
+    {
+        "name": "Kimi K2.5",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Kimi K2.5",
+            "url": "https://www.kimi.com/blog/kimi-k2-5.html",
+            "date_create": "2026-01-27"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+        },
+        "manual_validated": false
     }
 ]
