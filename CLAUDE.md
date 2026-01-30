@@ -122,6 +122,21 @@ To add a new language model entry, edit `data/json/model_data_list.json` directl
 - `date_create` must be `YYYY-MM-DD` format
 - For arXiv papers, use the original submission date
 
+### Publication URL Requirements
+
+**Always use specific publication URLs**, not general company or product pages:
+
+- **Preferred**: arXiv paper, blog post announcing the model, or GitHub README
+- **Avoid**: General company pages, product landing pages, or model collection pages
+
+When given a general webpage that lists multiple models:
+1. Check if each model has its own dedicated publication (arXiv paper, blog post, announcement)
+2. If a model has its own publication, use that specific URL
+3. Only use a general page if no specific publication exists for that model
+
+Example of what to avoid:
+- Using `https://company.com/models` (general models page) instead of `https://company.com/blog/announcing-model-x` (specific announcement)
+
 ### Custom Web Page Links (Blog Posts, Announcements)
 
 When a model is announced via a blog post or company page instead of an arXiv paper:
