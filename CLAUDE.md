@@ -160,6 +160,66 @@ When fetching custom web pages, extract:
 - GitHub/code repository URL
 - HuggingFace/weights URL
 
+### GitHub README as Publication
+
+When a model is published via a GitHub repository without an arXiv paper or blog post:
+
+1. Use `"README - ModelName repository"` as the title
+2. Use the full GitHub URL pointing to a specific commit hash of the README file
+3. The same repository URL (without commit hash) goes in the `code` field
+
+Example for a GitHub-based publication:
+
+```json
+{
+    "name": "OpenLLaMA",
+    "year": 2023,
+    "publication": {
+        "title": "README - OpenLLaMA repository",
+        "url": "https://github.com/openlm-research/open_llama/blob/6e7f73eab7e799e2464f38ed977e537bae02873e/README.md",
+        "date_create": "2023-04-29"
+    },
+    "video": null,
+    "code": {
+        "title": "GitHub",
+        "url": "https://github.com/openlm-research/open_llama"
+    },
+    "weights": {
+        "title": "HuggingFace models",
+        "url": "https://huggingface.co/openlm-research/open_llama_13b"
+    },
+    "manual_validated": false
+}
+```
+
+To get the commit-specific URL:
+1. Navigate to the README file in the repository
+2. Click the "History" button or press `y` to get the permalink with commit hash
+3. Use this URL as the publication URL
+
+### Model Names with Acronyms/Shortcuts
+
+When a paper introduces a model with both a full name and an acronym:
+
+1. **If the acronym is more commonly known**: Use `"Acronym (Full Name)"` format
+   - Example: `"KAN (Kolmogorov-Arnold Networks)"`
+   - Example: `"CoPE (Contextual Position Encoding)"`
+
+2. **If the full name is more commonly known**: Use `"Full Name (Acronym)"` format
+   - Example: `"Byte Latent Transformer (BLT)"`
+   - Example: `"BiT (Big Transfer)"`
+
+The acronym/shortcut typically comes from the paper title or is explicitly defined in the paper. Include it to help users find the model by either name.
+
+### Multiple Model Names
+
+When a single paper introduces multiple distinct models or techniques:
+
+Use `"Name1 / Name2"` format with spaces around the slash:
+- Example: `"LightConv / DynamicConv"` for a paper introducing both techniques
+- Example: `"BLOOMZ / mT0"` for related models from the same paper
+- Example: `"24hBERT / Academic Budget BERT"` for a model known by multiple names
+
 ### UrlData Format (for video, code, weights)
 
 ```json
