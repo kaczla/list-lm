@@ -42,9 +42,14 @@ class AutoAddLinksGUIApp:
         if not ollama_is_available:
             self.show_text_frame("Ollama is unavailable!", color="red", hide_button=True)
             return
-        elif not pyperclip.is_available():
+
+        # Check clipboard availability by trying to use it (pyperclip uses lazy loading)
+        try:
+            pyperclip.paste()
+        except pyperclip.PyperclipException:
             self.show_text_frame(
-                'Copy functionality unavailable! Please install xclip, xsel, or wl-clipboard (for "wayland" sessions).',
+                "Copy functionality unavailable!\n\n"
+                'Please install xclip, xsel,\nor wl-clipboard (for "wayland" sessions).',
                 color="red",
                 hide_button=True,
             )
