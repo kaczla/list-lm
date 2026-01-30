@@ -22,6 +22,11 @@ make lint_shell       # shellcheck for scripts
 uv run python -m list_lm.app                  # Main GUI for manual entry
 uv run python -m list_lm.auto_add_lm_data_app # Semi-automated model addition (uses Ollama)
 uv run python -m list_lm.auto_add_links_app   # Semi-automated link addition (uses Ollama)
+
+# Merge JSON data
+uv run python -m list_lm.merge_json lm <file.json>      # Merge models from JSON file
+uv run python -m list_lm.merge_json links <file.json>   # Merge links from JSON file
+uv run python -m list_lm.merge_json lm <file.json> --dry-run  # Preview without changes
 ```
 
 Uses `uv` as package manager (not pip). Python 3.13+ required.
@@ -37,6 +42,7 @@ Uses `uv` as package manager (not pip). Python 3.13+ required.
 
 ### Core Modules
 - `data_manager.py`: Generic CRUD with JSON persistence
+- `merge_json.py`: Merge JSON data into LM data or links with duplicate detection
 - `parse_html.py`: arXiv HTML parsing with cache (`.cache_arxiv.json`)
 - `parse_url.py`: URL domain classification
 - `parser_lm_data.py` / `parser_links.py`: Ollama LLM + regex extraction
@@ -63,7 +69,14 @@ data/
 
 ## Adding LM Data (ModelInfo)
 
-To add a new language model entry, edit `data/json/model_data_list.json` directly.
+When adding new language models, **always save to a separate JSON file first**, then merge using the merge script. This ensures proper validation and prevents accidental data loss.
+
+### Workflow
+
+1. Create a new JSON file (e.g., `new_models.json`) with a list of models
+2. Preview the merge: `uv run python -m list_lm.merge_json lm new_models.json --dry-run`
+3. Merge into main data: `uv run python -m list_lm.merge_json lm new_models.json`
+4. The script automatically sorts and regenerates README files
 
 ### ModelInfo JSON Schema
 
@@ -263,15 +276,24 @@ Add found links to the `code` and `weights` fields. If not found, leave as `null
 
 ### After Adding
 
-Do NOT run validation automatically. Wait for the user to tell you when to run it.
+After merging, optionally run validation to check for issues:
 
 ```bash
 uv run python -m list_lm.validate_lm_data
 ```
 
+Do NOT run validation automatically. Wait for the user to tell you when to run it.
+
 ## Adding Links (ApplicationData)
 
-To add a new resource link, edit `data/json/all_links.json` directly.
+When adding new resource links, **always save to a separate JSON file first**, then merge using the merge script.
+
+### Workflow
+
+1. Create a new JSON file (e.g., `new_links.json`) with a list of links
+2. Preview the merge: `uv run python -m list_lm.merge_json links new_links.json --dry-run`
+3. Merge into main data: `uv run python -m list_lm.merge_json links new_links.json`
+4. The script automatically sorts and regenerates README files
 
 ### ApplicationData JSON Schema
 
@@ -314,7 +336,7 @@ Data is automatically sorted alphabetically by `name.lower()`.
 
 ### After Adding
 
-Run validation to check for errors and regenerate markdown:
+After merging, optionally run validation to check for issues:
 
 ```bash
 uv run python -m list_lm.validate_links
@@ -324,6 +346,8 @@ This checks:
 - No duplicate names with same URL
 - Warns about potential duplicates (same name, different URL)
 - Correct sort order
+
+Do NOT run validation automatically. Wait for the user to tell you when to run it.
 
 ## Regenerating README Files
 
