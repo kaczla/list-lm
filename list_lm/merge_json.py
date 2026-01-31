@@ -204,7 +204,6 @@ Examples:
         added, duplicates, errors = merge_links(input_data, dry_run=args.dry_run)
 
     # Summary
-    logger.info("=" * 50)
     logger.info(f"Summary: {added} added, {duplicates} duplicates skipped, {errors} errors")
 
     if args.dry_run and added > 0:

@@ -1,8 +1,17 @@
 - [AdEMAMix](https://arxiv.org/abs/2409.03137) - The AdEMAMix Optimizer: Better, Faster, Older
+- [ADOPT](https://github.com/iShohei220/adopt) - Modified Adam optimizer that can converge with any β₂ with the optimal rate.
+- [ATLAS](https://arxiv.org/abs/2505.23735) - Long-term memory module with high capacity for recurrent neural networks, introducing the DeepTransformers architecture family with improved memory management and context handling.
+- [DeMo (Decoupled Momentum Optimization)](https://arxiv.org/abs/2411.19870) - Reduces communication overhead in distributed training by decoupling momentum updates across accelerators.
 - [DiLoCo](https://arxiv.org/abs/2311.08105) - DiLoCo: Distributed Low-Communication Training of Language Models
 - [DisTrO](https://github.com/NousResearch/DisTrO) - DisTrO (Distributed Training Over-The-Internet), a family of low latency distributed optimizers that reduce inter-GPU communication requirements by three to four orders of magnitude.
+- [GEPA](https://arxiv.org/abs/2507.19457) - Prompt optimization technique using natural language reflection to learn high-level rules from trial and error, outperforming reinforcement learning approaches with up to 35x fewer rollouts.
 - [Grokfast](https://arxiv.org/abs/2405.20233) - Grokfast: Accelerated Grokking by Amplifying Slow Gradients
 - [LOMO](https://arxiv.org/abs/2306.09782) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.
 - [Modded-NanoGPT Optimizer](https://github.com/KellerJordan/modded-nanogpt) - Proposed optimizer - less memory usage than Adam, ~1.5x faster training, and <2% wallclock overhead
+- [Muon](https://github.com/KellerJordan/Muon) - Optimizer for hidden layers of neural networks that applies SGD-momentum updates followed by Newton-Schulz iteration to orthogonalize weight matrices.
+- [PSGD](https://github.com/lixilinx/psgd_torch) - Preconditioned Stochastic Gradient Descent - general purpose second-order optimizer with multiple preconditioner types including Kronecker product, Lie group, and low-rank approximations.
+- [PSGD Kron](https://github.com/evanatyourservice/kron_torch) - PyTorch implementation of PSGD Kron second-order optimizer with Kronecker-factored preconditioners, designed as a drop-in replacement for Adam.
 - [SALSA](https://arxiv.org/abs/2407.20650) - No learning rates needed: Introducing SALSA - Stable Armijo Line Search Adaptation
+- [SlimAdam](https://arxiv.org/abs/2503.01843) - Memory-efficient variant of Adam optimizer that uses SNR analysis to compress second-moment tensors, achieving up to 98% memory savings while maintaining performance.
 - [Sophia](https://arxiv.org/abs/2305.14342) - Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training
+- [SPlus](https://arxiv.org/abs/2506.07254) - Stable whitening optimizer in the Shampoo family with improved stability, learning rate scaling across network widths, and parameter noise reduction through iterate-averaging.

@@ -84,6 +84,13 @@
         "manual_validated": false
     },
     {
+        "name": "ATLAS",
+        "description": "Long-term memory module with high capacity for recurrent neural networks, introducing the DeepTransformers architecture family with improved memory management and context handling.",
+        "url": "https://arxiv.org/abs/2505.23735",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "attorch",
         "description": "attorch is a subset of PyTorch's nn module, written purely in Python using OpenAI's Triton. Its goal is to be an easily hackable, self-contained, and readable collection of neural network modules whilst maintaining or improving upon the efficiency of PyTorch.",
         "url": "https://github.com/BobMcDear/attorch",
@@ -525,6 +532,13 @@
         "manual_validated": false
     },
     {
+        "name": "DeMo (Decoupled Momentum Optimization)",
+        "description": "Reduces communication overhead in distributed training by decoupling momentum updates across accelerators.",
+        "url": "https://arxiv.org/abs/2411.19870",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "DGL",
         "description": "DGL is an easy-to-use, high performance and scalable Python package for deep learning on graphs. DGL is framework agnostic, meaning if a deep graph model is a component of an end-to-end application, the rest of the logics can be implemented in any major frameworks, such as PyTorch, Apache MXNet or TensorFlow.",
         "url": "https://github.com/dmlc/dgl",
@@ -851,6 +865,13 @@
         "description": "The GeoV model is a large langauge model designed by Georges Harik and uses Rotary Positional Embeddings with Relative distances (RoPER). We have shared a pre-trained 9B parameter model.",
         "url": "https://github.com/geov-ai/geov",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "GEPA",
+        "description": "Prompt optimization technique using natural language reflection to learn high-level rules from trial and error, outperforming reinforcement learning approaches with up to 35x fewer rollouts.",
+        "url": "https://arxiv.org/abs/2507.19457",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {
@@ -1680,6 +1701,13 @@
         "manual_validated": false
     },
     {
+        "name": "Muon",
+        "description": "Optimizer for hidden layers of neural networks that applies SGD-momentum updates followed by Newton-Schulz iteration to orthogonalize weight matrices.",
+        "url": "https://github.com/KellerJordan/Muon",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "mup",
         "description": "Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
         "url": "https://github.com/microsoft/mup",
@@ -2023,6 +2051,20 @@
         "manual_validated": false
     },
     {
+        "name": "PSGD",
+        "description": "Preconditioned Stochastic Gradient Descent - general purpose second-order optimizer with multiple preconditioner types including Kronecker product, Lie group, and low-rank approximations.",
+        "url": "https://github.com/lixilinx/psgd_torch",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
+        "name": "PSGD Kron",
+        "description": "PyTorch implementation of PSGD Kron second-order optimizer with Kronecker-factored preconditioners, designed as a drop-in replacement for Adam.",
+        "url": "https://github.com/evanatyourservice/kron_torch",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "pybaselines",
         "description": "A Python library of algorithms for the baseline correction of experimental data.",
         "url": "https://github.com/derb12/pybaselines",
@@ -2233,6 +2275,13 @@
         "manual_validated": false
     },
     {
+        "name": "SlimAdam",
+        "description": "Memory-efficient variant of Adam optimizer that uses SNR analysis to compress second-moment tensors, achieving up to 98% memory savings while maintaining performance.",
+        "url": "https://arxiv.org/abs/2503.01843",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "SlimPajama",
         "description": "The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.",
         "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
@@ -2286,6 +2335,13 @@
         "description": "SpikeGPT is a lightweight generative language model with pure binary, event-driven spiking activation units.",
         "url": "https://github.com/ridgerchu/SpikeGPT",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "SPlus",
+        "description": "Stable whitening optimizer in the Shampoo family with improved stability, learning rate scaling across network widths, and parameter noise reduction through iterate-averaging.",
+        "url": "https://arxiv.org/abs/2506.07254",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {

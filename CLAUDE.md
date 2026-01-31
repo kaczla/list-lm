@@ -226,15 +226,10 @@ To get the commit-specific URL:
 
 ### Model Names with Acronyms/Shortcuts
 
-When a paper introduces a model with both a full name and an acronym:
+When a paper introduces a model with both a full name and an acronym, Use `"Acronym (Full Name)"` format:
 
-1. **If the acronym is more commonly known**: Use `"Acronym (Full Name)"` format
-   - Example: `"KAN (Kolmogorov-Arnold Networks)"`
-   - Example: `"CoPE (Contextual Position Encoding)"`
-
-2. **If the full name is more commonly known**: Use `"Full Name (Acronym)"` format
-   - Example: `"Byte Latent Transformer (BLT)"`
-   - Example: `"BiT (Big Transfer)"`
+- Example: `"KAN (Kolmogorov-Arnold Networks)"`
+- Example: `"CoPE (Contextual Position Encoding)"`
 
 The acronym/shortcut typically comes from the paper title or is explicitly defined in the paper. Include it to help users find the model by either name.
 
@@ -314,6 +309,16 @@ When adding new resource links, **always save to a separate JSON file first**, t
 | `url` | string | Primary URL |
 | `link_type` | LinkType | Category (see below) |
 
+### Naming Conventions for Links
+
+**Include full name with acronym/shortcut when applicable:**
+
+When a resource has both a full name and an acronym/shortcut, use `"Full Name (Acronym)"` format:
+
+- Example: `"Preconditioned Stochastic Gradient Descent (PSGD)"`
+
+This helps users find resources by either the acronym or the full name.
+
 ### LinkType Values
 
 | Value | Description |
@@ -323,7 +328,7 @@ When adding new resource links, **always save to a separate JSON file first**, t
 | `"GPU profiling links"` | GPU profiling and optimization tools |
 | `"Visualization links"` | Visualization and interpretability tools |
 | `"Vocabulary links"` | Tokenizers, vocabularies |
-| `"Optimizer links"` | Optimizers, learning rate schedulers |
+| `"Optimizer links"` | All optimization methods including optimizers, learning rate schedulers, and optimization techniques/algorithms |
 | `"Dataset links"` | Datasets, benchmarks, evaluations |
 | `"Topic links"` | Research topics, papers, articles |
 | `"Documentation links"` | Tutorials, documentation, guides |
