@@ -1848,6 +1848,13 @@
         "manual_validated": false
     },
     {
+        "name": "Open Super-large Crawled ALMAnaCH coRpus (OSCAR)",
+        "description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.",
+        "url": "https://oscar-corpus.com",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "OpenChatKit",
         "description": "OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.",
         "url": "https://github.com/togethercomputer/OpenChatKit",
@@ -1922,13 +1929,6 @@
         "description": "Optima is a novel training framework designed to optimize LLM-based multi-agent systems. By leveraging iterative training, Optima significantly enhances agent communication efficiency while boosting response accuracy. Our approach not only reduces token usage but also paves the way for improved inference-time scaling laws.",
         "url": "https://github.com/thunlp/Optima",
         "link_type": "Model links",
-        "manual_validated": false
-    },
-    {
-        "name": "OSCAR (Open Super-large Crawled ALMAnaCH coRpus)",
-        "description": "OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.",
-        "url": "https://oscar-corpus.com",
-        "link_type": "Dataset links",
         "manual_validated": false
     },
     {

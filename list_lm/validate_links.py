@@ -7,6 +7,7 @@ from list_lm.data_utils import load_base_model_list, save_base_model_list
 from list_lm.generate_readme import generate_links_all
 from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
+from list_lm.utils import normalize_name_format
 
 
 def validate_links() -> None:
@@ -23,6 +24,13 @@ def validate_links() -> None:
             f"[{index + 1}/{len(application_data_list)}]"
             f" Checking model: {application_data.name} ({application_data.link_type})"
         )
+
+        # Normalize name format if needed
+        normalized_format_name = normalize_name_format(application_data.name)
+        if normalized_format_name != application_data.name:
+            logger.info(f"Normalizing name: {application_data.name!r} -> {normalized_format_name!r}")
+            application_data.name = normalized_format_name
+            changed = True
 
         normalized_name = application_data.name.lower()
         original_application_data_list = normalized_names_to_application_data_list.get(normalized_name)

@@ -408,7 +408,7 @@
         "manual_validated": false
     },
     {
-        "name": "BiT (Big Transfer)",
+        "name": "Big Transfer (BiT)",
         "year": 2019,
         "publication": {
             "title": "Big Transfer (BiT): General Visual Representation Learning",
@@ -604,7 +604,7 @@
         "manual_validated": false
     },
     {
-        "name": "RAG (Retrieval-Augmented Generation)",
+        "name": "Retrieval-Augmented Generation (RAG)",
         "year": 2020,
         "publication": {
             "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
@@ -1356,7 +1356,7 @@
         "manual_validated": false
     },
     {
-        "name": "MemTRM (Memorizing Transformers)",
+        "name": "Memorizing Transformers (MemTRM)",
         "year": 2022,
         "publication": {
             "title": "Memorizing Transformers",
@@ -1945,7 +1945,7 @@
         "manual_validated": false
     },
     {
-        "name": "E-SPA (Exponential Signal Preserving Attention)",
+        "name": "Exponential Signal Preserving Attention (E-SPA)",
         "year": 2023,
         "publication": {
             "title": "Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation",
@@ -6873,7 +6873,7 @@
         "manual_validated": false
     },
     {
-        "name": "CLLMs (Consistency Large Language Models)",
+        "name": "Consistency Large Language Models (CLLMs)",
         "year": 2024,
         "publication": {
             "title": "CLLMs: Consistency Large Language Models",
@@ -7152,7 +7152,7 @@
         "manual_validated": false
     },
     {
-        "name": "DMC (Dynamic Memory Compression)",
+        "name": "Dynamic Memory Compression (DMC)",
         "year": 2024,
         "publication": {
             "title": "Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference",
@@ -7508,7 +7508,7 @@
         "manual_validated": false
     },
     {
-        "name": "LASP (Linear Attention Sequence Parallelism)",
+        "name": "Linear Attention Sequence Parallelism (LASP)",
         "year": 2024,
         "publication": {
             "title": "Linear Attention Sequence Parallelism",
@@ -7559,7 +7559,7 @@
         "manual_validated": false
     },
     {
-        "name": "ReFT (Representation Finetuning)",
+        "name": "Representation Finetuning (ReFT)",
         "year": 2024,
         "publication": {
             "title": "ReFT: Representation Finetuning for Language Models",
@@ -7897,19 +7897,6 @@
         "manual_validated": false
     },
     {
-        "name": "MH-MoE (Multi-Head Mixture-of-Experts)",
-        "year": 2024,
-        "publication": {
-            "title": "Multi-Head Mixture-of-Experts",
-            "url": "https://arxiv.org/abs/2404.15045",
-            "date_create": "2024-04-23"
-        },
-        "video": null,
-        "code": null,
-        "weights": null,
-        "manual_validated": false
-    },
-    {
         "name": "NExT",
         "year": 2024,
         "publication": {
@@ -8015,7 +8002,7 @@
         "manual_validated": false
     },
     {
-        "name": "KAN (Kolmogorov-Arnold Networks)",
+        "name": "Kolmogorov-Arnold Networks (KAN)",
         "year": 2024,
         "publication": {
             "title": "KAN: Kolmogorov-Arnold Networks",
@@ -8264,7 +8251,7 @@
         "manual_validated": false
     },
     {
-        "name": "ZeTT (Zero-Shot Tokenizer Transfer)",
+        "name": "Zero-Shot Tokenizer Transfer (ZeTT)",
         "year": 2024,
         "publication": {
             "title": "Zero-Shot Tokenizer Transfer",
@@ -8293,7 +8280,7 @@
         "manual_validated": false
     },
     {
-        "name": "LCKV (Layer-Condensed KV Cache)",
+        "name": "Layer-Condensed KV Cache (LCKV)",
         "year": 2024,
         "publication": {
             "title": "Layer-Condensed KV Cache for Efficient Inference of Large Language Models",
@@ -8341,7 +8328,7 @@
         "manual_validated": false
     },
     {
-        "name": "CLA (Cross-Layer Attention)",
+        "name": "Cross-Layer Attention (CLA)",
         "year": 2024,
         "publication": {
             "title": "Reducing Transformer Key-Value Cache Size with Cross-Layer Attention",
@@ -8626,7 +8613,7 @@
         "manual_validated": false
     },
     {
-        "name": "CoPE (Contextual Position Encoding)",
+        "name": "Contextual Position Encoding (CoPE)",
         "year": 2024,
         "publication": {
             "title": "Contextual Position Encoding: Learning to Count What's Important",
@@ -8910,7 +8897,7 @@
         "manual_validated": false
     },
     {
-        "name": "MLKV (Multi-Layer Key-Value Heads)",
+        "name": "Multi-Layer Key-Value Heads (MLKV)",
         "year": 2024,
         "publication": {
             "title": "MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding",
@@ -9111,7 +9098,7 @@
         "manual_validated": false
     },
     {
-        "name": "UCP (Universal Checkpointing)",
+        "name": "Universal Checkpointing (UCP)",
         "year": 2024,
         "publication": {
             "title": "Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training",
@@ -9949,7 +9936,7 @@
         "manual_validated": false
     },
     {
-        "name": "FPDT (Fully Pipelined Distributed Transformer)",
+        "name": "Fully Pipelined Distributed Transformer (FPDT)",
         "year": 2024,
         "publication": {
             "title": "Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer",
@@ -10115,7 +10102,7 @@
         "manual_validated": false
     },
     {
-        "name": "GSA (Gated Slot Attention)",
+        "name": "Gated Slot Attention (GSA)",
         "year": 2024,
         "publication": {
             "title": "Gated Slot Attention for Efficient Linear-Time Sequence Modeling",
@@ -10166,7 +10153,7 @@
         "manual_validated": false
     },
     {
-        "name": "KAT (Kolmogorov-Arnold Transformer)",
+        "name": "Kolmogorov-Arnold Transformer (KAT)",
         "year": 2024,
         "publication": {
             "title": "Kolmogorov-Arnold Transformer",
@@ -10310,7 +10297,7 @@
         "manual_validated": false
     },
     {
-        "name": "VPTQ (Vector Post-Training Quantization)",
+        "name": "Vector Post-Training Quantization (VPTQ)",
         "year": 2024,
         "publication": {
             "title": "VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models",
@@ -10426,7 +10413,7 @@
         "manual_validated": false
     },
     {
-        "name": "nGPT (Normalized Transformer)",
+        "name": "Normalized Transformer (nGPT)",
         "year": 2024,
         "publication": {
             "title": "nGPT: Normalized Transformer with Representation Learning on the Hypersphere",
@@ -10439,7 +10426,7 @@
         "manual_validated": false
     },
     {
-        "name": "ENTP (Encoder-only Next Token Prediction)",
+        "name": "Encoder-only Next Token Prediction (ENTP)",
         "year": 2024,
         "publication": {
             "title": "ENTP: Encoder-only Next Token Prediction",
@@ -10714,7 +10701,7 @@
         "manual_validated": false
     },
     {
-        "name": "MoEE (Mixture-of-Experts Embedding)",
+        "name": "Mixture-of-Experts Embedding (MoEE)",
         "year": 2024,
         "publication": {
             "title": "Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free",
@@ -10781,7 +10768,7 @@
         "manual_validated": false
     },
     {
-        "name": "MoH (Multi-Head Attention as Mixture-of-Head Attention)",
+        "name": "Multi-Head Attention as Mixture-of-Head Attention (MoH)",
         "year": 2024,
         "publication": {
             "title": "MoH: Multi-Head Attention as Mixture-of-Head Attention",

@@ -125,7 +125,7 @@
   - Year: 2019
   - Publication: [TENER: Adapting Transformer Encoder for Named Entity Recognition](https://arxiv.org/abs/1911.04474) (2019-11-10)
 
-- BiT (Big Transfer)
+- Big Transfer (BiT)
   - Year: 2019
   - Publication: [Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/abs/1912.11370) (2019-12-24)
 
@@ -186,7 +186,7 @@
   - Publication: [Adaptive Transformers for Learning Multimodal Representations](https://arxiv.org/abs/2005.07486) (2020-05-15)
   - Code: [GitHub](https://github.com/prajjwal1/adaptive_transformer)
 
-- RAG (Retrieval-Augmented Generation)
+- Retrieval-Augmented Generation (RAG)
   - Year: 2020
   - Publication: [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) (2020-05-22)
 
@@ -421,7 +421,7 @@
   - Year: 2022
   - Publication: [Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model](https://arxiv.org/abs/2201.11990) (2022-01-28)
 
-- MemTRM (Memorizing Transformers)
+- Memorizing Transformers (MemTRM)
   - Year: 2022
   - Publication: [Memorizing Transformers](https://arxiv.org/abs/2203.08913) (2022-03-16)
 
@@ -605,7 +605,7 @@
   - Year: 2023
   - Publication: [Alternating Updates for Efficient Transformers](https://arxiv.org/abs/2301.13310) (2023-01-30)
 
-- E-SPA (Exponential Signal Preserving Attention)
+- Exponential Signal Preserving Attention (E-SPA)
   - Year: 2023
   - Publication: [Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation](https://arxiv.org/abs/2302.10322) (2023-02-20)
 
@@ -2149,7 +2149,7 @@
   - Code: [GitHub](https://github.com/Stability-AI/StableLM)
   - Model weights: [HuggingFace models](https://huggingface.co/stabilityai/stablelm-2-1_6b)
 
-- CLLMs (Consistency Large Language Models)
+- Consistency Large Language Models (CLLMs)
   - Year: 2024
   - Publication: [CLLMs: Consistency Large Language Models](https://arxiv.org/abs/2403.00835) (2024-02-28)
   - Code: [GitHub](https://github.com/hao-ai-lab/Consistency_LLM)
@@ -2236,7 +2236,7 @@
   - Year: 2024
   - Publication: [BurstAttention: An Efficient Distributed Attention Framework for Extremely Long Sequences](https://arxiv.org/abs/2403.09347) (2024-03-14)
 
-- DMC (Dynamic Memory Compression)
+- Dynamic Memory Compression (DMC)
   - Year: 2024
   - Publication: [Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference](https://arxiv.org/abs/2403.09636) (2024-03-14)
 
@@ -2347,7 +2347,7 @@
   - Publication: [ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline](https://arxiv.org/abs/2404.02893) (2024-04-03)
   - Code: [GitHub](https://github.com/THUDM/ChatGLM-Math)
 
-- LASP (Linear Attention Sequence Parallelism)
+- Linear Attention Sequence Parallelism (LASP)
   - Year: 2024
   - Publication: [Linear Attention Sequence Parallelism](https://arxiv.org/abs/2404.02882) (2024-04-03)
   - Code: [GitHub](https://github.com/OpenNLPLab/LASP)
@@ -2363,7 +2363,7 @@
   - Publication: [Blog - Introducing Command R+: A Scalable LLM Built for Business](https://cohere.com/blog/command-r-plus-microsoft-azure) (2024-04-04)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/c4ai-command-r-plus)
 
-- ReFT (Representation Finetuning)
+- Representation Finetuning (ReFT)
   - Year: 2024
   - Publication: [ReFT: Representation Finetuning for Language Models](https://arxiv.org/abs/2404.03592) (2024-04-04)
   - Code: [GitHub](https://github.com/stanfordnlp/pyreft)
@@ -2469,10 +2469,6 @@
   - Code: [GitHub](https://github.com/AILab-CVC/SEED-X)
   - Model weights: [HuggingFace models](https://huggingface.co/AILab-CVC/SEED-X-17B)
 
-- MH-MoE (Multi-Head Mixture-of-Experts)
-  - Year: 2024
-  - Publication: [Multi-Head Mixture-of-Experts](https://arxiv.org/abs/2404.15045) (2024-04-23)
-
 - NExT
   - Year: 2024
   - Publication: [NExT: Teaching Large Language Models to Reason about Code Execution](https://arxiv.org/abs/2404.14662) (2024-04-23)
@@ -2506,7 +2502,7 @@
   - Publication: [HuggingFace model card - Hermes 2 Pro](https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B) (2024-04-30)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B)
 
-- KAN (Kolmogorov-Arnold Networks)
+- Kolmogorov-Arnold Networks (KAN)
   - Year: 2024
   - Publication: [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756) (2024-04-30)
   - Code: [GitHub](https://github.com/KindXiaoming/pykan)
@@ -2584,7 +2580,7 @@
   - Code: [GitHub](https://github.com/SHI-Labs/CuMo)
   - Model weights: [HuggingFace models](https://huggingface.co/shi-labs/CuMo-mistral-7b)
 
-- ZeTT (Zero-Shot Tokenizer Transfer)
+- Zero-Shot Tokenizer Transfer (ZeTT)
   - Year: 2024
   - Publication: [Zero-Shot Tokenizer Transfer](https://arxiv.org/abs/2405.07883) (2024-05-13)
   - Code: [GitHub](https://github.com/bminixhofer/zett)
@@ -2593,7 +2589,7 @@
   - Year: 2024
   - Publication: [Chameleon: Mixed-Modal Early-Fusion Foundation Models](https://arxiv.org/abs/2405.09818) (2024-05-16)
 
-- LCKV (Layer-Condensed KV Cache)
+- Layer-Condensed KV Cache (LCKV)
   - Year: 2024
   - Publication: [Layer-Condensed KV Cache for Efficient Inference of Large Language Models](https://arxiv.org/abs/2405.10637) (2024-05-17)
   - Code: [GitHub](https://github.com/whyNLP/LCKV)
@@ -2608,7 +2604,7 @@
   - Publication: [MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2405.12130) (2024-05-20)
   - Code: [GitHub](https://github.com/kongds/MoRA)
 
-- CLA (Cross-Layer Attention)
+- Cross-Layer Attention (CLA)
   - Year: 2024
   - Publication: [Reducing Transformer Key-Value Cache Size with Cross-Layer Attention](https://arxiv.org/abs/2405.12981) (2024-05-21)
 
@@ -2697,7 +2693,7 @@
   - Publication: [Blog - Codestral: Hello, World!](https://mistral.ai/news/codestral) (2024-05-29)
   - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Codestral-22B-v0.1)
 
-- CoPE (Contextual Position Encoding)
+- Contextual Position Encoding (CoPE)
   - Year: 2024
   - Publication: [Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719) (2024-05-29)
 
@@ -2786,7 +2782,7 @@
   - Publication: [Tweet: TensorOpera Unveils Fox Foundation Model: A Pioneering Small Language Model (SLM) for Cloud and Edge](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) (2024-06-13)
   - Model weights: [HuggingFace models](https://huggingface.co/tensoropera/Fox-1-1.6B)
 
-- MLKV (Multi-Layer Key-Value Heads)
+- Multi-Layer Key-Value Heads (MLKV)
   - Year: 2024
   - Publication: [MLKV: Multi-Layer Key-Value Heads for Memory Efficient Transformer Decoding](https://arxiv.org/abs/2406.09297) (2024-06-13)
   - Code: [GitHub](https://github.com/zaydzuhri/pythia-mlkv)
@@ -2849,7 +2845,7 @@
   - Publication: [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/abs/2406.18665) (2024-06-26)
   - Code: [GitHub](https://github.com/lm-sys/RouteLLM)
 
-- UCP (Universal Checkpointing)
+- Universal Checkpointing (UCP)
   - Year: 2024
   - Publication: [Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training](https://arxiv.org/abs/2406.18820) (2024-06-27)
 
@@ -3111,7 +3107,7 @@
   - Publication: [Blog - Updates to the Command R Series](https://cohere.com/blog/command-series-0824) (2024-08-30)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereForAI/c4ai-command-r-08-2024)
 
-- FPDT (Fully Pipelined Distributed Transformer)
+- Fully Pipelined Distributed Transformer (FPDT)
   - Year: 2024
   - Publication: [Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer](https://arxiv.org/abs/2408.16978) (2024-08-30)
 
@@ -3163,7 +3159,7 @@
   - Publication: [SaRA: High-Efficient Diffusion Model Fine-tuning with Progressive Sparse Low-Rank Adaptation](https://arxiv.org/abs/2409.06633) (2024-09-10)
   - Code: [GitHub](https://github.com/sjtuplayer/SaRA)
 
-- GSA (Gated Slot Attention)
+- Gated Slot Attention (GSA)
   - Year: 2024
   - Publication: [Gated Slot Attention for Efficient Linear-Time Sequence Modeling](https://arxiv.org/abs/2409.07146) (2024-09-11)
   - Code: [GitHub](https://github.com/berlino/gated_linear_attention)
@@ -3179,7 +3175,7 @@
   - Publication: [jina-embeddings-v3: Multilingual Embeddings With Task LoRA](https://arxiv.org/abs/2409.10173) (2024-09-16)
   - Model weights: [HuggingFace models](https://huggingface.co/jinaai/jina-embeddings-v3)
 
-- KAT (Kolmogorov-Arnold Transformer)
+- Kolmogorov-Arnold Transformer (KAT)
   - Year: 2024
   - Publication: [Kolmogorov-Arnold Transformer](https://arxiv.org/abs/2409.10594) (2024-09-16)
   - Code: [GitHub](https://github.com/Adamdad/kat)
@@ -3224,7 +3220,7 @@
   - Year: 2024
   - Publication: [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models](https://arxiv.org/abs/2409.17146) (2024-09-25)
 
-- VPTQ (Vector Post-Training Quantization)
+- Vector Post-Training Quantization (VPTQ)
   - Year: 2024
   - Publication: [VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models](https://arxiv.org/abs/2409.17066) (2024-09-25)
   - Code: [GitHub](https://github.com/microsoft/VPTQ)
@@ -3260,11 +3256,11 @@
   - Year: 2024
   - Publication: [MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning](https://arxiv.org/abs/2409.20566) (2024-09-30)
 
-- nGPT (Normalized Transformer)
+- Normalized Transformer (nGPT)
   - Year: 2024
   - Publication: [nGPT: Normalized Transformer with Representation Learning on the Hypersphere](https://arxiv.org/abs/2410.01131) (2024-10-01)
 
-- ENTP (Encoder-only Next Token Prediction)
+- Encoder-only Next Token Prediction (ENTP)
   - Year: 2024
   - Publication: [ENTP: Encoder-only Next Token Prediction](https://arxiv.org/abs/2410.01600) (2024-10-02)
 
@@ -3350,7 +3346,7 @@
   - Publication: [DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads](https://arxiv.org/abs/2410.10819) (2024-10-14)
   - Code: [GitHub](https://github.com/mit-han-lab/duo-attention)
 
-- MoEE (Mixture-of-Experts Embedding)
+- Mixture-of-Experts Embedding (MoEE)
   - Year: 2024
   - Publication: [Your Mixture-of-Experts LLM Is Secretly an Embedding Model For Free](https://arxiv.org/abs/2410.10814) (2024-10-14)
   - Code: [GitHub](https://github.com/tianyi-lab/MoE-Embedding)
@@ -3371,7 +3367,7 @@
   - Code: [GitHub](https://github.com/gpt-omni/mini-omni2)
   - Model weights: [HuggingFace models](https://huggingface.co/gpt-omni/mini-omni2)
 
-- MoH (Multi-Head Attention as Mixture-of-Head Attention)
+- Multi-Head Attention as Mixture-of-Head Attention (MoH)
   - Year: 2024
   - Publication: [MoH: Multi-Head Attention as Mixture-of-Head Attention](https://arxiv.org/abs/2410.11842) (2024-10-15)
   - Code: [GitHub](https://github.com/SkyworkAI/MoH)

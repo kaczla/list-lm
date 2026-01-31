@@ -8,6 +8,7 @@ from list_lm.generate_readme import generate_lm_data
 from list_lm.log_utils import init_logs
 from list_lm.parse_html import parse_arxiv
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
+from list_lm.utils import normalize_name_format
 
 
 def validate_lm_data(
@@ -71,6 +72,14 @@ def validate_lm_data(
 
     for index, model_info in enumerate(model_info_list):
         logger.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
+
+        # Normalize name format if needed
+        normalized_format_name = normalize_name_format(model_info.name)
+        if normalized_format_name != model_info.name:
+            logger.info(f"Normalizing name: {model_info.name!r} -> {normalized_format_name!r}")
+            model_info.name = normalized_format_name
+            changed = True
+
         model_name = model_info.name
         if model_name in model_name_to_model_info:
             errors.append(f"Duplicated model name - {model_name}")
