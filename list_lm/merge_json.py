@@ -49,12 +49,12 @@ def load_input_json(input_path: Path) -> list[dict[str, Any]]:
     return data
 
 
-def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> tuple[int, int, int]:
+def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
     """
     Merge input data into model_data_list.json.
 
     Returns:
-        Tuple of (added_count, duplicate_count, error_count)
+        Error count
     """
     target_path = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
     existing_list = load_base_model_list(target_path, ModelInfo)
@@ -104,15 +104,19 @@ def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> tu
         generate_lm_data()
         logger.info("Generated updated README")
 
-    return added_count, duplicate_count, error_count
+    logger.info(f"Summary: {added_count} added, {duplicate_count} duplicates skipped, {error_count} errors")
+    if dry_run and added_count > 0:
+        logger.info(f"Run without --dry-run to merge {added_count} items")
+
+    return error_count
 
 
-def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> tuple[int, int, int]:
+def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
     """
     Merge input data into all_links.json.
 
     Returns:
-        Tuple of (added_count, duplicate_count, error_count)
+        Error count
     """
     target_path = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
     existing_list = load_base_model_list(target_path, ApplicationData)
@@ -153,7 +157,11 @@ def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> tupl
         generate_links_all()
         logger.info("Generated updated README files")
 
-    return added_count, duplicate_count, error_count
+    logger.info(f"Summary: {added_count} added, {duplicate_count} duplicates skipped, {error_count} errors")
+    if dry_run and added_count > 0:
+        logger.info(f"Run without --dry-run to merge {added_count} items")
+
+    return error_count
 
 
 def main() -> None:
@@ -199,15 +207,9 @@ Examples:
         logger.info("DRY RUN MODE - no changes will be made")
 
     if args.target == MergeTarget.LM_DATA:
-        added, duplicates, errors = merge_lm_data(input_data, dry_run=args.dry_run)
+        errors = merge_lm_data(input_data, dry_run=args.dry_run)
     else:
-        added, duplicates, errors = merge_links(input_data, dry_run=args.dry_run)
-
-    # Summary
-    logger.info(f"Summary: {added} added, {duplicates} duplicates skipped, {errors} errors")
-
-    if args.dry_run and added > 0:
-        logger.info(f"Run without --dry-run to merge {added} items")
+        errors = merge_links(input_data, dry_run=args.dry_run)
 
     if errors > 0:
         sys.exit(1)
