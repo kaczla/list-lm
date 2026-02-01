@@ -49,7 +49,7 @@ def load_input_json(input_path: Path) -> list[dict[str, Any]]:
     return data
 
 
-def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
+def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False, overwrite: bool = False) -> int:
     """
     Merge input data into model_data_list.json.
 
@@ -59,11 +59,12 @@ def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> in
     target_path = DATA_JSON_PATH / f"{FILE_NAME_LM_DATA}.json"
     existing_list = load_base_model_list(target_path, ModelInfo)
 
-    # Build lookup sets for duplicate detection
+    # Build lookup for duplicate detection
     existing_names: set[str] = {m.name for m in existing_list}
-    existing_urls: set[str] = {m.publication.url for m in existing_list}
+    url_to_idx: dict[str, int] = {m.publication.url: i for i, m in enumerate(existing_list)}
 
     added_count = 0
+    replaced_count = 0
     duplicate_count = 0
     error_count = 0
     new_items: list[ModelInfo] = []
@@ -76,42 +77,59 @@ def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False) -> in
             error_count += 1
             continue
 
-        # Check for duplicates
-        if model_info.name in existing_names:
-            logger.warning(f"[{idx + 1}] Duplicate model name: {model_info.name!r} - skipping")
-            duplicate_count += 1
+        # Check for duplicate URL
+        if model_info.publication.url in url_to_idx:
+            if overwrite:
+                existing_idx = url_to_idx[model_info.publication.url]
+                old_name = existing_list[existing_idx].name
+                existing_list[existing_idx] = model_info
+                # Update name lookup if name changed
+                if old_name != model_info.name:
+                    existing_names.discard(old_name)
+                    existing_names.add(model_info.name)
+                replaced_count += 1
+                logger.info(f"[{idx + 1}] Replacing model: {model_info.name}")
+            else:
+                logger.warning(
+                    f"[{idx + 1}] Duplicate publication URL for {model_info.name!r}: "
+                    f"{model_info.publication.url} - skipping"
+                )
+                duplicate_count += 1
             continue
 
-        if model_info.publication.url in existing_urls:
-            logger.warning(
-                f"[{idx + 1}] Duplicate publication URL for {model_info.name!r}: "
-                f"{model_info.publication.url} - skipping"
-            )
+        # Check for duplicate name (different URL)
+        if model_info.name in existing_names:
+            logger.warning(f"[{idx + 1}] Duplicate model name: {model_info.name!r} - skipping")
             duplicate_count += 1
             continue
 
         # Add to new items and update lookup sets
         new_items.append(model_info)
         existing_names.add(model_info.name)
-        existing_urls.add(model_info.publication.url)
+        url_to_idx[model_info.publication.url] = -1  # Mark as seen (index not needed for new items)
         added_count += 1
         logger.info(f"[{idx + 1}] Adding model: {model_info.name}")
 
-    if new_items and not dry_run:
+    has_changes = new_items or replaced_count > 0
+    if has_changes and not dry_run:
         merged_list = existing_list + new_items
         logger.info(f"Saving {len(merged_list)} models to: {target_path}")
         save_base_model_list(target_path, merged_list, sort_fn=get_model_info_sort_key)  # type: ignore[arg-type]
         generate_lm_data()
         logger.info("Generated updated README")
 
-    logger.info(f"Summary: {added_count} added, {duplicate_count} duplicates skipped, {error_count} errors")
-    if dry_run and added_count > 0:
-        logger.info(f"Run without --dry-run to merge {added_count} items")
+    logger.info(
+        f"Summary: {added_count} added, {replaced_count} replaced, "
+        f"{duplicate_count} duplicates skipped, {error_count} errors"
+    )
+    changes_count = added_count + replaced_count
+    if dry_run and changes_count > 0:
+        logger.info(f"Run without --dry-run to merge {changes_count} items")
 
     return error_count
 
 
-def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
+def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False, overwrite: bool = False) -> int:
     """
     Merge input data into all_links.json.
 
@@ -121,10 +139,11 @@ def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
     target_path = DATA_JSON_PATH / f"{FILE_NAME_LINKS}.json"
     existing_list = load_base_model_list(target_path, ApplicationData)
 
-    # Build lookup set for duplicate detection (name + url combination)
-    existing_keys: set[tuple[str, str]] = {(a.name.lower(), a.url) for a in existing_list}
+    # Build lookup for duplicate detection (name + url combination)
+    key_to_idx: dict[tuple[str, str], int] = {(a.name.lower(), a.url): i for i, a in enumerate(existing_list)}
 
     added_count = 0
+    replaced_count = 0
     duplicate_count = 0
     error_count = 0
     new_items: list[ApplicationData] = []
@@ -139,27 +158,38 @@ def merge_links(input_data: list[dict[str, Any]], dry_run: bool = False) -> int:
 
         # Check for duplicates (same name and URL)
         key = (app_data.name.lower(), app_data.url)
-        if key in existing_keys:
-            logger.warning(f"[{idx + 1}] Duplicate link: {app_data.name!r} ({app_data.url}) - skipping")
-            duplicate_count += 1
+        if key in key_to_idx:
+            if overwrite:
+                existing_idx = key_to_idx[key]
+                existing_list[existing_idx] = app_data
+                replaced_count += 1
+                logger.info(f"[{idx + 1}] Replacing link: {app_data.name} ({app_data.link_type})")
+            else:
+                logger.warning(f"[{idx + 1}] Duplicate link: {app_data.name!r} ({app_data.url}) - skipping")
+                duplicate_count += 1
             continue
 
-        # Add to new items and update lookup set
+        # Add to new items and update lookup
         new_items.append(app_data)
-        existing_keys.add(key)
+        key_to_idx[key] = -1  # Mark as seen
         added_count += 1
         logger.info(f"[{idx + 1}] Adding link: {app_data.name} ({app_data.link_type})")
 
-    if new_items and not dry_run:
+    has_changes = new_items or replaced_count > 0
+    if has_changes and not dry_run:
         merged_list = existing_list + new_items
         logger.info(f"Saving {len(merged_list)} links to: {target_path}")
         save_base_model_list(target_path, merged_list, sort_fn=get_application_data_sort_key)
         generate_links_all()
         logger.info("Generated updated README files")
 
-    logger.info(f"Summary: {added_count} added, {duplicate_count} duplicates skipped, {error_count} errors")
-    if dry_run and added_count > 0:
-        logger.info(f"Run without --dry-run to merge {added_count} items")
+    logger.info(
+        f"Summary: {added_count} added, {replaced_count} replaced, "
+        f"{duplicate_count} duplicates skipped, {error_count} errors"
+    )
+    changes_count = added_count + replaced_count
+    if dry_run and changes_count > 0:
+        logger.info(f"Run without --dry-run to merge {changes_count} items")
 
     return error_count
 
@@ -178,6 +208,9 @@ Examples:
 
   # Dry run to preview what would be added
   uv run python -m list_lm.merge_json lm new_models.json --dry-run
+
+  # Overwrite existing entries instead of skipping
+  uv run python -m list_lm.merge_json lm updated_models.json --overwrite
         """,
     )
     parser.add_argument(
@@ -196,6 +229,11 @@ Examples:
         action="store_true",
         help="Preview what would be merged without making changes",
     )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Overwrite existing entries instead of skipping duplicates",
+    )
 
     args = parser.parse_args()
     init_logs()
@@ -207,9 +245,9 @@ Examples:
         logger.info("DRY RUN MODE - no changes will be made")
 
     if args.target == MergeTarget.LM_DATA:
-        errors = merge_lm_data(input_data, dry_run=args.dry_run)
+        errors = merge_lm_data(input_data, dry_run=args.dry_run, overwrite=args.overwrite)
     else:
-        errors = merge_links(input_data, dry_run=args.dry_run)
+        errors = merge_links(input_data, dry_run=args.dry_run, overwrite=args.overwrite)
 
     if errors > 0:
         sys.exit(1)
