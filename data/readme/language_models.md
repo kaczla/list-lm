@@ -3681,6 +3681,12 @@
   - Publication: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) (2025-01-08)
   - Code: [GitHub](https://github.com/microsoft/rStar)
 
+- DeepSeek-R1
+  - Year: 2025
+  - Publication: [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) (2025-01-22)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-R1)
+
 - Baichuan-Omni-1.5
   - Year: 2025
   - Publication: [Baichuan-Omni-1.5 Technical Report](https://arxiv.org/abs/2501.15368) (2025-01-26)
@@ -3741,10 +3747,26 @@
   - Year: 2025
   - Publication: [PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention](https://arxiv.org/abs/2503.03588) (2025-03-05)
 
+- Jamba 1.6
+  - Year: 2025
+  - Publication: [AI21's Jamba 1.6: The Best Open Model for Private Enterprise Deployment](https://www.ai21.com/blog/introducing-jamba-1-6/) (2025-03-06)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs)
+
+- L1
+  - Year: 2025
+  - Publication: [L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning](https://arxiv.org/abs/2503.04697) (2025-03-06)
+  - Code: [GitHub](https://github.com/cmu-l3/l1)
+  - Model weights: [HuggingFace models](https://huggingface.co/l3lab/L1-Qwen3-8B-Max)
+
 - Symbolic Mixture-of-Experts (Symbolic-MoE)
   - Year: 2025
   - Publication: [Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning](https://arxiv.org/abs/2503.05641) (2025-03-07)
   - Code: [GitHub](https://github.com/dinobby/Symbolic-MoE/)
+
+- Command A
+  - Year: 2025
+  - Publication: [Blog - Command A](https://cohere.com/blog/command-a) (2025-03-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/CohereLabs/c4ai-command-a-03-2025)
 
 - Dynamic Tanh (DyT)
   - Year: 2025
@@ -3765,6 +3787,12 @@
   - Year: 2025
   - Publication: [Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training](https://arxiv.org/abs/2503.18929) (2025-03-24)
   - Code: [GitHub](https://github.com/bbartoldson/TBA)
+
+- Qwen2.5-Omni
+  - Year: 2025
+  - Publication: [Blog - Qwen2.5-Omni](https://qwenlm.github.io/blog/qwen2.5-omni/) (2025-03-27)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen2.5-Omni)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen2.5-Omni-7B)
 
 - TransMamba
   - Year: 2025
@@ -3789,6 +3817,17 @@
   - Year: 2025
   - Publication: [Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models](https://arxiv.org/abs/2504.03624) (2025-04-04)
   - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Nemotron-H-56B-Base-8K)
+
+- Llama 4
+  - Year: 2025
+  - Publication: [Blog - Llama 4](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) (2025-04-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/meta-llama/llama-4)
+
+- DeepCoder-14B-Preview
+  - Year: 2025
+  - Publication: [Blog - DeepCoder-14B-Preview](https://www.together.ai/blog/deepcoder) (2025-04-08)
+  - Code: [GitHub](https://github.com/agentica-project/rllm)
+  - Model weights: [HuggingFace models](https://huggingface.co/agentica-org/DeepCoder-14B-Preview)
 
 - Encoder-Decoder Gemma
   - Year: 2025
@@ -3818,6 +3857,12 @@
   - Year: 2025
   - Publication: [Looking beyond the next token](https://arxiv.org/abs/2504.11336) (2025-04-15)
 
+- Qwen3
+  - Year: 2025
+  - Publication: [Blog - Qwen3](https://qwen.ai/blog?id=qwen3) (2025-04-29)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen3)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/Qwen/qwen3)
+
 - Llama-Nemotron
   - Year: 2025
   - Publication: [Llama-Nemotron: Efficient Reasoning Models](https://arxiv.org/abs/2505.00949) (2025-05-02)
@@ -3828,6 +3873,10 @@
   - Publication: [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335) (2025-05-06)
   - Code: [GitHub](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner)
   - Model weights: [HuggingFace models](https://huggingface.co/andrewzh/Absolute_Zero_Reasoner-Coder-7b)
+
+- Mistral Medium 3
+  - Year: 2025
+  - Publication: [Blog - Mistral Medium 3](https://mistral.ai/news/mistral-medium-3) (2025-05-07)
 
 - INTELLECT-2
   - Year: 2025
@@ -3970,6 +4019,11 @@
   - Year: 2025
   - Publication: [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/abs/2510.04871) (2025-10-06)
 
+- Jamba Reasoning 3B
+  - Year: 2025
+  - Publication: [Introducing Jamba Reasoning 3B: Tiny Model, Huge Possibilities](https://www.ai21.com/blog/introducing-jamba-reasoning-3b/) (2025-10-08)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B)
+
 - Dr.LLM
   - Year: 2025
   - Publication: [Dr.LLM: Dynamic Layer Routing in LLMs](https://arxiv.org/abs/2510.12773) (2025-10-14)
@@ -4020,6 +4074,12 @@
   - Code: [GitHub](https://github.com/SakanaAI/DroPE)
   - Model weights: [HuggingFace models](https://huggingface.co/SakanaAI/Llama-2-7b-hf-DroPE)
 
+- Nemotron-Cascade
+  - Year: 2025
+  - Publication: [Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models](https://arxiv.org/abs/2512.13607) (2025-12-15)
+  - Code: [GitHub](https://github.com/NVIDIA-NeMo/Nemotron)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Nemotron-Cascade-8B)
+
 - Olmo 3
   - Year: 2025
   - Publication: [Olmo 3](https://arxiv.org/abs/2512.13961) (2025-12-15)
@@ -4048,11 +4108,26 @@
   - Code: [GitHub](https://github.com/zai-org/GLM-4.7)
   - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-4.7)
 
+- Recursive Language Models (RLM)
+  - Year: 2025
+  - Publication: [Recursive Language Models](https://arxiv.org/abs/2512.24601) (2025-12-31)
+  - Code: [GitHub](https://github.com/alexzhang13/rlm)
+
 - Falcon-H1R
   - Year: 2026
   - Publication: [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) (2026-01-05)
   - Code: [GitHub](https://github.com/tiiuae/falcon-h1r)
   - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/Falcon-H1R-7B)
+
+- GDPO
+  - Year: 2026
+  - Publication: [GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization](https://arxiv.org/abs/2601.05242) (2026-01-08)
+  - Code: [GitHub](https://github.com/NVlabs/GDPO)
+
+- Jamba 2
+  - Year: 2026
+  - Publication: [Introducing Jamba2: The open source model family for enterprise reliability and efficiency](https://www.ai21.com/blog/introducing-jamba2/) (2026-01-08)
+  - Model weights: [HuggingFace models](https://huggingface.co/ai21labs/AI21-Jamba2-3B)
 
 - Ministral 3
   - Year: 2026

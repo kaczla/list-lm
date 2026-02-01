@@ -11771,6 +11771,25 @@
         "manual_validated": false
     },
     {
+        "name": "DeepSeek-R1",
+        "year": 2025,
+        "publication": {
+            "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2501.12948",
+            "date_create": "2025-01-22"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Baichuan-Omni-1.5",
         "year": 2025,
         "publication": {
@@ -11963,6 +11982,41 @@
         "manual_validated": false
     },
     {
+        "name": "Jamba 1.6",
+        "year": 2025,
+        "publication": {
+            "title": "AI21's Jamba 1.6: The Best Open Model for Private Enterprise Deployment",
+            "url": "https://www.ai21.com/blog/introducing-jamba-1-6/",
+            "date_create": "2025-03-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "L1",
+        "year": 2025,
+        "publication": {
+            "title": "L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2503.04697",
+            "date_create": "2025-03-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/cmu-l3/l1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/l3lab/L1-Qwen3-8B-Max"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Symbolic Mixture-of-Experts (Symbolic-MoE)",
         "year": 2025,
         "publication": {
@@ -11976,6 +12030,22 @@
             "url": "https://github.com/dinobby/Symbolic-MoE/"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Command A",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Command A",
+            "url": "https://cohere.com/blog/command-a",
+            "date_create": "2025-03-13"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        },
         "manual_validated": false
     },
     {
@@ -12040,6 +12110,25 @@
             "url": "https://github.com/bbartoldson/TBA"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2.5-Omni",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Qwen2.5-Omni",
+            "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+            "date_create": "2025-03-27"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen2.5-Omni"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen2.5-Omni-7B"
+        },
         "manual_validated": false
     },
     {
@@ -12116,6 +12205,41 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/nvidia/Nemotron-H-56B-Base-8K"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Llama 4",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Llama 4",
+            "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+            "date_create": "2025-04-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/meta-llama/llama-4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepCoder-14B-Preview",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - DeepCoder-14B-Preview",
+            "url": "https://www.together.ai/blog/deepcoder",
+            "date_create": "2025-04-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/agentica-project/rllm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/agentica-org/DeepCoder-14B-Preview"
         },
         "manual_validated": false
     },
@@ -12210,6 +12334,25 @@
         "manual_validated": false
     },
     {
+        "name": "Qwen3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Qwen3",
+            "url": "https://qwen.ai/blog?id=qwen3",
+            "date_create": "2025-04-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/Qwen/qwen3"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Llama-Nemotron",
         "year": 2025,
         "publication": {
@@ -12242,6 +12385,19 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/andrewzh/Absolute_Zero_Reasoner-Coder-7b"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Medium 3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Mistral Medium 3",
+            "url": "https://mistral.ai/news/mistral-medium-3",
+            "date_create": "2025-05-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -12697,6 +12853,22 @@
         "manual_validated": false
     },
     {
+        "name": "Jamba Reasoning 3B",
+        "year": 2025,
+        "publication": {
+            "title": "Introducing Jamba Reasoning 3B: Tiny Model, Huge Possibilities",
+            "url": "https://www.ai21.com/blog/introducing-jamba-reasoning-3b/",
+            "date_create": "2025-10-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Dr.LLM",
         "year": 2025,
         "publication": {
@@ -12857,6 +13029,25 @@
         "manual_validated": false
     },
     {
+        "name": "Nemotron-Cascade",
+        "year": 2025,
+        "publication": {
+            "title": "Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models",
+            "url": "https://arxiv.org/abs/2512.13607",
+            "date_create": "2025-12-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVIDIA-NeMo/Nemotron"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Nemotron-Cascade-8B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Olmo 3",
         "year": 2025,
         "publication": {
@@ -12946,6 +13137,22 @@
         "manual_validated": false
     },
     {
+        "name": "Recursive Language Models (RLM)",
+        "year": 2025,
+        "publication": {
+            "title": "Recursive Language Models",
+            "url": "https://arxiv.org/abs/2512.24601",
+            "date_create": "2025-12-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/alexzhang13/rlm"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Falcon-H1R",
         "year": 2026,
         "publication": {
@@ -12961,6 +13168,38 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "GDPO",
+        "year": 2026,
+        "publication": {
+            "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+            "url": "https://arxiv.org/abs/2601.05242",
+            "date_create": "2026-01-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/GDPO"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Jamba 2",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Jamba2: The open source model family for enterprise reliability and efficiency",
+            "url": "https://www.ai21.com/blog/introducing-jamba2/",
+            "date_create": "2026-01-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B"
         },
         "manual_validated": false
     },
