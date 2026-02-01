@@ -2963,6 +2963,11 @@
   - Year: 2024
   - Publication: [SaulLM-54B & SaulLM-141B: Scaling Up Domain Adaptation for the Legal Domain](https://arxiv.org/abs/2407.19584) (2024-07-28)
 
+- Generalized Long-Context Text Representation (mGTE)
+  - Year: 2024
+  - Publication: [mGTE: Generalized Long-Context Text Representation and Reranking Models for Multilingual Text Retrieval](https://arxiv.org/abs/2407.19669) (2024-07-29)
+  - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-NLP/gte-en-mlm-base)
+
 - Gemma 2
   - Year: 2024
   - Publication: [Gemma 2: Improving Open Language Models at a Practical Size](https://arxiv.org/abs/2408.00118) (2024-07-31)
@@ -3046,7 +3051,7 @@
 - Hermes 3
   - Year: 2024
   - Publication: [Blog - Nous research presents Hermes 3](https://nousresearch.com/hermes3/) (2024-08-16)
-  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B)
 
 - Phi 3.5
   - Year: 2024
@@ -3603,7 +3608,8 @@
 
 - DeepSeek-V2.5-1210
   - Year: 2024
-  - Publication: [HuggingFace model card - DeepSeek-V2.5-1210](https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210) (2024-12-10)
+  - Publication: [Blog - DeepSeek-V2.5-1210](https://api-docs.deepseek.com/news/news1210) (2024-12-10)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-V2)
   - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210)
 
 - Granite Guardian
@@ -3628,6 +3634,12 @@
   - Publication: [Byte Latent Transformer: Patches Scale Better Than Tokens](https://arxiv.org/abs/2412.09871) (2024-12-13)
   - Code: [GitHub](https://github.com/facebookresearch/blt)
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/blt-7b)
+
+- Bamba
+  - Year: 2024
+  - Publication: [Blog - Bamba: A Hybrid Mamba Architecture](https://huggingface.co/blog/bamba) (2024-12-18)
+  - Code: [GitHub](https://github.com/foundation-model-stack/bamba)
+  - Model weights: [HuggingFace models](https://huggingface.co/ibm-ai-platform/Bamba-9B-v2)
 
 - ModernBERT
   - Year: 2024
@@ -3763,6 +3775,18 @@
   - Publication: [Symbolic Mixture-of-Experts: Adaptive Skill-based Routing for Heterogeneous Reasoning](https://arxiv.org/abs/2503.05641) (2025-03-07)
   - Code: [GitHub](https://github.com/dinobby/Symbolic-MoE/)
 
+- OlympicCoder
+  - Year: 2025
+  - Publication: [Blog - Open-R1 Update #3: Open Reasoning Models for Code and Mathematics](https://huggingface.co/blog/open-r1/update-3) (2025-03-11)
+  - Code: [GitHub](https://github.com/huggingface/open-r1)
+  - Model weights: [HuggingFace models](https://huggingface.co/open-r1/OlympicCoder-7B)
+
+- Reka Flash 3
+  - Year: 2025
+  - Publication: [Blog - Reasoning with Reka Flash 3](https://reka.ai/news/introducing-reka-flash) (2025-03-11)
+  - Code: [GitHub](https://github.com/reka-ai)
+  - Model weights: [HuggingFace models](https://huggingface.co/RekaAI/reka-flash-3)
+
 - Command A
   - Year: 2025
   - Publication: [Blog - Command A](https://cohere.com/blog/command-a) (2025-03-13)
@@ -3772,6 +3796,11 @@
   - Year: 2025
   - Publication: [Transformers without Normalization](https://arxiv.org/abs/2503.10622) (2025-03-13)
   - Code: [GitHub](https://github.com/jiachenzhu/DyT)
+
+- Mistral Small 3.1
+  - Year: 2025
+  - Publication: [Blog - Mistral Small 3.1](https://mistral.ai/news/mistral-small-3-1) (2025-03-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503)
 
 - SuperBPE
   - Year: 2025
@@ -3787,6 +3816,17 @@
   - Year: 2025
   - Publication: [Trajectory Balance with Asynchrony: Decoupling Exploration and Learning for Fast, Scalable LLM Post-Training](https://arxiv.org/abs/2503.18929) (2025-03-24)
   - Code: [GitHub](https://github.com/bbartoldson/TBA)
+
+- DeepSeek-V3-0324
+  - Year: 2025
+  - Publication: [Blog - DeepSeek-V3-0324 Release](https://api-docs.deepseek.com/news/news250325) (2025-03-25)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-V3)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324)
+
+- Gemma 3
+  - Year: 2025
+  - Publication: [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) (2025-03-25)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/gemma-3-27b-it)
 
 - Qwen2.5-Omni
   - Year: 2025
@@ -3857,6 +3897,11 @@
   - Year: 2025
   - Publication: [Looking beyond the next token](https://arxiv.org/abs/2504.11336) (2025-04-15)
 
+- Minos
+  - Year: 2025
+  - Publication: [README - Minos-v1 repository](https://huggingface.co/NousResearch/Minos-v1/blob/edb1e8b7cc80a86cc356534948cca0ef4c46f8e2/README.md) (2025-04-24)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Minos-v1)
+
 - Qwen3
   - Year: 2025
   - Publication: [Blog - Qwen3](https://qwen.ai/blog?id=qwen3) (2025-04-29)
@@ -3880,7 +3925,7 @@
 
 - INTELLECT-2
   - Year: 2025
-  - Publication: [Blog - INTELLECT-2 Release: The First 32B Parameter Model Trained Through Globally Distributed Reinforcement Learning](https://www.primeintellect.ai/blog/intellect-2-release) (2025-05-11)
+  - Publication: [Blog - INTELLECT-2](https://www.primeintellect.ai/blog/intellect-2-release) (2025-05-11)
   - Code: [GitHub](https://github.com/PrimeIntellect-ai/prime-rl)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/INTELLECT-2)
 
@@ -3916,6 +3961,11 @@
   - Year: 2025
   - Publication: [Quartet: Native FP4 Training Can Be Optimal for Large Language Models](https://arxiv.org/abs/2505.14669) (2025-05-20)
   - Code: [GitHub](https://github.com/IST-DASLab/Quartet)
+
+- Devstral
+  - Year: 2025
+  - Publication: [Blog - Devstral](https://mistral.ai/news/devstral) (2025-05-21)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Devstral-Small-2505)
 
 - QwenLong-L1
   - Year: 2025
@@ -3970,6 +4020,12 @@
   - Year: 2025
   - Publication: [Put Teacher in Student's Shoes: Cross-Distillation for Ultra-compact Model Compression Framework](https://arxiv.org/abs/2507.04636) (2025-07-07)
 
+- SmolLM3
+  - Year: 2025
+  - Publication: [Blog - SmolLM3](https://huggingface.co/blog/smollm3) (2025-07-08)
+  - Code: [GitHub](https://github.com/huggingface/smollm)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/HuggingFaceTB/smollm3-686d33c1fdffe8e635317e23)
+
 - H-Net
   - Year: 2025
   - Publication: [Dynamic Chunking for End-to-End Hierarchical Sequence Modeling](https://arxiv.org/abs/2507.07955) (2025-07-10)
@@ -3987,6 +4043,18 @@
 - Group Sequence Policy Optimization (GSPO)
   - Year: 2025
   - Publication: [Group Sequence Policy Optimization](https://arxiv.org/abs/2507.18071) (2025-07-24)
+
+- Kimi K2
+  - Year: 2025
+  - Publication: [Kimi K2: Open Agentic Intelligence](https://arxiv.org/abs/2507.20534) (2025-07-28)
+  - Code: [GitHub](https://github.com/MoonshotAI/Kimi-K2)
+  - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2-Instruct)
+
+- Falcon-H1
+  - Year: 2025
+  - Publication: [Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance](https://arxiv.org/abs/2507.22448) (2025-07-30)
+  - Code: [GitHub](https://github.com/tiiuae/falcon-h1)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/tiiuae/falcon-h1)
 
 - GLM-4.5
   - Year: 2025

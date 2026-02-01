@@ -73,8 +73,8 @@ When adding new language models, **always save to a separate JSON file first**, 
 
 ### Workflow
 
-1. Create a new JSON file with timestamp (e.g., `new_models_20250130.json`) with a list of models
-2. Merge into main data: `uv run python -m list_lm.merge_json lm new_models_20250130.json`
+1. Create a new JSON file with timestamp (e.g., `new_models_20250130_1430.json`) with a list of models
+2. Merge into main data: `uv run python -m list_lm.merge_json lm new_models_20250130_1430.json`
 3. The script automatically sorts and regenerates README files
 
 ### ModelInfo JSON Schema
@@ -284,8 +284,8 @@ When adding new resource links, **always save to a separate JSON file first**, t
 
 ### Workflow
 
-1. Create a new JSON file with timestamp (e.g., `new_links_20250130.json`) with a list of links
-2. Merge into main data: `uv run python -m list_lm.merge_json links new_links_20250130.json`
+1. Create a new JSON file with timestamp (e.g., `new_links_20250130_1430.json`) with a list of links
+2. Merge into main data: `uv run python -m list_lm.merge_json links new_links_20250130_1430.json`
 3. The script automatically sorts and regenerates README files
 
 ### ApplicationData JSON Schema

@@ -9476,6 +9476,22 @@
         "manual_validated": false
     },
     {
+        "name": "Generalized Long-Context Text Representation (mGTE)",
+        "year": 2024,
+        "publication": {
+            "title": "mGTE: Generalized Long-Context Text Representation and Reranking Models for Multilingual Text Retrieval",
+            "url": "https://arxiv.org/abs/2407.19669",
+            "date_create": "2024-07-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Alibaba-NLP/gte-en-mlm-base"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Gemma 2",
         "year": 2024,
         "publication": {
@@ -9742,7 +9758,7 @@
         "code": null,
         "weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B"
+            "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B"
         },
         "manual_validated": false
     },
@@ -11519,12 +11535,15 @@
         "name": "DeepSeek-V2.5-1210",
         "year": 2024,
         "publication": {
-            "title": "HuggingFace model card - DeepSeek-V2.5-1210",
-            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
+            "title": "Blog - DeepSeek-V2.5-1210",
+            "url": "https://api-docs.deepseek.com/news/news1210",
             "date_create": "2024-12-10"
         },
         "video": null,
-        "code": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-V2"
+        },
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210"
@@ -11601,6 +11620,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/facebook/blt-7b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Bamba",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Bamba: A Hybrid Mamba Architecture",
+            "url": "https://huggingface.co/blog/bamba",
+            "date_create": "2024-12-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/foundation-model-stack/bamba"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/ibm-ai-platform/Bamba-9B-v2"
         },
         "manual_validated": false
     },
@@ -12033,6 +12071,44 @@
         "manual_validated": false
     },
     {
+        "name": "OlympicCoder",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Open-R1 Update #3: Open Reasoning Models for Code and Mathematics",
+            "url": "https://huggingface.co/blog/open-r1/update-3",
+            "date_create": "2025-03-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/huggingface/open-r1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/open-r1/OlympicCoder-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Reka Flash 3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Reasoning with Reka Flash 3",
+            "url": "https://reka.ai/news/introducing-reka-flash",
+            "date_create": "2025-03-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/reka-ai"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/RekaAI/reka-flash-3"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Command A",
         "year": 2025,
         "publication": {
@@ -12062,6 +12138,22 @@
             "url": "https://github.com/jiachenzhu/DyT"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Small 3.1",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Mistral Small 3.1",
+            "url": "https://mistral.ai/news/mistral-small-3-1",
+            "date_create": "2025-03-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
         "manual_validated": false
     },
     {
@@ -12110,6 +12202,41 @@
             "url": "https://github.com/bbartoldson/TBA"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek-V3-0324",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - DeepSeek-V3-0324 Release",
+            "url": "https://api-docs.deepseek.com/news/news250325",
+            "date_create": "2025-03-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-V3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Gemma 3",
+        "year": 2025,
+        "publication": {
+            "title": "Gemma 3 Technical Report",
+            "url": "https://arxiv.org/abs/2503.19786",
+            "date_create": "2025-03-25"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/gemma-3-27b-it"
+        },
         "manual_validated": false
     },
     {
@@ -12334,6 +12461,22 @@
         "manual_validated": false
     },
     {
+        "name": "Minos",
+        "year": 2025,
+        "publication": {
+            "title": "README - Minos-v1 repository",
+            "url": "https://huggingface.co/NousResearch/Minos-v1/blob/edb1e8b7cc80a86cc356534948cca0ef4c46f8e2/README.md",
+            "date_create": "2025-04-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/Minos-v1"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Qwen3",
         "year": 2025,
         "publication": {
@@ -12404,7 +12547,7 @@
         "name": "INTELLECT-2",
         "year": 2025,
         "publication": {
-            "title": "Blog - INTELLECT-2 Release: The First 32B Parameter Model Trained Through Globally Distributed Reinforcement Learning",
+            "title": "Blog - INTELLECT-2",
             "url": "https://www.primeintellect.ai/blog/intellect-2-release",
             "date_create": "2025-05-11"
         },
@@ -12523,6 +12666,22 @@
             "url": "https://github.com/IST-DASLab/Quartet"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Devstral",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Devstral",
+            "url": "https://mistral.ai/news/devstral",
+            "date_create": "2025-05-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Devstral-Small-2505"
+        },
         "manual_validated": false
     },
     {
@@ -12696,6 +12855,25 @@
         "manual_validated": false
     },
     {
+        "name": "SmolLM3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - SmolLM3",
+            "url": "https://huggingface.co/blog/smollm3",
+            "date_create": "2025-07-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/huggingface/smollm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/HuggingFaceTB/smollm3-686d33c1fdffe8e635317e23"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "H-Net",
         "year": 2025,
         "publication": {
@@ -12751,6 +12929,44 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Kimi K2",
+        "year": 2025,
+        "publication": {
+            "title": "Kimi K2: Open Agentic Intelligence",
+            "url": "https://arxiv.org/abs/2507.20534",
+            "date_create": "2025-07-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MoonshotAI/Kimi-K2"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Falcon-H1",
+        "year": 2025,
+        "publication": {
+            "title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+            "url": "https://arxiv.org/abs/2507.22448",
+            "date_create": "2025-07-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/tiiuae/falcon-h1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/tiiuae/falcon-h1"
+        },
         "manual_validated": false
     },
     {
