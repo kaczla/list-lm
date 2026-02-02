@@ -1,11 +1,14 @@
 - [AgentTuning](https://github.com/THUDM/AgentTuning) - AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.
+- [Agno](https://github.com/agno-agi/agno) - Framework for building multi-agent systems with persistent learning and memory capabilities.
 - [AIChat](https://github.com/sigoden/aichat) - AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.
 - [AirLLM](https://github.com/lyogavin/airllm) - AirLLM optimizes inference memory usage, allowing 70B large language models to run inference on a single 4GB GPU card without quantization, distillation and pruning.
 - [AITemplate](https://github.com/facebookincubator/AITemplate) - AITemplate (AIT) is a Python framework that transforms deep neural networks into CUDA (NVIDIA GPU) / HIP (AMD GPU) C++ code for lightning-fast inference serving.
 - [Alpaca-LoRA](https://github.com/tloen/alpaca-lora) - This repository contains code for reproducing the Stanford Alpaca results using low-rank adaptation (LoRA).
 - [AlpacaFarm](https://github.com/tatsu-lab/alpaca_farm) - AlpacaFarm is a simulator that enables research and development on learning from feedback at a fraction of the usual cost, promoting accessible research on instruction following and alignment.
 - [Ambrosia](https://github.com/reactorsh/ambrosia) - Ambrosia is a cross-platform command line tool for improving the text datasets you use for machine learning.
+- [AnchorContext](https://github.com/haonan3/anchorcontext) - AnchorAttention mechanism for enhanced long-context training with RoPE in BFloat16.
 - [AntiSlop Sampler](https://github.com/sam-paech/antislop-sampler) - The AntiSlop sampler uses a backtracking mechanism to go back and retry with adjusted token probabilities when it encounters a disallowed word or phrase.
+- [Anubis](https://github.com/TecharoHQ/anubis) - Web AI Firewall that weighs incoming HTTP requests to stop AI crawlers and scraper bots.
 - [AQT](https://github.com/google/aqt) - AQT is a software library designed for easy tensor opeartion quantization in JAX.
 - [attorch](https://github.com/BobMcDear/attorch) - attorch is a subset of PyTorch's nn module, written purely in Python using OpenAI's Triton. Its goal is to be an easily hackable, self-contained, and readable collection of neural network modules whilst maintaining or improving upon the efficiency of PyTorch.
 - [AutoChain](https://github.com/Forethought-Technologies/AutoChain) - AutoChain: Build lightweight, extensible, and testable LLM Agents
@@ -13,23 +16,29 @@
 - [AutoGen Studio](https://github.com/microsoft/autogen/tree/main/samples/apps/autogen-studio) - AutoGen Studio is an AutoGen-powered AI app (user interface) to help you rapidly prototype AI agents, enhance them with skills, compose them into workflows and interact with them to accomplish tasks.
 - [Aviary](https://github.com/ray-project/aviary) - Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) - Axolotl is a tool designed to streamline the fine-tuning of various AI models, offering support for multiple configurations and architectures.
+- [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) - Comprehensive fine-tuning framework supporting LoRA, QLoRA, DPO, and multimodal training.
 - [bagua](https://github.com/BaguaSys/bagua) - Bagua is a deep learning training acceleration framework for PyTorch
 - [Batched LoRAs](https://github.com/sabetAI/BLoRA) - Maximize GPU util by routing inference through multiple LoRAs in the same batch.
 - [BayLing](https://github.com/ictnlp/BayLing) - BayLing is an instruction-following large language model equipped with advanced language alignment, showing superior capability in English/Chinese generation, instruction following and multi-turn interaction.
+- [Bee Agent Framework](https://github.com/i-am-bee/bee-agent-framework) - Comprehensive toolkit for building intelligent, autonomous agents and multi-agent systems.
 - [BiGS](https://github.com/jxiw/BiGS) - This repository contains BiGS's jax model definitions, pretrained models weights, training and fine-tuning code for our paper exploring using state space models for pretraining.
 - [BitBLAS](https://github.com/microsoft/BitBLAS) - BitBLAS is a library to support mixed-precision BLAS operations on GPUs
+- [BitNet](https://github.com/microsoft/BitNet) - Official inference framework for 1-bit LLMs with optimized kernels for CPU and GPU.
 - [bricks](https://github.com/code-kern-ai/bricks) - Open-source natural language enrichments at your fingertips.
 - [Burn](https://github.com/burn-rs/burn) - Burn - A Flexible and Comprehensive Deep Learning Framework in Rust
 - [BYOD](https://github.com/neelsjain/BYOD) - A framework for self-supervised model evaluation. In this framework, metrics are defined as invariances and sensitivities that can be checked in a self-supervised fashion using interventions based only on the model in question rather than external labels.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.
+- [Chonkie](https://github.com/chonkie-inc/chonkie) - Lightweight text chunking library for efficient RAG pipelines with multiple chunking strategies.
 - [ChunkLlama](https://github.com/HKUNLP/ChunkLlama) - Dual chunk attention is a training-free and effective method for extending the context window of large language models (LLMs) to more than 8x times their original pre-training length
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
 - [COLLIE](https://github.com/princeton-nlp/Collie) - COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.
 - [comgra](https://github.com/FlorianDietz/comgra) - Comgra stands for "computation graph analysis" and it is a library for use with pytorch that makes it easier to inspect the internals of your neural networks.
 - [Composio](https://github.com/ComposioHQ/composio) - Composio equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
 - [Cramming Language Model (Pretraining)](https://github.com/JonasGeiping/cramming) - Cramming the training of a (BERT-type) language model into limited compute. Cramming: Training a Language Model on a Single GPU in One Day.
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing, autonomous AI agents for collaborative intelligence.
 - [CRITIC](https://github.com/microsoft/ProphetNet/tree/master/CRITIC) - CRITIC empowers LLMs to validate and rectify themselves through interaction with external tools.
 - [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C++ and Python library for efficient inference with Transformer models.
+- [Cut Cross-Entropy (CCE)](https://github.com/apple/ml-cross-entropy) - Memory-efficient method for computing cross-entropy loss without materializing full logits.
 - [cyclemoid-pytorch](https://github.com/rasbt/cyclemoid-pytorch) - This is an implementation of the cyclemoid activation function for PyTorch.
 - [Daft](https://github.com/Eventual-Inc/Daft) - Daft is a fast, Pythonic and scalable open-source dataframe library built for Python and Machine Learning workloads.
 - [dalai](https://github.com/cocktailpeanut/dalai) - Run LLaMA and Alpaca on your computer.
@@ -54,6 +63,7 @@
 - [ExecuTorch](https://github.com/pytorch/executorch) - ExecuTorch is an end-to-end solution for enabling on-device inference capabilities across mobile and edge devices including wearables, embedded devices and microcontrollers. It is part of the PyTorch Edge ecosystem and enables efficient deployment of PyTorch models to edge devices.
 - [ExLlama](https://github.com/turboderp/exllama) - A more memory-efficient rewrite of the HF transformers implementation of Llama for use with quantized weights.
 - [ExLlamaV2](https://github.com/turboderp/exllamav2) - ExLlamaV2 is a fast inference library for running LLMs locally on modern consumer-class GPUs
+- [exo](https://github.com/exo-explore/exo) - Distributed AI inference system for running large language models across multiple devices.
 - [Explainpaper](https://www.explainpaper.com) - Upload a paper, highlight confusing text, get an explanation.
 - [fabric](https://github.com/danielmiessler/fabric) - fabric is an open-source framework for augmenting humans using AI.
 - [FastChat](https://github.com/lm-sys/FastChat) - FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
@@ -63,6 +73,7 @@
 - [FlashAttention](https://github.com/HazyResearch/flash-attention) - Fast and memory-efficient exact attention.
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer) - FlashInfer: Kernel Library for LLM Serving
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexGen allows high-throughput generation by IO-efficient offloading, compression, and large effective batch sizes.
+- [FlexHeadFA](https://github.com/xiayuqing0622/customized-flash-attention) - FlashAttention extension supporting flexible and mismatched head dimensions.
 - [Flute](https://github.com/HanGuo97/flute) - Flute is a fast matrix multiplication library for lookup table-quantized large language models.
 - [ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
@@ -79,12 +90,19 @@
 - [Instructor](https://github.com/jxnl/instructor) - Instructor is a Python library that makes it a breeze to work with structured outputs from large language models (LLMs). Built on top of Pydantic, it provides a simple, transparent, and user-friendly API to manage validation, retries, and streaming responses.
 - [Intel Extension for Transformers](https://github.com/intel/intel-extension-for-transformers) - Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms
 - [InternLM](https://github.com/InternLM/InternLM) - InternLM has open-sourced a 7 billion parameter base model and a chat model tailored for practical scenarios.
+- [Jan](https://github.com/menloresearch/jan) - Open source ChatGPT alternative that runs 100% offline on your computer with support for local model execution.
+- [kernels](https://github.com/huggingface/kernels) - Load optimized compute kernels from Hugging Face Hub with cross-version compatibility.
+- [KTransformers](https://github.com/shuzhangzhong/HybriMoE-Preview) - Framework for optimizing LLM inference with kernel optimizations and GPU/CPU offloading strategies.
 - [L-Eval](https://github.com/openlmlab/leval) - L-Eval: Instituting Standardized Evaluation for Long Context Language Models.
 - [Lamini](https://github.com/lamini-ai/lamini) - Official repo for Lamini's data generator for generating instructions to train instruction-following LLMs.
 - [Lance](https://github.com/lancedb/lance) - Lance is a modern columnar data format that is optimized for ML workflows and datasets. Convert from parquet in 2-lines of code for 100x faster random access, a vector index, data versioning, and more. Compatible with pandas, duckdb, polars, pyarrow, with more integrations on the way.
 - [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
+- [LangChain](https://github.com/langchain-ai/langchain) - Python framework for building agents and LLM-powered applications by integrating language models with data sources and tools.
+- [Langroid](https://github.com/langroid/langroid) - Python framework for building LLM-powered applications using a multi-agent programming paradigm.
 - [Language Models](https://github.com/jncraton/languagemodels) - Python building blocks to explore large language models on any computer with 512MB of RAM.
+- [Lemonade](https://github.com/lemonade-sdk/lemonade) - Local AI inference platform optimized for running LLMs on personal GPUs and NPUs.
 - [LightEval](https://github.com/huggingface/lighteval) - LightEval is a lightweight LLM evaluation suite that Hugging Face has been using internally with the recently released LLM data processing library datatrove and LLM training library nanotron.
+- [Lingua](https://github.com/facebookresearch/lingua) - Minimal and fast LLM training and inference library designed for research.
 - [Lit-LLaMA](https://github.com/Lightning-AI/lit-llama) - Independent implementation of LLaMA that is fully open source under the Apache 2.0 license.
 - [LiteLLM](https://github.com/BerriAI/litellm) - lightweight package to simplify LLM API calls - Azure, OpenAI, Cohere, Anthropic, Replicate.
 - [LitServe](https://github.com/Lightning-AI/litserve) - LitServe is an easy-to-use, flexible serving engine for AI models built on FastAPI. It augments FastAPI with features like batching, streaming, and GPU autoscaling eliminate the need to rebuild a FastAPI server per model.
@@ -96,9 +114,11 @@
 - [LlamaIndex](https://github.com/jerryjliu/llama_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 - [llm](https://github.com/rustformers/llm) - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
 - [LLM decontaminator](https://github.com/lm-sys/llm-decontaminator) - Use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.
+- [llm-council](https://github.com/karpathy/llm-council) - Multi-LLM query tool that orchestrates peer review and synthesis across different models.
 - [LLMLingua](https://github.com/microsoft/LLMLingua) - LLMLingua utilizes a compact, well-trained language model (e.g., GPT2-small, LLaMA-7B) to identify and remove non-essential tokens in prompts
 - [LLMParser](https://github.com/kyang6/llmparser) - LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.
+- [LMCache](https://github.com/LMCache/LMCache) - LLM serving engine extension that manages KV caches across distributed storage to reduce TTFT and increase throughput.
 - [Lookahead Decoding](https://github.com/hao-ai-lab/LookaheadDecoding) - We introduce lookahead decoding - a parallel decoding algorithm to accelerate LLM inference.
 - [LoRAX](https://github.com/predibase/lorax) - LoRAX (LoRA eXchange) is a framework that allows users to serve thousands of fine-tuned models on a single GPU, dramatically reducing the cost of serving without compromising on throughput or latency.
 - [Lovely Tensors](https://github.com/xl0/lovely-tensors) - Tensors, ready for human consumption.
@@ -107,6 +127,7 @@
 - [M3E](https://github.com/wangyingdong/m3e-base) - Moka Massive Mixed Embedding
 - [Macaw-LLM](https://github.com/lyuchenyang/Macaw-LLM) - Macaw-LLM is an exploratory endeavor that pioneers multi-modal language modeling by seamlessly combining image, video, audio, and text data, built upon the foundations of CLIP, Whisper, and LLaMA.
 - [Mamba-Chat](https://github.com/havenhq/mamba-chat) - Mamba-Chat is the first chat language model based on a state-space model architecture, not a transformer.
+- [Marin](https://github.com/marin-community/marin) - Open-source framework for research and development of foundation models with complete lifecycle tracking.
 - [Marvin](https://github.com/PrefectHQ/marvin) - Meet Marvin: a batteries-included library for building AI-powered software. Marvin's job is to integrate AI directly into your codebase by making it look and feel like any other function.
 - [Medusa](https://github.com/FasterDecoding/Medusa) - Medusa is a simple framework that democratizes the acceleration techniques for LLM generation with multiple decoding heads.
 - [Merlin Dataloader](https://github.com/NVIDIA-Merlin/dataloader) - The merlin dataloader lets you rapidly load tabular data for training deep leaning models with TensorFlow, PyTorch or JAX
@@ -115,22 +136,29 @@
 - [MiniChain](https://github.com/srush/MiniChain) - MiniChain is a tiny library for coding with large language models.
 - [MiniLLM](https://github.com/kuleshov/minillm) - MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs.
 - [Mirage](https://github.com/mirage-project/mirage) - Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.
+- [Mirage Persistent Kernel (MPK)](https://github.com/mirage-project/mirage) - Compiler and runtime system that transforms LLM inference into optimized megakernels through end-to-end GPU fusion.
 - [Mistral Transformer](https://github.com/mistralai-sf24/hackathon) - This repository contains minimal code to run our 7B model and to finetune it.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - https://github.com/EricLBuehler/mistral.rs
 - [Mixtral offloading](https://github.com/dvmazur/mixtral-offloading) - Run Mixtral-8x7B models in Colab or consumer desktops
 - [MLX](https://github.com/ml-explore/mlx) - MLX is an array framework for machine learning on Apple silicon, brought to you by Apple machine learning research.
 - [ModelScope](https://github.com/modelscope/modelscope) - ModelScope is built upon the notion of “Model-as-a-Service” (MaaS). It seeks to bring together most advanced machine learning models from the AI community, and streamlines the process of leveraging AI models in real-world applications. The core ModelScope library open-sourced in this repository provides the interfaces and implementations that allow developers to perform model inference, training and evaluation.
 - [Modula](https://github.com/jxbz/modula) - Modula is a deep learning framework designed for graceful scaling. The user defines a compound module (i.e. neural network) in Modula by arbitrarily composing atom and bond modules (e.g. linear layers and nonlinearities). Modula then automatically normalizes weight updates in the modular norm corresponding to this compound. This leads to automatic learning rate transfer across width, depth and possibly other architectural dimensions.
+- [Monarch](https://github.com/pytorch-labs/monarch) - Distributed programming framework for PyTorch built on scalable actor messaging with fault tolerance and RDMA transfers.
 - [Mosaic streaming](https://github.com/mosaicml/streaming) - Fast, accurate streaming of training data from cloud storage.
 - [MosaicML Examples](https://github.com/mosaicml/examples) - This repo contains reference examples for training ML models quickly and to high accuracy. MosaicBERT
 - [Multimodal-GPT](https://github.com/open-mmlab/Multimodal-GPT) - Train a multi-modal chatbot with visual and language instructions!
 - [mup](https://github.com/microsoft/mup) - Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer
+- [nanoAhaMoment](https://github.com/McGill-NLP/nano-aha-moment) - Single-file reinforcement learning library for full-parameter tuning of LLMs on a single GPU.
+- [nanochat](https://github.com/karpathy/nanochat) - Minimalist framework for training GPT-2 capability models on single GPU nodes.
 - [nebullvm](https://github.com/nebuly-ai/nebullvm) - Nebullvm is an ecosystem of plug and play modules to optimize the performances of your AI systems. The optimization modules are stack-agnostic and work with any library. They are designed to be easily integrated into your system, providing a quick and seamless boost to its performance. Simply plug and play to start realizing the benefits of optimized performance right away.
 - [NEFTune](https://github.com/neelsjain/NEFTune) - Noisy Embedding Instruction Fine Tuning (NEFTune) add random noise to the embedding vectors of the training data during the forward pass of fine-tuning.
 - [OctoPack](https://github.com/bigcode-project/octopack) - OctoPack: Instruction Tuning Code Large Language Models
 - [Ollama](https://github.com/jmorganca/ollama) - Run, create, and share large language models (LLMs).
+- [oLLM](https://github.com/Mega4alik/ollm) - Lightweight library for large-context LLM inference on consumer GPUs with limited VRAM.
 - [OmniQuant](https://github.com/OpenGVLab/OmniQuant) - OmniQuant is a simple and powerful quantization technique for LLMs.
+- [Online Alignment Toolkit (OAT)](https://github.com/sail-sg/oat) - Framework for LLM online alignment including reinforcement learning and preference learning.
 - [Opacus](https://github.com/pytorch/opacus) - Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.
+- [Open Instruct](https://github.com/allenai/open-instruct) - Post-training codebase for instruction-tuning and fine-tuning language models.
 - [Open LLMetry](https://github.com/traceloop/openllmetry) - Open-source observability for your LLM application
 - [OpenChatKit](https://github.com/togethercomputer/OpenChatKit) - OpenChatKit provides a powerful, open-source base to create both specialized and general purpose chatbots for various applications. The kit includes an instruction-tuned language models, a moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.
 - [OpenELM](https://github.com/CarperAI/OpenELM) - OpenELM is an open-source library by CarperAI, designed to enable evolutionary search with language models in both code and natural language.
@@ -138,12 +166,14 @@
 - [OpenLM](https://github.com/r2d4/openlm) - Drop-in OpenAI-compatible library that can call LLMs from other providers (e.g., HuggingFace, Cohere, and more).
 - [OpenPipe](https://github.com/OpenPipe/OpenPipe) - Test and deploy your LLM prompts in a data-driven way on an open-source and self-hostable platform.
 - [openplayground](https://github.com/nat/openplayground) - An LLM playground you can run on your laptop.
+- [Opik](https://github.com/comet-ml/opik) - LLM observability and evaluation platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows.
 - [Optax](https://github.com/google-deepmind/optax) - Optax is a gradient processing and optimization library for JAX.
 - [Otter](https://github.com/Luodian/otter) - Otter, a multi-modal model based on OpenFlamingo (open-sourced version of DeepMind's Flamingo), trained on MIMIC-IT and showcasing improved instruction-following ability and in-context learning.
 - [Outlines](https://github.com/normal-computing/outlines) - Outlines is a library for neural text generation.
 - [PaLM](https://github.com/conceptofmind/PaLM) - An open-source implementation of Google's PaLM models.
 - [PaLM + RLHF](https://github.com/lucidrains/PaLM-rlhf-pytorch) - Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM.
 - [PEFT](https://github.com/huggingface/peft) - Parameter-Efficient Fine-Tuning (PEFT) methods enable efficient adaptation of pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model's parameters.
+- [pipelining-sft](https://github.com/character-ai/pipelining-sft) - Distributed training framework for full-parameter supervised fine-tuning with pipeline parallelism.
 - [PowerInfer](https://github.com/SJTU-IPADS/PowerInfer) - PowerInfer is a CPU/GPU LLM inference engine leveraging activation locality for your device.
 - [Praison AI](https://github.com/MervinPraison/PraisonAI) - Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.
 - [privateGPT](https://github.com/imartinez/privateGPT) - Interact privately with your documents using the power of GPT, 100% privately, no data leaks.
@@ -157,10 +187,13 @@
 - [Quality Prompts](https://github.com/sarthakrastogi/quality-prompts) - Quality Prompts implements 58 prompting techniques explained in this survey from OpenAI, Microsoft, et al.
 - [QUICK](https://github.com/squeezebits/quick) - QUICK, a collection of novel optimized CUDA kernels designed for faster inference of quantized Large Language Models (LLMs). QUICK addresses the shared memory write-back bank conflict issue in state-of-the-art mixed precision General Matrix Multiplication (GEMM) kernels.
 - [RasaGPT](https://github.com/paulpierre/RasaGPT) - RasaGPT is the first headless LLM chatbot platform built on top of Rasa and Langchain. Built w/ Rasa, FastAPI, Langchain, LlamaIndex, SQLModel, pgvector, ngrok, telegram.
+- [Rwf](https://github.com/levkk/rwf) - Comprehensive framework for building web applications in Rust following the MVC pattern.
 - [S-LoRA](https://github.com/S-LoRA/S-LoRA) - S-LoRA: Serving Thousands of Concurrent LoRA Adapters
 - [safari](https://github.com/HazyResearch/safari) - Convolutions for Sequence Modeling, contains: Hyena, Long Convs, Hungry Hungry Hippos (H3).
 - [SapientML](https://github.com/sapientml/sapientml) - SapientML is an AutoML technology that can learn from a corpus of existing datasets and their human-written pipelines, and efficiently generate a high-quality pipeline for a predictive task on a new dataset.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Semantic Kernel (SK) is a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages.
+- [Sim](https://github.com/simstudioai/sim) - Visual workflow builder platform for designing and deploying AI agent workflows.
+- [SINQ](https://github.com/huawei-csl/SINQ) - Sinkhorn-Normalized Quantization method for fast, high-quality LLM compression.
 - [skorch](https://github.com/skorch-dev/skorch) - A scikit-learn compatible neural network library that wraps PyTorch.
 - [slowllama](https://github.com/okuvshynov/slowllama) - Fine-tune Llama2 and CodeLLama models, including 70B/35B on Apple M1/M2 devices (for example, Macbook Air or Mac Mini) or consumer nVidia GPUs.
 - [SparseML](https://github.com/neuralmagic/sparseml) - Libraries for applying sparsification recipes to neural networks with a few lines of code, enabling faster and smaller models.
@@ -171,13 +204,16 @@
 - [string2string](https://github.com/stanfordnlp/string2string) - The string2string library is an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. It includes both traditional algorithmic solutions and recent advanced neural approaches to address various problems in pairwise string alignment, distance measurement, lexical and semantic search, and similarity analysis. Additionally, the library provides several helpful visualization tools and metrics to facilitate the interpretation and analysis of these methods.
 - [Superagent](https://github.com/homanp/superagent) - Superagent is a powerful tool that simplifies the configuration and deployment of LLM (Large Language Model) Agents to production.
 - [surgeon-pytorch](https://github.com/archinetai/surgeon-pytorch) - A library to inspect and extract intermediate layers of PyTorch models.
+- [Swarm](https://github.com/openai/swarm) - Educational framework for ergonomic, lightweight multi-agent orchestration by OpenAI.
 - [SwitchHead](https://github.com/robertcsordas/moe_attention) - The official repository for our paper "SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention".
 - [Tanuki](https://github.com/Tanuki/tanuki.py) - Easily build LLM-powered apps that get cheaper and faster over time.
 - [tbparse](https://github.com/j3soon/tbparse) - A simple yet powerful tensorboard event log parser/reader.
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Text Generation Inference is a Rust, Python and gRPC server for text generation inference.
 - [Text Generation Inference (fork, free)](https://github.com/Preemo-Inc/text-generation-inference) - Text Generation Inference is a Rust, Python and gRPC server for text generation inference.
+- [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference) - Rust, Python and gRPC server for high-performance text generation inference.
 - [TextBox](https://github.com/RUCAIBox/TextBox) - TextBox 2.0 is a text generation library with pre-trained language models.
 - [TextReducer](https://github.com/helliun/targetedSummarization) - TextReducer is a tool for summarization and information extraction powered by the SentenceTransformer library.
+- [TileLang](https://github.com/tile-ai/tilelang) - Domain-specific language for developing high-performance GPU/CPU kernels for AI workloads.
 - [tinygrad](https://github.com/tinygrad/tinygrad) - tinygrad is an extremely simple deep-learning framework. It supports both inference and training.
 - [Tokasaurus](https://github.com/ScalingIntelligence/tokasaurus) - LLM inference engine optimized for throughput-intensive workloads with dynamic prefix sharing and adaptive CPU management.
 - [Torch-Pruning](https://github.com/VainF/Torch-Pruning) - Torch-Pruning is designed for structural pruning
@@ -197,3 +233,4 @@
 - [WordLlama](https://github.com/dleemiller/WordLlama) - WordLlama is a fast, lightweight NLP toolkit designed for tasks like fuzzy deduplication, similarity computation, ranking, clustering, and semantic text splitting.
 - [Xinference](https://github.com/xorbitsai/inference) - Xorbits Inference(Xinference) is a powerful and versatile library designed to serve language, speech recognition, and multimodal models. With Xorbits Inference, you can effortlessly deploy and serve your or state-of-the-art built-in models using just a single command.
 - [xturing](https://github.com/stochasticai/xturing) - xturing provides fast, efficient and simple fine-tuning of LLMs, such as LLaMA, GPT-J, GPT-2, OPT, Cerebras-GPT, Galactica, and more.
+- [YaFSDP](https://github.com/yandex/YaFSDP) - Sharded Data Parallelism framework designed for training transformer-like neural networks efficiently.

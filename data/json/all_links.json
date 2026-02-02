@@ -21,6 +21,13 @@
         "manual_validated": false
     },
     {
+        "name": "Agno",
+        "description": "Framework for building multi-agent systems with persistent learning and memory capabilities.",
+        "url": "https://github.com/agno-agi/agno",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AIChat",
         "description": "AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.",
         "url": "https://github.com/sigoden/aichat",
@@ -70,9 +77,23 @@
         "manual_validated": false
     },
     {
+        "name": "AnchorContext",
+        "description": "AnchorAttention mechanism for enhanced long-context training with RoPE in BFloat16.",
+        "url": "https://github.com/haonan3/anchorcontext",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AntiSlop Sampler",
         "description": "The AntiSlop sampler uses a backtracking mechanism to go back and retry with adjusted token probabilities when it encounters a disallowed word or phrase.",
         "url": "https://github.com/sam-paech/antislop-sampler",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Anubis",
+        "description": "Web AI Firewall that weighs incoming HTTP requests to stop AI crawlers and scraper bots.",
+        "url": "https://github.com/TecharoHQ/anubis",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -140,6 +161,13 @@
         "manual_validated": false
     },
     {
+        "name": "Axolotl",
+        "description": "Comprehensive fine-tuning framework supporting LoRA, QLoRA, DPO, and multimodal training.",
+        "url": "https://github.com/axolotl-ai-cloud/axolotl",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "bagua",
         "description": "Bagua is a deep learning training acceleration framework for PyTorch",
         "url": "https://github.com/BaguaSys/bagua",
@@ -157,6 +185,13 @@
         "name": "BayLing",
         "description": "BayLing is an instruction-following large language model equipped with advanced language alignment, showing superior capability in English/Chinese generation, instruction following and multi-turn interaction.",
         "url": "https://github.com/ictnlp/BayLing",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Bee Agent Framework",
+        "description": "Comprehensive toolkit for building intelligent, autonomous agents and multi-agent systems.",
+        "url": "https://github.com/i-am-bee/bee-agent-framework",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -193,6 +228,13 @@
         "description": "BitFit is a sparse-finetuning method where only the bias-terms of the model (or a subset of them) are being modified.",
         "url": "https://github.com/benzakenelad/BitFit",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "BitNet",
+        "description": "Official inference framework for 1-bit LLMs with optimized kernels for CPU and GPU.",
+        "url": "https://github.com/microsoft/BitNet",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -283,6 +325,13 @@
         "name": "ChainForge",
         "description": "ChainForge is a data flow prompt engineering environment for analyzing and evaluating LLM responses. It is geared towards early-stage, quick-and-dirty exploration of prompts and response quality that goes beyond ad-hoc chatting with individual LLMs.",
         "url": "https://github.com/ianarawjo/ChainForge",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Chonkie",
+        "description": "Lightweight text chunking library for efficient RAG pipelines with multiple chunking strategies.",
+        "url": "https://github.com/chonkie-inc/chonkie",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -385,6 +434,13 @@
         "manual_validated": false
     },
     {
+        "name": "CrewAI",
+        "description": "Framework for orchestrating role-playing, autonomous AI agents for collaborative intelligence.",
+        "url": "https://github.com/crewAIInc/crewAI",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "CRITIC",
         "description": "CRITIC empowers LLMs to validate and rectify themselves through interaction with external tools.",
         "url": "https://github.com/microsoft/ProphetNet/tree/master/CRITIC",
@@ -403,6 +459,13 @@
         "description": "CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.",
         "url": "https://huggingface.co/datasets/uonlp/CulturaX",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "Cut Cross-Entropy (CCE)",
+        "description": "Memory-efficient method for computing cross-entropy loss without materializing full logits.",
+        "url": "https://github.com/apple/ml-cross-entropy",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -693,6 +756,13 @@
         "manual_validated": false
     },
     {
+        "name": "exo",
+        "description": "Distributed AI inference system for running large language models across multiple devices.",
+        "url": "https://github.com/exo-explore/exo",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Expert Sparsity",
         "description": "Official Pytorch implementation of the expert pruning and dynamic skipping methods.",
         "url": "https://github.com/lucky-lance/expert_sparsity",
@@ -843,6 +913,13 @@
         "name": "FlexGen",
         "description": "FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexGen allows high-throughput generation by IO-efficient offloading, compression, and large effective batch sizes.",
         "url": "https://github.com/FMInference/FlexGen",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "FlexHeadFA",
+        "description": "FlashAttention extension supporting flexible and mismatched head dimensions.",
+        "url": "https://github.com/xiayuqing0622/customized-flash-attention",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1085,10 +1162,24 @@
         "manual_validated": false
     },
     {
+        "name": "Jan",
+        "description": "Open source ChatGPT alternative that runs 100% offline on your computer with support for local model execution.",
+        "url": "https://github.com/menloresearch/jan",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "JARVIS",
         "description": "JARVIS, a system to connect LLMs with ML community.",
         "url": "https://github.com/microsoft/JARVIS",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "kernels",
+        "description": "Load optimized compute kernels from Hugging Face Hub with cross-version compatibility.",
+        "url": "https://github.com/huggingface/kernels",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -1110,6 +1201,13 @@
         "description": "KTransformers is a flexible, Python-centric framework designed with extensibility at its core.",
         "url": "https://github.com/kvcache-ai/ktransformers",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "KTransformers",
+        "description": "Framework for optimizing LLM inference with kernel optimizations and GPU/CPU offloading strategies.",
+        "url": "https://github.com/shuzhangzhong/HybriMoE-Preview",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -1148,6 +1246,20 @@
         "manual_validated": false
     },
     {
+        "name": "LangChain",
+        "description": "Python framework for building agents and LLM-powered applications by integrating language models with data sources and tools.",
+        "url": "https://github.com/langchain-ai/langchain",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Langroid",
+        "description": "Python framework for building LLM-powered applications using a multi-agent programming paradigm.",
+        "url": "https://github.com/langroid/langroid",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Language Models",
         "description": "Python building blocks to explore large language models on any computer with 512MB of RAM.",
         "url": "https://github.com/jncraton/languagemodels",
@@ -1173,6 +1285,13 @@
         "description": "Lazy Predict helps build a lot of basic models without much code and helps understand which models works better without any parameter tuning.",
         "url": "https://github.com/shankarpandala/lazypredict",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "Lemonade",
+        "description": "Local AI inference platform optimized for running LLMs on personal GPUs and NPUs.",
+        "url": "https://github.com/lemonade-sdk/lemonade",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -1222,6 +1341,13 @@
         "description": "Dataset for LIMA: Less Is More for Alignment.",
         "url": "https://huggingface.co/datasets/GAIR/lima",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "Lingua",
+        "description": "Minimal and fast LLM training and inference library designed for research.",
+        "url": "https://github.com/facebookresearch/lingua",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -1330,6 +1456,13 @@
         "manual_validated": false
     },
     {
+        "name": "llm-council",
+        "description": "Multi-LLM query tool that orchestrates peer review and synthesis across different models.",
+        "url": "https://github.com/karpathy/llm-council",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "llm.c",
         "description": "LLM training in simple, raw C/CUDA",
         "url": "https://github.com/karpathy/llm.c",
@@ -1354,6 +1487,13 @@
         "name": "lm-evaluation-harness",
         "description": "A framework for few-shot evaluation of autoregressive language models.",
         "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "LMCache",
+        "description": "LLM serving engine extension that manages KV caches across distributed storage to reduce TTFT and increase throughput.",
+        "url": "https://github.com/LMCache/LMCache",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1452,6 +1592,13 @@
         "name": "Mamba-Chat",
         "description": "Mamba-Chat is the first chat language model based on a state-space model architecture, not a transformer.",
         "url": "https://github.com/havenhq/mamba-chat",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Marin",
+        "description": "Open-source framework for research and development of foundation models with complete lifecycle tracking.",
+        "url": "https://github.com/marin-community/marin",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1568,6 +1715,13 @@
         "manual_validated": false
     },
     {
+        "name": "Mirage Persistent Kernel (MPK)",
+        "description": "Compiler and runtime system that transforms LLM inference into optimized megakernels through end-to-end GPU fusion.",
+        "url": "https://github.com/mirage-project/mirage",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Mistral Transformer",
         "description": "This repository contains minimal code to run our 7B model and to finetune it.",
         "url": "https://github.com/mistralai-sf24/hackathon",
@@ -1645,6 +1799,20 @@
         "manual_validated": false
     },
     {
+        "name": "Monarch",
+        "description": "Distributed programming framework for PyTorch built on scalable actor messaging with fault tolerance and RDMA transfers.",
+        "url": "https://github.com/pytorch-labs/monarch",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Montessori-Instruct",
+        "description": "Data synthesis framework that tailors the data synthesis ability of the teacher toward the student's learning process.",
+        "url": "https://github.com/cxcscmu/montessori-instruct",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "Mosaic composer",
         "description": "Composer is a PyTorch library that enables you to train neural networks faster, at lower cost, and to higher accuracy. Train neural networks up to 7x faster.",
         "url": "https://github.com/mosaicml/composer",
@@ -1711,6 +1879,20 @@
         "name": "mup",
         "description": "Maximal Update Parametrization (μP) and Hyperparameter Transfer (μTransfer): Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
         "url": "https://github.com/microsoft/mup",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "nanoAhaMoment",
+        "description": "Single-file reinforcement learning library for full-parameter tuning of LLMs on a single GPU.",
+        "url": "https://github.com/McGill-NLP/nano-aha-moment",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "nanochat",
+        "description": "Minimalist framework for training GPT-2 capability models on single GPU nodes.",
+        "url": "https://github.com/karpathy/nanochat",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1820,6 +2002,13 @@
         "manual_validated": false
     },
     {
+        "name": "oLLM",
+        "description": "Lightweight library for large-context LLM inference on consumer GPUs with limited VRAM.",
+        "url": "https://github.com/Mega4alik/ollm",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "OmniQuant",
         "description": "OmniQuant is a simple and powerful quantization technique for LLMs.",
         "url": "https://github.com/OpenGVLab/OmniQuant",
@@ -1827,9 +2016,23 @@
         "manual_validated": false
     },
     {
+        "name": "Online Alignment Toolkit (OAT)",
+        "description": "Framework for LLM online alignment including reinforcement learning and preference learning.",
+        "url": "https://github.com/sail-sg/oat",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Opacus",
         "description": "Opacus is a library that enables training PyTorch models with differential privacy. It supports training with minimal code changes required on the client, has little impact on training performance, and allows the client to online track the privacy budget expended at any given moment.",
         "url": "https://github.com/pytorch/opacus",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "Open Instruct",
+        "description": "Post-training codebase for instruction-tuning and fine-tuning language models.",
+        "url": "https://github.com/allenai/open-instruct",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1918,6 +2121,13 @@
         "manual_validated": false
     },
     {
+        "name": "Opik",
+        "description": "LLM observability and evaluation platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows.",
+        "url": "https://github.com/comet-ml/opik",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Optax",
         "description": "Optax is a gradient processing and optimization library for JAX.",
         "url": "https://github.com/google-deepmind/optax",
@@ -1992,6 +2202,13 @@
         "description": "Pints Train is a compact LLM pretrained in 9 days by using high quality data.",
         "url": "https://github.com/Pints-AI/1.5-Pints",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "pipelining-sft",
+        "description": "Distributed training framework for full-parameter supervised fine-tuning with pipeline parallelism.",
+        "url": "https://github.com/character-ai/pipelining-sft",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -2156,6 +2373,20 @@
         "manual_validated": false
     },
     {
+        "name": "RustGPT",
+        "description": "Educational transformer-based LLM implementation written entirely in Rust.",
+        "url": "https://github.com/tekaratzas/RustGPT",
+        "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "Rwf",
+        "description": "Comprehensive framework for building web applications in Rust following the MVC pattern.",
+        "url": "https://github.com/levkk/rwf",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "RWKV",
         "description": "RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
         "url": "https://github.com/BlinkDL/RWKV-LM",
@@ -2254,6 +2485,13 @@
         "manual_validated": false
     },
     {
+        "name": "Sim",
+        "description": "Visual workflow builder platform for designing and deploying AI agent workflows.",
+        "url": "https://github.com/simstudioai/sim",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "simpletransformers",
         "description": "This library is based on the Transformers library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. Only 3 lines of code are needed to initialize, train, and evaluate a model.",
         "url": "https://github.com/ThilinaRajapakse/simpletransformers",
@@ -2265,6 +2503,13 @@
         "description": "A simple design recipe for deep Transformers is to compose identical building blocks.",
         "url": "https://github.com/bobby-he/simplified_transformers",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "SINQ",
+        "description": "Sinkhorn-Normalized Quantization method for fast, high-quality LLM compression.",
+        "url": "https://github.com/huawei-csl/SINQ",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -2380,6 +2625,13 @@
         "manual_validated": false
     },
     {
+        "name": "StochasTok",
+        "description": "Stochastic tokenization scheme that randomly splits tokens during training to improve fine-grained subword understanding in LLMs.",
+        "url": "https://arxiv.org/abs/2506.01687",
+        "link_type": "Vocabulary links",
+        "manual_validated": false
+    },
+    {
         "name": "StreamingLLM",
         "description": "Efficient Streaming Language Models with Attention Sinks",
         "url": "https://github.com/mit-han-lab/streaming-llm",
@@ -2440,6 +2692,13 @@
         "description": "The Prompt Report: A Systematic Survey of Prompting Techniques",
         "url": "https://arxiv.org/abs/2406.06608",
         "link_type": "Topic links",
+        "manual_validated": false
+    },
+    {
+        "name": "Swarm",
+        "description": "Educational framework for ergonomic, lightweight multi-agent orchestration by OpenAI.",
+        "url": "https://github.com/openai/swarm",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -2506,6 +2765,13 @@
         "manual_validated": false
     },
     {
+        "name": "Text Generation Inference (TGI)",
+        "description": "Rust, Python and gRPC server for high-performance text generation inference.",
+        "url": "https://github.com/huggingface/text-generation-inference",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "TextBox",
         "description": "TextBox 2.0 is a text generation library with pre-trained language models.",
         "url": "https://github.com/RUCAIBox/TextBox",
@@ -2545,6 +2811,13 @@
         "description": "tiktoken is a fast BPE tokeniser for use with OpenAI's models.",
         "url": "https://github.com/openai/tiktoken",
         "link_type": "Vocabulary links",
+        "manual_validated": false
+    },
+    {
+        "name": "TileLang",
+        "description": "Domain-specific language for developing high-performance GPU/CPU kernels for AI workloads.",
+        "url": "https://github.com/tile-ai/tilelang",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {
@@ -2859,6 +3132,13 @@
         "name": "xturing",
         "description": "xturing provides fast, efficient and simple fine-tuning of LLMs, such as LLaMA, GPT-J, GPT-2, OPT, Cerebras-GPT, Galactica, and more.",
         "url": "https://github.com/stochasticai/xturing",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "YaFSDP",
+        "description": "Sharded Data Parallelism framework designed for training transformer-like neural networks efficiently.",
+        "url": "https://github.com/yandex/YaFSDP",
         "link_type": "Utils links",
         "manual_validated": false
     }

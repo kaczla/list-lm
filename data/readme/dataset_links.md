@@ -24,6 +24,7 @@
 - [LMSYS-Chat](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) - This dataset contains one million real-world conversations with 25 state-of-the-art LLMs.
 - [MASSIVE](https://github.com/alexa/massive) - MASSIVE is a parallel dataset of > 1M utterances across 52 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation.
 - [MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) - MathInstruct is a meticulously curated instruction tuning dataset that is lightweight yet generalizable.
+- [Montessori-Instruct](https://github.com/cxcscmu/montessori-instruct) - Data synthesis framework that tailors the data synthesis ability of the teacher toward the student's learning process.
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.
 - [Open Super-large Crawled ALMAnaCH coRpus (OSCAR)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.

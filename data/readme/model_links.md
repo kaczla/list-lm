@@ -77,6 +77,7 @@
 - [Pints Train](https://github.com/Pints-AI/1.5-Pints) - Pints Train is a compact LLM pretrained in 9 days by using high quality data.
 - [Pretrained Language Model](https://github.com/huawei-noah/Pretrained-Language-Model) - Pretrained language model and its related optimization techniques developed by Huawei Noah's Ark Lab.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM) - RouteLLM is a framework for serving and evaluating LLM routers.
+- [RustGPT](https://github.com/tekaratzas/RustGPT) - Educational transformer-based LLM implementation written entirely in Rust.
 - [RWKV](https://github.com/BlinkDL/RWKV-LM) - RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer: great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
 - [ScatterMoE](https://github.com/shawntan/scattermoe) - Triton-based implementation of Sparse Mixture-of-Experts (SMoE) on GPUs.
 - [SeqIO](https://github.com/google/seqio) - Task-based datasets, preprocessing, and evaluation for sequence models.
