@@ -2123,7 +2123,8 @@
 - MobileLLM
   - Year: 2024
   - Publication: [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/abs/2402.14905) (2024-02-22)
-  - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-1B)
+  - Code: [GitHub](https://github.com/facebookresearch/MobileLLM)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-1.5B)
 
 - MegaScale
   - Year: 2024
@@ -3815,6 +3816,18 @@
   - Year: 2025
   - Publication: [Blog - Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) (2025-02-24)
 
+- Moonlight
+  - Year: 2025
+  - Publication: [Muon is Scalable for LLM Training](https://arxiv.org/abs/2502.16982) (2025-02-24)
+  - Code: [GitHub](https://github.com/MoonshotAI/Moonlight)
+  - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct)
+
+- DeepHermes 3 Llama 3 8B
+  - Year: 2025
+  - Publication: [HuggingFace - DeepHermes-3-Llama-3-8B-Preview](https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview) (2025-02-28)
+  - Code: [GitHub](https://github.com/NousResearch/Hermes-Function-Calling)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview)
+
 - FlexPrefill
   - Year: 2025
   - Publication: [FlexPrefill: A Context-Aware Sparse Attention Mechanism for Efficient Long-Sequence Inference](https://arxiv.org/abs/2502.20766) (2025-02-28)
@@ -3836,6 +3849,10 @@
   - Publication: [ReaderLM-v2: Small Language Model for HTML to Markdown and JSON](https://arxiv.org/abs/2503.01151) (2025-03-03)
   - Code: [GitHub](https://github.com/jina-ai/reader)
   - Model weights: [HuggingFace models](https://huggingface.co/jinaai/ReaderLM-v2)
+
+- Conformal-sympow
+  - Year: 2025
+  - Publication: [Conformal Transformations for Symmetric Power Transformers](https://arxiv.org/abs/2503.03269) (2025-03-05)
 
 - PowerAttention
   - Year: 2025
@@ -4085,6 +4102,12 @@
   - Publication: [AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](https://arxiv.org/abs/2506.13284) (2025-06-16)
   - Model weights: [HuggingFace models](https://huggingface.co/nvidia/AceReason-Nemotron-1.1-7B)
 
+- MiniMax-M1
+  - Year: 2025
+  - Publication: [MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention](https://arxiv.org/abs/2506.13585) (2025-06-16)
+  - Code: [GitHub](https://github.com/MiniMax-AI/MiniMax-M1)
+  - Model weights: [HuggingFace models](https://huggingface.co/MiniMaxAI/MiniMax-M1-80k)
+
 - Autoregressive U-Nets (AU-Net)
   - Year: 2025
   - Publication: [From Bytes to Ideas: Language Modeling with Autoregressive U-Nets](https://arxiv.org/abs/2506.14761) (2025-06-17)
@@ -4222,6 +4245,12 @@
   - Code: [GitHub](https://github.com/Alibaba-NLP/DeepResearch)
   - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)
 
+- DeepScaleR
+  - Year: 2025
+  - Publication: [DeepScaleR: Effective RL Scaling of Reasoning Models via Iterative Context Lengthening](https://openreview.net/forum?id=I6GzDCne7U) (2025-09-19)
+  - Code: [GitHub](https://github.com/agentica-project/rllm)
+  - Model weights: [HuggingFace models](https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview)
+
 - SPELL
   - Year: 2025
   - Publication: [SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models](https://arxiv.org/abs/2509.23863) (2025-09-28)
@@ -4230,6 +4259,12 @@
 - Claude Sonnet 4.5
   - Year: 2025
   - Publication: [Blog - Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) (2025-09-29)
+
+- MobileLLM-R1
+  - Year: 2025
+  - Publication: [MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes](https://arxiv.org/abs/2509.24945) (2025-09-29)
+  - Code: [GitHub](https://github.com/facebookresearch/MobileLLM-R1)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-R1-950M)
 
 - Tiny Recursive Model (TRM)
   - Year: 2025
@@ -4270,6 +4305,12 @@
 - Claude Opus 4.5
   - Year: 2025
   - Publication: [Blog - Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) (2025-11-24)
+
+- MobileLLM-R1.5
+  - Year: 2025
+  - Publication: [HuggingFace - MobileLLM-R1.5-950M](https://huggingface.co/facebook/MobileLLM-R1.5-950M) (2025-11-24)
+  - Code: [GitHub](https://github.com/facebookresearch/MobileLLM-R1)
+  - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-R1.5-950M)
 
 - INTELLECT-3
   - Year: 2025

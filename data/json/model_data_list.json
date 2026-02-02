@@ -6788,10 +6788,13 @@
             "date_create": "2024-02-22"
         },
         "video": null,
-        "code": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/MobileLLM"
+        },
         "weights": {
             "title": "HuggingFace models",
-            "url": "https://huggingface.co/facebook/MobileLLM-1B"
+            "url": "https://huggingface.co/facebook/MobileLLM-1.5B"
         },
         "manual_validated": false
     },
@@ -12198,6 +12201,44 @@
         "manual_validated": false
     },
     {
+        "name": "Moonlight",
+        "year": 2025,
+        "publication": {
+            "title": "Muon is Scalable for LLM Training",
+            "url": "https://arxiv.org/abs/2502.16982",
+            "date_create": "2025-02-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MoonshotAI/Moonlight"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepHermes 3 Llama 3 8B",
+        "year": 2025,
+        "publication": {
+            "title": "HuggingFace - DeepHermes-3-Llama-3-8B-Preview",
+            "url": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview",
+            "date_create": "2025-02-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NousResearch/Hermes-Function-Calling"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "FlexPrefill",
         "year": 2025,
         "publication": {
@@ -12265,6 +12306,19 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/jinaai/ReaderLM-v2"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Conformal-sympow",
+        "year": 2025,
+        "publication": {
+            "title": "Conformal Transformations for Symmetric Power Transformers",
+            "url": "https://arxiv.org/abs/2503.03269",
+            "date_create": "2025-03-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -13061,6 +13115,25 @@
         "manual_validated": false
     },
     {
+        "name": "MiniMax-M1",
+        "year": 2025,
+        "publication": {
+            "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention",
+            "url": "https://arxiv.org/abs/2506.13585",
+            "date_create": "2025-06-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MiniMax-AI/MiniMax-M1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Autoregressive U-Nets (AU-Net)",
         "year": 2025,
         "publication": {
@@ -13499,6 +13572,25 @@
         "manual_validated": false
     },
     {
+        "name": "DeepScaleR",
+        "year": 2025,
+        "publication": {
+            "title": "DeepScaleR: Effective RL Scaling of Reasoning Models via Iterative Context Lengthening",
+            "url": "https://openreview.net/forum?id=I6GzDCne7U",
+            "date_create": "2025-09-19"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/agentica-project/rllm"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "SPELL",
         "year": 2025,
         "publication": {
@@ -13525,6 +13617,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MobileLLM-R1",
+        "year": 2025,
+        "publication": {
+            "title": "MobileLLM-R1: Exploring the Limits of Sub-Billion Language Model Reasoners with Open Training Recipes",
+            "url": "https://arxiv.org/abs/2509.24945",
+            "date_create": "2025-09-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/MobileLLM-R1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/MobileLLM-R1-950M"
+        },
         "manual_validated": false
     },
     {
@@ -13654,6 +13765,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MobileLLM-R1.5",
+        "year": 2025,
+        "publication": {
+            "title": "HuggingFace - MobileLLM-R1.5-950M",
+            "url": "https://huggingface.co/facebook/MobileLLM-R1.5-950M",
+            "date_create": "2025-11-24"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/facebookresearch/MobileLLM-R1"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/facebook/MobileLLM-R1.5-950M"
+        },
         "manual_validated": false
     },
     {
