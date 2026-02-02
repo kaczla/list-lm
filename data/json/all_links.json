@@ -2562,6 +2562,13 @@
         "manual_validated": false
     },
     {
+        "name": "Tokasaurus",
+        "description": "LLM inference engine optimized for throughput-intensive workloads with dynamic prefix sharing and adaptive CPU management.",
+        "url": "https://github.com/ScalingIntelligence/tokasaurus",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "tokenizers",
         "description": "Provides an implementation of today's most used tokenizers, with a focus on performance and versatility.",
         "url": "https://github.com/huggingface/tokenizers",

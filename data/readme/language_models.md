@@ -1994,6 +1994,12 @@
   - Year: 2024
   - Publication: [SpacTor-T5: Pre-training T5 Models with Span Corruption and Replaced Token Detection](https://arxiv.org/abs/2401.13160) (2024-01-24)
 
+- DeepSeek-Coder
+  - Year: 2024
+  - Publication: [DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence](https://arxiv.org/abs/2401.14196) (2024-01-25)
+  - Code: [GitHub](https://github.com/deepseek-ai/DeepSeek-Coder)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/deepseek-ai/deepseek-coder)
+
 - FP6-LLM
   - Year: 2024
   - Publication: [FP6-LLM: Efficiently Serving Large Language Models Through FP6-Centric Algorithm-System Co-Design](https://arxiv.org/abs/2401.14112) (2024-01-25)
@@ -2178,6 +2184,12 @@
   - Year: 2024
   - Publication: [Blog - Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family) (2024-03-04)
 
+- moondream2
+  - Year: 2024
+  - Publication: [README - moondream repository](https://github.com/vikhyat/moondream/blob/9fe3ad77616b9335c233ebbf6cf443bf176ae1d4/README.md) (2024-03-04)
+  - Code: [GitHub](https://github.com/vikhyat/moondream)
+  - Model weights: [HuggingFace models](https://huggingface.co/vikhyatk/moondream2)
+
 - Design2Code
   - Year: 2024
   - Publication: [Design2Code: How Far Are We From Automating Front-End Engineering?](https://arxiv.org/abs/2403.03163) (2024-03-05)
@@ -2265,6 +2277,7 @@
 - Grok-1
   - Year: 2024
   - Publication: [Blog - Open Release of Grok-1](https://x.ai/blog/grok-os) (2024-03-17)
+  - Code: [GitHub](https://github.com/xai-org/grok-1)
   - Model weights: [HuggingFace models](https://huggingface.co/xai-org/grok-1)
 
 - Agent-FLAN
@@ -3035,6 +3048,7 @@
 - Grok-2
   - Year: 2024
   - Publication: [Tweet: Grok-2 Beta Release](https://x.ai/blog/grok-2) (2024-08-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/xai-org/grok-2)
 
 - LongWriter
   - Year: 2024
@@ -3417,6 +3431,10 @@
   - Code: [GitHub](https://github.com/neulab/Pangea)
   - Model weights: [HuggingFace models](https://huggingface.co/neulab/Pangea-7B)
 
+- Claude 3.5 Sonnet and Haiku
+  - Year: 2024
+  - Publication: [Blog - Claude 3.5 Sonnet and Claude 3.5 Haiku](https://www.anthropic.com/news/3-5-models-and-computer-use) (2024-10-22)
+
 - MiniPLM
   - Year: 2024
   - Publication: [MiniPLM: Knowledge Distillation for Pre-Training Language Models](https://arxiv.org/abs/2410.17215) (2024-10-22)
@@ -3546,9 +3564,10 @@
   - Year: 2024
   - Publication: [InstCache: A Predictive Cache for LLM Serving](https://arxiv.org/abs/2411.13820) (2024-11-21)
 
-- Tülu 3
+- Tulu 3
   - Year: 2024
-  - Publication: [Blog - Tülu 3: The next era in open post-training](https://www.interconnects.ai/p/tulu-3) (2024-11-21)
+  - Publication: [Tulu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/abs/2411.15124) (2024-11-22)
+  - Code: [GitHub](https://github.com/allenai/olmes)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B)
 
 - SmolVLM
@@ -3641,6 +3660,12 @@
   - Code: [GitHub](https://github.com/foundation-model-stack/bamba)
   - Model weights: [HuggingFace models](https://huggingface.co/ibm-ai-platform/Bamba-9B-v2)
 
+- Granite 3.1
+  - Year: 2024
+  - Publication: [README - Granite 3.1 language models repository](https://github.com/ibm-granite/granite-3.1-language-models/blob/336bd5550422205f7e2b895151783cea887dd616/README.md) (2024-12-18)
+  - Code: [GitHub](https://github.com/ibm-granite/granite-3.1-language-models)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ibm-granite/granite-31-language-models-6751dbbf2f3389bec5c6f02d)
+
 - ModernBERT
   - Year: 2024
   - Publication: [Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference](https://arxiv.org/abs/2412.13663) (2024-12-18)
@@ -3684,6 +3709,11 @@
   - Year: 2025
   - Publication: [TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training](https://arxiv.org/abs/2501.02379) (2025-01-04)
 
+- Dolphin 3.0 Llama 3.2 1B
+  - Year: 2025
+  - Publication: [HuggingFace - Dolphin3.0-Llama3.2-1B](https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B) (2025-01-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B)
+
 - MixNet
   - Year: 2025
   - Publication: [MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training](https://arxiv.org/abs/2501.03905) (2025-01-07)
@@ -3692,6 +3722,23 @@
   - Year: 2025
   - Publication: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519) (2025-01-08)
   - Code: [GitHub](https://github.com/microsoft/rStar)
+
+- Sky-T1-32B-Preview
+  - Year: 2025
+  - Publication: [Blog - Sky-T1: Train your own O1 preview model within $450](https://novasky-ai.github.io/posts/sky-t1/) (2025-01-10)
+  - Code: [GitHub](https://github.com/NovaSky-AI/SkyThought)
+  - Model weights: [HuggingFace models](https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview)
+
+- MiniMax-Text-01 / MiniMax-VL-01
+  - Year: 2025
+  - Publication: [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) (2025-01-14)
+  - Code: [GitHub](https://github.com/MiniMax-AI/MiniMax-01)
+
+- Eagle 2
+  - Year: 2025
+  - Publication: [Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models](https://arxiv.org/abs/2501.14818) (2025-01-20)
+  - Code: [GitHub](https://github.com/NVlabs/EAGLE)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Eagle2-1B)
 
 - DeepSeek-R1
   - Year: 2025
@@ -3705,11 +3752,31 @@
   - Code: [GitHub](https://github.com/baichuan-inc/Baichuan-Omni-1.5)
   - Model weights: [HuggingFace models](https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5)
 
+- Qwen2.5-1M
+  - Year: 2025
+  - Publication: [Blog - Qwen2.5-1M](https://qwenlm.github.io/blog/qwen2.5-1m/) (2025-01-27)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen3)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen)
+
+- Qwen2.5-Max
+  - Year: 2025
+  - Publication: [Blog - Qwen2.5-Max](https://qwenlm.github.io/blog/qwen2.5-max/) (2025-01-28)
+
 - Janus-Pro
   - Year: 2025
   - Publication: [Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811) (2025-01-29)
   - Code: [GitHub](https://github.com/deepseek-ai/Janus)
   - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/Janus-Pro-7B)
+
+- Mistral Small 3
+  - Year: 2025
+  - Publication: [Blog - Mistral Small 3](https://mistral.ai/news/mistral-small-3/) (2025-01-30)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501)
+
+- VaultGemma
+  - Year: 2025
+  - Publication: [Scaling Laws for Differentially Private Language Models](https://arxiv.org/abs/2501.18914) (2025-01-31)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/vaultgemma-1b)
 
 - Self-MoA
   - Year: 2025
@@ -3734,10 +3801,19 @@
   - Publication: [MoBA: Mixture of Block Attention for Long-Context LLMs](https://arxiv.org/abs/2502.13189) (2025-02-18)
   - Code: [GitHub](https://github.com/MoonshotAI/MoBA)
 
+- R1 1776
+  - Year: 2025
+  - Publication: [Blog - R1 1776](https://www.perplexity.ai/pl/hub/blog/open-sourcing-r1-1776) (2025-02-18)
+  - Model weights: [HuggingFace models](https://huggingface.co/perplexity-ai/r1-1776)
+
 - SYNTHETIC-1
   - Year: 2025
   - Publication: [Blog - SYNTHETIC-1 Release: Two Million Collaboratively Generated Reasoning Traces from Deepseek-R1](https://www.primeintellect.ai/blog/synthetic-1-release) (2025-02-20)
   - Model weights: [HuggingFace models](https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B)
+
+- Claude 3.7 Sonnet
+  - Year: 2025
+  - Publication: [Blog - Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) (2025-02-24)
 
 - FlexPrefill
   - Year: 2025
@@ -3754,6 +3830,12 @@
   - Year: 2025
   - Publication: [Forgetting Transformer: Softmax Attention with a Forget Gate](https://arxiv.org/abs/2503.02130) (2025-03-03)
   - Code: [GitHub](https://github.com/zhixuan-lin/forgetting-transformer)
+
+- ReaderLM-v2
+  - Year: 2025
+  - Publication: [ReaderLM-v2: Small Language Model for HTML to Markdown and JSON](https://arxiv.org/abs/2503.01151) (2025-03-03)
+  - Code: [GitHub](https://github.com/jina-ai/reader)
+  - Model weights: [HuggingFace models](https://huggingface.co/jinaai/ReaderLM-v2)
 
 - PowerAttention
   - Year: 2025
@@ -3897,6 +3979,12 @@
   - Year: 2025
   - Publication: [Looking beyond the next token](https://arxiv.org/abs/2504.11336) (2025-04-15)
 
+- Eagle 2.5
+  - Year: 2025
+  - Publication: [Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models](https://arxiv.org/abs/2504.15271) (2025-04-21)
+  - Code: [GitHub](https://github.com/NVlabs/EAGLE)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/Eagle2.5-8B)
+
 - Minos
   - Year: 2025
   - Publication: [README - Minos-v1 repository](https://huggingface.co/NousResearch/Minos-v1/blob/edb1e8b7cc80a86cc356534948cca0ef4c46f8e2/README.md) (2025-04-24)
@@ -3967,6 +4055,10 @@
   - Publication: [Blog - Devstral](https://mistral.ai/news/devstral) (2025-05-21)
   - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Devstral-Small-2505)
 
+- Claude Opus 4
+  - Year: 2025
+  - Publication: [Blog - Claude 4](https://www.anthropic.com/news/claude-4) (2025-05-22)
+
 - QwenLong-L1
   - Year: 2025
   - Publication: [QwenLong-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2505.17667) (2025-05-23)
@@ -3982,6 +4074,11 @@
   - Year: 2025
   - Publication: [StochasTok: Improving Fine-Grained Subword Understanding in LLMs](https://arxiv.org/abs/2506.01687) (2025-06-02)
   - Code: [GitHub](https://github.com/anyasims/stochastok)
+
+- Magistral
+  - Year: 2025
+  - Publication: [Magistral](https://arxiv.org/abs/2506.10910) (2025-06-12)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Magistral-Small-2506)
 
 - AceReason-Nemotron 1.1
   - Year: 2025
@@ -4007,14 +4104,29 @@
   - Publication: [DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation](https://arxiv.org/abs/2506.20639) (2025-06-25)
   - Code: [GitHub](https://github.com/apple/ml-diffucoder)
 
+- Gemma 3n
+  - Year: 2025
+  - Publication: [Blog - Introducing Gemma 3n](https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/) (2025-06-26)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/google/gemma-3n)
+
 - Hierarchical Reasoning Model (HRM)
   - Year: 2025
   - Publication: [Hierarchical Reasoning Model](https://arxiv.org/abs/2506.21734) (2025-06-26)
   - Code: [GitHub](https://github.com/sapientinc/HRM)
 
+- ERNIE 4.5
+  - Year: 2025
+  - Publication: [Blog - ERNIE 4.5](https://ernie.baidu.com/blog/posts/ernie4.5/) (2025-06-30)
+  - Code: [GitHub](https://github.com/PaddlePaddle/ERNIE)
+
 - 2-Simplicial Transformer
   - Year: 2025
   - Publication: [Fast and Simplex: 2-Simplicial Attention in Triton](https://arxiv.org/abs/2507.02754) (2025-07-03)
+
+- Power Attention
+  - Year: 2025
+  - Publication: [Scaling Context Requires Rethinking Attention](https://arxiv.org/abs/2507.04239) (2025-07-06)
+  - Code: [GitHub](https://github.com/m-a-n-i-f-e-s-t/power-attention)
 
 - EI-BERT
   - Year: 2025
@@ -4056,11 +4168,31 @@
   - Code: [GitHub](https://github.com/tiiuae/falcon-h1)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/tiiuae/falcon-h1)
 
+- Claude Opus 4.1
+  - Year: 2025
+  - Publication: [Blog - Claude Opus 4.1](https://www.anthropic.com/news/claude-opus-4-1) (2025-08-05)
+
 - GLM-4.5
   - Year: 2025
   - Publication: [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471) (2025-08-08)
   - Code: [GitHub](https://github.com/zai-org/GLM-4.5)
   - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-4.5)
+
+- gpt-oss-120b / gpt-oss-20b
+  - Year: 2025
+  - Publication: [gpt-oss-120b & gpt-oss-20b Model Card](https://arxiv.org/abs/2508.10925) (2025-08-08)
+  - Model weights: [HuggingFace models](https://huggingface.co/openai/gpt-oss-120b)
+
+- Nemotron Nano 2
+  - Year: 2025
+  - Publication: [NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model](https://arxiv.org/abs/2508.14444) (2025-08-20)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2)
+
+- Seed-OSS-36B
+  - Year: 2025
+  - Publication: [HuggingFace - Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct) (2025-08-20)
+  - Code: [GitHub](https://github.com/ByteDance-Seed/seed-oss)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ByteDance-Seed/seed-oss)
 
 - Jet-Nemotron
   - Year: 2025
@@ -4074,14 +4206,30 @@
   - Code: [GitHub](https://github.com/OpenGVLab/InternVL)
   - Model weights: [HuggingFace models](https://huggingface.co/OpenGVLab/InternVL3_5-8B)
 
+- R-4B
+  - Year: 2025
+  - Publication: [R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and Reinforce Learning](https://arxiv.org/abs/2508.21113) (2025-08-28)
+  - Code: [GitHub](https://github.com/yannqi/R-4B)
+  - Model weights: [HuggingFace models](https://huggingface.co/YannQi/R-4B)
+
 - Set Block Decoding (SBD)
   - Year: 2025
   - Publication: [Set Block Decoding is a Language Model Inference Accelerator](https://arxiv.org/abs/2509.04185) (2025-09-04)
+
+- Tongyi DeepResearch-30B-A3B
+  - Year: 2025
+  - Publication: [Blog - Tongyi DeepResearch-30B-A3B](https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/) (2025-09-16)
+  - Code: [GitHub](https://github.com/Alibaba-NLP/DeepResearch)
+  - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)
 
 - SPELL
   - Year: 2025
   - Publication: [SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models](https://arxiv.org/abs/2509.23863) (2025-09-28)
   - Code: [GitHub](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
+
+- Claude Sonnet 4.5
+  - Year: 2025
+  - Publication: [Blog - Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5) (2025-09-29)
 
 - Tiny Recursive Model (TRM)
   - Year: 2025
@@ -4096,9 +4244,17 @@
   - Year: 2025
   - Publication: [Dr.LLM: Dynamic Layer Routing in LLMs](https://arxiv.org/abs/2510.12773) (2025-10-14)
 
+- Claude Haiku 4.5
+  - Year: 2025
+  - Publication: [Blog - Claude Haiku 4.5](https://www.anthropic.com/news/claude-haiku-4-5) (2025-10-15)
+
 - Elastic-Cache
   - Year: 2025
   - Publication: [Attention Is All You Need for KV Cache in Diffusion LLMs](https://arxiv.org/abs/2510.14973) (2025-10-16)
+
+- SWE-1.5
+  - Year: 2025
+  - Publication: [Blog - SWE-1.5](https://cognition.ai/blog/swe-1-5) (2025-10-29)
 
 - ZAYA1
   - Year: 2025
@@ -4111,9 +4267,18 @@
   - Code: [GitHub](https://github.com/XiaoduoAILab/Xmodel-2.5)
   - Model weights: [HuggingFace models](https://huggingface.co/XiaoduoAILab/Xmodel-2.5)
 
+- Claude Opus 4.5
+  - Year: 2025
+  - Publication: [Blog - Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) (2025-11-24)
+
 - INTELLECT-3
   - Year: 2025
   - Publication: [Blog - INTELLECT-3: A 100B+ MoE trained with large-scale RL](https://www.primeintellect.ai/blog/intellect-3) (2025-11-26)
+
+- Rnj-1
+  - Year: 2025
+  - Publication: [Blog - Rnj-1](https://www.essential.ai/research/rnj-1) (2025-12-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/EssentialAI/rnj-1)
 
 - Nanbeige4
   - Year: 2025
@@ -4160,6 +4325,12 @@
   - Code: [GitHub](https://github.com/Tongyi-Zhiwen/Qwen-Doc)
   - Model weights: [HuggingFace models](https://huggingface.co/Tongyi-Zhiwen/QwenLong-L1.5-30B-A3B)
 
+- MiMo-V2-Flash
+  - Year: 2025
+  - Publication: [Blog - MiMo-V2-Flash](https://mimo.xiaomi.com/blog/mimo-v2-flash) (2025-12-16)
+  - Code: [GitHub](https://github.com/XiaomiMiMo/MiMo-V2-Flash)
+  - Model weights: [HuggingFace models](https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash)
+
 - T5Gemma 2
   - Year: 2025
   - Publication: [T5Gemma 2: Seeing, Reading, and Understanding Longer](https://arxiv.org/abs/2512.14856) (2025-12-16)
@@ -4186,6 +4357,11 @@
   - Publication: [Falcon-H1R: Pushing the Reasoning Frontiers with a Hybrid Model for Efficient Test-Time Scaling](https://arxiv.org/abs/2601.02346) (2026-01-05)
   - Code: [GitHub](https://github.com/tiiuae/falcon-h1r)
   - Model weights: [HuggingFace models](https://huggingface.co/tiiuae/Falcon-H1R-7B)
+
+- NousCoder-14B
+  - Year: 2026
+  - Publication: [Blog - NousCoder-14B](https://nousresearch.com/nouscoder-14b-a-competitive-olympiad-programming-model) (2026-01-06)
+  - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/NousCoder-14B)
 
 - GDPO
   - Year: 2026

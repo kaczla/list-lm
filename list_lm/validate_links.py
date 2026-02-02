@@ -10,7 +10,7 @@ from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.utils import normalize_name_format
 
 
-def validate_links() -> None:
+def validate_links() -> tuple[list[str], list[str]]:
     changed = False
     errors = []
     warnings = []
@@ -88,6 +88,8 @@ def validate_links() -> None:
         for warning_msg in warnings:
             logger.warning(warning_msg)
         logger.info(f"Found {len(warnings)} warnings")
+
+    return errors, warnings
 
 
 def main() -> None:

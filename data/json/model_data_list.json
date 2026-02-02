@@ -6378,6 +6378,25 @@
         "manual_validated": false
     },
     {
+        "name": "DeepSeek-Coder",
+        "year": 2024,
+        "publication": {
+            "title": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+            "url": "https://arxiv.org/abs/2401.14196",
+            "date_create": "2024-01-25"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/deepseek-ai/deepseek-coder"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "FP6-LLM",
         "year": 2024,
         "publication": {
@@ -6966,6 +6985,25 @@
         "manual_validated": false
     },
     {
+        "name": "moondream2",
+        "year": 2024,
+        "publication": {
+            "title": "README - moondream repository",
+            "url": "https://github.com/vikhyat/moondream/blob/9fe3ad77616b9335c233ebbf6cf443bf176ae1d4/README.md",
+            "date_create": "2024-03-04"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/vikhyat/moondream"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/vikhyatk/moondream2"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Design2Code",
         "year": 2024,
         "publication": {
@@ -7244,7 +7282,10 @@
             "date_create": "2024-03-17"
         },
         "video": null,
-        "code": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/xai-org/grok-1"
+        },
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/xai-org/grok-1"
@@ -9705,7 +9746,10 @@
         },
         "video": null,
         "code": null,
-        "weights": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/xai-org/grok-2"
+        },
         "manual_validated": false
     },
     {
@@ -10927,6 +10971,19 @@
         "manual_validated": false
     },
     {
+        "name": "Claude 3.5 Sonnet and Haiku",
+        "year": 2024,
+        "publication": {
+            "title": "Blog - Claude 3.5 Sonnet and Claude 3.5 Haiku",
+            "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+            "date_create": "2024-10-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "MiniPLM",
         "year": 2024,
         "publication": {
@@ -11340,15 +11397,18 @@
         "manual_validated": false
     },
     {
-        "name": "Tülu 3",
+        "name": "Tulu 3",
         "year": 2024,
         "publication": {
-            "title": "Blog - Tülu 3: The next era in open post-training",
-            "url": "https://www.interconnects.ai/p/tulu-3",
-            "date_create": "2024-11-21"
+            "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+            "url": "https://arxiv.org/abs/2411.15124",
+            "date_create": "2024-11-22"
         },
         "video": null,
-        "code": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/allenai/olmes"
+        },
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B"
@@ -11643,6 +11703,25 @@
         "manual_validated": false
     },
     {
+        "name": "Granite 3.1",
+        "year": 2024,
+        "publication": {
+            "title": "README - Granite 3.1 language models repository",
+            "url": "https://github.com/ibm-granite/granite-3.1-language-models/blob/336bd5550422205f7e2b895151783cea887dd616/README.md",
+            "date_create": "2024-12-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ibm-granite/granite-3.1-language-models"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/ibm-granite/granite-31-language-models-6751dbbf2f3389bec5c6f02d"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "ModernBERT",
         "year": 2024,
         "publication": {
@@ -11780,6 +11859,22 @@
         "manual_validated": false
     },
     {
+        "name": "Dolphin 3.0 Llama 3.2 1B",
+        "year": 2025,
+        "publication": {
+            "title": "HuggingFace - Dolphin3.0-Llama3.2-1B",
+            "url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B",
+            "date_create": "2025-01-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "MixNet",
         "year": 2025,
         "publication": {
@@ -11806,6 +11901,60 @@
             "url": "https://github.com/microsoft/rStar"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Sky-T1-32B-Preview",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Sky-T1: Train your own O1 preview model within $450",
+            "url": "https://novasky-ai.github.io/posts/sky-t1/",
+            "date_create": "2025-01-10"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NovaSky-AI/SkyThought"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "MiniMax-Text-01 / MiniMax-VL-01",
+        "year": 2025,
+        "publication": {
+            "title": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+            "url": "https://arxiv.org/abs/2501.08313",
+            "date_create": "2025-01-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/MiniMax-AI/MiniMax-01"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Eagle 2",
+        "year": 2025,
+        "publication": {
+            "title": "Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models",
+            "url": "https://arxiv.org/abs/2501.14818",
+            "date_create": "2025-01-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/EAGLE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Eagle2-1B"
+        },
         "manual_validated": false
     },
     {
@@ -11847,6 +11996,38 @@
         "manual_validated": false
     },
     {
+        "name": "Qwen2.5-1M",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Qwen2.5-1M",
+            "url": "https://qwenlm.github.io/blog/qwen2.5-1m/",
+            "date_create": "2025-01-27"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/QwenLM/Qwen3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen2.5-Max",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Qwen2.5-Max",
+            "url": "https://qwenlm.github.io/blog/qwen2.5-max/",
+            "date_create": "2025-01-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Janus-Pro",
         "year": 2025,
         "publication": {
@@ -11864,6 +12045,38 @@
             "url": "https://huggingface.co/deepseek-ai/Janus-Pro-7B"
         },
         "manual_validated": false
+    },
+    {
+        "name": "Mistral Small 3",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Mistral Small 3",
+            "url": "https://mistral.ai/news/mistral-small-3/",
+            "date_create": "2025-01-30"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "VaultGemma",
+        "year": 2025,
+        "publication": {
+            "title": "Scaling Laws for Differentially Private Language Models",
+            "url": "https://arxiv.org/abs/2501.18914",
+            "date_create": "2025-01-31"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/vaultgemma-1b"
+        },
+        "manual_validated": true
     },
     {
         "name": "Self-MoA",
@@ -11940,6 +12153,22 @@
         "manual_validated": false
     },
     {
+        "name": "R1 1776",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - R1 1776",
+            "url": "https://www.perplexity.ai/pl/hub/blog/open-sourcing-r1-1776",
+            "date_create": "2025-02-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/perplexity-ai/r1-1776"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "SYNTHETIC-1",
         "year": 2025,
         "publication": {
@@ -11953,6 +12182,19 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/PrimeIntellect/SYNTHETIC-1-SFT-7B"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Claude 3.7 Sonnet",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude 3.7 Sonnet",
+            "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+            "date_create": "2025-02-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -12004,6 +12246,25 @@
             "url": "https://github.com/zhixuan-lin/forgetting-transformer"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "ReaderLM-v2",
+        "year": 2025,
+        "publication": {
+            "title": "ReaderLM-v2: Small Language Model for HTML to Markdown and JSON",
+            "url": "https://arxiv.org/abs/2503.01151",
+            "date_create": "2025-03-03"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/jina-ai/reader"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/jinaai/ReaderLM-v2"
+        },
         "manual_validated": false
     },
     {
@@ -12461,6 +12722,25 @@
         "manual_validated": false
     },
     {
+        "name": "Eagle 2.5",
+        "year": 2025,
+        "publication": {
+            "title": "Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models",
+            "url": "https://arxiv.org/abs/2504.15271",
+            "date_create": "2025-04-21"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVlabs/EAGLE"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/Eagle2.5-8B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Minos",
         "year": 2025,
         "publication": {
@@ -12685,6 +12965,19 @@
         "manual_validated": false
     },
     {
+        "name": "Claude Opus 4",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude 4",
+            "url": "https://www.anthropic.com/news/claude-4",
+            "date_create": "2025-05-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "QwenLong-L1",
         "year": 2025,
         "publication": {
@@ -12733,6 +13026,22 @@
             "url": "https://github.com/anyasims/stochastok"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Magistral",
+        "year": 2025,
+        "publication": {
+            "title": "Magistral",
+            "url": "https://arxiv.org/abs/2506.10910",
+            "date_create": "2025-06-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
         "manual_validated": false
     },
     {
@@ -12813,6 +13122,22 @@
         "manual_validated": false
     },
     {
+        "name": "Gemma 3n",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Introducing Gemma 3n",
+            "url": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/",
+            "date_create": "2025-06-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/google/gemma-3n"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Hierarchical Reasoning Model (HRM)",
         "year": 2025,
         "publication": {
@@ -12829,6 +13154,22 @@
         "manual_validated": false
     },
     {
+        "name": "ERNIE 4.5",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - ERNIE 4.5",
+            "url": "https://ernie.baidu.com/blog/posts/ernie4.5/",
+            "date_create": "2025-06-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PaddlePaddle/ERNIE"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "2-Simplicial Transformer",
         "year": 2025,
         "publication": {
@@ -12838,6 +13179,22 @@
         },
         "video": null,
         "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Power Attention",
+        "year": 2025,
+        "publication": {
+            "title": "Scaling Context Requires Rethinking Attention",
+            "url": "https://arxiv.org/abs/2507.04239",
+            "date_create": "2025-07-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/m-a-n-i-f-e-s-t/power-attention"
+        },
         "weights": null,
         "manual_validated": false
     },
@@ -12970,6 +13327,19 @@
         "manual_validated": false
     },
     {
+        "name": "Claude Opus 4.1",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude Opus 4.1",
+            "url": "https://www.anthropic.com/news/claude-opus-4-1",
+            "date_create": "2025-08-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "GLM-4.5",
         "year": 2025,
         "publication": {
@@ -12985,6 +13355,57 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "gpt-oss-120b / gpt-oss-20b",
+        "year": 2025,
+        "publication": {
+            "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+            "url": "https://arxiv.org/abs/2508.10925",
+            "date_create": "2025-08-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/openai/gpt-oss-120b"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Nemotron Nano 2",
+        "year": 2025,
+        "publication": {
+            "title": "NVIDIA Nemotron Nano 2: An Accurate and Efficient Hybrid Mamba-Transformer Reasoning Model",
+            "url": "https://arxiv.org/abs/2508.14444",
+            "date_create": "2025-08-20"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Seed-OSS-36B",
+        "year": 2025,
+        "publication": {
+            "title": "HuggingFace - Seed-OSS-36B-Instruct",
+            "url": "https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct",
+            "date_create": "2025-08-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ByteDance-Seed/seed-oss"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/ByteDance-Seed/seed-oss"
         },
         "manual_validated": false
     },
@@ -13027,6 +13448,25 @@
         "manual_validated": false
     },
     {
+        "name": "R-4B",
+        "year": 2025,
+        "publication": {
+            "title": "R-4B: Incentivizing General-Purpose Auto-Thinking Capability in MLLMs via Bi-Mode Annealing and Reinforce Learning",
+            "url": "https://arxiv.org/abs/2508.21113",
+            "date_create": "2025-08-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/yannqi/R-4B"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/YannQi/R-4B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Set Block Decoding (SBD)",
         "year": 2025,
         "publication": {
@@ -13037,6 +13477,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Tongyi DeepResearch-30B-A3B",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Tongyi DeepResearch-30B-A3B",
+            "url": "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/",
+            "date_create": "2025-09-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Alibaba-NLP/DeepResearch"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"
+        },
         "manual_validated": false
     },
     {
@@ -13052,6 +13511,19 @@
             "title": "GitHub",
             "url": "https://github.com/Tongyi-Zhiwen/Qwen-Doc"
         },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Claude Sonnet 4.5",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude Sonnet 4.5",
+            "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+            "date_create": "2025-09-29"
+        },
+        "video": null,
+        "code": null,
         "weights": null,
         "manual_validated": false
     },
@@ -13098,12 +13570,38 @@
         "manual_validated": false
     },
     {
+        "name": "Claude Haiku 4.5",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude Haiku 4.5",
+            "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+            "date_create": "2025-10-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Elastic-Cache",
         "year": 2025,
         "publication": {
             "title": "Attention Is All You Need for KV Cache in Diffusion LLMs",
             "url": "https://arxiv.org/abs/2510.14973",
             "date_create": "2025-10-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "SWE-1.5",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - SWE-1.5",
+            "url": "https://cognition.ai/blog/swe-1-5",
+            "date_create": "2025-10-29"
         },
         "video": null,
         "code": null,
@@ -13146,6 +13644,19 @@
         "manual_validated": false
     },
     {
+        "name": "Claude Opus 4.5",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Claude Opus 4.5",
+            "url": "https://www.anthropic.com/news/claude-opus-4-5",
+            "date_create": "2025-11-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "INTELLECT-3",
         "year": 2025,
         "publication": {
@@ -13156,6 +13667,22 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Rnj-1",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - Rnj-1",
+            "url": "https://www.essential.ai/research/rnj-1",
+            "date_create": "2025-12-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/EssentialAI/rnj-1"
+        },
         "manual_validated": false
     },
     {
@@ -13302,6 +13829,25 @@
         "manual_validated": false
     },
     {
+        "name": "MiMo-V2-Flash",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - MiMo-V2-Flash",
+            "url": "https://mimo.xiaomi.com/blog/mimo-v2-flash",
+            "date_create": "2025-12-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "T5Gemma 2",
         "year": 2025,
         "publication": {
@@ -13384,6 +13930,22 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "NousCoder-14B",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - NousCoder-14B",
+            "url": "https://nousresearch.com/nouscoder-14b-a-competitive-olympiad-programming-model",
+            "date_create": "2026-01-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/NousResearch/NousCoder-14B"
         },
         "manual_validated": false
     },

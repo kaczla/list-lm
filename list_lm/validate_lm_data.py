@@ -15,7 +15,7 @@ def validate_lm_data(
     path: Path,
     check_model_names: bool = False,
     update_publication_data: bool = False,
-) -> None:
+) -> list[str]:
     model_info_list = load_base_model_list(path, ModelInfo)
     model_name_to_model_info: dict[str, ModelInfo] = {}
     title_to_model_info: dict[str, ModelInfo] = {}
@@ -116,6 +116,8 @@ def validate_lm_data(
         generate_lm_data()
     else:
         logger.info("Nothing changed - skip saving")
+
+    return errors
 
 
 def update_publication_data_in_model_info(model_info: ModelInfo) -> bool:
