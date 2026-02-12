@@ -14161,5 +14161,24 @@
             "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
         },
         "manual_validated": false
+    },
+    {
+        "name": "GLM-5",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - GLM-5",
+            "url": "https://z.ai/blog/glm-5",
+            "date_create": "2026-02-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/zai-org/glm-5"
+        },
+        "manual_validated": false
     }
 ]

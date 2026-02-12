@@ -4429,3 +4429,9 @@
   - Year: 2026
   - Publication: [Blog - Kimi K2.5](https://www.kimi.com/blog/kimi-k2-5.html) (2026-01-27)
   - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2.5)
+
+- GLM-5
+  - Year: 2026
+  - Publication: [Blog - GLM-5](https://z.ai/blog/glm-5) (2026-02-11)
+  - Code: [GitHub](https://github.com/zai-org/GLM-5)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-5)
