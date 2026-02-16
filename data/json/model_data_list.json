@@ -14163,6 +14163,25 @@
         "manual_validated": false
     },
     {
+        "name": "DFlash",
+        "year": 2026,
+        "publication": {
+            "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+            "url": "https://arxiv.org/abs/2602.06036",
+            "date_create": "2026-02-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/z-lab/dflash"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/z-lab/dflash"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "GLM-5",
         "year": 2026,
         "publication": {

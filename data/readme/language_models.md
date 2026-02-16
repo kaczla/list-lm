@@ -4430,6 +4430,12 @@
   - Publication: [Blog - Kimi K2.5](https://www.kimi.com/blog/kimi-k2-5.html) (2026-01-27)
   - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2.5)
 
+- DFlash
+  - Year: 2026
+  - Publication: [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036) (2026-02-05)
+  - Code: [GitHub](https://github.com/z-lab/dflash)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/z-lab/dflash)
+
 - GLM-5
   - Year: 2026
   - Publication: [Blog - GLM-5](https://z.ai/blog/glm-5) (2026-02-11)
