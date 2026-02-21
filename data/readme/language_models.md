@@ -4458,3 +4458,11 @@
   - Publication: [Blog - GLM-5](https://z.ai/blog/glm-5) (2026-02-11)
   - Code: [GitHub](https://github.com/zai-org/GLM-5)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-5)
+
+- Claude Sonnet 4.6
+  - Year: 2026
+  - Publication: [Blog - Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) (2026-02-17)
+
+- Gemini 3.1 Pro
+  - Year: 2026
+  - Publication: [Blog - Gemini 3.1 Pro](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro) (2026-02-19)
