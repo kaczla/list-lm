@@ -1,9 +1,11 @@
 - [AdEMAMix](https://arxiv.org/abs/2409.03137) - The AdEMAMix Optimizer: Better, Faster, Older
 - [ADOPT](https://github.com/iShohei220/adopt) - Modified Adam optimizer that can converge with any β₂ with the optimal rate.
 - [ATLAS](https://arxiv.org/abs/2505.23735) - Long-term memory module with high capacity for recurrent neural networks, introducing the DeepTransformers architecture family with improved memory management and context handling.
+- [Benchmarking LLM Pretraining Optimizers](https://arxiv.org/abs/2509.01440) - Benchmarking Optimizers for Large Language Model Pretraining
 - [DeMo (Decoupled Momentum Optimization)](https://arxiv.org/abs/2411.19870) - Reduces communication overhead in distributed training by decoupling momentum updates across accelerators.
 - [DiLoCo](https://arxiv.org/abs/2311.08105) - DiLoCo: Distributed Low-Communication Training of Language Models
 - [DisTrO](https://github.com/NousResearch/DisTrO) - DisTrO (Distributed Training Over-The-Internet), a family of low latency distributed optimizers that reduce inter-GPU communication requirements by three to four orders of magnitude.
+- [Fantastic Pretraining Optimizers](https://arxiv.org/abs/2509.02046) - Fantastic Pretraining Optimizers and Where to Find Them
 - [GEPA](https://arxiv.org/abs/2507.19457) - Prompt optimization technique using natural language reflection to learn high-level rules from trial and error, outperforming reinforcement learning approaches with up to 35x fewer rollouts.
 - [Grokfast](https://arxiv.org/abs/2405.20233) - Grokfast: Accelerated Grokking by Amplifying Slow Gradients
 - [LOMO](https://arxiv.org/abs/2306.09782) - LOw-Memory Optimization (LOMO), which fuses the gradient computation and the parameter update in one step to reduce memory usage.

@@ -196,6 +196,13 @@
         "manual_validated": false
     },
     {
+        "name": "Benchmarking LLM Pretraining Optimizers",
+        "description": "Benchmarking Optimizers for Large Language Model Pretraining",
+        "url": "https://arxiv.org/abs/2509.01440",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
         "name": "BertViz",
         "description": "BertViz is a tool for visualizing attention in the Transformer model, supporting most models from the transformers library (BERT, GPT-2, XLNet, RoBERTa, XLM, CTRL, BART, etc.)",
         "url": "https://github.com/jessevig/bertviz",
@@ -672,6 +679,13 @@
         "manual_validated": false
     },
     {
+        "name": "DualPipe",
+        "description": "Bidirectional pipeline parallelism algorithm that achieves full overlap of forward and backward computation-communication phases while reducing pipeline bubbles.",
+        "url": "https://github.com/deepseek-ai/DualPipe",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "E5-V: Universal Embeddings with Multimodal Large Language Models",
         "description": "E5-V is a framework for multimodal embeddings.",
         "url": "https://github.com/kongds/e5-v",
@@ -802,6 +816,13 @@
         "description": "Falcon RefinedWeb is a massive English web dataset.",
         "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb",
         "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
+        "name": "Fantastic Pretraining Optimizers",
+        "description": "Fantastic Pretraining Optimizers and Where to Find Them",
+        "url": "https://arxiv.org/abs/2509.02046",
+        "link_type": "Optimizer links",
         "manual_validated": false
     },
     {
@@ -990,6 +1011,13 @@
         "name": "GlotLID",
         "description": "GlotLID is an open-source language identification model with support for more than 1600 languages.",
         "url": "https://github.com/cisnlp/GlotLID",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
+        "name": "gollama",
+        "description": "TUI tool for managing Ollama models with support for listing, inspecting, deleting, copying, and pushing models.",
+        "url": "https://github.com/sammcj/gollama",
         "link_type": "Utils links",
         "manual_validated": false
     },
@@ -1704,13 +1732,6 @@
         "name": "MiniLLM",
         "description": "MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs.",
         "url": "https://github.com/kuleshov/minillm",
-        "link_type": "Utils links",
-        "manual_validated": false
-    },
-    {
-        "name": "Mirage",
-        "description": "Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.",
-        "url": "https://github.com/mirage-project/mirage",
         "link_type": "Utils links",
         "manual_validated": false
     },

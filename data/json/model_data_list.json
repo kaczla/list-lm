@@ -11849,6 +11849,25 @@
         "manual_validated": false
     },
     {
+        "name": "KaLM-Embedding",
+        "year": 2025,
+        "publication": {
+            "title": "KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model",
+            "url": "https://arxiv.org/abs/2501.01028",
+            "date_create": "2025-01-02"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HITsz-TMG/KaLM-Embedding"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "TensorGRaD",
         "year": 2025,
         "publication": {
@@ -13227,6 +13246,25 @@
         "manual_validated": false
     },
     {
+        "name": "KaLM-Embedding-V2",
+        "year": 2025,
+        "publication": {
+            "title": "KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model",
+            "url": "https://arxiv.org/abs/2506.20923",
+            "date_create": "2025-06-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/HITsz-TMG/KaLM-Embedding"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v2"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "ERNIE 4.5",
         "year": 2025,
         "publication": {
@@ -13587,6 +13625,22 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "EmbeddingGemma",
+        "year": 2025,
+        "publication": {
+            "title": "EmbeddingGemma: Powerful and Lightweight Text Representations",
+            "url": "https://arxiv.org/abs/2509.20354",
+            "date_create": "2025-09-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/google/embeddinggemma-300m"
         },
         "manual_validated": false
     },

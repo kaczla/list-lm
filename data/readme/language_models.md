@@ -3706,6 +3706,12 @@
   - Code: [GitHub](https://github.com/allenai/OLMo)
   - Model weights: [HuggingFace models](https://huggingface.co/allenai/OLMo-2-1124-7B)
 
+- KaLM-Embedding
+  - Year: 2025
+  - Publication: [KaLM-Embedding: Superior Training Data Brings A Stronger Embedding Model](https://arxiv.org/abs/2501.01028) (2025-01-02)
+  - Code: [GitHub](https://github.com/HITsz-TMG/KaLM-Embedding)
+  - Model weights: [HuggingFace models](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5)
+
 - TensorGRaD
   - Year: 2025
   - Publication: [TensorGRaD: Tensor Gradient Robust Decomposition for Memory-Efficient Neural Operator Training](https://arxiv.org/abs/2501.02379) (2025-01-04)
@@ -4137,6 +4143,12 @@
   - Publication: [Hierarchical Reasoning Model](https://arxiv.org/abs/2506.21734) (2025-06-26)
   - Code: [GitHub](https://github.com/sapientinc/HRM)
 
+- KaLM-Embedding-V2
+  - Year: 2025
+  - Publication: [KaLM-Embedding-V2: Superior Training Techniques and Data Inspire A Versatile Embedding Model](https://arxiv.org/abs/2506.20923) (2025-06-26)
+  - Code: [GitHub](https://github.com/HITsz-TMG/KaLM-Embedding)
+  - Model weights: [HuggingFace models](https://huggingface.co/HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v2)
+
 - ERNIE 4.5
   - Year: 2025
   - Publication: [Blog - ERNIE 4.5](https://ernie.baidu.com/blog/posts/ernie4.5/) (2025-06-30)
@@ -4250,6 +4262,11 @@
   - Publication: [DeepScaleR: Effective RL Scaling of Reasoning Models via Iterative Context Lengthening](https://openreview.net/forum?id=I6GzDCne7U) (2025-09-19)
   - Code: [GitHub](https://github.com/agentica-project/rllm)
   - Model weights: [HuggingFace models](https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview)
+
+- EmbeddingGemma
+  - Year: 2025
+  - Publication: [EmbeddingGemma: Powerful and Lightweight Text Representations](https://arxiv.org/abs/2509.20354) (2025-09-24)
+  - Model weights: [HuggingFace models](https://huggingface.co/google/embeddinggemma-300m)
 
 - SPELL
   - Year: 2025

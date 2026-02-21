@@ -55,6 +55,7 @@
 - [Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly is an instruction-following large language model trained on the Databricks machine learning platform that is licensed for commercial use.
 - [DPO: Direct Preference Optimization](https://github.com/eric-mitchell/direct-preference-optimization) - Reference implementation for DPO (Direct Preference Optimization)
 - [DSPy](https://github.com/stanfordnlp/dspy) - DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs.
+- [DualPipe](https://github.com/deepseek-ai/DualPipe) - Bidirectional pipeline parallelism algorithm that achieves full overlap of forward and backward computation-communication phases while reducing pipeline bubbles.
 - [E5-V: Universal Embeddings with Multimodal Large Language Models](https://github.com/kongds/e5-v) - E5-V is a framework for multimodal embeddings.
 - [EAGLE](https://github.com/SafeAILab/EAGLE) - EAGLE (Extrapolation Algorithm for Greater Language-model Efficiency) is a new baseline for fast decoding of Large Language Models (LLMs) with provable performance maintenance.
 - [embedchain](https://github.com/embedchain/embedchain) - embedchain is a framework to easily create LLM powered bots over any dataset.
@@ -78,6 +79,7 @@
 - [ggml](https://github.com/ggerganov/ggml) - Tensor library for machine learning. With ggml you can efficiently run GPT-2 and GPT-J inference on the CPU.
 - [Gibberish Detector](https://github.com/domanchi/gibberish-detector) - Train a model, and detect gibberish strings with it. Example gibberish: "ertrjiloifdfyyoiu".
 - [GlotLID](https://github.com/cisnlp/GlotLID) - GlotLID is an open-source language identification model with support for more than 1600 languages.
+- [gollama](https://github.com/sammcj/gollama) - TUI tool for managing Ollama models with support for listing, inspecting, deleting, copying, and pushing models.
 - [GPT4All](https://github.com/nomic-ai/gpt4all) - gpt4all: a chatbot trained on a massive collection of clean assistant data including code, stories and dialogue.
 - [gpu.cpp](https://github.com/AnswerDotAI/gpu.cpp) - gpu.cpp is a lightweight library that makes portable GPU compute with C++ simple.
 - [Guardrails](https://github.com/ShreyaR/guardrails) - Guardrails is an open-source Python package for specifying structure and type, validating and correcting the outputs of large language models (LLMs).
@@ -135,7 +137,6 @@
 - [MInference](https://github.com/microsoft/MInference) - MInference: Million-Tokens Prompt Inference for Long-context LLMs
 - [MiniChain](https://github.com/srush/MiniChain) - MiniChain is a tiny library for coding with large language models.
 - [MiniLLM](https://github.com/kuleshov/minillm) - MiniLLM is a minimal system for running modern LLMs on consumer-grade GPUs.
-- [Mirage](https://github.com/mirage-project/mirage) - Mirage is a tensor algebra superoptimizer that automatically discovers highly-optimized tensor programs for DNNs. Mirage automatically identifies and verifies sophisticated optimizations, many of which require joint optimization at the kernel, thread block, and thread levels of the GPU compute hierarchy.
 - [Mirage Persistent Kernel (MPK)](https://github.com/mirage-project/mirage) - Compiler and runtime system that transforms LLM inference into optimized megakernels through end-to-end GPU fusion.
 - [Mistral Transformer](https://github.com/mistralai-sf24/hackathon) - This repository contains minimal code to run our 7B model and to finetune it.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - https://github.com/EricLBuehler/mistral.rs
