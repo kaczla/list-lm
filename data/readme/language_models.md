@@ -4459,6 +4459,11 @@
   - Code: [GitHub](https://github.com/zai-org/GLM-5)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-5)
 
+- Nanbeige4.1-3B
+  - Year: 2026
+  - Publication: [Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts](https://arxiv.org/abs/2602.13367) (2026-02-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/Nanbeige/Nanbeige4.1-3B)
+
 - Claude Sonnet 4.6
   - Year: 2026
   - Publication: [Blog - Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) (2026-02-17)

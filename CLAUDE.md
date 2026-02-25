@@ -33,6 +33,8 @@ uv run python -m list_lm.validate_lm_data     # Validate model data
 uv run python -m list_lm.validate_links       # Validate links data
 ```
 
+**Important:** After creating a new JSON file with model or link data, do NOT automatically run or propose running `merge_json`. Wait for the user to request it.
+
 Uses `uv` as package manager (not pip). Python 3.13+ required.
 
 ## Architecture

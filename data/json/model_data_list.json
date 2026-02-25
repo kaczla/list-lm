@@ -14255,6 +14255,22 @@
         "manual_validated": false
     },
     {
+        "name": "Nanbeige4.1-3B",
+        "year": 2026,
+        "publication": {
+            "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+            "url": "https://arxiv.org/abs/2602.13367",
+            "date_create": "2026-02-13"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Claude Sonnet 4.6",
         "year": 2026,
         "publication": {
