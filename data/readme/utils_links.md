@@ -117,6 +117,7 @@
 - [llm](https://github.com/rustformers/llm) - llm is a Rust ecosystem of libraries for running inference on large language models, inspired by llama.cpp.
 - [LLM decontaminator](https://github.com/lm-sys/llm-decontaminator) - Use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.
 - [llm-council](https://github.com/karpathy/llm-council) - Multi-LLM query tool that orchestrates peer review and synthesis across different models.
+- [llmfit](https://github.com/AlexsJones/llmfit) - Terminal tool that matches LLM models to your hardware capabilities by analyzing system RAM, CPU, and GPU resources.
 - [LLMLingua](https://github.com/microsoft/LLMLingua) - LLMLingua utilizes a compact, well-trained language model (e.g., GPT2-small, LLaMA-7B) to identify and remove non-essential tokens in prompts
 - [LLMParser](https://github.com/kyang6/llmparser) - LLMParser is a simple and flexible tool to classify and extract structured data from text with large language models.
 - [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - A framework for few-shot evaluation of autoregressive language models.

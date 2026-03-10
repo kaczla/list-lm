@@ -1498,6 +1498,13 @@
         "manual_validated": false
     },
     {
+        "name": "llmfit",
+        "description": "Terminal tool that matches LLM models to your hardware capabilities by analyzing system RAM, CPU, and GPU resources.",
+        "url": "https://github.com/AlexsJones/llmfit",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "LLMLingua",
         "description": "LLMLingua utilizes a compact, well-trained language model (e.g., GPT2-small, LLaMA-7B) to identify and remove non-essential tokens in prompts",
         "url": "https://github.com/microsoft/LLMLingua",

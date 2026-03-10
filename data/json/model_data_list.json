@@ -14295,5 +14295,37 @@
         "code": null,
         "weights": null,
         "manual_validated": false
+    },
+    {
+        "name": "FlashAttention-4",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - FlashAttention-4",
+            "url": "https://tridao.me/blog/2026/flash4/",
+            "date_create": "2026-03-05"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Dao-AILab/flash-attention"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "OLMo Hybrid",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - OLMo Hybrid",
+            "url": "https://allenai.org/blog/olmohybrid",
+            "date_create": "2026-03-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/allenai/olmo-hybrid"
+        },
+        "manual_validated": false
     }
 ]

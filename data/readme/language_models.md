@@ -4471,3 +4471,13 @@
 - Gemini 3.1 Pro
   - Year: 2026
   - Publication: [Blog - Gemini 3.1 Pro](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro) (2026-02-19)
+
+- FlashAttention-4
+  - Year: 2026
+  - Publication: [Blog - FlashAttention-4](https://tridao.me/blog/2026/flash4/) (2026-03-05)
+  - Code: [GitHub](https://github.com/Dao-AILab/flash-attention)
+
+- OLMo Hybrid
+  - Year: 2026
+  - Publication: [Blog - OLMo Hybrid](https://allenai.org/blog/olmohybrid) (2026-03-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/allenai/olmo-hybrid)
