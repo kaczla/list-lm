@@ -4474,10 +4474,38 @@
 
 - FlashAttention-4
   - Year: 2026
-  - Publication: [Blog - FlashAttention-4](https://tridao.me/blog/2026/flash4/) (2026-03-05)
+  - Publication: [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451) (2026-03-05)
   - Code: [GitHub](https://github.com/Dao-AILab/flash-attention)
 
 - OLMo Hybrid
   - Year: 2026
   - Publication: [Blog - OLMo Hybrid](https://allenai.org/blog/olmohybrid) (2026-03-05)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/allenai/olmo-hybrid)
+
+- Exclusive Self Attention (XSA)
+  - Year: 2026
+  - Publication: [Exclusive Self Attention](https://arxiv.org/abs/2603.09078) (2026-03-10)
+
+- IndexCache
+  - Year: 2026
+  - Publication: [IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse](https://arxiv.org/abs/2603.12201) (2026-03-12)
+
+- Leanstral
+  - Year: 2026
+  - Publication: [Blog - Leanstral](https://mistral.ai/news/leanstral) (2026-03-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Leanstral-2603)
+
+- Mamba-3
+  - Year: 2026
+  - Publication: [Mamba-3: Improved Sequence Modeling using State Space Principles](https://arxiv.org/abs/2603.15569) (2026-03-16)
+  - Code: [GitHub](https://github.com/state-spaces/mamba)
+
+- Mistral Small 4
+  - Year: 2026
+  - Publication: [Blog - Mistral Small 4](https://mistral.ai/news/mistral-small-4) (2026-03-16)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/mistralai/mistral-small-4)
+
+- Mixture-of-Depths Attention (MoDA)
+  - Year: 2026
+  - Publication: [Mixture-of-Depths Attention](https://arxiv.org/abs/2603.15619) (2026-03-16)
+  - Code: [GitHub](https://github.com/hustvl/MoDA)

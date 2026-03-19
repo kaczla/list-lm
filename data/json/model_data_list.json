@@ -14300,8 +14300,8 @@
         "name": "FlashAttention-4",
         "year": 2026,
         "publication": {
-            "title": "Blog - FlashAttention-4",
-            "url": "https://tridao.me/blog/2026/flash4/",
+            "title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+            "url": "https://arxiv.org/abs/2603.05451",
             "date_create": "2026-03-05"
         },
         "video": null,
@@ -14326,6 +14326,96 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/collections/allenai/olmo-hybrid"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "Exclusive Self Attention (XSA)",
+        "year": 2026,
+        "publication": {
+            "title": "Exclusive Self Attention",
+            "url": "https://arxiv.org/abs/2603.09078",
+            "date_create": "2026-03-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "IndexCache",
+        "year": 2026,
+        "publication": {
+            "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+            "url": "https://arxiv.org/abs/2603.12201",
+            "date_create": "2026-03-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Leanstral",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Leanstral",
+            "url": "https://mistral.ai/news/leanstral",
+            "date_create": "2026-03-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/mistralai/Leanstral-2603"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mamba-3",
+        "year": 2026,
+        "publication": {
+            "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+            "url": "https://arxiv.org/abs/2603.15569",
+            "date_create": "2026-03-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/state-spaces/mamba"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Small 4",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Mistral Small 4",
+            "url": "https://mistral.ai/news/mistral-small-4",
+            "date_create": "2026-03-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/mistralai/mistral-small-4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mixture-of-Depths Attention (MoDA)",
+        "year": 2026,
+        "publication": {
+            "title": "Mixture-of-Depths Attention",
+            "url": "https://arxiv.org/abs/2603.15619",
+            "date_create": "2026-03-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/hustvl/MoDA"
+        },
+        "weights": null,
         "manual_validated": false
     }
 ]
