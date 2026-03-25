@@ -14,6 +14,13 @@
         "manual_validated": false
     },
     {
+        "name": "AgentJet",
+        "description": "Reinforcement learning fine-tuning framework for optimizing LLM agents and multi-agent agentic workflows.",
+        "url": "https://github.com/modelscope/AgentJet",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "AgentTuning",
         "description": "AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.",
         "url": "https://github.com/THUDM/AgentTuning",
@@ -907,6 +914,13 @@
         "description": "Flash Linear Attention a collection of efficient Triton-based implementations for state-of-the-art linear attention models.",
         "url": "https://github.com/sustcsonglin/flash-linear-attention",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "flash-moe",
+        "description": "C and Metal inference engine for running large mixture-of-experts models on consumer hardware by streaming from SSD.",
+        "url": "https://github.com/danveloper/flash-moe",
+        "link_type": "Utils links",
         "manual_validated": false
     },
     {

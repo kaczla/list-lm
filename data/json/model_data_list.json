@@ -14355,6 +14355,19 @@
         "manual_validated": false
     },
     {
+        "name": "Attention Residuals (AttnRes)",
+        "year": 2026,
+        "publication": {
+            "title": "Attention Residuals",
+            "url": "https://arxiv.org/abs/2603.15031",
+            "date_create": "2026-03-16"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "Leanstral",
         "year": 2026,
         "publication": {

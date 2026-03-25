@@ -4490,6 +4490,10 @@
   - Year: 2026
   - Publication: [IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse](https://arxiv.org/abs/2603.12201) (2026-03-12)
 
+- Attention Residuals (AttnRes)
+  - Year: 2026
+  - Publication: [Attention Residuals](https://arxiv.org/abs/2603.15031) (2026-03-16)
+
 - Leanstral
   - Year: 2026
   - Publication: [Blog - Leanstral](https://mistral.ai/news/leanstral) (2026-03-16)

@@ -1,3 +1,4 @@
+- [AgentJet](https://github.com/modelscope/AgentJet) - Reinforcement learning fine-tuning framework for optimizing LLM agents and multi-agent agentic workflows.
 - [AgentTuning](https://github.com/THUDM/AgentTuning) - AgentTuning represents the very first attempt to instruction-tune LLMs using interaction trajectories across multiple agent tasks.
 - [Agno](https://github.com/agno-agi/agno) - Framework for building multi-agent systems with persistent learning and memory capabilities.
 - [AIChat](https://github.com/sigoden/aichat) - AIChat is an all-in-one AI CLI tool featuring Chat-REPL, Shell Assistant, RAG, Function Calling, AI Agents, and More.
@@ -71,6 +72,7 @@
 - [FastDeploy](https://github.com/PaddlePaddle/FastDeploy) - Easy-to-use and Fast Deep Learning Model Deployment Toolkit for Cloud Mobile and Edge. Including Image, Video, Text and Audio 20+ main stream scenarios and 150+ SOTA models with end-to-end optimization, multi-platform and multi-framework support.
 - [fastText](https://github.com/facebookresearch/fastText/) - fastText is a library for efficient learning of word representations and sentence classification.
 - [FLAML](https://github.com/microsoft/FLAML) - A Fast Library for Automated Machine Learning & Tuning.
+- [flash-moe](https://github.com/danveloper/flash-moe) - C and Metal inference engine for running large mixture-of-experts models on consumer hardware by streaming from SSD.
 - [FlashAttention](https://github.com/HazyResearch/flash-attention) - Fast and memory-efficient exact attention.
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer) - FlashInfer: Kernel Library for LLM Serving
 - [FlexGen](https://github.com/FMInference/FlexGen) - FlexGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexGen allows high-throughput generation by IO-efficient offloading, compression, and large effective batch sizes.
