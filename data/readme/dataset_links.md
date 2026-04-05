@@ -3,6 +3,7 @@
 - [CCMatrix](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix) - CCMatrix: Mining Billions of High-Quality Parallel Sentences on the WEB.
 - [CCNet](https://github.com/facebookresearch/cc_net) - Tools to download and clean Common Crawl as introduced in our paper CCNet: High Quality Monolingual Datasets from Web Crawl Data.
 - [Common Corpus](https://huggingface.co/collections/PleIAs/common-corpus-65d46e3ea3980fdcd66a5613) - The largest public domain dataset for training LLMs.
+- [Common Corpus](https://huggingface.co/datasets/PleIAs/common_corpus) - The largest open and permissibly licensed multilingual text dataset with 2.27 trillion tokens, covering books, newspapers, scientific articles, government documents, and code.
 - [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) - CulturaX is a substantial multilingual dataset with 6.3 trillion tokens in 167 languages, tailored for large language model (LLM) development.
 - [DCLM](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0) - DCLM is a pretraining dataset that achieves strong performance on language model benchmarks.
 - [Deduplicated CommonCrawl Text](http://statmt.org/ngrams/deduped) - Processed Common Crawl snapshots.
@@ -27,6 +28,7 @@
 - [Montessori-Instruct](https://github.com/cxcscmu/montessori-instruct) - Data synthesis framework that tailors the data synthesis ability of the teacher toward the student's learning process.
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - The Multi_Legal_Pile is a large-scale multilingual legal dataset suited for pretraining language models. It spans over 24 languages and five legal text types.
 - [Open Super-large Crawled ALMAnaCH coRpus (OSCAR)](https://oscar-corpus.com) - OSCAR or Open Super-large Crawled Aggregated coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
+- [Orca-AgentInstruct-1M](https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1) - Synthetic instruction-following dataset with ~1 million instruction pairs generated via the AgentInstruct framework, covering diverse tasks like QA, reasoning, code generation, and text editing.
 - [P3](https://huggingface.co/datasets/bigscience/P3) - P3 (Public Pool of Prompts) is a collection of prompted English datasets covering a diverse set of NLP tasks.
 - [PG-19 Language Modelling Benchmark](https://github.com/deepmind/pg19) - This repository contains the PG-19 language modeling benchmark. It includes a set of books extracted from the Project Gutenberg books library, that were published before 1919. It also contains metadata of book titles and publication dates.
 - [PRESTO](https://github.com/google-research-datasets/presto) - PRESTO is a dataset of over 550K contextual multilingual conversations between humans and virtual assistants. PRESTO contains a diverse array of challenges that occur in real-world NLU tasks such as disfluencies, code-switching, and revisions.
@@ -38,6 +40,7 @@
 - [Seahorse](https://github.com/google-research-datasets/seahorse) - Seahorse is a dataset for multilingual, multifaceted summarization evaluation. It contains 96K summaries with human ratings along 6 quality dimensions: comprehensibility, repetition, grammar, attribution, main ideas, and conciseness, covering 6 languages, 9 systems and 4 datasets.
 - [Self-Instruct](https://huggingface.co/datasets/yizhongw/self_instruct) - Self-Instruct is a framework that helps language models improve their ability to follow natural language instructions.
 - [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B) - The dataset consists of 59166 jsonl files and is ~895GB compressed. It is a cleaned and deduplicated version of Together's RedPajama.
+- [SmolTalk](https://huggingface.co/datasets/HuggingFaceTB/smoltalk) - Synthetic SFT dataset with 1 million samples used to train the SmolLM2-Instruct family, covering text editing, summarization, math reasoning, coding, and instruction following.
 - [tiny-codes](https://huggingface.co/datasets/nampdn-ai/tiny-codes) - This synthetic dataset is a collection of 1.6 millions short and clear code snippets that can help LLM models learn how to reason with both natural and programming languages.
 - [UltraChat](https://huggingface.co/datasets/stingning/ultrachat) - UltraChat is an open-source, large-scale, and multi-round dialogue data powered by Turbo APIs.
 - [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback) - UltraFeedback is a large-scale, fine-grained, diverse preference dataset, used for training powerful reward models and critic models.

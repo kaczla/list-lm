@@ -413,6 +413,13 @@
         "manual_validated": false
     },
     {
+        "name": "Common Corpus",
+        "description": "The largest open and permissibly licensed multilingual text dataset with 2.27 trillion tokens, covering books, newspapers, scientific articles, government documents, and code.",
+        "url": "https://huggingface.co/datasets/PleIAs/common_corpus",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "Composio",
         "description": "Composio equip's your AI agents & LLMs with 100+ high-quality integrations via function calling",
         "url": "https://github.com/ComposioHQ/composio",
@@ -2184,6 +2191,13 @@
         "manual_validated": false
     },
     {
+        "name": "Orca-AgentInstruct-1M",
+        "description": "Synthetic instruction-following dataset with ~1 million instruction pairs generated via the AgentInstruct framework, covering diverse tasks like QA, reasoning, code generation, and text editing.",
+        "url": "https://huggingface.co/datasets/microsoft/orca-agentinstruct-1M-v1",
+        "link_type": "Dataset links",
+        "manual_validated": false
+    },
+    {
         "name": "OSLO",
         "description": "OSLO is a framework that provides various GPU based optimization technologies for large-scale modeling. Features like 3D parallelism and kernel fusion which could be useful when training a large model are the key features.",
         "url": "https://github.com/EleutherAI/oslo",
@@ -2587,6 +2601,13 @@
         "description": "Small-Text provides state-of-the-art Active Learning for Text Classification.",
         "url": "https://github.com/webis-de/small-text",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "SmolTalk",
+        "description": "Synthetic SFT dataset with 1 million samples used to train the SmolLM2-Instruct family, covering text editing, summarization, math reasoning, coding, and instruction following.",
+        "url": "https://huggingface.co/datasets/HuggingFaceTB/smoltalk",
+        "link_type": "Dataset links",
         "manual_validated": false
     },
     {
