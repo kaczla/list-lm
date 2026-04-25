@@ -3038,6 +3038,13 @@
         "manual_validated": false
     },
     {
+        "name": "TriAttention",
+        "description": "KV cache compression using trigonometric frequency-domain analysis for efficient long reasoning, achieving 10.7x memory reduction and 2.5x throughput improvement.",
+        "url": "https://github.com/WeianMao/triattention",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Tricksy",
         "description": "Fast approximate inference on a single GPU with sparsity aware offloading",
         "url": "https://github.com/austinsilveria/tricksy",

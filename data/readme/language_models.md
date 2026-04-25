@@ -4304,6 +4304,11 @@
   - Year: 2025
   - Publication: [Attention Is All You Need for KV Cache in Diffusion LLMs](https://arxiv.org/abs/2510.14973) (2025-10-16)
 
+- Ouro
+  - Year: 2025
+  - Publication: [Scaling Latent Reasoning via Looped Language Models](https://arxiv.org/abs/2510.25741) (2025-10-29)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ByteDance/ouro)
+
 - SWE-1.5
   - Year: 2025
   - Publication: [Blog - SWE-1.5](https://cognition.ai/blog/swe-1-5) (2025-10-29)
@@ -4472,6 +4477,10 @@
   - Year: 2026
   - Publication: [Blog - Gemini 3.1 Pro](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro) (2026-02-19)
 
+- Interleaved Head Attention (IHA)
+  - Year: 2026
+  - Publication: [Interleaved Head Attention](https://arxiv.org/abs/2602.21371) (2026-02-24)
+
 - FlashAttention-4
   - Year: 2026
   - Publication: [FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling](https://arxiv.org/abs/2603.05451) (2026-03-05)
@@ -4513,3 +4522,31 @@
   - Year: 2026
   - Publication: [Mixture-of-Depths Attention](https://arxiv.org/abs/2603.15619) (2026-03-16)
   - Code: [GitHub](https://github.com/hustvl/MoDA)
+
+- MiniMax M2.7
+  - Year: 2026
+  - Publication: [Blog - MiniMax M2.7](https://www.minimax.io/news/minimax-m27-en) (2026-03-18)
+
+- Gemma 4
+  - Year: 2026
+  - Publication: [Blog - Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) (2026-04-02)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/google/gemma-4)
+
+- Minor Component Adaptation (MiCA)
+  - Year: 2026
+  - Publication: [MiCA Learns More Knowledge Than LoRA and Full Fine-Tuning](https://arxiv.org/abs/2604.01694) (2026-04-02)
+
+- TriAttention
+  - Year: 2026
+  - Publication: [TriAttention: Efficient Long Reasoning with Trigonometric KV Compression](https://arxiv.org/abs/2604.04921) (2026-04-06)
+  - Code: [GitHub](https://github.com/WeianMao/triattention)
+
+- GLM-5.1
+  - Year: 2026
+  - Publication: [Blog - GLM-5.1](https://z.ai/blog/glm-5.1) (2026-04-07)
+  - Code: [GitHub](https://github.com/zai-org/GLM-5)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-51)
+
+- Qwen3.5-Omni
+  - Year: 2026
+  - Publication: [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) (2026-04-17)

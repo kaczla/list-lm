@@ -13761,6 +13761,22 @@
         "manual_validated": false
     },
     {
+        "name": "Ouro",
+        "year": 2025,
+        "publication": {
+            "title": "Scaling Latent Reasoning via Looped Language Models",
+            "url": "https://arxiv.org/abs/2510.25741",
+            "date_create": "2025-10-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/ByteDance/ouro"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "SWE-1.5",
         "year": 2025,
         "publication": {
@@ -14297,6 +14313,19 @@
         "manual_validated": false
     },
     {
+        "name": "Interleaved Head Attention (IHA)",
+        "year": 2026,
+        "publication": {
+            "title": "Interleaved Head Attention",
+            "url": "https://arxiv.org/abs/2602.21371",
+            "date_create": "2026-02-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "FlashAttention-4",
         "year": 2026,
         "publication": {
@@ -14428,6 +14457,96 @@
             "title": "GitHub",
             "url": "https://github.com/hustvl/MoDA"
         },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MiniMax M2.7",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - MiniMax M2.7",
+            "url": "https://www.minimax.io/news/minimax-m27-en",
+            "date_create": "2026-03-18"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemma 4",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Gemma 4",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+            "date_create": "2026-04-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/google/gemma-4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Minor Component Adaptation (MiCA)",
+        "year": 2026,
+        "publication": {
+            "title": "MiCA Learns More Knowledge Than LoRA and Full Fine-Tuning",
+            "url": "https://arxiv.org/abs/2604.01694",
+            "date_create": "2026-04-02"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "TriAttention",
+        "year": 2026,
+        "publication": {
+            "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+            "url": "https://arxiv.org/abs/2604.04921",
+            "date_create": "2026-04-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/WeianMao/triattention"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-5.1",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - GLM-5.1",
+            "url": "https://z.ai/blog/glm-5.1",
+            "date_create": "2026-04-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/zai-org/glm-51"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Qwen3.5-Omni",
+        "year": 2026,
+        "publication": {
+            "title": "Qwen3.5-Omni Technical Report",
+            "url": "https://arxiv.org/abs/2604.15804",
+            "date_create": "2026-04-17"
+        },
+        "video": null,
+        "code": null,
         "weights": null,
         "manual_validated": false
     }
