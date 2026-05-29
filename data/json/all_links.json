@@ -154,6 +154,13 @@
         "manual_validated": false
     },
     {
+        "name": "AutoRound",
+        "description": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers.",
+        "url": "https://github.com/intel/auto-round",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "Aviary",
         "description": "Aviary is an app that lets you interact with a variety of large language models (LLMs) in a single place. You can compare the outputs of different models directly, rank them by quality, get a cost and latency estimate, and more.",
         "url": "https://github.com/ray-project/aviary",

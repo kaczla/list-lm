@@ -4550,3 +4550,8 @@
 - Qwen3.5-Omni
   - Year: 2026
   - Publication: [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) (2026-04-17)
+
+- Lighthouse Attention
+  - Year: 2026
+  - Publication: [Long Context Pre-Training with Lighthouse Attention](https://arxiv.org/abs/2605.06554) (2026-05-07)
+  - Code: [GitHub](https://github.com/ighoshsubho/lighthouse-attention)

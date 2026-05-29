@@ -14549,5 +14549,21 @@
         "code": null,
         "weights": null,
         "manual_validated": false
+    },
+    {
+        "name": "Lighthouse Attention",
+        "year": 2026,
+        "publication": {
+            "title": "Long Context Pre-Training with Lighthouse Attention",
+            "url": "https://arxiv.org/abs/2605.06554",
+            "date_create": "2026-05-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/ighoshsubho/lighthouse-attention"
+        },
+        "weights": null,
+        "manual_validated": false
     }
 ]
