@@ -28,6 +28,10 @@ uv run python -m list_lm.merge_json lm <file.json>      # Merge models from JSON
 uv run python -m list_lm.merge_json links <file.json>   # Merge links from JSON file
 uv run python -m list_lm.merge_json lm <file.json> --dry-run  # Preview without changes
 
+# Merge convenience script (detects lm/links from file name: 'model' -> lm, 'link' -> links)
+scripts/merge.sh <file.json>             # Auto-detect data type and merge
+scripts/merge.sh <file.json> --dry-run   # Extra args are forwarded to merge_json
+
 # Validation (run only when user requests)
 uv run python -m list_lm.validate_lm_data     # Validate model data
 uv run python -m list_lm.validate_links       # Validate links data
@@ -38,6 +42,13 @@ uv run python -m list_lm.validate_links       # Validate links data
 ```bash
 uv run python -m list_lm.merge_json lm new_models_20250130_1430.json     # for model data
 uv run python -m list_lm.merge_json links new_links_20250130_1430.json   # for links data
+```
+
+Alternatively, the `scripts/merge.sh` helper auto-detects the data type from the file name (`model` -> lm, `link` -> links), so the timestamped file names produced by this workflow work directly:
+
+```bash
+scripts/merge.sh new_models_20250130_1430.json   # detects lm
+scripts/merge.sh new_links_20250130_1430.json    # detects links
 ```
 
 Uses `uv` as package manager (not pip). Python 3.13+ required.
