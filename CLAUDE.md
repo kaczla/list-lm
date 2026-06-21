@@ -33,7 +33,12 @@ uv run python -m list_lm.validate_lm_data     # Validate model data
 uv run python -m list_lm.validate_links       # Validate links data
 ```
 
-**Important:** After creating a new JSON file with model or link data, do NOT automatically run or propose running `merge_json`. Wait for the user to request it.
+**Important:** After creating a new JSON file with model or link data, do NOT automatically run or propose running `merge_json`. Wait for the user to request it. However, once the file is created, DO show the user the exact merge command they can run for that file, e.g.:
+
+```bash
+uv run python -m list_lm.merge_json lm new_models_20250130_1430.json     # for model data
+uv run python -m list_lm.merge_json links new_links_20250130_1430.json   # for links data
+```
 
 Uses `uv` as package manager (not pip). Python 3.13+ required.
 
@@ -78,8 +83,9 @@ data/
 Both model data and links follow the same workflow:
 
 1. Create a new JSON file with timestamp (e.g., `new_models_20250130_1430.json`)
-2. Merge into main data using the merge script
-3. The script automatically sorts and regenerates README files
+2. After creating the file, show the user the exact merge command for that file (do not run it automatically)
+3. Merge into main data using the merge script (when the user requests it)
+4. The script automatically sorts and regenerates README files
 
 **Important:** Do NOT run validation automatically. Wait for the user to request it.
 
