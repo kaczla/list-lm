@@ -1,12 +1,7 @@
 import re
 from datetime import date, datetime
 
-RGX_DATE = re.compile(r"^[0-9]{4}-[0-9]{2}-[0-9]{2}$")
 RGX_NAME_WITH_PARENS = re.compile(r"^(.+?)\s*\((.+)\)$")
-
-
-def is_valid_date_string(text: str) -> bool:
-    return bool(RGX_DATE.match(text))
 
 
 def convert_date_to_string(date_to_convert: date) -> str:

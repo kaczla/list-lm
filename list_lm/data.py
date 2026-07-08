@@ -1,19 +1,9 @@
 from datetime import date
 from enum import StrEnum
-from typing import TypedDict
 
 from pydantic import BaseModel
 
 from list_lm.utils import convert_date_to_string
-
-
-class UrlType(StrEnum):
-    GITHUB = "github"
-    ARXIV = "arxiv"
-    HUGGINGFACE = "huggingface"
-    X = "x"
-    ACM = "acm"
-    UNKNOWN = "unknown"
 
 
 class LinkType(StrEnum):
@@ -47,10 +37,6 @@ class ApplicationData(BaseModel):
 
     def to_markdown(self) -> str:
         return f"[{self.name}]({self.url}) - {self.description}"
-
-
-class SuggestedApplicationData(ApplicationData):
-    readme_text: str
 
 
 class UrlData(BaseModel):
@@ -109,20 +95,6 @@ class ModelInfo(BaseModel):
             ]
             if element is not None
         ]
-
-
-class ModelInfoDict(TypedDict):
-    name: str
-    year: int
-    publication: ArticleData
-    video: UrlData | None
-    code: UrlData | None
-    weights: UrlData | None
-
-
-class SuggestedModelInfo(BaseModel):
-    suggested_model_names: list[str]
-    article_data: ArticleDataExtended
 
 
 class CacheArticleData(BaseModel):

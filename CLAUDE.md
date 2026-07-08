@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Language model metadata curator that collects, validates, and curates information about transformer-based language models. Provides GUI tools for adding models and links, parsing arXiv papers, and generating markdown documentation.
+Language model metadata curator that collects, validates, and curates information about transformer-based language models. Provides tools for merging model and link data, parsing arXiv papers, and generating markdown documentation.
 
 ## Common Commands
 
@@ -17,11 +17,6 @@ make lint             # Check with ruff
 make format           # Format with ruff
 make type_check       # mypy strict type checking
 make lint_shell       # shellcheck for scripts
-
-# Run GUI applications
-uv run python -m list_lm.app                  # Main GUI for manual entry
-uv run python -m list_lm.auto_add_lm_data_app # Semi-automated model addition (uses Ollama)
-uv run python -m list_lm.auto_add_links_app   # Semi-automated link addition (uses Ollama)
 
 # Merge JSON data
 uv run python -m list_lm.merge_json lm <file.json>      # Merge models from JSON file
@@ -60,17 +55,12 @@ Uses `uv` as package manager (not pip). Python 3.13+ required.
 - `ApplicationData`: Curated resource links with `LinkType` categorization
 - `ArticleData`/`ArticleDataExtended`: Paper metadata from arXiv parsing
 - `LinkType`: 9 categories (MODEL, UTILS, GPU_PROFILING, VISUALIZATION, VOCABULARY, OPTIMIZER, DATASET, TOPIC, DOCUMENTATION)
-- `UrlType`: URL classification (ARXIV, GITHUB, HUGGINGFACE, X/TWITTER, ACM, UNKNOWN)
 
 ### Core Modules
-- `data_manager.py`: Generic CRUD with JSON persistence
 - `merge_json.py`: Merge JSON data into LM data or links with duplicate detection
 - `parse_html.py`: arXiv HTML parsing with cache (`.cache_arxiv.json`)
-- `parse_url.py`: URL domain classification
-- `parser_lm_data.py` / `parser_links.py`: Ollama LLM + regex extraction
 - `generate_readme.py`: JSON to markdown conversion
 - `validate_*.py`: Data validation modules
-- `ollama_client.py`: Local Ollama LLM interface (http://localhost:11434)
 
 ### Data Storage
 ```
