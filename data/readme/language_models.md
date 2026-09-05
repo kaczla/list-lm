@@ -683,7 +683,7 @@
 
 - AlpacOOM
   - Year: 2023
-  - Publication: [Tweet: Alpaca + BLOOM = Alpacoom](https://twitter.com/alfredplpl/status/1636858660218617857) (2023-03-17)
+  - Publication: [Tweet: Alpaca + BLOOM = Alpacoom](https://x.com/alfredplpl/status/1636858660218617857) (2023-03-17)
   - Model weights: [HuggingFace models](https://huggingface.co/mrm8488/Alpacoom)
 
 - CoLT5
@@ -692,7 +692,7 @@
 
 - GPT4All
   - Year: 2023
-  - Publication: [Tweet: Today we're releasing GPT4All, an assistant-style chatbot distilled from 430k GPT-3.5-Turbo outputs that you can run on your laptop.](https://twitter.com/nomic_ai/status/1640834838578995202) (2023-03-28)
+  - Publication: [Tweet: Today we're releasing GPT4All, an assistant-style chatbot distilled from 430k GPT-3.5-Turbo outputs that you can run on your laptop.](https://x.com/nomic_ai/status/1640834838578995202) (2023-03-28)
   - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
   - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-lora)
 
@@ -736,7 +736,7 @@
 
 - GPTrillion
   - Year: 2023
-  - Publication: [Tweet: GPTrillion: a 1.5T Parameter Open-Source Model](https://twitter.com/BananaDev_/status/1642211220072673286) (2023-04-01)
+  - Publication: [Tweet: GPTrillion: a 1.5T Parameter Open-Source Model](https://x.com/BananaDev_/status/1642211220072673286) (2023-04-01)
 
 - Koala
   - Year: 2023
@@ -764,7 +764,7 @@
 
 - GPT4All-J
   - Year: 2023
-  - Publication: [Tweet: Announcing GPT4All-J: The First Apache-2 Licensed Chatbot That Runs Locally on Your Machine](https://twitter.com/andriy_mulyar/status/1646622168350875655) (2023-04-13)
+  - Publication: [Tweet: Announcing GPT4All-J: The First Apache-2 Licensed Chatbot That Runs Locally on Your Machine](https://x.com/andriy_mulyar/status/1646622168350875655) (2023-04-13)
   - Code: [GitHub](https://github.com/nomic-ai/gpt4all)
   - Model weights: [HuggingFace models](https://huggingface.co/nomic-ai/gpt4all-j)
 
@@ -822,7 +822,7 @@
 
 - FastChat-T5
   - Year: 2023
-  - Publication: [Tweet: We are excited to release FastChat-T5: our compact and commercial-friendly chatbot!](https://twitter.com/lmsysorg/status/1652037026705985537) (2023-04-28)
+  - Publication: [Tweet: We are excited to release FastChat-T5: our compact and commercial-friendly chatbot!](https://x.com/lmsysorg/status/1652037026705985537) (2023-04-28)
   - Code: [GitHub](https://github.com/lm-sys/FastChat)
   - Model weights: [HuggingFace models](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0)
 
@@ -857,7 +857,7 @@
 
 - ReplitLM
   - Year: 2023
-  - Publication: [Tweet: Last night, we released our new complete code model: replit-code-v1-3b.](https://twitter.com/Replit/status/1653802301331759104) (2023-05-03)
+  - Publication: [Tweet: Last night, we released our new complete code model: replit-code-v1-3b.](https://x.com/Replit/status/1653802301331759104) (2023-05-03)
   - Code: [GitHub](https://github.com/replit/ReplitLM)
   - Model weights: [HuggingFace models](https://huggingface.co/replit/replit-code-v1-3b)
 
@@ -1148,7 +1148,7 @@
 
 - Redmond-Hermes-Coder
   - Year: 2023
-  - Publication: [Tweet: Releasing Redmond-Hermes-Coder, a finetune of Wizardcoder on our dataset.](https://twitter.com/NousResearch/status/1674992144170340353) (2023-07-07)
+  - Publication: [Tweet: Releasing Redmond-Hermes-Coder, a finetune of Wizardcoder on our dataset.](https://x.com/NousResearch/status/1674992144170340353) (2023-07-07)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Redmond-Hermes-Coder)
 
 - PolyLM
@@ -1447,7 +1447,7 @@
 
 - Nous-Hermes
   - Year: 2023
-  - Publication: [Tweet: Nous-Hermes-13b fp16 weights have been released.](https://twitter.com/NousResearch/status/1664848823687028737) (2023-09-29)
+  - Publication: [Tweet: Nous-Hermes-13b fp16 weights have been released.](https://x.com/NousResearch/status/1664848823687028737) (2023-09-29)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Hermes-13b)
 
 - OpenHermes-2.5-Mistral
@@ -1942,7 +1942,7 @@
 
 - Mixtral Nous-Hermes
   - Year: 2024
-  - Publication: [Tweet: Introducing our new flagship LLM, Nous-Hermes 2 on Mixtral 8x7B.](https://twitter.com/NousResearch/status/1746988416779309143) (2024-01-15)
+  - Publication: [Tweet: Introducing our new flagship LLM, Nous-Hermes 2 on Mixtral 8x7B.](https://x.com/NousResearch/status/1746988416779309143) (2024-01-15)
   - Model weights: [HuggingFace models](https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO)
 
 - AlphaCodium

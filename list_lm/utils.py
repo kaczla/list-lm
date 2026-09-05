@@ -2,6 +2,7 @@ import re
 from datetime import date, datetime
 
 RGX_NAME_WITH_PARENS = re.compile(r"^(.+?)\s*\((.+)\)$")
+RGX_HUGGINGFACE_PAPER_URL = re.compile(r"^https?://huggingface\.co/papers/(?P<arxiv_id>[\d.]+)/?$")
 
 
 def convert_date_to_string(date_to_convert: date) -> str:
@@ -10,6 +11,17 @@ def convert_date_to_string(date_to_convert: date) -> str:
 
 def convert_string_to_date(text: str) -> date:
     return datetime.strptime(text, "%Y-%m-%d").date()
+
+
+def normalize_publication_url(url: str) -> str:
+    """
+    Normalize 'https://huggingface.co/papers/<id>' URLs to 'https://arxiv.org/abs/<id>'.
+    """
+    match = RGX_HUGGINGFACE_PAPER_URL.match(url)
+    if not match:
+        return url
+
+    return f"https://arxiv.org/abs/{match.group('arxiv_id')}"
 
 
 def normalize_name_format(name: str) -> str:

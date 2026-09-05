@@ -21,6 +21,7 @@ from list_lm.generate_readme import generate_links_all, generate_lm_data
 from list_lm.log_utils import init_logs
 from list_lm.parse_links import FILE_NAME_LINKS
 from list_lm.parse_lm_data import FILE_NAME_LM_DATA
+from list_lm.utils import normalize_publication_url
 
 DATA_JSON_PATH = Path("data/json")
 
@@ -70,6 +71,13 @@ def merge_lm_data(input_data: list[dict[str, Any]], dry_run: bool = False, overw
     new_items: list[ModelInfo] = []
 
     for idx, item in enumerate(input_data):
+        publication = item.get("publication")
+        if isinstance(publication, dict) and isinstance(publication.get("url"), str):
+            normalized_url = normalize_publication_url(publication["url"])
+            if normalized_url != publication["url"]:
+                logger.info(f"[{idx + 1}] Normalizing publication URL: {publication['url']!r} -> {normalized_url!r}")
+                publication["url"] = normalized_url
+
         try:
             model_info = ModelInfo(**item)
         except ValidationError as e:
