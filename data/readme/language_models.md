@@ -4551,11 +4551,180 @@
   - Code: [GitHub](https://github.com/zai-org/GLM-5)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-51)
 
+- Muse Spark
+  - Year: 2026
+  - Publication: [Introducing Muse Spark: Meta's Most Powerful Model Yet](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/) (2026-04-08)
+
 - Qwen3.5-Omni
   - Year: 2026
   - Publication: [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) (2026-04-17)
+
+- Kimi K2.6
+  - Year: 2026
+  - Publication: [Kimi K2.6 Tech Blog: Advancing Open-Source Coding](https://www.kimi.ai/blog/kimi-k2-6) (2026-04-20)
+  - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2.6)
+
+- DeepSeek V4 (Preview)
+  - Year: 2026
+  - Publication: [DeepSeek V4 Preview Release](https://api-docs.deepseek.com/news/news260424/) (2026-04-24)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)
 
 - Lighthouse Attention
   - Year: 2026
   - Publication: [Long Context Pre-Training with Lighthouse Attention](https://arxiv.org/abs/2605.06554) (2026-05-07)
   - Code: [GitHub](https://github.com/ighoshsubho/lighthouse-attention)
+
+- Command A+
+  - Year: 2026
+  - Publication: [HuggingFace - CohereLabs/command-a-plus-05-2026-bf16](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16) (2026-05-20)
+  - Model weights: [HuggingFace models](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16)
+
+- MiniMax M3
+  - Year: 2026
+  - Publication: [MiniMax M3 - Coding & Agentic Frontier, 1M Context, Multimodal](https://www.minimax.io/models/text/m3) (2026-06-01)
+  - Model weights: [HuggingFace models](https://huggingface.co/MiniMaxAI/MiniMax-M3)
+
+- Qwen3.7-Plus
+  - Year: 2026
+  - Publication: [Qwen3.7-Plus: Multimodal Agent Intelligence](https://qwen.ai/blog?id=qwen3.7-plus) (2026-06-01)
+
+- MAI-Thinking-1
+  - Year: 2026
+  - Publication: [Building a hill-climbing machine: Launching seven new MAI models](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/) (2026-06-02)
+
+- Nemotron 3 Ultra
+  - Year: 2026
+  - Publication: [NVIDIA Nemotron 3 Ultra Powers Faster, More Efficient Reasoning for Long-Running Agents](https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/) (2026-06-04)
+  - Code: [GitHub](https://github.com/NVIDIA-NeMo/Nemotron)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4)
+
+- Claude Fable 5
+  - Year: 2026
+  - Publication: [Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) (2026-06-09)
+
+- GLM-5.2
+  - Year: 2026
+  - Publication: [Blog - GLM-5.2](https://z.ai/blog/glm-5.2) (2026-06-16)
+  - Code: [GitHub](https://github.com/zai-org/GLM-5)
+  - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-5.2)
+
+- Ornith-1.0
+  - Year: 2026
+  - Publication: [Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding](https://ornith.ai/ornith_1_0.html) (2026-06-25)
+  - Code: [GitHub](https://github.com/ornith-ai/Ornith-1)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ornith-ai/ornith-10)
+
+- Claude Sonnet 5
+  - Year: 2026
+  - Publication: [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) (2026-06-30)
+
+- Leanstral 1.5
+  - Year: 2026
+  - Publication: [Blog - Leanstral 1.5](https://mistral.ai/news/leanstral-1-5/) (2026-06-30)
+  - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)
+
+- GPT-5.6
+  - Year: 2026
+  - Publication: [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6/) (2026-07-09)
+
+- Muse Spark 1.1
+  - Year: 2026
+  - Publication: [Introducing Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) (2026-07-09)
+
+- Inkling
+  - Year: 2026
+  - Publication: [Inkling: Our Open-Weights Model](https://thinkingmachines.ai/news/introducing-inkling/) (2026-07-15)
+  - Model weights: [HuggingFace models](https://huggingface.co/thinkingmachines/Inkling)
+
+- Grok 4.5
+  - Year: 2026
+  - Publication: [Grok 4.5](https://x.ai/news/grok-4-5) (2026-07-16)
+
+- Kimi K3
+  - Year: 2026
+  - Publication: [Kimi K3 Tech Blog: Open Frontier Intelligence](https://www.kimi.ai/blog/kimi-k3) (2026-07-16)
+  - Code: [GitHub](https://github.com/MoonshotAI/Kimi-K3)
+  - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K3)
+
+- Gemini 3.6 Flash / Gemini 3.5 Flash-Lite
+  - Year: 2026
+  - Publication: [Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) (2026-07-21)
+
+- Claude Opus 5
+  - Year: 2026
+  - Publication: [Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) (2026-07-24)
+
+- DeepSeek V4 Flash-0731
+  - Year: 2026
+  - Publication: [HuggingFace - deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) (2026-07-31)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731)
+
+- Qwen3.8-Max
+  - Year: 2026
+  - Publication: [Qwen3.8-Max](https://qwen.ai/blog?id=qwen3.8) (2026-08-03)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen3.8)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B)
+
+- Muse Spark 1.2
+  - Year: 2026
+  - Publication: [The Multimodal Intelligence of Muse Spark 1.2](https://research.meta.ai/blog/multimodal-intelligence-of-muse-spark-1-2) (2026-08-05)
+
+- Muse Glimmer
+  - Year: 2026
+  - Publication: [Blog - Introducing Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) (2026-08-10)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-models/Muse-Glimmer-30B)
+
+- NVIDIA Nemotron 3.5 Lightning
+  - Year: 2026
+  - Publication: [HuggingFace - NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4) (2026-08-11)
+  - Code: [GitHub](https://github.com/NVIDIA-NeMo/Nemotron)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4)
+
+- Grok 4.6
+  - Year: 2026
+  - Publication: [Grok 4.6](https://x.ai/news/grok-4-6) (2026-08-12)
+
+- DeepSeek V4 Pro-0813
+  - Year: 2026
+  - Publication: [HuggingFace - deepseek-ai/DeepSeek-V4-Pro-0813](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813) (2026-08-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813)
+
+- Gemini 3.7 Flash
+  - Year: 2026
+  - Publication: [Introducing Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) (2026-08-13)
+
+- GLM-5.3
+  - Year: 2026
+  - Publication: [Blog - GLM-5.3](https://z.ai/blog/glm-5.3) (2026-08-14)
+  - Code: [GitHub](https://github.com/zai-org/GLM-5)
+  - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-5.3)
+
+- Ornith-1.5
+  - Year: 2026
+  - Publication: [Ornith-1.5: From Self-Scaffolding to Self-Improvement](https://ornith.ai/ornith_1_5.html) (2026-08-19)
+  - Code: [GitHub](https://github.com/ornith-ai/Ornith-1)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ornith-ai/ornith-15)
+
+- Granite 4.2
+  - Year: 2026
+  - Publication: [Blog - Granite 4.2](https://huggingface.co/blog/ibm-granite/granite-4-2) (2026-08-25)
+  - Code: [GitHub](https://github.com/ibm-granite/granite-4.2-language-models)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/ibm-granite/granite-42-language-models)
+
+- Qwen3.8-Flash
+  - Year: 2026
+  - Publication: [HuggingFace - Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) (2026-08-26)
+  - Code: [GitHub](https://github.com/QwenLM/Qwen3.8-Flash-Next)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)
+
+- Claude Fable 5.1
+  - Year: 2026
+  - Publication: [Introducing Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) (2026-09-01)
+
+- Muse Spark 1.3
+  - Year: 2026
+  - Publication: [Introducing Muse Spark 1.3](https://research.meta.ai/blog/introducing-muse-spark-1-3) (2026-09-02)
+
+- GPT-6 Astra
+  - Year: 2026
+  - Publication: [GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra/) (2026-09-03)

@@ -33,6 +33,7 @@
 - [Chonkie](https://github.com/chonkie-inc/chonkie) - Lightweight text chunking library for efficient RAG pipelines with multiple chunking strategies.
 - [ChunkLlama](https://github.com/HKUNLP/ChunkLlama) - Dual chunk attention is a training-free and effective method for extending the context window of large language models (LLMs) to more than 8x times their original pre-training length
 - [cleanlab](https://github.com/cleanlab/cleanlab) - cleanlab automatically finds and fixes errors in any ML dataset
+- [Colibri](https://github.com/JustVugg/colibri) - Open-source inference engine that runs frontier MoE models (744B to 2.8T parameters) on consumer and heterogeneous hardware by treating storage, RAM, and VRAM as a unified memory hierarchy.
 - [COLLIE](https://github.com/princeton-nlp/Collie) - COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.
 - [comgra](https://github.com/FlorianDietz/comgra) - Comgra stands for "computation graph analysis" and it is a library for use with pytorch that makes it easier to inspect the internals of your neural networks.
 - [Composio](https://github.com/ComposioHQ/composio) - Composio equip's your AI agents & LLMs with 100+ high-quality integrations via function calling

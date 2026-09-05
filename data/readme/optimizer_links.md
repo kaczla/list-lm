@@ -4,6 +4,7 @@
 - [Benchmarking LLM Pretraining Optimizers](https://arxiv.org/abs/2509.01440) - Benchmarking Optimizers for Large Language Model Pretraining
 - [DeMo (Decoupled Momentum Optimization)](https://arxiv.org/abs/2411.19870) - Reduces communication overhead in distributed training by decoupling momentum updates across accelerators.
 - [DiLoCo](https://arxiv.org/abs/2311.08105) - DiLoCo: Distributed Low-Communication Training of Language Models
+- [Dion3](https://arxiv.org/abs/2608.11612) - Optimized variant of the Muon optimizer using a Gram Newton-Schulz algorithm, specialized CuteDSL kernels, and megabatching to speed up orthogonalized full-stack updates.
 - [DisTrO](https://github.com/NousResearch/DisTrO) - DisTrO (Distributed Training Over-The-Internet), a family of low latency distributed optimizers that reduce inter-GPU communication requirements by three to four orders of magnitude.
 - [Fantastic Pretraining Optimizers](https://arxiv.org/abs/2509.02046) - Fantastic Pretraining Optimizers and Where to Find Them
 - [GEPA](https://arxiv.org/abs/2507.19457) - Prompt optimization technique using natural language reflection to learn high-level rules from trial and error, outperforming reinforcement learning approaches with up to 35x fewer rollouts.

@@ -392,6 +392,13 @@
         "manual_validated": false
     },
     {
+        "name": "Colibri",
+        "description": "Open-source inference engine that runs frontier MoE models (744B to 2.8T parameters) on consumer and heterogeneous hardware by treating storage, RAM, and VRAM as a unified memory hierarchy.",
+        "url": "https://github.com/JustVugg/colibri",
+        "link_type": "Utils links",
+        "manual_validated": false
+    },
+    {
         "name": "COLLIE",
         "description": "COLLIE framework for easy constraint structure specification, example extraction, instruction rendering, and model evaluation.",
         "url": "https://github.com/princeton-nlp/Collie",
@@ -647,6 +654,13 @@
         "name": "DiLoCo",
         "description": "DiLoCo: Distributed Low-Communication Training of Language Models",
         "url": "https://arxiv.org/abs/2311.08105",
+        "link_type": "Optimizer links",
+        "manual_validated": false
+    },
+    {
+        "name": "Dion3",
+        "description": "Optimized variant of the Muon optimizer using a Gram Newton-Schulz algorithm, specialized CuteDSL kernels, and megabatching to speed up orthogonalized full-stack updates.",
+        "url": "https://arxiv.org/abs/2608.11612",
         "link_type": "Optimizer links",
         "manual_validated": false
     },
@@ -1019,6 +1033,13 @@
         "description": "We present gigaGPT – the simplest implementation for training large language models with tens or hundreds of billions of parameters.",
         "url": "https://github.com/Cerebras/gigaGPT",
         "link_type": "Model links",
+        "manual_validated": false
+    },
+    {
+        "name": "Gigatoken",
+        "description": "High-performance tokenization library, roughly 1000x faster than HuggingFace's tokenizers, built as a drop-in replacement supporting BPE, HuggingFace Tokenizers, and Tiktoken formats.",
+        "url": "https://github.com/marcelroed/gigatoken",
+        "link_type": "Vocabulary links",
         "manual_validated": false
     },
     {
