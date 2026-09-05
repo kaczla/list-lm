@@ -70,6 +70,12 @@ def validate_lm_data(
                 else:
                     errors.append(f"Cannot find model name: {model_info.name!r} in publication title/abstract.")
 
+            elif not model_info.manual_validated:
+                errors.append(
+                    f"Non-arXiv publication URL for {model_info.name!r} is not manually validated"
+                    f" - publication date may be stale: {model_info.publication.url}"
+                )
+
     for index, model_info in enumerate(model_info_list):
         logger.info(f"[{index + 1}/{len(model_info_list)}] Checking model: {model_info.name}")
 
