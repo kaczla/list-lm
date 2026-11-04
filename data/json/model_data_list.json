@@ -13610,6 +13610,25 @@
         "manual_validated": false
     },
     {
+        "name": "Moondream 3 Preview",
+        "year": 2025,
+        "publication": {
+            "title": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed",
+            "url": "https://moondream.ai/blog/moondream-3-preview",
+            "date_create": "2025-09-18"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/vikhyat/moondream"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/moondream/moondream3-preview"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "DeepScaleR",
         "year": 2025,
         "publication": {
@@ -14271,6 +14290,25 @@
         "manual_validated": false
     },
     {
+        "name": "Step 3.5 Flash",
+        "year": 2026,
+        "publication": {
+            "title": "Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters",
+            "url": "https://arxiv.org/abs/2602.10604",
+            "date_create": "2026-02-11"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stepfun-ai/Step-3.5-Flash"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/stepfun-ai/step-35-flash"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Nanbeige4.1-3B",
         "year": 2026,
         "publication": {
@@ -14318,6 +14356,19 @@
         "publication": {
             "title": "Interleaved Head Attention",
             "url": "https://arxiv.org/abs/2602.21371",
+            "date_create": "2026-02-24"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Mercury 2",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Mercury 2",
+            "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
             "date_create": "2026-02-24"
         },
         "video": null,
@@ -14487,6 +14538,25 @@
         "manual_validated": false
     },
     {
+        "name": "1-bit Bonsai",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - 1-bit Bonsai",
+            "url": "https://prismml.com/news/bonsai-8b",
+            "date_create": "2026-03-31"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/prism-ml/bonsai"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Gemma 4",
         "year": 2026,
         "publication": {
@@ -14564,6 +14634,25 @@
         "manual_validated": false
     },
     {
+        "name": "Ternary Bonsai",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Ternary Bonsai",
+            "url": "https://prismml.com/news/ternary-bonsai",
+            "date_create": "2026-04-16"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/prism-ml/ternary-bonsai"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Qwen3.5-Omni",
         "year": 2026,
         "publication": {
@@ -14589,6 +14678,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Hy3 Preview",
+        "year": 2026,
+        "publication": {
+            "title": "README - Hy3-preview repository",
+            "url": "https://github.com/Tencent-Hunyuan/Hy3-preview/blob/38ac237dc0bf4329f054d09054aaf22fdaf6f553/README.md",
+            "date_create": "2026-04-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tencent-Hunyuan/Hy3-preview"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/tencent/hy3-preview"
         },
         "manual_validated": false
     },
@@ -14637,6 +14745,25 @@
         "weights": {
             "title": "HuggingFace models",
             "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Step 3.7 Flash",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Step 3.7 Flash",
+            "url": "https://static.stepfun.com/blog/step-3.7-flash/",
+            "date_create": "2026-05-29"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stepfun-ai/Step-3.7-Flash"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/stepfun-ai/step-37-flash"
         },
         "manual_validated": false
     },
@@ -14782,6 +14909,44 @@
         "manual_validated": false
     },
     {
+        "name": "Hy3",
+        "year": 2026,
+        "publication": {
+            "title": "README - Hy3 repository",
+            "url": "https://github.com/Tencent-Hunyuan/Hy3/blob/b20268970234437e73665fdce202e574eda598f5/README.md",
+            "date_create": "2026-07-06"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tencent-Hunyuan/Hy3"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/tencent/hy3"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Moondream 3.1",
+        "year": 2026,
+        "publication": {
+            "title": "Moondream 3.1: Beyond Benchmarks",
+            "url": "https://moondream.ai/blog/moondream-3-1-beyond-benchmarks",
+            "date_create": "2026-07-07"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/vikhyat/moondream"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/moondream/moondream3.1-9B-A2B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "GPT-5.6",
         "year": 2026,
         "publication": {
@@ -14805,6 +14970,25 @@
         "video": null,
         "code": null,
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Bonsai 27B",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Bonsai 27B",
+            "url": "https://prismml.com/news/bonsai-27b",
+            "date_create": "2026-07-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf"
+        },
         "manual_validated": false
     },
     {
@@ -15007,6 +15191,22 @@
         "manual_validated": false
     },
     {
+        "name": "Qwen3.8-27B",
+        "year": 2026,
+        "publication": {
+            "title": "HuggingFace - Qwen3.8-27B",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+            "date_create": "2026-08-13"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "GLM-5.3",
         "year": 2026,
         "publication": {
@@ -15083,12 +15283,44 @@
         "manual_validated": false
     },
     {
+        "name": "Hy4 Preview",
+        "year": 2026,
+        "publication": {
+            "title": "README - Hy4-preview repository",
+            "url": "https://github.com/Tencent-Hunyuan/Hy4-preview/blob/509799be8cc7bfeb63353e7322b2daddf7f73a28/README.md",
+            "date_create": "2026-08-28"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tencent-Hunyuan/Hy4-preview"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/tencent/hy4-preview"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Claude Fable 5.1",
         "year": 2026,
         "publication": {
             "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
             "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
             "date_create": "2026-09-01"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemini 3.8 Flash",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+            "date_create": "2026-09-02"
         },
         "video": null,
         "code": null,
@@ -15115,6 +15347,385 @@
             "title": "GPT-6 Astra: A new generation of intelligence",
             "url": "https://openai.com/index/gpt-6-astra/",
             "date_create": "2026-09-03"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Mercury 2.5",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Mercury 2.5",
+            "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+            "date_create": "2026-09-08"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek V4.1 Flash",
+        "year": 2026,
+        "publication": {
+            "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+            "url": "https://api-docs.deepseek.com/news/news260910/",
+            "date_create": "2026-09-10"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Bonsai 2 27B",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Bonsai 2 27B",
+            "url": "https://prismml.com/news/bonsai-2-27b",
+            "date_create": "2026-09-17"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/prism-ml/bonsai-2"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Step 5 Preview",
+        "year": 2026,
+        "publication": {
+            "title": "HuggingFace - Step-5-Preview",
+            "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+            "date_create": "2026-09-20"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/stepfun-ai/Step-5-Preview"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Grok 4.7",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Grok 4.7",
+            "url": "https://x.ai/news/grok-4-7",
+            "date_create": "2026-09-21"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Claude Opus 5.5",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Claude Opus 5.5",
+            "url": "https://www.anthropic.com/news/claude-opus-5-5",
+            "date_create": "2026-09-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GPT-6 Sol / GPT-6 Luna",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing GPT-6 Sol and Luna",
+            "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+            "date_create": "2026-09-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MiMo-V2.6-Pro / MiMo-V2.6-Flash",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - MiMo-V2.6",
+            "url": "https://mimo.xiaomi.com/blog/mimo-v2-6",
+            "date_create": "2026-09-22"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Hunyuan-A13B",
+        "year": 2026,
+        "publication": {
+            "title": "Hunyuan-A13B Technical Report",
+            "url": "https://arxiv.org/abs/2609.27284",
+            "date_create": "2026-09-23"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/Tencent-Hunyuan/Hunyuan-A13B"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/tencent/Hunyuan-A13B-Instruct"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Claude Sonnet 5.5",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Claude Sonnet 5.5",
+            "url": "https://www.anthropic.com/news/claude-sonnet-5-5",
+            "date_create": "2026-09-28"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GPT-6.1 Sol",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing GPT-6.1 Sol",
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+            "date_create": "2026-09-29"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Kolibri-1",
+        "year": 2026,
+        "publication": {
+            "title": "HuggingFace - Kolibri-1",
+            "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+            "date_create": "2026-10-03"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Beam 1.0",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Beam: Reflection's 501B open-weight model",
+            "url": "https://reflection.ai/blog/introducing-beam",
+            "date_create": "2026-10-05"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mistral Large 4",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Mistral Large 4",
+            "url": "https://mistral.ai/news/mistral-large-4/",
+            "date_create": "2026-10-06"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/mistralai/mistral-large-4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Claude Haiku 5.5",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Claude Haiku 5.5",
+            "url": "https://www.anthropic.com/news/claude-haiku-5-5",
+            "date_create": "2026-10-07"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Muse Wonder",
+        "year": 2026,
+        "publication": {
+            "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+            "url": "https://research.meta.ai/blog/muse-wonder",
+            "date_create": "2026-10-12"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Gemini 4 Argon",
+        "year": 2026,
+        "publication": {
+            "title": "Gemini 4 Argon: Built to solve your hardest problems",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+            "date_create": "2026-10-13"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "Muse Spark Open",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date",
+            "url": "https://research.meta.ai/blog/muse-spark-open",
+            "date_create": "2026-10-15"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Nemotron 3.5 Super VL / Nemotron 3.5 Bolt",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Nemotron 3.5 Super VL and Bolt",
+            "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+            "date_create": "2026-10-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/NVIDIA-NeMo/Nemotron"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Ternary Bonsai 2",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - Ternary Bonsai 2",
+            "url": "https://prismml.com/news/bonsai-2-family",
+            "date_create": "2026-10-15"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/prism-ml/bonsai-2"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "DeepSeek V4.1 Flash-1017",
+        "year": 2026,
+        "publication": {
+            "title": "DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real",
+            "url": "https://api-docs.deepseek.com/news/news261017/",
+            "date_create": "2026-10-17"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Mercury 3",
+        "year": 2026,
+        "publication": {
+            "title": "Diffusion at Scale: Introducing Mercury 3",
+            "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+            "date_create": "2026-10-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "MiniMax M3.1 Flash",
+        "year": 2026,
+        "publication": {
+            "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
+            "url": "https://www.minimax.io/blog/minimax-m31f",
+            "date_create": "2026-10-19"
+        },
+        "video": null,
+        "code": null,
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        "manual_validated": false
+    },
+    {
+        "name": "Kimi K3.1 Pro",
+        "year": 2026,
+        "publication": {
+            "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+            "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+            "date_create": "2026-10-23"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GPT-6.1 Terra",
+        "year": 2026,
+        "publication": {
+            "title": "Introducing GPT-6.1 Terra",
+            "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+            "date_create": "2026-10-26"
         },
         "video": null,
         "code": null,

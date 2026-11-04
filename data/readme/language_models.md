@@ -4257,6 +4257,12 @@
   - Code: [GitHub](https://github.com/Alibaba-NLP/DeepResearch)
   - Model weights: [HuggingFace models](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)
 
+- Moondream 3 Preview
+  - Year: 2025
+  - Publication: [Moondream 3 Preview: Frontier-level reasoning at a blazing speed](https://moondream.ai/blog/moondream-3-preview) (2025-09-18)
+  - Code: [GitHub](https://github.com/vikhyat/moondream)
+  - Model weights: [HuggingFace models](https://huggingface.co/moondream/moondream3-preview)
+
 - DeepScaleR
   - Year: 2025
   - Publication: [DeepScaleR: Effective RL Scaling of Reasoning Models via Iterative Context Lengthening](https://openreview.net/forum?id=I6GzDCne7U) (2025-09-19)
@@ -4464,6 +4470,12 @@
   - Code: [GitHub](https://github.com/zai-org/GLM-5)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-5)
 
+- Step 3.5 Flash
+  - Year: 2026
+  - Publication: [Step 3.5 Flash: Open Frontier-Level Intelligence with 11B Active Parameters](https://arxiv.org/abs/2602.10604) (2026-02-11)
+  - Code: [GitHub](https://github.com/stepfun-ai/Step-3.5-Flash)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/stepfun-ai/step-35-flash)
+
 - Nanbeige4.1-3B
   - Year: 2026
   - Publication: [Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts](https://arxiv.org/abs/2602.13367) (2026-02-13)
@@ -4480,6 +4492,10 @@
 - Interleaved Head Attention (IHA)
   - Year: 2026
   - Publication: [Interleaved Head Attention](https://arxiv.org/abs/2602.21371) (2026-02-24)
+
+- Mercury 2
+  - Year: 2026
+  - Publication: [Blog - Mercury 2](https://www.inceptionlabs.ai/blog/introducing-mercury-2) (2026-02-24)
 
 - Memory Caching (MC)
   - Year: 2026
@@ -4531,6 +4547,12 @@
   - Year: 2026
   - Publication: [Blog - MiniMax M2.7](https://www.minimax.io/news/minimax-m27-en) (2026-03-18)
 
+- 1-bit Bonsai
+  - Year: 2026
+  - Publication: [Blog - 1-bit Bonsai](https://prismml.com/news/bonsai-8b) (2026-03-31)
+  - Code: [GitHub](https://github.com/PrismML-Eng/Bonsai-demo)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/prism-ml/bonsai)
+
 - Gemma 4
   - Year: 2026
   - Publication: [Blog - Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) (2026-04-02)
@@ -4555,6 +4577,12 @@
   - Year: 2026
   - Publication: [Introducing Muse Spark: Meta's Most Powerful Model Yet](https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/) (2026-04-08)
 
+- Ternary Bonsai
+  - Year: 2026
+  - Publication: [Blog - Ternary Bonsai](https://prismml.com/news/ternary-bonsai) (2026-04-16)
+  - Code: [GitHub](https://github.com/PrismML-Eng/Bonsai-demo)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/prism-ml/ternary-bonsai)
+
 - Qwen3.5-Omni
   - Year: 2026
   - Publication: [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) (2026-04-17)
@@ -4563,6 +4591,12 @@
   - Year: 2026
   - Publication: [Kimi K2.6 Tech Blog: Advancing Open-Source Coding](https://www.kimi.ai/blog/kimi-k2-6) (2026-04-20)
   - Model weights: [HuggingFace models](https://huggingface.co/moonshotai/Kimi-K2.6)
+
+- Hy3 Preview
+  - Year: 2026
+  - Publication: [README - Hy3-preview repository](https://github.com/Tencent-Hunyuan/Hy3-preview/blob/38ac237dc0bf4329f054d09054aaf22fdaf6f553/README.md) (2026-04-23)
+  - Code: [GitHub](https://github.com/Tencent-Hunyuan/Hy3-preview)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/tencent/hy3-preview)
 
 - DeepSeek V4 (Preview)
   - Year: 2026
@@ -4578,6 +4612,12 @@
   - Year: 2026
   - Publication: [HuggingFace - CohereLabs/command-a-plus-05-2026-bf16](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16) (2026-05-20)
   - Model weights: [HuggingFace models](https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16)
+
+- Step 3.7 Flash
+  - Year: 2026
+  - Publication: [Blog - Step 3.7 Flash](https://static.stepfun.com/blog/step-3.7-flash/) (2026-05-29)
+  - Code: [GitHub](https://github.com/stepfun-ai/Step-3.7-Flash)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/stepfun-ai/step-37-flash)
 
 - MiniMax M3
   - Year: 2026
@@ -4623,6 +4663,18 @@
   - Publication: [Blog - Leanstral 1.5](https://mistral.ai/news/leanstral-1-5/) (2026-06-30)
   - Model weights: [HuggingFace models](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)
 
+- Hy3
+  - Year: 2026
+  - Publication: [README - Hy3 repository](https://github.com/Tencent-Hunyuan/Hy3/blob/b20268970234437e73665fdce202e574eda598f5/README.md) (2026-07-06)
+  - Code: [GitHub](https://github.com/Tencent-Hunyuan/Hy3)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/tencent/hy3)
+
+- Moondream 3.1
+  - Year: 2026
+  - Publication: [Moondream 3.1: Beyond Benchmarks](https://moondream.ai/blog/moondream-3-1-beyond-benchmarks) (2026-07-07)
+  - Code: [GitHub](https://github.com/vikhyat/moondream)
+  - Model weights: [HuggingFace models](https://huggingface.co/moondream/moondream3.1-9B-A2B)
+
 - GPT-5.6
   - Year: 2026
   - Publication: [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6/) (2026-07-09)
@@ -4630,6 +4682,12 @@
 - Muse Spark 1.1
   - Year: 2026
   - Publication: [Introducing Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/) (2026-07-09)
+
+- Bonsai 27B
+  - Year: 2026
+  - Publication: [Blog - Bonsai 27B](https://prismml.com/news/bonsai-27b) (2026-07-14)
+  - Code: [GitHub](https://github.com/PrismML-Eng/Bonsai-demo)
+  - Model weights: [HuggingFace models](https://huggingface.co/prism-ml/Bonsai-27B-gguf)
 
 - Inkling
   - Year: 2026
@@ -4693,6 +4751,11 @@
   - Year: 2026
   - Publication: [Introducing Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) (2026-08-13)
 
+- Qwen3.8-27B
+  - Year: 2026
+  - Publication: [HuggingFace - Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) (2026-08-13)
+  - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen3.8-27B)
+
 - GLM-5.3
   - Year: 2026
   - Publication: [Blog - GLM-5.3](https://z.ai/blog/glm-5.3) (2026-08-14)
@@ -4717,9 +4780,19 @@
   - Code: [GitHub](https://github.com/QwenLM/Qwen3.8-Flash-Next)
   - Model weights: [HuggingFace models](https://huggingface.co/Qwen/Qwen3.8-Flash-Next)
 
+- Hy4 Preview
+  - Year: 2026
+  - Publication: [README - Hy4-preview repository](https://github.com/Tencent-Hunyuan/Hy4-preview/blob/509799be8cc7bfeb63353e7322b2daddf7f73a28/README.md) (2026-08-28)
+  - Code: [GitHub](https://github.com/Tencent-Hunyuan/Hy4-preview)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/tencent/hy4-preview)
+
 - Claude Fable 5.1
   - Year: 2026
   - Publication: [Introducing Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) (2026-09-01)
+
+- Gemini 3.8 Flash
+  - Year: 2026
+  - Publication: [Introducing Gemini 3.8 Flash and 3.8 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/) (2026-09-02)
 
 - Muse Spark 1.3
   - Year: 2026
@@ -4728,3 +4801,121 @@
 - GPT-6 Astra
   - Year: 2026
   - Publication: [GPT-6 Astra: A new generation of intelligence](https://openai.com/index/gpt-6-astra/) (2026-09-03)
+
+- Mercury 2.5
+  - Year: 2026
+  - Publication: [Blog - Mercury 2.5](https://www.inceptionlabs.ai/blog/introducing-mercury-2-5) (2026-09-08)
+
+- DeepSeek V4.1 Flash
+  - Year: 2026
+  - Publication: [DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient](https://api-docs.deepseek.com/news/news260910/) (2026-09-10)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash)
+
+- Bonsai 2 27B
+  - Year: 2026
+  - Publication: [Blog - Bonsai 2 27B](https://prismml.com/news/bonsai-2-27b) (2026-09-17)
+  - Code: [GitHub](https://github.com/PrismML-Eng/Bonsai-demo)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/prism-ml/bonsai-2)
+
+- Step 5 Preview
+  - Year: 2026
+  - Publication: [HuggingFace - Step-5-Preview](https://huggingface.co/stepfun-ai/Step-5-Preview) (2026-09-20)
+  - Code: [GitHub](https://github.com/stepfun-ai/Step-5-Preview)
+  - Model weights: [HuggingFace models](https://huggingface.co/stepfun-ai/Step-5-Preview)
+
+- Grok 4.7
+  - Year: 2026
+  - Publication: [Introducing Grok 4.7](https://x.ai/news/grok-4-7) (2026-09-21)
+
+- Claude Opus 5.5
+  - Year: 2026
+  - Publication: [Introducing Claude Opus 5.5](https://www.anthropic.com/news/claude-opus-5-5) (2026-09-22)
+
+- GPT-6 Sol / GPT-6 Luna
+  - Year: 2026
+  - Publication: [Introducing GPT-6 Sol and Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna/) (2026-09-22)
+
+- MiMo-V2.6-Pro / MiMo-V2.6-Flash
+  - Year: 2026
+  - Publication: [Blog - MiMo-V2.6](https://mimo.xiaomi.com/blog/mimo-v2-6) (2026-09-22)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/XiaomiMiMo/mimo-v26)
+
+- Hunyuan-A13B
+  - Year: 2026
+  - Publication: [Hunyuan-A13B Technical Report](https://arxiv.org/abs/2609.27284) (2026-09-23)
+  - Code: [GitHub](https://github.com/Tencent-Hunyuan/Hunyuan-A13B)
+  - Model weights: [HuggingFace models](https://huggingface.co/tencent/Hunyuan-A13B-Instruct)
+
+- Claude Sonnet 5.5
+  - Year: 2026
+  - Publication: [Introducing Claude Sonnet 5.5](https://www.anthropic.com/news/claude-sonnet-5-5) (2026-09-28)
+
+- GPT-6.1 Sol
+  - Year: 2026
+  - Publication: [Introducing GPT-6.1 Sol](https://openai.com/index/introducing-gpt-6-1-sol/) (2026-09-29)
+
+- Kolibri-1
+  - Year: 2026
+  - Publication: [HuggingFace - Kolibri-1](https://huggingface.co/Aleph-Alpha/Kolibri-1) (2026-10-03)
+  - Model weights: [HuggingFace models](https://huggingface.co/Aleph-Alpha/Kolibri-1)
+
+- Beam 1.0
+  - Year: 2026
+  - Publication: [Introducing Beam: Reflection's 501B open-weight model](https://reflection.ai/blog/introducing-beam) (2026-10-05)
+  - Model weights: [HuggingFace models](https://huggingface.co/reflection/Beam-1.0-501B-A23B)
+
+- Mistral Large 4
+  - Year: 2026
+  - Publication: [Introducing Mistral Large 4](https://mistral.ai/news/mistral-large-4/) (2026-10-06)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/mistralai/mistral-large-4)
+
+- Claude Haiku 5.5
+  - Year: 2026
+  - Publication: [Introducing Claude Haiku 5.5](https://www.anthropic.com/news/claude-haiku-5-5) (2026-10-07)
+
+- Muse Wonder
+  - Year: 2026
+  - Publication: [Muse Wonder: A Frontier Model For Personal & Professional AI Agents](https://research.meta.ai/blog/muse-wonder) (2026-10-12)
+
+- Gemini 4 Argon
+  - Year: 2026
+  - Publication: [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/) (2026-10-13)
+
+- Muse Spark Open
+  - Year: 2026
+  - Publication: [Introducing Muse Spark Open, The Most Capable US Open-Weight Model to Date](https://research.meta.ai/blog/muse-spark-open) (2026-10-15)
+  - Model weights: [HuggingFace models](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)
+
+- Nemotron 3.5 Super VL / Nemotron 3.5 Bolt
+  - Year: 2026
+  - Publication: [Blog - Nemotron 3.5 Super VL and Bolt](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/) (2026-10-15)
+  - Code: [GitHub](https://github.com/NVIDIA-NeMo/Nemotron)
+  - Model weights: [HuggingFace models](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4)
+
+- Ternary Bonsai 2
+  - Year: 2026
+  - Publication: [Blog - Ternary Bonsai 2](https://prismml.com/news/bonsai-2-family) (2026-10-15)
+  - Code: [GitHub](https://github.com/PrismML-Eng/Bonsai-demo)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/prism-ml/bonsai-2)
+
+- DeepSeek V4.1 Flash-1017
+  - Year: 2026
+  - Publication: [DeepSeek-V4.1-Flash-1017: Wish-Driven Programming Made Real](https://api-docs.deepseek.com/news/news261017/) (2026-10-17)
+  - Model weights: [HuggingFace models](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+
+- Mercury 3
+  - Year: 2026
+  - Publication: [Diffusion at Scale: Introducing Mercury 3](https://www.inceptionlabs.ai/blog/introducing-mercury-3) (2026-10-19)
+
+- MiniMax M3.1 Flash
+  - Year: 2026
+  - Publication: [MiniMax M3.1 Flash: Redefining Agent Performance and Cost](https://www.minimax.io/blog/minimax-m31f) (2026-10-19)
+  - Model weights: [HuggingFace models](https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash)
+
+- Kimi K3.1 Pro
+  - Year: 2026
+  - Publication: [Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence](https://www.kimi.ai/blog/kimi-k3-1-pro) (2026-10-23)
+
+- GPT-6.1 Terra
+  - Year: 2026
+  - Publication: [Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) (2026-10-26)
