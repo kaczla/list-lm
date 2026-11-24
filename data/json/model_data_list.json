@@ -12750,6 +12750,25 @@
         "manual_validated": false
     },
     {
+        "name": "GLM-4-0414 / GLM-Z1",
+        "year": 2025,
+        "publication": {
+            "title": "README - GLM-4 repository",
+            "url": "https://github.com/zai-org/GLM-4/blob/9c0e42152a8695b2dbec905f99a63b044d6b1c04/README.md",
+            "date_create": "2025-04-14"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-4"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/zai-org/glm-4-0414-67f3cbcb34dd9d252707cb2e"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "InternVL 3",
         "year": 2025,
         "publication": {
@@ -13086,6 +13105,22 @@
         "manual_validated": false
     },
     {
+        "name": "LittleBit",
+        "year": 2025,
+        "publication": {
+            "title": "LittleBit: Ultra Low-Bit Quantization via Latent Factorization",
+            "url": "https://arxiv.org/abs/2506.13771",
+            "date_create": "2025-05-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SamsungLabs/LittleBit"
+        },
+        "weights": null,
+        "manual_validated": false
+    },
+    {
         "name": "StochasTok",
         "year": 2025,
         "publication": {
@@ -13278,6 +13313,25 @@
             "url": "https://github.com/PaddlePaddle/ERNIE"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-4.1V-Thinking / GLM-4.5V",
+        "year": 2025,
+        "publication": {
+            "title": "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2507.01006",
+            "date_create": "2025-07-01"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-V"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/zai-org/glm-45v-68999032ddf8ecf7dcdbc102"
+        },
         "manual_validated": false
     },
     {
@@ -13712,6 +13766,25 @@
         "manual_validated": false
     },
     {
+        "name": "GLM-4.6",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - GLM-4.6",
+            "url": "https://z.ai/blog/glm-4.6",
+            "date_create": "2025-09-30"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-4.5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/zai-org/GLM-4.6"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Tiny Recursive Model (TRM)",
         "year": 2025,
         "publication": {
@@ -13934,6 +14007,25 @@
             "url": "https://github.com/HKUDS/DeepCode"
         },
         "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-4.6V",
+        "year": 2025,
+        "publication": {
+            "title": "Blog - GLM-4.6V",
+            "url": "https://z.ai/blog/glm-4.6v",
+            "date_create": "2025-12-08"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-V"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/collections/zai-org/glm-46v-693299dca1cfff67176e76b6"
+        },
         "manual_validated": false
     },
     {
@@ -14268,6 +14360,22 @@
             "title": "HuggingFace models",
             "url": "https://huggingface.co/collections/z-lab/dflash"
         },
+        "manual_validated": false
+    },
+    {
+        "name": "LittleBit-2",
+        "year": 2026,
+        "publication": {
+            "title": "LittleBit-2: Maximizing the Spectral Energy Gain in Sub-1-Bit LLMs via Latent Geometry Alignment",
+            "url": "https://arxiv.org/abs/2603.00042",
+            "date_create": "2026-02-09"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/SamsungLabs/LittleBit"
+        },
+        "weights": null,
         "manual_validated": false
     },
     {
@@ -15264,6 +15372,25 @@
         "manual_validated": false
     },
     {
+        "name": "GLM-5.3-Flash",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - GLM-5.3-Flash",
+            "url": "https://z.ai/blog/glm-5.3-flash",
+            "date_create": "2026-08-26"
+        },
+        "video": null,
+        "code": {
+            "title": "GitHub",
+            "url": "https://github.com/zai-org/GLM-5"
+        },
+        "weights": {
+            "title": "HuggingFace models",
+            "url": "https://huggingface.co/zai-org/GLM-5.3-Flash"
+        },
+        "manual_validated": false
+    },
+    {
         "name": "Qwen3.8-Flash",
         "year": 2026,
         "publication": {
@@ -15726,6 +15853,19 @@
             "title": "Introducing GPT-6.1 Terra",
             "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
             "date_create": "2026-10-26"
+        },
+        "video": null,
+        "code": null,
+        "weights": null,
+        "manual_validated": false
+    },
+    {
+        "name": "GLM-5.4",
+        "year": 2026,
+        "publication": {
+            "title": "Blog - GLM-5.4",
+            "url": "https://z.ai/blog/glm-5.4",
+            "date_create": "2026-11-23"
         },
         "video": null,
         "code": null,

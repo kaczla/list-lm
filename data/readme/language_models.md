@@ -3988,6 +3988,12 @@
   - Publication: [C3PO: Critical-Layer, Core-Expert, Collaborative Pathway Optimization for Test-Time Expert Re-Mixing](https://arxiv.org/abs/2504.07964) (2025-04-10)
   - Code: [GitHub](https://github.com/tianyi-lab/C3PO)
 
+- GLM-4-0414 / GLM-Z1
+  - Year: 2025
+  - Publication: [README - GLM-4 repository](https://github.com/zai-org/GLM-4/blob/9c0e42152a8695b2dbec905f99a63b044d6b1c04/README.md) (2025-04-14)
+  - Code: [GitHub](https://github.com/zai-org/GLM-4)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-4-0414-67f3cbcb34dd9d252707cb2e)
+
 - InternVL 3
   - Year: 2025
   - Publication: [InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models](https://arxiv.org/abs/2504.10479) (2025-04-14)
@@ -4093,6 +4099,11 @@
   - Publication: [SageAttention2++: A More Efficient Implementation of SageAttention2](https://arxiv.org/abs/2505.21136) (2025-05-27)
   - Code: [GitHub](https://github.com/thu-ml/SageAttention)
 
+- LittleBit
+  - Year: 2025
+  - Publication: [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771) (2025-05-30)
+  - Code: [GitHub](https://github.com/SamsungLabs/LittleBit)
+
 - StochasTok
   - Year: 2025
   - Publication: [StochasTok: Improving Fine-Grained Subword Understanding in LLMs](https://arxiv.org/abs/2506.01687) (2025-06-02)
@@ -4153,6 +4164,12 @@
   - Year: 2025
   - Publication: [Blog - ERNIE 4.5](https://ernie.baidu.com/blog/posts/ernie4.5/) (2025-06-30)
   - Code: [GitHub](https://github.com/PaddlePaddle/ERNIE)
+
+- GLM-4.1V-Thinking / GLM-4.5V
+  - Year: 2025
+  - Publication: [GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](https://arxiv.org/abs/2507.01006) (2025-07-01)
+  - Code: [GitHub](https://github.com/zai-org/GLM-V)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-45v-68999032ddf8ecf7dcdbc102)
 
 - 2-Simplicial Transformer
   - Year: 2025
@@ -4289,6 +4306,12 @@
   - Code: [GitHub](https://github.com/facebookresearch/MobileLLM-R1)
   - Model weights: [HuggingFace models](https://huggingface.co/facebook/MobileLLM-R1-950M)
 
+- GLM-4.6
+  - Year: 2025
+  - Publication: [Blog - GLM-4.6](https://z.ai/blog/glm-4.6) (2025-09-30)
+  - Code: [GitHub](https://github.com/zai-org/GLM-4.5)
+  - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-4.6)
+
 - Tiny Recursive Model (TRM)
   - Year: 2025
   - Publication: [Less is More: Recursive Reasoning with Tiny Networks](https://arxiv.org/abs/2510.04871) (2025-10-06)
@@ -4358,6 +4381,12 @@
   - Year: 2025
   - Publication: [DeepCode: Open Agentic Coding](https://arxiv.org/abs/2512.07921) (2025-12-08)
   - Code: [GitHub](https://github.com/HKUDS/DeepCode)
+
+- GLM-4.6V
+  - Year: 2025
+  - Publication: [Blog - GLM-4.6V](https://z.ai/blog/glm-4.6v) (2025-12-08)
+  - Code: [GitHub](https://github.com/zai-org/GLM-V)
+  - Model weights: [HuggingFace models](https://huggingface.co/collections/zai-org/glm-46v-693299dca1cfff67176e76b6)
 
 - VulnLLM-R
   - Year: 2025
@@ -4463,6 +4492,11 @@
   - Publication: [DFlash: Block Diffusion for Flash Speculative Decoding](https://arxiv.org/abs/2602.06036) (2026-02-05)
   - Code: [GitHub](https://github.com/z-lab/dflash)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/z-lab/dflash)
+
+- LittleBit-2
+  - Year: 2026
+  - Publication: [LittleBit-2: Maximizing the Spectral Energy Gain in Sub-1-Bit LLMs via Latent Geometry Alignment](https://arxiv.org/abs/2603.00042) (2026-02-09)
+  - Code: [GitHub](https://github.com/SamsungLabs/LittleBit)
 
 - GLM-5
   - Year: 2026
@@ -4774,6 +4808,12 @@
   - Code: [GitHub](https://github.com/ibm-granite/granite-4.2-language-models)
   - Model weights: [HuggingFace models](https://huggingface.co/collections/ibm-granite/granite-42-language-models)
 
+- GLM-5.3-Flash
+  - Year: 2026
+  - Publication: [Blog - GLM-5.3-Flash](https://z.ai/blog/glm-5.3-flash) (2026-08-26)
+  - Code: [GitHub](https://github.com/zai-org/GLM-5)
+  - Model weights: [HuggingFace models](https://huggingface.co/zai-org/GLM-5.3-Flash)
+
 - Qwen3.8-Flash
   - Year: 2026
   - Publication: [HuggingFace - Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) (2026-08-26)
@@ -4919,3 +4959,7 @@
 - GPT-6.1 Terra
   - Year: 2026
   - Publication: [Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra/) (2026-10-26)
+
+- GLM-5.4
+  - Year: 2026
+  - Publication: [Blog - GLM-5.4](https://z.ai/blog/glm-5.4) (2026-11-23)
